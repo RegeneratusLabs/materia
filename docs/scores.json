@@ -1,0 +1,134 @@
+{
+ "generated": "2026-10-28",
+ "host": "homelab",
+ "model": "openbmb/MiniCPM5-2B",
+ "scoring": "generation-time 'got' field, uppercased",
+ "conditions": [
+  {
+   "condition": "MedQA-USMLE, direct answer",
+   "file": "results/medqa_direct.jsonl",
+   "n": 400,
+   "correct": 198,
+   "pct": 49.5,
+   "ci95": [
+    44.6,
+    54.4
+   ],
+   "answered": 400,
+   "mean_reasoning_tokens": 2,
+   "hit_token_cap": 0
+  },
+  {
+   "condition": "MedQA-USMLE, reasoning (1000-token cap)",
+   "file": "results/medqa_think_sub.jsonl",
+   "n": 60,
+   "correct": 28,
+   "pct": 46.7,
+   "ci95": [
+    34.6,
+    59.1
+   ],
+   "answered": 47,
+   "mean_reasoning_tokens": 844,
+   "hit_token_cap": 40
+  },
+  {
+   "condition": "v1 panel (46), direct answer",
+   "file": "results/herbal_direct.jsonl",
+   "n": 46,
+   "correct": 33,
+   "pct": 71.7,
+   "ci95": [
+    57.5,
+    82.7
+   ],
+   "answered": 46,
+   "mean_reasoning_tokens": 2,
+   "hit_token_cap": 0
+  },
+  {
+   "condition": "v1 panel (46), reasoning unbounded",
+   "file": "results/herbal_think.jsonl",
+   "n": 46,
+   "correct": 43,
+   "pct": 93.5,
+   "ci95": [
+    82.5,
+    97.8
+   ],
+   "answered": 46,
+   "mean_reasoning_tokens": 446,
+   "hit_token_cap": 8
+  },
+  {
+   "condition": "v1 panel (46), 60-word budget, Q4_K_M",
+   "file": "results/herbal_brief.jsonl",
+   "n": 46,
+   "correct": 45,
+   "pct": 97.8,
+   "ci95": [
+    88.7,
+    99.6
+   ],
+   "answered": 46,
+   "mean_reasoning_tokens": 249,
+   "hit_token_cap": 5
+  },
+  {
+   "condition": "v1 panel (46), 60-word budget, Q8_0",
+   "file": "results/herbal_brief_q8.jsonl",
+   "n": 46,
+   "correct": 46,
+   "pct": 100.0,
+   "ci95": [
+    92.3,
+    100.0
+   ],
+   "answered": 46,
+   "mean_reasoning_tokens": 179,
+   "hit_token_cap": 0
+  },
+  {
+   "condition": "v2 panel (104, shuffled), 60-word budget, Q8_0",
+   "file": "results/v2_budget.jsonl",
+   "n": 104,
+   "correct": 99,
+   "pct": 95.2,
+   "ci95": [
+    89.2,
+    97.9
+   ],
+   "answered": 104,
+   "mean_reasoning_tokens": 184,
+   "hit_token_cap": 5
+  },
+  {
+   "condition": "v2 panel (104), budget + never-convert/distrust-priors",
+   "file": "results/v2_units.jsonl",
+   "n": 104,
+   "correct": 94,
+   "pct": 90.4,
+   "ci95": [
+    83.2,
+    94.7
+   ],
+   "answered": 102,
+   "mean_reasoning_tokens": 219,
+   "hit_token_cap": 7
+  },
+  {
+   "condition": "v2 panel (104), budget + interval-authoritative",
+   "file": "results/v2_positive.jsonl",
+   "n": 104,
+   "correct": 97,
+   "pct": 93.3,
+   "ci95": [
+    86.8,
+    96.7
+   ],
+   "answered": 104,
+   "mean_reasoning_tokens": 229,
+   "hit_token_cap": 6
+  }
+ ]
+}

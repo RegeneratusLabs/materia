@@ -1,0 +1,1250 @@
+[
+ {
+  "id": "H01",
+  "cat": "herb-drug",
+  "q": "A patient taking a combined oral contraceptive starts St John's Wort (Hypericum perforatum) 900 mg/day. What is the most likely consequence?",
+  "o": {
+   "B": "No interaction, as both are plant-derived",
+   "C": "Reduced contraceptive efficacy via CYP3A4 and P-glycoprotein induction, with breakthrough bleeding and pregnancy risk",
+   "A": "Increased oestrogen exposure and risk of venous thromboembolism",
+   "D": "Reduced antidepressant effect because contraceptives induce hypericin metabolism"
+  },
+  "a": "C"
+ },
+ {
+  "id": "H02",
+  "cat": "herb-drug",
+  "q": "A 68-year-old on warfarin for atrial fibrillation asks about ginkgo biloba for memory. What is the main concern?",
+  "o": {
+   "B": "Ginkgo raises INR by inhibiting vitamin K epoxide reductase",
+   "D": "Ginkgo's antiplatelet effect adds to anticoagulation and increases bleeding risk",
+   "C": "Ginkgo causes hyperkalaemia",
+   "A": "No concern; ginkgo does not affect coagulation"
+  },
+  "a": "D"
+ },
+ {
+  "id": "H03",
+  "cat": "herb-safety",
+  "q": "Which herbal product is associated with a well-documented risk of hepatotoxicity, leading to restrictions in several countries?",
+  "o": {
+   "C": "Kava (Piper methysticum)",
+   "B": "Chamomile (Matricaria chamomilla)",
+   "D": "Peppermint (Mentha x piperita)",
+   "A": "Fennel (Foeniculum vulgare)"
+  },
+  "a": "C"
+ },
+ {
+  "id": "H04",
+  "cat": "herb-safety",
+  "q": "Comfrey (Symphytum officinale) taken internally is dangerous chiefly because it contains:",
+  "o": {
+   "D": "Cyanogenic glycosides causing thyroid goitre",
+   "C": "Pyrrolizidine alkaloids causing hepatic veno-occlusive disease",
+   "A": "Oxalates causing renal stones",
+   "B": "Saponins causing haemolysis"
+  },
+  "a": "C"
+ },
+ {
+  "id": "H05",
+  "cat": "herb-drug",
+  "q": "Grapefruit juice increases plasma concentrations of many drugs because it:",
+  "o": {
+   "D": "Induces hepatic CYP3A4",
+   "C": "Inhibits intestinal CYP3A4, reducing first-pass metabolism",
+   "B": "Increases gastric pH",
+   "A": "Competes for renal tubular secretion"
+  },
+  "a": "C"
+ },
+ {
+  "id": "H06",
+  "cat": "herb-safety",
+  "q": "A patient eating large amounts of liquorice (glycyrrhizin) daily presents with hypertension and hypokalaemia. The mechanism is:",
+  "o": {
+   "B": "Mineralocorticoid excess from 11-beta-HSD2 inhibition (pseudoaldosteronism)",
+   "C": "Direct renin stimulation",
+   "A": "Catecholamine excess",
+   "D": "Primary hyperaldosteronism from an adrenal adenoma"
+  },
+  "a": "B"
+ },
+ {
+  "id": "H07",
+  "cat": "nutrient-drug",
+  "q": "A patient on levothyroxine takes calcium carbonate and ferrous sulfate with the tablet. What is the best advice?",
+  "o": {
+   "D": "Take all three together to improve adherence",
+   "A": "Separate levothyroxine from calcium and iron by at least four hours",
+   "C": "Double the levothyroxine dose to compensate",
+   "B": "Switch to liothyronine"
+  },
+  "a": "A"
+ },
+ {
+  "id": "H08",
+  "cat": "herb-drug",
+  "q": "A patient on sertraline asks about 5-HTP for low mood. The principal risk is:",
+  "o": {
+   "D": "Serotonin syndrome from additive serotonergic activity",
+   "B": "Hypertensive crisis from MAO inhibition",
+   "C": "QT prolongation",
+   "A": "Agranulocytosis"
+  },
+  "a": "D"
+ },
+ {
+  "id": "H09",
+  "cat": "herb-drug",
+  "q": "Berberine is best avoided or used cautiously with statins and ciclosporin because it:",
+  "o": {
+   "C": "Induces CYP2C19",
+   "D": "Inhibits CYP3A4 and P-glycoprotein, raising concentrations of substrates",
+   "A": "Chelates the drugs in the gut",
+   "B": "Increases renal clearance"
+  },
+  "a": "D"
+ },
+ {
+  "id": "H10",
+  "cat": "nutrient-drug",
+  "q": "A patient stabilised on warfarin begins a green smoothie containing large amounts of spinach and kale daily. The expected effect is:",
+  "o": {
+   "B": "Rise in INR from vitamin K antagonism",
+   "D": "Fall in INR from increased vitamin K intake",
+   "C": "No effect, as dietary vitamin K is not absorbed",
+   "A": "Rise in INR from oxalate loading"
+  },
+  "a": "D"
+ },
+ {
+  "id": "H11",
+  "cat": "herb-safety",
+  "q": "Ashwagandha (Withania somnifera) requires particular caution in a patient with:",
+  "o": {
+   "C": "Hyperthyroidism, because it can increase thyroid hormone levels",
+   "D": "Iron deficiency anaemia",
+   "B": "Mild hypertension",
+   "A": "Seasonal allergic rhinitis"
+  },
+  "a": "C"
+ },
+ {
+  "id": "H12",
+  "cat": "herb-drug",
+  "q": "Valerian taken with a benzodiazepine at bedtime is a concern because of:",
+  "o": {
+   "A": "Additive CNS depression and sedation",
+   "D": "Reduced benzodiazepine absorption",
+   "B": "Serotonin syndrome",
+   "C": "Increased renal excretion of the benzodiazepine"
+  },
+  "a": "A"
+ },
+ {
+  "id": "H13",
+  "cat": "herb-drug",
+  "q": "Panax ginseng has been reported to do which of the following in patients on warfarin?",
+  "o": {
+   "B": "Markedly raise INR",
+   "D": "Reduce INR, likely via altered warfarin metabolism, with case reports of interaction",
+   "A": "Cause hyperkalaemia",
+   "C": "Nothing at all; interactions are theoretical only"
+  },
+  "a": "D"
+ },
+ {
+  "id": "H14",
+  "cat": "herb-safety",
+  "q": "Which product is most associated with hepatotoxicity when used as a concentrated high-dose supplement?",
+  "o": {
+   "B": "Green tea extract (high-dose EGCG)",
+   "A": "Chamomile tea",
+   "C": "Ginger root powder",
+   "D": "Cinnamon bark"
+  },
+  "a": "B"
+ },
+ {
+  "id": "H15",
+  "cat": "herb-safety",
+  "q": "Aloe vera latex (whole-leaf extract) taken orally is mainly a:",
+  "o": {
+   "C": "Stimulant laxative (anthraquinones) with risk of electrolyte loss",
+   "B": "Bulk-forming fibre",
+   "D": "Osmotic laxative",
+   "A": "Prokinetic with no laxative effect"
+  },
+  "a": "C"
+ },
+ {
+  "id": "H16",
+  "cat": "nutrient-drug",
+  "q": "High-dose vitamin B6 (pyridoxine) taken long term can cause:",
+  "o": {
+   "A": "Sensory peripheral neuropathy",
+   "D": "Optic neuritis",
+   "C": "Nephrogenic diabetes insipidus",
+   "B": "Haemolytic anaemia"
+  },
+  "a": "A"
+ },
+ {
+  "id": "H17",
+  "cat": "nutrient-safety",
+  "q": "High-dose vitamin A supplementation is contraindicated in pregnancy because of:",
+  "o": {
+   "B": "Teratogenicity (craniofacial, cardiac and CNS malformations)",
+   "C": "Neonatal hypoglycaemia",
+   "A": "Placental abruption",
+   "D": "Gestational diabetes"
+  },
+  "a": "B"
+ },
+ {
+  "id": "H18",
+  "cat": "nutrient-drug",
+  "q": "A patient on an ACE inhibitor and spironolactone adds a potassium supplement. The main risk is:",
+  "o": {
+   "D": "Hyperkalaemia",
+   "B": "Hypokalaemia",
+   "C": "Hypernatraemia",
+   "A": "Metabolic alkalosis without electrolyte change"
+  },
+  "a": "D"
+ },
+ {
+  "id": "H19",
+  "cat": "nutrient-lab",
+  "q": "Folic acid supplementation in a patient with undiagnosed vitamin B12 deficiency can:",
+  "o": {
+   "D": "Correct the anaemia while allowing neurological damage to progress",
+   "C": "Prevent all B12-related neuropathy",
+   "A": "Cause folate toxicity with seizures",
+   "B": "Reduce homocysteine to zero"
+  },
+  "a": "D"
+ },
+ {
+  "id": "H20",
+  "cat": "nutrient-drug",
+  "q": "Iron absorption is reduced when the supplement is taken with:",
+  "o": {
+   "C": "Tea or coffee",
+   "D": "Orange juice",
+   "A": "Vitamin C",
+   "B": "A protein-containing meal"
+  },
+  "a": "C"
+ },
+ {
+  "id": "H21",
+  "cat": "herb-drug",
+  "q": "Melatonin should be used cautiously with fluvoxamine because fluvoxamine:",
+  "o": {
+   "B": "Strongly inhibits CYP1A2, raising melatonin exposure",
+   "D": "Induces CYP3A4, reducing melatonin levels",
+   "C": "Chelates melatonin",
+   "A": "Increases melatonin renal clearance"
+  },
+  "a": "B"
+ },
+ {
+  "id": "H22",
+  "cat": "herb-safety",
+  "q": "Black cohosh used for menopausal symptoms has a regulatory safety signal for:",
+  "o": {
+   "D": "Hepatotoxicity",
+   "A": "Nephrotoxicity",
+   "B": "Pulmonary fibrosis",
+   "C": "Cardiotoxicity"
+  },
+  "a": "D"
+ },
+ {
+  "id": "H23",
+  "cat": "herb-drug",
+  "q": "Ephedra (ma huang) containing supplements were restricted or banned in many countries mainly because of:",
+  "o": {
+   "C": "Severe cardiovascular and cerebrovascular adverse events from sympathomimetic action",
+   "A": "Hepatotoxicity",
+   "B": "Nephropathy",
+   "D": "Agranulocytosis"
+  },
+  "a": "C"
+ },
+ {
+  "id": "H24",
+  "cat": "herb-drug",
+  "q": "Turmeric/curcumin taken in high doses with warfarin or antiplatelets raises concern because of:",
+  "o": {
+   "C": "Anti-platelet activity augmenting bleeding risk",
+   "A": "Massive vitamin K content",
+   "D": "Renal tubular blockade",
+   "B": "Displacement of warfarin from albumin producing no clinical effect"
+  },
+  "a": "C"
+ },
+ {
+  "id": "H25",
+  "cat": "herb-safety",
+  "q": "A patient with progressive systemic disease or an autoimmune condition is traditionally advised to avoid:",
+  "o": {
+   "D": "Echinacea, because of immunostimulant effects",
+   "B": "Ginger",
+   "A": "Peppermint",
+   "C": "Magnesium"
+  },
+  "a": "D"
+ },
+ {
+  "id": "L01",
+  "cat": "lab",
+  "q": "A patient has TSH 9.2 mIU/L (ref 0.4-4.0) and free T4 9 pmol/L (ref 10-22). The pattern indicates:",
+  "o": {
+   "D": "Subclinical hypothyroidism",
+   "B": "Primary hypothyroidism",
+   "C": "Central (secondary) hypothyroidism",
+   "A": "Euthyroid sick syndrome"
+  },
+  "a": "B"
+ },
+ {
+  "id": "L02",
+  "cat": "lab",
+  "q": "TSH 6.1 mIU/L with a free T4 within the reference range indicates:",
+  "o": {
+   "A": "Primary hypothyroidism",
+   "D": "Subclinical hypothyroidism",
+   "B": "Pituitary failure",
+   "C": "Hyperthyroidism"
+  },
+  "a": "D"
+ },
+ {
+  "id": "L03",
+  "cat": "lab",
+  "q": "Ferritin 6 ug/L with transferrin saturation 9% and raised TIBC is most consistent with:",
+  "o": {
+   "C": "Iron deficiency",
+   "A": "Iron overload",
+   "B": "Anaemia of chronic disease",
+   "D": "Thalassaemia trait"
+  },
+  "a": "C"
+ },
+ {
+  "id": "L04",
+  "cat": "lab",
+  "q": "A patient with active inflammation has ferritin 180 ug/L and CRP 45 mg/L. How should ferritin be interpreted?",
+  "o": {
+   "B": "As a reliable indicator of adequate iron stores",
+   "A": "As unreliable, because ferritin is an acute-phase reactant and may mask iron deficiency",
+   "C": "As diagnostic of haemochromatosis",
+   "D": "As evidence of iron overload requiring chelation"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L05",
+  "cat": "lab",
+  "q": "Serum B12 is 210 pmol/L (low-normal) with raised methylmalonic acid and homocysteine. This pattern suggests:",
+  "o": {
+   "A": "True functional vitamin B12 deficiency despite a low-normal B12 level",
+   "B": "Folate deficiency alone",
+   "C": "No deficiency; B12 is within range",
+   "D": "Renal failure as the sole explanation"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L06",
+  "cat": "lab",
+  "q": "A raised homocysteine is most directly related to deficiency of:",
+  "o": {
+   "D": "Vitamin B12, folate or vitamin B6",
+   "A": "Vitamin C",
+   "B": "Iron",
+   "C": "Zinc"
+  },
+  "a": "D"
+ },
+ {
+  "id": "L07",
+  "cat": "lab",
+  "q": "IgA tissue transglutaminase is positive in a patient with bloating and iron deficiency. The most appropriate next step is:",
+  "o": {
+   "A": "Start a gluten-free diet immediately and never test again",
+   "C": "Check total IgA and refer for gastroenterology assessment including duodenal biopsy",
+   "D": "Repeat the test in 12 months",
+   "B": "Test for Helicobacter pylori only"
+  },
+  "a": "C"
+ },
+ {
+  "id": "L08",
+  "cat": "lab",
+  "q": "HbA1c of 6.0% (42 mmol/mol) in a non-pregnant adult corresponds to:",
+  "o": {
+   "B": "Normal glucose tolerance",
+   "D": "Prediabetes range",
+   "C": "Diabetes range",
+   "A": "An unreliable result in all cases"
+  },
+  "a": "D"
+ },
+ {
+  "id": "L09",
+  "cat": "lab",
+  "q": "Fasting triglycerides 2.4 mmol/L with HDL 0.8 mmol/L gives a TG:HDL ratio of 3.0, which suggests:",
+  "o": {
+   "A": "Insulin resistance",
+   "C": "Familial hypercholesterolaemia",
+   "B": "Hypothyroidism as the only cause",
+   "D": "Laboratory error"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L10",
+  "cat": "lab",
+  "q": "Transferrin saturation 62% with ferritin 850 ug/L in a man with joint pain suggests:",
+  "o": {
+   "C": "Iron deficiency anaemia",
+   "A": "Hereditary haemochromatosis, requiring genetic testing",
+   "D": "Anaemia of chronic disease",
+   "B": "Vitamin B12 deficiency"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L11",
+  "cat": "lab",
+  "q": "hs-CRP of 3.4 mg/L in an otherwise well adult is best interpreted as:",
+  "o": {
+   "A": "No cardiovascular risk",
+   "D": "Intermediate-to-high cardiovascular risk band, needing repeat testing away from acute illness",
+   "C": "Diagnostic of active infection",
+   "B": "Diagnostic of rheumatoid arthritis"
+  },
+  "a": "D"
+ },
+ {
+  "id": "L12",
+  "cat": "lab",
+  "q": "Raised GGT with raised ALP and a normal ALT most suggests:",
+  "o": {
+   "A": "Cholestatic liver injury",
+   "D": "Hepatocellular injury",
+   "C": "Muscle injury",
+   "B": "Haemolysis"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L13",
+  "cat": "lab",
+  "q": "A patient has low serum copper with normal ceruloplasmin. The safest interpretation is:",
+  "o": {
+   "B": "Begin high-dose copper supplementation immediately",
+   "A": "Confirmed Wilson's disease",
+   "C": "Possible copper insufficiency requiring corroboration before supplementation",
+   "D": "Normal finding requiring no thought"
+  },
+  "a": "C"
+ },
+ {
+  "id": "L14",
+  "cat": "lab",
+  "q": "Free T4 is low with TSH also low or inappropriately normal. This pattern points to:",
+  "o": {
+   "C": "Primary hypothyroidism",
+   "D": "Central (pituitary or hypothalamic) hypothyroidism",
+   "B": "Graves disease",
+   "A": "Subclinical hyperthyroidism"
+  },
+  "a": "D"
+ },
+ {
+  "id": "L15",
+  "cat": "lab",
+  "q": "A patient's 25-hydroxyvitamin D is 38 nmol/L. This is best described as:",
+  "o": {
+   "C": "Sufficient",
+   "D": "Mildly deficient / insufficient depending on the guideline used, warranting correction",
+   "B": "Toxic",
+   "A": "Above the reference range"
+  },
+  "a": "D"
+ },
+ {
+  "id": "S01",
+  "cat": "safety",
+  "q": "A patient on warfarin asks about high-dose fish oil for triglycerides. What is the appropriate response?",
+  "o": {
+   "D": "Safe at any dose with no monitoring",
+   "A": "Possible additive bleeding risk at high doses; discuss and monitor INR",
+   "C": "It reverses warfarin entirely",
+   "B": "It causes hyperkalaemia"
+  },
+  "a": "A"
+ },
+ {
+  "id": "S02",
+  "cat": "safety",
+  "q": "Which triad is characteristic of serotonin syndrome?",
+  "o": {
+   "A": "Mental status change, autonomic instability, neuromuscular abnormalities",
+   "D": "Fever, rash, eosinophilia",
+   "B": "Bradycardia, hypotension, miosis",
+   "C": "Jaundice, pruritus, dark urine"
+  },
+  "a": "A"
+ },
+ {
+  "id": "S03",
+  "cat": "safety",
+  "q": "A patient reports new nausea, fatigue and dark urine three weeks after starting a herbal weight-loss product. The most appropriate action is:",
+  "o": {
+   "D": "Reassure and continue the product",
+   "B": "Stop the product and arrange liver function tests urgently",
+   "C": "Double the dose to assess response",
+   "A": "Start a second herbal product for detoxification"
+  },
+  "a": "B"
+ },
+ {
+  "id": "S04",
+  "cat": "safety",
+  "q": "Which is the most appropriate first-line herbal option discussed for nausea of pregnancy, and its key caveat?",
+  "o": {
+   "D": "Ginger, with attention to dose and product quality; always assess red flags first",
+   "B": "Comfrey, applied internally",
+   "C": "Kava, for anxiety-related nausea",
+   "A": "High-dose vitamin A"
+  },
+  "a": "D"
+ },
+ {
+  "id": "S05",
+  "cat": "safety",
+  "q": "A patient with heart failure, hypertension and reduced ejection fraction asks about a 'natural diuretic'. The key risk to screen for is:",
+  "o": {
+   "C": "Products with high sodium or liquorice root content, and herb-drug interactions with diuretics and digoxin",
+   "D": "Any product containing magnesium",
+   "A": "Any product containing vitamin C",
+   "B": "Products containing ginger"
+  },
+  "a": "C"
+ },
+ {
+  "id": "S06",
+  "cat": "safety",
+  "q": "Anticoagulant and antiplatelet polypharmacy with supplements most commonly causes which adverse event?",
+  "o": {
+   "A": "Bleeding",
+   "D": "Thrombosis",
+   "C": "Hyperkalaemia",
+   "B": "Hypoglycaemia"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E01",
+  "cat": "herb-drug",
+  "q": "A transplant recipient on tacrolimus asks about St John's Wort for low mood. The principal risk is:",
+  "o": {
+   "C": "Reduced tacrolimus levels via CYP3A4 and P-glycoprotein induction, risking graft rejection",
+   "A": "Raised tacrolimus levels causing nephrotoxicity",
+   "D": "No interaction, as tacrolimus is renally cleared",
+   "B": "Serotonin syndrome"
+  },
+  "a": "C"
+ },
+ {
+  "id": "E02",
+  "cat": "herb-drug",
+  "q": "High-dose garlic supplements taken with saquinavir or other protease inhibitors are a concern because garlic:",
+  "o": {
+   "B": "Induces intestinal CYP3A4 and P-glycoprotein, reducing drug exposure",
+   "C": "Inhibits CYP3A4, raising drug levels",
+   "A": "Chelates the drug in the stomach",
+   "D": "Causes hyperkalaemia"
+  },
+  "a": "B"
+ },
+ {
+  "id": "E03",
+  "cat": "herb-drug",
+  "q": "Cranberry juice concentrate has been reported to do which of the following in patients on warfarin?",
+  "o": {
+   "D": "Raise INR, with case reports of bleeding",
+   "B": "Reduce INR reliably",
+   "A": "Have no effect on INR in any report",
+   "C": "Cause hyperkalaemia"
+  },
+  "a": "D"
+ },
+ {
+  "id": "E04",
+  "cat": "herb-drug",
+  "q": "Echinacea is considered inappropriate alongside immunosuppressants such as ciclosporin because it:",
+  "o": {
+   "A": "Stimulates immune activity that opposes immunosuppression",
+   "C": "Inhibits CYP3A4",
+   "D": "Causes nephrotoxicity directly",
+   "B": "Reduces ciclosporin absorption by binding bile acids"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E05",
+  "cat": "herb-drug",
+  "q": "Fenugreek taken with warfarin and sulfonylureas raises concern because it may:",
+  "o": {
+   "B": "Add to anticoagulation and lower blood glucose",
+   "D": "Raise blood glucose and reduce INR",
+   "A": "Cause hyperkalaemia",
+   "C": "Inhibit thyroid hormone synthesis"
+  },
+  "a": "B"
+ },
+ {
+  "id": "E06",
+  "cat": "herb-drug",
+  "q": "Cassia cinnamon taken in large amounts long term is a concern because of:",
+  "o": {
+   "B": "Coumarin content and hepatotoxicity risk",
+   "D": "Oxalate content and renal stones",
+   "C": "Safrole content and carcinogenicity",
+   "A": "Pyrrolizidine alkaloids"
+  },
+  "a": "B"
+ },
+ {
+  "id": "E07",
+  "cat": "herb-drug",
+  "q": "Yohimbe should be avoided in patients taking MAO inhibitors because it can cause:",
+  "o": {
+   "D": "Hypertensive crisis",
+   "A": "Profound hypotension",
+   "C": "Serotonin syndrome only",
+   "B": "Agranulocytosis"
+  },
+  "a": "D"
+ },
+ {
+  "id": "E08",
+  "cat": "herb-drug",
+  "q": "Bitter orange (Citrus aurantium) in weight-loss products is a concern because synephrine:",
+  "o": {
+   "B": "Has sympathomimetic cardiovascular effects",
+   "D": "Causes hepatotoxicity",
+   "A": "Causes nephrolithiasis",
+   "C": "Inhibits CYP2D6"
+  },
+  "a": "B"
+ },
+ {
+  "id": "E09",
+  "cat": "herb-drug",
+  "q": "Passionflower taken with benzodiazepines or sedating antihistamines is a concern because of:",
+  "o": {
+   "B": "Additive CNS depression",
+   "D": "Reduced sedative absorption",
+   "C": "Serotonin syndrome",
+   "A": "Hypertension"
+  },
+  "a": "B"
+ },
+ {
+  "id": "E10",
+  "cat": "herb-drug",
+  "q": "Green tea taken with an iron supplement reduces iron absorption mainly because of:",
+  "o": {
+   "D": "Tannins and polyphenols forming insoluble complexes",
+   "C": "Vitamin C content",
+   "A": "Caffeine increasing gastric emptying",
+   "B": "Oxalate binding"
+  },
+  "a": "D"
+ },
+ {
+  "id": "E11",
+  "cat": "herb-drug",
+  "q": "Calcium supplements taken at the same time as ciprofloxacin cause:",
+  "o": {
+   "A": "Chelation and reduced antibiotic absorption",
+   "C": "Increased antibiotic absorption",
+   "B": "Nephrotoxicity",
+   "D": "Reduced calcium absorption only"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E12",
+  "cat": "herb-drug",
+  "q": "Zinc supplementation over months at high dose can cause:",
+  "o": {
+   "A": "Copper deficiency, with anaemia and neuropathy",
+   "D": "Iron overload",
+   "C": "Hypercalcaemia",
+   "B": "Hyperkalaemia"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E13",
+  "cat": "herb-drug",
+  "q": "Niacin at gram doses combined with a statin raises concern for:",
+  "o": {
+   "A": "Myopathy and hepatotoxicity",
+   "B": "Nephrolithiasis",
+   "D": "Hyperkalaemia",
+   "C": "Optic neuritis"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E14",
+  "cat": "herb-drug",
+  "q": "Simvastatin taken with grapefruit juice is a concern because grapefruit:",
+  "o": {
+   "C": "Inhibits intestinal CYP3A4, raising simvastatin exposure and myopathy risk",
+   "A": "Reduces simvastatin absorption",
+   "B": "Induces hepatic CYP3A4",
+   "D": "Displaces simvastatin from plasma protein"
+  },
+  "a": "C"
+ },
+ {
+  "id": "E15",
+  "cat": "herb-drug",
+  "q": "Dandelion leaf, a mild diuretic, is a particular concern in a patient taking:",
+  "o": {
+   "D": "Lithium, because reduced renal clearance can raise lithium levels",
+   "C": "Metformin",
+   "B": "Atorvastatin",
+   "A": "Levothyroxine"
+  },
+  "a": "D"
+ },
+ {
+  "id": "E16",
+  "cat": "herb-drug",
+  "q": "Uva ursi (bearberry) should not be used long term or in pregnancy because it contains:",
+  "o": {
+   "A": "Hydroquinone derivatives with hepatotoxic and irritant potential",
+   "C": "Pyrrolizidine alkaloids",
+   "B": "Safrole",
+   "D": "Synephrine"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E17",
+  "cat": "herb-safety",
+  "q": "Aristolochia species are banned as medicines in many countries because aristolochic acid causes:",
+  "o": {
+   "D": "Progressive nephropathy and urothelial cancer",
+   "B": "Hepatocellular carcinoma only",
+   "C": "Pulmonary fibrosis",
+   "A": "Aplastic anaemia"
+  },
+  "a": "D"
+ },
+ {
+  "id": "E18",
+  "cat": "herb-safety",
+  "q": "Which herb is associated with hepatotoxicity and was withdrawn from several markets in the 1990s?",
+  "o": {
+   "D": "Germander (Teucrium chamaedrys)",
+   "B": "Chamomile",
+   "A": "Peppermint",
+   "C": "Fennel"
+  },
+  "a": "D"
+ },
+ {
+  "id": "E19",
+  "cat": "herb-safety",
+  "q": "Chaparral (Larrea tridentata) is associated with which adverse effect?",
+  "o": {
+   "C": "Hepatotoxicity",
+   "B": "Nephrolithiasis",
+   "A": "Agranulocytosis",
+   "D": "Pulmonary hypertension"
+  },
+  "a": "C"
+ },
+ {
+  "id": "E20",
+  "cat": "herb-safety",
+  "q": "Senna used continuously for many years can cause:",
+  "o": {
+   "C": "Melanosis coli and laxative dependence with electrolyte disturbance",
+   "B": "Hepatotoxicity",
+   "A": "Nephropathy",
+   "D": "Optic neuropathy"
+  },
+  "a": "C"
+ },
+ {
+  "id": "E21",
+  "cat": "herb-safety",
+  "q": "Pennyroyal (Mentha pulegium) oil is dangerous chiefly because it:",
+  "o": {
+   "A": "Is hepatotoxic and has been used as an abortifacient with fatal outcomes",
+   "C": "Causes hypertension",
+   "D": "Causes agranulocytosis",
+   "B": "Causes renal stones"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E22",
+  "cat": "herb-safety",
+  "q": "Blue cohosh taken in late pregnancy has been associated with:",
+  "o": {
+   "C": "Neonatal stroke and heart failure",
+   "B": "Neural tube defects",
+   "D": "Neonatal hypoglycaemia",
+   "A": "Maternal hyperkalaemia"
+  },
+  "a": "C"
+ },
+ {
+  "id": "E23",
+  "cat": "herb-safety",
+  "q": "Star anise products have been adulterated with Japanese star anise, which is a concern because it contains:",
+  "o": {
+   "A": "Anisatin, a neurotoxin causing seizures, particularly in infants",
+   "C": "Pyrrolizidine alkaloids",
+   "B": "Aristolochic acid",
+   "D": "Safrole"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E24",
+  "cat": "herb-safety",
+  "q": "Sassafras was removed from use as a food additive because it contains:",
+  "o": {
+   "C": "Safrole, an hepatocarcinogen",
+   "B": "Anisatin",
+   "A": "Hydroquinone",
+   "D": "Synephrine"
+  },
+  "a": "C"
+ },
+ {
+  "id": "E25",
+  "cat": "herb-safety",
+  "q": "Dong quai combined with anticoagulants raises concern chiefly because of:",
+  "o": {
+   "C": "Coumarin derivatives adding to bleeding risk",
+   "B": "Hyperkalaemia",
+   "A": "Hypertension",
+   "D": "Nephrotoxicity"
+  },
+  "a": "C"
+ },
+ {
+  "id": "E26",
+  "cat": "herb-safety",
+  "q": "Raw ginkgo leaf, as opposed to standardised extract, is a concern because of:",
+  "o": {
+   "A": "Ginkgolic acids, which are allergenic and cytotoxic",
+   "B": "Pyrrolizidine alkaloids",
+   "D": "Safrole",
+   "C": "Anisatin"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E27",
+  "cat": "herb-safety",
+  "q": "Lobelia (Indian tobacco) in high doses causes:",
+  "o": {
+   "C": "Vomiting and respiratory depression",
+   "D": "Hepatotoxicity",
+   "A": "Nephropathy",
+   "B": "Agranulocytosis"
+  },
+  "a": "C"
+ },
+ {
+  "id": "E28",
+  "cat": "herb-safety",
+  "q": "Coltsfoot (Tussilago farfara) is restricted in some jurisdictions because it contains:",
+  "o": {
+   "B": "Pyrrolizidine alkaloids",
+   "A": "Safrole",
+   "C": "Anisatin",
+   "D": "Aristolochic acid"
+  },
+  "a": "B"
+ },
+ {
+  "id": "E29",
+  "cat": "nutrient-drug",
+  "q": "High-dose vitamin D with a thiazide diuretic raises the risk of:",
+  "o": {
+   "B": "Hypercalcaemia",
+   "A": "Hypocalcaemia",
+   "C": "Hyperkalaemia",
+   "D": "Hypomagnesaemia"
+  },
+  "a": "B"
+ },
+ {
+  "id": "E30",
+  "cat": "nutrient-drug",
+  "q": "Long-term proton pump inhibitor use is associated with which nutrient deficiency?",
+  "o": {
+   "D": "Hypomagnesaemia",
+   "C": "Hypercalcaemia",
+   "B": "Copper deficiency",
+   "A": "Hyperkalaemia"
+  },
+  "a": "D"
+ },
+ {
+  "id": "E31",
+  "cat": "nutrient-drug",
+  "q": "Levodopa given without carbidopa is less effective if the patient also takes high-dose:",
+  "o": {
+   "C": "Vitamin B6 (pyridoxine)",
+   "B": "Vitamin C",
+   "D": "Vitamin D",
+   "A": "Vitamin K"
+  },
+  "a": "C"
+ },
+ {
+  "id": "E32",
+  "cat": "nutrient-drug",
+  "q": "Calcium supplements reduce the absorption of which osteoporosis drug if taken together?",
+  "o": {
+   "A": "Bisphosphonates such as alendronate",
+   "D": "Paracetamol",
+   "B": "Metformin",
+   "C": "Amlodipine"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E33",
+  "cat": "nutrient-drug",
+  "q": "High-dose vitamin C taken with an iron supplement:",
+  "o": {
+   "A": "Increases non-haem iron absorption",
+   "B": "Reduces iron absorption",
+   "D": "Has no effect on iron",
+   "C": "Causes iron overload in everyone"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E34",
+  "cat": "nutrient-drug",
+  "q": "Folic acid given with methotrexate in rheumatoid arthritis is used to:",
+  "o": {
+   "A": "Reduce methotrexate toxicity without abolishing efficacy",
+   "D": "Increase methotrexate efficacy",
+   "C": "Replace methotrexate entirely",
+   "B": "Prevent methotrexate absorption"
+  },
+  "a": "A"
+ },
+ {
+  "id": "E35",
+  "cat": "nutrient-drug",
+  "q": "Zinc supplements reduce the absorption of which antibiotic class?",
+  "o": {
+   "B": "Tetracyclines and fluoroquinolones",
+   "D": "Penicillins",
+   "C": "Macrolides",
+   "A": "Nitrofurans"
+  },
+  "a": "B"
+ },
+ {
+  "id": "L16",
+  "cat": "lab",
+  "q": "Free T4 is 12 pmol/L on a laboratory reference interval of 10-22 pmol/L. How should this be interpreted?",
+  "o": {
+   "A": "Within the reference interval, in the lower part of the range",
+   "B": "Raised, above the reference interval",
+   "D": "Deficient, below the reference interval",
+   "C": "Cannot be interpreted without a conversion to ng/dL"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L17",
+  "cat": "lab",
+  "q": "A serum 25-hydroxyvitamin D of 38 nmol/L is best classified using common Australian thresholds as:",
+  "o": {
+   "A": "Mildly deficient or insufficient, warranting correction",
+   "D": "Sufficient",
+   "B": "Deficient enough to cause rickets in all cases",
+   "C": "Toxic"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L18",
+  "cat": "lab",
+  "q": "Using common laboratory thresholds, a serum vitamin B12 of 120 pmol/L is:",
+  "o": {
+   "B": "Below the reference interval, consistent with deficiency",
+   "D": "Within the reference interval",
+   "C": "Raised",
+   "A": "Meaningless without MMA"
+  },
+  "a": "B"
+ },
+ {
+  "id": "L19",
+  "cat": "lab",
+  "q": "An HbA1c of 44 mmol/mol (6.2%) in a non-pregnant adult corresponds to:",
+  "o": {
+   "A": "Prediabetes range under common guidelines",
+   "C": "Normal glucose tolerance",
+   "D": "Diabetes range",
+   "B": "A laboratory error"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L20",
+  "cat": "lab",
+  "q": "A fasting plasma glucose of 7.4 mmol/L on two occasions is:",
+  "o": {
+   "C": "In the diabetes range on repeat testing",
+   "D": "Normal",
+   "A": "Impaired fasting glucose only",
+   "B": "Indicative of hypoglycaemia"
+  },
+  "a": "C"
+ },
+ {
+  "id": "L21",
+  "cat": "lab",
+  "q": "Transferrin saturation of 55% in a man should prompt investigation for:",
+  "o": {
+   "B": "Iron overload, including hereditary haemochromatosis",
+   "D": "Iron deficiency",
+   "C": "Vitamin B12 deficiency",
+   "A": "Copper deficiency"
+  },
+  "a": "B"
+ },
+ {
+  "id": "L22",
+  "cat": "lab",
+  "q": "A homocysteine of 18 umol/L is best interpreted as:",
+  "o": {
+   "D": "Raised, prompting assessment of B12, folate and B6 status",
+   "A": "Normal",
+   "C": "Indicative of renal failure alone",
+   "B": "Indicative of iron deficiency"
+  },
+  "a": "D"
+ },
+ {
+  "id": "L23",
+  "cat": "lab",
+  "q": "Serum magnesium of 0.62 mmol/L against a reference interval of 0.70-1.10 mmol/L is:",
+  "o": {
+   "A": "Low, consistent with hypomagnesaemia",
+   "B": "Normal",
+   "D": "Raised",
+   "C": "Uninterpretable"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L24",
+  "cat": "lab",
+  "q": "An early-morning serum cortisol of 120 nmol/L is:",
+  "o": {
+   "B": "Below the typical morning reference interval, suggesting adrenal insufficiency needs exclusion",
+   "A": "Normal",
+   "C": "Raised, suggesting Cushing syndrome",
+   "D": "Diagnostic of thyroid disease"
+  },
+  "a": "B"
+ },
+ {
+  "id": "L25",
+  "cat": "lab",
+  "q": "Which combination most suggests iron deficiency rather than anaemia of chronic disease?",
+  "o": {
+   "A": "Low ferritin, low transferrin saturation, high TIBC",
+   "D": "High ferritin, low transferrin saturation, low TIBC",
+   "B": "High ferritin, normal transferrin saturation",
+   "C": "Normal ferritin, high TIBC"
+  },
+  "a": "A"
+ },
+ {
+  "id": "L26",
+  "cat": "lab",
+  "q": "An eGFR of 42 mL/min/1.73m2 corresponds to which CKD stage?",
+  "o": {
+   "C": "Stage 3b",
+   "A": "Stage 2",
+   "D": "Stage 4",
+   "B": "Stage 1"
+  },
+  "a": "C"
+ },
+ {
+  "id": "L27",
+  "cat": "lab",
+  "q": "A raised ALT with a normal ALP and normal bilirubin most suggests:",
+  "o": {
+   "D": "Hepatocellular injury",
+   "B": "Cholestatic injury",
+   "C": "Haemolysis",
+   "A": "Bone disease"
+  },
+  "a": "D"
+ },
+ {
+  "id": "L28",
+  "cat": "lab",
+  "q": "An isolated raised ALP with normal GGT most suggests:",
+  "o": {
+   "C": "A bone source rather than a liver source",
+   "D": "Cholestatic liver disease",
+   "A": "Hepatocellular injury",
+   "B": "Haemolysis"
+  },
+  "a": "C"
+ },
+ {
+  "id": "L29",
+  "cat": "lab",
+  "q": "Total cholesterol 6.2 mmol/L with LDL 4.1 mmol/L in a patient with established cardiovascular disease is:",
+  "o": {
+   "B": "Above a desirable LDL target for secondary prevention, warranting review",
+   "A": "At target",
+   "C": "Normal and needing no action",
+   "D": "Indicative of familial hypercholesterolaemia by definition"
+  },
+  "a": "B"
+ },
+ {
+  "id": "L30",
+  "cat": "lab",
+  "q": "Which finding is most consistent with a functional vitamin B12 deficiency when serum B12 is borderline?",
+  "o": {
+   "B": "Raised methylmalonic acid",
+   "C": "Raised ferritin",
+   "D": "Raised ALP",
+   "A": "Low CRP"
+  },
+  "a": "B"
+ },
+ {
+  "id": "R01",
+  "cat": "referral",
+  "q": "Which presentation most clearly requires urgent medical referral rather than supplement management?",
+  "o": {
+   "A": "Unexplained weight loss with night sweats",
+   "D": "Seasonal allergic rhinitis",
+   "C": "Mild stress-related insomnia",
+   "B": "Occasional tension headache"
+  },
+  "a": "A"
+ },
+ {
+  "id": "R02",
+  "cat": "referral",
+  "q": "A patient with fatigue is found to have a thyroid nodule with hoarseness. The priority is:",
+  "o": {
+   "D": "Urgent referral for assessment of possible malignancy",
+   "B": "Iodine supplementation",
+   "A": "Thyroid extract",
+   "C": "Reassurance and review in 12 months"
+  },
+  "a": "D"
+ },
+ {
+  "id": "R03",
+  "cat": "referral",
+  "q": "New focal neurological symptoms in a patient being managed for 'adrenal fatigue' require:",
+  "o": {
+   "C": "Urgent medical assessment",
+   "D": "B12 injections",
+   "B": "Magnesium loading",
+   "A": "Adrenal extract"
+  },
+  "a": "C"
+ },
+ {
+  "id": "R04",
+  "cat": "referral",
+  "q": "Iron deficiency anaemia in a 62-year-old man requires:",
+  "o": {
+   "A": "Investigation of the gastrointestinal tract for bleeding, not just iron replacement",
+   "B": "Iron replacement alone",
+   "D": "Vitamin C with iron only",
+   "C": "Reassurance"
+  },
+  "a": "A"
+ },
+ {
+  "id": "R05",
+  "cat": "referral",
+  "q": "Which symptom in a patient with reflux being managed with herbs mandates investigation?",
+  "o": {
+   "B": "Dysphagia",
+   "D": "Mild bloating after meals",
+   "C": "Occasional burping",
+   "A": "Belching with fizzy drinks"
+  },
+  "a": "B"
+ },
+ {
+  "id": "R06",
+  "cat": "referral",
+  "q": "A patient on a very low-calorie diet presents with palpitations and syncope. The appropriate action is:",
+  "o": {
+   "B": "Urgent medical assessment",
+   "D": "Increase potassium supplementation",
+   "A": "Add a multivitamin",
+   "C": "Increase salt intake only"
+  },
+  "a": "B"
+ },
+ {
+  "id": "R07",
+  "cat": "referral",
+  "q": "Suspected serotonin syndrome after adding a supplement to an SSRI is characterised by:",
+  "o": {
+   "A": "Altered mental state, autonomic instability and neuromuscular hyperactivity",
+   "B": "Bradycardia and miosis",
+   "D": "Jaundice and pruritus",
+   "C": "Rash and eosinophilia"
+  },
+  "a": "A"
+ },
+ {
+  "id": "R08",
+  "cat": "referral",
+  "q": "Which laboratory result in a patient taking a herbal weight-loss product should trigger immediate cessation and assessment?",
+  "o": {
+   "B": "ALT three times the upper limit of normal",
+   "C": "Haemoglobin 145 g/L",
+   "A": "TSH 2.1 mIU/L",
+   "D": "Ferritin 120 ug/L"
+  },
+  "a": "B"
+ }
+]
