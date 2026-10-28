@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>materia — pipeline</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* eyebrow needs its own treatment on the ink background */
+  .eyebrow {
+    background: transparent;
+    border: 1px solid color-mix(in oklch, var(--accent) 55%, transparent);
+    color: var(--accent);
+  }
+
+  .pipeline {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .node {
+    border: 1px solid color-mix(in oklch, var(--border) 55%, transparent);
+    border-radius: var(--radius-md);
+    padding: 22px 30px 24px 26px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px 24px;
+    align-items: start;
+    text-align: left;
+    background: color-mix(in oklch, var(--bg) 4%, transparent);
+  }
+
+  .node-role {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .node-name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    grid-column: 1;
+  }
+
+  .node-spec {
+    font-family: var(--font-mono);
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: var(--border);
+    opacity: 0.85;
+    text-align: right;
+    white-space: nowrap;
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    align-self: center;
+  }
+
+  .node-what {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.35;
+    opacity: 0.72;
+    grid-column: 1;
+    margin-top: 6px;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    padding: 7px 0;
+  }
+
+  .link svg { display: block; }
+
+  .foot-line {
+    margin-top: 36px;
+    font-family: var(--font-mono);
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--border);
+    opacity: 0.7;
+  }
+</style>
+</head>
+<body class="slide slide--dark">
+  <div class="slide-handle">@josh.is.regenerating</div>
+
+  <div class="slide-body">
+    <div class="eyebrow">materia · model stack</div>
+
+    <div class="headline--lg" style="margin-top: 20px;">Read. Strip. Reason.</div>
+
+    <div class="body body--sm body--muted" style="margin-top: 14px; max-width: 720px;">
+      Three open models, on one device. Nothing leaves the box.
+    </div>
+
+    <div class="pipeline" style="margin-top: 54px;">
+
+      <div class="node">
+        <span class="node-role">01 · Document</span>
+        <span class="node-spec">1.3B · 1.4 GB</span>
+        <span class="node-name">MiniCPM-OCR-1.0</span>
+        <span class="node-what">Reads the page. Tables stay tables.</span>
+      </div>
+
+      <div class="link">
+        <svg width="26" height="34" viewBox="0 0 26 34" fill="none" aria-hidden="true">
+          <line x1="13" y1="0" x2="13" y2="24" stroke="var(--accent)" stroke-width="2"/>
+          <path d="M6 23 L13 32 L20 23" stroke="var(--accent)" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+
+      <div class="node">
+        <span class="node-role">02 · Identity</span>
+        <span class="node-spec">44M · 0.6 GB</span>
+        <span class="node-name">OpenMed PII</span>
+        <span class="node-what">Strips the name before anything is stored.</span>
+      </div>
+
+      <div class="link">
+        <svg width="26" height="34" viewBox="0 0 26 34" fill="none" aria-hidden="true">
+          <line x1="13" y1="0" x2="13" y2="24" stroke="var(--accent)" stroke-width="2"/>
+          <path d="M6 23 L13 32 L20 23" stroke="var(--accent)" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+
+      <div class="node">
+        <span class="node-role">03 · Reasoning</span>
+        <span class="node-spec">2B · 2.8 GB</span>
+        <span class="node-name">MiniCPM5-2B</span>
+        <span class="node-what">Answers. Every claim carries its source.</span>
+      </div>
+
+    </div>
+
+    <div class="foot-line">Lab photo in · cited answer out</div>
+  </div>
+
+  <div class="slide-page">01 / 01</div>
+</body>
+</html>
