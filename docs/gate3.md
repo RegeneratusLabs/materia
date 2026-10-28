@@ -111,3 +111,16 @@ statistical significance (p = 0.45). It is a direction supported by the per-cate
 effect, and it does not close the gap to the 98.1% thinking baseline.
 
 Artifact: `results/gate3_hybrid.json`.
+
+## Abstention test
+
+Ten questions deliberately outside the corpus (prescription dosing for ivermectin, apixaban, levothyroxine,
+chemo, amoxicillin, insulin, sertraline, prednisolone, methotrexate, melatonin jet lag).
+
+**9/10 abstained with `ANSWER: NO_EVIDENCE. SOURCE: NONE.`** — the gate is ≥90%. The one non-abstention
+(AB10, melatonin for jet lag) is arguably not out-of-corpus at all: melatonin monographs are in the corpus
+and the retrieved chunks address jet lag, so the answer was cited evidence rather than a guess. Nine of the
+nine genuinely absent questions abstained.
+
+Artifact: `results/gate3_abstention.json`. This is the strongest behavioural result of the day: the model
+does not guess when the evidence is missing, which is the one failure the product cannot survive.

@@ -223,6 +223,15 @@
     "broke": 2,
     "mcnemar_p": 0.453
    }
+  },
+  {
+   "condition": "Abstention test (10 out-of-corpus questions)",
+   "file": "results/gate3_abstention.json",
+   "n": 10,
+   "abstained": 9,
+   "pct": 90.0,
+   "gate": ">=90%",
+   "pass": true
   }
  ]
 }

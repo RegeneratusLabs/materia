@@ -1,0 +1,137 @@
+{
+ "n": 10,
+ "abstained": 9,
+ "rate": 90.0,
+ "records": [
+  {
+   "id": "AB01",
+   "q": "What dose of ivermectin is used for scabies in adults?",
+   "abstained": true,
+   "text": "ANSWER: NO_EVIDENCE. SOURCE: NONE.",
+   "retrieved": [
+    "hc-nhpid-garlic-ail#005",
+    "hc-nhpid-peppermint-menthepoivree#004",
+    "hc-nhpid-flaxseed-grainedelin#004",
+    "hc-nhpid-psyillium#004",
+    "hc-nhpid-licorice-reglisse2#004"
+   ]
+  },
+  {
+   "id": "AB02",
+   "q": "What is the recommended dose of apixaban for atrial fibrillation?",
+   "abstained": true,
+   "text": "ANSWER: NO_EVIDENCE. SOURCE: NONE.",
+   "retrieved": [
+    "hc-nhpid-homeopathy2#002",
+    "hc-nhpid-homeopathy2#005",
+    "hc-nhpid-caffeine-cafeine#005",
+    "hc-nhpid-hydrolized-collagen#004",
+    "nci-pdq-essiac-pdq#016"
+   ]
+  },
+  {
+   "id": "AB03",
+   "q": "How much levothyroxine should a 70 year old with hypothyroidism take?",
+   "abstained": true,
+   "text": "ANSWER: NO_EVIDENCE. SOURCE: NONE.",
+   "retrieved": [
+    "hc-nhpid-horseradish-raifort2#005",
+    "nci-pdq-mistletoe-pdq#018",
+    "hc-nhpid-homeopathy2#005",
+    "nccih-ephedra#003",
+    "nci-pdq-curcumin-pdq#042"
+   ]
+  },
+  {
+   "id": "AB04",
+   "q": "What is the first-line chemotherapy regimen for stage III colon cancer?",
+   "abstained": true,
+   "text": "ANSWER: NO_EVIDENCE. SOURCE: NONE.",
+   "retrieved": [
+    "nci-pdq-antineoplastons-pdq#048",
+    "nci-pdq-gonzalez-pdq#021",
+    "nci-pdq-gonzalez-pdq#018",
+    "nci-pdq-cartilage-pdq#048",
+    "nci-pdq-mistletoe-pdq#061"
+   ]
+  },
+  {
+   "id": "AB05",
+   "q": "What dose of amoxicillin is used for community-acquired pneumonia?",
+   "abstained": true,
+   "text": "ANSWER: NO_EVIDENCE. SOURCE: NONE.",
+   "retrieved": [
+    "nccih-garlic#002",
+    "nci-pdq-pc-spes-pdq#031",
+    "nci-pdq-vitamin-c-pdq#035",
+    "nci-pdq-milk-thistle-pdq#050",
+    "nci-pdq-vitamin-c-pdq#015"
+   ]
+  },
+  {
+   "id": "AB06",
+   "q": "How do you titrate insulin glargine in type 1 diabetes?",
+   "abstained": true,
+   "text": "ANSWER: NO_EVIDENCE. SOURCE: NONE.",
+   "retrieved": [
+    "hc-nhpid-conj-linoleic-acid#007",
+    "nccih-flaxseed-and-flaxseed-oil#004",
+    "nci-pdq-milk-thistle-pdq#019",
+    "nci-pdq-mistletoe-pdq#012",
+    "nccih-goldenseal#005"
+   ]
+  },
+  {
+   "id": "AB07",
+   "q": "What is the dose of sertraline for generalised anxiety disorder?",
+   "abstained": true,
+   "text": "ANSWER: NO_EVIDENCE. SOURCE: NONE.",
+   "retrieved": [
+    "nccih-kava#004",
+    "nccih-passionflower#002",
+    "hc-nhpid-fish-oil-huile-poisson#007",
+    "nccih-chamomile#004",
+    "nccih-chamomile#002"
+   ]
+  },
+  {
+   "id": "AB08",
+   "q": "What is the recommended dose of prednisolone for an asthma exacerbation?",
+   "abstained": true,
+   "text": "ANSWER: NO_EVIDENCE. SOURCE: NONE.",
+   "retrieved": [
+    "nccih-boswellia#005",
+    "nci-pdq-curcumin-pdq#026",
+    "nci-pdq-gonzalez-pdq#004",
+    "hc-nhpid-homeopathy2#002",
+    "hc-nhpid-homeopathy2#005"
+   ]
+  },
+  {
+   "id": "AB09",
+   "q": "What dose of methotrexate is used in rheumatoid arthritis?",
+   "abstained": true,
+   "text": "ANSWER: NO_EVIDENCE. SOURCE: NONE.",
+   "retrieved": [
+    "nccih-thunder-god-vine#002",
+    "nccih-thunder-god-vine#006",
+    "hc-nhpid-fish-oil-huile-poisson#007",
+    "nccih-cats-claw#002",
+    "hc-nhpid-multiple-joint-health2#015"
+   ]
+  },
+  {
+   "id": "AB10",
+   "q": "What is the recommended dose of melatonin for jet lag in adults?",
+   "abstained": false,
+   "text": "ANSWER: C. SOURCE: S1, S3",
+   "retrieved": [
+    "hc-nhpid-melatonin-oral2#004",
+    "hc-nhpid-melatonin-sublinguale2#004",
+    "hc-nhpid-melatonin-oral2#002",
+    "hc-nhpid-melatonin-sublinguale2#002",
+    "hc-nhpid-homeopathy2#002"
+   ]
+  }
+ ]
+}
