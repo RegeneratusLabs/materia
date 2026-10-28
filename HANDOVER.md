@@ -16,7 +16,7 @@
 - **Prompt scaffolding: one instruction only.** "Think for at most 60 words, then answer." Every extra meta-instruction tried so far scored *lower* (3 of 3 conditions), though with n=104 none reached statistical significance. Details in §4 and §8 — do not tell the model to distrust its priors.
 - **Not done:** retrieval layer, evidence corpus, OCR run, PubMedQA, MedXpertQA, HealthBench, safety gate, UI, practitioner testing.
 - **First task:** §10 step 3 — prove `MiniCPM-OCR-1.0` on a real lab report, then step 5 build the corpus. Do not start with training.
-- **Stack is 100% OpenBMB:** `MiniCPM5-2B` (reasoning), `MiniCPM-OCR-1.0` (documents), `MiniCPM-OCR-Jev` (per-region OCR confidence). All Apache-2.0. Never all resident at once — load by phase, peak 3.2 GB.
+- **Stack is 100% OpenBMB:** `MiniCPM5-2B` (reasoning) and `MiniCPM-OCR-1.0` (documents) are Phase A. `MiniCPM-OCR-Jev` (per-region OCR confidence) is **Phase B, gated on Gate 0** — it buys review throughput, not correctness. All Apache-2.0. Load by phase either way.
 
 ---
 
@@ -60,6 +60,21 @@ Four things about Jev that must not be forgotten:
 2. **Tables are the weakest category (91.1), and lab reports are tables.** That is exactly the region type this project cares most about. Calibrate on lab tables specifically, not on prose.
 3. **Error costs are asymmetric.** A false "needs review" costs a practitioner three seconds. A false "looks fine" puts a wrong clinical number in a record. Set the threshold high, accept a higher review rate, and monitor the two numbers separately.
 4. **Jev scores fidelity, not sense.** It answers "did we read the glyphs correctly", not "is this value plausible", "is this the right patient", or "is this a lab typo". Those need a separate deterministic plausibility gate (value within a physically possible range for that analyte, units recognised, collection date present). Two gates, two different questions, neither substitutes for the other.
+
+**Adoption gate — Jev is Phase B, not Phase A.** (Revised 2026-10-28; an earlier draft called skipping Jev "indefensible", which was overclaiming.) Jev is a **throughput optimisation disguised as a safety feature**: it does not make the output more correct, it makes human review cheaper. That makes it worth buying only once review cost is the binding constraint.
+
+Its *unique* contribution is narrow — a misread glyph that lands on a different but physiologically plausible value, on a **photographed** document. Everything else is covered more cheaply:
+
+| Failure | Caught by | Cost |
+|---|---|---|
+| Value outside physiological range | deterministic range gate | free |
+| Right value, wrong row / wrong crop | two independent extractions disagreeing | free, and a stronger signal |
+| Wrong patient, wrong page, missing date | page-level deterministic checks | free |
+| Illegible digit → plausible different digit, photo input | **only Jev** | 1.86 GB + a calibration project |
+
+For digital lab PDFs — likely most of the volume — the free trick beats Jev outright: **extract the text layer deterministically (pymupdf) *and* OCR the same page, then compare.** Two independent reads agreeing is auditable in a way a learned 0–1 score is not. Agree → accept. Disagree → human. No model, no calibration, no blind spots.
+
+So: ship Phase A as MiniCPM-OCR + deterministic plausibility gate + text-layer/OCR cross-check + human confirmation on every numeric field, and **measure the field error rate**. Adopt Jev in Phase B only if Gate 0 shows >1% field error, or phone photos become a real share of volume, or confirming 30 values per panel becomes the friction users complain about. At 5 panels a week, confirming 30 values takes 30 seconds — Jev buys nothing. At 500 a week, it pays for itself immediately.
 
 **Load by phase, never all at once.** OCR + Jev together are 3.2 GB; the text engine is 2.8 GB. A document-ingest pass peaks at ~3.2 GB, a query pass at ~2.8 GB. Keep all three warm only on 16 GB machines.
 
@@ -138,7 +153,7 @@ Suggested build order: lab reference intervals (small, finite, unblocks the whol
 |---|---|---|
 | Retrieval over fine-tuning for factual knowledge | evidence (see §4), Josh agreed 2026-10-28 | a corpus that does not exist, plus a demonstration that fine-tuning beats base+RAG |
 | Whole stack is OpenBMB, including OCR | Josh, 2026-10-28 | a measured failure of MiniCPM-OCR on real lab reports |
-| OCR confidence gates numeric extraction | design (Jev exists; not using it is indefensible) | — |
+| Jev is Phase B, gated on measured OCR error rate | reasoning 2026-10-28 (revised from "adopt now") | Gate 0 showing >1% field error, or photo volume making manual review a bottleneck |
 | Small local open-weight models, not an API | Josh (anti-closed-source, no OpenAI) | — |
 | OpenMed used for extraction/PII only, never as the reasoning engine | measurement: 2,255 of 2,278 OpenMed repos are `token-classification` | — |
 | Reasoning budget in the prompt | measurement (§4) | a better scaffold that beats it on the 104-item panel |
