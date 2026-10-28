@@ -111,6 +111,7 @@ def main(argv: list[str] | None = None) -> int:
             "gold": item["a"],
             "got": parse_letter(r["text"], r["reasoning"]),
             "cites": parse_sources(r["text"]),
+            "retrieved": [c["chunk_id"] for c in chunks],
             "text": r["text"][:200],
             "reason": r["reasoning"][:800],
             "finish": r["finish"],

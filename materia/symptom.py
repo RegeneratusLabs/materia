@@ -272,3 +272,90 @@ def contract_check(sheet: str, chunks: list[dict], findings: list[dict]) -> list
 def _section(sheet: str, name: str) -> str:
     m = re.search(rf"{name}[^\n]*\n(.*?)(?:\n[A-Z][A-Z ]+[^\n]*\n|$)", sheet, re.S)
     return m.group(1) if m else ""
+
+
+# --------------------------------------------------------------------- output sheet
+
+SHEET_SPEC = """You are a cited evidence assistant for naturopathic and integrative practitioners.
+You produce an evidence sheet. You do not diagnose, and you do not prescribe.
+
+Reply with EXACTLY these six headings, in this order, and nothing else:
+
+WHAT YOU DESCRIBED
+one or two lines restating the presentation. No interpretation.
+
+CHECK FIRST
+state any red flags supplied under RED FLAGS. If there are none, say: "No red flags identified from what was described. This is not a diagnosis."
+
+OPTIONS
+one line per option, formatted as:
+- <intervention> — <what the evidence says in one sentence> — <dose exactly as stated in the evidence, or "dose not stated"> [S<n>]
+Only use the numbered evidence. If nothing in the evidence supports an option, write "No evidence found in the corpus for this presentation."
+
+SAFETY SCREEN
+list each supplied safety finding, or "No safety findings for the stated context."
+
+MONITOR
+what to track and when to return.
+
+EVIDENCE GAPS
+where sources disagree, where evidence is absent, and what is traditional-use only.
+
+Hard rules: every line in OPTIONS must carry [S<n>]. Never invent a dose or a citation. Never say "you have" a condition.
+"""
+
+
+def evidence_block(chunks: list[dict]) -> str:
+    lines = ["EVIDENCE"]
+    for i, c in enumerate(chunks, start=1):
+        lines.append(
+            f"[S{i}] {c['chunk_id']} · {c['source']} · {c['tier']} · {c['jurisdiction']} · "
+            f"{c['date']} · section={c['section']}"
+        )
+        lines.append(c["text"].strip())
+        lines.append("")
+    return "\n".join(lines)
+
+
+def build_prompt(
+    question: str, chunks: list[dict], findings: list[dict], red_hits: list[dict], intake: "Intake"
+) -> str:
+    red = (
+        "\n".join(f"- {h['id']} ({h['urgency']}): {h['action']}" for h in red_hits)
+        if red_hits
+        else "none"
+    )
+    safety = (
+        "\n".join(
+            f"- {f['intervention']} in {f.get('label', f['context'])}: {f['severity'].upper()} — "
+            f"{f['excerpt'][:180]} [{f['source']}]"
+            for f in findings
+        )
+        if findings
+        else "none"
+    )
+    return (
+        SHEET_SPEC
+        + "\n\nRED FLAGS (from the deterministic gate)\n"
+        + red
+        + "\n\nSAFETY FINDINGS (deterministic screen; a VETO means the option must not appear)\n"
+        + safety
+        + "\n\nINTAKE\n"
+        + f"age={intake.age}, contexts={intake.contexts}, duration={intake.duration or 'unknown'}, "
+        + f"severity={intake.severity or 'unknown'}"
+        + "\n\n"
+        + evidence_block(chunks)
+        + "\nPRESENTATION\n"
+        + question
+    )
+
+
+def candidate_interventions(question: str, chunks: list[dict], lex: dict[str, str]) -> list[str]:
+    from .retrieve import find_entities
+
+    found = find_entities(question, lex)
+    for c in chunks:
+        for e in c.get("entities") or []:
+            if e and e not in found and len(e) < 60:
+                found.append(e)
+    return found[:12]
