@@ -31,7 +31,6 @@
     overflow: hidden;
   }
 
-  /* grain */
   .grain {
     position: absolute; inset: 0; pointer-events: none; z-index: 5;
     opacity: .05; mix-blend-mode: multiply;
@@ -43,80 +42,104 @@
     letter-spacing: .16em;
     text-transform: uppercase;
     color: var(--second);
-    font-variant-numeric: tabular-nums;
   }
 
   h1 {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
-    font-size: 104px;
+    font-size: 100px;
     line-height: 0.98;
     letter-spacing: -0.035em;
-    margin-top: 26px;
+    margin-top: 24px;
   }
 
-  .stack {
-    margin-top: 72px;
-    border-top: 1px solid var(--rule);
-  }
-
-  .row {
-    display: grid;
-    grid-template-columns: 54px 1fr auto;
-    align-items: baseline;
-    gap: 0 22px;
-    padding: 26px 0 24px;
-    border-bottom: 1px solid var(--rule);
+  /* ---------- the pipe ---------- */
+  .pipe {
     position: relative;
+    margin-top: 78px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
   }
 
-  .idx {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
-    color: var(--faint);
-    font-variant-numeric: tabular-nums;
-    letter-spacing: .08em;
+  /* conduit */
+  .pipe::before {
+    content: "";
+    position: absolute;
+    left: 11px;
+    top: 24px;
+    bottom: 30px;
+    width: 3px;
+    background: var(--ink);
   }
 
-  .who { display: flex; flex-direction: column; gap: 7px; }
+  .step {
+    position: relative;
+    padding-bottom: 48px;
+  }
+  .step:last-child { padding-bottom: 0; }
+
+  /* node sitting on the conduit */
+  .step::before {
+    content: "";
+    position: absolute;
+    left: -80px;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+    border: 3px solid var(--ink);
+    border-radius: 50%;
+    background: var(--paper);
+  }
+
+  /* arrowhead entering each downstream node */
+  .step + .step::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: -28px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 13px solid var(--ink);
+  }
 
   .name {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 42px;
     line-height: 1;
     letter-spacing: -0.025em;
   }
 
-  .role {
+  .meta {
+    margin-top: 10px;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 13px;
-    letter-spacing: .15em;
+    font-size: 14px;
+    letter-spacing: .14em;
     text-transform: uppercase;
     color: var(--second);
   }
 
-  .spec {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 17px;
-    letter-spacing: .04em;
+  .meta .dot { color: var(--faint); padding: 0 7px; }
+
+  .lede {
+    margin-top: 62px;
+    max-width: 700px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 1.5;
+    letter-spacing: -0.005em;
     color: var(--second);
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
   }
 
-  /* flow arrow in the gutter between rows */
-  .row + .row::before {
-    content: "↓";
-    position: absolute;
-    left: 18px;
-    top: -13px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 13px;
-    line-height: 1;
-    color: var(--faint);
-    background: var(--paper);
-    padding: 0 2px 2px;
+  .lede .brand {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--ink);
   }
 
   .foot {
@@ -141,36 +164,26 @@
 
   <h1>Read. Strip.<br>Reason.</h1>
 
-  <div class="stack">
+  <div class="pipe">
 
-    <div class="row">
-      <div class="idx">01</div>
-      <div class="who">
-        <div class="name">MiniCPM-OCR-1.0</div>
-        <div class="role">document</div>
-      </div>
-      <div class="spec">1.3B · 1.4 GB</div>
+    <div class="step">
+      <div class="name">MiniCPM-OCR-1.0</div>
+      <div class="meta">document<span class="dot">·</span>1.3B</div>
     </div>
 
-    <div class="row">
-      <div class="idx">02</div>
-      <div class="who">
-        <div class="name">OpenMed PII</div>
-        <div class="role">identity</div>
-      </div>
-      <div class="spec">44M · 0.6 GB</div>
+    <div class="step">
+      <div class="name">OpenMed PII</div>
+      <div class="meta">identity<span class="dot">·</span>44M</div>
     </div>
 
-    <div class="row">
-      <div class="idx">03</div>
-      <div class="who">
-        <div class="name">MiniCPM5-2B</div>
-        <div class="role">reasoning</div>
-      </div>
-      <div class="spec">2B · 2.8 GB</div>
+    <div class="step">
+      <div class="name">MiniCPM5-2B</div>
+      <div class="meta">reasoning<span class="dot">·</span>2B</div>
     </div>
 
   </div>
+
+  <p class="lede"><span class="brand">materia</span> helps practitioners and patients analyse their health data in a holistic and naturopathic way.</p>
 
   <div class="foot">
     <span>lab photo in · cited answer out</span>

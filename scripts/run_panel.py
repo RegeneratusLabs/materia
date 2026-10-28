@@ -27,7 +27,7 @@ BATCH = 20
 
 
 def make_retriever(args):
-    if args.condition != "retrieval":
+    if args.condition == "closed":
         return None
     try:
         from materia.retrieve import Retriever
@@ -52,7 +52,7 @@ def make_retriever(args):
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--panel", default=str(config.DATA_DIR / "herbal_set_104.json"))
-    ap.add_argument("--condition", choices=["closed", "retrieval"], default="closed")
+    ap.add_argument("--condition", choices=["closed", "retrieval", "hybrid"], default="closed")
     ap.add_argument("--out", default=None)
     ap.add_argument("--max-tokens", type=int, default=768)
     ap.add_argument("--workers", type=int, default=2)
@@ -66,6 +66,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="print the first prompt and exit")
     ap.add_argument("--no-think", action="store_true", help="disable thinking (direct answer)")
     ap.add_argument("--evidence-words", type=int, default=100)
+    ap.add_argument("--hybrid-cats", default="lab,nutrient-lab",
+                    help="categories that get retrieval in --condition hybrid")
     args = ap.parse_args(argv)
 
     items = json.load(open(args.panel))
@@ -100,11 +102,19 @@ def main(argv: list[str] | None = None) -> int:
     t0 = time.time()
     fh = open(out, "w")
 
+    hybrid_cats = {c.strip() for c in args.hybrid_cats.split(",") if c.strip()}
+
+    def use_retrieval(item: dict) -> bool:
+        if retrieve is None:
+            return False
+        return args.condition != "hybrid" or item["cat"] in hybrid_cats
+
     def work(item: dict) -> None:
-        chunks = retrieve(item["q"]) if retrieve else []
+        use = use_retrieval(item)
+        chunks = retrieve(item["q"]) if use else []
         prompt = (
             build_prompt_retrieval(item, chunks, config.RULE_BUDGET, args.evidence_words)
-            if retrieve
+            if use
             else build_prompt(item, config.RULE_BUDGET)
         )
         r = llm.chat(
@@ -125,7 +135,8 @@ def main(argv: list[str] | None = None) -> int:
             "reason": r["reasoning"][:800],
             "finish": r["finish"],
             "ctok": r["ctok"],
-            "condition": args.condition + ("/nothink" if args.no_think else "/think"),
+            "condition": args.condition + ("/nothink" if args.no_think else "/think")
+            + ("/hybrid" if args.condition == "hybrid" else ""),
             "max_tokens": args.max_tokens,
             "ctx": args.ctx,
             "model_gguf": str(config.REASON_GGUF),

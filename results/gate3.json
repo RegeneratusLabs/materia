@@ -1,0 +1,96 @@
+{
+ "n": 104,
+ "baseline": {
+  "correct": 90,
+  "score": "90/104 = 86.5% [78.7, 91.8]"
+ },
+ "retrieval": {
+  "correct": 86,
+  "score": "86/104 = 82.7% [74.3, 88.8]"
+ },
+ "paired": {
+  "fixed": 5,
+  "broke": 9,
+  "fixed_ids": [
+   "L01",
+   "L03",
+   "L08",
+   "L12",
+   "L18"
+  ],
+  "broke_ids": [
+   "E07",
+   "E16",
+   "E24",
+   "E29",
+   "H11",
+   "H16",
+   "H18",
+   "H22",
+   "L14"
+  ],
+  "mcnemar_exact_p": 0.424,
+  "delta_points": -3.8
+ },
+ "traceability": {
+  "answered_with_citation": 96,
+  "answered": 104,
+  "citations_total": 127,
+  "citations_in_context": 127,
+  "rate": 1.0
+ },
+ "by_category": {
+  "lab": {
+   "n": 30,
+   "baseline": 20,
+   "retrieval": 24,
+   "delta": 4
+  },
+  "herb-drug": {
+   "n": 26,
+   "baseline": 25,
+   "retrieval": 23,
+   "delta": -2
+  },
+  "herb-safety": {
+   "n": 20,
+   "baseline": 19,
+   "retrieval": 16,
+   "delta": -3
+  },
+  "nutrient-drug": {
+   "n": 12,
+   "baseline": 10,
+   "retrieval": 7,
+   "delta": -3
+  },
+  "referral": {
+   "n": 8,
+   "baseline": 8,
+   "retrieval": 8,
+   "delta": 0
+  },
+  "safety": {
+   "n": 6,
+   "baseline": 6,
+   "retrieval": 6,
+   "delta": 0
+  },
+  "nutrient-safety": {
+   "n": 1,
+   "baseline": 1,
+   "retrieval": 1,
+   "delta": 0
+  },
+  "nutrient-lab": {
+   "n": 1,
+   "baseline": 1,
+   "retrieval": 1,
+   "delta": 0
+  }
+ },
+ "artifacts": {
+  "baseline": "results/panel_closed_nothink.jsonl",
+  "retrieval": "results/panel_retrieval_nothink.jsonl"
+ }
+}

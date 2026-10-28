@@ -144,6 +144,36 @@
    "hit_token_cap": 2,
    "mean_reasoning_tokens": 194.0,
    "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition closed --max-tokens 768 --out results/v2_budget_768.jsonl"
+  },
+  {
+   "condition": "v2 panel (104), closed-book, no thinking (paired baseline)",
+   "file": "results/panel_closed_nothink.jsonl",
+   "n": 104,
+   "correct": 90,
+   "pct": 86.5,
+   "ci95": [
+    78.7,
+    91.8
+   ],
+   "answered": 104,
+   "hit_token_cap": 0,
+   "mean_reasoning_tokens": 2.0,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition closed --no-think --max-tokens 64 --out results/panel_closed_nothink.jsonl"
+  },
+  {
+   "condition": "v2 panel (104), retrieval k=5, no thinking",
+   "file": "results/panel_retrieval_nothink.jsonl",
+   "n": 104,
+   "correct": 86,
+   "pct": 82.7,
+   "ci95": [
+    74.3,
+    88.8
+   ],
+   "answered": 104,
+   "hit_token_cap": 0,
+   "mean_reasoning_tokens": 11.0,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition retrieval --no-think --evidence-words 90 --max-tokens 64 --out results/panel_retrieval_nothink.jsonl"
   }
  ]
 }
