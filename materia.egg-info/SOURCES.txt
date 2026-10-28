@@ -1,0 +1,15 @@
+pyproject.toml
+materia/__init__.py
+materia/config.py
+materia/llm.py
+materia/parse.py
+materia/prompt.py
+materia/stats.py
+materia.egg-info/PKG-INFO
+materia.egg-info/SOURCES.txt
+materia.egg-info/dependency_links.txt
+materia.egg-info/requires.txt
+materia.egg-info/top_level.txt
+tests/test_parse.py
+tests/test_prompt.py
+tests/test_stats.py

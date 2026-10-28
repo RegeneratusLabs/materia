@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: materia
+Version: 0.1.0
+Summary: Cited evidence engine for naturopathic and holistic practitioners
+Requires-Python: >=3.12
+Requires-Dist: pymupdf>=2.0
+Requires-Dist: pillow>=10
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"

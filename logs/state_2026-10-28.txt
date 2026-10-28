@@ -1,0 +1,11 @@
+state snapshot 2026-10-28T16:09:15+10:00
+host: homelab
+nproc: 6
+               total        used        free      shared  buff/cache   available
+Mem:           15789        5191         387           2       10554       10597
+Swap:           4351        3932         419
+/dev/sda2       457G   73G  361G  17% /
+llama-server: 816225 /home/josh/bin/llamacpp/llama-b11936/llama-server -m /home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf -c 4096 -np 2 -t 6 --jinja --no-reasoning-preserve --port 8099
+model: 1561318368 /home/josh/models/minicpm5/MiniCPM5-2B-Q4_K_M.gguf
+2679710688 /home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf
+ocr: 

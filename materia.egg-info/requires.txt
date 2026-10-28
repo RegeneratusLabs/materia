@@ -1,0 +1,5 @@
+pymupdf>=2.0
+pillow>=10
+
+[dev]
+pytest>=8

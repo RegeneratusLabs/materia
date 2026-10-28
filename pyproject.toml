@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "materia"
+version = "0.1.0"
+description = "Cited evidence engine for naturopathic and holistic practitioners"
+requires-python = ">=3.12"
+dependencies = [
+  "pymupdf>=2.0",
+  "pillow>=10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["materia*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

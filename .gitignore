@@ -3,3 +3,7 @@
 __pycache__/
 *.pyc
 .venv/
+corpus/raw/
+samples/raw/
+*.sqlite
+results/tmp/
