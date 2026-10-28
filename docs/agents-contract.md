@@ -14,6 +14,8 @@ Project-level contract for any agent working in this directory. `HANDOVER.md` ca
 transfer; this file carries the rules. If they conflict, `HANDOVER.md` wins on facts, this file wins
 on behaviour.
 
+**Global by default.** Nothing is tied to one country. Units, reference intervals and regulatory scheduling are data fields, not hardcoded assumptions.
+
 ## What this is
 
 A cited evidence engine for naturopathic and holistic practitioners. It surfaces evidence with

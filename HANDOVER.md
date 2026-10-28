@@ -15,7 +15,7 @@
 - **Do NOT fine-tune for knowledge.** The evidence says the knowledge is already in the weights and is an *elicitation* problem, not a training problem. The fix is retrieval + scaffolding.
 - **Prompt scaffolding: one instruction only.** "Think for at most 60 words, then answer." Every extra meta-instruction tried so far scored *lower* (3 of 3 conditions), though with n=104 none reached statistical significance. Details in §4 and §8 — do not tell the model to distrust its priors.
 - **Not done:** retrieval layer, evidence corpus, OCR run, PubMedQA, MedXpertQA, HealthBench, safety gate, UI, practitioner testing.
-- **First task:** §10 step 3 — prove `MiniCPM-OCR-1.0` on a real Australian lab report, then step 5 build the corpus. Do not start with training.
+- **First task:** §10 step 3 — prove `MiniCPM-OCR-1.0` on a real lab report, then step 5 build the corpus. Do not start with training.
 - **Stack is 100% OpenBMB:** `MiniCPM5-2B` (reasoning), `MiniCPM-OCR-1.0` (documents), `MiniCPM-OCR-Jev` (per-region OCR confidence). All Apache-2.0. Never all resident at once — load by phase, peak 3.2 GB.
 
 ---
@@ -23,6 +23,8 @@
 ## 1. What it is
 
 A tool for naturopaths, nutritionists, herbalists and functional-medicine practitioners that answers clinical questions with **citations they can check**, rather than asserting protocols. Josh's framing: *"putting better uses of AI out there, in the more natural and holistic ways."* Global open-source project.
+
+**Global by default, jurisdiction as data (Josh, 2026-10-28).** Nothing in the product, corpus or defaults is tied to one country. Units, reference intervals, scheduling and permitted claims differ by market and are carried as fields, not hardcoded. The first build target happens to be English-language, but that is a starting point, not a scope limit.
 
 **Explicitly NOT:**
 - not a diagnostic tool
@@ -46,9 +48,22 @@ A tool for naturopaths, nutritionists, herbalists and functional-medicine practi
 
 `MiniCPM-OCR-1.0` — released 2026-10-26. First OCR-specific model in the MiniCPM-V/o family. SOTA 93.68 on Real5-OmniDocBench, leading on OmniDocBench v1.6 / Wild-OmniDocBench / olmOCR-Bench, 54.7 on OCRBench v2. Handles scans, curved pages, skewed pages, photographs and recaptured documents — i.e. phone photos of lab printouts, which is the actual input. English + Chinese. GGUF, llama.cpp and Ollama from day one, DSpark variants (~55% faster end-to-end).
 
-**`MiniCPM-OCR-Jev` is the important one nobody mentions.** It is not an OCR model — given an image and its OCR result, it returns a **0–1 quality score per region**. AUROC ×100 of 93.6 on JevOCRBench, beating JEV-35B-A3B (90.1). For this project that is the citation-auditability principle applied to input: **a lab value that OCR'd at 0.72 does not silently populate the record — it goes to the user for confirmation.** Gate it at 0.85 for numeric lab fields, 0.70 for free text.
+**`MiniCPM-OCR-Jev` is the important one nobody mentions.** It is not a generative OCR model: it is `Qwen3.5-2B` with the `lm_head` replaced by a **binary classification head**. Input = region image + candidate text + category (text/formula/table); output = one score 0–1, "is this candidate correct". That is why it is fast and stable.
+
+JevOCRBench AUROC ×100 = **93.6** overall (text 94.6, formula 93.1, **table 91.1**), above JEV-35B-A3B (90.1). Model-agnostic: 91.9–93.4 when scoring parses from MiniCPM-OCR 1.0, GLM-OCR, PaddleOCR-VL-1.6 or Xiaomi-OCR-0.
+
+For this project it is the citation-auditability principle applied to input: **a lab value that OCR'd at 0.72 does not silently populate the record — it goes to the user for confirmation.** Start at 0.85 for numeric lab fields and 0.70 for free text, then calibrate on real panels (§6 Gate 0).
+
+Four things about Jev that must not be forgotten:
+
+1. **AUROC is ranking, not accuracy.** 93.6 does not mean "93.6% of auto-accepted values are right". It means correct candidates rank above incorrect ones 93.6% of the time. The auto-accept accuracy at a given threshold must be *measured on your own documents* — this is OpenBMB's own warning on the card.
+2. **Tables are the weakest category (91.1), and lab reports are tables.** That is exactly the region type this project cares most about. Calibrate on lab tables specifically, not on prose.
+3. **Error costs are asymmetric.** A false "needs review" costs a practitioner three seconds. A false "looks fine" puts a wrong clinical number in a record. Set the threshold high, accept a higher review rate, and monitor the two numbers separately.
+4. **Jev scores fidelity, not sense.** It answers "did we read the glyphs correctly", not "is this value plausible", "is this the right patient", or "is this a lab typo". Those need a separate deterministic plausibility gate (value within a physically possible range for that analyte, units recognised, collection date present). Two gates, two different questions, neither substitutes for the other.
 
 **Load by phase, never all at once.** OCR + Jev together are 3.2 GB; the text engine is 2.8 GB. A document-ingest pass peaks at ~3.2 GB, a query pass at ~2.8 GB. Keep all three warm only on 16 GB machines.
+
+**Best-of-N is available and cheap, but not the default.** Because Jev is model-agnostic, you can parse each region with two OCR engines and let Jev pick the higher-scoring candidate — a real quality lift at ingest time. It costs a second non-OpenBMB OCR dependency (GLM-OCR, PaddleOCR-VL or Xiaomi-OCR), which conflicts with the all-OpenBMB decision, so treat it as a fallback lever to pull only if single-engine accuracy on real panels disappoints. Jev selects among existing candidates, so it cannot invent a better parse than the best candidate offers.
 
 One dependency is **not** OpenBMB: the reference pipeline uses `PP-DocLayoutV3` (PaddlePaddle) for layout detection and reading order. For single-column lab reports you can skip layout entirely and feed whole pages — tables are handled. That keeps the shipped stack fully OpenBMB.
 
@@ -73,7 +88,7 @@ Intake note / lab PDF / phone photo
    │
    ├─ Deterministic safety gate   rules, NOT an LLM: pregnancy, lactation, anticoagulants,
    │                             thyroid, immunosuppressants, liver disease, paediatric,
-   │                             hepatotoxins, TGA schedules
+   │                             hepatotoxins, jurisdiction-specific scheduling
    │
    └─ SOAP note + cited rationale + "where evidence is absent or conflicting"
 ```
@@ -91,6 +106,7 @@ The corpus is the project. It must be built to a schema that makes citation inev
   "date": "2024-03-01",
   "url": "https://...",
   "identifier": { "type": "ema", "value": "EMA/HMPC/..." },
+  "jurisdiction": "eu",
   "language": "en",
   "chunks": [
     {
@@ -107,7 +123,8 @@ The corpus is the project. It must be built to a schema that makes citation inev
 
 Non-negotiables for every document:
 
-- **`tier`** ∈ `primary` (RCT, systematic review, Cochrane) · `regulatory` (EMA, ESCOP, WHO, TGA) · `compendium` (MSK About Herbs, LiverTox, Natural Medicines) · `traditional` (historical use). The UI renders tier with the citation; a traditional-use claim must never look like an RCT.
+- **`tier`** ∈ `primary` (RCT, systematic review, Cochrane) · `regulatory` (EMA, ESCOP, WHO, and national regulators) · `compendium` (MSK About Herbs, LiverTox, Natural Medicines) · `traditional` (historical use). The UI renders tier with the citation; a traditional-use claim must never look like an RCT.
+- **`jurisdiction`** is a field, never a hardcode. `international` for WHO/ESCOP; `eu`, `us`, `uk`, `ca`, `au`, `nz` etc. for national regulators. A claim that is permitted in one market and restricted in another must say so — that is a feature, not an edge case.
 - **`identifier`** must be resolvable by a human in one click (PMID, DOI, EMA doc number, ARTG number).
 - **`date`** is mandatory. A 2009 monograph and a 2024 one are not interchangeable, and the UI shows the date next to the claim.
 - **Every chunk carries `section`** so the retrieval prompt can tell a contraindication from a pharmacology note. Most RAG failures on monographs are section-blindness.
@@ -240,7 +257,7 @@ Question: can it read a paper and answer from it? Inputs: `data/pubmedqa_*.json`
 Question: recall or reasoning? Cost: ~45 min CPU, 200 items. Gate: **≥10%** (4B models 15.8–18.2%; guessing ≈ 25% on 4-option, so read against a shuffled baseline, not raw). Fallback: a near-zero score means treat it as a recall engine and keep the retrieval layer doing the reasoning.
 
 **Gate 3 — retrieval wiring (the real work).**
-Question: does putting monographs and reference ranges in context close the known gaps? Inputs: the 104-item panel + a corpus of ≥200 herb monographs and AU reference ranges. Cost: 1–2 days. Gate: **≥95.2% baseline held AND ≥90% of claims traceable to a retrieved source**. Fallback: if accuracy drops, the retrieval is injecting noise — cut the corpus to the specific failure classes (see §7) before widening it.
+Question: does putting monographs and reference ranges in context close the known gaps? Inputs: the 104-item panel + a corpus of ≥200 herb monographs and reference intervals. Cost: 1–2 days. Gate: **≥95.2% baseline held AND ≥90% of claims traceable to a retrieved source**. Fallback: if accuracy drops, the retrieval is injecting noise — cut the corpus to the specific failure classes (see §7) before widening it.
 
 **Gate 4 — panel expansion to 200+ with real monograph content.** Gate: per-category ≥90% with herb-safety specifically ≥95%.
 
@@ -290,7 +307,7 @@ Question: does putting monographs and reference ranges in context close the know
      -c 4096 -np 2 -t 6 --jinja --no-reasoning-preserve --port 8099
    ```
 2. **Verify one number before trusting the rest.** Re-score `results/v2_budget.jsonl` from the `got` field: `python3 docs/rescore.py results/v2_budget.jsonl` must print 99/104 = 95.2%. If you get 101/104 you are re-parsing truncated text (§8).
-3. **Prove the OCR path before building on it (Gate 0).** Download `MiniCPM-OCR-1.0-gguf` Q4_K_M + `mmproj-model-f16-4x.gguf`, OCR one real Australian lab report (an SN/QML/Laverty PDF, or a phone photo of a printout), and check that every analyte, value, unit and the lab's interval survive into a table. Then run `MiniCPM-OCR-Jev` over the same page and confirm its per-region scores separate the clean values from a deliberately blurred or skewed region. **Gate: 100% of numeric fields recovered correctly on a clean page; Jev score ≥0.85 on clean regions and visibly lower on the degraded one.** If OCR fails here, the lab-upload feature is speculation and Josh needs to know immediately.
+3. **Prove the OCR path before building on it (Gate 0).** Download `MiniCPM-OCR-1.0-gguf` Q4_K_M + `mmproj-model-f16-4x.gguf`, OCR one real lab report (a text PDF and a phone photo of a printout — ideally the same panel in both forms), and check that every analyte, value, unit and the lab's own interval survive into a table. Test at least one non-US report: the unit-system fault line is SI (pmol/L, mmol/L, nmol/L) vs US conventional (ng/dL, mg/dL), and the model's priors default to US units. Then run `MiniCPM-OCR-Jev` over the same page and confirm its per-region scores separate the clean values from a deliberately blurred or skewed region. **Gate: 100% of numeric fields recovered correctly on a clean page; Jev score ≥0.85 on clean regions and visibly lower on the degraded one.** If OCR fails here, the lab-upload feature is speculation and Josh needs to know immediately.
 4. **Run Gate 1 (PubMedQA, data already on disk).** Cheap, and it settles recall-vs-reasoning before you invest in the corpus.
 5. **Build the corpus to the §2.1 schema**, in the stated order — reference intervals first, because it unblocks the entire lab path and is finite. Every document needs a resolvable identifier; anything you cannot cite is a note, not corpus.
 6. **Wire retrieval and re-run the 104-item panel** under the same 60-word budget. Compare against 95.2%, paired, per category.
