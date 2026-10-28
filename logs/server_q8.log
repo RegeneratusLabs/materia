@@ -5016,3 +5016,4 @@
 113.03.573.600 I slot      release: id  1 | task 47347 | stop processing: n_tokens = 330, truncated = 0
 113.04.016.325 W srv          stop: cancel task, id_task = 47494
 113.04.064.446 I slot      release: id  0 | task 47494 | stop processing: n_tokens = 205, truncated = 0
+156.50.689.191 I srv    operator(): operator(): cleaning up before exit...

@@ -80,7 +80,27 @@ Intake note
 | Throughput | **70 tok/s prefill, 16 tok/s generation** (Q4, 6 threads, no GPU) | observed during eval |
 | Live process | `llama-server` on `127.0.0.1:8099`, `-c 4096 -np 2 -t 6 --jinja --no-reasoning-preserve` | `ps -C llama-server` |
 
-Feasible here: 2B-class models Q4/Q8 on CPU, ~2 s per direct MCQ, ~10 s per budgeted reasoned answer. Not feasible: interactive chat latency, anything ≥8B at usable speed, any training.
+### Measured footprint — 2026-10-28
+
+Four configs run on this host, RSS read from `/proc` after load and again under a live request.
+Raw log: `logs/footprint_2026-10-28.txt`. Reproduce: `scripts/footprint_probe.sh`.
+
+| Config | RAM after load | RAM under request | Direct MCQ latency |
+|---|---|---|---|
+| Q4_K_M, 1024 ctx, 1 slot | 2,497 MB | 2,504 MB | 893 ms |
+| Q4_K_M, 2048 ctx, 1 slot | 2,539 MB | 2,546 MB | 884 ms |
+| Q8_0, 2048 ctx, 1 slot | 2,697 MB | 2,703 MB | 1,158 ms |
+| Q8_0, 4096 ctx, 2 slots | 2,781 MB | 2,788 MB | 1,253 ms |
+
+Three conclusions:
+
+1. **~2.8 GB is the whole engine.** Weights dominate; the KV cache is noise (1024 → 4096 ctx costs 284 MB).
+2. **A fresh Q8 server is 2.8 GB — the 7.7 GB observed after 2h21m was entirely the leak.** This is a process-watchdog problem, not a hardware problem.
+3. **Tiering:** 8 GB mini-PC/Pi 5 = comfortable; 4 GB Pi 5 = tight but real on Q4 at 1024 ctx; 8 GB phone = plausible at the 1B tier only. **`MiniCPM5-1B` is unmeasured — testing it on the 104-item panel is the experiment that decides whether a phone build is viable.**
+
+The real constraint is not RAM but generation speed: ~16 tok/s at 6 threads means a 250-token reasoned answer takes ~20 s. Fine for "interpret this panel", bad for conversational ping-pong.
+
+Feasible here: 2B-class models Q4/Q8 on CPU, ~1 s per direct MCQ, ~20 s per budgeted reasoned answer. Not feasible: interactive chat latency, anything ≥8B at usable speed, any training.
 
 ---
 
