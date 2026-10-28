@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: var(--app-font, system-ui, -apple-system, "Segoe UI", sans-serif);
+    color: var(--foreground);
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.45;
+  }
+  .wrap { width: 760px; padding: 2px 0 6px; }
+
+  h2 { font-size: 15px; font-weight: 650; margin: 0 0 2px; letter-spacing: -.01em; }
+  .sub { color: var(--muted-foreground); font-size: 12px; margin-bottom: 16px; }
+
+  /* legend */
+  .legend { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 18px; font-size: 11.5px; color: var(--muted-foreground); }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .swatch { width: 18px; height: 12px; border-radius: 2px; }
+  .sw-model { border-left: 3px solid var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .sw-det   { border-left: 3px dashed currentColor; background: color-mix(in srgb, currentColor 8%, transparent); }
+  .sw-human { border-left: 3px dotted var(--accent); background: transparent; }
+
+  /* inputs */
+  .inputs { display: flex; gap: 8px; margin-bottom: 6px; }
+  .in {
+    flex: 1; border: 1px solid var(--border); border-radius: 6px;
+    padding: 8px 10px; font-size: 12px; color: var(--muted-foreground);
+    background: var(--card);
+  }
+  .in b { display: block; color: var(--foreground); font-weight: 600; font-size: 12.5px; margin-bottom: 2px; }
+
+  .arrow { text-align: left; color: var(--muted-foreground); font-size: 13px; padding: 5px 0 5px 26px; line-height: 1; }
+
+  /* stage */
+  .stage {
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 10px 13px 11px;
+    background: var(--card);
+    position: relative;
+  }
+  .stage.model { border-left: 3px solid var(--accent); }
+  .stage.det   { border-left: 3px dashed var(--muted-foreground); }
+  .stage.human { border-left: 3px dotted var(--accent); }
+
+  .head { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
+  .num {
+    font-size: 10.5px; font-weight: 700; letter-spacing: .08em;
+    color: var(--muted-foreground); text-transform: uppercase;
+  }
+  .name { font-weight: 650; font-size: 13.5px; }
+  .badge {
+    font-size: 10px; text-transform: uppercase; letter-spacing: .06em;
+    border: 1px solid var(--border); border-radius: 3px; padding: 1px 5px;
+    color: var(--muted-foreground);
+  }
+  .ram {
+    margin-left: auto; font-size: 11px; color: var(--muted-foreground);
+    font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  .ram b { color: var(--foreground); font-weight: 600; }
+
+  .rows { margin-top: 7px; display: grid; gap: 4px; }
+  .row { display: grid; grid-template-columns: 172px 1fr; gap: 10px; font-size: 12.5px; align-items: baseline; }
+  .row .k { color: var(--foreground); font-weight: 550; }
+  .row .k code { font-size: 11.5px; background: color-mix(in srgb, var(--foreground) 7%, transparent); padding: 1px 4px; border-radius: 3px; }
+  .row .v { color: var(--muted-foreground); }
+
+  .gate {
+    margin-top: 8px; padding: 6px 9px; border-radius: 5px; font-size: 12px;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    background: color-mix(in srgb, var(--accent) 7%, transparent);
+  }
+  .gate b { font-weight: 650; }
+  .gate .fail { color: var(--muted-foreground); }
+
+  .foot { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
+  .foot h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted-foreground); margin: 0 0 7px; font-weight: 650; }
+  .foot ul { margin: 0; padding-left: 16px; font-size: 12.5px; color: var(--muted-foreground); }
+  .foot li { margin-bottom: 3px; }
+  .foot li b { color: var(--foreground); font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h2>materia — full stack, Jev included</h2>
+  <div class="sub">Every model Apache-2.0, every model on-device. Footprints measured or from the HF file list.</div>
+
+  <div class="legend">
+    <span><i class="swatch sw-model"></i> OpenBMB model</span>
+    <span><i class="swatch sw-det"></i> deterministic code (no model)</span>
+    <span><i class="swatch sw-human"></i> human confirmation</span>
+  </div>
+
+  <div class="inputs">
+    <div class="in"><b>Intake note</b>free text, practitioner-written</div>
+    <div class="in"><b>Lab report</b>text PDF or phone photo</div>
+    <div class="in"><b>Question</b>typed or voice</div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="stage model">
+    <div class="head">
+      <span class="num">01 ingest</span>
+      <span class="name">Read the document</span>
+      <span class="badge">OpenBMB</span>
+      <span class="ram">peak <b>3.2 GB</b></span>
+    </div>
+    <div class="rows">
+      <div class="row"><span class="k"><code>MiniCPM-OCR-1.0</code></span><span class="v">1.3B · 1.36 GB · pages → markdown, tables → HTML, reading order preserved</span></div>
+      <div class="row"><span class="k"><code>MiniCPM-OCR-Jev</code></span><span class="v">2B · 1.86 GB · binary head on Qwen3.5-2B · one score 0–1 per region: is this text correct?</span></div>
+    </div>
+    <div class="gate"><b>Jev gate · ≥0.85</b> auto-accept numeric fields · <b>&lt;0.85</b> → human confirm before it enters the record<br>
+      <span class="fail">Jev scores fidelity, not sense — a perfectly-read impossible value still passes here.</span></div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="stage det">
+    <div class="head">
+      <span class="num">02 structure</span>
+      <span class="name">Turn text into numbers</span>
+      <span class="badge">deterministic</span>
+      <span class="ram">~0 GB</span>
+    </div>
+    <div class="rows">
+      <div class="row"><span class="k">Extraction</span><span class="v">analyte · value · <em>unit</em> · <em>the lab's own interval</em> · collection date</span></div>
+      <div class="row"><span class="k">Plausibility gate</span><span class="v">value inside a physically possible range · unit on the whitelist · date present · value and interval on the same row</span></div>
+      <div class="row"><span class="k"><code>OpenMed</code> PII</span><span class="v">de-identify free text before anything is stored or logged · NER structures the intake note</span></div>
+    </div>
+    <div class="gate"><b>Second gate, different question.</b> Jev asked "did we read it right". This asks "is it sane". Neither substitutes for the other.</div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="stage det">
+    <div class="head">
+      <span class="num">03 retrieve</span>
+      <span class="name">Find the evidence</span>
+      <span class="badge">deterministic</span>
+      <span class="ram">~0.2 GB</span>
+    </div>
+    <div class="rows">
+      <div class="row"><span class="k">Corpus</span><span class="v">every document carries <code>tier</code> (primary / regulatory / compendium / traditional), <code>jurisdiction</code>, <code>date</code>, resolvable <code>identifier</code></span></div>
+      <div class="row"><span class="k">Hybrid search</span><span class="v">BM25 + dense embeddings · top-k passages, each with a stable source ID</span></div>
+    </div>
+    <div class="gate"><b>The moat.</b> If nothing relevant is retrieved, the pipeline refuses — it does not fall back to what the model remembers.</div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="stage model">
+    <div class="head">
+      <span class="num">04 reason</span>
+      <span class="name">Draft, with sources attached</span>
+      <span class="badge">OpenBMB</span>
+      <span class="ram"><b>2.8 GB</b></span>
+    </div>
+    <div class="rows">
+      <div class="row"><span class="k"><code>MiniCPM5-2B</code></span><span class="v">Q8_0 · 60-word reasoning budget · every sentence must carry a retrieved source ID or it is dropped</span></div>
+      <div class="row"><span class="k">Verify pass</span><span class="v">"does passage P actually support claim C — yes/no" · catches the misattribution that AUROC-style confidence never sees</span></div>
+    </div>
+    <div class="gate"><b>No uncited clinical claim.</b> Not hedged, not softened — removed.</div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="stage det">
+    <div class="head">
+      <span class="num">05 safety</span>
+      <span class="name">Screen the patient, not the prose</span>
+      <span class="badge">deterministic</span>
+      <span class="ram">~0 GB</span>
+    </div>
+    <div class="rows">
+      <div class="row"><span class="k">Hard rules</span><span class="v">pregnancy · lactation · anticoagulants · thyroid · immunosuppressants · liver disease · paediatric · hepatotoxins · jurisdiction-specific scheduling</span></div>
+    </div>
+    <div class="gate"><b>Rules, never a model.</b> Auditable line by line, and it cannot be talked out of a contraindication.</div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="stage human">
+    <div class="head">
+      <span class="num">06 output</span>
+      <span class="name">Hand it back to a human</span>
+      <span class="badge">practitioner</span>
+    </div>
+    <div class="rows">
+      <div class="row"><span class="k">Delivered</span><span class="v">SOAP note · cited rationale · tier and date on every citation · "where the evidence is absent or conflicting"</span></div>
+      <div class="row"><span class="k">Never delivered</span><span class="v">a protocol. The practitioner decides; the tool shows its work.</span></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <h3>Why the shapes are split this way</h3>
+    <ul>
+      <li><b>Models read and draft.</b> Language-shaped work, where being wrong is recoverable because a human reads it next.</li>
+      <li><b>Code decides and gates.</b> Numbers, units, ranges, contraindications — anything where a plausible-sounding mistake is expensive.</li>
+      <li><b>Memory is per phase, not total.</b> Ingest peaks at 3.2 GB, query at 2.8 GB. Three models, never all resident.</li>
+      <li><b>The corpus is the product.</b> Everything above it is plumbing; every capability claim lives or dies on what is in that index.</li>
+    </ul>
+  </div>
+
+</div>
+</body>
+</html>

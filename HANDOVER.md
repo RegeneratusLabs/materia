@@ -179,6 +179,24 @@ Three conclusions:
 
 The real constraint is not RAM but generation speed: ~16 tok/s at 6 threads means a 250-token reasoned answer takes ~20 s. Fine for "interpret this panel", bad for conversational ping-pong.
 
+### Latency budget — measured 2026-10-28, estimates labelled
+
+| Path | Measured / estimated | On this host | Basis |
+|---|---|---|---|
+| Direct lookup, no reasoning | **measured** | **0.9–1.3 s** | four configs, `logs/footprint_2026-10-28.txt` |
+| Discussion turn, 60-word budget (~250 tok) | **measured** (throughput) | **~16–20 s** | 16 tok/s generation + prefill at 70 tok/s |
+| Discussion turn, unbudgeted (~446 tok) | **measured** (throughput) | **~28–40 s** | same; 2-worker wall clock was 15.4 min / 46 items |
+| OCR one dense lab page | **estimate** | **15–45 s** | 1.3B VLM + 859 MB projector, CPU-only, ~1.8k visual tokens; GPU reference is 1.2 pages/s on an RTX 5090 |
+| Jev, per region | **estimate** | **1–2 s** | 2B + 640 MB projector, 1 output token |
+| Jev, 30 numeric fields, batched ×4 | **estimate** | **10–20 s** | sequential would be 30–60 s |
+
+**Design consequences, not just numbers:**
+
+1. **Ingest and chat are separable in time.** OCR + Jev run once per document, in the background, and the structured record is cached indefinitely. A user never waits for OCR while chatting. Show progress at upload, then forget it.
+2. **Only gate what matters.** Run Jev on numeric lab fields, not on every region — free text (patient name, lab comments) will be read by a human anyway. That cuts Jev calls by roughly 80% and the ingest bottleneck with it.
+3. **The 60-word budget is what makes chat viable.** Unbudgeted reasoning more than doubles the wait for no accuracy gain on this workload (§4).
+4. **This host is not the target.** It is a CPU reference rig. Expect roughly 4–6× faster on Apple Silicon, which is what turns a 20 s discussion turn into a 4 s one.
+
 Feasible here: 2B-class models Q4/Q8 on CPU, ~1 s per direct MCQ, ~20 s per budgeted reasoned answer. Not feasible: interactive chat latency, anything ≥8B at usable speed, any training.
 
 ---
