@@ -81,3 +81,33 @@ pull the model off a correct prior. Item-level notes in `results/gate3.json` (`f
 .venv/bin/python scripts/gate3.py --baseline results/panel_closed_nothink.jsonl \
   --retrieval results/panel_retrieval_nothink.jsonl
 ```
+
+## Artifact note
+
+The Gate 3 run used the index as built at 16:57, which still contained 131 NCCIH "Key References"
+chunks that were removed from the corpus afterwards (a heading-classifier fix: reference lists were being
+tagged as clinical content). The cleaned index has 3,527 chunks. The stale chunks were low-signal
+bibliographies, so the direction of the result is unlikely to change, but a re-run on the cleaned index
+is the honest next step before quoting these numbers as final.
+
+## Fallback result — category-gated retrieval (added after the gate failed)
+
+The plan's failure protocol says: cut the corpus/retrieval to the failing categories, retune, re-test. The
+`lab` branch was the only positive signal, so the fallback is mechanical: retrieve only for lab items,
+closed-book for everything else. `--condition hybrid` implements it and preserves the same no-think
+condition as the paired baseline.
+
+| Condition | n | Score | Δ vs closed | Fixed | Broke | McNemar p |
+|---|---|---|---|---|---|---|
+| Closed-book, no thinking | 104 | 90/104 = 86.5% [78.7, 91.8] | — | — | — | — |
+| Retrieval, all categories | 104 | 86/104 = 82.7% [74.3, 88.8] | −3.8 | 5 | 9 | 0.424 |
+| **Retrieval, lab categories only** | 104 | **93/104 = 89.4% [82.0, 94.0]** | **+2.9** | 5 | 2 | 0.453 |
+
+Only lab items changed (20/30 → 23/30, +3); every other category is identical by construction. Citations:
+37/37 in context, 27/104 answers cited (only the lab items had evidence to cite).
+
+**This is the configuration to carry forward**, with the honest caveat that +3 points at n=104 is not
+statistical significance (p = 0.45). It is a direction supported by the per-category data, not a proven
+effect, and it does not close the gap to the 98.1% thinking baseline.
+
+Artifact: `results/gate3_hybrid.json`.

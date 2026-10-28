@@ -202,6 +202,27 @@
    "emergency_stops": "6/6",
    "safety_vetoes": "2/2",
    "notes": "6 emergency stops made no model call; 3 sheets stated a dose absent from evidence; 4/4 veto cases offered the vetoed intervention before code enforcement"
+  },
+  {
+   "condition": "v2 panel (104), category-gated retrieval (lab only), no thinking",
+   "file": "results/panel_hybrid_nothink.jsonl",
+   "n": 104,
+   "correct": 93,
+   "pct": 89.4,
+   "ci95": [
+    82.0,
+    94.0
+   ],
+   "answered": 104,
+   "hit_token_cap": 0,
+   "mean_reasoning_tokens": 5.0,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition hybrid --no-think --max-tokens 64 --out results/panel_hybrid_nothink.jsonl",
+   "paired_vs_closed": {
+    "delta_points": 2.9,
+    "fixed": 5,
+    "broke": 2,
+    "mcnemar_p": 0.453
+   }
   }
  ]
 }
