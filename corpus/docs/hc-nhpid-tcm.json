@@ -1,0 +1,185 @@
+{
+ "doc_id": "hc-nhpid-tcm",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Traditional Chinese Medicine Ingredients (Tcmi)",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=tcm&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "tcm"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:cf0b9171f161d25ea598a833cd5b99b3be72fec3491f6571daef7ded54daf376",
+ "entities": [
+  "Traditional Chinese Medicine Ingredients (Tcmi)"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-tcm#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral or topical route of administration are indicated in the dosage form drop-down list of the web-based Product Licence Application form.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 44
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#002",
+   "text": "Use(s) or Purpose(s): Single ingredient products prepared as per a TCM referenced text listed in this monograph OR products whose combination of ingredients and preparation is identical to a base formula in the TCM referenced text listed in this monograph:\nRemedy/Product/Preparation based on the theory of Traditional Chinese Medicine.\nProducts whose combination of ingredients and/or preparation is not identical to a base formula in the TCM referenced text listed in this monograph:\nCombination of Traditional Chinese Medicine Ingredients.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 78
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#003",
+   "text": "Quantity(ies): The quantity(ies) of medicinal ingredient(s) must not exceed the maximum daily dose specified by TCM referenced texts listed in this monograph, taking into account potential additive effects between ingredients with similar actions or properties.\nAcute (high-dose) uses described in TCM reference texts are not permitted where such dose are associated with the treatment of serious conditions or an increased risk to health, in accordance with the Pathway for Licensing Natural Health Products used as Traditional Medicines .\nProducts providing more than 1 g of Piper longum are excluded from this monograph.\nFor topical products:\nThe quantity of the medicinal ingredient should be entered as a percentage (%) in the finished product. Where the medicinal ingredient is an extract (e.g., extract dry, decoction, decoction concentrate), the extract ratio and quantity crude equivalent (QCE) should both be manually entered as the PLA form cannot adequately calculate the extract ratio from the medicinal ingredient quantity and QCE. The QCE should reflect the QCE that is present in 1 g (or mL) of the finished product.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 173
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#004",
+   "text": "Quantity(ies): On the PLA form, quantities can be expressed as percentage weight by weight (% w/w), percentage weight by volume (% w/v) or percentage volume by volume (% v/v), depending on the product formulation. On the product label, quantities can also be expressed in other equivalent concentration units (e.g., mg/mL).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 50
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#005",
+   "text": "Direction(s) for use: All products\nUse/Take as directed by a health care practitioner/health care provider/health care professional/doctor/physician. 1\nAnd\nAny additional direction of use statement as specified by referenced texts.\n1 Note: If the directions of use and duration of use for the product are specified, the direction of use statement ‘Use/Take as directed by a health care practitioner/health care provider/health care professional/doctor/physician’ can be replaced on the label to a specific statement followed by ‘or as directed by a health care practitioner’ (e.g. Take X scoop(s) of granules, X time(s) per day or as directed by a health care practitioner. Mix in warm water. Ask a health care practitioner for use beyond X weeks). If the direction for use and the duration of use are not specified, the general direction of use ‘Use/Take as directed by a health care practitioner’ is required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 143
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#006",
+   "text": "Duration(s) of use: Oral products containing stimulants laxatives from Table 2\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 7 days.\nOral products containing Herba Ephedra\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 7 days (NNHPD Ephedra monograph).\nOral products containing any Glycyrrhiza species\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 weeks (NNHPD Licorice monograph).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 70
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#007",
+   "text": "Caution(s) and warning(s): All products\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen, or if new symptoms develop.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking prescription medications.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have serious or major conditions, any type of acute infection, deficiency or excess.\nAnd\nAny additional risk statement not covered by the above statements as specified by referenced texts.\nProducts containing any Angelica species\nWhen using this product avoid exposure to the sun.\nAll topical products\nFor external use only.\nMel (Apis mellifera) & Radix et Rhizoma Glycyrrhizae Praeparata cum Melle (Glycyrrhiza glabra, Glycyrrhiza inflata, Glycyrrhiza uralensis)\nThis product contains honey.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 128
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#008",
+   "text": "Contraindication(s): All products\nDo not use if you are pregnant or breastfeeding.\nAnd\nAny additional risk statement not covered by the above statement as specified by referenced texts.\nOral products containing two or more diuretics from Table 2 (total QCE (Quantity Crude Equivalent): > 100 mg/day for powdered and ethanolic extracts or > 300 mg/day for decoction and decoction concentrate)\nDo not use if you have heart disease, high or low blood pressure, kidney or liver disorder, diabetes or edema (swelling of hands, face and feet) or are taking other products containing diuretics.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "liver",
+    "diabetes",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#009",
+   "text": "Known adverse reaction(s): All products\nAs specified by referenced texts.\nOral products containing any diuretic from Table 2 (total QCE: > 100 mg/day for powdered and ethanolic extracts or > 300 mg/day for decoction and decoction concentrate)\nWhen using this product diuretic effect may occur.\nOral products containing two or more diuretics from Table 2 (total QCE: > 100 mg/day for powdered and ethanolic extracts or > 300 mg/day for decoction and decoction concentrate)\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician immediately if dizziness, confusion, muscle weakness or pain, abnormal heart beat and/or difficulty breathing occur.\nIn addition to the risk statements listed above, risk statements (caution & warning, contraindication, known adverse reaction) from the NNHPD single ingredient monographs listed below are required.\nOral\nMedicinal ingredients\nNNHPD monographs\nCautions/Warnings 1\nContraindications 1\nKnown Adverse Reactions 1\nAloe vera or A. ferox\nAloe - Oral monograph\n✓\n✓\n✓\nAngelica species\nDong quai - Angelica sinensis monograph\nX\n✓\n✓\nApis mellifera (Mel)\nRoyal Jelly monograph applies\nX\nX\n✓\nAstragalus membranaceus\nAstragalus monograph\nX\n✓\nN/A\nCamellia sinensis\nGreen tea extract monograph applies\n✓\nN/A\n✓\nCinnamomum aromaticum\nCassia cinnamon monograph\nX\n✓\n✓\nCurcuma sp.\nTurmeric monograph\n✓\nN/A\nN/A\nEleutherococcus senticosus\nEleuthero monograph\nX\n✓\nN/A\nEphedra species\nEphedra monograph\n✓\n✓\n✓\nGanoderma species",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#010",
+   "text": "Known adverse reaction(s): Mushrooms monograph\nX\nN/A\n✓\nGinkgo biloba (Folium Ginkgo)\nGinkgo biloba monograph\nX\n✓\nN/A\nPanax ginseng\nGinseng, Panax monograph\nX\n✓\n✓\nPropolis\nPropolis - Oral monograph\n✓\nN/A\n✓\nRadix et Rhizoma Glycyrrhizae ( Glycyrrhiza glabra, Glycyrrhiza inflata, Glycyrrhiza uralensis )\nLicorice monograph\nX\n✓\nN/A\nRadix et Rhizoma Glycyrrhizae Praeparata cum Melle ( Glycyrrhiza glabra, Glycyrrhiza inflata, Glycyrrhiza uralensis )\nRoyal Jelly monograph applies\nX\nX\n✓\nLicorice monograph\nX\n✓\nN/A\nRheum species\nSenna monograph applies\n✓\n✓\n✓\nSenna species\nSenna monograph\n✓\n✓\n✓\nSilybum marianum\nMilk thistle monograph\nX\nN/A\n✓\nTribulus terrestris\nTribulus monograph\nX\n✓\n✓\nValeriana officinalis\nValerian monograph\n✓\nN/A\n✓\nWolfiporia extensa\nMushrooms monograph\nX\nN/A\n✓\nTopical\nMedicinal ingredients\nNNHPD monographs\nCautions/Warnings 1\nContraindications 1\nKnown Adverse Reactions 1\nApis mellifera (Mel)\nRoyal Jelly monograph applies\nX\nX\n✓\nPropolis\nPropolis - Topical monograph\n✓\nN/A\n✓\nRadix et Rhizoma Glycyrrhizae Praeparata cum Melle ( Glycyrrhiza glabra, Glycyrrhiza inflata, Glycyrrhiza uralensis )\nRoyal Jelly monograph applies\nX\nX\n✓\n1 The symbols used in the tables are defined as follows:\n✓ = risk statements from the associated single monograph are required.\nX = statements are already covered by the general risk statements listed above.\nN/A = no risk statement on the associated single monograph.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-tcm#011",
+   "text": "Known adverse reaction(s): In addition to the risk statements listed above, risk statements listed in NHPID for the medicinal ingredients below are required.\nOral\nMedicinal ingredients\nNHPID - risk statements\nApocynum venetum (Folium Apocyni Veneti)\n✓\nReynoutria multiflora (Radix Polygoni Multiflori)\n✓\nReynoutria multiflora (Radix Polygoni Multiflori Praeparata)\n✓",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Traditional Chinese Medicine Ingredients (Tcmi)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 49
+  }
+ ]
+}

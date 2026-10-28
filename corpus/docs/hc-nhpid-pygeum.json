@@ -1,0 +1,122 @@
+{
+ "doc_id": "hc-nhpid-pygeum",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "PYGEUM - PRUNUS AFRICANA",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-06-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=pygeum&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "pygeum"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:d05e70dbc1fae3bd728619f38ac008193cdb5f4d04bc2ab6cf18dbf74beda5c5",
+ "entities": [
+  "PYGEUM - PRUNUS AFRICANA",
+  "Proper name",
+  "Common name",
+  "Source material",
+  "Source information"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-pygeum#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "PYGEUM - PRUNUS AFRICANA",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-pygeum#002",
+   "text": "Use(s) or Purpose(s): Standardized extracts\nHelps reduce the urologic symptoms (such as weak urine flow, incomplete voiding, frequent daytime and nighttime urination) associated with benign prostatic hyperplasia (Wilt et al. 2002; Ishani et al. 2000; Chatelain et al. 1999; Breza et al. 1998; Carani et al. 1991; Barlet et al. 1990).\nNon-standardized preparations\nNo claim (safety only).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "PYGEUM - PRUNUS AFRICANA",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "hc-nhpid-pygeum#003",
+   "text": "Subpopulation(s): Standardized extracts making a claim for symptoms of benign prostatic hyperplasia\nAdult Males 18 years and older\nNon-standardized preparations\nAdults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PYGEUM - PRUNUS AFRICANA",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  },
+  {
+   "chunk_id": "hc-nhpid-pygeum#004",
+   "text": "Quantity(ies): Symptoms of benign prostatic hyperplasia\nMethods of preparation: Standardized extracts\n75 - 200 milligrams of extract per day, standardized to 12-14% of phytosterols (Wilt et al. 2002; Ishani et al. 2000; Chatelain et al. 1999; Breza et al. 1998; Carani et al. 1991; Barlet et al. 1990).\nNo claim (safety only)\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract 1 , Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 4 grams of dried stem bark and/or trunk bark, per day. 2\nNotes\n1 Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry extract)” as part of this monograph are ethanol and/or water only.\n2 Maximum daily dose of the crude material is based on a conservative extrapolation of the dose supported in the available evidence.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PYGEUM - PRUNUS AFRICANA",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 132
+  },
+  {
+   "chunk_id": "hc-nhpid-pygeum#005",
+   "text": "Caution(s) and warning(s): Standardized extracts making a claim for symptoms of benign prostatic hyperplasia (adult males)\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use to exclude a diagnosis of prostate cancer (Goldman and Ausiello 2004).\nNon-standardized preparations for adults (i.e., including women) (safety only)\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "cancer"
+   ],
+   "entities": [
+    "PYGEUM - PRUNUS AFRICANA",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 78
+  }
+ ]
+}

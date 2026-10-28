@@ -1,0 +1,107 @@
+{
+ "doc_id": "hc-nhpid-basil-seed-graine2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "HOLY BASIL - OCIMUM TENUIFLORUM - SEED",
+ "title_extra": null,
+ "date": "2026-02-27",
+ "revised": "2026-02-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-02-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=basil.seed.graine2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "basil.seed.graine2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:f490b62b908463d5b3e9811c53653a3a40feae74a2421f0bfd4fcb4a1c58fb4d",
+ "entities": [
+  "HOLY BASIL - OCIMUM TENUIFLORUM - SEED",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-basil-seed-graine2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "HOLY BASIL - OCIMUM TENUIFLORUM - SEED",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-basil-seed-graine2#002",
+   "text": "Use(s) or Purpose(s): Traditionally used in Ayurveda (as a demulcent) to help relieve cough (, such as Kasa) (Mishra 2004; Kapoor 2001; API 1999).\nTraditionally used in Ayurveda (as Hrdya,) a cardiotonic (API 1999).\nTraditionally used in Ayurveda (as Dipan,) to aid digestion (Dipani) (API 1999).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Ayurveda as a demulcent to help relieve cough, such as Kasa, and as Hrdya, a cardiotonic).\nFor multi-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Holy basil is traditionally used in Ayurveda as Dipan, to aid digestion).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "HOLY BASIL - OCIMUM TENUIFLORUM - SEED",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 194
+  },
+  {
+   "chunk_id": "hc-nhpid-basil-seed-graine2#003",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n1 – 2 grams of dried seed, per day (Williamson 2002; Kapoor 2001; API 1999).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "HOLY BASIL - OCIMUM TENUIFLORUM - SEED",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "hc-nhpid-basil-seed-graine2#004",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a cardiovascular condition (Rai et al. 1997; Agrawal et al. 1996).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking any heart or blood pressure medication (Rai et al. 1997; Agrawal et al. 1996).\nRelief of cough; Digestive aid\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension"
+   ],
+   "entities": [
+    "HOLY BASIL - OCIMUM TENUIFLORUM - SEED",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 95
+  }
+ ]
+}

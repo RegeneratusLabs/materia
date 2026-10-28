@@ -1,0 +1,175 @@
+{
+ "doc_id": "nccih-red-clover",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Red Clover",
+ "title_extra": null,
+ "date": "2025-04-01",
+ "revised": "2025-04-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-10-01",
+ "url": "https://www.nccih.nih.gov/health/red-clover",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/red-clover"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:ab22e46f14c862de66f8808b23dda072bc96bda90a61117f4455629fce191e01",
+ "entities": [
+  "Red Clover"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-red-clover#001",
+   "text": "Red Clover\n© Steven Foster\nCommon Names:\nred clover,\ncow clover,\nmeadow clover,\nwild clover\nLatin Names:\nTrifolium pratense",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "nccih-red-clover#002",
+   "text": "Background: Like peas and beans, red clover is a legume. It is native to Europe, central Asia, and northern Africa, and is also grown in many other areas.\nRed clover contains substances called isoflavones that are structurally similar to estrogen. Dietary supplements containing red clover are promoted for women’s health conditions.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 51
+  },
+  {
+   "chunk_id": "nccih-red-clover#003",
+   "text": "How Much Do We Know?: Red clover has been studied in people, but the research hasn’t shown conclusive evidence of benefits for any health condition. Some of the research on red clover for hot flashes associated with menopause was not high in quality, findings on cholesterol levels were conflicting, and only a few studies have been done on bone density.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 60
+  },
+  {
+   "chunk_id": "nccih-red-clover#004",
+   "text": "What Have We Learned?: Studies on the effects of red clover on hot flashes associated with menopause have had inconsistent results, and some of the studies had a high risk of bias.\nRed clover may have a beneficial effect on cholesterol levels in postmenopausal women, but more research is needed before definite conclusions can be reached.\nOnly a small number of studies have been done on the effects of red clover on bone density in postmenopausal women, and the results have been inconsistent.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 83
+  },
+  {
+   "chunk_id": "nccih-red-clover#005",
+   "text": "What Do We Know About Safety?: Red clover extracts have been used in clinical studies for as long as 2 years with apparent safety, and they appear to be well tolerated.\nRed clover supplements may be unsafe for use during pregnancy or while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 44
+  },
+  {
+   "chunk_id": "nccih-red-clover#006",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nIf you take any type of medicine, talk with your health care provider before using any herbal product; some herbs and medicines interact in harmful ways.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The regulatory paths for making and distributing dietary supplements are different than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 187
+  },
+  {
+   "chunk_id": "nccih-red-clover#007",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-red-clover#008",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-red-clover#009",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-red-clover#010",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-red-clover#011",
+   "text": "Key References: Błaszczuk A, Barańska A, Kanadys W, et al.\nRole of phytoestrogen-rich bioactive substances (\nLinum usitatissimum\nL.,\nGlycine max\nL.,\nTrifolium pratense\nL.) in cardiovascular disease prevention in postmenopausal women: a systematic review and meta-analysis\n.\nNutrients.\n2022;14(12):2467.\nKanadys W, Barańska A, Błaszczuk A, et al.\nEvaluation of clinical meaningfulness of red clover (\nTrifolium pratense\nL.) extract to relieve hot flushes and menopausal symptoms in peri- and post-menopausal women: a systematic review and meta-analysis of randomized controlled trials\n.\nNutrients.\n2021;13(4):1258.\nOh MR, Park JH, Park SK, et al.\nEfficacy of plant-derived dietary supplements in improving overall menopausal symptoms in women: an updated systematic review and meta-analysis\n.\nPhytotherapy Research.\n2024;38(3):1294-1309.\nRed clover. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on October 1, 2024. [Database subscription].\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Red Clover"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 201
+  }
+ ]
+}

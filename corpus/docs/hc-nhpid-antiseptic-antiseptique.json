@@ -1,0 +1,122 @@
+{
+ "doc_id": "hc-nhpid-antiseptic-antiseptique",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Antiseptic Skin Cleansers (Personal Domestic/Commercial Use) Monograph (Source ingredient)",
+ "title_extra": null,
+ "date": "2024-08-28",
+ "revised": "2024-08-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-08-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=antiseptic_antiseptique&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "antiseptic_antiseptique"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:4179f0389bb446313ba4c18e4ebfe423b52380585feaa2231fef4fd7eed507ac",
+ "entities": [
+  "Antiseptic Skin Cleansers (Personal Domestic/Commercial Use) Monograph",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-antiseptic-antiseptique#001",
+   "text": "Dosage form(s): Acceptable dosage forms for NHPs\nFoam; Gel; Liquid; Solution; Topical liquid; Wipe\nAcceptable dosage forms for NPDs\nFoam; Gel; Solution; Wipe",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Antiseptic Skin Cleansers (Personal Domestic/Commercial Use) Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  },
+  {
+   "chunk_id": "hc-nhpid-antiseptic-antiseptique#002",
+   "text": "Use(s) or Purpose(s): For all ingredients, the following statements may be made (Self-Care Framework Category I)\nAntiseptic (skin) cleanser (Krinsky 2017; Ascenzi 1996)\nMedicated (skin) cleanser (Krinsky 2017; Ascenzi 1996)\nAntibacterial (skin) cleanser (Krinsky 2017; Ascenzi 1996)\nKills harmful bacteria/germs (Krinsky 2017; Ascenzi 1996)\nEffective in destroying (harmful) bacteria to provide antiseptic cleansing (Krinsky 2017; Ascenzi 1996)\nFor personal hand hygiene to help prevent the spread of bacteria (Trampuz and Widmer 2004; Ascenzi 1996)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Antiseptic Skin Cleansers (Personal Domestic/Commercial Use) Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 74
+  },
+  {
+   "chunk_id": "hc-nhpid-antiseptic-antiseptique#003",
+   "text": "Subpopulation(s): Children 2 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Antiseptic Skin Cleansers (Personal Domestic/Commercial Use) Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-antiseptic-antiseptique#004",
+   "text": "Direction(s) for use: All products\nSupervise children when they use this product (US FDA 2016).\nNot for use in healthcare or food-handling premises (Health Canada 2019).\nNHPs providing at least 70% ethanol or isopropanol and for NPDs intended as handrubs\nApply liberally over all hand surfaces and rub thoroughly for at least 30 seconds, until dry. For occasional use when water and soap are not available (CDC 2024; Health Canada 2019; Kampf and Gray 2017; US FDA 2016).\nNHPs providing less than 70% ethanol or isopropanol\nApply liberally over all hand surfaces and rub thoroughly for at least 30 seconds, until dry. Repeat if necessary until 3 mL have been applied (x pumps). For occasional use when water and soap are not available (CDC 2024; Health Canada 2019; Kampf and Gray 2017; US FDA 2016; BSI 2013; Kampf 2008).\nNote: Products in wipe dosage form must deliver an amount of product sufficient to attain efficacy.\nNPDs intended as handwashes\nLather in hands with water for at least 30 seconds. Rinse well. For occasional use (Health Canada 2019).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "liver"
+   ],
+   "entities": [
+    "Antiseptic Skin Cleansers (Personal Domestic/Commercial Use) Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 177
+  },
+  {
+   "chunk_id": "hc-nhpid-antiseptic-antiseptique#005",
+   "text": "Contraindication(s): Products containing chlorhexidine gluconate\nDo not use on children/infants less than 2 years of age (unless directed by a doctor/physician/health care practitioner/health care provider/health care professional).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Antiseptic Skin Cleansers (Personal Domestic/Commercial Use) Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  },
+  {
+   "chunk_id": "hc-nhpid-antiseptic-antiseptique#006",
+   "text": "Known Adverse Reaction(s): Products containing chlorhexidine gluconate\nAllergy alert. Stop use and seek medical help right away if you experience wheezing/difficulty breathing, shock, facial swelling, hives, or rash as this product may cause a severe allergic reaction (US FDA 2017; Conraads et al. 1998; Torricelli and Wuthrich 1996; Okano et al. 1989).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Antiseptic Skin Cleansers (Personal Domestic/Commercial Use) Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 52
+  }
+ ]
+}

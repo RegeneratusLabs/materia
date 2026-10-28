@@ -1,0 +1,189 @@
+{
+ "doc_id": "hc-nhpid-enzyme-multi",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Digestive Enzymes (Glucan glucanohydrolase alpha)",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-06-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=enzyme.multi&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "enzyme.multi"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:9f71d82bdfaf045e0bd053cf5f16ca8e871fb5bbfdd05c6bdc20f2e3a583c495",
+ "entities": [
+  "Digestive Enzymes",
+  "Glucan glucanohydrolase alpha"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications. It includes the dosage forms listed below for pancreatic enzymes.\nPancreatic enzymes; pancreatic extract; pancreatin; pancrelipase:\nThe only acceptable dosage forms are: Capsule, enteric-coated; Capsule, soft, enteric-coated; Capsule, enteric-coated pellets; Granule enteric-coated; Tablet, enteric-coated; Tablets, enteric-coated granules.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 80
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#002",
+   "text": "Use(s) or Purpose(s): All products\nDigestive enzyme(s).\nDigestive aid.\nProducts containing proteases (Table 2)\nHelps digest proteins (Murray 1996).\nProducts containing pancreatic enzymes\nDigestive aid to help decrease bloating after high caloric, high fat meals (Suarez et al. 1999).\nHelps to decrease bloating after high caloric, high fat meals (Suarez et al. 1999).\nProducts containing alpha-galactosidase\nHelps prevent gastrointestinal intolerance of oligosaccharides/fermentable carbohydrates (Di Stefano et al. 2007; Pray 2006; Ganiats et al. 1994).\nHelps reduce gas production/flatulence following a meal rich in oligosaccharides/fermentable carbohydrates (such as vegetables, pulses/legumes/beans and whole grains) (Di Stefano et al. 2007; Pray 2006; Lettieri and Dain 1998; Ganiats et al. 1994).\nProducts containing bromelain\nUsed in Herbal Medicine to help relieve minor pain, swelling and inflammation (Walker et al. 2002; Blumenthal 1998).\nProducts containing lactase\nAssist in the digestion of foods containing lactose (e.g., dairy foods, milk, etc.) (Ramirez et al. 1994; Lin et al. 1993; Biller et al. 1987; Moskovitz et al. 1987).\nHelps prevent symptoms of lactose intolerance (including gas, bloating, cramping, and diarrhea) (Ramirez et al. 1994; Lin et al. 1993; Biller et al. 1987; Moskovitz et al. 1987).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 188
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#003",
+   "text": "Quantity(ies): Table 4. Daily maximum of enzymatic activity unit (refer to Appendix I for the definitions of the activity units)\nMedicinal ingredients\nQuantities (enzymatic activity per day; and per single dose, when applicable) 1 , 2\nalpha-Amylase\nNo to exceed 150,000 FCC DU per day; and 34,000 FCC DU per single dose\nalpha-Galactosidase\nDigestive enzyme/Digestive aid\nNot to exceed 3,000 FCC GalU per day\nPrevention of gastrointestinal intolerance/Reduction of flatulence\n260 - 3,000 FCC GalU per day\nBacterial protease\nNot to exceed 490,000 FCC PC per day\nbeta-Glucanase\nNot to exceed 210 FCC BGU per day\nBromelain\nDigestive enzyme/Digestive aid/Digest proteins\nNot to exceed 130,000,000 FCC PU per day; and 45,000,000 FCC PU per single dose\nMinor pain, swelling, and inflammation relief\n480,000 - 130,000,000 FCC PU per day; Not to exceed 45,000,000 FCC PU per single dose\nCatalase\nNot to exceed 3,200 FCC BU per day\nCellulase\nNot to exceed 110,000 FCC CU per day\nChymotrypsin\nNot to exceed 480,000 USP CchyUmotrypsin units per day; and 160,000 USP CchyUmotrypsin units per single dose\nDiastase\nNot to exceed 6,000 FCC DP per day\nFungal protease\nNot to exceed 680,000 FCC HUT and/or 6,800 FCC SAP per day\nGlucoamylase (Amyloglucosidase)\nNot to exceed 300 FCC GU per day\nHemicellulase\nNot to exceed 45,000 FCC HCU per day\nInvertase/sucrase",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#004",
+   "text": "Quantity(ies): Not to exceed 3,000 FCC INVU and/or 4,200 FCC SU per day\nLactase\nDigestive enzyme/Digestive aid\nNot to exceed 54,000 FCC ALU per day; and 18,000 FCC ALU per single dose\nLactose digestion/Symptoms of lactose intolerance\n3,000 - 54,000 FCC ALU per day; and not to exceed 18,000 FCC ALU per single dose\nLipase\nNot to exceed 110,000 FCC LU per day; and 30,000 FCC LU per single dose\nMalt diastase\nNot to exceed 6,000 FCC DP per day\nPancreatic enzymes; pancreatic extract; pancreatin; pancrelipase 3\nAmylase: 17,000 to 149,000 USP amylase units per day; and not to exceed 37,000 USP units per single dose\nLipase: 5,000 to 40,000 USP lipase units per day; and not to exceed 20,000 USP units per single dose\nProtease: 16,000 to 125,000 USP protease units per day; and not to exceed 38,000 USP units per single dose\nPapain\nNot to exceed 7,200,000 FCC PU per day; and 2,400,000 FCC PU per single dose\nPectinase\nNot to exceed 180 endo-PG per day\nPepsin\nNot to exceed 1,900,000 FCC PepU per day\nPhytase\nNot to exceed 75 FCC FTU per day\nTrypsin\nNot to exceed 1,200,000 USP TrypU per day; and 400,000 USP TrypU per single dose\nXylanase\nNot to exceed 3,300 XU",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 208
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#005",
+   "text": "Quantity(ies): References: alpha-Amylase: FCC 2024; Glade et al. 2001; alpha-Galactosidase: FCC 2024; Di Stefano et al. 1999; Domínguez-Muñoz et al. 1997; Other enzymes: NNHPD 2012.\n1 When multiple enzymes are combined, the total activity of each enzyme in the finished product must not exceed the maximum single and daily activities listed in Table 4.\n2 Other recognized enzymatic activity units may be listed on the product label as long as equivalent to the ones indicated on this monograph and PLA form.\n3 Pharmacopoeial units other than USP may be represented on the label as additional information. The following approximate conversion factors can be used to convert the activities of pancreatic enzymes (including pancreatic extract, pancreatin, pancrelipase) into USP units (Scharpé et al. 1997):\nAmylase: 1 Ph. Eur. unit = 1 BP unit = 1 FIP unit ~ 4.15 USP units\nLipase: 1 Ph. Eur. unit = 1 BP unit = 1 FIP unit ~ 1 USP unit\nProtease: 1 Ph. Eur. unit = 1 BP unit = 1 FIP unit ~ 62.5 USP units\nNote: The quantity per dosage unit must be the enzymatic activity. The quantity of the enzymatic preparation in mg or ml may also be included as additional quantity.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 202
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#006",
+   "text": "Direction(s) for use: All products; Optional for bromelain used for minor pain, swelling, and inflammation relief\nTake with (or immediately before) a meal/food. 1\n1 Note: This directions for use statement can be adjusted on the product label to provide clear instructions to consumers. If the product contains multiple digestive enzymes and associated claims, the directions should be linked to each claim and may be modified to include additional details (e.g., \"For lactose intolerance, take with each meal containing lactose\"). Additional information, such as “Do not exceed (X capsules per single dose and) Y capsules per day” may replace the dosing information when there is no established minimum dose associated with a claim.\nProducts containing pancreatic enzymes; pancreatic extract; pancreatin; pancrelipase\nUse the smallest effective dose which controls symptoms (CPS 2008; Sharpé et al. 1997).\nCapsule, enteric-coated; Capsule, soft, enteric-coated; Capsule, enteric-coated pellets; Granule enteric-coated; Tablet, enteric-coated; Tablets, enteric-coated granules\nSwallow whole. Do not crush or chew (CPS 2008).\nCapsule, enteric-coated pellets; Tablets, enteric-coated granules\n(For individuals who experience difficulties swallowing) Capsules/Tablets may be opened and the content may be mixed with soft food or fluid. Use immediately after mixing (CPS 2008).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 192
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#007",
+   "text": "Duration(s) of Use: Products providing 60,000,000 FCC PU or less bromelain, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 16 weeks (Kasemsuk et al. 2016; Gutfreund et al. 1978).\nProducts providing more than 60,000,000 FCC PU bromelain, per day and products containing pancreatic enzymes; pancreatic extract; pancreatin; pancrelipase\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 weeks.\nProducts containing any other enzyme from Tables 1, 2 and 3\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 to 8 weeks 1 .\n1 Note: The term ‘prolonged use ’used in previous version of the monograph has been further defined to avoid confusion.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 117
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#008",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nProducts containing one or more carbohydrases (Table 1); cellulase; lactase; pancreatic enzymes; pancreatic extract; pancreatin; pancrelipase\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes.\nProducts containing one or more proteases (Table 2); chymotrypsin; bromelain; papain; trypsin\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have gastrointestinal lesions/ulcers or are having surgery.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners or anti-inflammatory medications.\nProducts containing papain\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have an allergy to latex or fruits (such as avocado, banana, chestnut, passion fruit, fig, melon, mango, kiwi, pineapple, peach, and tomato) (US FDA 2008; APhA 2006; Brehler et al. 1997).\nProducts containing pancreatic enzymes; pancreatic extract; pancreatin; pancrelipase\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have pancreatitis, pancreatic exocrine insufficiency or cystic fibrosis (Halm et al. 1999; Delhaye et al. 1996; Guarner et al. 1993).\nPrevention of gastrointestinal intolerance/Reduction of flatulence/Minor pain, swelling, and inflammation relief/Lactose digestion/Symptoms of lactose intolerance/Digestive aid/Decrease bloating",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "surgery",
+    "diabetes"
+   ],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 210
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#009",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#010",
+   "text": "Contraindication(s): Products containing pancreatic enzymes; pancreatic extract; pancreatin; pancrelipase\nDo not use if you are sensitive to pancreatic enzymes (Brayfield and Cadart 2025; CPS 2008).\nProducts sourced from Sus scrofa pancreas\nDo not use if you are sensitive to pork proteins (Brayfield and Cadart 2025; CPS 2008).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "hc-nhpid-enzyme-multi#011",
+   "text": "Known adverse reaction(s): All products\nStop use if hypersensitivity/allergy occurs (Brayfield and Cadart 2025; Pray 2006; CPS 2005; Ganiats et al. 1994).\nProducts containing lactase\nStop use if gastrointestinal discomfort/disturbances occur (HC 2011).\nProducts containing pancreatic enzymes; pancreatic extract; pancreatin; pancrelipase\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if nausea, vomiting, abdominal pain/epigastric pain, and/or heartburn occur (Friess et al. 1998).\nProducts containing bromelain\nWhen using this product you may experience gastrointestinal discomfort/disturbances (Brayfield and Cadart 2025; Brinker 2010; Brien et al. 2006; Murray and Pizzorno 2006; Blumenthal et al. 2000; Baur and Fruhmann 1979).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Digestive Enzymes",
+    "Glucan glucanohydrolase alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 100
+  }
+ ]
+}

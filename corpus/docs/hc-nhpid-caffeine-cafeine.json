@@ -1,0 +1,204 @@
+{
+ "doc_id": "hc-nhpid-caffeine-cafeine",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CAFFEINE",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=caffeine.cafeine&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "caffeine.cafeine"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:f82003c62f24d9ae3597370d9897768e95a1a222380b7766dada7941de76b358",
+ "entities": [
+  "CAFFEINE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-caffeine-cafeine#001",
+   "text": "Route of Administration: Oral (Higdon and Frei 2006)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CAFFEINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 8
+  },
+  {
+   "chunk_id": "hc-nhpid-caffeine-cafeine#002",
+   "text": "Dosage Form(s): This monograph does not apply to caffeine added to food. Caffeine is regulated as a food additive when it is added to foods, including beverages, chewing gum, and bars. Questions about using caffeine in food can be sent to the Food Directorate (food-aliment@hc-sc.gc.ca).\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.\nFor caffeinated energy shots, select \"liquid (shot)\".\nNote: A caffeinated energy shot is defined as a pre-packaged, ready-to-consume product with a volume of 90 mL or less and meant to be consumed at once (HC 2023, 2013).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CAFFEINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 106
+  },
+  {
+   "chunk_id": "hc-nhpid-caffeine-cafeine#003",
+   "text": "Use(s) or Purpose(s): All oral dosage forms\nHelps (temporarily) to support/promote alertness and wakefulness, and to enhance cognitive performance (Christopher et al. 2005; Kamimori et al. 2000; Zwyghuizen-Doorenbos et al. 1990).\nHelps (temporarily) to support/promote mental sharpness/alertness (Christopher et al. 2005; Kamimori et al. 2000; Zwyghuizen-Doorenbos et al. 1990).\nHelps (temporarily) to relieve/reduce fatigue, to promote endurance, and to enhance motor performance (Philip et al. 2006; Doherty and Smith 2005; Smith et al. 2005).\nHelps (temporarily) to enhance (physical) energy (Philip et al. 2006; Doherty and Smith 2005; Smith et al. 2005).\nHelps (temporarily) to relieve/reduce fatigue/tiredness (Philip et al. 2006; Doherty and Smith 2005; Smith et al. 2005).\nOral dosage forms except energy shots (liquid (shot))\nUsed (temporarily) as a mild diuretic (Shirley et al. 2002; Neuhäuser-Berthold et al. 1997).\nNotes:\nThe above uses can be combined on the product label (e.g. Helps temporarily to support mental alertness and reduce fatigue).\nThe terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "CAFFEINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 165
+  },
+  {
+   "chunk_id": "hc-nhpid-caffeine-cafeine#004",
+   "text": "Quantity(ies): Mild diuretic\n100 - 200 milligrams of caffeine, per single dose; Not to exceed 800 milligrams, per day (Shirley et al. 2002; IOM 2001; Neuhäuser-Berthold et al. 1997).\nOther uses\n100 - 200 milligrams of caffeine, per single dose; Not to exceed 1000 milligrams, per day (FDA 2023; Sawynok 1995; Greden 1974).\nEnergy shots (liquid (shot))\n100 - 200 milligrams caffeine, per single dose (= per shot); Not to exceed 400 milligrams, per day (HC 2023).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "CAFFEINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 77
+  },
+  {
+   "chunk_id": "hc-nhpid-caffeine-cafeine#005",
+   "text": "Direction(s) for use: Products providing more than 200 mg caffeine, per day (i.e. to be taken in divided doses or, for shots, if the recommended daily dose includes more than one single dose (= shot) providing more than 100 mg caffeine each)\nWait 3 to 4 hours between each dose.\nEnergy shots (liquid (shot))\nDo not mix with alcohol (HC 2013).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "CAFFEINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "hc-nhpid-caffeine-cafeine#006",
+   "text": "Duration(s) of Use: Mild diuretic or products providing more than 400 mg of caffeine, per day\nFor occasional use only (Higdon and Frei 2006; Juliano and Griffiths 2004; Evans and Griffiths 1999)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "CAFFEINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-caffeine-cafeine#007",
+   "text": "Caution(s) and warning(s): Products providing 100 mg to 400 mg caffeine, per day 1\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have high blood pressure or glaucoma (Cornelis and El-Sohemy 2007, Chandrasekaran et al. 2005, Noordzij et al. 2005, Avisar et al. 2002, Arya et al. 2000, Jee et al. 1999, Creighton and Stanton 1990).\n1 Note: This statement is also required at subtherapeutic quantities for products providing 40 mg or more caffeine per day from all sources for Class II and III applications.\nProducts providing more than 300 mg caffeine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant, breastfeeding, or attempting to conceive (Nawrot et al. 2003).\nProducts providing 400 mg or more caffeine, per day\nWhen using this product avoid taking other health products, foods or beverages that contain caffeine and/or increase blood pressure (FDA 2023; Bui et al. 2006; Bouchard et al. 2005; Haller et al. 2005; NIH 2004; Berardi et al. 2002; Vahedi et al. 2000; Zimmerman 1992).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension"
+   ],
+   "entities": [
+    "CAFFEINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 177
+  },
+  {
+   "chunk_id": "hc-nhpid-caffeine-cafeine#008",
+   "text": "Contraindication(s): Products providing more than 400 mg caffeine per day\nDo not use if you have high blood pressure or glaucoma (Cornelis and El-Sohemy 2007, Chandrasekaran et al. 2005, Noordzij et al. 2005, Avisar et al. 2002, Arya et al. 2000, Jee et al. 1999, Creighton and Stanton 1990).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "CAFFEINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 49
+  },
+  {
+   "chunk_id": "hc-nhpid-caffeine-cafeine#009",
+   "text": "Known adverse reaction(s): All products\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if hypersensitivity/allergy occurs (Infante et al. 2003; Hinrichs et al. 2002).\nProducts providing 200 mg or more caffeine, per day\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms such as chest pain and irregular heartbeat occur (Higgins and Babu 2013).\nProducts providing more than 400 mg caffeine, per day\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if nervousness, anxiety, insomnia, tremor and/or headache occur (IOM 2001, Zhang 2001, Sawynok 1995).\nAll products except those making a diuretic claim 1\nWhen using this product diuretic effect may occur.\n1 Note: This statement is also required at subtherapeutic quantities for products providing 40 mg or more caffeine per day from all sources for Class II and III applications.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "anticoagulant",
+    "hypertension"
+   ],
+   "entities": [
+    "CAFFEINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 144
+  }
+ ]
+}

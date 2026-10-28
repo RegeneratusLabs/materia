@@ -1,0 +1,142 @@
+{
+ "doc_id": "hc-nhpid-cranberry-dried-canneberge-deshydrate2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "DRIED CRANBERRY JUICE",
+ "title_extra": null,
+ "date": "2026-03-27",
+ "revised": "2026-03-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-03-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=cranberry.dried.canneberge.deshydrate2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "cranberry.dried.canneberge.deshydrate2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:cc7881f2b9172427913bf829d3a33d98c23eb1bb7a2acc20921aaf2404084be4",
+ "entities": [
+  "DRIED CRANBERRY JUICE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-cranberry-dried-canneberge-deshydrate2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "DRIED CRANBERRY JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-cranberry-dried-canneberge-deshydrate2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Valentenova et al. 2007; Ruel et al. 2005; Upton 2002).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Valentenova et al. 2007; Ruel et al. 2005; Upton 2002).\n(Traditionally) used in Herbal Medicine to help prevent (recurrent) urinary tract infections (UTIs) (in women) (Barnes et al. 2007; Bruyère 2006; Mills and Bone 2005; Blumenthal et al. 2003; Bodel et al. 1959).\nHelps prevent (recurrent) urinary tract infections (UTIs) (in women) (Jepson and Craig 2008; Stothers 2002; Walker et al. 1997; Avorn et al. 1994).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Source of antioxidants and helps prevent recurrent urinary tract infections in women).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Dried cranberry juice is traditionally used in Herbal Medicine to help prevent urinary tract infections).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "DRIED CRANBERRY JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-cranberry-dried-canneberge-deshydrate2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "DRIED CRANBERRY JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-cranberry-dried-canneberge-deshydrate2#004",
+   "text": "Quantity(ies): Antioxidant\nMethod of preparation: Juice powdered\nNot to exceed 1,200 milligrams of dried fruit juice, per day (Valentenova et al. 2007; Upton 2002).\n(Recurrent) urinary tract infection\nMethod of preparation: Juice powdered\n400 – 1,200 milligrams of dried fruit juice, per day (Mills and Bone 2005; Upton 2002; Walker et al. 1997).\nNote: Applicants are not to provide a quantity of crude equivalent (QCE) and/or extract ratio.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "DRIED CRANBERRY JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "hc-nhpid-cranberry-dried-canneberge-deshydrate2#005",
+   "text": "Duration(s) of use: Antioxidant\nNo statement required.\n(Recurrent) urinary tract infection\nUse for at least 4 weeks to see beneficial effects (Jepson and Craig 2008; Blumenthal et al. 2003; Walker et al. 1997; Avorn et al. 1994).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "DRIED CRANBERRY JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "hc-nhpid-cranberry-dried-canneberge-deshydrate2#006",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a history of kidney stones (Gettman et al. 2005; Terris et al. 2001).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners (Brinker 2010; Aston et al. 2006; Rindone and Murphy 2005; Grant 2004).\n(Recurrent) urinary tract infection\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "renal"
+   ],
+   "entities": [
+    "DRIED CRANBERRY JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 79
+  }
+ ]
+}

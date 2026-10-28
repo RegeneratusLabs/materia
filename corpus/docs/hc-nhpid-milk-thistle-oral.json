@@ -1,0 +1,167 @@
+{
+ "doc_id": "hc-nhpid-milk-thistle-oral",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "MILK THISTLE - SILYBUM MARIANUM",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-06-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=milk.thistle.oral&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "milk.thistle.oral"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:3e0ddde0f032fe3d37586589d6522e103635485f2cbfdf10ccd879807a5cf803",
+ "entities": [
+  "MILK THISTLE - SILYBUM MARIANUM",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-milk-thistle-oral#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.\nNote: Due to poor water solubility of silymarin, infusions and decoctions are not permitted for \"hepatoprotectant/liver protectant and/or support of liver function\" claims (Blumenthal 2003).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "MILK THISTLE - SILYBUM MARIANUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "hc-nhpid-milk-thistle-oral#002",
+   "text": "Use(s) or Purpose(s): Traditionally used in Herbal Medicine as a hepatoprotectant/liver protectant (Bradley 2006; Hoffmann 2003; Blumenthal et al. 2000; Mills and Bone 2000; Ellingwood 1983; Felter and Lloyd 1983; Wren 1907).\n[Used in Herbal Medicine as a] hepatoprotectant/liver protectant (Bradley 2006; Hoffmann 2003; Blumenthal et al. 2000; Mills and Bone 2000).\n(Used in Herbal Medicine to) help(s) to support liver function (Velussi et al. 1997; Fehér et al. 1989; Salmi and Sarna 1982; Magliulo et al. 1978).\nUsed in Herbal Medicine to help relieve digestive disturbances/dyspepsia (Blumenthal et al. 2000; Mills 1993).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Used in Herbal Medicine to help support liver function and relieve digestive disturbances).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Milk thistle is traditionally used in Herbal Medicine as a hepatoprotectant).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "liver",
+    "traditional"
+   ],
+   "entities": [
+    "MILK THISTLE - SILYBUM MARIANUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 197
+  },
+  {
+   "chunk_id": "hc-nhpid-milk-thistle-oral#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "MILK THISTLE - SILYBUM MARIANUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-milk-thistle-oral#004",
+   "text": "Quantity(ies): Hepatoprotectant/Liver protectant agent; Liver function\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid Extract)\n3 - 14.5 grams of dried fruit/seed, per day; Not to exceed 4 grams per single dose (Blumenthal et al. 2000; Mills and Bone 2000; Mills 1993).\nDigestive disturbances/dyspepsia\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid Extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n3 - 14.5 grams of dried fruit/seed, per day; Not to exceed 4 grams per single dose (Blumenthal et al. 2000; Mills and Bone 2000; Mills 1993).\n*Note: Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry extract)” as part of this monograph are ethanol and/or water only.\nAll non-traditional uses\nMethods of preparation: Standardized Extracts (Dry extract, Tincture, Fluid Extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n140 - 600 milligrams of silymarin (calculated as silibin/silybin), per day; Not to exceed 200 milligrams per single dose (Williamson 2003; Blumenthal et al. 2000; Mills and Bone 2000; Velussi et al. 1997; Fehér et al. 1989; Salmi and Sarna 1982; Magliulo et al. 1978).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "liver",
+    "traditional"
+   ],
+   "entities": [
+    "MILK THISTLE - SILYBUM MARIANUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 179
+  },
+  {
+   "chunk_id": "hc-nhpid-milk-thistle-oral#005",
+   "text": "Duration(s) of use: Hepatoprotectant/Liver protectant agent; Liver function\nUse for at least 3 weeks to see beneficial effects (Flora et al. 1998; Magliulo et al. 1978).\nDigestive disturbances/dyspepsia\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "MILK THISTLE - SILYBUM MARIANUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "hc-nhpid-milk-thistle-oral#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant (Brinker 2010; Mills et al. 2006).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "MILK THISTLE - SILYBUM MARIANUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "hc-nhpid-milk-thistle-oral#007",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (Geier et al. 1990; Mironets et al. 1990).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "MILK THISTLE - SILYBUM MARIANUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  }
+ ]
+}

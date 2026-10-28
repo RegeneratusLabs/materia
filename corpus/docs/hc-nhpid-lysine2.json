@@ -1,0 +1,104 @@
+{
+ "doc_id": "hc-nhpid-lysine2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "LYSINE",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=lysine2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "lysine2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:c20f47db20c5ea70a29243f4d2a0dd1df8f7f645400e742884e341d22b874470",
+ "entities": [
+  "LYSINE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-lysine2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "LYSINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-lysine2#002",
+   "text": "Use(s) or Purpose(s): Source of an/An essential amino acid for the maintenance of good health (Brayfield and Cadart 2024; IOM 2002).\nSource of an/An essential amino acid involved in muscle protein synthesis (Brayfield and Cadart 2024; IOM 2002).\nHelps to reduce the recurrence of herpes simplex virus (HSV) infection (e.g., cold sores) (Wright 1994; Griffith et al. 1987;\nSimon et al. 1985; McCune et al. 1984; Miller et al. 1984; Thein et al. 1984; Walsh et al. 1983; Griffith et al. 1978).\nHelps in collagen formation (Shils et al. 2006; IOM 2002; Groff and Gropper 2000).\nNotes\nThe above uses can be combined on the product label (e.g., Source of an essential amino acid involved in muscle protein synthesis and for the maintenance of good health).\nThe terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "LYSINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 139
+  },
+  {
+   "chunk_id": "hc-nhpid-lysine2#003",
+   "text": "Quantity(ies): Reduce the recurrence of HSV infection\n1,000 - 3,000 milligrams, per day (Wright 1994; Griffith et al. 1987; Simon et al. 1985; McCune et al. 1984; Miller et al. 1984; Thein et al. 1984; Walsh et al. 1983; Griffith et al. 1978).\nOther uses\n133 - 3,000 milligrams, per day (Wright 1994; Griffith et al. 1987; Simon et al. 1985; McCune et al. 1984; Miller et al. 1984; Thein et al. 1984; Walsh et al. 1983; Griffith et al. 1978).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "LYSINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 81
+  },
+  {
+   "chunk_id": "hc-nhpid-lysine2#004",
+   "text": "Caution(s) and warning(s): Products providing more than 300 mg of lysine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Goldman and Ausiello 2004).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "LYSINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  }
+ ]
+}

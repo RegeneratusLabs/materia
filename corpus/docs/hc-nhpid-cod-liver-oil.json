@@ -1,0 +1,128 @@
+{
+ "doc_id": "hc-nhpid-cod-liver-oil",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "COD LIVER OIL",
+ "title_extra": null,
+ "date": "2026-09-25",
+ "revised": "2026-09-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-09-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=cod.liver.oil&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "cod.liver.oil"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:1e0ab95086c8eca21cc1fcbfeac420a8262db1804f736372f0c9f775bdc212ad",
+ "entities": [
+  "COD LIVER OIL",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-cod-liver-oil#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nInfants 0 - 12 months, and Children 1-2 years: The acceptable dosage forms are limited to emulsion/suspension and solution/liquid preparations drops (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years: The acceptable dosage forms are limited to chewables, emulsion/suspension, powders and solution/liquid preparations drops (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: The acceptable dosage forms for this age category and specified route of administration are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications. Although delayed release dosage forms are usually not supported by the NNHPD's monographs, this monograph includes 'Capsule, soft, enteric-coated' which is commonly used for marine oil products.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "COD LIVER OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 145
+  },
+  {
+   "chunk_id": "hc-nhpid-cod-liver-oil#002",
+   "text": "Use(s) or Purpose(s): Products providing daily doses of vitamin A at or above the Recommended Dietary Allowance (RDA) or Adequate Intake (AI) (adjusted for the life stage groups)\nHelps to prevent vitamin A deficiency (IOM 2006; Shils et al. 2006; Groff and Gropper 2000).\nProducts providing daily doses of vitamin D at or above the Recommended Dietary Allowance (RDA) or Adequate Intake (AI) (adjusted for the life stage groups)\nHelps to prevent vitamin D deficiency (IOM 2011, 2006; Shils et al. 2006; Groff and Gropper 2000; IOM 1997).\nProducts providing 138-3,000µg retinol activity equivalents (RAE) (µg vitamin A/all-trans retinol (palmitate)), per day\nAs per the current NNHPD Multi-vitamin/Mineral Supplements Monograph.\nProducts providing 1.15-25µg vitamin D 3 /cholecalciferol, per day\nAs per the current NNHPD Multi-vitamin/Mineral Supplements Monograph.\nProducts providing 100-1,360 mg eicosapentaenoic acid (EPA) + docosahexaenoic acid (DHA) 1 , per day\nSource of omega-3 fatty acids for the maintenance of good health (Simopoulos 2007; Oh 2005; IOM 2002; Simopoulos 1999)\nSource of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) for the maintenance of good health (Simopoulos 2007; Oh 2005; IOM 2002; Simopoulos 1999)\nProducts providing 150-1,360 mg EPA + DHA 1 including at least 100 mg DHA, per day",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "COD LIVER OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 200
+  },
+  {
+   "chunk_id": "hc-nhpid-cod-liver-oil#003",
+   "text": "Use(s) or Purpose(s): Helps support/maintain cognitive health (van de Rest et al. 2008; Freund-Levi et al. 2006; Fontani et al. 2005a,b; Haag 2003; Morris et al. 2003; IOM 2002).\nHelps support/maintain brain function (van de Rest et al. 2008; Freund-Levi et al. 2006; Fontani et al. 2005a,b; Haag 2003; Morris et al. 2003; IOM 2002).\nProducts for children up to 12 years old and providing 200-765 mg EPA + DHA 1 including at least 150 mg DHA, per day\nHelps support/maintain (healthy) development of brain/(and), eyes/(and) nerves in children up to 12 years of age (Agostini 2008; Helland et al. 2008; Ryan and Nelson 2008; Marszalek and Lodish 2005; Haag 2003; IOM 2002; Giedd et al. 1999; Mills 1999).\nNotes:\n1 EPA and DHA may be represented as Omega-3 fatty acids on the PLA form.\nRefer to Appendix IV of the NNHPD Multivitamin/mineral Supplements monograph for the RDA and AI of Vitamin A and Vitamin D.\nThe above uses can be combined on the product label (e.g., Helps support cognitive health and to prevent vitamin A and D deficiency).\nThe terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "COD LIVER OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 192
+  },
+  {
+   "chunk_id": "hc-nhpid-cod-liver-oil#004",
+   "text": "Quantity(ies): Method of preparation: Standardized fixed oil\nIn addition to the quantity of cod liver oil, the potency information must be provided. The potency may be expressed either as the amount (milligrams) and/or percentage (%) of EPA and DHA (% w/w) relative to the total quantity of fish oil or replaced with the sub-ingredient, Omega-3 fatty acids, on the PLA form.\nIf potency is declared as Omega-3 fatty acids , the licence holder must ensure that the minimum EPA and DHA amounts required to support the selected claims are met. Documentation demonstrating EPA and DHA content must be maintained and made available upon request.\nOmega-3 fatty acids from fish oil may include EPA, DHA and DPA.\nIf the potency is listed as Omega-3 fatty acids on the PLA form, the label may also include the amounts of EPA and DHA as additional information.\nConversely, if EPA and DHA are listed on the PLA form, the label may also include the total Omega-3 fatty acids content as additional information.\nIf DPA is present, it may be listed as additional information on the marketed label.\nThe potencies of vitamin A and vitamin D 3 must be indicated on the PLA and label.\nTable 2. Daily dose for cod liver oil 1\nSubpopulation(s)\nCod liver oil\nMinimum 2\nMaximum 3\n(ml/day) 4\n(g/day)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "COD LIVER OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-cod-liver-oil#005",
+   "text": "Quantity(ies): (ml/day) 4\n(g/day)\nInfants\n0-12 month(s)\n0.83\n0.77\n0.87\n0.80\nChildren\n1-3 year(s)\n0.83\n0.77\n0.87\n0.80\n4-8 years\n0.83\n0.77\n1.3\n1.2\n9-11 years\n0.83\n0.77\n2.4\n2.2\nAdolescents\n12-13 years\n0.83\n0.77\n2.4\n2.2\n14-17 years\n0.83\n0.77\n4.0\n3.7\nAdults\n18 years and older\n0.83\n0.77\n4.3\n4.0\n1 BP 2012, Ph.Eur. 2012 or USP-NF 2023 grade Cod liver oil must be used to ensure that potencies of vitamin A, vitamin D 3 , and EPA + DHA listed in Tables 3 , 4 and 5 are met.\n2 The minimum dose of Cod liver oil is based on the minimum quantities of EPA + DHA required for efficacy.\n3 The maximum dose is based on the quantity of Cod liver oil providing the maximum daily amount of vitamin A, in µg RAE, according to the UL (IOM 2006). For adults, the same maximum of oil was established for 18 years and older; however, the amount of vitamin A should not exceed the maximum values as per Table 3 .\n4 Based on the specific gravity of Cod liver oil (USP-NF 2023)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "liver"
+   ],
+   "entities": [
+    "COD LIVER OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 186
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "doc_id": "hc-nhpid-organotherapy",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Organotherapy (Anas barbariae)",
+ "title_extra": null,
+ "date": "2025-01-10",
+ "revised": "2025-01-10",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-01-10",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=organotherapy&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "organotherapy"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:e897d56bcdccf2097bb7f2b742481a6d012cce041837346b8f3aa04821642f04",
+ "entities": [
+  "Organotherapy",
+  "Anas barbariae"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-organotherapy#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nThe acceptable dosage forms are those indicated in Table 2 below.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Organotherapy",
+    "Anas barbariae"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 30
+  },
+  {
+   "chunk_id": "hc-nhpid-organotherapy#002",
+   "text": "Subpopulation(s): Adolescent 13-17 years, Adults 18 and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Organotherapy",
+    "Anas barbariae"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 8
+  },
+  {
+   "chunk_id": "hc-nhpid-organotherapy#003",
+   "text": "Quantity(ies): The dilution for each medicinal ingredient must be equal to or greater\nthan 3X (or equivalent).\nTable 2. Dosing information\nDosage form(s)\nMaximum General Dosing\nMaximum Acute Dosing\nAmount\nFrequency\n(Optional)\nGlobules (small pellets, pilules)\n1 whole unit dose (tube of container)\n1 time per day\n1 unit dose, 3 times per day\nGranules (regular and large pellets)\n5 granules\n3 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement\nof symptoms. Then resume general dosing.\nTablets\n4 tablets\n4 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement\nof symptoms. Then resume general dosing.\nOral Drops\n30 drops\n3 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement\nof symptoms. Then resume general dosing.\nOral Spray\n10-15 sprays\n3 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement of symptoms. Then resume general dosing.\nLiquids (oral drinkable vials)\n1 ampoule\n3 times per day\nUp to 3 times per day\nOral Solutions (unit dose)\n1 unit dose\n3 times per day\nGive one unit dose upon onset of symptoms. Repeat two more times\nat 15-minute intervals. Repeat process up to 9 times per day if\nsymptoms reappear.\nOral Syrups\n1-2 teaspoons\nEvery 4-6 hours",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Organotherapy",
+    "Anas barbariae"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-organotherapy#004",
+   "text": "Quantity(ies): Not applicable\nCreams/Ointments\nCover affected area\nAs needed\nNot applicable\nNasal Sprays\n2 sprays/nostril\n5 times per day\nNot applicable\nSuppositories\n1 suppository\n1-4 times per day\nUp to 4 times per day",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Organotherapy",
+    "Anas barbariae"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "hc-nhpid-organotherapy#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Organotherapy",
+    "Anas barbariae"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "hc-nhpid-organotherapy#006",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Organotherapy",
+    "Anas barbariae"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  }
+ ]
+}

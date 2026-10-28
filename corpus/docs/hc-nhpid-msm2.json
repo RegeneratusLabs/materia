@@ -1,0 +1,155 @@
+{
+ "doc_id": "hc-nhpid-msm2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "MSM",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=msm2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "msm2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:6b14331a014be61910007f084ef5094a1e87420f40f615e5d859c1150717db83",
+ "entities": [
+  "MSM",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-msm2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "MSM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 44
+  },
+  {
+   "chunk_id": "hc-nhpid-msm2#002",
+   "text": "Use(s) or Purpose(s): Helps relieve (joint) pain associated with osteoarthritis (of the knee) (Kim et al. 2005; Usha and Naidu 2004).\nNote: The terms 'Helps' or 'Helps to' can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "MSM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 35
+  },
+  {
+   "chunk_id": "hc-nhpid-msm2#003",
+   "text": "Quantity(ies): 1,500 - 6,000 milligrams of MSM, per day; Not to exceed 2,000 milligrams per single dose (Kim et al. 2005; Usha and Naidu 2004)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "MSM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  },
+  {
+   "chunk_id": "hc-nhpid-msm2#004",
+   "text": "Direction(s) for use: Products providing 1,500 mg or more of MSM, per day\nTake with food (Kim et al. 2005).\nAvoid taking at bedtime (Kim et al. 2005).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "MSM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "hc-nhpid-msm2#005",
+   "text": "Duration(s) of use: Use for at least 4 weeks to see beneficial effects (Kim et al. 2005; Usha and Naidu 2004).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "MSM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  },
+  {
+   "chunk_id": "hc-nhpid-msm2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "MSM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-msm2#007",
+   "text": "Known adverse reaction(s): When using this product you may experience gastrointestinal discomfort/disturbances (Kim et al. 2005).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "MSM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  }
+ ]
+}

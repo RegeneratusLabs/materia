@@ -1,0 +1,144 @@
+{
+ "doc_id": "hc-nhpid-catnip2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CATNIP - NEPETA CATARIA",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=catnip2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "catnip2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:cd7b69fe8a3640351c2d4bf97c01345f31a77d73361f1de4abec71ed61c942c0",
+ "entities": [
+  "CATNIP - NEPETA CATARIA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-catnip2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CATNIP - NEPETA CATARIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-catnip2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine (as an antispasmodic) to help relieve digestive spasms and (as a carminative to help relieve) indigestion/flatulent dyspepsia (Hoffmann 2003; BHP 1983; Felter and Lloyd 1983; Grieve 1971).\n(Traditionally) used in Herbal Medicine (as a diaphoretic) to help relieve feverish conditions by inducing sweating (Hoffmann 2003; Felter and Lloyd 1983).\n(Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (nervine/calmative) (Hoffmann 2003; Williamson 2003; BHP 1983; Grieve 1971).\n(Traditionally) used in Herbal Medicine (as an astringent) to help relieve diarrhea (Hoffmann 2003; Williamson 2003; Moerman 1998; Mills 1985; BHP 1983).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help relieve digestive spasms, indigestion and diarrhea).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Catnip is traditionally used in Herbal Medicine as an astringent to help relieve diarrhea).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "CATNIP - NEPETA CATARIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 206
+  },
+  {
+   "chunk_id": "hc-nhpid-catnip2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "CATNIP - NEPETA CATARIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-catnip2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n1.2 - 12 grams of dried herb top, per day (Hoffmann 2003; Williamson 2003; Mills 1985; BHP 1983).\n*Note: Solvents allowed for the method of preparation \"Non-Standardized Extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CATNIP - NEPETA CATARIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 59
+  },
+  {
+   "chunk_id": "hc-nhpid-catnip2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CATNIP - NEPETA CATARIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-catnip2#006",
+   "text": "Contraindication(s): Do not use if you are pregnant (Gardner and McGuffin 2013; Brinker 2010).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CATNIP - NEPETA CATARIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

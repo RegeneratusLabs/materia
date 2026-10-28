@@ -1,0 +1,104 @@
+{
+ "doc_id": "hc-nhpid-red-wine-ext-vin-rouge2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "RED WINE EXTRACT",
+ "title_extra": null,
+ "date": "2026-02-27",
+ "revised": "2026-02-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-02-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=red.wine.ext.vin.rouge2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "red.wine.ext.vin.rouge2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:5029886f55b640d6d3379b91f1603bb294bbdd4f89025dfec79d957d1e0dec32",
+ "entities": [
+  "RED WINE EXTRACT",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-red-wine-ext-vin-rouge2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "RED WINE EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-red-wine-ext-vin-rouge2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Meskin et al. 2002; Cuevas et al. 2000).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Meskin et al. 2002; Cuevas et al. 2000).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "RED WINE EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "hc-nhpid-red-wine-ext-vin-rouge2#003",
+   "text": "Quantity(ies): Methods of preparation: Standardized or Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 1 gram of red wine extract, per day (Chopra et al. 2000; Cuevas et al. 2000; Nigdikar et al. 1998).\nStandardized potency: Not to exceed 95% polyphenols (Botden et al. 2012; Chopra et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "RED WINE EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "hc-nhpid-red-wine-ext-vin-rouge2#004",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Meskin et al. 2002).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "RED WINE EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  }
+ ]
+}

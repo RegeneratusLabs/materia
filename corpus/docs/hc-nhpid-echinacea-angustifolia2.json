@@ -1,0 +1,125 @@
+{
+ "doc_id": "hc-nhpid-echinacea-angustifolia2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ECHINACEA- ECHINACEA ANGUSTIFOLIA",
+ "title_extra": null,
+ "date": "2025-03-28",
+ "revised": "2025-03-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-03-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=echinacea.angustifolia2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "echinacea.angustifolia2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:f8fe71b3b5e2ec87a0ce43e8d4a95ac1f915fd17c5d99205df4d083cd6bf5bae",
+ "entities": [
+  "ECHINACEA- ECHINACEA ANGUSTIFOLIA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-echinacea-angustifolia2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 2 years: The acceptable dosage forms are limited to emulsion/suspension and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years: The acceptable dosage forms are limited to chewables, emulsion/suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: The acceptable dosage forms for oral use are indicated in the dosage drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ECHINACEA- ECHINACEA ANGUSTIFOLIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 103
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-angustifolia2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve the symptoms of upper respiratory tract infections (Barnes et al. 2007; Blumenthal et al. 2000; Ellingwood 1983; Felter and Lloyd 1983; Grieve 1971).\n(Traditionally) used in Herbal Medicine to help relieve sore throats (Blumenthal et al. 2000; Moerman 1998).\nNotes:\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help relieve the symptoms of upper respiratory tract infections and sore throats).\nFor multi-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Echinacea is traditionally used in Herbal Medicine to help relieve sore throats).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the same identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ECHINACEA- ECHINACEA ANGUSTIFOLIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 196
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-angustifolia2#003",
+   "text": "Quantity(ies): Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nTable 2. Dose information (grams) for Echinacea dried root and/or rhizome per day\nSubpopulation(s) 1 , 2\nDried root/rhizome (g/day)\nMinimum\nMaximum\nChildren\n2-4 years\n0.17 g\n0.5 g\n5-9 years\n0.25 g\n0.8 g\n10-11 years\n0.5 g\n1.5 g\nAdolescents\n12-14 years\n0.5 g\n1.5 g\n15-17 years\n1.0 g\n3.0 g\nAdults\n18 years and older\n1.0 g\n3.0 g\n1 Children and adolescent doses were calculated as a proportion of the adult dose (JC 2023). The use of Echinacea angustifolia in children is supported by the following references: McIntyre 2005; Bove 2001; Schilcher 1997.\n2 Adult dose supported by the following references: Barnes et al. 2007; Blumenthal et al. 2000; Bradley 1992.\nNote: Solvents allowed for the method of preparation “Non-standardized extracts (Dry extract)” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ECHINACEA- ECHINACEA ANGUSTIFOLIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 154
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-angustifolia2#004",
+   "text": "Duration(s) of use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 8 weeks (Brinker 2010).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ECHINACEA- ECHINACEA ANGUSTIFOLIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-angustifolia2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a progressive systemic disease such as tuberculosis, collagenosis, multiple sclerosis, or an immune system disorder (Gardner and McGuffin 2013; Brinker 2010).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications to suppress the immune system (Brinker 2010; Mills and Bone 2005).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ECHINACEA- ECHINACEA ANGUSTIFOLIA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 79
+  }
+ ]
+}

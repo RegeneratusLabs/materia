@@ -1,0 +1,198 @@
+# Red-flag gate. Runs before anything else and can only escalate.
+# Patterns are case-insensitive regexes over the user's own words.
+# Citations point to public referral guidance; the gate is code, not model output.
+rules:
+  - id: rf-chest-pain
+    urgency: emergency
+    patterns:
+      - "chest pain"
+      - "chest pressure"
+      - "crushing chest"
+      - "chest tightness.*(breath|sweat|arm|jaw)"
+      - "pain.*(radiat|spread).*(arm|jaw|neck)"
+    action: "Call emergency services now. Do not drive yourself."
+    citation:
+      source: "NHS — heart attack"
+      url: "https://www.nhs.uk/conditions/heart-attack/"
+
+  - id: rf-stroke
+    urgency: emergency
+    patterns:
+      - "face (is )?droop"
+      - "drooping (face|mouth)"
+      - "one side of (my |her |his )?face"
+      - "slurred speech"
+      - "sudden weakness.*(arm|leg|side)"
+      - "sudden.*(numb|numbness).*(face|arm|leg)"
+    action: "Call emergency services now — stroke symptoms are time-critical."
+    citation:
+      source: "NHS — stroke symptoms"
+      url: "https://www.nhs.uk/conditions/stroke/"
+
+  - id: rf-breathless
+    urgency: emergency
+    patterns:
+      - "cannot breathe"
+      - "can't breathe"
+      - "short of breath at rest"
+      - "severe shortness of breath"
+      - "blue lips"
+    action: "Emergency assessment now."
+    citation:
+      source: "NHS — shortness of breath"
+      url: "https://www.nhs.uk/conditions/shortness-of-breath/"
+
+  - id: rf-thunderclap
+    urgency: emergency
+    patterns:
+      - "worst headache"
+      - "sudden severe headache"
+      - "thunderclap"
+      - "headache.*(sudden|explosive)"
+    action: "Emergency assessment now — sudden severe headache needs exclusion of a bleed."
+    citation:
+      source: "NICE CKS — headache assessment"
+      url: "https://cks.nice.org.uk/topics/headache-assessment/"
+
+  - id: rf-vision-loss
+    urgency: emergency
+    patterns:
+      - "sudden vision loss"
+      - "lost vision"
+      - "sudden.*(blind|blindness)"
+      - "curtain over.*eye"
+      - "flashes and floaters"
+    action: "Same-day ophthalmology or emergency assessment."
+    citation:
+      source: "NHS — vision loss"
+      url: "https://www.nhs.uk/conditions/loss-of-vision/"
+
+  - id: rf-gi-bleed
+    urgency: emergency
+    patterns:
+      - "vomiting blood"
+      - "vomited blood"
+      - "black stools"
+      - "black tarry stool"
+      - "blood in stool"
+      - "rectal bleeding"
+    action: "Emergency assessment for gastrointestinal bleeding."
+    citation:
+      source: "NHS — gastrointestinal bleeding"
+      url: "https://www.nhs.uk/conditions/gastrointestinal-bleeding/"
+
+  - id: rf-suicidal
+    urgency: emergency
+    patterns:
+      - "suicidal"
+      - "kill myself"
+      - "end(ing)? my life"
+      - "take my (own )?life"
+      - "suicide"
+      - "self-harm"
+      - "hurt myself"
+    action: "Immediate crisis support. Do not continue with a supplement consult."
+    citation:
+      source: "NHS — urgent mental health help"
+      url: "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
+
+  - id: rf-anaphylaxis
+    urgency: emergency
+    patterns:
+      - "throat.*(swell|tighten|closing)"
+      - "swollen tongue"
+      - "hives.*breath"
+      - "anaphyla"
+    action: "Emergency services now — anaphylaxis is an emergency."
+    citation:
+      source: "NHS — anaphylaxis"
+      url: "https://www.nhs.uk/conditions/anaphylaxis/"
+
+  - id: rf-weight-loss
+    urgency: urgent
+    patterns:
+      - "unexplained weight loss"
+      - "losing weight without trying"
+      - "lost \\d+ ?(kg|kilos|pounds|stones).*without"
+    action: "Urgent medical assessment — unexplained weight loss needs investigation before supplement advice."
+    citation:
+      source: "NICE NG12 — suspected cancer referral"
+      url: "https://www.nice.org.uk/guidance/ng12"
+
+  - id: rf-postmenopausal-bleeding
+    urgency: urgent
+    patterns:
+      - "postmenopausal bleeding"
+      - "bleeding after menopause"
+    action: "Urgent referral — postmenopausal bleeding is a red flag."
+    citation:
+      source: "NICE NG12 — suspected cancer referral"
+      url: "https://www.nice.org.uk/guidance/ng12"
+
+  - id: rf-breast-lump
+    urgency: urgent
+    patterns:
+      - "new lump"
+      - "lump in (my )?breast"
+      - "breast change"
+      - "nipple discharge"
+    action: "Urgent assessment via the appropriate referral pathway."
+    citation:
+      source: "NICE NG12 — suspected cancer referral"
+      url: "https://www.nice.org.uk/guidance/ng12"
+
+  - id: rf-infant-fever
+    urgency: emergency
+    patterns:
+      - "baby.*(fever|temperature)"
+      - "infant.*fever"
+      - "newborn.*(fever|temperature)"
+      - "under 3 months.*(fever|temperature)"
+    action: "Same-day paediatric assessment for fever in an infant under 3 months."
+    citation:
+      source: "NICE NG143 — fever in under 5s"
+      url: "https://www.nice.org.uk/guidance/ng143"
+
+  - id: rf-pregnancy-bleeding
+    urgency: emergency
+    patterns:
+      - "pregnan.*(bleed|pain)"
+      - "bleeding.*pregnan"
+    action: "Same-day obstetric assessment."
+    citation:
+      source: "NHS — bleeding in pregnancy"
+      url: "https://www.nhs.uk/pregnancy/related-conditions/complications/bleeding/"
+
+  - id: rf-dvt
+    urgency: urgent
+    patterns:
+      - "calf.*(swell|pain|red)"
+      - "leg.*(swollen|swelling).*(one|left|right)"
+      - "dvt"
+    action: "Urgent assessment — unilateral leg swelling needs exclusion of DVT."
+    citation:
+      source: "NICE NG158 — venous thromboembolic diseases"
+      url: "https://www.nice.org.uk/guidance/ng158"
+
+  - id: rf-jaundice
+    urgency: urgent
+    patterns:
+      - "yellow.*(skin|eyes)"
+      - "yellowing.*(skin|eyes)"
+      - "jaundice"
+    action: "Urgent medical assessment before any supplement or herbal advice."
+    citation:
+      source: "NHS — jaundice"
+      url: "https://www.nhs.uk/conditions/jaundice/"
+
+  - id: rf-severe-abdominal-pain
+    urgency: emergency
+    patterns:
+      - "severe abdominal pain"
+      - "severe stomach pain"
+      - "rigid abdomen"
+      - "pain.*stomach.*unbearable"
+    action: "Emergency assessment."
+    citation:
+      source: "NHS — stomach ache"
+      url: "https://www.nhs.uk/conditions/stomach-ache/"

@@ -1,0 +1,159 @@
+{
+ "doc_id": "hc-nhpid-angelica-sinensis2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "DONG QUAI - ANGELICA SINENSIS",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=angelica.sinensis2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "angelica.sinensis2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:e4da336472f74ff6d2eb1bbedfd577ba5ad7ba5c7b350dba845bdd67ae644de8",
+ "entities": [
+  "DONG QUAI - ANGELICA SINENSIS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-angelica-sinensis2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "DONG QUAI - ANGELICA SINENSIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-sinensis2#002",
+   "text": "Use(s) or Purpose(s): Used in Traditional Chinese Medicine (TCM) to invigorate and tonify the blood (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004).\nUsed in Traditional Chinese Medicine (TCM) to harmonize the blood (Bensky et al. 2004).\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Dong quai is used in Traditional Chinese medicine to invigorate and tonify the blood).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "DONG QUAI - ANGELICA SINENSIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 149
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-sinensis2#003",
+   "text": "Quantity(ies): Methods or preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n4.5 - 15 grams of dried root, per day (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004).\nNotes\nThe root may also be ‘prepared’ as per the specific TCM methods of preparation for Dong quai root described in TCM reference texts (e.g. dry-fried; stir-baked or dry-fried with wine/grain based liquor/vinegar; charred; etc.) (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004).\n*Solvents allowed for the method of preparation \"Non-standardized extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "DONG QUAI - ANGELICA SINENSIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-sinensis2#004",
+   "text": "Duration(s) of Use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 6 months (Hirata et al. 1997).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "DONG QUAI - ANGELICA SINENSIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-sinensis2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding (NS 2021).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician prior to use if you are taking any medications including blood thinners, birth control pills or hormone therapy (NS 2021; Brinker 2010; WHO 2002).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have serious or major conditions, any type of acute infection, deficiency or excess (HC 2022).\nWhen using this product avoid exposure to the sun (NS 2021; Thorne 2004).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "DONG QUAI - ANGELICA SINENSIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-sinensis2#006",
+   "text": "Contraindication(s): Do not use if you are pregnant (NS 2021; WHO 2002).\nDo not use if you have diarrhea, hemorrhagic diseases or heavy periods (NS 2021, Bensky et al. 2004; Chen and Chen 2004; WHO 2002).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "DONG QUAI - ANGELICA SINENSIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-sinensis2#007",
+   "text": "Known adverse reaction(s): Stop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen, or if new symptoms develop such as breast pain or any changes in menstrual cycles (Brinker 2010; Schumacher et al. 2007; Thorne 2004; Russell et al. 2002).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "DONG QUAI - ANGELICA SINENSIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  }
+ ]
+}

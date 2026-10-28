@@ -1,0 +1,147 @@
+{
+ "doc_id": "hc-nhpid-probio",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Probiotics (Bifidobacterium adolescentis)",
+ "title_extra": null,
+ "date": "2026-04-24",
+ "revised": "2026-04-24",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-04-24",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=probio&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "probio"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:4bd0fe17aaed32b6e4c40741f02fec7bc2f1b7ddc55685c8175be9163fcc58a2",
+ "entities": [
+  "Probiotics",
+  "Bifidobacterium adolescentis"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-probio#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 1-2 years: The acceptable pharmaceutical dosage forms are limited to emulsion/suspension and solution/liquid preparations(Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years: The acceptable pharmaceutical dosage forms are limited to chewables, emulsion/suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: Acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications. Although delayed release dosage forms are usually not supported by the NNHPD's monographs, this monograph includes the following dosage forms commonly used for products containing probiotics: Capsule, enteric-coated; Capsule, soft, enteric-coated; Capsule, enteric-coated pellets; Granule enteric-coated; Tablet, enteric-coated; Tablets, enteric-coated granules.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Probiotics",
+    "Bifidobacterium adolescentis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 145
+  },
+  {
+   "chunk_id": "hc-nhpid-probio#002",
+   "text": "Use(s) or Purpose(s): Medicinal ingredients from Tables 1, 2, and 3\nSource of probiotics.\nMedicinal ingredients from Tables 1, 2, and 3 except Lactobacillus crispatus and Lactobacillus gallinarum\nHelps support intestinal/gastrointestinal health (WGOGG 2023; Alonso and Guarner 2013; DuPont and DuPont 2011; Rolfe 2000).\nCould promote a favorable gut flora (Bezkorovainy 2001; Morelli 2000; Collins et al. 1998).\nTable 4. Medicinal ingredients from Table 2 with specific use(s) or purpose(s)\nMedicinal Ingredients\nStrains\nUses or Purposes\nLacticaseibacillus rhamnosus\nGG\nHelps to manage acute infectious diarrhea\nHelps to manage and/or reduce the risk of antibiotic-associated diarrhea\nLactobacillus johnsonii\nLa1\nLj1\nNCC 533\nAn adjunct to physician-supervised antibiotic therapy in patients with Helicobacter pylori infections\nSaccharomyces boulardii\nSaccharomyces cerevisiae\nAll\nHelps to reduce the risk of antibiotic-associated diarrhea\nReferences: Canani et al. 2007; Bergonzelli et al. 2006; Kotowska et al. 2005; Can et al. 2006; Cruchet et al. 2003; Pantoflickova et al. 2003; Cremonini et al. 2002; Armuzzi et al. 2001; Felley et al. 2001; Guandalini et al. 2000; Vanderhoof et al. 1999; Guarino et al. 1997; McFarland et al. 1995; Surawicz et al. 1989.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Probiotics",
+    "Bifidobacterium adolescentis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 183
+  },
+  {
+   "chunk_id": "hc-nhpid-probio#003",
+   "text": "Subpopulation(s): Children 1 to 11 years, Adolescents 12 to 17 years and Adults 18 years and older (Gill and Prasad 2008; Lenoir-Wijnkoop et al. 2007; Hawrelak 2006; Picard et al. 2005; Reid et al. 2003).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Probiotics",
+    "Bifidobacterium adolescentis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 35
+  },
+  {
+   "chunk_id": "hc-nhpid-probio#004",
+   "text": "Quantity(ies): Method of preparation: Live\nMedicinal ingredients from Tables 1 and 3\n1.0 x 10 7 total Colony Forming Units (CFU) or more, per day (Gill and Prasad 2008; Lenoir-Wijnkoop et al. 2007; Hawrelak 2006; Picard et al. 2005; Reid et al. 2003).\nNote\nThe minimum daily dose is the total CFU count per day provided from all live microorganisms present in the product formulation; it is not to be interpreted as a minimum quantity for individual microorganisms.\nTable 5. Medicinal ingredients from Table 2\nMedicinal Ingredients\nStrains\nUses or Purposes\nDoses (CFU/day)\nMinimum\nMaximum\nLacticaseibacillus rhamnosus\nGG\nManagement of acute infectious diarrhea\n6.0 x 10 9\n1.2 x 10 10\nManagement/risk reduction of antibiotic-associated diarrhea\n1.0 x 10 10\n2.0 x 10 10\nAll\nAll other uses 1\n1.0 x 10 7\nN/A\nLactobacillus johnsonii\nLa1\nLj1\nNCC 533\nH. pylori infections\n1.25 x 10 8\n3.6 x 10 9\nAll\nAll other uses 1\n1.0 x 10 7\nN/A\nSaccharomyces boulardii\nSaccharomyces cerevisiae\nAll\nRisk reduction of antibiotic- associated diarrhea\n1.0 x 10 10\n3.0 x 10 10\nAll other uses 1\n1.0 x 10 7\nN/A\n1 For 'All other uses', the total recommended daily CFU count must meet the minimum of 10 7 either as a single ingredient or in combination.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Probiotics",
+    "Bifidobacterium adolescentis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "hc-nhpid-probio#005",
+   "text": "Quantity(ies): References: Gill and Prasad 2008; Canani et al. 2007; Lenoir-Wijnkoop et al. 2007; Bergonzelli et al. 2006; Hawrelak 2006; Can et al. 2006; Picard et al. 2005; Pantoflickova et al. 2003; Reid et al. 2003; Cremonini et al. 2002; Armuzzi et al. 2001; Felley et al. 2001; Vanderhoof 1999; Guarino et al. 1997; McFarland et al. 1995.\nNotes\nAll individual strain quantities of live microorganisms must be indicated on the PLA form, label and finished product specifications in Colony Forming Units (CFU) per dosage unit.\nMultiple microorganisms cultured together with only one combined microorganism count (i.e., blends) are not included in this monograph.\nGravimetric or volumetric amounts (e.g. g, mL) are not acceptable.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Probiotics",
+    "Bifidobacterium adolescentis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 114
+  },
+  {
+   "chunk_id": "hc-nhpid-probio#006",
+   "text": "Direction(s) for use: All medicinal ingredients found in Tables 1 and 2 except Saccharomyces cerevisiae and S. boulardii\nTake at least 2-3 hours before or after antibiotics (NIH 2011; APhA 2006; Biradar et al. 2005).\nAll medicinal ingredients found in Table 3\nTake at least 2-3 hours before or after taking antifungal medications (NIH 2011; APhA 2006; Biradar et al. 2005).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Probiotics",
+    "Bifidobacterium adolescentis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "hc-nhpid-probio#007",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you have fever, vomiting, bloody diarrhea or severe abdominal pain (APhA 2006; WHO 2005; CPhA 2002).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms of digestive upset (e.g. diarrhea) occur, worsen and/or persist beyond 3 days (APhA 2006; WHO 2005).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Probiotics",
+    "Bifidobacterium adolescentis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "hc-nhpid-probio#008",
+   "text": "Contraindication(s): Do not use if you have an immune-compromised condition (e.g. AIDS, lymphoma, patients undergoing long-term corticosteroid treatment) (APhA 2006; Cukovic-Cavka et al. 2006; Ledoux et al. 2006; Riquelme et al. 2003; Lherm et al. 2002).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Probiotics",
+    "Bifidobacterium adolescentis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  }
+ ]
+}

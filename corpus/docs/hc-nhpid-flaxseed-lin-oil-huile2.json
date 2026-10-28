@@ -1,0 +1,104 @@
+{
+ "doc_id": "hc-nhpid-flaxseed-lin-oil-huile2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "FLAXSEED OIL",
+ "title_extra": null,
+ "date": "2025-04-25",
+ "revised": "2025-04-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-04-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=flaxseed.lin.oil.huile2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "flaxseed.lin.oil.huile2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:d1976bc781ec35b9cb5d564c80a7c3868f3514b6db0e09d0566841009ca81316",
+ "entities": [
+  "FLAXSEED OIL",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-flaxseed-lin-oil-huile2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "FLAXSEED OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-flaxseed-lin-oil-huile2#002",
+   "text": "Use(s) or Purpose(s): All products\nSource of essential fatty acids (alpha-linolenic acid (ALA) and linoleic acid (LA)) for the maintenance of good health (IOM 2006).\nSource of omega-3 fatty acids for the maintenance of good health (IOM 2006).\nSource of alpha-linolenic acid (ALA) for the maintenance of good health (IOM 2006).\nSource of omega-6 fatty acids for the maintenance of good health (IOM 2006).\nSource of linoleic acid (LA) for the maintenance of good health (IOM 2006).\nNote: The above uses can be combined on the product label (e.g., Source of omega-3 and omega-6 fatty acids for the maintenance of good health).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "FLAXSEED OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "hc-nhpid-flaxseed-lin-oil-huile2#003",
+   "text": "Quantity(ies): Method of preparation: Non-standardized fixed oil\nTable 2.Dose information for Linseed oil presented as dose per day, based on uses or purposes and subpopulations.\nUses or Purposes\nSubpopulations 1 , 2\nOil g/day\nOil ml/day\nMin.\nMax.\nMin.\nMax.\nSource of essential fatty acids, omega-3 fatty acids, and/or ALA\nChildren\n2-4 years\n0.04\n5.33\n0.17\n5.67\n5-9 years\n0.06\n8\n0.25\n8.50\n10-11 years\n0.12\n16\n0.5\n17\nAdolescents\n12-14 years\n0.12\n16\n0.5\n17\n15-17 years\n0.23\n32\n1\n34\nAdults\n18 years and older\n0.23\n32\n1\n34\nSource of omega-6 fatty acids and/or LA\nChildren\n2-4 years\n1.28\n5.33\n1.33\n5.67\n5-9 years\n1.93\n8\n2\n8.50\n10-11 years\n3.85\n16\n4\n17\nAdolescents\n12-14 years\n3.85\n16\n4\n17\n15-17 years\n7.70\n32\n8\n34\nAdults\n18 years and older\n7.70\n32\n8\n34\n1 Children and adolescent doses were calculated as a proportion of the adult dose (JC 2024). The use of Flaxseed oil in children and adolescents is supported by Bove 2001.\n2 Adult dose supported by the following references: IOM 2006; Schwab et al. 2006; Nordström et al. 1995; Kelley et al. 1993; Fischer et al. 1984.\nMethod of preparation: Standardized fixed oil\nIf potencies are declared, the only acceptable potencies are as follows:",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "FLAXSEED OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-flaxseed-lin-oil-huile2#004",
+   "text": "Quantity(ies): 35-65 % ALA (Ph. Eur. 2023; CGC 2022; HC 2008; Hoffmann 2003)\n11-24 % LA (Ph. Eur. 2023; HC 2008; Hoffmann 2003)\nNote: The following potency information is considered as additional information and can be included on the label:\n11-35% oleic acid (Ph. Eur. 2023)\nXX% total omega-3 fatty acids\nXX% total omega-6 fatty acids",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "FLAXSEED OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 56
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "doc_id": "hc-nhpid-serrapeptase2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "SERRAPEPTASE",
+ "title_extra": null,
+ "date": "2025-07-25",
+ "revised": "2025-07-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-07-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=serrapeptase2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "serrapeptase2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:a5dd2e7f72ea068d7a822c857df5ebd6714c26d4abfbd87d6b8adca44f7076ee",
+ "entities": [
+  "SERRAPEPTASE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-serrapeptase2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nProteolytic Enzyme\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.\nNote: Liquid and liquid-containing dosage forms (e.g., capsule, soft; spray) are not acceptable as Class II applications when serrapeptase/serratiopeptidase is combined with non-enzymatic ingredients as the enzyme activity may be impacted. These products may be submitted as a Class III application.\nReduction of symptoms associated with ear, nose and throat infections; Swelling and pain reduction; Mucolytic enzyme\nThe only acceptable pharmaceutical dosage forms include enteric-coated capsules, tablets, granules or similar preparations (Bhagat et al. 2013; Chopra et al. 2009; Balaji 2007). The dosage form must be qualified with an additional term to describe the delayed release (e.g. enteric-coated capsules, gastro-resistant tablets, microencapsulated enzymes).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "SERRAPEPTASE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 148
+  },
+  {
+   "chunk_id": "hc-nhpid-serrapeptase2#002",
+   "text": "Use(s) or Purpose(s): Proteolytic enzyme (Brayfield and Cadart 2024).\nHelps to reduce (symptoms such as) pain, quantity of secretion, inability to perceive smell and stuffy nose from ear, nose and/or throat infections (Mazzone et al. 1990; Tachibana et al. 1984).\nMucolytic enzyme that helps break down mucous (Nakamura et al. 2003; Majima et al. 1990; Mazzone et al. 1990; Tachibana et al. 1984).\nHelps reduce and/or relieve postoperative cheek swelling and/or pain after dental surgery (Al- Khateeb and Nusair 2008; Tachibana et al. 1984).\nNote : The above uses can be combined on the product label (e.g., Mucolytic enzyme that helps break down mucous and reduce symptoms such as pain, quantity of secretion, inability to perceive smell and stuffy nose from ear, nose or throat infections).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "surgery"
+   ],
+   "entities": [
+    "SERRAPEPTASE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 126
+  },
+  {
+   "chunk_id": "hc-nhpid-serrapeptase2#003",
+   "text": "Quantity(ies): Proteolytic Enzyme\nNot to exceed 120,000 serratiopeptidase units (SU), per day (Brayfield and Cadart 2024).\nReduction of symptoms associated with ear, nose and throat infections; Mucolytic enzyme\n60,000 - 120,000 serratiopeptidase units (SU), per day (Chopra et al. 2009; Nakamura et al. 2003; Majima et al. 1990; Mazzone et al. 1990; Majima et al. 1988; Tachibana et al. 1984).\nSwelling and pain reduction\n30,000 - 120,000 serratiopeptidase units (SU), per day (Chopra et al. 2009; Al-Khateeb and Nusair 2008; Tachibana et al. 1984).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SERRAPEPTASE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 84
+  },
+  {
+   "chunk_id": "hc-nhpid-serrapeptase2#004",
+   "text": "Direction(s) for use: Take 2 hours after a meal (Bhagat et al. 2013; Chopra et al. 2009; Mazzone et al. 1990).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SERRAPEPTASE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  },
+  {
+   "chunk_id": "hc-nhpid-serrapeptase2#005",
+   "text": "Duration(s) of use: Products making a swelling and pain reduction claim (at any dose) and products providing more than 60,000 serratiopeptidase units (SU), per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 7 days (Al-Khateeb and Nusair 2008; Tachibana et al. 1984).\nProducts providing 60,000 or less serratiopeptidase units (SU), per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 weeks (Nakamura et al. 2003; Majima et al. 1990; Majima et al. 1988).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SERRAPEPTASE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 83
+  },
+  {
+   "chunk_id": "hc-nhpid-serrapeptase2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have gastrointestinal lesions/ulcers, a kidney or liver disorder, or are having surgery (Bhagat et al. 2013; Chopra et al. 2009; Al- Khateeb and Nusair 2008; Mazzone et al. 1990).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners or anti-inflammatory medications (Bhagat et al. 2013; Chopra et al. 2009; Al-Khateeb and Nusair 2008; Mazzone et al. 1990).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "liver",
+    "surgery",
+    "renal"
+   ],
+   "entities": [
+    "SERRAPEPTASE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 112
+  },
+  {
+   "chunk_id": "hc-nhpid-serrapeptase2#007",
+   "text": "Known adverse reaction(s): Stop use if rash, difficulty breathing, hypersensitivity and/or severe allergy occur (Bhagat et al. 2013; Balagi 2007).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "SERRAPEPTASE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  }
+ ]
+}

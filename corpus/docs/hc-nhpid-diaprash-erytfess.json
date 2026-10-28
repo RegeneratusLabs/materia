@@ -1,0 +1,99 @@
+{
+ "doc_id": "hc-nhpid-diaprash-erytfess",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Diaper Rash Products Monograph",
+ "title_extra": null,
+ "date": "2024-02-23",
+ "revised": "2024-02-23",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-02-23",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=diaprash_erytfess&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "diaprash_erytfess"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:14e2536173d7228bae77e9cc1972b4ad7a02af4d64eaffa7b07790a1d8900e09",
+ "entities": [
+  "Diaper Rash Products Monograph"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-diaprash-erytfess#001",
+   "text": "Dosage form(s): Acceptable dosage forms for NHPs:\nCream; Gel; Lotion; Oil; Ointment; Paste; Powder; Salve; Solution; Topical liquid; Wipe, medicated\nAcceptable dosage forms for NPDs:\nCream; Gel; Lotion; Oil; Ointment; Paste; Solution; Wipe",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Diaper Rash Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "hc-nhpid-diaprash-erytfess#002",
+   "text": "Use(s) Or Purpose(s): Self-Care Framework Category I Uses or Purposes:\nFor products with an ingredient from Table 1 or 3:\nHelps prevent diaper rash (US FDA 2021).\nProtects chafed skin/minor skin irritation due to diaper rash (US FDA 2021).\nHelps protect from wetness that causes diaper rash (US FDA 2021).\nTemporarily helps relieve minor skin irritation due to diaper rash (US FDA 2021).\nHelps treat/ heal diaper rash (US FDA 2021).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Diaper Rash Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 71
+  },
+  {
+   "chunk_id": "hc-nhpid-diaprash-erytfess#003",
+   "text": "Subpopulation(s): Infants 0 to 1 years, Children 2 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Diaper Rash Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  },
+  {
+   "chunk_id": "hc-nhpid-diaprash-erytfess#004",
+   "text": "Caution(s) and warning(s): For all products:\nFor external use only (US FDA 2021).\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with\nwater\n(US FDA 2021).\nStop use and ask a health care practitioner/health care provider/health care\nprofessional/doctor/physician if symptoms worsen, last for more than 7 days or re-occur\nwithin a\nfew days (US FDA 2021).\nKeep out of reach of children.If swallowed, call a poison control centre or get medical help\nright away.\nFor all powder products:\nWhen using this product keep powder away from face to avoid inhalation, which can cause\nbreathing\nproblems (FDA 2003).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Diaper Rash Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "hc-nhpid-diaprash-erytfess#005",
+   "text": "Contraindication(s): For all powder products:\nDo not use on broken skin (FDA 2003).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Diaper Rash Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  }
+ ]
+}

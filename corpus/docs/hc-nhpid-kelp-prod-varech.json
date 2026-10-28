@@ -1,0 +1,110 @@
+{
+ "doc_id": "hc-nhpid-kelp-prod-varech",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Kelp Products (Ascophyllum nodosum)",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=kelp.prod.varech&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "kelp.prod.varech"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:a94dc112bcf512dd5078f25f84999467890703d7233899ee89fd50b5c64f3c21",
+ "entities": [
+  "Kelp Products",
+  "Ascophyllum nodosum"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-kelp-prod-varech#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Kelp Products",
+    "Ascophyllum nodosum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-kelp-prod-varech#002",
+   "text": "Use(s) or Purpose(s): All products\nSource of antioxidants/Provides antioxidants (CNF 2024; Murphya et al. 2013; Kang et al. 2012; Veena et al. 2008; Veena et al. 2007; Zhang et al. 2007; Jin et al. 2004).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (CNF 2024; Murphya et al. 2013; Kang et al. 2012; Veena et al. 2008; Veena et al. 2007; Zhang et al. 2007; Jin et al. 2004).\nProducts providing 0.8 g or more of Fucus vesiculosus per day\n(Traditionally) used in Herbal Medicine as an alterative for the glandular system (Hoffman 2003; Duke 2002; Grieve 1931a,b; Felter and Lloyd 1898).\nUsed in Herbal Medicine to support normal thyroid function (Bradley 1992; Grieve 1931a,b; Ellingwood 1919).\nProducts standardized to iodine\nAs per the Natural and Non-prescription Health Products Directorate (NNHPD) Multi-vitamin/mineral Supplements monograph.\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Kelp is traditionally used in Herbal Medicine as an alterative for the glandular system).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "thyroid",
+    "traditional"
+   ],
+   "entities": [
+    "Kelp Products",
+    "Ascophyllum nodosum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-kelp-prod-varech#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Kelp Products",
+    "Ascophyllum nodosum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-kelp-prod-varech#004",
+   "text": "Quantity(ies): Antioxidants\nMethods of preparation: Dry, Powdered, Non-standardized ethanolic extracts (Dry extract, Tincture, Fluid extract)\nNot to exceed 1 gram of kelp per day (Barnes et al 2007; Mills and Bone 2005; Kolb et al 2004; Duke 2002; BHP 1996; Bradley 1992).\nFucus vesiculosus: alterative, support normal thyroid function\nMethods of preparation: Dry, Powdered, Non-standardized ethanolic extracts (Dry extract, Tincture, Fluid extract)\n0.8 - 1 gram of Fucus vesiculosus per day (Mills and Bone 2005; Bradley 1992).\nIodine claims (Multi-vitamin/mineral Supplements monograph)\nMethods of preparation: Dry standardized, Powdered standardized, Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\nMedicinal ingredient(s) must provide the minimum amount of iodine outlined on the current NNHPD Multi-vitamin/mineral Supplements monograph.\nIodine should be indicated on the PLA form as a potency constituent.\nNote: The total amount of iodine provided by the product must not exceed 800 micrograms iodine per day (IOM 2006).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "thyroid"
+   ],
+   "entities": [
+    "Kelp Products",
+    "Ascophyllum nodosum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 147
+  },
+  {
+   "chunk_id": "hc-nhpid-kelp-prod-varech#005",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners (Gardner and McGuffin 2013; Ren et al 2013; Zhao et al 2012; Brinker 2010; Gruenwald et al 2007; Duke 2002).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Brinker 2010; Barnes 2002).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Kelp Products",
+    "Ascophyllum nodosum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  }
+ ]
+}

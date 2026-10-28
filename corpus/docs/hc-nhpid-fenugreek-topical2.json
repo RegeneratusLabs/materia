@@ -1,0 +1,138 @@
+{
+ "doc_id": "hc-nhpid-fenugreek-topical2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "FENUGREEK - TRIGONELLA FOENUM-GRAECUM - Topical",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=fenugreek.topical2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "fenugreek.topical2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:06fb5cbcff900413d12c08b3c91259c5510fab3c2178d73d22225391ce2d9bf8",
+ "entities": [
+  "FENUGREEK - TRIGONELLA FOENUM-GRAECUM - Topical",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-fenugreek-topical2#001",
+   "text": "Dosage form(s): Acceptable dosage forms when used according to the requirements indicated in this monograph: Cream; Gel; Liquid; Loose; Lotion; Ointment; Paste; Powder; Salve; Solution; Topical liquid.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "FENUGREEK - TRIGONELLA FOENUM-GRAECUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  },
+  {
+   "chunk_id": "hc-nhpid-fenugreek-topical2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help heal minor skin wounds, burns and irritations (Bradley 2006; Blumenthal et al. 2000; Meyer 1993; Mills 1985; Felter and Lloyd 1983; Wren 1907).\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Fenugreek is traditionally used in Herbal Medicine to help heal minor skin wounds, burns and irritations).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "FENUGREEK - TRIGONELLA FOENUM-GRAECUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 145
+  },
+  {
+   "chunk_id": "hc-nhpid-fenugreek-topical2#003",
+   "text": "Quantity(ies): Loose/Powder dosage forms\nMethods of preparation: Dry, Powdered\n100% dried seeds (EMA 2021; Bradley 2006; Blumenthal et al. 2000).\nNote: Products in loose or powder dosage forms must be prepared as a decoction by the consumer prior to use (see direction for use).\nCream/Gel/Lotion/Liquid/Ointment/Paste/Salve/Solution/Topical liquid dosage forms\nMethods of preparation: Non-Standardized Aqueous Extracts (Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n5 - 100% dried seed extract preparation in the finished product (EMA 2021, Bradley 2006; Blumenthal et al. 2000).\nNotes: The extract ratio must be between 1:1 to 1:20. The formulation must be prepared in a way which is equivalent to a quantity of 50 - 200 milligrams crude dried seeds for 1 milliliter of finished product. For example, for a decoction prepared with a 1:10 w/w ratio, the concentration of extract preparation in the final product must be 50 - 100% (50 - 200 mg crude dried seeds * 10 fold dilution w/w = 500 - 2000 mg liquid extract in 1 mL finished product = 50 - 100% w/v extract preparation in the finished product).\nMethods of preparation: Non-Standardized Ethanolic Extracts (Fluid extract, Tincture)\n5 - 25% dried seed extract preparation in the finished product (Blumenthal et al. 2000; Grieve 1971).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "FENUGREEK - TRIGONELLA FOENUM-GRAECUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 203
+  },
+  {
+   "chunk_id": "hc-nhpid-fenugreek-topical2#004",
+   "text": "Quantity(ies): Notes: The extract ratio must be between 1:1 to 1:5. The formulation must be prepared in a way which is equivalent to a quantity of 50 milligrams crude dried seeds for 1 milliliter of finished product. For example, for a tincture prepared with a 1:5 w/w ratio, the concentration of extract preparation in the final product must be 25% (50 mg crude dried seeds * 5 fold dilution w/w = 250 mg liquid extract in 1 mL finished product = 25% w/v extract preparation in the finished product).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "FENUGREEK - TRIGONELLA FOENUM-GRAECUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 89
+  },
+  {
+   "chunk_id": "hc-nhpid-fenugreek-topical2#005",
+   "text": "Direction(s) for use: Solid dosage forms (Loose, Powder)\nPlace [insert volume to be measured by consumer in order to obtain a quantity between 12.5 and 50 grams of dried seeds, e.g., 1 - 2 tablespoons] of dried seeds in 1 cup (250 ml) of water, bring to a boil and simmer 5 minutes. Add to a hot bath or soak a small towel/pad/gauze/cotton in the warm liquid. Apply to affected area(s), up to 3 times per day (EMA 2021; Bradley 2006; Blumenthal et al. 2000).\nLiquid dosage forms (Liquid, Solution, Topical liquid)\nAdd to a hot bath or soak a small towel/pad/gauze/cotton in liquid. Apply to affected area(s), up to 3 times per day (EMA 2021; Bradley 2006; Blumenthal et al. 2000).\nSemi-solid dosage forms (Cream, Gel, Lotion, Ointment, Paste, Salve)\nApply to affected area(s), up to 3 times per day (EMA 2021; Blumenthal et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "FENUGREEK - TRIGONELLA FOENUM-GRAECUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 147
+  },
+  {
+   "chunk_id": "hc-nhpid-fenugreek-topical2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "FENUGREEK - TRIGONELLA FOENUM-GRAECUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  }
+ ]
+}

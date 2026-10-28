@@ -1,0 +1,158 @@
+{
+ "doc_id": "hc-nhpid-thuja",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "THUJA - THUJA OCCIDENTALIS - Topical",
+ "title_extra": null,
+ "date": "2025-02-28",
+ "revised": "2025-02-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-02-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=thuja&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "thuja"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:5b8b1274b41dad7c67494c7c360f1753f0217d7d8b9661903b3246daf74027b8",
+ "entities": [
+  "THUJA - THUJA OCCIDENTALIS - Topical",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-thuja#001",
+   "text": "Dosage Form(s): Acceptable dosage forms when used according to the requirements indicated in this monograph: Cream; Gel; Liquid; Lotion; Ointment; Paste; Salve; Solution; Topical liquid (Bartram 1998; Williamson 1988; Wren 1988).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "THUJA - THUJA OCCIDENTALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "hc-nhpid-thuja#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help remove warts on the hands\nand feet (Hoffmann 2003; Williamson 2003; BHP 1983; Felter and Lloyd\n1983).\nUsed in Herbal Medicine to help relieve fungal infections such as\nringworm (Hoffmann 2003; Williamson 2003).\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Thuja is traditionally used in Herbal Medicine to help remove warts on the hands and feet).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "THUJA - THUJA OCCIDENTALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 154
+  },
+  {
+   "chunk_id": "hc-nhpid-thuja#003",
+   "text": "Quantity(ies): Note: On the PLA form, quantities can be expressed as percentage weight by weight (% w/w), percentage weight by volume (% w/v) or percentage volume by volume (% v/v), depending on the product formulation. On the product label, quantities can also be expressed in other equivalent concentration units (e.g., mg/mL).\nMethods of preparation: Non-Standardized Liquid Extracts (Decoction, Decoction concentrate, Fluid extract, Infusion, Infusion concentrate, Tincture)\n10 - 100% dried herb top extract preparation in the finished product (Bartram 1998; Williamson 1988; Wren 1988; BHP 1983).\nNote: The extract ratio must be between 1:1 and 1:10. The formulation must be prepared in a way which is equivalent to a quantity of 100 to 200 milligrams crude dried herb tops for 1 gram of finished product. For example, for a tincture prepared with a 1:5 w/v ratio, the concentration of tincture in the finished product must be at least 50% (100 - 200 mg crude dried herb tops * 5 w/v (dilution) = 500 mL liquid extract in 1 mL finished product = 50% v/v extract preparation in the finished product).\nMethods of preparation: Non-Standardized Dry Extracts (Extract dry)\n0.5 - 10% dried herb top extract preparation in the finished product (Bartram 1998; Williamson 1988; Wren 1988; BHP 1983).\nNotes:",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "THUJA - THUJA OCCIDENTALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 209
+  },
+  {
+   "chunk_id": "hc-nhpid-thuja#004",
+   "text": "Quantity(ies): The extract ratio must be between 2:1 and 20:1 for dry extracts. The formulation must be prepared in a way which is equivalent to a quantity of 100 to 200 milligrams crude dried herb tops for 1 gram of finished product. For example, for a 4:1 w/w dry extract, the concentration of dry extract in the finished product must be between 2.5 to 5% (100 - 200 mg crude dried herb tops / 4 w/w (concentration) = 25 - 50 mg dry extract in 1 g finished product = 2.5 - 5% w/w extract preparation in the finished product).\nSolvents allowed for this method of preparation as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "THUJA - THUJA OCCIDENTALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 117
+  },
+  {
+   "chunk_id": "hc-nhpid-thuja#005",
+   "text": "Direction(s) for use: Products used to help remove warts\nWash affected area and dry thoroughly.\nApply 1 drop at a time to cover each wart and let dry, up to 3 times daily.\nProducts used to help relieve fungal infections\nWash affected area and dry thoroughly.\nApply a thin layer over affected area, up to 3 times daily.\nDo not bandage.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "THUJA - THUJA OCCIDENTALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "hc-nhpid-thuja#006",
+   "text": "Caution(s) and warning(s): For external use only.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes or poor blood circulation (Berardi et al. 2002).\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "diabetes"
+   ],
+   "entities": [
+    "THUJA - THUJA OCCIDENTALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "hc-nhpid-thuja#007",
+   "text": "Contraindication(s): Do not use on the face or genital area. If contact occurs, rinse thoroughly with water (EMA 1999).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "THUJA - THUJA OCCIDENTALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "doc_id": "hc-nhpid-arginine-l2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "L-ARGININE",
+ "title_extra": null,
+ "date": "2025-07-25",
+ "revised": "2025-07-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-07-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=arginine.l2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "arginine.l2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:1b7b652726d436b0ba74c2e935d1132f202323928804033c7cb85a895aff2cd9",
+ "entities": [
+  "L-ARGININE",
+  "Proper name",
+  "Common name",
+  "Source ingredient",
+  "Arginine alpha"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-arginine-l2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications..",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "L-ARGININE",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Arginine alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-arginine-l2#002",
+   "text": "Use(s) or Purpose(s): May help support a modest improvement in exercise capacity in individuals with stable cardiovascular diseases (CVD) (Doutreleau et al. 2010; Doutreleau et al. 2006; Lim et al. 2004; Palloshi et al. 2004; Bode- Böger et al. 2003; Lekakis et al. 2002; Sydow et al. 2002; Nagaya et al. 2001; Bednarz et al. 2000; Hambrecht et al. 2000; Tangphao et al. 1999; Lerman et al. 1998; Clarkson et al. 1996; Rector et al. 1996).\nL-Arginine is (a non-essential amino acid) involved in protein synthesis (Shils et al. 2006; IOM 2005; Groff and Gropper 2000).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "L-ARGININE",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Arginine alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 96
+  },
+  {
+   "chunk_id": "hc-nhpid-arginine-l2#003",
+   "text": "Quantity(ies): Improvement in exercise capacity in individuals with stable CVD\n6 - 21 grams of L-Arginine, per day; Not to exceed 8 grams per single dose (Doutreleau et al. 2010; Shao and Hathcock 2008; Doutreleau et al. 2006; Evans et al. 2004: Lim et al. 2004; Palloshi et al. 2004; Bode-Bogër et al. 2003; Bednarz et al. 2000; Hambrecht et al. 2000; Lerman et al. 1998; Adams et al. 1997; Ceremużyński et al. 1997; Clarkson et al. 1996; Rector et al. 1996).\nProtein synthesis\n0.21 - 21 grams of L-Arginine, per day; Not to exceed 8 grams per single dose (Shao and Hathcock 2008; IOM 2005; Evans et al. 2004; Bode-Bogër et al. 2003; Sydow et al. 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "L-ARGININE",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Arginine alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "hc-nhpid-arginine-l2#004",
+   "text": "Duration(s) of use: Products providing 3 g or more of L-Arginine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 8 weeks if you have a cardiovascular disease (Salmani et al. 2021; Sydow et al. 2002; Hambrecht et al. 2000; Clarkson et al.1996; Rector et al. 1996).\nProducts providing more than 9 g and up to 14 g of L-Arginine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 6 months (De Nicola et al. 1999).\nProducts providing more than 14 g of L-Arginine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (Tangphao et al. 1999).\nNote: Durations of use can be combined on the label (e.g., Ask a health care practitioner for use beyond 6 months, or beyond 8 weeks if you have a cardiovascular disease).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "L-ARGININE",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Arginine alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 145
+  },
+  {
+   "chunk_id": "hc-nhpid-arginine-l2#005",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/ physician before use if you are pregnant or breastfeeding.\nImprovement in exercise capacity in individuals with stable CVD\nAsk a health care practitioner/health care provider/health care professional/doctor/ physician if your symptoms worsen.\nProducts providing more than 0.42 g of L-Arginine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/ physician before use if you have a cardiovascular disease and are attempting an increase in physical activity (Doutreleau et al. 2010; Doutreleau et al. 2006; Schulman et al. 2006; Goldman and Ausiello 2004; Nagaya et al. 2001; Bednarz et al. 2000; Ceremużyński et al. 1997; Rector et al. 1996).\nAsk a health care practitioner/health care provider/health care professional/doctor/ physician before use if you are taking medication for cardiovascular diseases, erectile dysfunction, and/or blood thinners (Huynh et al. 2002; Parker et al. 2002; Siani et al. 2000; Adams et al. 1995).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "L-ARGININE",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Arginine alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 155
+  },
+  {
+   "chunk_id": "hc-nhpid-arginine-l2#006",
+   "text": "Contraindication(s): Products providing more than 9 g of L-Arginine, per day\nDo not use if you have had a heart attack/myocardial infarction (Sun et al. 2009; Schulman et al. 2006; Bednarz et al. 2005).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "L-ARGININE",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Arginine alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "hc-nhpid-arginine-l2#007",
+   "text": "Known adverse reaction(s): Products providing more than 9 g of L-Arginine, per day\nWhen using this product you may experience gastrointestinal discomfort/disturbances (Grimble 2007; Evans et al. 2004; IOM 2005; Clarkson et al. 1996).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "L-ARGININE",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Arginine alpha"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  }
+ ]
+}

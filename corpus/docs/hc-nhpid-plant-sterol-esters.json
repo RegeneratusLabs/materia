@@ -1,0 +1,138 @@
+{
+ "doc_id": "hc-nhpid-plant-sterol-esters",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "PLANT STEROL ESTERS",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-06-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=plant.sterol.esters&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "plant.sterol.esters"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:996c472f3f23cc8aedd9c56e36e0c19e90a389cd10d31303e22bd9dec8ca154d",
+ "entities": [
+  "PLANT STEROL ESTERS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-plant-sterol-esters#001",
+   "text": "Route of administration: Oral (US FDA 2023; de Jong et al. 2008; Chen et al. 2005; Davidson et al. 2001; US FDA 2001; Clifton et al. 2004; Hendriks et al. 2003; Hendriks et al. 1999; Westrate and Meijer 1998)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "PLANT STEROL ESTERS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "hc-nhpid-plant-sterol-esters#002",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "PLANT STEROL ESTERS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-plant-sterol-esters#003",
+   "text": "Use(s) or Purpose(s): Helps lower blood total and low density lipoprotein (LDL) cholesterol (US FDA 2023; de Jong et al. 2008; Chen et al. 2005; Clifton et al. 2004; Hendriks et al. 2003; Davidson et al. 2001; US FDA 2001; Hendriks et al. 1999; Westrate and Meijer 1998).\nHelps lower bad cholesterol (US FDA 2023; de Jong et al. 2008; Chen et al. 2005; Clifton et al. 2004; Hendriks et al. 2003; Davidson et al. 2001; US FDA 2001; Hendriks et al. 1999; Westrate and Meijer 1998).\nHelps maintain healthy cholesterol levels (US FDA 2023; de Jong et al. 2008; Chen et al. 2005; Clifton et al. 2004; Hendriks et al. 2003; Davidson et al. 2001; US FDA 2001; Hendriks et al. 1999; Westrate and Meijer 1998).\nNote: The above uses can be combined on the product label (e.g., Helps lower blood total and low density lipoprotein (LDL) cholesterol and maintain healthy cholesterol levels).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "PLANT STEROL ESTERS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 154
+  },
+  {
+   "chunk_id": "hc-nhpid-plant-sterol-esters#004",
+   "text": "Quantity(ies): 0.8 - 4.8 grams of Plant sterol esters per day, including at least 80 % of Combined beta-Sitosterol, Campesterol and Stigmasterol, per day (US FDA 2023; de Jong et al. 2008; Chen et al. 2005; Clifton et al. 2004; Hendriks et al. 2003; EC 2002; Kerckhoffs et al. 2002; Davidson et al. 2001; US FDA 2001; Hendriks et al. 1999; Westrate and Meijer 1998).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PLANT STEROL ESTERS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 65
+  },
+  {
+   "chunk_id": "hc-nhpid-plant-sterol-esters#005",
+   "text": "Direction(s) for use: Take with a meal/food (US FDA 2023; de Jong et al. 2008; Chen et al. 2005; Clifton et al. 2004; Hendriks et al. 2003; Davidson et al. 2001; US FDA 2001; Hendriks et al. 1999; Westrate and Meijer 1998).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PLANT STEROL ESTERS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 42
+  },
+  {
+   "chunk_id": "hc-nhpid-plant-sterol-esters#006",
+   "text": "Caution(s) and warning(s): Ask a healthcare practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "PLANT STEROL ESTERS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  }
+ ]
+}

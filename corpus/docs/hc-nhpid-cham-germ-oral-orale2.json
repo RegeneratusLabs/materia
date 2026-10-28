@@ -1,0 +1,163 @@
+{
+ "doc_id": "hc-nhpid-cham-germ-oral-orale2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA\nOral",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=cham.germ.oral.orale2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "cham.germ.oral.orale2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:57db2893c4dfee4b6dd741e566a870fdfc36ead29fa0961f9528ce495c35fd94",
+ "entities": [
+  "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA\nOral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-cham-germ-oral-orale2#001",
+   "text": "Route of Administration: Oral (ESCOP 2003; Blumenthal et al. 2000; WHO 1999; Bradley 1992).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  },
+  {
+   "chunk_id": "hc-nhpid-cham-germ-oral-orale2#002",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 2 years: The acceptable dosage forms are limited to emulsion/suspension and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years: The acceptable dosage forms are limited to chewables, emulsion/ suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: The acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "hc-nhpid-cham-germ-oral-orale2#003",
+   "text": "Use(s) or Purpose(s): Used in Herbal Medicine to help relieve inflammatory conditions of the gastrointestinal tract (Blumenthal et al. 2000; Bradley 1992).\n(Traditionally) used in Herbal Medicine to help relieve mild digestive upset (such as dyspepsia, flatulence, bloating and belching) (Mills and Bone 2005; ESCOP 2003; Bradley 1992; Felter 1922; Ellingwood 1919; Felter and Lloyd 1898).\n(Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (which helps to promote sleep) (nervine/calmative) (Blumenthal et al. 2000; WHO 1999; Bradley 1992; Felter 1922; Ellingwood 1919; Felter and Lloyd 1898).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Used in Herbal Medicine to help relieve inflammatory conditions of the gastrointestinal tract and mild digestive upset).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Chamomile is traditionally used in Herbal Medicine to help relieve restlessness).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 197
+  },
+  {
+   "chunk_id": "hc-nhpid-cham-germ-oral-orale2#004",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-cham-germ-oral-orale2#005",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nTable 2. Dose information (grams) per day for chamomile dried flower\nSubpopulation(s) 1 , 2\nChamomile dried flower (g/day)\nMinimum\nMaximum\nChildren\n2-4 years\n0.3 g\n4.0 g\n5-9 years\n0.4 g\n6.0 g\n10-11 years\n0.8 g\n12.0 g\nAdolescents\n12-14 years\n0.8 g\n12.0 g\n15-17 years\n1.5 g\n24.0 g\nAdults\n18 years and older\n1.5 g\n24.0 g\n1 Children and adolescent doses were calculated as a proportion of the adult dose (JC 2023). The use of German chamomile in children and adolescents is supported by the following references: Schilcher 1997; Bove 1996.\n2 Adult dose supported by the following references: Mills and Bone 2005; ESCOP 2003; Blumenthal et al. 2000; WHO 1999; Bradley 1992.\n*Note: Solvents allowed for the method of preparation “Non-standardized extracts (Dry extract)” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 160
+  },
+  {
+   "chunk_id": "hc-nhpid-cham-germ-oral-orale2#006",
+   "text": "Caution(s) and warning(s): When using this product exercise caution if you drive or use machinery as you may experience drowsiness.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "hc-nhpid-cham-germ-oral-orale2#007",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (ESCOP 2003; Bradley 1992).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  }
+ ]
+}

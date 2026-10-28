@@ -1,0 +1,105 @@
+{
+ "doc_id": "hc-nhpid-creatine-mono",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Creatine Monohydrate",
+ "title_extra": null,
+ "date": "2024-06-28",
+ "revised": "2024-06-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-06-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=creatine.mono&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "creatine.mono"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:c5869b89ae6b865696a937267a03f893e71da1c3c8b98410aafdd7437999ad4f",
+ "entities": [
+  "Creatine Monohydrate",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-creatine-mono#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.\nNote\nLiquids and solutions are not permitted due to lack of stability of the finished product (Dash and Sawhney 2002).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Creatine Monohydrate",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "hc-nhpid-creatine-mono#002",
+   "text": "Use(s) or Purpose(s): Increases body/(lean)muscle mass/size when used in conjunction with a resistance training regimen (Brose et al. 2003; Bemben et al. 2001; Volek et al. 1999; Vandenberghe et al. 1997).\nImproves strength/power/performance in repetitive bouts of brief, highly-intense physical activity (e.g. sprints, jumping, resistance training) (by increasing [muscle/intramuscular] [creatine/phosphocreatine/energy] levels) (Okudan and Gökbel 2005; Brose et al. 2003; Preen et al. 2003; Bemben et al. 2001; Volek et al. 1999; Vandenberghe et al. 1997; Hultman et al. 1996).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Creatine Monohydrate",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 79
+  },
+  {
+   "chunk_id": "hc-nhpid-creatine-mono#003",
+   "text": "Quantity(ies): Table 2. Dose(s) for creatine monohydrate (with loading phase)\nLoading Phase\nMaintenance Phase\nMin/day\nMax/day\nMax/single dose\nMin/day\nMax/day\nOption 1\n15 g\n20 g\n5 g\n2 g\n5 g\nOption 2\n3 g\n5 g\nN/A\nTable 3. Dose(s) for creatine monohydrate (no loading phase)\nMin/day\nMax/day\nOption 3\n3 g\n5 g\nReferences for Tables 2 and 3: Okudan and Gökbel 2005; Preen et al. 2003; Bemben et al. 2001; Volek et al. 1999; Vandenberghe et al. 1997; Hultman et al. 1996.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Creatine Monohydrate",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 86
+  },
+  {
+   "chunk_id": "hc-nhpid-creatine-mono#004",
+   "text": "Caution(s) and warning(s): When using this product you may gain weight (Volek and Rawson 2004; Bemben et al. 2001; Mihic et al. 2000).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a kidney disorder (Pline and Smith 2005; Pritchard and Kalra 1998).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "renal"
+   ],
+   "entities": [
+    "Creatine Monohydrate",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 65
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "doc_id": "hc-nhpid-figwort-scrofulaire",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "FIGWORT - SCROPHULARIA NODOSA",
+ "title_extra": null,
+ "date": "2026-07-31",
+ "revised": "2026-07-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-07-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=figwort.scrofulaire&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "figwort.scrofulaire"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:f64540c263a9319d361b725ba8e49140d63934db89347b31ebe9fc9ed7d66cfd",
+ "entities": [
+  "FIGWORT - SCROPHULARIA NODOSA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-figwort-scrofulaire#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "FIGWORT - SCROPHULARIA NODOSA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-figwort-scrofulaire#002",
+   "text": "Use(s) or Purpose(s): Traditionally used in Herbal Medicine as a diuretic (Hoffmann 2003; Felter and Lloyd 1983; Wren 1907).\nTraditionally used in Herbal Medicine as an analgesic (anodyne) (Bartram 1998; Felter and Lloyd 1983; Wren 1907).\nTraditionally used in Herbal Medicine to relieve symptoms of chronic cutaneous diseases (Hoffmann 2003; Wren 1907).\nTraditionally used in Herbal Medicine to relieve symptoms of eczema (Hoffmann 2003; BHP 1983).\nTraditionally used in Herbal Medicine to relieve symptoms of psoriasis (Hoffmann 2003; BHP 1983).\nTraditionally used in Herbal Medicine to relieve symptoms of pruritus (Hoffmann 2003; BHP 1983).\nTraditionally used in Herbal Medicine as a mild laxative (Hoffmann 2003; Williamson et al. 1988; Mills 1985).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g. Traditionally used in Herbal Medicine to relieve symptoms of chronic cutaneous diseases, eczema, psoriasis and pruritus).\nFor multi-ingredient products:\nTo prevent the product from being misrepresented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Figwort is traditionally used in Herbal Medicine as a diuretic).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "FIGWORT - SCROPHULARIA NODOSA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-figwort-scrofulaire#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "FIGWORT - SCROPHULARIA NODOSA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-figwort-scrofulaire#004",
+   "text": "Quantity(ies): Methods of preparation : Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n0.2 - 8 grams dried herb top, per day (Hoffmann 2003; Bartram 1998; BHP 1983; Felter and Lloyd 1983).\n*Note : Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry extract)” as part of this monograph are ethanol and/or water.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "FIGWORT - SCROPHULARIA NODOSA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "hc-nhpid-figwort-scrofulaire#005",
+   "text": "Duration(s) of use: Diuretic\nFor occasional use only (Berardi et al. 2002; CPhA 2002).\nOther uses\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "FIGWORT - SCROPHULARIA NODOSA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-figwort-scrofulaire#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have heart disease (Brinker 2010; Hoffmann 2003).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "FIGWORT - SCROPHULARIA NODOSA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 54
+  },
+  {
+   "chunk_id": "hc-nhpid-figwort-scrofulaire#007",
+   "text": "Known adverse reaction(s): All products except those making only a diuretic claim*\nWhen using this product diuretic effect may occur.\n*Note : This statement can be removed from the label if a diuretic claim is included.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "FIGWORT - SCROPHULARIA NODOSA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "doc_id": "hc-nhpid-psyillium",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Psyllium (Plantago afra)",
+ "title_extra": null,
+ "date": "2024-07-26",
+ "revised": "2024-07-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-07-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=psyillium&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "psyillium"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:9a72004780875455fd875efee7d9b90c185eda5cddae6e46b5390ef11f3c1083",
+ "entities": [
+  "Psyllium",
+  "Plantago afra"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-psyillium#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Psyllium",
+    "Plantago afra"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-psyillium#002",
+   "text": "Use(s) or Purpose(s): (Used in Herbal Medicine as a) bulk-forming laxative (ESCOP 2003a,b,c; Williamson 2003; FDA 1985).\n(Used in Herbal Medicine to) promote(s) bowel movements (by increasing bulk volume and water content) (Sweetman 2007; WHO 2007; ESCOP 2003a,b,c; Bradley 1992; FDA 1985).\n(Used in Herbal Medicine to) provide(s) gentle relief of constipation and/or irregularity (EMA 2013a,b,c; Pray 2006; ESCOP 2003a,b,c; Blumenthal et al. 2000; Gennaro 2000; Bradley 1992; FDA 1985).\nNote: The above uses can be combined on the product label if from the same non-traditional system of medicine (e.g. Used in Herbal Medicine as a bulk-forming laxative for gentle relief of constipation and/or irregularity).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Psyllium",
+    "Plantago afra"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "hc-nhpid-psyillium#003",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered\nTable 2. Dose information for psyllium seed\nSubpopulation(s)\nSeed (grams)\nMinimum/day\nMaximum/day\nMaximum/single dose 3\nChildren 1\n6-11 years\n1.25 g\n25 g\n8 g\nAdolescents 2\n12 years\n1.25 g\n25 g\n8 g\n13-17 years\n2.5 g\n40 g\n13 g\nAdults 2\n18 years and older\n2.5 g\n40 g\n13 g\n1 EMA 2013a,b; ESCOP 2003a,b; WHO 1999; FDA 1985.\n2 EMA 2013a,b; ESCOP 2003a,b; Williamson 2003; Blumenthal et al. 2000a,b; WHO 1999; FDA 1985.\n3 Note: The maximum single dose (13 g) for adults and adolescents 13 years and older is based on the consensus of evidence from several references. The maximum single dose (8 g) for children and adolescents up to 12 years was calculated as a fraction of the maximum adult doses.\nTable 3. Dose information for psyllium husk\nSubpopulation(s)\nHusk (grams)\nMinimum/day\nMaximum/day\nMaximum/single dose 3\nChildren 1\n6-11 years\n1.25 g\n15 g\n4 g\nAdolescents 2\n12 years\n1.25 g\n15 g\n4 g\n13-17 years\n2.5 g\n30 g\n8 g\nAdults 2\n18 years and older\n2.5 g\n30 g\n8 g\n1 EMA 2013c; ESCOP 2003c; FDA 1985.\n2 EMA 2013c; ESCOP 2003c; Williamson 2003; Blumenthal et al. 2000c; Bradley 1992; FDA 1985.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Psyllium",
+    "Plantago afra"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-psyillium#004",
+   "text": "Quantity(ies): 3 Note: The maximum single dose (8 g) for adults and adolescents 13 years and older is based on the consensus of evidence from several references. The maximum single dose (4 g) for children and adolescents up to 12 years was calculated as a fraction of the maximum adult doses.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Psyllium",
+    "Plantago afra"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 51
+  },
+  {
+   "chunk_id": "hc-nhpid-psyillium#005",
+   "text": "Direction(s) for use: For each dose, drink at least 250 ml of liquid (EMA 2013a,b,c).\nMix well with liquid and drink immediately.\nMaintain adequate fluid intake (EMA 2013a,b,c).\nTake a few hours before or after taking other medications or health products (EMA 2013a,b,c).\nEffects observed 12-24 hours after first dose, and may take 2-3 days (EMA 2013a,b,c).\nOptional\nTake during the day (not immediately prior to bedtime) (EMA 2013a,b,c).\nOptional (for products with a dosage range)\nMinimum daily dose may be increased, up to the maximum daily dose, until desired effect is obtained.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Psyllium",
+    "Plantago afra"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "hc-nhpid-psyillium#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen or if laxative effect does not occur within 7 days (Pray 2006; Repchinsky 2002).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician immediately if you experience chest pain, vomiting, or difficulty swallowing or breathing after taking this product (EMA 2013a,b,c; ESCOP 2003a,b,c).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes or a lazy bowel (UpToDate 2024; EMA 2013a,b,c).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Psyllium",
+    "Plantago afra"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 81
+  },
+  {
+   "chunk_id": "hc-nhpid-psyillium#007",
+   "text": "Contraindication(s): Do not use if you have difficulty swallowing (EMA 2013a,b,c).\nDo not use if you have fever or any undiagnosed gastrointestinal trouble (EMA 2013a,b,c).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Psyllium",
+    "Plantago afra"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  },
+  {
+   "chunk_id": "hc-nhpid-psyillium#008",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (EMA 2013a,b,c).\nWhen using this product you may experience temporary gas and bloating (EMA 2013a,b,c).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Psyllium",
+    "Plantago afra"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  }
+ ]
+}

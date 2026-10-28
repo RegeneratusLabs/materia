@@ -1,0 +1,133 @@
+{
+ "doc_id": "hc-nhpid-eleuthero2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "eleuthero2",
+ "title_extra": null,
+ "date": "2025-10-31",
+ "revised": "2025-10-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-10-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=eleuthero2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "eleuthero2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:0ec5cce0ea454bacc0020826cb30a294f40e6c2ecdf5970ebfc69af7e2d6acf7",
+ "entities": [
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Proper names"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-eleuthero2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Proper names"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-eleuthero2#002",
+   "text": "Use(s) or Purpose(s): Used in Herbal Medicine as a tonic to help relieve general weakness/fatigue and/or to aid during recovery (ESCOP 2003; Blumenthal et al. 2000; Mills and Bone 2000; Bradley 1992).\nUsed in Herbal Medicine to help improve mental and/or physical performance after periods of mental and/or physical exertion (ESCOP 2003; Hoffmann 2003; Mills and Bone 2000; Bradley 1992).\nUsed in Herbal Medicine as an adaptogen to help increase energy and resistance to stress over time (e.g. in case of mental and physical fatigue related to stress) (Winston et Maimes 2007; WHO 2004; Bone 2003; Blumenthal et al. 2000).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Proper names"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 100
+  },
+  {
+   "chunk_id": "hc-nhpid-eleuthero2#003",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n0.91 - 6 grams of dried root/root and rhizome, per day (Winston et Maimes 2007; WHO 2004; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000; Mills and Bone 2000; Bradley 1992).\n*Note: Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry extract)” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Proper names"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 72
+  },
+  {
+   "chunk_id": "hc-nhpid-eleuthero2#004",
+   "text": "Duration(s) of use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 weeks (ESCOP 2003).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Proper names"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-eleuthero2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Barnes et al. 2007; ESCOP 2003).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have an acute infection (Brinker 2010; Mills and Bone 2000).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Proper names"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "hc-nhpid-eleuthero2#006",
+   "text": "Contraindication(s): Do not use if you have high blood pressure (Gardner and McGuffin 2013; Brinker 2010; Barnes et al. 2007; Blumenthal et al. 2000; Mills and Bone 2000).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Proper names"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  }
+ ]
+}

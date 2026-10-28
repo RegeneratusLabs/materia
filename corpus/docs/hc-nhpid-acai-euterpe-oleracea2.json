@@ -1,0 +1,121 @@
+{
+ "doc_id": "hc-nhpid-acai-euterpe-oleracea2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ACAI – EUTERPE OLERACEA",
+ "title_extra": null,
+ "date": "2026-04-24",
+ "revised": "2026-04-24",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-04-24",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=acai.euterpe.oleracea2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "acai.euterpe.oleracea2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:0f79dfe4a1ec1ba31bd273a4469c825bb849f50f94e6ea2d9ffb3e286326f7cb",
+ "entities": [
+  "ACAI – EUTERPE OLERACEA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-acai-euterpe-oleracea2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ACAI – EUTERPE OLERACEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-acai-euterpe-oleracea2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Mertens-Talcott et al. 2008; Schauss et al. 2006; Lichtenthäler et al. 2005).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Mertens-Talcott et al. 2008; Schauss et al. 2006, Lichtenthäler et al. 2005).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "ACAI – EUTERPE OLERACEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 53
+  },
+  {
+   "chunk_id": "hc-nhpid-acai-euterpe-oleracea2#003",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powder, Juice powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid Extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 14 grams of dried fruit flesh, per day (Tonon et al. 2010; Facciola et al. 1998).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ACAI – EUTERPE OLERACEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-acai-euterpe-oleracea2#004",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (derMarderosian and Beutler 2008).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "ACAI – EUTERPE OLERACEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "hc-nhpid-acai-euterpe-oleracea2#005",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (derMarderosian and Beutler 2008).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ACAI – EUTERPE OLERACEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  }
+ ]
+}

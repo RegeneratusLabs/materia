@@ -1,0 +1,107 @@
+{
+ "doc_id": "hc-nhpid-oral-health-sante-bucco-dentaire",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Oral Health Products Monograph (Source ingredient)",
+ "title_extra": null,
+ "date": "2026-09-25",
+ "revised": "2026-09-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-09-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=oral.health.sante.bucco.dentaire&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "oral.health.sante.bucco.dentaire"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:d5a39178513b0bb86565f2373260ace985d25e1276c67548834f48cddaf42ee2",
+ "entities": [
+  "Oral Health Products Monograph",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-oral-health-sante-bucco-dentaire#001",
+   "text": "Dosage form(s): For Natural Health Products\nAcceptable dosage forms are as follows:\nDental:\nConcentrate; Dental liquid, suspension; Dentifrice, gel; Dentifrice, paste; Gel; Mouthwash; Powder for solution; Solution; Tablet, effervescent.\nGingival:\nConcentrate; Dentifrice, gel; Dentifrice, paste; Gel; Gingival gel; Gingival solution; Mouthwash; Powder for solution; Solution; Tablet, effervescent.\nPeriodontal:\nConcentrate; Dental liquid, suspension; Dentifrice, gel; Dentifrice, paste; Gel; Gingival gel; Gingival solution; Mouthwash; Powder for solution; Solution; Tablet, effervescent.\nFor Non-prescription drugs\nThe only acceptable dosage forms for products containing Cetylpyridinium chloride are as follows: Mouthwash; Solution.\nNotes:\nThe above dosage forms correspond to the following product categories:\nDentifrices: dentifrice, gel; dentifrice, paste\nPreventive treatment gel: gel; gingival gel\nTreatment rinse: dental liquid, suspension; gingival solution; solution\nConcentrated treatment rinse: concentrate 1 ; powder for solution; tablet, effervescent\nMouthwash\n1 The dosage form \"concentrate\" should be selected on the PLA form for concentrated gingival solution and concentrated solution to ensure proper validation. However, the terms \"concentrated gingival solution\" and \"concentrated solution\" may be used on the marketed label.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Oral Health Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 167
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-health-sante-bucco-dentaire#002",
+   "text": "Subpopulation(s): For dentifrice products that do not contain Potassium nitrate\nChildren 2 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older.\nFor products that do not contain potassium nitrate in the following dosage forms: Preventive treatment gel; treatment rinse; concentrated treatment rinse, mouthwash (rinse)\nChildren 6 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older.\nFor products containing Potassium nitrate\nAdolescents 12 to 17 years, Adults 18 years and older.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Oral Health Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 78
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-health-sante-bucco-dentaire#003",
+   "text": "Caution(s) and warning(s): All products\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away.\nPreventative treatment gels products containing stannous fluoride\nWhen using this product surface staining of the teeth may occur. Adequate brushing may prevent these stains which are harmless and temporary and may be removed by a dentist/dental care practitioner (US FDA 2023).\nProducts containing potassium nitrate\nStop use and ask a dentist/dental care practitioner/health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen (US FDA 2023)\nProducts containing cetylpyridinium chloride\nWhen using this product surface staining of the teeth may occur. Adequate brushing may prevent these stains which are harmless and temporary and may be removed by a dentist/dental care practitioner.\nProducts containing more than the equivalent of 120 mg of fluoride ion, except those in toothpaste form (includes dentifrice paste and dentifrice gel)",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Oral Health Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 149
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-health-sante-bucco-dentaire#004",
+   "text": "Caution(s) and warning(s): Keep out of reach of children. This product contains enough fluoride to seriously harm a child. (Note: These cautionary statements shall be preceded by a prominently displayed symbol that is octagonal in shape, conspicuous in colour and on a background of a contrasting colour. If the product is recommended solely for children, all package sizes must be packaged in a child-resistant package (CRP). If the product is not recommended solely for children, at least one of the sizes of packages available for sale must be packaged in CRP and all other package sizes must carry a statement that the NHP is available in a CRP, as per Section 97 of the Natural Health Product Regulations, citing Sections C.01.029, C.01.031 and C.01.031.2 (1) of the Food and Drug Regulations (JC 2023)).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Oral Health Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 133
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-health-sante-bucco-dentaire#005",
+   "text": "Contraindication(s): Products containing cetylpyridinium chloride\nDo not use if you have painful or swollen gums, pus from the gum line, loose teeth or increased spacing between the teeth. See your dentist immediately, as these may be signs of periodontitis, a serious gum disease.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Oral Health Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  }
+ ]
+}

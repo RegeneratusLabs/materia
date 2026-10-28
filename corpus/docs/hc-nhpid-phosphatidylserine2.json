@@ -1,0 +1,85 @@
+{
+ "doc_id": "hc-nhpid-phosphatidylserine2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "PHOSPHATIDYLSERINE",
+ "title_extra": null,
+ "date": "2026-02-27",
+ "revised": "2026-02-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-02-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=phosphatidylserine2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "phosphatidylserine2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:0d1a36e92598c3bde6dd0408f8d855c86d824d066771a45eb20c8a3e3576afb4",
+ "entities": [
+  "PHOSPHATIDYLSERINE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-phosphatidylserine2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "PHOSPHATIDYLSERINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-phosphatidylserine2#002",
+   "text": "Use(s) or Purpose(s): Helps support cognitive/brain health/function (Schreiber et al. 2000; Cenacchi et al. 1993; Crook et al. 1992; Engel et al. 1992; Crook et al. 1991; Maggioni et al. 1990).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "PHOSPHATIDYLSERINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "hc-nhpid-phosphatidylserine2#003",
+   "text": "Quantity(ies): 300 milligrams of Phosphatidylserine, per day (Schreiber et al. 2000; Cenacchi et al. 1993; Crook et al. 1992; Engel et al. 1992; Crook et al. 1991; Maggioni et al. 1990).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PHOSPHATIDYLSERINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  }
+ ]
+}

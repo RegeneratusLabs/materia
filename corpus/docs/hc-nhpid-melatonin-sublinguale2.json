@@ -1,0 +1,178 @@
+{
+ "doc_id": "hc-nhpid-melatonin-sublinguale2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "MELATONIN - Sublingual",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=melatonin.sublinguale2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "melatonin.sublinguale2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:727b770bd773a29d7a6643043b3142f7e0bf606e2d901fa60043e0eb70cb9270",
+ "entities": [
+  "MELATONIN - Sublingual",
+  "Proper name",
+  "Common name",
+  "Source ingredient",
+  "Pineal hormone"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-melatonin-sublinguale2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for sublingual use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications. Note that this list does not include prolonged-release, extended-release or delayed-release dosage forms.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "MELATONIN - Sublingual",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Pineal hormone"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 56
+  },
+  {
+   "chunk_id": "hc-nhpid-melatonin-sublinguale2#002",
+   "text": "Use(s) or Purpose(s): (Used as a) sleep aid (to help promote sleep) (Costello et al. 2014; Wyatt et al. 2006; Brzezinski et al. 2005).\nHelps (to) increase the total sleep time (aspect of sleep quality) in people suffering from sleep restriction or altered sleep schedule (e.g. shift-work and jet lag) (Zhdanova et al. 2001; Brusco et al. 1999; Sanders et al. 1999; Skene et al. 1999; Garfinkel et al. 1995; Sack et al. 1991).\nHelps (to) prevent and/or reduce the effects of jet lag/minimize jet lag (e.g. daytime fatigue, sleep disturbance) (for people/if travelling by plane easterly across two or more time zones/flying east over two or more time zones) (Brown et al. 2009; Herxheimer and Petrie 2002; Suhner et al. 1998a; Petrie et al. 1993; Claustrat et al. 1992; Petrie et al. 1989).\nHelps (to) speed up/reduce the time it takes to fall asleep (sleep onset latency aspect of sleep quality) in people who fall asleep slowly/with delayed sleep phase disorder (van Geijlswijk et al. 2010).\nHelps (to) re-set the body's sleep-wake cycle (aspect of the circadian rhythm) (van Geijlswijk et al. 2010; Kunz et al. 2004; Sack et al. 2000).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "MELATONIN - Sublingual",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Pineal hormone"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 192
+  },
+  {
+   "chunk_id": "hc-nhpid-melatonin-sublinguale2#003",
+   "text": "Use(s) or Purpose(s): Note: The above claims can be combined on the product label (e.g. Helps re-set the body's sleep-wake cycle (aspect of the circadian rhythm) and increase the total sleep time (aspect of sleep quality) in people suffering from sleep restriction or altered sleep schedule).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "MELATONIN - Sublingual",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Pineal hormone"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 46
+  },
+  {
+   "chunk_id": "hc-nhpid-melatonin-sublinguale2#004",
+   "text": "Quantity(ies): All uses except jet lag\n0.1 - 10 milligrams of melatonin, per day (Brzezinski et al. 2005; IOM 2004; Kayumov et al. 2001; Koda-Kimble 2001; Zhdanova et al. 2001; Brusco et al. 1999; Jean-Louis et al. 1999; Matsumoto 1999; Jorgensen and Witting 1998; Sack et al. 1997; Attenburrow et al. 1996; Zhdanova et al. 1995; Garfinkel 1995; Tzischinsky and Lavie 1994; Dollins et al. 1994; Dahlitz et al. 1991; James et al. 1987).\nJet lag\n0.5 - 10 milligrams of melatonin, per day (Brown et al. 2009; Herxheimer and Petrie 2002; Suhner et al. 1998a).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "MELATONIN - Sublingual",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Pineal hormone"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 96
+  },
+  {
+   "chunk_id": "hc-nhpid-melatonin-sublinguale2#005",
+   "text": "Direction(s) for use: All uses\nTake as needed, 10 to 30 minutes before bedtime. Place under the tongue until it is dissolved (Abdellah et al. 2023; Bartoli et al. 2012; Naguib and Samarkandi 1999; Jorgensen and Witting 1998).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "MELATONIN - Sublingual",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Pineal hormone"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "hc-nhpid-melatonin-sublinguale2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications for seizure, blood pressure, to suppress the immune system, to affect mental state or increase sedation, steroids or blood thinners (Wirtz et al. 2008; IOM 2004; Herxheimer and Petrie 2002; Lusardi et al. 2000; Maestroni 1993).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a cardiovascular, immune, liver or kidney disease, seizure disorder, asthma or diabetes (Peschke and Mühlbauer 2010; Carrillo-Vico et al. 2005; IOM 2004; der Marderosian and Beuttlers 2003; Sutherland et al. 2003; Calvo et al. 2002; Herxheimer and Petrie 2002; Sutherland et al. 2002; Cagnacci et al. 2001a; Arangino et al. 1999; Sheldon 1998; Maestroni 1993).\nWhen using this product avoid taking with alcohol or products that cause drowsiness (Herxheimer and Petrie 2002; Holliman and Chyka 1997).\nWhen using this product avoid driving or using machinery for 5 hours (Avery et al. 1998; Suhner et al. 1998b).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if sleeplessness persists for more than 4 weeks (chronic insomnia) (Buscemi et al. 2004; IOM 2004; Dipiro et al. 2002).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "diabetes",
+    "sedation",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "MELATONIN - Sublingual",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Pineal hormone"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 194
+  },
+  {
+   "chunk_id": "hc-nhpid-melatonin-sublinguale2#007",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (IOM 2004).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "MELATONIN - Sublingual",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Pineal hormone"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-melatonin-sublinguale2#008",
+   "text": "Known adverse reaction(s): Stop use if allergy occurs or if you experience headache, confusion, or nausea (Herxheimer and Petrie 2002).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "MELATONIN - Sublingual",
+    "Proper name",
+    "Common name",
+    "Source ingredient",
+    "Pineal hormone"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  }
+ ]
+}

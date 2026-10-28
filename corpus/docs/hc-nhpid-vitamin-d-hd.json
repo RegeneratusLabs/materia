@@ -1,0 +1,212 @@
+{
+ "doc_id": "hc-nhpid-vitamin-d-hd",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "VITAMIN D (>1,000 - 2,500 IU)",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-06-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=vitamin.d.hd&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "vitamin.d.hd"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:9b0108aa2aca56921eb87c98d5923fe0facb12a3671f5eb753946110324a2c03",
+ "entities": [
+  "VITAMIN D (>1,000 - 2,500 IU)",
+  "Proper name",
+  "Common name",
+  "Source information for",
+  "Source information"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#002",
+   "text": "Use(s) or Purpose(s): Helps to prevent vitamin D deficiency (IOM 2006; Shils et al. 2006; Groff and Gropper 2000; IOM 1997).\nVitamin D intake, when combined with sufficient calcium, a healthy diet and regular exercise may reduce the risk of developing osteoporosis in people with vitamin D deficiency (Kahwati et al. 2018; Shils et al. 2006; NIH 2001; Groff and Gropper 2000).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 62
+  },
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#003",
+   "text": "Subpopulation(s): Adults 18 years and older\nNote: Adults 19 years and older is the only acceptable subpopulation for the source ingredients HAP or HVP and for zinc sourced from picolinate.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 30
+  },
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#004",
+   "text": "Quantity(ies): Table 3. Daily doses for the medicinal ingredient Vitamin D\nSubpopulation(s)\nMedicinal ingredient\nMinimum 1\nMaximum 2\nAdults 18 years and older\nVitamin D\n25 µg (> 1,000 IU*)\n≤ 62.5 µg (≤ 2,500 IU*)\n1 This value is based on the previous Prescription Drug List limit (HC 2020).\n2 This value is based on the Prescription Drug List limit amended in 2021 (HC 2021).\nNotes\nThe quantity of vitamin D per dosage unit must always be provided in micrograms (µg).\nOptional: *International Units (IU) may be provided as additional quantity per dosage unit.\nConversion factor: 1 IU of vitamin D = 0.025 µg cholecalciferol or ergocalciferol (IOM 2006).\nTable 4. Daily doses for complementary ingredients 1\nSubpopulation(s)\nComplementary ingredient\nMinimum\nMaximum\nAdults\n18 years\nCalcium\n65 mg\n1,500 mg\n19 years and older\n18 years\nMagnesium\n20 mg\n350 mg\n19 years and older\n500 mg\n18 years\nVitamin K 2\n6 mcg\n75 mcg\n19 years and older\n120 mcg\n18 years\nZinc (from non-picolinate sources)\n0.7 mg\n34 mg\n19 years and older\n50 mg\n18 years\nZinc (from picolinate sources)\n-\n-\n19 years and older\n0.7 mg\n25 mg\nReference: NNHPD 2026.\n1 Any restrictions from the Multi-vitamin/mineral supplements monograph also apply.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 208
+  },
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#005",
+   "text": "Direction(s) for use: Products that do not contain calcium at therapeutic dose\nTake with an adequate intake of calcium.\nProducts containing calcium or zinc\nTake with food (NNHPD 2026).\nTake a few hours before or after taking other medications or health products (NNHPD 2026).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 44
+  },
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#006",
+   "text": "Duration(s) of use: Products containing zinc sourced from picolinate\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (NNHPD 2026).\nOther products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 6 months (BfR 2020).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#007",
+   "text": "Caution(s) and warning(s): All products except products containing zinc sourced from picolinate requiring a contraindication\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAll products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have kidney disorders (NIH 2024; BfR 2020).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking other supplements or products containing vitamin D or vitamin D analogues.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking any medications including antacids, anticonvulsants, digoxin, cholestyramine, colestipol, mineral oil, steroids, statins or thiazide diuretics (NNHPD 2021; BfR 2020).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use to determine if you would benefit from additional vitamin D as 15-20 mcg (600-800 IU) of vitamin D per day is an adequate quantity for most individuals.\nProducts containing vitamin K 2\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners (NNHPD 2026).\nProducts providing 25-34 mg of zinc per day for adults 18 years or 31-50 mg of zinc per day for adults 19 years and older",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 201
+  },
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#008",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are unsure whether you are taking enough copper as zinc supplementation can cause a copper deficiency (NNHPD 2026).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#009",
+   "text": "Contraindication(s): All products\nDo not use if you have hypercalcemia and/or hypercalciuria (NIH 2024; BfR 2020).\nProducts containing zinc sourced from picolinate\nDo not use if you are pregnant or breastfeeding (NNHPD 2026).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "hc-nhpid-vitamin-d-hd#010",
+   "text": "Known adverse reaction(s): All products\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if the following early symptoms of hypercalcemia occur: weakness, fatigue, drowsiness, headache, lack of appetite, dry mouth, metallic taste, nausea, vomiting, vertigo, ringing in the ears, lack of coordination and muscle weakness or if you develop any other symptom (NIH 2024; BfR 2020).\nProducts providing more than 350 mg of magnesium per day\nWhen using this product you may experience diarrhea (NNHPD 2026).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "VITAMIN D (>1,000 - 2,500 IU)",
+    "Proper name",
+    "Common name",
+    "Source information for",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 80
+  }
+ ]
+}

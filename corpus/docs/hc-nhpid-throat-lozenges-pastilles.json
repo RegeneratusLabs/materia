@@ -1,0 +1,122 @@
+{
+ "doc_id": "hc-nhpid-throat-lozenges-pastilles",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Throat Lozenges Monograph (Medicinal ingredients analgesic)",
+ "title_extra": null,
+ "date": "2024-11-29",
+ "revised": "2024-11-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-11-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=throat.lozenges.pastilles&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "throat.lozenges.pastilles"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:6739b874614be0749416951106961bed7cf36cbf561f1304f2690214df7de7be",
+ "entities": [
+  "Throat Lozenges Monograph",
+  "Medicinal ingredients analgesic"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-throat-lozenges-pastilles#001",
+   "text": "Use(s) or Purpose(s): Self-Care Framework Category I Uses or Purposes:\nAll products\nFor temporary relief of (minor) sore throat.\nTemporarily relieves/soothes (minor) sore throat.\nProducts containing dl-menthol/l-menthol, phenol, hexylresorcinol, benzocaine, dyclonine hydrochloride, benzyl alcohol, salicyl alcohol\nFor temporary relief of pain of (minor) sore throat.\nTemporarily relieves/soothes pain of (minor) sore throat.\nProducts containing slippery elm, gelatin, or pectin\nFor (the) protection of irritated area in the throat.\nProtects irritated areas in the throat.\nProducts containing 2 - 20 mg of dl-menthol and/or l-menthol\nHelps ease/relieve nasal congestion\nMakes nasal passages feel clearer\nProducts containing 5 - 20 mg of dl-menthol and/or l-menthol\nFor (the) temporary relief of coughs.\nTemporarily relieves/soothes coughs.\nProducts containing hexylresorcinol, cetylpyridinium chloride, domiphen bromide, phenol, or dequalinium chloride\nAntiseptic",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "Throat Lozenges Monograph",
+    "Medicinal ingredients analgesic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 124
+  },
+  {
+   "chunk_id": "hc-nhpid-throat-lozenges-pastilles#002",
+   "text": "Subpopulation(s): Children 6 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Throat Lozenges Monograph",
+    "Medicinal ingredients analgesic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-throat-lozenges-pastilles#003",
+   "text": "Duration(s) of Use: Products containing benzocaine\nFor occasional use only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Throat Lozenges Monograph",
+    "Medicinal ingredients analgesic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "hc-nhpid-throat-lozenges-pastilles#004",
+   "text": "Caution(s) and warning(s): All products\nKeep out of reach of children. In case of overdose, call a poison control centre or get medical help right away.\nProducts including claim for the temporary relief of (minor) sore throat and/or temporary relief of pain of (minor) sore throat and/or irritated throat (except for products containing benzocaine)\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if sore throat worsens or persists for more than 2 days.\nProducts including claim for the temporary relief of coughs\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if cough worsens and persists for more than 7 days, or is accompanied by a fever.\nProducts containing ingredients in Tables 4 or 5\nAsk a doctor/physician/health care practitioner/health care provider/health care professional before use if you are pregnant or breastfeeding.\nProducts containing benzocaine\nWhen using this product do not chew gum or food while numbness persists (USP DI 2006; CPhA 1996).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if sore throat is severe, persists for more than 2 days, or is accompanied by or followed by other symptoms such as fever, headache, rash, swelling, nausea, or vomiting (Pray 2006; USP DI 2006; US FDA 1994).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children"
+   ],
+   "entities": [
+    "Throat Lozenges Monograph",
+    "Medicinal ingredients analgesic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 209
+  },
+  {
+   "chunk_id": "hc-nhpid-throat-lozenges-pastilles#005",
+   "text": "Contraindication(s): Products containing benzocaine\nDo not use if you are allergic to benzocaine.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Throat Lozenges Monograph",
+    "Medicinal ingredients analgesic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "hc-nhpid-throat-lozenges-pastilles#006",
+   "text": "Known adverse reaction(s): Products containing benzocaine\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if the following symptoms appear: weakness, confusion, headache, difficulty breathing and/or pale, gray or blue coloured skin. These symptoms may be signs of methemoglobinemia, a rare disorder, which may appear up to 2 hours after use (US FDA 2018; US FDA 2011a,b; HC 2006).\nStop use if hypersensitivity/allergy occurs (US FDA 1994).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Throat Lozenges Monograph",
+    "Medicinal ingredients analgesic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 70
+  }
+ ]
+}

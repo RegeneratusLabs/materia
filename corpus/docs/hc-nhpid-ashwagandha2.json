@@ -1,0 +1,128 @@
+{
+ "doc_id": "hc-nhpid-ashwagandha2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ASHWAGANDHA - WITHANIA SOMNIFERA",
+ "title_extra": null,
+ "date": "2025-02-28",
+ "revised": "2025-02-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-02-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=ashwagandha2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "ashwagandha2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:468cd501c63fd3ec02e781fa990a94591d0f00c6a19221f037c1b3bf014c5f22",
+ "entities": [
+  "ASHWAGANDHA - WITHANIA SOMNIFERA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-ashwagandha2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ASHWAGANDHA - WITHANIA SOMNIFERA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-ashwagandha2#002",
+   "text": "Use(s) or Purpose(s): Traditionally used in Ayurveda as Rasayana (rejuvenative tonic) (Sukh Dev 2006; API 2001; Upton 2000).\nTraditionally used in Ayurveda to relieve general debility, especially during convalescence or old age (API 2001; Kapoor 2001).\nTraditionally used in Ayurveda to help relieve restlessness and/or nervousness (which helps (to) promote sleep) (Khare 2004; Upton 2000).\nTraditionally used in Ayurveda to balance aggravated Vata (nervine) (Kapoor 2001; Khory and Katrak 1999; Nadkarni 1954).\nTraditionally used in Ayurveda for memory enhancement (Sukh Dev 2006; Upton 2000; Nadkarni 1954).\nUsed in Herbal Medicine as an adaptogen to help increase energy and resistance to stress over time (e.g. in case of mental and physical fatigue related to stress) (Winston and Maimes 2007; Bone 2003; Williamson 2002).\nNotes\nThe above claims can be combined on the product label if from the same traditional system of medicine (e.g. Traditionally used in Ayurveda to balance aggravated Vata (nervine) and to relieve general debility, especially during convalescence or old age).\nFor multi-ingredient products:",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ASHWAGANDHA - WITHANIA SOMNIFERA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 165
+  },
+  {
+   "chunk_id": "hc-nhpid-ashwagandha2#003",
+   "text": "Use(s) or Purpose(s): To prevent the product from being represented as a \"traditional medicine,\" any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Ashwagandha is traditionally used in Ayurveda for memory enhancement).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ASHWAGANDHA - WITHANIA SOMNIFERA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "hc-nhpid-ashwagandha2#004",
+   "text": "Quantity(ies): Traditional Ayurvedic Claims\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract * , Tincture, Fluid extract, Decoction, Infusion)\n2 - 6 grams of dried root, per day (Williamson 2002; API 2001; Kapoor 2001; Nadkarni 1954).\n* Note: Solvents allowed for the method of preparation \"Non-Standardized Extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.\nAdaptogen\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n2.5 - 6.5 grams of dried root/whole plant, per day (Winston and Maimes 2007; Bone 2003; Williamson 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ASHWAGANDHA - WITHANIA SOMNIFERA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "hc-nhpid-ashwagandha2#005",
+   "text": "Caution(s) and warning(s): General debility; Memory enhancement; Adaptogen; Restlessness/nervousness\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAll products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Upton 2000; McGuffin et al. 1997).\nWhen using this product exercise caution if you drive or use machinery as you may experience drowsiness (Berardi et al. 2002).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "sedation"
+   ],
+   "entities": [
+    "ASHWAGANDHA - WITHANIA SOMNIFERA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 69
+  }
+ ]
+}

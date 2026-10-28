@@ -1,0 +1,175 @@
+{
+ "doc_id": "hc-nhpid-5htp",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "5-HTP",
+ "title_extra": null,
+ "date": "2024-08-28",
+ "revised": "2024-08-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-08-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=5htp&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "5htp"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:2ed6031245c45e2a7f04d5b1b20d9b2d9643d10cd5b7219e0871b13c70009b50",
+ "entities": [
+  "5-HTP",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-5htp#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "5-HTP",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-5htp#002",
+   "text": "Use(s) or Purpose(s): Helps (to) promote healthy mood balance (Pöldinger et al. 1991; Zmilacher et al. 1988; Nakajima et al. 1978).\nHelps (to) relieve sleep disturbances associated with mood imbalance (Sutanto et al. 2024; Poldinger et al. 1991; Soulairac and Lambinet 1988)\nHelps (to) relieve symptoms of fibromyalgia (Nicolodi and Sicuteri 1996; Sarzi Puttini and Caruso 1992; Caruso et al. 1990).\nHelps (to) reduce the severity and duration of migraine headaches when taken as a preventative (prophylactic) (Titus et al. 1986; Bono et al. 1984; Sicuteri 1973).\nTo be used with a program of reduced intake of dietary calories and increased physical activity (if possible) to help in weight management by reducing carbohydrate cravings (Cangiano et al.1998; Cangiano et al. 1992; Ceci et al. 1989).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "5-HTP",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 125
+  },
+  {
+   "chunk_id": "hc-nhpid-5htp#003",
+   "text": "Quantity(ies): Healthy mood balance\n150 - 300 milligrams of 5-HTP, per day (Pöldinger et al. 1991; Nakajima et al. 1978).\nFibromyalgia symptoms\n300 - 400 milligrams of 5-HTP, per day; Not to exceed 300 milligrams per single dose (Nicolodi and Sicuteri 1996; Caruso et al. 1990).\nMigraine prophylaxis\n200 - 600 milligrams of 5-HTP, per day; Not to exceed 300 milligrams per single dose (Titus et al. 1986; Sicuteri 1973).\nWeight management\n750 - 900 milligrams of 5-HTP, per day; Not to exceed 300 milligrams per single dose (Cangiano et al. 1998; Cangiano et al. 1992; Ceci et al. 1989).\nSleep disturbances\n100 - 200 milligrams of 5-HTP, per day (Sutanto et al. 2024; Soulairac and Lambinet 1988; Soulairac and Lambinet 1977; Wyatt et al. 1971).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "5-HTP",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 126
+  },
+  {
+   "chunk_id": "hc-nhpid-5htp#004",
+   "text": "Direction(s) for use: All uses\nTo minimize the risk of gastrointestinal side effects, start at lower dose and slowly increase to effective dose over 2-week period (Birdsall 1998).\nAll uses (excluding weight management)\nTake with food (Pöldinger et al. 1991).\nWeight management\nTake 30 minutes before meals (Cangiano et al. 1998; Cangiano et al. 1992; Ceci et al. 1989).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "5-HTP",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 59
+  },
+  {
+   "chunk_id": "hc-nhpid-5htp#005",
+   "text": "Duration(s) of Use: Healthy mood balance; Fibromyalgia symptoms; Migraine prophylaxis; Sleep disturbances\nUse for at least 2 weeks to see beneficial effects (Jangid et al. 2013; Caruso et al. 1990; Nakajima et al. 1978; Sicuteri 1973).\nWeight management (products providing over 600 mg 5-HTP, per day)\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (Cangiano et al. 1992).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "5-HTP",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 64
+  },
+  {
+   "chunk_id": "hc-nhpid-5htp#006",
+   "text": "Caution(s) and warning(s): All uses\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking carbidopa or health products with serotonergic activity such as mood balance supplements, cough medication containing dextromethorphan, pain killers or medications for nausea or migraine (Mayo Clinic Staff 2022; Patel and Marzella 2017; Turner et al 2006).\nWhen using this product exercise caution while driving or using machinery, as you may experience drowsiness (Berardi et al. 2002).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAll uses (excluding weight management)\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nWeight management\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.\nHealthy mood balance; Fibromyalgia symptoms\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a psychological disorder such as anxiety or depression.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "sedation"
+   ],
+   "entities": [
+    "5-HTP",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 156
+  },
+  {
+   "chunk_id": "hc-nhpid-5htp#007",
+   "text": "Contraindication(s): All uses\nDo not use if you have scleroderma (Lampert et al. 1992; Sternberg et al. 1980).\nDo not use if you are taking antidepressants (Mayo Clinic Staff 2022; Patel and Marzella 2017).\nWeight management\nDo not use if you are pregnant (HC 2010).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "5-HTP",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "hc-nhpid-5htp#008",
+   "text": "Known adverse reaction(s): When using this product you may experience gastrointestinal discomfort/disturbances (Turner et al. 2006; Byerley et al. 1987).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience skin hardening, pain or stiffness of muscles or joints, tremors, agitation/confusion, or an increased heart rate (Boyer 2023; Varga 2023; Mayo Clinic Staff 2022; Patel and Marzella 2017; Das et al. 2004; Erner et al. 2003; Lampert et al. 1992; Sternberg et al. 1980).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "5-HTP",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 79
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "doc_id": "hc-nhpid-sage-or2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "SAGE -\nSALVIA OFFICINALIS\nOral",
+ "title_extra": null,
+ "date": "2025-01-10",
+ "revised": "2025-01-10",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-01-10",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=sage.or2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "sage.or2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:ba453017ff53e8c5bd53d0fc97bf1631064cebdf3334584bad7609fbbf8fb7eb",
+ "entities": [
+  "SAGE -\nSALVIA OFFICINALIS\nOral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-sage-or2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "SAGE -\nSALVIA OFFICINALIS\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-sage-or2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Bradley 2006; Lima et al. 2005).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Bradley 2006; Lima et al. 2005).\n(Traditionally) used in Herbal Medicine (as a carminative) to help provide relief of upset stomach and flatulence (flatulent dyspepsia) (EMA 2016; Godfrey et al. 2010; Bradley 2006; Mills and Bone 2005; BHP 1996; Culbreth 1927; Felter 1922).\n(Traditionally) used in Herbal Medicine (as a diaphoretic) to increase perspiration/sweating (PDR 2007; Culbreth 1927; Felter 1922; Cook 1869).\n(Traditionally) used in Herbal Medicine (as an antihidrotic) to reduce hyperhidrosis/excessive sweating or perspiration (EMA 2016; Bradley 2006; Mills and Bone 2005; BHP 1996; Culbreth 1927; Felter 1922).\nUsed in Herbal Medicine to help reduce hot flushes/hot flashes/night sweats associated with menopause (Romm 2010; Bradley 2006; Mills and Bone 2000).\n(Traditionally) used in Herbal Medicine (as an antigalactagogue) to stop the production of breast milk (Godfrey et al. 2010; Wichtl 2004; Yarnell et al. 2003; Felter and Lloyd 1983; Culbreth 1927; Cook 1869).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to reduce excessive sweating or perspiration and to stop the production of breast milk).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "SAGE -\nSALVIA OFFICINALIS\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-sage-or2#003",
+   "text": "Use(s) or Purpose(s): For multi-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiples systems of traditional medicine (e.g. Sage is traditionally used in Herbal Medicine to increase sweating).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "SAGE -\nSALVIA OFFICINALIS\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 108
+  },
+  {
+   "chunk_id": "hc-nhpid-sage-or2#004",
+   "text": "Quantity(ies): Antioxidant\nMethods of preparation: Dry 1 , Non-Standardized Aqueous Extracts (Dry extract, Infusion, Infusion concentrate)\nNot to exceed 12 grams of dried leaf, per day (Bradley 2006; Mills et Bone 2005; Blumenthal et al. 2000; BHP 1996; Culbreth 1927).\n1 Note: Dried leaf should be prepared as an infusion (see direction for use).\nMethod of preparation: Non-Standardized Ethanolic Extracts (Dry extract, Tincture)\nNot to exceed 2.25 grams of dried leaf, per day (EMA 2016; Mills and Bone 2005; ESCOP 2003).\nMethod of preparation: Fluid extract\nNot to exceed 6 grams of dried leaf, per day (EMA 2016; Bradley 2006; Mills and Bone 2005; ESCOP 2003; BHP 1996).\nOther uses\nMethods of preparation: Dry 1 , Non-Standardized Aqueous Extracts (Dry extract, Infusion, Infusion concentrate)\n1 - 12 grams of dried leaf, per day (Mills and Bone 2005; Blumenthal et al. 2000; BHP 1996; Culbreth 1927).\n1 Note: Dried leaf should be prepared as an infusion (see direction for use).\nMethods of preparation: Non-Standardized Ethanolic Extracts (Dry extract, Tincture)\n0.3 - 2.25 grams dry leaf, per day (EMA 2016; Mills and Bone 2005; ESCOP 2003).\nMethod of preparation: Fluid extract\n1 - 6 grams of dried leaf, per day (EMA 2016; Bradley 2006; Mills and Bone 2005; ESCOP 2003; BHP 1996).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SAGE -\nSALVIA OFFICINALIS\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 210
+  },
+  {
+   "chunk_id": "hc-nhpid-sage-or2#005",
+   "text": "Direction(s) for use: Night sweats\nTake 1 hour before bedtime (EMA 2016).\nDried leaves - All uses\nPour hot boiled water on dried leaf and steep.\nDried leaves - Antihidrotic\n(To reduce sweating,)* let infusion cool before drinking (Bradley 2006; Mills and Bone 2005; BHP 1996; Culbreth 1927; Felter 1922).\nDried leaves - Diaphoretic\n(To increase sweating,)* drink infusion while still warm (PDR 2007; Culbreth 1927; Felter 1922; Cook 1869).\n*Note: Information in brackets is required on the label, when both uses to reduce and increase sweating are listed on the label.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SAGE -\nSALVIA OFFICINALIS\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "hc-nhpid-sage-or2#006",
+   "text": "Duration(s) of Use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 weeks (Gardner and McGuffin 2013; Wichtl 2004; ESCOP 2003).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SAGE -\nSALVIA OFFICINALIS\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  },
+  {
+   "chunk_id": "hc-nhpid-sage-or2#007",
+   "text": "Caution(s) and warning(s): Carminative, Diaphoretic, Antihidrotic, Antigalactagogue\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "SAGE -\nSALVIA OFFICINALIS\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  },
+  {
+   "chunk_id": "hc-nhpid-sage-or2#008",
+   "text": "Contraindication(s): All products\nDo not use if you are pregnant or breastfeeding (Gardner and McGuffin 2013; Bradley 2006; Mills and Bone 2005).\nDo not use if you have a seizure disorder such as epilepsy (Gardner and McGuffin 2013; Bradley 2006; Mills and Bone 2005).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "SAGE -\nSALVIA OFFICINALIS\nOral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 44
+  }
+ ]
+}

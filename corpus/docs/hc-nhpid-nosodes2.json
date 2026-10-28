@@ -1,0 +1,121 @@
+{
+ "doc_id": "hc-nhpid-nosodes2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Nosodes (Bacillus anthracis)",
+ "title_extra": null,
+ "date": "2025-01-10",
+ "revised": "2025-01-10",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-01-10",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=nosodes2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "nosodes2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:afda47ef3b366bc0d8bda243ee09c8505767189616b9bb05c6e87865c84b01bf",
+ "entities": [
+  "Nosodes",
+  "Bacillus anthracis"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-nosodes2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nThe acceptable dosage forms are those indicated in Table 2 below.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Nosodes",
+    "Bacillus anthracis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 30
+  },
+  {
+   "chunk_id": "hc-nhpid-nosodes2#002",
+   "text": "Subpopulation(s): Adolescents 13 to 17 years, Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Nosodes",
+    "Bacillus anthracis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "hc-nhpid-nosodes2#003",
+   "text": "Quantity(ies): The minimum homeopathic potency for each medicinal ingredient is listed in Appendix I .\nTable 2. Dosage information for nosodes\nDosage forms\nMaximum General Dosing\nMaximum Acute Dosing\nAmount\nFrequency\n(Optional)\nGlobules (small pellets, pilules)\n1 whole unit dose (tube or container)\n1 time per day\n1 unit dose, 3 times per day\nGranules (regular and large pellets)\n5 granules\n3 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement of symptoms. Then resume general dosing.\nTablets\n4 tablets\n4 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement of symptoms. Then resume general dosing.\nOral Drops\n30 drops\n3 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement of symptoms. Then resume general dosing.\nOral Spray\n10-15 sprays\n3 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement of symptoms. Then resume general dosing.\nLiquid (Oral drinkable vials)\n1 ampoule\n3 times per day\nUp to 3 times per day.\nOral Solution (unit dose)\n1 unit dose\n3 times per day\nGive one unit dose upon onset of symptoms. Repeat two more times at 15-minute intervals. Repeat process up to 9 times per day if symptoms reappear.\nOral Syrup\n1-2 teaspoons\nEvery 4-6 hours",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Nosodes",
+    "Bacillus anthracis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-nosodes2#004",
+   "text": "Quantity(ies): Not applicable\nCream/Ointment\nCover affected area\nAs needed\nNot applicable\nNasal spray\n2 sprays per nostril\n5 times per day\nNot applicable\nSuppositories\n1 suppository\n1-4 times per day\nUp to 4 times per day",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Nosodes",
+    "Bacillus anthracis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "hc-nhpid-nosodes2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Nosodes",
+    "Bacillus anthracis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "hc-nhpid-nosodes2#006",
+   "text": "Contraindication(s): This product is neither a vaccine nor an alternative to vaccination.\nThis product has not been proven to prevent infection. Health Canada does not recommend its use in children and advises that your child receive all routine vaccinations.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Nosodes",
+    "Bacillus anthracis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  }
+ ]
+}

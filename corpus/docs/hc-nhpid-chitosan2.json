@@ -1,0 +1,159 @@
+{
+ "doc_id": "hc-nhpid-chitosan2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CHITOSAN",
+ "title_extra": null,
+ "date": "2024-11-29",
+ "revised": "2024-11-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-11-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=chitosan2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "chitosan2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:6ead425838f453e14ac9a796d281085f4801488e25dbccafc3d9f5bdd39a405d",
+ "entities": [
+  "CHITOSAN",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-chitosan2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CHITOSAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-chitosan2#002",
+   "text": "Use(s) or Purpose(s): Helps lower blood total (and LDL (low density lipoprotein)) cholesterol (Bokura and Kobayashi 2003; Tai et al. 2000).\nHelps lower bad cholesterol (Bokura and Kobayashi 2003; Tai et al. 2000).\nHelps maintain healthy cholesterol levels (EFSA 2011; Mhurchu et al. 2004).\nCould be a complement to a healthy lifestyle that incorporates a calorie-reduced diet and regular physical activity for individuals involved in a weight management program (Moraru et al. 2018; Willers et al. 2012; Jull et al. 2008; Mhurchu et al. 2005).\nNotes:\nThe above uses can be combined on the product label (e.g., Helps lower blood total and LDL cholesterol and maintain healthy cholesterol levels).\nThe terms 'Helps' or 'Helps to' can be used interchangeably on the label.\nRestrictions when this monograph is combined with other monographs (Class II and III applications):\nIf a weight management claim is made:\nWeight management is a long-term process and must therefore, be associated with a long-term intervention.\nMedicinal ingredient with diuretic properties may be included in weight management products, however no diuretic claim can be applied as it is associated with a short-term duration of use (occasional use only).\nStimulant laxatives cannot be present at therapeutic dose in weight management products as their short term duration of use is not compatible with the duration of use for weight management.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "CHITOSAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-chitosan2#003",
+   "text": "Quantity(ies): 0.5 - 3 grams of chitosan, 2 times per day (Mhurchu et al. 2004; Bokura and Kobayashi 2003; Tai et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CHITOSAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  },
+  {
+   "chunk_id": "hc-nhpid-chitosan2#004",
+   "text": "Direction(s) for use: Take with meals (Bokura and Kobayashi 2003).\nTake a few hours before or after taking other medications or health products since the absorption of these products may be affected (Kubbinga et al. 2015).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CHITOSAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "hc-nhpid-chitosan2#005",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners (Pittler et al. 1999).\nAll products (except for weight management)\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nWeight management\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CHITOSAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 66
+  },
+  {
+   "chunk_id": "hc-nhpid-chitosan2#006",
+   "text": "Contraindication(s): All products\nDo not use if you have an allergy to seafood.\nWeight management\nDo not use if you are pregnant (HC 2010).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CHITOSAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "hc-nhpid-chitosan2#007",
+   "text": "Known adverse reaction(s): When using this product you may experience gastrointestinal discomfort/disturbances (Moraru et al. 2018; Mhurchu et al. 2004; Pittler et al. 1999).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CHITOSAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  }
+ ]
+}

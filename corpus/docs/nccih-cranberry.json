@@ -1,0 +1,210 @@
+{
+ "doc_id": "nccih-cranberry",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Cranberry",
+ "title_extra": null,
+ "date": "2024-11-01",
+ "revised": "2024-11-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-05-01",
+ "url": "https://www.nccih.nih.gov/health/cranberry",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/cranberry"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:6b2bf7a6d3e643f76313326cf260efbc29ce3da6c25e0df2c0cedde20b7626e4",
+ "entities": [
+  "Cranberry"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-cranberry#001",
+   "text": "Cranberry\n© Steven Foster\nCommon Names:\ncranberry,\nAmerican cranberry,\nbearberry\nLatin Names:\nVaccinium macrocarpon\n(also known as\nOxycoccus macrocarpos\n)\n,\nVaccinium oxycoccos",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  },
+  {
+   "chunk_id": "nccih-cranberry#002",
+   "text": "Background: Cranberry is an evergreen shrub that grows in wet habitats in the Northeastern and North Central parts of North America.\nCranberry has a history of traditional use in dyes, food, and medicine among Native Americans and later European settlers. Cranberry fruits and leaves were thought to have therapeutic effects on disorders of the bladder, stomach, blood, and liver, and on various conditions like wounds, diabetes, and scurvy.\nToday, cranberry is commonly promoted for urinary tract infections (UTIs) and recurrent UTIs. Cranberry products are promoted for these common infections in part because of a growing interest in nonantibiotic prevention strategies, given concerns about antibiotic-resistant bacteria.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "diabetes",
+    "traditional"
+   ],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "nccih-cranberry#003",
+   "text": "How Much Do We Know?: There have been many studies on cranberry for the prevention of UTIs, especially among women at increased risk for UTIs or recurrent UTIs. However, some research isn’t of high quality.\nThere’s little research on cranberry for other conditions.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "nccih-cranberry#004",
+   "text": "What Have We Learned?: In general, cranberry products may decrease the overall risk of symptomatic, recurrent UTIs in women by 25 percent, and in some cases, by more than 30 percent. However, the effectiveness of cranberry is still in question because of inconsistent findings.\nWhile cranberry may assist in preventing symptomatic UTIs in some women, it isn’t recommended as a treatment for existing UTIs in any population.\nIt’s thought that the proanthocyanidins (PACs) present in cranberries prevent bacteria from sticking to the bladder wall, thus preventing the start of a UTI. Processing cranberries into various products, like tablets or capsules, can reduce the concentration of PACs, which can reduce the potential effectiveness of a product.\nStudies in certain populations at increased risk for UTIs, such as elderly people in long-term care and pregnant women, have had inconsistent results. Studies in other high-risk populations, such as women undergoing gynecological surgeries or people with multiple sclerosis, have not found cranberry to be beneficial in reducing the risk for UTIs.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "pregnancy",
+    "surgery"
+   ],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 167
+  },
+  {
+   "chunk_id": "nccih-cranberry#005",
+   "text": "What Have We Learned?: Starting in 2020, the U.S. Food and Drug Administration has allowed manufacturers to claim on product labels that there is “limited” evidence that daily consumption of specified amounts of cranberry dietary supplements may reduce the risk of recurrent UTIs in healthy women. A similar claim may be made for cranberry juice beverages, but the evidence must be described as “limited and inconsistent.”",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 66
+  },
+  {
+   "chunk_id": "nccih-cranberry#006",
+   "text": "What Do We Know About Safety?: Cranberry taken orally (by mouth) is generally thought to be safe. However, if consumed in very large amounts, cranberry can cause stomach upset and diarrhea, particularly in young children.\nPeople who think they have a UTI should see a health care provider for diagnosis and treatment. Don’t use cranberry products instead of a proven treatment for a UTI.\nThere is conflicting evidence about whether cranberry interacts with the anticoagulant (blood thinner) warfarin. If you take warfarin or any other medicine, talk with your health care provider before using cranberry or other herbal products; some herbs and medicines interact in harmful ways.\nSome studies of the use of cranberry during pregnancy or while breastfeeding suggest it is safe in amounts commonly found in food, but the evidence is not conclusive for use in larger amounts. If you’re considering using cranberry while pregnant or breastfeeding, consult your health care provider.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children",
+    "anticoagulant"
+   ],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 154
+  },
+  {
+   "chunk_id": "nccih-cranberry#007",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The rules for making and distributing dietary supplements are less strict than those for drugs.\nUnlike drugs, dietary supplements are not approved by the FDA before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 156
+  },
+  {
+   "chunk_id": "nccih-cranberry#008",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-cranberry#009",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-cranberry#010",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-cranberry#011",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-cranberry#012",
+   "text": "Key References: American Urological Association. Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline (2022). Accessed at\nauanet.org/guidelines-and-quality/guidelines/recurrent-uti\non September 20, 2023.\nCaljouw MAA, van den Hout WB, Putter H, et al.\nEffectiveness of cranberry capsules to prevent urinary tract infections in vulnerable older persons: a double-blind randomized placebo-controlled trial in long-term care facilities\n.\nJournal of the American Geriatrics Society.\n2014;62(1):103-110.\nCranberry. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on September 1, 2023. [Database subscription.]\nGbinigie O, Allen J, Williams N, et al.\nDoes cranberry extract reduce antibiotic use for symptoms of acute uncomplicated urinary tract infections (CUTI)? A feasibility randomised trial\n.\nBMJ Open.\n2021;11(2):e046791.\nKlein MA. Cranberry. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements\n. 2nd ed. New York, NY: Informa Healthcare; 2010:193-201.\nU.S. Food and Drug Administration. Letter of Enforcement Discretion.\nCranberry juice beverages and cranberry dietary supplements and reduced risk of recurrent urinary tract infection in healthy women\n. July 21, 2020.\nWilliams G, Hahn D, Stephens JH, et al.\nCranberries for preventing urinary tract infections (review)\n.\nCochrane Database of Systematic Reviews.\n2023;4(4):CD001321. Accessed at\ncochranelibrary.com\non September 1, 2023.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 206
+  },
+  {
+   "chunk_id": "nccih-cranberry#013",
+   "text": "Key References: NCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nNovember 2024",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Cranberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  }
+ ]
+}

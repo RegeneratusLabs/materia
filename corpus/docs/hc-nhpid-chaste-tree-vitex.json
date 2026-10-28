@@ -1,0 +1,155 @@
+{
+ "doc_id": "hc-nhpid-chaste-tree-vitex",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CHASTE TREE - VITEX AGNUS-CASTUS",
+ "title_extra": null,
+ "date": "2024-03-28",
+ "revised": "2024-03-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-03-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=chaste.tree.vitex&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "chaste.tree.vitex"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:f06a7173d0a6b83257a5a2e7cd4df61ec63d5337c8b1a6bab38dda2a3b00406a",
+ "entities": [
+  "CHASTE TREE - VITEX AGNUS-CASTUS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-chaste-tree-vitex#001",
+   "text": "Route of Administration: Oral (WHO 2009; Bradley 2006; Mills and Bone 2000)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CHASTE TREE - VITEX AGNUS-CASTUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-chaste-tree-vitex#002",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CHASTE TREE - VITEX AGNUS-CASTUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-chaste-tree-vitex#003",
+   "text": "Use(s) or Purpose(s): Used in Herbal Medicine to help relieve premenstrual symptoms (WHO 2009; Bradley 2006; Wichtl 2004; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000).\nUsed in Herbal Medicine (as a hormone normaliser) to help stabilise menstrual cycle irregularities (WHO 2009; Bradley 2006; Wichtl 2004; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000; Mills and Bone 2000).\nUsed in Herbal Medicine to help relieve symptoms associated with menopause, such as hot flushes (WHO 2009; Hoffmann 2003).\nNote: The above uses can be combined on the product label (e.g. Used in Herbal Medicine as a hormone normaliser to help stabilise menstrual cycle irregularities and relieve premenstrual symptoms).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "CHASTE TREE - VITEX AGNUS-CASTUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "hc-nhpid-chaste-tree-vitex#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powder, Non-Standardized Extracts (Dry extract * , Tincture, Fluid extract, Decoction, Infusion)\n30 - 2000 milligrams of dried fruit, per day (WHO 2009; Bradley 2006; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000; Mills and Bone 2000).\nNotes:\n*Solvents allowed for the method of preparation \"Non-standardized extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.\nWhen ‘decoction’ or ‘infusion’ is listed as an acceptable method of preparation, ‘decoction concentrate’ or ‘infusion concentrate’ is also allowed.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CHASTE TREE - VITEX AGNUS-CASTUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 84
+  },
+  {
+   "chunk_id": "hc-nhpid-chaste-tree-vitex#005",
+   "text": "Duration(s) of Use: Use for at least 3 months to see beneficial effects (Bradley 2006; ESCOP 2003; Hoffmann 2003).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CHASTE TREE - VITEX AGNUS-CASTUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-chaste-tree-vitex#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking hormone-containing medications such as progesterone preparations, oral contraceptives or hormone replacement therapy (Brinker 2010; WHO 2009; Bradley 2006).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CHASTE TREE - VITEX AGNUS-CASTUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 50
+  },
+  {
+   "chunk_id": "hc-nhpid-chaste-tree-vitex#007",
+   "text": "Contraindication(s): Do not use if you are pregnant, breastfeeding or attempting to conceive unless you have consulted with a health care practitioner/health care provider/health care professional/doctor/physician (EMA 2018; Najib et al. 2022; Brinker 2010; WHO 2009; Dugoua et al. 2008; ESCOP 2003; Blumenthal 2000; Mills and Bone 2000).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CHASTE TREE - VITEX AGNUS-CASTUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  }
+ ]
+}

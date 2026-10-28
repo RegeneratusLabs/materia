@@ -1,0 +1,158 @@
+{
+ "doc_id": "hc-nhpid-chlorella-vulgaris2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CHLORELLA - CHLORELLA VULGARIS",
+ "title_extra": null,
+ "date": "2025-06-27",
+ "revised": "2025-06-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-06-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=chlorella.vulgaris2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "chlorella.vulgaris2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:0fc2655faddf0b81863d3042a7714158f58d2808d3d45d7c14b2a43bdd3de803",
+ "entities": [
+  "CHLORELLA - CHLORELLA VULGARIS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CHLORELLA - CHLORELLA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#002",
+   "text": "Use(s) or Purpose(s): All products\nSource of antioxidants/Provides antioxidants (Lee et al. 2010).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Lee et al. 2010).\nUses based on constituent potency, provided at or above the minimum doses indicated in the dose section below.\nConstituents: Beta-carotene, Biotin, Folate, Iron, Magnesium, Potassium, Selenium, Vitamin A, Vitamin B12, Vitamin C, Vitamin D, Vitamin E, Vitamin K1, Zinc\nSource of vitamin(s)/mineral(s)/vitamin(s) and mineral(s), a factor/factors in the maintenance of good health.\nIngredient-specific uses or purposes as per the Natural and Non-prescription Health Products Directorate (NNHPD) Multi-Vitamin/Mineral Supplements Monograph (except uses or purposes associated with pregnancy).\nConstituent: Lutein\nIngredient-specific uses or purposes as per the NNHPD Multi-Vitamin/Mineral Supplements Monograph.\nConstituent: Algal protein\nSource of protein for the maintenance of good health (IOM 2005; Lubitz 1963).\nSource of protein which helps build and repair body tissues (IOM 2005; Lubitz 1963).\nSource of amino acids involved in muscle protein synthesis (Misurcova 2014; IOM 2005).\nConstituents: L-Histidine, L-Isoleucine, L-Leucine, L-Lysine, L-Methionine, L-Phenylalanine, L-Threonine, L-Valine, L-Tryptophan\nSource of (an) essential amino acid(s) for the maintenance of good health (Misurcova 2014; IOM 2005).\nSource of (an) (essential) amino acid(s) involved in muscle protein synthesis (Misurcova 2014; IOM 2005).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CHLORELLA - CHLORELLA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#003",
+   "text": "Use(s) or Purpose(s): Constituents: L-Alanine, L-Arginine, L-Aspartic acid, L-Cysteine, L-Glutamic acid, Glycine, L-Proline, L-Serine, L-Tyrosine\nSource of (an) (non-essential) amino acid(s) involved in muscle protein synthesis (IOM 2005).\nNote: The above uses can be combined on the product label (e.g., Source of amino acids involved in muscle protein synthesis and protein for the maintenance of good health).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "CHLORELLA - CHLORELLA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 6 grams of Chlorella broken cell per day (Lee et al. 2010).\nMethods of preparation: Dry standardized, Powdered standardized, Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 6 grams of Chlorella broken cell per day (Lee et al. 2010).\nAND\nConstituents: Beta-carotene, Biotin, Folate, Iron, Lutein, Magnesium, Potassium, Selenium, Vitamin A, Vitamin B12, Vitamin C, Vitamin D, Vitamin E, Vitamin K1 and/or, Zinc\nAs per the NNHPD Multi-vitamin/mineral supplements monograph.\nConstituents: Algal protein, L-Histidine, L-Isoleucine, L-Leucine, L-Lysine, L-Methionine, L-Phenylalanine, L-Threonine, L-Valine, L-Tryptophan, L-Alanine, L-Arginine, L-Aspartic acid, L-Cysteine, L-Glutamic acid, Glycine, L-Proline, L-Serine and/or L-Tyrosine\nAs per the NNHPD Workout supplements monograph. Note: For algal protein constituent, refer to Table 2. Doses and methods of preparation for Group 1 (Proteins).\nNotes\nFor a use or purpose based on a particular constituent (e.g., beta-carotene, iron, protein), the name and the amount of the constituent must be provided in the potency section of the PLA form.\nThe minimum and maximum daily doses of the constituent must be within the range of the doses listed on the NNHPD Multi-vitamin/mineral supplements monograph or the NNHPD Workout supplements monograph.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CHLORELLA - CHLORELLA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#005",
+   "text": "Quantity(ies): If ingredients such as vitamins and minerals are added to the product, they should be listed as separate medicinal ingredients on the PLA form and label. In this case, it would be considered a Class II or III application.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CHLORELLA - CHLORELLA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#006",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nProducts providing 250 mg or more of chlorella per day or 6 µg or more vitamin K per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners (Ohkawa et al. 1995; NNHPD Multi-vitamin/mineral supplements monograph).\nProducts containing chlorella enriched with selenium and providing more than 70 µg of selenium per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a history of non-melanoma skin cancer (Doucha et al. 2009; NNHPD Multi-vitamin/mineral supplements monograph).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "cancer"
+   ],
+   "entities": [
+    "CHLORELLA - CHLORELLA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#007",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (Tiberg et al. 1995).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CHLORELLA - CHLORELLA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  }
+ ]
+}

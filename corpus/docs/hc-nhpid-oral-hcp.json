@@ -1,0 +1,147 @@
+{
+ "doc_id": "hc-nhpid-oral-hcp",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Benzocaine (Source ingredient)",
+ "title_extra": null,
+ "date": "2026-07-31",
+ "revised": "2026-07-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-07-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=oral.hcp&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "oral.hcp"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:a51eec9dcfcdcc24e8ba8762d98d68f6b303fc09893f1a447b5eef5d296ab649",
+ "entities": [
+  "Benzocaine",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-oral-hcp#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nThe following dosage forms are acceptable when used according to the requirements indicated in this monograph: Aerosol, spray; Cream; Film-forming gel; Gargle; Gel; Gingival gel; Gingival paste; Liquid; Lozenge (oral only); Mouthwash; Ointment; Solution; Spray.\nNote: Dosage forms must be acceptable for the specified route of administration.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Benzocaine",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 66
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-hcp#002",
+   "text": "Use(s) or Purpose(s): Buccal/Oromucosal\nFor the temporary relief of occasional minor oral irritation/oral pain/sore mouth (US FDA 1994).\nFor the temporary relief of pain associated with canker sores/aphthous stomatitis (USP DI 2006; US FDA 1994)\nFor the temporary relief of pain associated with cold sores/fever blisters/oral herpes (USP DI 2006; CPhA 1996).\nFor the temporary relief of occasional minor irritation or injury of the mouth (US FDA 1994).\nFor the temporary relief of pain due to minor irritation of the mouth due to dentures or orthodontic appliances (US FDA 1994).\nDental\nFor the temporary relief of pain arising as a result of toothache (US FDA 1994).\nOral\nFor temporary relief of (pain of) (minor) sore throat (US FDA 1994).\nTemporarily relieves/soothes (pain of) (minor) sore throat.\nPeriodontal/Gingival\nFor the temporary relief of occasional minor irritation or injury of the gums (US FDA 1994).\nFor the temporary relief of pain due to minor dental procedures (US FDA 1994).\nFor the temporary relief of pain due to minor irritation of the gums due to dentures or orthodontic appliances (US FDA 1994).\nTopical\nFor the temporary relief of pain associated with cold sores/fever blisters/oral herpes (USP DI 2006; CPhA 1996).\nNote: The above uses can be combined on the product label (e.g., For the temporary relief of pain associated with canker sores and cold sores).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Benzocaine",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-hcp#003",
+   "text": "Subpopulation(s): Gingival paste; Film-forming gel; Gargle; Lozenge; Mouthwash\nChildren 6 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older\nAerosol, spray; Cream; Gel; Gingival gel; Liquid; Ointment; Solution; Spray\nChildren 2 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Benzocaine",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-hcp#004",
+   "text": "Quantity(ies): Lozenge\n2 - 15 milligrams of Benzocaine, per single dose; up to 6 times, per day (USP DI 2006; US FDA 1994)\nAerosol, spray; Cream; Film-forming gel; Gargle; Gel; Gingival gel; Gingival paste; Liquid; Mouthwash; Ointment; Solution; Spray\n5 - 20% of Benzocaine (US FDA 1994)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Benzocaine",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-hcp#005",
+   "text": "Duration(s) of use: All products\nFor occasional use only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Benzocaine",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 9
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-hcp#006",
+   "text": "Caution(s) and warning(s): All products\nKeep out of reach of children. In case of overdose, call a poison control centre or get medical help right away.\nWhen using this product do not chew gum or food while numbness persists (USP DI 2006; CPha 1996).\nAll products except for lozenge\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with water.\nAll products except topical products and products for relief of sore throat\nAsk a dentist/health care practitioner/health care provider/health care professional/doctor/physician immediately if symptoms do not improve within 7 days, irritation, pain or redness persists or worsens, or swelling, rash or fever develops (USP DI 2006; US FDA 1994).\nProducts for relief of sore throat\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if sore throat is severe, persists for more than 2 days, or is accompanied by or followed by other symptoms such as fever, headache, rash, swelling, nausea, or vomiting (Pray 2006; USP DI 2006; US FDA 1994).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Benzocaine",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 168
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-hcp#007",
+   "text": "Contraindication(s): All products\nDo not use if you are allergic to benzocaine (HC 2006; US FDA 1994).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Benzocaine",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "hc-nhpid-oral-hcp#008",
+   "text": "Known adverse reaction(s): All products\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if the following symptoms appear: weakness, confusion, headache, difficulty breathing and/or pale, gray or blue coloured skin. These symptoms may be signs of methemoglobinemia, a rare disorder, which may appear up to 2 hours after use (US FDA 2018; US FDA 2011a,b; HC 2006).\nStop use if hypersensitivity/allergy occurs (HC 2006; US FDA 1994).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Benzocaine",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 71
+  }
+ ]
+}

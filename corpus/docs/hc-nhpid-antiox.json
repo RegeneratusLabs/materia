@@ -1,0 +1,990 @@
+{
+ "doc_id": "hc-nhpid-antiox",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Antioxidants (Source ingredient)",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-06-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=antiox&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "antiox"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:06d41508edb8f190fd93cb5190b5690f944879b7b76da9d252209037becf25f8",
+ "entities": [
+  "Antioxidants",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-antiox#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#002",
+   "text": "Use(s) or Purpose(s): All products\nSource of (an) antioxidant(s)/Provides (an) antioxidant(s).\nSource of (an) antioxidant(s)/Provides (an) antioxidant(s) that help(s) fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals.\nThe only claims deemed acceptable in addition to the antioxidant claims are claims supported by the Multi-Vitamin/Mineral Supplements (MVM) monograph and/or by the Marigold Extract and Isolates (Lutein and Zeaxanthin) monograph if the product contains a medicinal ingredient or potency constituent which meets these monographs requirements.\nAdditional claims (optional)\nFor vitamins, minerals and/or medicinal ingredients standardized to vitamins, minerals and/or beta-carotene\nAs per the current Natural and Non-Prescription Health Products Directorate (NNHPD) MVM monograph.\nFor marigold extracts, lutein and lutein esters (no claim other than antioxidant is supported for zeaxanthin or zeaxanthin esters)\nAs per the current NNHPD Marigold Extract and Isolates (Lutein and Zeaxanthin) monograph.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 141
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#003",
+   "text": "Dose(s): Subpopulation(s)\nAdults 18 years and older\nQuantity(ies)\nTable 3. Dose information presented as maximum daily and single doses with acceptable potency constituents as per the Natural Health Products Ingredients Database (NHPID)\nMedicinal ingredients\nMethods of preparation 1 , 2\nMaximum daily dose\nMaximum single dose\nPotency constituent(s)\nAbelmoschus esculentus\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits\nActinidia chinensis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nActinidia deliciosa\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n15 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nAgaricus blazei\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n9 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#004",
+   "text": "Dose(s): 9 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nAlaria esculenta\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n5 g of dried thallus and/or whole alga\nN/A\nN/A\nAllium ampeloprasum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nbeta-Carotene\nVitamin C\n20 g of dried leaves\nAllium cepa\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh bulbs\nN/A\nAllicin\nAlliin\nbeta-Carotene\nQuercetin\nVitamin C\n10 g of dried bulbs\nAllium porrum\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nN/A\n20 g of dried leaves\nAllium sativum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n12 g of fresh bulbs\nN/A\nAllicin\nAlliin\nbeta-Carotene\nQuercetin\nSelenium\n12 g of dried bulbs\nStandardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n12 mg of allicin\nand/or\n27 mg of alliin\nAllium schoenoprasum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nQuercetin\nVitamin C\n10 g of dried leaves\nAloe vera",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#005",
+   "text": "Dose(s): Freeze-dried, Fresh, Juice, Juice powdered, Juice powdered, freeze-dried, Powdered, Extract liquid, Extract dry\n200 ml or 200 g of fresh leaf gel\nN/A\nN/A\nAlpinia galanga\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh rhizomes\nN/A\nVitamin C\n20 g of dried rhizomes\nAmorphophallus konjac\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n60 g of fresh roots and/or tubers\nN/A\nN/A\n10 g of dried roots and/or tubers\nAmorphophallus paeoniifolius\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh roots and/or tubers\nN/A\nN/A\n20 g of dried roots and/or tubers\nAnanas comosus var. comosus\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nIodine\nVitamin C\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nAnethum graveolens\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh herb tops\nN/A\nN/A\n15 g of dried herb tops\nAphanizomenon flos-aquae",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#006",
+   "text": "Dose(s): Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1.8 g of dried whole alga\nN/A\nN/A\nApigenin\nN/A\n20 mg\nN/A\nN/A\nApium graveolens\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh herb tops, and/or roots and/or tubers\nN/A\nN/A\n5 g of dried herb tops, and/or roots and/or tubers\nJuice\n125 mL of fresh herb top juice\nConcentrated juice\n62.5 mL of concentrated herb top juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried herb top juice\nApple cider vinegar\nFermented liquid standardized\n30 mL of apple cider vinegar containing up to 5% acetic acid\nN/A\nAcetic acid\nFermented powdered standardized\n1.9 g of apple cider vinegar containing up to 5% acetic acid\nN/A\nArgania spinosa\nOil fixed\n15 g of seed oil\nN/A\nN/A\nAristotelia chilensis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruit\nN/A\nAnthocyanins\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nAronia melanocarpa",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 209
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#007",
+   "text": "Dose(s): Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nAnthocyanins\nProanthocyanidins\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nArtemisia dracunculus\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2 g of dried leaves\nN/A\nVitamin C\nArtemisia vulgaris\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n7.2 g of dried herb tops\nN/A\nN/A\nAscophyllum nodosum\nDry, Dry standardized, Powdered, Powdered Standardized, Non-Standardized Ethanolic Extracts (Dry extract, fluid extract, tincture), Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1 g of dried thallus and/or whole alga\nN/A\nIodine\nPolyphenols\nAsparagus officinalis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh shoots\nN/A\nbeta-Carotene\nVitamin C\n5 g of dried shoots\nJuice, Juice standardized\n125 mL of fresh shoots juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated shoots juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#008",
+   "text": "Dose(s): 12.5 g of dried shoots juice\nAstaxanthin\nN/A\n40 mg\nN/A\nN/A\nAuricularia auricula- judae\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3.6 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nDry standardized, Powdered standardized\n3.6 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n15 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n15 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nAvena sativa\nCooked and dry, Cooked and powdered, Cooked and Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n10 g of dried seeds and/or seed bran\nN/A\nN/A\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of fresh sprouts\n5 g of dried sprouts\n20 g of fresh herb tops and/or leaves\n5 g of dried herb tops and/or leaves\nOil fixed\n15 g of seed oil\nBasella alba\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nVitamin C\n10 g of dried leaves\nBerberis vulgaris\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.5 g of dried fruits\nN/A\nN/A\nBergera koenigii",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#009",
+   "text": "Dose(s): Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2 g of dried leaves\nN/A\nN/A\nBeta vulgaris\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh roots\nN/A\nbeta-Carotene\nManganese\nVitamin C\n10 g of dried roots\nJuice, Juice standardized\n125 mL of fresh root juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated root juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried root juice\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nVitamin C\n5 g of dried leaves\nBrassica juncea\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nCopper\nManganese\nSelenium\nZinc\n10 g of dried leaves\nBrassica nigra\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n3 g of dried seeds\nN/A\nSelenium\nBrassica oleracea var. botrytis\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh herb tops\nN/A\nN/A\n10 g of dried herb tops\nJuice\n125 mL of fresh herb top juice\nConcentrated juice",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#010",
+   "text": "Dose(s): 62.5 mL of concentrated herb top juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried herb top juice\nBrassica oleracea var. capitata\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh herb tops\nN/A\nN/A\n10 g of dried herb tops\nJuice\n125 mL of fresh herb top juice\nConcentrated juice\n62.5 mL of concentrated herb top juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried herb top juice\nBrassica oleracea var. gemmifera\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh sprouts\nN/A\nQuercetin\n15 g of dried sprouts\nJuice, Juice standardized\n125 mL of fresh sprout juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated sprout juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried sprout juice\nBrassica oleracea var. italica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh herb tops\nN/A\nChromium\nSelenium\nVitamin C\n10 g of dried herb tops\nJuice, Juice standardized\n125 mL of fresh herb top juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated herb top juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#011",
+   "text": "Dose(s): 12.5 g of dried herb top juice\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh sprouts\nN/A\nN/A\n10 g of dried sprouts\nBrassica oleracea var. oleracea\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh herb tops\nN/A\nN/A\n10 g of dried herb tops\nJuice\n125 mL of fresh herb top juice\nConcentrated juice\n62.5 mL of concentrated herb top juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried herb top juice\nBrassica oleracea var. viridis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g fresh leaf\nN/A\nCopper\nVitamin A\nVitamin C\nVitamin K 1\n10 g dried leaf\nJuice, Juice standardized\n125 mL of fresh leaf juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated leaf juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried leaf juice\nBrassica rapa\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh roots\nN/A\nVitamin C\n10 g of dried roots\nJuice, Juice standardized\n125 mL of fresh root juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated root juice",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#012",
+   "text": "Dose(s): Juice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried root juice\nCamellia sinensis\nStandardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\nExtracts providing up to 690 mg total catechins, including a maximum of 300 mg EGCG; and up to 150 mg of caffeine 3\nN/A\nCatechins\nCaffeine\nEpigallocatechin 3-gallate (EGCG)\nCannabis sativa\nDry, Powdered\n30 g of dried non-viable seeds\nN/A\nN/A\nCapparis spinosa\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n15 g of dried fruits\nCapsicum annuum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n650 mg of dried fruits\nN/A\nbeta-Carotene\nLutein\nVitamin C\nZeaxanthin\nCarica papaya\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nVitamin C\nZeaxanthin\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nL-Carnosine\nN/A\n500 mg\nN/A\nN/A\nCeratonia siliqua",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 206
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#013",
+   "text": "Dose(s): Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of dried fruits\nN/A\nProanthocyanidins\nChamaemelum nobile\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n12 g of dried flowers\nN/A\nbeta-Carotene\nVitamin C\nChenopodium quinoa\nCooked and dry, Cooked and dry standardized, Cooked and powdered, Cooked and powdered standardized, Cooked and Non-Standardized/Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of dried seeds\nN/A\nBiotin\nRiboflavin\nThiamine\nVitamin B 6\nChlorella vulgaris\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n6 g of broken cells\nN/A\nbeta-Carotene\nBiotin\nLutein\nMagnesium\nSelenium\nVitamin A\nVitamin B 12\nVitamin C\nVitamin D\nVitamin E\nVitamin K 1\nZinc\nCicer arietinum\nCooked and dry, Cooked and powdered, Cooked and Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n40 g of dried seeds\nN/A\nN/A\nCichorium endivia\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nVitamin C\n5 g of dried leaves\nCichorium intybus\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n10 g of fresh roots\nN/A",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#014",
+   "text": "Dose(s): Vitamin C\n2 g of dried roots\n10 g of fresh leaves\nN/A\nbeta-Carotene\nVitamin C\n1 g of dried leaves\nCinnamomum aromaticum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n6 g of dried stem bark\n4 g of dried stem bark\nbeta-Carotene\nIodine\nPolyphenols\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n6 g of dried branch bark and/or trunk bark\n4 g of dried branch bark and/or trunk bark\nN/A\nCinnamomum verum\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n4 g of dried branch bark and/or shoot bark\nN/A\nN/A\nCitrullus lanatus var. lanatus\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nLycopene\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCitrus aurantiifolia\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nCitrus bioflavonoids\nVitamin C\nZeaxanthin\n10 g of dried fruits\nJuice, Juice standardized",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#015",
+   "text": "Dose(s): 125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCitrus bioflavonoids\nN/A\n600 mg\nN/A\nN/A\nCitrus limon\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nCitrus bioflavonoids\nHesperidin\nLycopene\nRutin\nVitamin C\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCitrus maxima\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nCitrus bioflavonoids\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCitrus paradisi\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nCitrus bioflavonoids\nHesperidin\nLycopene\nVitamin C",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#016",
+   "text": "Dose(s): Zeaxanthin\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCitrus reticulata\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nCitrus bioflavonoids\nHesperidin\nVitamin C\nZeaxanthin\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCitrus sinensis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nAnthocyanins\nbeta-Carotene\nCitrus bioflavonoids\nHesperidin\nLycopene\nVitamin C\nZeaxanthin\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCoccinia grandis\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#017",
+   "text": "Dose(s): Juice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nCocos nucifera\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits\nFresh\n20 g of fresh liquid endosperm\nPowdered, Freeze-dried\n1 g dried liquid endosperm\nOil fixed\n15 g of seed endosperm oil\nCoenzyme Q10\nN/A\n300 mg\nN/A\nN/A\nCordyceps militaris\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3 g of dried cultured fruiting body/cultured mycelium/stroma\nN/A\nN/A\nDry standardized, Powdered standardized\n3 g of dried cultured fruiting body/cultured mycelium/stroma and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n9 g of dried cultured fruiting body/cultured mycelium/stroma\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n9 g of dried cultured fruiting body/cultured mycelium/stroma and up to 40% polysaccharides\nN/A\nPolysaccharides\nCoriandrum sativum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nbeta-Carotene\nVitamin C\n10 g of dried leaves\nCucumis melo subsp. melo var. cantalupo\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#018",
+   "text": "Dose(s): 100 g of fresh fruits\nN/A\nVitamin C\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCucumis sativus\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\n5 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCucurbita maxima\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nCucurbita moschata\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n15 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#019",
+   "text": "Dose(s): 12.5 g of dried fruit juice\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n10 g of dried seeds\nCucurbita pepo\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nManganese\nVitamin C\nZinc\n5 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCucurbita pepo var. pepo\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n5 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nCuminum cyminum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2 g of dried fruits\nN/A\nbeta-Carotene\nVitamin C\nCurcuma longa\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n9 g of dried rhizomes; For dry extracts maximum ratio is 10:1\nN/A\nVitamin C\nStandardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#020",
+   "text": "Dose(s): Extracts providing up to 35% Curcuminoids; Quantity crude equivalent: 9 g of dried rhizomes\nN/A\nCurcumin\nCurcuminoids\nVitamin C\nExtracts providing 75% or more Curcuminoids; Not to exceed 1,500 milligrams curcuminoids\n500 milligrams curcuminoids\nCurcumin\nN/A\n1,200 mg\n400 mg\nN/A\nCurcuminoids\nN/A\n1,500 mg\n500 mg\nN/A\nCydonia oblonga\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nBioflavonoids\nVitamin C\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nCymbopogon citratus\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh herb tops and/or leaves\nN/A\nN/A\n30 g of dried herb tops and/or leaves\nCynaran cardunculus\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n10 g of dried leaves\nN/A\nBioflavonoids\nDaucus carota\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh roots\nN/A\nAnthocyanosides\nbeta-Carotene\nMixed carotenoids\nPolyphenols\nVitamin A\nVitamin C\n10 g of dried roots",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#021",
+   "text": "Dose(s): Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nN/A\n5 g of dried leaves\nDihydromyricetin\nN/A\n600 mg\nN/A\nN/A\nDioscorea alata\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh roots\nN/A\nVitamin C\n30 g of dried roots\nDiospyros virginiana\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n35 g of dried fruits\nDL-alpha-Lipoic acid\nN/A\n600 mg\nN/A\nN/A\nR-alpha-Lipoic acid\nN/A\n300 mg\nN/A\nN/A\nElaeis guineensis\nOil fixed\n15 g of fruit oil\nN/A\nN/A\nErgothioneine\nN/A\n30 mg\nN/A\nN/A\nEuterpe oleracea\nDry, Powdered, Juice powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n14 g of dried fruit flesh\nN/A\nN/A\nFagopyrum esculentum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of dried seeds\nN/A\nIodine\nFicus carica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n20 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#022",
+   "text": "Dose(s): 62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nFisetin\nN/A\n100 mg\nN/A\nN/A\nFoeniculum vulgare subsp. vulgare var. dulce\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh bulbs\nN/A\nN/A\n10 g of dried bulbs\nJuice\n125 mL of fresh bulb juice\nConcentrated juice\n62.5 mL of concentrated bulb juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried bulb juice\nFragaria virginiana\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nFragaria x ananassa\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nPolyphenols\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nFruit blend\nPowdered, Extract dry\n1 g of dried fruits\nN/A\nN/A",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#023",
+   "text": "Dose(s): Fruit and vegetable blend\nPowdered, Extract dry\n1 g of dried fruits and vegetables\nN/A\nN/A\nFucus vesiculosus\nDry, Dry standardized, Powdered, Powdered standardized, Non- Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract), Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1 g of dried thallus and/or whole alga\nN/A\nIodine\nPolyphenols\nGanoderma applanatum\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3.6 g of dried cultured mycelium/fruiting body/mycelium per day\nN/A\nN/A\nDry standardized, Powdered standardized\n3.6 g of dried cultured mycelium/fruiting body/mycelium per day and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n30 g of dried cultured mycelium/fruiting body/mycelium per day\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n30 g of dried cultured mycelium/fruiting body/mycelium per day and up to 40% polysaccharides\nN/A\nPolysaccharides\nGanoderma lucidum\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n6 g of dried cultured mycelium, fruiting body, and/or mycelium\nN/A\nN/A\nDry standardized, Powdered standardized\n6 g dried cultured mycelium, fruiting body, and/or mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n15 g of dried cultured mycelium fruiting body, and/or mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 208
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#024",
+   "text": "Dose(s): 15 g of dried cultured mycelium, fruiting body, and/or mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nGarcinia mangostana\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nCatechins\nVitamin C\n20 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nGlycine max\nDefatted, ground\n8 g of defatted soy flour\nN/A\nN/A\nPowdered\n8 g of soy flour\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of fresh sprouts\n5 g of dried sprouts\nGrape seed extract\nStandardized Extracts (Dry extract)\n475 mg of extract standardized to 70-85% oligomeric proanthocyanidins (OPC)\nN/A\nOligomeric proanthocyanidins\nGreen coffee bean extract\nStandardized Extracts (Dry extract)\n1000 mg of extract standardized to 45-50% chlorogenic acids and up to 4% of caffeine\nN/A\nChlorogenic acids\nCaffeine\nGrifola frondosa\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n7 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nDry standardized, Powdered standardized\n7 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#025",
+   "text": "Dose(s): 7 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n7 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nHaematococcus pluvialis\nPowdered standardized, Standardized Extracts (Dry extract); Supercritical fluid extraction, Standardized\nPreparation/extract providing up to 40 mg astaxanthin; Not to exceed 1 g of dried broken cells\nN/A\nAstaxanthin\nHelianthus annuus\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n35 g of dried seeds\nN/A\nBiotin\nChlorogenic acids\nSelenium\nThiamine\nVitamin E\nOil fixed\n15 g of seed oil\nN/A\nN/A\nHericium erinaceus\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n2.8 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nDry standardized, Powdered standardized\n2.8 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n12 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n12 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nHesperidin\nN/A\n500 mg\nN/A\nN/A\nHibiscus sabdariffa\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh flowers/leaves\nN/A\nN/A\n5 g of dried flowers/leaves\nHippophae rhamnoides",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 211
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#026",
+   "text": "Dose(s): Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of fresh fruits\nN/A\nbeta-Carotene\nBioflavonoids\nPolyphenols\nProanthocyanidins\nQuercetin\nVitamin C\nVitamin E\nZeaxanthin\n5 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nHordeum vulgare\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n10 g of dried seeds\nN/A\nbeta-Carotene\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of fresh sprouts\nN/A\nN/A\n5 g of dried sprouts\n100 g of fresh herb tops and/or leaves\n20 g of dried herb tops and/or leaves\nInonotus obliquus\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3.6 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nDry standardized, Powdered standardized\n3.6 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n3.6 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n3.6 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nIpomoea batatas",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#027",
+   "text": "Dose(s): Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh roots and/or tubers\nN/A\nN/A\n20 g of dried roots and/or tubers\nIrvingia gabonensis\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n3.15 g of dried seeds\nN/A\nN/A\nIsoquercitrin\nN/A\n275 mg\nN/A\nN/A\nJuglans regia\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of dried seeds\nN/A\nVitamin C\nLactuca sativa\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nVitamin C\nZinc\n5 g of dried leaves\nLactuca sativa var. crispa\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nN/A\n5 g of dried leaves\nLactuca sativa var. longifolia\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nN/A\n5 g of dried leaves\nLagenaria siceraria\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n5 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#028",
+   "text": "Dose(s): Juice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nLaminaria digitata\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract), Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1 g of dried thallus and/or whole alga\nN/A\nIodine\nLens culinaris\nCooked and dry, Cooked and dry standardized, Cooked and powdered, Cooked and powdered standardized, Cooked and Non-Standardized/Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of dried seeds\nN/A\nbeta-Carotene\nIodine\nVitamin C\nLentinula edodes\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n6 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nDry standardized, Powdered standardized\n6 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n16 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n16 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nLepidium meyenii\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n3 g of dried roots and/or hypocotyls\nN/A\nN/A\nLepidium sativum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nVitamin C\n20 g of dried leaves",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#029",
+   "text": "Dose(s): Limnospira fusiformis\nLimnospira indica\nLimnospira maxima\nLimnospira platensis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n8 g of whole alga\nN/A\nbeta-Carotene\nVitamin A\nVitamin B 6\nLinum usitatissimum\nPowdered, Powdered standardized\n45 g of dried seeds\n22.5 g of dried seeds\nbeta-Carotene\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of fresh sprouts\nN/A\nN/A\n5 g of dried sprouts\nLonicera caerulea\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n15 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nLutein\nN/A\n20 mg\nN/A\nN/A\nLutein esters\nN/A\n40 mg\nN/A\nN/A\nLycium barbarum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n35 g of fresh fruits\nN/A\nPolysaccharides\n6 g of dried fruits\nJuice, Juice standardized\n15 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n7.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n1.5 g of dried fruit juice\nLycopene\nN/A\n30 mg\nN/A\nN/A\nL-Carnitine\nN/A\n4 g",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#030",
+   "text": "Dose(s): 2 g\nN/A\nL-Glutathione\nN/A\n743 mg\nN/A\nN/A\nMalpighia emarginata\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nMalpighia glabra\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nVitamin C\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nMalus domestica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nPolyphenols\nVitamin C\n5 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#031",
+   "text": "Dose(s): 12.5 g of dried fruit juice\nMalus pumila\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n5 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nMangifera indica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nIodine\nVitamin C\n20 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nMedicago sativa\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of dried herb tops/leaves\nN/A\nN/A\nMixed tocopherol concentrate\nN/A\n179 mg\nN/A\nN/A\nMorinda citrifolia\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruit\nN/A\nN/A\n10 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nMoringa oleifera",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#032",
+   "text": "Dose(s): Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n10 g of dried leaves and/or seeds\nN/A\nbeta-Carotene\nMorus alba\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nMusa x paradisiaca\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n25 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nMyrciaria dubia\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1.5 g of dried fruits\nN/A\nVitamin C\nN-Acetyl-L-cysteine\nSynthetic\n600 mg\nN/A\nN/A\nNasturtium officinale\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#033",
+   "text": "Dose(s): 100 g of fresh herb tops and/or leaves\nN/A\nN/A\n5 g of dried herb tops and/or leaves\nNelumbo nucifera\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh seeds\nN/A\nbeta-Carotene\n25 g of dried seeds\nOcimum tenuiflorum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3 g of dried leaves\nN/A\nRiboflavin\nThiamine\nNon-Standardized and Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n28 g of dried leaves\nOlea europaea\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3.5 g of dried leaves\nOptional: up to 20.8% oleuropein\nN/A\nOleuropein\nDecoction, Decoction concentrate, Decoction standardized, Decoction concentrate standardized\n20 g of fresh leaves\nOptional: up to 20.8% oleuropein\n10 g of fresh leaves\n10 g of dried leaves\nOptional: up to 20.8% oleuropein\n5 g of dried leaves\nInfusion, Infusion concentrate, Infusion standardized, Infusion concentrate standardized\n30 g of dried leaves\nOptional: up to 20.8% oleuropein\n8 g of dried leaves\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nPolyphenols\nQuercetin\n10 g of dried fruits\nOil fixed\n15 g of fruit oil\nN/A\nN/A",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#034",
+   "text": "Dose(s): Ophiocordyceps sinensis\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3 g of dried stroma\nN/A\nN/A\nDry standardized, Powdered standardized\n3 g of dried stroma and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n9 g of dried stroma\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n9 g of dried stroma and up to 40% polysaccharides\nN/A\nPolysaccharides\nOpuntia ficus-indica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nVitamin C\n5 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n40 g of fresh leaves\nN/A\nN/A\n3 g of dried leaves\nOriganum vulgare\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1.5 g of dried leaves\nN/A\nN/A\nOryza sativa\nCooked and dry, Cooked and dry standardized, Cooked and powdered, Cooked and powdered standardized, Cooked and Non-Standardized/Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of dried seeds\nN/A\nCalcium\nChromium\nCopper\nMagnesium\nManganese",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#035",
+   "text": "Dose(s): Selenium\nVitamin E\nZinc\nCooked and dry, Cooked and powdered, Cooked and Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of dried seed bran\nN/A\nN/A\nPaecilomyces hepiali\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3 g of dried cultured mycelium\nN/A\nN/A\nDry standardized, Powdered standardized\n3 g of dried cultured mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n9 g of dried cultured mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n9 g of dried cultured mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nPalmaria palmata\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh thallus and/or whole alga\nN/A\nN/A\n15 g of dried thallus and/or whole alga\nPanicum miliaceum\nCooked and dry, Cooked and powdered, Cooked and Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of dried seeds\nN/A\nN/A\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of fresh sprouts\nN/A\nN/A\n5 g of dried sprouts\nPassiflora edulis\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n25 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#036",
+   "text": "Dose(s): 62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nPassiflora quadrangularis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n5 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nPastinaca sativa\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh roots and/or tubers\nN/A\nN/A\n20 g of dried roots and/or tubers\nJuice\n125 mL of fresh root and/or tuber juice\nConcentrated juice\n62.5 mL of concentrated root and/or tuber juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried root and/or tuber juice\nPersea americana\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nVitamin C\n25 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze- dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#037",
+   "text": "Dose(s): Petroselinum crispum\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n40 g of fresh herb tops\nN/A\nN/A\n5 g of dried herb tops\nPhaseolus vulgaris\nCooked and dry, Cooked and dry standardized, Cooked and powdered, Cooked and powdered standardized, Cooked and Non-Standardized/Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n35 g of dried seeds\nN/A\nbeta-Carotene\nPhoenix dactylifera\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n94 g of fresh fruits\nN/A\nbeta-Carotene\nIodine\nPolyphenols\nVitamin C\n75 g of dried fruits\nPhyllanthus emblica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n6 g of dried fruits\nN/A\nVitamin C\nPimenta dioica\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2 g of dried fruits\nN/A\nN/A\nPimpinella anisum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2 g of dried fruits\nN/A\nVitamin C\nPinus pinaster\nStandardized Extracts (Dry extract)\n450 mg of extract standardized to 65-75% procyanidins\nN/A\nProcyanidins\nPisum sativum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh seeds\nN/A\nVitamin C\n20 g of dried seeds\nJuice, Juice standardized",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#038",
+   "text": "Dose(s): 125 mL of fresh seed juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated seed juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried seed juice\nPorphyra yezoensis\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of fresh thallus and/or whole alga\nN/A\nN/A\n3 g of dried thallus and/or whole alga\nPropolis\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.6 g of dried Apis mellifera secretion\nN/A\nN/A\nPrunus armeniaca\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nIodine\nVitamin C\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nPrunus avium\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n20 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nPrunus cerasus",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#039",
+   "text": "Dose(s): Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nAnthocyanins\nVitamin C\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nPrunus domestica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nVitamin C\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nPrunus dulcis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n35 g of dried seeds\nN/A\nVitamin C\nPrunus persica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nVitamin C\nZeaxanthin\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#040",
+   "text": "Dose(s): 62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nPrunus persica var. nucipersica\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nPrunus serotina\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n20 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nPrunus virginiana\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nQuercetin\n40 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nPsidium guajava\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#041",
+   "text": "Dose(s): 100 g of fresh fruits\nN/A\nRiboflavin\nThiamine\nVitamin B 6\nVitamin C\n20 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nPterostilbene\nN/A\n250 mg\n125 mg\nN/A\nPunica granatum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits and/or seed arils\nN/A\nPolyphenols\nVitamin C\n20 g of dried fruits and/or seed arils\nJuice, Juice standardized\n125 mL of fresh fruit and/or seed aril juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit and/or seed aril juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit and/or seed aril juice\nPyrroloquinoline quinone\nN/A\n20 mg\nN/A\nN/A\nPyrus communis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#042",
+   "text": "Dose(s): 12.5 g of dried fruit juice\nPyrus pyrifolia\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nQuercetin\nN/A\n1200 mg\n600 mg\nN/A\nRaphanus sativus\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh roots and/or tubers\nN/A\nN/A\n5 g of dried roots and/or tubers\n20 g of fresh sprouts\n5 g of dried sprouts\n100 g of fresh leaves\n5 g of dried leaves\nJuice\n125 mL of fresh root and/or tuber juice\nConcentrated juice\n62.5 mL of concentrated root and/or tuber juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried root and/or tuber juice\nRhodiola rosea\nStandardized Extracts (Dry extract)\n680 mg of dry extract, and 0.8-3% salidroside, and/or 1-6% rosavins\n200 mg of dry extract\nRosavins\nSalidroside\nNon-Standardized Ethanolic Extracts (Dry extract)\n400 mg of dry extract and 2 g dried roots and/or roots and rhizomes\n200 mg of dry extract and 1 g of dried roots and/or roots and rhizomes\nN/A\nTincture\n1.8 g of dried roots and/or roots and rhizomes\nN/A\nN/A\nResveratrol\nN/A\n1 g",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#043",
+   "text": "Dose(s): N/A\nN/A\nRibes nigrum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nAnthocyanins\nbeta-Carotene\nPolyphenols\nQuercetin\nVitamin C\n20 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nRibes uva-crispa\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nVitamin C\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nRosa canina\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nLycopene\nPolyphenols\nVitamin C\nZeaxanthin\n45 g of dried fruits\nRosmarinus officinalis\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n12 g of dried leaves\nN/A\nN/A\nRoyal jelly\nFresh, Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#044",
+   "text": "Dose(s): 6 g of fresh Apis mellifera secretion\nN/A\nN/A\nRubus arcticus\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nRubus idaeus\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nPolyphenols\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nRubus occidentalis\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nRubus plicatus\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n10 g of dried fruits\nRutin\nN/A\n1000 mg\n500 mg\nN/A\nSaccharina japonica",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#045",
+   "text": "Dose(s): Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract), Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1 g of dried thallus and/or whole alga\nN/A\nIodine\nSalvia hispanica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n40 g of dried seeds\nN/A\nCalcium\nCopper\nMagnesium\nMolybdenum\nPhosphorus\nThiamine\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of fresh sprouts\nN/A\nN/A\n5 g of dried sprouts\nSalvia officinalis\nInfusion, Infusion concentrate\n12 g of dried leaves\nN/A\nN/A\nTincture\n2.25g of dried leaves\nFluid extract\n6 g of dried leaves\nSambucus nigra subsp. nigra\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n18 g of dried fruits\nN/A\nAnthocyanins\nbeta-Carotene\nSambucus nigra subsp. canadensis\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n18 g of dried fruits\nN/A\nAnthocyanins\nbeta-Carotene\nSchizophyllum commune\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3.6 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nDry standardized, Powdered standardized\n3.6 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#046",
+   "text": "Dose(s): 16 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n16 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nSelenium\nN/A\n200 mcg\nN/A\nN/A\nSesamum indicum\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n35 g of dried seeds\nN/A\nN/A\nSetaria italica\nCooked and dry, Cooked and powdered, Cooked and Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of dried seeds\nN/A\nN/A\nSolanum lycopersicum\nStandardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\nFruit flesh extracts providing up to 30 mg of lycopene\nN/A\nLycopene\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nbeta-Carotene\nLutein\nRutin\nVitamin C\nZeaxanthin\n5 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nSolanum tuberosum\nCooked and dry, Cooked and powdered, Cooked and Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n20 g of dry roots and/or tubers\nN/A\nN/A\nSpermidine\nN/A\n14 mg\nN/A\nN/A\nSpermine\nN/A\n4.5 mg\nN/A\nN/A\nSpinacia oleracea",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#047",
+   "text": "Dose(s): Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh leaves\nN/A\nPolyphenols\nQuercetin\nRiboflavin\nRutin\nVitamin A\nVitamin B 6\nVitamin E\nVitamin K 1\n10 g of dried leaves\nJuice, Juice standardized\n125 mL of fresh leaf juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated leaf juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried leaf juice\nSprout blend\nPowder, Extract dry\n1 g of dried sprouts\nN/A\nN/A\nSqualene\nN/A\n1000 mg\nN/A\nN/A\nSyzygium aromaticum\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2 g of dried flower buds\nN/A\nN/A\nTagetes erecta\nStandardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\nExtracts providing up to 60% lutein esters and up to 40 mg lutein esters.\nOptional: up to 5 mg zeaxanthin esters\nN/A\nLutein esters\nZeaxanthin esters\nTamarindus indica\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1.5 g of dried fruits\nN/A\nVitamin C\nThymoquinone\nN/A\n100 mg\nN/A\nN/A\nTrametes versicolor\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n5 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nDry standardized, Powdered standardized",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#048",
+   "text": "Dose(s): 5 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n27 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n27 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nTremella fuciformis\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3.6 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nDry standardized, Powdered standardized\n3.6 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n9 g of dried cultured mycelium/fruiting body/mycelium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n9 g of dried cultured mycelium/fruiting body/mycelium and up to 40% polysaccharides\nN/A\nPolysaccharides\nTrigonella foenum-graecum\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of dried seeds\nN/A\nbeta-Carotene\nVitamin C\nTriticum aestivum\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n10 g of dried seeds\nN/A\nN/A\n20 g of fresh sprouts\n5 g of dried sprouts\n20 g of fresh herb tops and/or leaves\n5 g dried herb tops and/or leaves\nOil fixed\n15 g of wheat germ oil\nTocotrienol concentrate\nN/A\n179 mg\nN/A\nN/A\nTropaeolum majus",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#049",
+   "text": "Dose(s): Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh herb tops and/or leaves\nN/A\nN/A\n5 g of dried herb tops and/or leaves\nUbiquinol\nN/A\n300 mg\nN/A\nN/A\nUrolithin A\nN/A\n1,000 mg\nN/A\nN/A\nVaccinium corymbosum\nVaccinium angustifolium\nVaccinium pallidum\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n150 g of fresh fruits\nN/A\nN/A\n20 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nDry standardized, Powdered standardized, Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\nExtracts providing up to 40% anthocyanins and not to exceed 195 mg anthocyanins and 150 grams of fresh fruits or 20 grams of dried fruits\nN/A\nAnthocyanins\nVaccinium macrocarpon\nFresh, Fresh standardized, Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n30 g of fresh fruits\nEquivalent to approximately 4 - 5 g of dried fruits, per day\nN/A\nbeta-Carotene\nIodine\nPolyphenols\nProanthocyanidins\nQuercetin\nVitamin C\nJuice, Concentrated juice\n950 ml of fruit juice\nN/A\nN/A\nJuice powdered\n1200 mg of dried fruit juice\nN/A\nN/A\nVaccinium myrtillus",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 207
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#050",
+   "text": "Dose(s): Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n75 g of dried fruits\nN/A\nAnthocyanins\nAnthocyanosides\nbeta-Carotene\nPolyphenols\nQuercetin\nVitamin C\nVaccinium myrsinites\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n15 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nVaccinium vitis-idaea\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nQuercetin\nVitamin C\n15 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nVegetable blend\nPowder, Extract dry\n1 g of dried vegetables\nN/A\nN/A\nVicia faba\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n25 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#051",
+   "text": "Dose(s): Juice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nVigna radiata var. radiata\nCooked and dry, Cooked and powdered, Cooked and Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n25 g of dried seeds\nN/A\nN/A\nVigna unguiculata subsp. cylindrica\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh seeds\nN/A\nN/A\n20 g of dried seeds\nVitamin C\nN/A\n18 years: 1,800 mg\n19 years and older: 2,000 mg\nN/A\nN/A\nVitamin E\nN/A\nd-alpha Tocopherol\n18 years: 800 mg AT\n19 years and older: 1,000 mg AT\nN/A\nN/A\ndl-alpha Tocopherol\n18 years: 400 mg AT\n19 years and older: 500 mg AT\nN/A\nN/A\nVitis labrusca\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nN/A\n20 g of dried fruits\nJuice\n125 mL of fresh fruit juice\nConcentrated juice\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered, freeze-dried\n12.5 g of dried fruit juice\nRed wine extract\nNon-Standardized Extracts (Dry extract)\n1 g of extract\nN/A\nN/A\nStandardized Extracts (Dry extract)\n1 g of extract providing up to 95% polyphenols\nN/A\nPolyphenols\nVitis vinifera",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 205
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#052",
+   "text": "Dose(s): Dry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nAnthocyanins\nbeta-Carotene\nPolyphenols\nProanthocyanidins\nResveratrol\nVitamin C\n5 g of dried fruits\n10 g of fresh fruit skin\nN/A\nAnthocyanins\nBioflavonoids\nPolyphenols\nProanthocyanidins\nResveratrol\n1 g dry of fruit skin\n5 g of fresh seeds\nN/A\nBioflavonoids\nOligomeric proanthocyanidins\nPolyphenols\nProanthocyanidins\nProcyanidins\nVitamin E\n0.5 g of dry seeds\nJuice, Juice standardized\n125 mL of fresh fruit juice\nN/A\nAnthocyanins\nbeta-Carotene\nPolyphenols\nProanthocyanidins\nResveratrol\nVitamin C\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice\nWolfiporia extensa\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3.6 g of dried cultured mycelium/mycelium sclerotium\nN/A\nN/A\nDry standardized, Powdered standardized\n3.6 g of dried cultured mycelium/mycelium sclerotium and up to 40% polysaccharides\nN/A\nPolysaccharides\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n18 g of dried cultured mycelium/mycelium sclerotium\nN/A\nN/A\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n18 g of dried cultured mycelium/mycelium sclerotium and up to 40% polysaccharides\nN/A\nPolysaccharides\nXanthohumol\nN/A\n24 mg\nN/A\nN/A\nZeaxanthin\nN/A\n2.5 mg\nN/A\nN/A\nZeaxanthin esters\nN/A\n5 mg\nN/A\nN/A\nZea mays",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#053",
+   "text": "Dose(s): Cooked and dry, Cooked and dry standardized, Cooked and powdered, Cooked and powdered standardized, Cooked and Non-Standardized/Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n25 g of dried seeds\nN/A\nbeta-Carotene\nIodine\nVitamin C\nZeaxanthin\nZingiber officinale\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n3 g of dried rhizomes\nN/A\nN/A\nZiziphus jujuba\nDry, Dry standardized, Powdered, Powdered standardized, Non-Standardized and Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n100 g of fresh fruits\nN/A\nVitamin C\n10 g of dried fruits\nJuice, Juice standardized\n125 mL of fresh fruit juice\nConcentrated juice, Concentrated juice standardized\n62.5 mL of concentrated fruit juice\nJuice powdered, Juice powdered standardized, Juice powdered, freeze-dried, Juice powdered, freeze-dried standardized\n12.5 g of dried fruit juice",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 127
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#054",
+   "text": "Dose(s): References: CNF 2024; NNHPD 2024a,b; Lee et al. 2024; Linus Pauling Institute 2024; Al-Wahab Hasoon et al. 2023; Dellinger et al. 2023, 2017; Liu et al. 2022; Singh et al. 2022; Ali et al. 2021; Langley et al. 2021; Soda et al. 2021; Cheah et al. 2017; EFSA 2017a,b; EFSA 2016; Chen et al. 2015; Lim 2015; Lombardi et al. 2015; Nakano et al. 2015; Gopalan et al. 2014; Riche et al. 2014, 2013; Zilaee et al. 2014; Cottart et al. 2013; Harris et al. 2013; Amsterdam et al. 2012; Fouladi 2012; EMA 2011a,b; Koikeda et al. 2011; Ould Mohamedou et al. 2011; Teas et al. 2011; Zick et al. 2011; Brown et al. 2010; Chua et al. 2010; Kumari 2010; Scoglio et al. 2010; Akhtar et al. 2009; Issell et al. 2009; Hoensch et al. 2008; Kupcinskas et al. 2008; Yoshimura et al. 2008; Andersen et al. 2007; Kanaze et al. 2007; Kimura et al. 2007; Teas et al. 2007; Bouhnik et al. 2006; Gaby 2006; Nielsen et al. 2006; Nogata et al. 2006; Cherki et al. 2005; Derouiche et al. 2005; Taylor 2005; Callaway 2004; Drissi et al. 2004; Andallu and Varadacharyulu 2003; Manach et al. 2003; Dvorkin and Song 2002; Erlund et al. 2002; Qureshi et al. 2002; Egner et al. 2001; Ferruzzi et al. 2001; Luo et al. 2000; Olesen and Gudmand-Hoyer 2000; Beveridge et al. 1999; Blostein-Fujii et al. 1999; Ameer et al. 1996; Miettinen and Vanhanen 1994; Gross 1991; Cummings et al. 1979.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 250
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#055",
+   "text": "Dose(s): Notes\n1 When the method of preparation ‘decoction’ or ‘infusion’ is listed as part of the acceptable methods of preparation in Table 2, the method of preparation ‘decoction concentrate’ or ‘infusion concentrate’ is also applicable. This would also apply to standardized extracts.\n2 For juices, the juice quantity may be listed on the product label in weight (e.g., mg) rather than in volume (mL) based on its density.\n3 For Camellia sinensis (Green tea extract), both the total catechins and the caffeine amounts must be included on the PLA form as potency information. If the quantity of total catechins is equal or less than 300 mg per day, the EGCG amount is not required. If the total catechins amount is greater than 300 mg, the quantity of EGCG must also be indicated. Total catechins (= catechins) is the sum of all catechin compounds, including epicatechins and other related compounds. For green tea extract, total catechins include, catechin (C), epicatechin (EC), epigallocatechin (EGC), epicatechin gallate (ECG), and epigallocatechin gallate (EGCG). On the label, the potency information should be clearly represented as ‘XX mg of green tea extract providing YY mg total catechins including ZZ mg EGCG’.\nTable 4. Dose information presented as maximum daily for complementary ingredients (safety only)\nMedicinal ingredients\nMethods of preparation\nMaximum daily dose\nHydroxytyrosol\nN/A\n30 mg",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#056",
+   "text": "Dose(s): Octacosanol\nN/A\n30 mg\nReferences: Knaub et al. 2020; Siefer et al. 2018; EFSA 2017c; Keller et al. 2008; Cicero et al. 2005.\nPotency Information (Optional)\nThe medicinal ingredients supported by this monograph may be standardized to the potency constituents included in the potency constituent column of Table 3 if any. Note that the quantity crude equivalent (QCE) is mandatory on the PLA form and label for standardized extracts as safety is established based on the QCE unless the dose information in Table 3 is only provided for the standardized extract.\nThe maximum daily dose and single dose for each potency constituent are listed in Table 5. Note that these limits apply to the total quantity of the potency constituent found in the product (i.e., from all medicinal ingredients standardized to it in the product). This would also include the amount of the potency constituent when found in the product formulation as a separate medicinal ingredient (e.g. a product containing vitamin E as a medicinal ingredient as well as a potency constituent of any another medicinal ingredient).\nFor vitamins, minerals and beta-carotene, the minimum daily dose of the ingredient or potency constituent should meet the minimum dose established in the NNHPD MVM monograph.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 204
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#057",
+   "text": "Dose(s): Table 5. Maximum quantities of potency constituents including the maximum dose per day and per single dose from all sources\nPotency constituents\nMaximum daily dose\nMaximum single dose\nAllicin\n12 mg\nN/A\nAlliin\n27 mg\nN/A\nAnthocyanins\n405 mg\nN/A\nAnthocyanosides\n405 mg\nN/A\nAstaxanthin\n40 mg\nN/A\nbeta-Carotene\n6,000 mcg\nN/A\nBioflavonoids\n600 mg\nN/A\nCaffeine\n150 mg\nN/A\nCatechins\n690 mg\nN/A\nChlorogenic acids\n500 mg\nN/A\nCitrus bioflavonoids\n600 mg\nN/A\nCurcumin\n1,200 mg\n400 mg\nCurcuminoids\n1,500 mg\n500 mg\nEpigallocatechin 3-gallate (EGCG)\n300 mg\nN/A\nHesperidin\n500 mg\nN/A\nLutein\n20 mg\nN/A\nLutein esters\n40 mg\nN/A\nLycopene\n30 mg\nN/A\nMinerals: Selenium, Calcium, Chromium, Copper, Iodine, Magnesium, Manganese, Molybdenum, Phosphorus, Zinc\nAs per the MVM monograph\nN/A\nMixed carotenoids\n6,000 mcg\nN/A\nOleuropein\n100 mg\nN/A\nOligomeric proanthocyanidins\n405 mg\nN/A\nPolyphenols\n1,000 mg\nN/A\nPolysaccharides\n180 g\n45 g\nProanthocyanidins\n405 mg\nN/A\nProcyanidins\n405 mg\nN/A\nQuercetin\n1,200 mg\n600 mg\nResveratrol\n1,000 mg\nN/A\nRosavins\n40.8 mg\n12 mg\nRutin\n1,000 mg\n500 mg\nSalidroside\n20.4 mg\n6 mg\nVitamins: Biotin, Riboflavin, Thiamine, Vitamin A, Vitamin B 6 , Vitamin B 12 , Vitamin C, Vitamin D, Vitamin E, Vitamin K 1\nAs per the MVM monograph\nN/A\nZeaxanthin\n2.5 mg\nN/A\nZeaxanthin esters\n5 mg\nN/A\nIngredient Combinations",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#058",
+   "text": "Dose(s): All ingredients included in this monograph may be combined together with the following restrictions\nalpha-Lipoic acid: No permitted combinations between DL-alpha-Lipoic acid and R-alpha-Lipoic acid.\nbeta-Carotene/Vitamin A: The maximum daily dose for beta-carotene (including beta-carotene from mixed carotenoids) in combination with other vitamin A source materials must not exceed the maximum daily dose for vitamin A indicated on the NNHPD MVM monograph. The conversion factor of beta-carotene into vitamin A is 6:1. This factor is also applied to mixed carotenoids.\nalpha-Tocopherol/Vitamin E: The maximum daily dose expressed in mg AT (mg alpha-tocopherol) for combination of mixed tocopherols, tocotrienols and/or vitamin E must not exceed the maximum daily dose for vitamin E indicated on the NNHPD MVM monograph. The amount in mg for mixed tocopherols and/or mixed tocotrienol is considered as equivalent to mg AT for the purpose of this combination rule and for determining the dose at which Vitamin E risk statements would be required for Class I and II applications (as there is no fixed conversion that can be established at this time). Data on the mg AT content of specific mixed tocopherols and/or mixed tocotrienol preparations may be submitted at Class III for precise calculations if desired.\nVitamins/Minerals: The total daily dose of each vitamin and mineral must not exceed quantities listed in the NNHPD MVM monograph.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#059",
+   "text": "Dose(s): Fruit/vegetable blends: The medicinal ingredients ‘fruit blend’ and/or ‘vegetable blend’ cannot be combined with the medicinal ingredient ‘fruit and vegetable blend’. When fruits and vegetables are blended, the medicinal ingredient ‘fruit and vegetable blend’ should be selected.\nBlueberries: The various species of Blueberries ( Vaccinium angustifolium; Vaccinium corymbosum; Vaccinium pallidum ), can be combined if the total quantity of dried fruits, fresh fruits, fresh fruit juice, dried fruit juice or concentrated fruit juice does not exceed the values listed in Table 2. Dried and fresh fruits cannot be combined as part of this monograph.\nSpirulina: The various species of Spirulina ( Limnospira fusiformis; Limnospira indica; Limnospira maxima; Limnospira platensis ) can be combined if the total quantity does not exceed the values listed in Table 3 .\nOther combination restrictions: The maximum daily doses of other medicinal ingredient/potency constituents when combined together is presented in Table 6 .\nTable 6. Maximum quantities of medicinal ingredients/potency constituents when combined\nMedicinal ingredients/Potency constituents\nMaximum daily dose\nAscophyllum nodosum, Fucus vesiculosus, Laminaria digitata and/or Saccharina japonica\n1 g\nAnthocyanins, Anthocyanosides, Oligomeric proanthocyanidins, Proanthocyanidins and/or Procyanidins\n405 mg\nBioflavonoids, Citrus bioflavonoids, Hesperidin, Quercetin and/or Rutin\n600 mg\nCatechins (which includes EGCG)\n690 mg\nMixed carotenoids + beta-Carotene\n6,000 mcg\nOils: Coconut oil, Olive oil, Sunflower oil, Wheatgerm oil\n15 g",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#060",
+   "text": "Dose(s): Lutein + Lutein esters *\n20 mg\nZeaxanthin + Zeaxanthin esters *\n2.5 mg\n*When combined, half the amounts of Lutein esters or Zeaxanthin esters should be taken into consideration to calculate the total amount of Lutein or Zeaxanthin (e.g. 10 mg of lutein and 5 mg of lutein esters from Marigold extract would be equivalent to 10 mg + 2.5 mg = 12.5 mg of total lutein).\nRules for L-Carnitine (Restrictions when this monograph is combined with other monographs)\nWhen combining L-Carnitine with Acetylcarnitine, the total quantity of these ingredients cannot exceed 4 grams per day and 2 grams per single dose.\nDirection(s) for use\nConsult Table 7 for medicinal ingredients/potency constituents requiring direction of use statements. The medicinal ingredients/potency constituents in Table 7 are associated with the required numbered statement below or a specific product monograph.\nAs per the respective NNHPD single ingredient monograph.\nTake with a meal/food (Fytili et al. 2022; Soda et al. 2021; Knaub et al. 2020; Keller et al. 2008; Janssen et al. 1998; Nielsen et al. 1998).\nTake with water (Launholt et al. 2020; Chung 2002).\nTake a few hours before or after taking other medications or health products (Fytili et al. 2022; Knaub et al. 2020).\nTable 7. Direction(s) for use\nMedicinal ingredients/Potency constituents\nDirection(s) for use",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#061",
+   "text": "Dose(s): Aloe vera leaf gel (powder dosage forms)\n1\nApigenin\n2\nApple cider vinegar\n3\nCalcium\nAs per the MVM monograph\nChlorella vulgaris (Chlorella)\n1\nGanoderma lucidum (Reishi)\nAs per the Mushrooms monograph\nGreen tea extract\n1\nHydroxytyrosol\n2, 4\nIrvingia gabonensis (African wild mango)\n1\nLinum usitatissimum (Flaxseed)\n1\nLutein esters\nAs per the Marigold Extract and Isolates monograph\nN-Acetyl-L-cysteine\n1\nOctacosanol (> 10 mg/day)\n2\nOlea europaea leaf (Olive leaf)\n1\nPhyllanthus emblica (Amla)\n1\nQuercetin\n1\nRhodiola rosea (Rhodiola)\n1\nSalvia officinalis (Sage)\n1\nSpermidine\n2\nSpermine\n2\nTagetes erecta (Marigold)\nAs per the Marigold Extract and Isolates monograph\nZeaxanthin esters\nAs per the Marigold Extract and Isolates monograph\nZinc\nAs per the MVM monograph",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#062",
+   "text": "Duration(s) of use: Consult Table 8 for medicinal ingredients/potency constituents requiring duration of use statements. The medicinal ingredients/potency constituents in Table 8 are associated with the required numbered statements below.\nAs per the respective NNHPD single ingredient monograph.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 16 weeks (Liu et al. 2022; Singh et al. 2022).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (Hassan et al. 2023; Ali et al. 2021; Harper et al. 2021; Mansour et al. 2021; Knaub et al. 2020; Siefer et al. 2018; Chen et al. 2015; EFSA 2014; Parisi et al. 2008; Yoshimura et al. 2008).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 8 weeks (Al-Wahab Hasoon et al. 2023; Hodgin et al. 2021; Langley et al. 2021; Dellinger et al. 2017; Riche et al. 2013; Cicero et al. 2005).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 weeks (Cicero et al. 2005).\nTable 8. Duration(s) of use\nMedicinal ingredients/Potency constituents\nDuration(s) of use\nAstaxanthin (> 4 mg/day)\n3\nCinnamomum aromaticum (Cassia cinnamon)\n1\nDihydromyricetin\n3\nFisetin\n4\nGrape seed extract\n1\nGreen tea extract\n1\nHaematococcus pluvialis\n1\nHydroxytyrosol (> 10 mg/day)\n3\nIsoquercitrin\n3\nLepidium meyenii (Maca)\n1\nOctacosanol (≤ 10 mg/day)\n4",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#063",
+   "text": "Duration(s) of use: Octacosanol (> 10 mg/day)\n5\nPropolis\n1\nPterostilbene (> 100 mg/day)\n4\nQuercetin\n1\nResveratrol (> 500 mg/day)\n3\nRutin\n1\nSalvia officinalis (Sage)\n1\nThymoquinone\n3\nUrolithin A\n2\nXanthohumol\n4",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 35
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#064",
+   "text": "Risk information: Consult Table 9 for appropriate risk statements related to each medicinal ingredient/potency constituent. The medicinal ingredients/potency constituents in Table 9 are associated with the required numbered statements below or a specific product monograph.\nAs per the respective NNHPD single ingredient monograph.\nCaution(s) and warning(s)\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications (Shi et al. 2025; NIH 2024; DeRango-Adem and Blay 2021; Bedada and Nearati 2015; Brasnyó et al. 2011; Brinker 2010; Chow et al. 2010).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications, including blood thinners (HC 2026; Ogunro 2025).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have hypotension, diabetes, or a history of cardiovascular disease or autoimmune disease (Al-Wahab Hasoon et al. 2023; Lee et al. 2023; Hodgin et al. 2021; Farsad-Naeimi et al. 2018).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners (Hodgin et al. 2021; Long et al. 2021; Lee et al. 2015; Tzeng et al. 1991).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes"
+   ],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 201
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#065",
+   "text": "Risk information: Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes (Johnson et al 2009; White and Johnston 2007).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a known immune disorder, diabetes, or a blood pressure disorder (Mohammadi et al. 2024; Salem et al. 2023; Moustafa et al. 2019; Ahmad et al. 2013; Barakat et al. 2013; Huseini et al. 2013; Aqel and Shaheen 1996; Keshri et al. 1995).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have high cholesterol and/or cardiovascular disease (Dellinger et al. 2017).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding (Mohammadi et al. 2024; Ahmad et al. 2013; Barakat et al. 2013; Aqel and Shaheen 1996; Keshri et al. 1995).\nContraindication(s)\nDo not use if you are pregnant or breastfeeding (Brinker 2010).\nDo not use if you are pregnant (Aqel and Shaheen 1996).\nKnown adverse reaction(s)\nWhen using this product you may experience gastrointestinal discomfort/disturbances (Heshmati et al. 2015; Brown et al. 2010; Chow et al. 2010; Johnston et al 2008; Kondo et al 2009).\nWhen using this product hypersensitivity/allergy may occur (Ali and Blunden 2003; Al-Sheikh and Gad el-Rab 1996).\nTable 9. Risk information\nMedicinal ingredients/Potency constituents\nRisk information\nAgaricus blazei (Himematsutake)",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes",
+    "hypertension"
+   ],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#066",
+   "text": "Risk information: As per the Mushrooms monograph\nAllium sativum (Garlic)\n1\nAloe vera - leaf gel\n1\nAphanizomenon flos-aquae\n11\nApigenin\n2, 3\nApple cider vinegar\n7, 13\nArtemisia vulgaris (Mugwort)\n1\nAscophyllum nodosum (Norwegian Kelp)\nAs per the Kelp products monograph\nAstaxanthin\n2\nAuricularia auricula-judae (Jelly ear)\nAs per the Mushrooms monograph\nBerberis vulgaris - fruit (Common barberry)\n11\nCannabis sativa - non-viable seed (Hemp)\n2\nCapsicum annuum (Cayenne)\n1\nChamaemelum nobile (Roman chamomile)\n1\nChlorella vulgaris (Chlorella)\n1\nCinnamomum aromaticum (Cassia cinnamon)\n1\nCinnamomum verum (Cinnamon)\n1\nCitrus bioflavonoids\n1\nCitrus paradisi - fruit (Grapefruit)\n3\nCoenzyme Q10\n1\nCordyceps militaris (Cordyceps)\nAs per the Mushrooms monograph\nCurcuma longa (Turmeric) - unextracted preparations and native extracts up to 35% curcuminoids\n1\nCurcuma longa (Turmeric) - concentrated extracts 75% or more curcuminoids\nAs per the Concentrated turmeric extract and isolates (curcumin/curcuminoids)\nCurcumin\nAs per the Concentrated turmeric extract and isolates (curcumin/curcuminoids)\nCurcuminoids\nAs per the Concentrated turmeric extract and isolates (curcumin/curcuminoids)\nCynara cardunculus (Globe artichoke)\n1\nDL-alpha-Lipoic acid/R-alpha-Lipoic acid\nAs per the Alpha-lipoic acid monograph\nDihydromyricetin\n2\nErgothioneine\n2\nEuterpe oleracea (Acai)\n1\nFisetin\n2, 5, 6\nFucus vesiculosus (Kelpware)\nAs per the Kelp products monograph\nGanoderma applanatum (Artist's conk)\nAs per the Mushrooms monograph\nGanoderma lucidum (Reishi)\nAs per the Mushrooms monograph\nGrape seed extract\n1\nGreen coffee bean extract",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#067",
+   "text": "Risk information: 1\nGreen tea extract\n1\nGrifola frondosa (Maitake)\nAs per the Mushrooms monograph\nHaematococcus pluvialis\n1\nHericium erinaceus (Lion's mane)\nAs per the Mushrooms monograph\nHesperidin (> 50 mg/day)\n2, 4\nHydroxytyrosol\n2\nInonotus obliquus (Chaga)\nAs per the Mushrooms monograph\nIrvingia gabonensis (African wild mango)\n1\nIsoquercitrin\n2\nLaminaria digitata (Kelp)\nAs per the Kelp products monograph\nL-Carnitine\n1\nL-Carnosine\n2\nLentinula edodes (Shiitake)\nAs per the Mushrooms monograph\nLepidium meyenii (Maca)\n1\nL-Glutathione\n2\nLimnospira fusiformis (Spirulina)\n1\nLimnospira indica (Spirulina)\n1\nLimnospira maxima (Spirulina)\n1\nLimnospira platensis (Spirulina)\n1\nLinum usitatissimum (Flaxseed)\n1\nLycium barbarum - fruit (Goji)\n2, 3\nMedicago sativa (Alfalfa)\n1\nManganese\nAs per the MVM monograph\nMixed tocopherol concentrate + tocotrienols + vitamin E (> 179 mg AT/day)\nAs per the MVM monograph\nN-Acetyl-L-cysteine\n1\nOctacosanol\n2\nOcimum tenuiflorum (Holy Basil)\n1\nOlea europaea - leaf (Olive leaf)\n1\nOphiocordyceps sinensis (Cordyceps)\nAs per the Mushrooms monograph\nPaecilomyces hepiali (Cordyceps)\nAs per the Mushrooms monograph\nPhyllanthus emblica (Amla)\n1\nPropolis\n1\nPterostilbene\n9\nPyrroloquinoline quinone\n2\nQuercetin\n1\nRed wine extract\n1\nResveratrol\n2, 3\nResveratrol (> 500 mg/day)\n13\nRhodiola rosea (Rhodiola)\n1\nRosmarinus officinalis (Rosemary)\n1\nRoyal jelly\n1\nRutin\n1\nSaccharina japonica (Japanese kelp)\nAs per the Kelp products monograph\nSalvia officinalis (Sage)\n1\nSambucus nigra subsp. nigra (Black elder)",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-antiox#068",
+   "text": "Risk information: As per the Elder monograph\nSambucus nigra subsp. canadensis (American elder)\nAs per the Elder monograph\nSchizophyllum commune (Split Gill fungus)\nAs per the Mushrooms monograph\nSelenium\nAs per the MVM monograph\nSpermidine\n2\nSpermine\n2\nSqualene\n2\nThymoquinone\n8, 10, 12, 13, 14\nTrametes versicolor (Turkey Tail)\nAs per the Mushrooms monograph\nTremella fuciformis (Silver ear)\nAs per the Mushrooms monograph\nTriticum aestivum (Wheatgrass-herb top/leaf)\n2\nTrigonella foenum-graecum (Fenugreek)\n1\nUbiquinol\n1\nUrolithin A\n2\nVaccinium corymbosum (Blueberry) *\n1\nVaccinium angustifolium (Blueberry) *\n1\nVaccinium pallidum (Blueberry) *\n1\nVaccinium macrocarpon (Cranberry)\n1\nVitamin E\nAs per the MVM monograph\nVitamin K 1\nAs per the MVM monograph\nWolfiporia extensa (Poria)\nAs per the Mushrooms monograph\nXanthohumol\n2\nZinc\nAs per the MVM monograph\n*The risk statement required at 5 g or more of total dried fruits or 37.5 g or more of total fresh fruit or 5 g or more total dried and fresh fruits, per day as per the single ingredient monograph will be required at 31.58 mL of total fresh juice, 15.79 mL of total concentrated juice and 3.158 g of total dried juice or more based on the moisture content of the fresh fruit. If several species of blueberries are used, the total values must be taken into consideration.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Antioxidants",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  }
+ ]
+}

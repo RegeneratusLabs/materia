@@ -1,0 +1,102 @@
+{
+ "doc_id": "hc-nhpid-citrus-bioflav-agrumes2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CITRUS BIOFLAVONOIDS",
+ "title_extra": null,
+ "date": "2026-04-24",
+ "revised": "2026-04-24",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-04-24",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=citrus.bioflav.agrumes2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "citrus.bioflav.agrumes2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:e5ee41d382289db101378b478666480921d10c8a152a90c1f4adf2fd62569f76",
+ "entities": [
+  "CITRUS BIOFLAVONOIDS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-citrus-bioflav-agrumes2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CITRUS BIOFLAVONOIDS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-citrus-bioflav-agrumes2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Jung et al. 2003; Manthey et al. 2001).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Jung et al. 2003; Manthey et al. 2001).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "CITRUS BIOFLAVONOIDS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "hc-nhpid-citrus-bioflav-agrumes2#003",
+   "text": "Quantity(ies): Not to exceed 600 milligrams of Citrus bioflavonoids, per day (USDA 2013; Chun et al. 2007; Burbock et al. 2005; Blostein-Fujii et al. 1999).\nNote: Must not exceed 600 milligrams of Citrus bioflavonoids, per day, when combined with other bioflavonoids such as but not limited to, quercetin, hesperidin, rutin, etc.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CITRUS BIOFLAVONOIDS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 51
+  },
+  {
+   "chunk_id": "hc-nhpid-citrus-bioflav-agrumes2#004",
+   "text": "Caution(s) and warning(s): Products providing 50 milligrams or more of Citrus bioflavonoids, per day\nAsk a healthcare practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications, including blood thinners (HC 2026; Brinker 2010).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CITRUS BIOFLAVONOIDS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  }
+ ]
+}

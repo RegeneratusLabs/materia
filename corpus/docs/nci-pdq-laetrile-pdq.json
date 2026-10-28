@@ -1,0 +1,683 @@
+{
+ "doc_id": "nci-pdq-laetrile-pdq",
+ "source": "NCI PDQ",
+ "tier": "primary",
+ "title": "Laetrile/Amygdalin–Health Professional Version",
+ "title_extra": null,
+ "date": "2022-06-14",
+ "revised": "2022-06-14",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2032-06-14",
+ "url": "https://www.cancer.gov/about-cancer/treatment/cam/hp/laetrile-pdq",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.cancer.gov/about-cancer/treatment/cam/hp/laetrile-pdq"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+  "note": "NCI PDQ evidence summaries. Text is copyright-free; credit NCI."
+ },
+ "checksum": "sha256:69043622e4e7013f770d645df980c28207c74d86c08fe2dc9dd0a7b996b4529f",
+ "entities": [
+  "Laetrile/Amygdalin–Health Professional Version"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#001",
+   "text": "Overview: Go to Patient Version\nNOTE: There is either no new research on this topic or the recent published research is weak and not appropriate for inclusion in the summary. Therefore, the information in this summary is no longer being updated and is provided for reference purposes only.\nThis\ncancer\ninformation summary provides\nan overview of the use of\nlaetrile\nas a treatment for people with cancer. The summary\nincludes a history of laetrile research, a review of\nlaboratory studies\n, the\nresults of\nclinical trials\n, and possible\nside effects\nof laetrile use.\nThis summary contains the following key information:\nLaetrile is another name for the natural product\namygdalin\n, which is a\nchemical\nconstituent found in\nthe pits of many fruits and in numerous plants.\nHydrogen cyanide\nis thought to be the main anticancer\ncompound\nformed from laetrile via\nin situ\nrelease.\nLaetrile was first used as a cancer treatment in Russia in 1845, and in\nthe United States in the 1920s.\nLaetrile has shown little anticancer activity in\nanimal studies\nand no\nanticancer activity in human clinical\ntrials.\nThe side effects associated with laetrile\ntoxicity\nmirror the symptoms of cyanide poisoning, including\nliver\ndamage, difficulty walking (caused by damaged\nnerves\n),\nfever\n,\ncoma\n, and death.\nLaetrile is not approved for use in the United States.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#002",
+   "text": "Overview: Inappropriate advertisement of laetrile as a cancer treatment resulted in a\nU.S. Food and Drug Administration\ninvestigation that culminated in charges and conviction of one distributor.\nMany of the medical and scientific terms used in this summary are hypertext linked (at first use in each section) to the\nNCI Dictionary of Cancer Terms\n, which is oriented toward nonexperts. When a linked term is clicked, a definition will appear in a separate window.\nReference citations in some\nPDQ\ncancer information summaries may include links to external websites that are operated by individuals or organizations for the purpose of marketing or advocating the use of specific treatments or products. These reference citations are included for informational purposes only. Their inclusion should not be viewed as an endorsement of the content of the websites, or of any treatment or product, by the PDQ Integrative, Alternative, and Complementary Therapies Editorial Board or the\nNational Cancer Institute\n.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 155
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#003",
+   "text": "General Information: The term\nlaetrile\nis derived from the terms laevorotatory and mandelonitrile and is used\nto describe a purified form of the chemical\namygdalin\n, a\ncyanogenic glucoside\nfound in the pits of\nmany fruits and raw nuts and in other plants, such as lima beans, clover, and\nsorghum.[\n1\n-\n6\n] In body\nfluids\nand at\nphysiological\npH\n,\nhydrogen cyanide\ndissolves to form the cyanide anion. The term\nvitamin B-17\nwas given to laetrile by E.T. Krebs Jr, but it is not an approved designation by the Committee on Nomenclature of the American Institute of Nutrition Vitamins. In the 1970s, laetrile gained popularity as an\nanticancer agent. By 1978, more than 70,000 individuals in the United States\nwere reported to have been treated with it.[\n2\n,\n7\n,\n8\n]\nLaetrile has\nbeen used for\ncancer\ntreatment both as a single agent and in combination with\na\nmetabolic therapy\nprogram\nthat consists of a specialized diet, high-dose\nvitamin\nsupplements, and\npancreatic enzymes\n.[\n9\n,\n10\n]\nIn the United States, researchers must file an\nInvestigational New Drug\n(IND) application with the\nU.S. Food and Drug Administration\n(FDA) to conduct\ndrug research in human subjects. In 1970, an IND\napplication to study laetrile was filed by the McNaughton Foundation (San Ysidro,",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#004",
+   "text": "General Information: California). This request was initially approved but later rejected because\npreclinical\nevidence in animals showed that laetrile was not likely to be\neffective as an anticancer agent,[\n3\n,\n11\n,\n12\n] and because there were\nquestions about how the proposed study was to be conducted.[\n13\n]\nLaetrile supporters viewed this reversal as an attempt by the U.S. government\nto block access to new and promising cancer\ntherapies\n, and pressure mounted to\nmake laetrile available to the public. Court cases in Oklahoma,\nMassachusetts, New Jersey, and California challenged the FDA’s role in\ndetermining which drugs should be available to cancer patients. Consequently,\nlaetrile was legalized in more than 20 states during the 1970s. In 1980, the\nU.S. Supreme Court acted to uphold a federal ban on interstate shipment of laetrile.[\n2\n,\n14\n] As a result, the\nuse of laetrile has greatly diminished, but\nthe compound continues to be manufactured and administered as an anticancer therapy,\nprimarily in Mexico, and in some clinics in the United States.\nAlthough the names laetrile, Laetrile, vitamin B-17, and amygdalin are often used\ninterchangeably, they are not the same product. The chemical composition of\nU.S.-patented Laetrile (mandelonitrile-beta-glucuronide), a semisynthetic\nderivative\nof amygdalin, is different\nfrom the laetrile/amygdalin produced in Mexico (mandelonitrile\nbeta-D-gentiobioside), which is made from crushed apricot pits.[\n15",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#005",
+   "text": "General Information: ,\n16\n] Mandelonitrile, which contains a cyanide group, is a structural component of\nboth products.[\n15\n] It has been proposed that released (hydrogen) cyanide is the\nactive cancer-killing ingredient in laetrile, but two other breakdown products\nof amygdalin—prunasin (which is similar in structure to Laetrile) and\nbenzaldehyde\n—may also be cancer\ncell\ninhibitors.[\n17\n-\n20\n] The studies discussed in this summary used\neither Mexican laetrile/amygdalin or the patented form. In most instances,\nthe generic term\nlaetrile\nwill be used in this summary; however, a distinction will be\nmade between the products when necessary.\nLaetrile can be administered\norally\nas\na pill, or it can be given by\ninjection\n(\nintravenous\nor\nintramuscular\n). It is commonly given\nintravenously for a period of time followed by oral\nmaintenance therapy\n. The\nincidence of cyanide poisoning is much higher when laetrile is taken orally\n[\n21\n-\n23\n] because\nintestinal\nbacteria\nand some commonly\neaten plants contain\nenzymes\n(beta-glucosidases) that activate the release of cyanide after laetrile has\nbeen\ningested\n.[\n17\n,\n22\n] Relatively little breakdown occurs to yield the (hydrogen) cyanide\nwhen laetrile is injected.[\n7\n,\n22\n] Administration schedules\nand the length of treatment in\nanimal models\nand humans vary\nwidely.\nReferences",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#006",
+   "text": "General Information: Howard-Ruben J, Miller NJ: Unproven methods of cancer management. Part II: Current trends and implications for patient care. Oncol Nurs Forum 11 (1): 67-73, 1984 Jan-Feb.\n[PUBMED Abstract]\nCurt GA: Unsound methods of cancer treatment. Princ Pract Oncol Updates 4 (12): 1-10, 1990.\nDorr RT, Paxinos J: The current status of laetrile. Ann Intern Med 89 (3): 389-97, 1978.\n[PUBMED Abstract]\nCalabrese EJ: Possible adverse side effects from treatment with laetrile. Med Hypotheses 5 (9): 1045-9, 1979.\n[PUBMED Abstract]\nThe laetrile controversy. In: Moss RW: The Cancer Industry: The Classic Expose on the Cancer Establishment. First Equinox Press, 1996, pp 131-52.\nLaetrile at Sloan-Kettering: a case study. In: Moss RW: The Cancer Industry: The Classic Expose on the Cancer Establishment. First Equinox Press, 1996, pp 153-86.\nLerner IJ: Laetrile: a lesson in cancer quackery. CA Cancer J Clin 31 (2): 91-5, 1981 Mar-Apr.\n[PUBMED Abstract]\nEllison NM, Byar DP, Newell GR: Special report on Laetrile: the NCI Laetrile Review. Results of the National Cancer Institute's retrospective Laetrile analysis. N Engl J Med 299 (10): 549-52, 1978.\n[PUBMED Abstract]\nMoertel CG, Fleming TR, Rubin J, et al.: A clinical trial of amygdalin (Laetrile) in the treatment of human cancer. N Engl J Med 306 (4): 201-6, 1982.\n[PUBMED Abstract]\nRoss WE: Unconventional cancer therapy. Compr Ther 11 (9): 37-43, 1985.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#007",
+   "text": "General Information: [PUBMED Abstract]\nLewis JP: Laetrile. West J Med 127 (1): 55-62, 1977.\n[PUBMED Abstract]\nUnproven methods of cancer management. Laetrile. CA Cancer J Clin 22 (4): 245-50, 1972 Jul-Aug.\n[PUBMED Abstract]\nRosen GM, Shorr RI: Laetrile: end play around the FDA. A review of legal developments. Ann Intern Med 90 (3): 418-23, 1979.\n[PUBMED Abstract]\nCurran WJ: Law-medicine notes. Laetrile for the terminally ill: Supreme Court stops the nonsense. N Engl J Med 302 (11): 619-21, 1980.\n[PUBMED Abstract]\nFenselau C, Pallante S, Batzinger RP, et al.: Mandelonitrile beta-glucuronide: synthesis and characterization. Science 198 (4317): 625-7, 1977.\n[PUBMED Abstract]\nChandler RF, Anderson LA, Phillipson JD: Laetrile in perspective. Can Pharm J 117 (11): 517-20, 1984.\nNewmark J, Brady RO, Grimley PM, et al.: Amygdalin (Laetrile) and prunasin beta-glucosidases: distribution in germ-free rat and in human tumor tissue. Proc Natl Acad Sci U S A 78 (10): 6513-6, 1981.\n[PUBMED Abstract]\nRauws AG, Olling M, Timmerman A: The pharmacokinetics of prunasin, a metabolite of amygdalin. J Toxicol Clin Toxicol 19 (8): 851-6, 1982.\n[PUBMED Abstract]\nKochi M, Takeuchi S, Mizutani T, et al.: Antitumor activity of benzaldehyde. Cancer Treat Rep 64 (1): 21-3, 1980.\n[PUBMED Abstract]\nKochi M, Isono N, Niwayama M, et al.: Antitumor activity of a benzaldehyde derivative. Cancer Treat Rep 69 (5): 533-7, 1985.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#008",
+   "text": "General Information: Gostomski FE: The effects of amygdalin on the Krebs-2 carcinoma and adult and fetal DUB(ICR) mice. [Abstract] Diss Abstr Int B 39 (5): 2075-B, 1978.\nHerbert V: Laetrile: the cult of cyanide. Promoting poison for profit. Am J Clin Nutr 32 (5): 1121-58, 1979.\n[PUBMED Abstract]\nViehoever A, Mack H: Bio-chemistry of amygdalin (bitter, cyanogenetic principle from bitter almonds). Am J Pharm 107 (Oct): 397-450, 1935.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#009",
+   "text": "History: Amygdalin\nwas first isolated in 1830 by two French chemists.[\n1\n,\n2\n] It was used as an anticancer agent in Russia as early as 1845, and\npositive results were reported for the first patient treated.[\n3\n,\n4\n] The first recorded use of amygdalin in the United States as a treatment for\ncancer\noccurred in\nthe early 1920s.[\n5\n] At that time, amygdalin was taken in pill\nform; however, the formulation was judged too\ntoxic\n, and the work was\nabandoned. In the 1950s, a purportedly\nnontoxic\nintravenous\nform of amygdalin\nwas patented as\nLaetrile\n.[\n1\n,\n6\n,\n7\n]\nLaetrile has been tested on\ncultured animal cells\n, in whole animals, in\nxenograft\nmodels, and in humans to determine whether\nit has specific anticancer properties. As noted in the\nGeneral Information\nsection,\nhydrogen cyanide\nis believed to be the main cancer-killing ingredient in\nlaetrile.[\n8\n,\n9\n] When amygdalin interacts with the\nenzyme\nbeta-glucosidase\nor undergoes\nhydrolysis\nin the absence of enzymes, hydrogen cyanide,\nbenzaldehyde\n, and\nglucose\nare\nproduced.[\n1\n,\n7\n,\n8\n,\n10\n,\n11\n] Hydrogen cyanide can also be produced from\nprunasin, which is a less-than-complete breakdown product of\namygdalin.[\n1\n,\n8\n]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 209
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#010",
+   "text": "History: Proponents of laetrile have proposed four different theories to explain its purported anticancer activity. The first of these incorporates elements of the\ntrophoblastic theory of cancer, a theory that is not widely accepted as an\nexplanation for cancer formation. According to the trophoblastic theory, all\ncancers arise from primordial\ngerm cells\n, some of which become\ndispersed throughout the body during\nembryonic\ndevelopment and, therefore, are not confined to the\ntestes\nor\novaries\n.[\n12\n-\n17\n] The rationale\nfor laetrile use is the suggestion that\nmalignant\ncells\nhave higher than\nnormal levels of an enzyme called beta-glucuronidase (which is different from\nthe enzyme beta-glucosidase) and that they are deficient in\nanother enzyme called rhodanese (thiosulfate sulfurtransferase). Another suggestion is that laetrile is modified in the\nliver\n, and that\nbeta-glucuronidase breaks down the modified compound, ultimately producing\ncyanide. Rhodanese can convert cyanide into the relatively harmless compound\nthiocyanate. Thus, it has been proposed that cancer cells are more\nsusceptible to the toxic effects of laetrile than normal cells because of an\nimbalance in these two enzymes.[\n10\n,\n13\n,\n18\n-\n20\n] Some experimental evidence does support the idea that normal\ntissues\nand malignant tissues differ substantially in their concentrations of\nbeta-glucuronidase [\n21\n] and rhodanese.[\n22\n,\n23\n]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#011",
+   "text": "History: The second theory states that cancer cells contain more beta-glucosidase\nactivity than normal cells and, as in the first theory, that they are\ndeficient in rhodanese.[\n1\n,\n5\n,\n13\n,\n15\n,\n18\n,\n24\n,\n25\n] Again, elevated beta-glucosidase activity in the interstitial regions of some\nmalignancies\nhas been experimentally demonstrated.[\n26\n,\n27\n]\nThe third theory states that cancer is the result of a\nmetabolic disorder\ncaused by a\nvitamin\ndeficiency\n. It states further that laetrile, or\namygdalin/vitamin B-17\n, is\nthe missing vitamin needed by the body to restore health.[\n18\n,\n28\n-\n30\n] Experimental evidence indicates that the level of intake of\nindividual vitamins and/or the vitamin status of an\norganism\ncan influence the development of\ncancer, but there is no evidence that laetrile is needed for normal\nmetabolism\nor that it can function as a\nvitamin in animals or humans.[\n31\n,\n32\n]\nThe fourth theory suggests that the cyanide released by laetrile has a\ntoxic effect beyond its interference with oxygen utilization by cells.\nAccording to this theory, cyanide increases the acid content of\ntumors\nand\nleads to the destruction of\nlysosomes\n. The injured\nlysosomes release their contents, thereby killing the cancer cells and\narresting tumor growth.[\n15\n] According to this theory, another",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#012",
+   "text": "History: consequence of lysosome disruption is stimulation of the\nimmune system\n.\nReferences\nDorr RT, Paxinos J: The current status of laetrile. Ann Intern Med 89 (3): 389-97, 1978.\n[PUBMED Abstract]\nViehoever A, Mack H: Bio-chemistry of amygdalin (bitter, cyanogenetic principle from bitter almonds). Am J Pharm 107 (Oct): 397-450, 1935.\nThe laetrile controversy. In: Moss RW: The Cancer Industry: The Classic Expose on the Cancer Establishment. First Equinox Press, 1996, pp 131-52.\nLaetrile at Sloan-Kettering: a case study. In: Moss RW: The Cancer Industry: The Classic Expose on the Cancer Establishment. First Equinox Press, 1996, pp 153-86.\nCurt GA: Unsound methods of cancer treatment. Princ Pract Oncol Updates 4 (12): 1-10, 1990.\nFenselau C, Pallante S, Batzinger RP, et al.: Mandelonitrile beta-glucuronide: synthesis and characterization. Science 198 (4317): 625-7, 1977.\n[PUBMED Abstract]\nChandler RF, Anderson LA, Phillipson JD: Laetrile in perspective. Can Pharm J 117 (11): 517-20, 1984.\nNewmark J, Brady RO, Grimley PM, et al.: Amygdalin (Laetrile) and prunasin beta-glucosidases: distribution in germ-free rat and in human tumor tissue. Proc Natl Acad Sci U S A 78 (10): 6513-6, 1981.\n[PUBMED Abstract]\nRauws AG, Olling M, Timmerman A: The pharmacokinetics of prunasin, a metabolite of amygdalin. J Toxicol Clin Toxicol 19 (8): 851-6, 1982.\n[PUBMED Abstract]\nRoss WE: Unconventional cancer therapy. Compr Ther 11 (9): 37-43, 1985.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#013",
+   "text": "History: Ames MM, Moyer TP, Kovach JS, et al.: Pharmacology of amygdalin (laetrile) in cancer patients. Cancer Chemother Pharmacol 6 (1): 51-7, 1981.\n[PUBMED Abstract]\nKrebs ET Jr, Krebs ET Sr, Beard HH: The unitarian or trophoblastic thesis of cancer. Med Rec 163 (7): 149-74, 1950.\nEllison NM: Unproven methods of cancer therapy. Drug Ther (NY) 10(July): 73-82, 1980.\nNavarro MD: The Philippine experience in the early detection and chemotherapy of cancer. St Tomas J Med 25 (3): 125-33, 1970.\nGreenberg DM: The case against laetrile: the fraudulent cancer remedy. Cancer 45 (4): 799-807, 1980.\n[PUBMED Abstract]\nLevi L, French WN, Bickis IJ, et al.: Laetrile: a study of its physicochemical and biochemical properties. Can Med Assoc J 92 (20): 1057-61, 1965.\nTreatment of cancer with laetriles; a report by the Cancer Commission of the California Medical Association. Calif Med 78 (4): 320-6, 1953.\n[PUBMED Abstract]\nUnproven methods of cancer management. Laetrile. CA Cancer J Clin 22 (4): 245-50, 1972 Jul-Aug.\n[PUBMED Abstract]\nNavarro MD: Five years experience with laetrile therapy in advanced cancer. Acta Unio Int Contr Cancrum 15(suppl 1): 209-21, 1959.\nMorrone JA: Chemotherapy of inoperable cancer: preliminary report of 10 cases treated with laetrile. Exp Med Surg 20: 299-308, 1962.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "surgery",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 203
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#014",
+   "text": "History: Chen X, Wu B, Wang PG: Glucuronides in anti-cancer therapy. Curr Med Chem Anticancer Agents 3 (2): 139-50, 2003.\n[PUBMED Abstract]\nGAL EM, FUNG FH, GREENBERG DM: Studies on the biological action of malononitriles. II. Distribution of rhodanese (transulfurase) in the tissues of normal and tumor-bearing animals and the effect of malononitriles thereon. Cancer Res 12 (8): 574-9, 1952.\n[PUBMED Abstract]\nSabelli R, Iorio E, De Martino A, et al.: Rhodanese-thioredoxin system and allyl sulfur compounds. FEBS J 275 (15): 3884-99, 2008.\n[PUBMED Abstract]\nHerbert V: Laetrile: the cult of cyanide. Promoting poison for profit. Am J Clin Nutr 32 (5): 1121-58, 1979.\n[PUBMED Abstract]\nScott PJ: Laetrile and cancer quackery problems. Cancer Forum 5 (2): 93-97, 1981.\nCheng H, Cao X, Xian M, et al.: Synthesis and enzyme-specific activation of carbohydrate-geldanamycin conjugates with potent anticancer activity. J Med Chem 48 (2): 645-52, 2005.\n[PUBMED Abstract]\nBernacki RJ, Niedbala MJ, Korytnyk W: Glycosidases in cancer and invasion. Cancer Metastasis Rev 4 (1): 81-101, 1985.\n[PUBMED Abstract]\nLerner IJ: Laetrile: a lesson in cancer quackery. CA Cancer J Clin 31 (2): 91-5, 1981 Mar-Apr.\n[PUBMED Abstract]\nLerner IJ: The whys of cancer quackery. Cancer 53 (3 Suppl): 815-9, 1984.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 201
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#015",
+   "text": "History: Shils ME, Hermann MG: Unproved dietary claims in the treatment of patients with cancer. Bull N Y Acad Med 58 (3): 323-40, 1982.\n[PUBMED Abstract]\nYoung VR, Newberne PM: Vitamins and cancer prevention: issues and dilemmas. Cancer 47 (5 Suppl): 1226-40, 1981.\n[PUBMED Abstract]\nJukes TH: Is laetrile a vitamin? Nutr Today 12 (5): 12-17, 1977.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#016",
+   "text": "Laboratory/Animal/Preclinical Studies: Preclinical\ninvestigations of the potential anticancer activity of\nlaetrile\nhave used numerous\ncultured cell lines\nand\ntumor models\n, and they explored the\nfollowing issues:\nWhether laetrile, given alone or in combination with\nother substances, exhibits anticancer activity of any kind.\nThe\ntoxic\neffects associated with laetrile treatment.\nThe location of laetrile\nbreakdown in the body, and how this breakdown occurs.\nThe route(s) of\nexcretion\nfor laetrile and its broken-down products.\nAnimal studies\nof laetrile have used rodents,[\n1\n-\n10\n] dogs,[\n11\n-\n13\n] rabbits,[\n13\n] and a cat.[\n11\n] Early work led to the\nhypothesis\nthat\nenzymes\nwere necessary to release\nhydrogen cyanide\nfrom\namygdalin\n.\nWhen high levels of these enzymes were present,\nsymptoms\nof cyanide poisoning\nwere more pronounced.[\n1\n,\n13\n]\nIn two studies sponsored by the\nNational Cancer Institute\nand published in 1975, various rodent cancers\n(\nosteogenic sarcoma\n,\nmelanoma\n,\ncarcinosarcoma\n,\nlung\ncarcinoma\n, and\nleukemia\n) were\ntransplanted\ninto rats and mice.[\n2\n,\n3\n] In both\nstudies, the animals were treated with\nintraperitoneal\ninjections\nof\namygdalin, with or without the enzyme beta-glucosidase. None of the\nsolid\ntumors\nor leukemias that were investigated responded to amygdalin at any\ndose\nthat was tested.\nNo\nstatistically significant\nincrease in animal survival was observed in any",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "immunosuppression",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#017",
+   "text": "Laboratory/Animal/Preclinical Studies: of the treatment groups. Similar results were obtained in another study using\nhuman\nbreast cancer\nand\ncolon cancer\ncells\nimplanted into mice.[\n10\n] Amygdalin at every dose level tested produced no\nresponse\neither as a single agent or in\ncombination with beta-glucosidase. It was discovered that animals\nexperienced more\nside effects\nwhen beta-glucosidase was given\nconcurrently\nwith amygdalin than when amygdalin was given alone.[\n2\n,\n3\n]\nAdditional\ncell culture\nand animal studies involving more than a dozen\nother tumor models have been published.[\n1\n,\n4\n,\n6\n,\n8\n,\n9\n,\n14\n,\n15\n] In\none study, preliminary findings by one of the principal\ninvestigators\nthat\namygdalin inhibited the growth of\nprimary tumors\nand the\nincidence\nof\nlung\nmetastases\nin mice bearing\nspontaneous (not treatment-induced)\nmammary\nadenocarcinomas\ncould not be\nconfirmed.[\n4\n] However, positive results were obtained in\nanother study.[\n9\n] A summary of study results is provided in\nTable 1\nand\nTable 2\nbelow.\nTable 1.\nIn Vitro\nStudies\na\nReference\nCell Line\nOutcome\nmg = milligram(s); mL = milliliter(s).\na\nFor additional information and definition of terms, see text and the\nNCI Dictionary of Cancer Terms\n.\n[\n15\n]\nTwo human\nacute myeloid leukemia\ncell lines (KG-1 and HL-60)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#018",
+   "text": "Laboratory/Animal/Preclinical Studies: A 50% inhibition of colony formation by both normal and leukemic cells was observed at an amygdalin\nconcentration\nof 3.5\nmg\n/\nmL\nusing both\ndrug\nsources; the colony-forming cells from the leukemic cell lines and normal marrow were found to be relatively resistant to amygdalin and its metabolites\nin vitro\n; there was no selective kill of clonogenic cells from the human leukemia cell lines as compared to normal\nbone marrow\n[\n16\n]\nSNU-C4 human colon cancer cells\nModest (10%–30%) cytotoxicity seen with amygdalin concentrations of 0.5–5.0 mg/mL\n[\n17\n]\nHuman\nprostate cancer\ncell lines (DU145 and LNCaP)\nDose-dependent\ncytotoxicity in DU145 with amygdalin concentrations of 0.01–10 mg/mL and in LNCaP cells at concentrations of 0.1–10 mg/mL\n[\n18\n]\nHepG2 human\nhepatoma\ncells\nIC50 of amygdalin alone was 458.10 mg/mL and with beta-D-glucosidase was 3.2 mg/mL\n[\n19\n]\nHeLa human\ncervical cancer\ncells\nModest (10%–50%) cytotoxicity seen with amygdalin concentrations of 5–20 mg/mL\nTable 2.\nIn Vivo\nStudies\na\nReference\nAnimal Model\nOutcome\nDMBA = dimethylbenz-alpha-anthracene; kg =\nkilogram\n(s); mg = milligram(s).\na\nFor additional information and definition of terms, see text and the\nNCI Dictionary of Cancer Terms\n.\n[\n2\n]\nFour transplantable rodent tumors (L1210\nlymphoid\nleukemia, P388\nlymphocytic leukemia\n, B16 melanoma, and Walker 256 carcinosarcoma)\nNo\nantitumor",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "immunosuppression",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#019",
+   "text": "Laboratory/Animal/Preclinical Studies: activity of amygdalin alone (25–3,200 mg/kg);\npotentiation\nof\ntoxicity\nof amygdalin when combined with beta glucosidase\n[\n3\n]\nThree transplantable rodent tumors (osteogenic sarcoma, Lewis lung carcinoma, and P388 leukemia)\nNo antitumor activity at 20% of lethal dose (LD20)\n[\n4\n]\nDMBA-induced rat mammary carcinoma and the following transplanted\nexperimental\ntumors: sarcoma 180,\nplasma cell\ntumor LPC-1, leukemia L1210, Mecca\nlymphosarcoma\n, Ridgway osteogenic sarcoma, sarcoma T241, mammary carcinoma E0771, Taper\nliver\ntumor, Ehrlich carcinoma (solid and\nascites\n), and Walker carcinosarcoma 256\nNot effective at treating, preventing, or delaying development of tumors\n[\n6\n]\nB16 melanoma and BW5147 AKR leukemia\nIneffective\n[\n9\n]\nMurine mammary adenocarcinoma\nNo effect of amygdalin alone. Enhanced antitumor activity of combination of\noral\nvitamin A\n, amygdalin given intramuscularly, and enzymes injected into and around the tumor\n[\n10\n]\nHuman\nbreast\nand\ncolon\nxenografts\nInactive\n[\n19\n]\nHeLa human\ncervical cancer\ncell xenografts\nModest tumor growth inhibition in mice receiving 300 mg/kg intraperitoneally daily for 14 days\nThe toxicity of laetrile appears to be dependent on the route of\nadministration. Oral administration is associated with much greater toxicity\nthan\nintravenous\n, intraperitoneal, or intramuscular injection.[\n1\n,\n5\n,\n7\n,\n8\n,\n12\n,\n20\n-\n22\n] As noted in the\nHistory\nsection, most",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "immunosuppression",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#020",
+   "text": "Laboratory/Animal/Preclinical Studies: mammalian cells contain only trace amounts of the enzyme beta-glucosidase;[\n23\n]\nhowever, this enzyme is present in\ngastrointestinal tract\nbacteria\nand in many food plants.[\n5\n,\n7\n,\n13\n,\n24\n-\n26\n]\nTwo studies\nhave examined the role of intestinal bacteria in the breakdown of\norally administered amygdalin.[\n7\n,\n27\n] In one study, rats bred and raised\nunder\ngerm-free\nconditions and rats\nbred and raised under normal conditions were given oral amygdalin. The\ngerm-free rats exhibited no side effects from the compound, and their blood\nconcentrations of cyanide were indistinguishable from those of untreated rats.\nMany of the rats with normal quantities of intestinal bacteria\nshowed signs of cyanide poisoning (e.g., lethargy and convulsions), and they\nhad high levels of cyanide in their blood. In the second study, rats were\neither treated or not treated with the\nantibiotic\nneomycin before being given\noral amygdalin.[\n5\n] In this study,\nurinary\nexcretion of detoxified cyanide\n(i.e., thiocyanate) was measured. The amount of urinary thiocyanate was\n40 times higher in rats that had not been given the antibiotic, indicating\nthat more amygdalin had been broken down in animals with normal amounts of\nintestinal bacteria. In humans, as in rats, substantial breakdown of\namygdalin occurs in the\nintestines\n;",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#021",
+   "text": "Laboratory/Animal/Preclinical Studies: however, little breakdown of amygdalin occurs in humans, with most of the intact compound eventually\nexcreted in urine.[\n25\n,\n28\n]\nReferences\nGostomski FE: The effects of amygdalin on the Krebs-2 carcinoma and adult and fetal DUB(ICR) mice. [Abstract] Diss Abstr Int B 39 (5): 2075-B, 1978.\nWodinsky I, Swiniarski JK: Antitumor activity of amygdalin MF (NSC-15780) as a single agent and with beta-glucosidase (NSC-128056) on a spectrum of transplantable rodent tumors. Cancer Chemother Rep 59 (5): 939-50, 1975 Sep-Oct.\n[PUBMED Abstract]\nLaster WR, Schabel FM: Experimental studies of the antitumor activity of amygdalin MF (NSC-15780) alone and in combination with beta-glucosidase (NSC-128056). Cancer Chemother Rep 59 (5): 951-65, 1975 Sep-Oct.\n[PUBMED Abstract]\nStock CC, Tarnowski GS, Schmid FA, et al.: Antitumor tests of amygdalin in transplantable animal tumor systems. J Surg Oncol 10 (2): 81-8, 1978.\n[PUBMED Abstract]\nNewton GW, Schmidt ES, Lewis JP, et al.: Amygdalin toxicity studies in rats predict chronic cyanide poisoning in humans. West J Med 134 (2): 97-103, 1981.\n[PUBMED Abstract]\nHill GJ, Shine TE, Hill HZ, et al.: Failure of amygdalin to arrest B16 melanoma and BW5147 AKR leukemia. Cancer Res 36 (6): 2102-7, 1976.\n[PUBMED Abstract]\nCarter JH, McLafferty MA, Goldman P: Role of the gastrointestinal microflora in amygdalin (laetrile)-induced cyanide toxicity. Biochem Pharmacol 29 (3): 301-4, 1980.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "surgery",
+    "immunosuppression",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#022",
+   "text": "Laboratory/Animal/Preclinical Studies: Khandekar JD, Edelman H: Studies of amygdalin (laetrile) toxicity in rodents. JAMA 242 (2): 169-71, 1979.\n[PUBMED Abstract]\nManner HW, DiSanti SJ, Maggio MI, et al.: Amygdalin, vitamin A and enzyme induced regression of murine mammary adenocarcinomas. J Manipulative Physiol Ther 1 (4): 246-8, 1978.\nOvejera AA, Houchens DP, Barker AD, et al.: Inactivity of DL-amygdalin against human breast and colon tumor xenografts in athymic (nude) mice. Cancer Treat Rep 62 (4): 576-8, 1978.\n[PUBMED Abstract]\nLewis JP: Laetrile. West J Med 127 (1): 55-62, 1977.\n[PUBMED Abstract]\nSchmidt ES, Newton GW, Sanders SM, et al.: Laetrile toxicity studies in dogs. JAMA 239 (10): 943-7, 1978.\n[PUBMED Abstract]\nDorr RT, Paxinos J: The current status of laetrile. Ann Intern Med 89 (3): 389-97, 1978.\n[PUBMED Abstract]\nLevi L, French WN, Bickis IJ, et al.: Laetrile: a study of its physicochemical and biochemical properties. Can Med Assoc J 92 (20): 1057-61, 1965.\nKoeffler HP, Lowe L, Golde DW: Amygdalin (Laetrile): effect on clonogenic cells from human myeloid leukemia cell lines and normal human marrow. Cancer Treat Rep 64 (1): 105-9, 1980.\n[PUBMED Abstract]\nPark HJ, Yoon SH, Han LS, et al.: Amygdalin inhibits genes related to cell cycle in SNU-C4 human colon cancer cells. World J Gastroenterol 11 (33): 5156-61, 2005.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#023",
+   "text": "Laboratory/Animal/Preclinical Studies: Chang HK, Shin MS, Yang HY, et al.: Amygdalin induces apoptosis through regulation of Bax and Bcl-2 expressions in human DU145 and LNCaP prostate cancer cells. Biol Pharm Bull 29 (8): 1597-602, 2006.\n[PUBMED Abstract]\nZhou C, Qian L, Ma H, et al.: Enhancement of amygdalin activated with β-D-glucosidase on HepG2 cells proliferation and apoptosis. Carbohydr Polym 90 (1): 516-23, 2012.\n[PUBMED Abstract]\nChen Y, Ma J, Wang F, et al.: Amygdalin induces apoptosis in human cervical cancer cell line HeLa cells. Immunopharmacol Immunotoxicol 35 (1): 43-51, 2013.\n[PUBMED Abstract]\nMoertel CG, Ames MM, Kovach JS, et al.: A pharmacologic and toxicological study of amygdalin. JAMA 245 (6): 591-4, 1981.\n[PUBMED Abstract]\nNewmark J, Brady RO, Grimley PM, et al.: Amygdalin (Laetrile) and prunasin beta-glucosidases: distribution in germ-free rat and in human tumor tissue. Proc Natl Acad Sci U S A 78 (10): 6513-6, 1981.\n[PUBMED Abstract]\nNavarro MD: Five years experience with laetrile therapy in advanced cancer. Acta Unio Int Contr Cancrum 15(suppl 1): 209-21, 1959.\nConchie J, Findlay J, Levvy GA: Mammalian glycosidases: distribution in the body. Biochem J 71 (2): 318-25, 1959.\nHerbert V: Laetrile: the cult of cyanide. Promoting poison for profit. Am J Clin Nutr 32 (5): 1121-58, 1979.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 208
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#024",
+   "text": "Laboratory/Animal/Preclinical Studies: Ames MM, Moyer TP, Kovach JS, et al.: Pharmacology of amygdalin (laetrile) in cancer patients. Cancer Chemother Pharmacol 6 (1): 51-7, 1981.\n[PUBMED Abstract]\nUnproven methods of cancer management. Laetrile. CA Cancer J Clin 22 (4): 245-50, 1972 Jul-Aug.\n[PUBMED Abstract]\nShils ME, Hermann MG: Unproved dietary claims in the treatment of patients with cancer. Bull N Y Acad Med 58 (3): 323-40, 1982.\n[PUBMED Abstract]\nAmes MM, Kovach JS, Flora KP: Initial pharmacologic studies of amygdalin (laetrile) in man. Res Commun Chem Pathol Pharmacol 22 (1): 175-85, 1978.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#025",
+   "text": "Human/Clinical Studies: Laetrile\nhas been used as an anticancer treatment in humans\nworldwide.[\n1\n] Although many\nanecdotal reports\nand\ncase reports\nare available, findings\nfrom only two\nclinical trials\n[\n2\n,\n3\n] have been published. No\ncontrolled clinical trial\nof laetrile has ever been conducted.\nCase reports and reports of\ncase series\nhave provided little\nevidence to support laetrile as an anticancer\ntreatment.[\n1\n,\n4\n-\n8\n] The absence of a uniform\ndocumentation of\ncancer\ndiagnosis\n, the\nuse of\nconventional therapies\nin combination with laetrile, and variations in\nthe\ndose\nand duration of laetrile\ntherapy\ncomplicate evaluation of the data.\nIn a case series published in 1962,[\n6\n] findings from ten patients with\nvarious types of\nmetastatic\ncancer\nwere reported. These patients had been treated with a wide range of doses of\nintravenous\n(IV) Laetrile (total dose range, 9–133\ng\n). Pain relief (reduction or elimination) was the primary benefit reported. Some\nobjective responses\n, such as decreased\nadenopathy\nand decreased tumor size,\nwere noted. Information on prior or\nconcurrent therapy\nwas provided;\nhowever, patients were not followed up long-term to determine whether the\nbenefits continued after treatment was stopped. Another case series that was\npublished in 1953 included 44 cancer patients and found no evidence of\nobjective response that could be attributed to laetrile.[",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#026",
+   "text": "Human/Clinical Studies: 9\n] Most patients\nwith reported cancer\nregression\nin\nthis series received recent or concurrent\nradiation therapy\nor\nchemotherapy\n. Thus, it is impossible\nto determine which treatment produced the positive results.\nBenzaldehyde\n, which is one of laetrile’s breakdown products, has also been\ntested for anticancer activity in humans. Two\nclinical series\nreported a number\nof responses to benzaldehyde in patients with advanced cancer for whom\nstandard therapy\nhad failed.[\n10\n,\n11\n] In one series, 19\ncomplete responses\nand ten\npartial responses\nwere reported\namong 57 patients who had received either\noral\nor\nrectal\nbeta-cyclodextrin benzaldehyde;\nhowever, precise response durations were specified for only two of the\npatients.[\n10\n] Another series by the same\ninvestigators\nused\n4,6-benzylidene-alpha-D-glucose, which is an IV formulation of\nbenzaldehyde.[\n11\n] In this series, seven complete responses and 29 partial\nresponses were reported among 65 patients, with response durations ranging\nfrom 1.5 to 27 months. No\ntoxicity\nwas associated with either preparation of\nbenzaldehyde, and it was reported that the responses persisted as long as\ntreatment was continued. Almost all of the patients in these two series had\nbeen treated previously with chemotherapy or radiation therapy, but the\nelapsed time before the initiation of benzaldehyde treatment was not\ndisclosed.\nIn 1978, the\nNational Cancer Institute",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#027",
+   "text": "Human/Clinical Studies: (NCI) requested case reports from practitioners who believed\nthat their patients had benefitted from laetrile treatment.[\n12\n] Ninety-three cases\nwere submitted, and 67 were considered evaluable for response. An expert\npanel concluded that two of the 67 patients had complete responses and that\nfour of the others had partial responses while using laetrile.[\n13\n] On the basis of\nthese six responses, the NCI agreed to sponsor\nphase I\nand\nphase II clinical trials\n.\nThe phase I study was designed to test the doses, routes of administration,\nand the schedule of administration judged representative of those used by\nlaetrile practitioners.[\n3\n] The study involved six cancer patients. The\ninvestigators found that IV and oral amygdalin showed minimal\ntoxicity under the conditions evaluated; however, two patients who ate raw\nalmonds while undergoing oral treatment developed symptoms of cyanide\npoisoning.\nThe phase II study was conducted in 1982 and was designed to test the types\nof cancer that might benefit from laetrile treatment.[\n2\n] Most\npatients had\nbreast\n,\ncolon\n, or\nlung cancer\n. To be eligible for the trial,\npatients had to be in good general condition (not totally disabled or near\ndeath), and they must not have received any other cancer\ntherapy\nfor at least\n1 month before treatment with\namygdalin",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#028",
+   "text": "Human/Clinical Studies: . Amygdalin, evaluated for potency\nand purity by the NCI,[\n14\n] was administered by IV for 21 days,\nfollowed by oral\nmaintenance therapy\n, utilizing doses and procedures similar\nto those evaluated in the phase I study.\nVitamins\nand\npancreatic enzymes\nwere\nalso administered as part of a\nmetabolic therapy\nprogram that included dietary\nchanges to restrict the use of caffeine, sugar, meats, dairy products, eggs,\nand alcohol. A small subset of patients received higher-dose amygdalin\ntherapy and higher doses of some vitamins as part of the trial.\nPatients were followed up until there was definite evidence of cancer\nprogression\n, elevated blood cyanide\nlevels, or severe clinical deterioration. Among 175\nevaluable patients\n, only one patient met the criteria for response. This patient, who had\ngastric\ncarcinoma with\ncervical\nlymph node\nmetastasis,\nexperienced a partial response that was maintained for 10 weeks while on\namygdalin therapy. Fifty-four percent of the patients had measurable disease\nprogression at the end of the IV course of treatment, and all\nof the patients had disease progression 7 months after completing IV therapy.\nSeven percent of the patients reported an improvement in performance status\n(ability to work or to perform routine daily activities) at some time during\ntherapy, and 20 percent claimed\nsymptomatic\nrelief. In most patients,",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "sedation",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#029",
+   "text": "Human/Clinical Studies: these benefits did not persist. Blood cyanide levels were not elevated after\nIV amygdalin treatment; however, they were elevated after oral\ntherapy.[\n2\n]\nVariations in commercial preparations of laetrile from Mexico, the primary\nsupplier, have been documented.[\n14\n,\n15\n] Incorrect product labels have been\nfound, and samples contaminated with\nbacteria\nand other substances have been\nidentified.[\n14\n,\n15\n] When a comparison was made of products manufactured in the\nUnited States and Canada, differences in chemical composition were noted, and\nneither product was effective in killing cultured human cancer cells.[\n16\n]\nTable 3. Clinical Studies of Laetrile/Amygdalin\na\nReference\nTrial Design\nCondition or Cancer Type\nTreatment Groups (Enrolled; Treated;\nPlacebo\nor No Treatment Control)\nb\nResults\nConcurrent Therapy Used\nLevel of Evidence\nc\nN/A = not applicable.\na\nFor additional information and definition of terms, see text and the\nNCI Dictionary of Cancer Terms\n.\nb\nNumber of patients treated plus number of patient controls may not equal number of patients enrolled; number of patients enrolled equals number of patients initially recruited/considered by the researchers who conducted a study; number of patients treated equals number of enrolled patients who were given the treatment being studied AND for whom results were reported.\nc",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 209
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#030",
+   "text": "Human/Clinical Studies: Strongest evidence reported that the treatment under study has activity or otherwise improves the well-being of cancer patients. For information about\nlevels of evidence\nanalysis and scores, see\nLevels of Evidence for Human Studies of Integrative, Alternative, and Complementary Therapies\n.\n[\n2\n]\nConsecutive case series\nVarious cancers\n179; 178; N/A\nNo benefit reported\nMetabolic therapy program of\ndiet\n, vitamins, and\nenzymes\n3iiDiii\n[\n13\n]\nNonconsecutive case series\nVarious diseases\n68; 68; 24\nTwo patients had complete response; four patients had partial response\nChemotherapy\n3iiiDiii\n[\n3\n]\nNonconsecutive case series\nAdvanced cancer\n6; 6; N/A\nNo benefit reported\nVitamins, enzymes\n3iiiDiii\n[\n6\n]\nBest case series\nVarious advanced cancers\n9; 9; N/A\nPain relief\nUnknown\n4\n[\n7\n]\nBest case series\nVarious cancers\n10; 10; N/A\nPain relief\nNarcotics\ngiven to seven patients, but discontinued in five patients\n4\n[\n9\n]\nBest case series\nVarious cancers\nN/A; 44; N/A\nNo benefit reported\nUnknown\n4\nReferences\nLewis JP: Laetrile. West J Med 127 (1): 55-62, 1977.\n[PUBMED Abstract]\nMoertel CG, Fleming TR, Rubin J, et al.: A clinical trial of amygdalin (Laetrile) in the treatment of human cancer. N Engl J Med 306 (4): 201-6, 1982.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 206
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#031",
+   "text": "Human/Clinical Studies: Moertel CG, Ames MM, Kovach JS, et al.: A pharmacologic and toxicological study of amygdalin. JAMA 245 (6): 591-4, 1981.\n[PUBMED Abstract]\nNavarro MD: The Philippine experience in the early detection and chemotherapy of cancer. St Tomas J Med 25 (3): 125-33, 1970.\nRoss WE: Unconventional cancer therapy. Compr Ther 11 (9): 37-43, 1985.\n[PUBMED Abstract]\nNavarro MD: Five years experience with laetrile therapy in advanced cancer. Acta Unio Int Contr Cancrum 15(suppl 1): 209-21, 1959.\nMorrone JA: Chemotherapy of inoperable cancer: preliminary report of 10 cases treated with laetrile. Exp Med Surg 20: 299-308, 1962.\nBrown WE, Wood CD, Smith AN: Sodium cyanide as a cancer chemotherapeutic agent: laboratory and clinical studies. Am J Obstet Gynecol 80 (5): 907-18, 1960.\nTreatment of cancer with laetriles; a report by the Cancer Commission of the California Medical Association. Calif Med 78 (4): 320-6, 1953.\n[PUBMED Abstract]\nKochi M, Takeuchi S, Mizutani T, et al.: Antitumor activity of benzaldehyde. Cancer Treat Rep 64 (1): 21-3, 1980.\n[PUBMED Abstract]\nKochi M, Isono N, Niwayama M, et al.: Antitumor activity of a benzaldehyde derivative. Cancer Treat Rep 69 (5): 533-7, 1985.\n[PUBMED Abstract]\nNewell GR, Ellison NM: Ethics and designs: laetrile trials as an example. Cancer Treat Rep 64 (2-3): 363-5, 1980 Feb-Mar.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "surgery",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#032",
+   "text": "Human/Clinical Studies: Ellison NM, Byar DP, Newell GR: Special report on Laetrile: the NCI Laetrile Review. Results of the National Cancer Institute's retrospective Laetrile analysis. N Engl J Med 299 (10): 549-52, 1978.\n[PUBMED Abstract]\nDavignon JP, Trissel LA, Kleinman LM: Pharmaceutical assessment of amygdalin (Laetrile) products. Cancer Treat Rep 62 (1): 99-104, 1978.\n[PUBMED Abstract]\nDavignon JP: Contaminated laetrile: a health hazard. N Engl J Med 297 (24): 1355-6, 1977.\n[PUBMED Abstract]\nLevi L, French WN, Bickis IJ, et al.: Laetrile: a study of its physicochemical and biochemical properties. Can Med Assoc J 92 (20): 1057-61, 1965.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#033",
+   "text": "Adverse Effects: The\nside effects\nassociated with\nlaetrile\ntreatment mirror the symptoms of\ncyanide poisoning. Cyanide is a\nneurotoxin\nthat can cause the following side effects:\nNausea\nand\nvomiting\n.[\n1\n]\nHeadache.[\n1\n]\nDizziness.[\n2\n,\n3\n]\nCyanosis\n.\nLiver\ndamage.[\n4\n,\n5\n]\nHypotension\n.[\n1\n,\n6\n,\n7\n]\nPtosis\n.[\n8\n,\n9\n]\nAtaxic\nneuropathies\n.[\n10\n]\nFever.[\n7\n,\n8\n]\nMental confusion.[\n6\n,\n11\n-\n13\n]\nComa.[\n6\n,\n11\n-\n13\n]\nDeath.[\n6\n,\n11\n-\n13\n]\nOral\nlaetrile causes more severe side effects\nthan\ninjected\nlaetrile. These side effects can be potentiated by\nthe concurrent administration of raw almonds or crushed fruit pits, and by eating\nfruits or vegetables that contain beta-glucosidase (e.g., celery, peaches,\nbean sprouts, carrots),[\n3\n,\n5\n,\n14\n-\n16\n] or by taking high\ndoses\nof\nvitamin\nC orally.[\n1\n,\n5\n,\n17\n,\n18\n]\nReferences\nHoward-Ruben J, Miller NJ: Unproven methods of cancer management. Part II: Current trends and implications for patient care. Oncol Nurs Forum 11 (1): 67-73, 1984 Jan-Feb.\n[PUBMED Abstract]\nMoertel CG, Fleming TR, Rubin J, et al.: A clinical trial of amygdalin (Laetrile) in the treatment of human cancer. N Engl J Med 306 (4): 201-6, 1982.\n[PUBMED Abstract]",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#034",
+   "text": "Adverse Effects: Chandler RF, Anderson LA, Phillipson JD: Laetrile in perspective. Can Pharm J 117 (11): 517-20, 1984.\nLeor R, Michaeli J, Brezis M, et al.: Laetrile intoxication and hepatic necrosis: a possible association. South Med J 79 (2): 259-60, 1986.\n[PUBMED Abstract]\nLee M, Berger HW, Givre HL, et al.: Near fatal laetrile intoxication: complete recovery with supportive treatment. Mt Sinai J Med 49 (4): 305-7, 1982 Jul-Aug.\n[PUBMED Abstract]\nNavarro MD: Five years experience with laetrile therapy in advanced cancer. Acta Unio Int Contr Cancrum 15(suppl 1): 209-21, 1959.\nDorr RT, Paxinos J: The current status of laetrile. Ann Intern Med 89 (3): 389-97, 1978.\n[PUBMED Abstract]\nSmith FP, Butler TP, Cohan S, et al.: Laetrile toxicity: a report of two patients. Cancer Treat Rep 62 (1): 169-71, 1978.\n[PUBMED Abstract]\nVizel M, Oster MW: Ocular side effects of cancer chemotherapy. Cancer 49 (10): 1999-2002, 1982.\n[PUBMED Abstract]\nKalyanaraman UP, Kalyanaraman K, Cullinan SA, et al.: Neuromyopathy of cyanide intoxication due to \"laetrile\" (amygdalin). A clinicopathologic study. Cancer 51 (11): 2126-33, 1983.\n[PUBMED Abstract]\nAmes MM, Moyer TP, Kovach JS, et al.: Pharmacology of amygdalin (laetrile) in cancer patients. Cancer Chemother Pharmacol 6 (1): 51-7, 1981.\n[PUBMED Abstract]\nMoertel CG, Ames MM, Kovach JS, et al.: A pharmacologic and toxicological study of amygdalin. JAMA 245 (6): 591-4, 1981.\n[PUBMED Abstract]",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#035",
+   "text": "Adverse Effects: O'Brien B, Quigg C, Leong T: Severe cyanide toxicity from 'vitamin supplements'. Eur J Emerg Med 12 (5): 257-8, 2005.\n[PUBMED Abstract]\nGostomski FE: The effects of amygdalin on the Krebs-2 carcinoma and adult and fetal DUB(ICR) mice. [Abstract] Diss Abstr Int B 39 (5): 2075-B, 1978.\nSchmidt ES, Newton GW, Sanders SM, et al.: Laetrile toxicity studies in dogs. JAMA 239 (10): 943-7, 1978.\n[PUBMED Abstract]\nHerbert V: Laetrile: the cult of cyanide. Promoting poison for profit. Am J Clin Nutr 32 (5): 1121-58, 1979.\n[PUBMED Abstract]\nCalabrese EJ: Conjoint use of laetrile and megadoses of ascorbic acid in cancer treatment: possible side effects. Med Hypotheses 5 (9): 995-7, 1979.\n[PUBMED Abstract]\nBromley J, Hughes BG, Leong DC, et al.: Life-threatening interaction between complementary medicines: cyanide toxicity following ingestion of amygdalin and vitamin C. Ann Pharmacother 39 (9): 1566-9, 2005.\n[PUBMED Abstract]",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 145
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#036",
+   "text": "Summary of the Evidence for Laetrile/Amygdalin: To assist readers in evaluating the results of human studies of integrative, alternative, and complementary therapies for\ncancer\n, the strength of the evidence (i.e., the\nlevels of\nevidence\n) associated with each type of treatment is provided whenever\npossible. To qualify for a level of evidence analysis, a study must:\nBe published in a peer-reviewed scientific journal.\nReport on a\ntherapeutic\noutcome or outcomes, such as\ntumor\nresponse\n, improvement in survival, or measured improvement in\nquality of life\n.\nDescribe clinical findings in sufficient detail that a meaningful evaluation can be made.\nSeparate levels of evidence scores are assigned to qualifying human studies on the basis of statistical strength of the study design and scientific strength of the treatment outcomes (i.e.,\nendpoints\n) measured. The resulting two scores are then combined to produce an overall score. For an explanation of the scores and additional information about levels of evidence analysis for cancer, see\nLevels of Evidence for Human Studies of Integrative, Alternative, and Complementary Therapies\n.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 174
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#037",
+   "text": "Latest Updates to This Summary (06/14/2022): The\nPDQ\ncancer\ninformation summaries are reviewed regularly and updated as\nnew information becomes available. This section describes the latest\nchanges made to this summary as of the date above.\nEditorial changes were made to this summary.\nThis summary is written and maintained by the\nPDQ Integrative, Alternative, and Complementary Therapies Editorial Board\n, which is\neditorially independent of NCI. The summary reflects an independent review of\nthe literature and does not represent a policy statement of NCI or NIH. More\ninformation about summary policies and the role of the PDQ Editorial Boards in\nmaintaining the PDQ summaries can be found on the\nAbout This PDQ Summary\nand\nPDQ® Cancer Information for Health Professionals\npages.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#038",
+   "text": "Purpose of This Summary: This PDQ cancer information summary for health professionals provides comprehensive, peer-reviewed, evidence-based information about the use of laetrile/amygdalin in the treatment of people with cancer. It is intended as a resource to inform and assist clinicians in the care of their patients. It does not provide formal guidelines or recommendations for making health care decisions.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 59
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#039",
+   "text": "Reviewers and Updates: This summary is reviewed regularly and updated as necessary by the\nPDQ Integrative, Alternative, and Complementary Therapies Editorial Board\n, which is editorially independent of the National Cancer Institute (NCI). The summary reflects an independent review of the literature and does not represent a policy statement of NCI or the National Institutes of Health (NIH).\nBoard members review recently published articles each month to determine whether an article should:\nbe discussed at a meeting,\nbe cited with text, or\nreplace or update an existing article that is already cited.\nChanges to the summaries are made through a consensus process in which Board members evaluate the strength of the evidence in the published articles and determine how the article should be included in the summary.\nAny comments or questions about the summary content should be submitted to Cancer.gov through the NCI website's\nEmail Us\n. Do not contact the individual Board Members with questions or comments about the summaries. Board members will not respond to individual inquiries.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 169
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#040",
+   "text": "Levels of Evidence: Some of the reference citations in this summary are accompanied by a level-of-evidence designation. These designations are intended to help readers assess the strength of the evidence supporting the use of specific interventions or approaches. The PDQ Integrative, Alternative, and Complementary Therapies Editorial Board uses a\nformal evidence ranking system\nin developing its level-of-evidence designations.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 58
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#041",
+   "text": "Permission to Use This Summary: PDQ is a registered trademark. Although the content of PDQ documents can be used freely as text, it cannot be identified as an NCI PDQ cancer information summary unless it is presented in its entirety and is regularly updated. However, an author would be permitted to write a sentence such as “NCI’s PDQ cancer information summary about breast cancer prevention states the risks succinctly: [include excerpt from the summary].”\nThe preferred citation for this PDQ summary is:\nPDQ® Integrative, Alternative, and Complementary Therapies Editorial Board. PDQ Laetrile/Amygdalin. Bethesda, MD: National Cancer Institute. Updated <MM/DD/YYYY>. Available at:\nhttps://www.cancer.gov/about-cancer/treatment/cam/hp/laetrile-pdq\n. Accessed <MM/DD/YYYY>. [PMID: 26389425]\nImages in this summary are used with permission of the author(s), artist, and/or publisher for use within the PDQ summaries only. Permission to use images outside the context of PDQ information must be obtained from the owner(s) and cannot be granted by the National Cancer Institute. Information about using the illustrations in this summary, along with many other cancer-related images, is available in\nVisuals Online\n, a collection of over 2,000 scientific images.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 180
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#042",
+   "text": "Disclaimer: The information in these summaries should not be used as a basis for insurance reimbursement determinations. More information on insurance coverage is available on Cancer.gov on the\nManaging Cancer Care\npage.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "nci-pdq-laetrile-pdq#043",
+   "text": "Contact Us: More information about contacting us or receiving help with the Cancer.gov website can be found on our\nContact Us for Help\npage. Questions can also be submitted to Cancer.gov through the website’s\nEmail Us\n.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Laetrile/Amygdalin–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  }
+ ]
+}

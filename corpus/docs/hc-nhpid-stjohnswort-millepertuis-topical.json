@@ -1,0 +1,176 @@
+{
+ "doc_id": "hc-nhpid-stjohnswort-millepertuis-topical",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+ "title_extra": null,
+ "date": "2025-02-28",
+ "revised": "2025-02-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-02-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=stjohnswort.millepertuis.topical&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "stjohnswort.millepertuis.topical"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:acdad69368a0e1b561392c2ba382e136bff62d05a7c81e90cb69ff656ec7956f",
+ "entities": [
+  "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-topical#001",
+   "text": "Dosage Form(s): Acceptable dosage forms when used according to the requirements indicated in this monograph: Cream; Gel; Liquid; Lotion; Oil; Ointment; Solution; Topical liquid.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-topical#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help heal minor wounds (such as cuts and burns) (Bradley 2006; Mills and Bone 2005; Hoffmann 2003; Blumenthal et al. 2000; Felter and Lloyd 1983; Wren 1907).\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., St. John's wort is traditionally used in Herbal Medicine to help heal minor wounds such as cuts and burns).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 151
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-topical#003",
+   "text": "Subpopulation(s): Infants 0-12 months, Children 1-11 years, Adolescents 12-17 years, Adults 18 years and older (Bove 2001).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-topical#004",
+   "text": "Quantity(ies): Method of preparation: Oil, Medicated from fresh plant\n25 - 100% fresh flower extract preparation (i.e., medicated oil) in the finished product (Bradley 2006; Wichtl 2004; Hoffmann 2003; Blumenthal et al. 2000; Maisenbacher and Kovar 1992; Felter and Lloyd 1983; Grieve 1971; DAB 1941; Wren 1907).\nNotes:\nThe extract ratio must be between 1:1 and 1:4 and the solvent used must be a vegetable fixed oil (e.g., olive oil, sunflower oil, etc.). The formulation must be prepared in a way which is equivalent to a quantity of 200 to 250 milligrams crude fresh flowers for 1 gram of finished product. If the oil further diluted into a semi-solid dosage form, the starting oil preparation must be more concentrated in order to achieve a similar ratio in the finished product. For example, for an oil prepared with a 1:2 w/w ratio, the concentration of oil in the finished product must be 50% (250 mg crude fresh flowers * 2 w/w (dilution) = 500 mg medicated oil in 1 g finished product = 50% w/w oil preparation in the finished product).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 180
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-topical#005",
+   "text": "Quantity(ies): On the PLA form, quantities can be expressed as percentage weight by weight (% w/w), percentage weight by volume (% w/v) or percentage volume by volume (% v/v), depending on the product formulation. On the product label, quantities can also be expressed in other equivalent concentration units (e.g., mg/mL).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 50
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-topical#006",
+   "text": "Direction(s) for use: Apply to affected area(s), up to 3 times per day (Bove 2001; Blumenthal et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-topical#007",
+   "text": "Caution(s) and warning(s): For external use only.\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with water.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen or last (for) more than 7 days.\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-topical#008",
+   "text": "Contraindication(s): Do not use on deep or puncture wounds, animal bites or serious burns.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

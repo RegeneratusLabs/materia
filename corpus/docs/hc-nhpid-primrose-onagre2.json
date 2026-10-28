@@ -1,0 +1,85 @@
+{
+ "doc_id": "hc-nhpid-primrose-onagre2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "EVENING PRIMROSE OIL",
+ "title_extra": null,
+ "date": "2026-02-27",
+ "revised": "2026-02-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-02-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=primrose.onagre2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "primrose.onagre2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:49d6c6d1895b91662e3e3ff1de8e7415b1bcfbe3cab09d0134266486c904c543",
+ "entities": [
+  "EVENING PRIMROSE OIL",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-primrose-onagre2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance\nDocument.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product\nLicence Application form for Compendial applications. Although delayed release dosage forms are usually not\nsupported by NNHPD's monographs, this monograph includes ‘Capsule, soft, enteric-coated’ which may be used\nfor products containing fixed oils.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "EVENING PRIMROSE OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 70
+  },
+  {
+   "chunk_id": "hc-nhpid-primrose-onagre2#002",
+   "text": "Use(s) or Purpose(s): Source of essential fatty acids for the maintenance of good health (Brayfield and Cadart 2024; IOM\n2006).\nSource of omega-6 fatty acids for the maintenance of good health (IOM 2006; Mills and\nBone 2005; WHO 2002).\nSource of linoleic acid (LA) for the maintenance of good health (IOM 2006; Mills and Bone\n2005; WHO 2002).\nNote: The above uses can be combined on the product label (e.g., Source of omega-6 fatty\nacids, including linoleic acid, for the maintenance of good health).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "EVENING PRIMROSE OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 84
+  },
+  {
+   "chunk_id": "hc-nhpid-primrose-onagre2#003",
+   "text": "Quantity(ies): Method of preparation: Non-standardized fixed oil\n1.3-6 grams of evening primrose oil, per day (Brayfield and Cadart 2024; IOM 2006; Mills and Bone\n2005; WHO 2002; Keen et al. 1993).\nMethod of preparation: Standardized fixed oil\n1.3-6 grams of evening primrose oil, per day (Brayfield and Cadart 2024; IOM 2006; Mills and Bone\n2005; WHO 2002; Keen et al. 1993) standardized to:\n7-14% gamma-linolenic/gamolenic acid (GLA), and/or\n65-85% linoleic acid (LA).\nNote: The following potency information is considered as additional information and can be\nincluded on the label: XX% total omega-6 fatty acids",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "EVENING PRIMROSE OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 94
+  }
+ ]
+}

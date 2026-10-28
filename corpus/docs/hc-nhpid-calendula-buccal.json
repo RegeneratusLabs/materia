@@ -1,0 +1,176 @@
+{
+ "doc_id": "hc-nhpid-calendula-buccal",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+ "title_extra": null,
+ "date": "2025-03-28",
+ "revised": "2025-03-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-03-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=calendula.buccal&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "calendula.buccal"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:dec6ea47079fa6040767bcba6ecd8c059bad75f1bf6f110d927dff94008befae",
+ "entities": [
+  "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-calendula-buccal#001",
+   "text": "Dosage Form(s): Acceptable dosage forms when used according to the requirements indicated in this monograph: Gargle; Loose; Mouthwash; Powder (EMA 2018; Bradley 2006).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-buccal#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve minor mucous membrane inflammations of the mouth and throat (Bradley 2006; Blumenthal et al. 2000; Saunders 2000; Felter and Lloyd 1983).\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Calendula is traditionally used in Herbal Medicine to help relieve minor mucous membrane inflammations of the mouth and throat).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 147
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-buccal#003",
+   "text": "Subpopulation(s): Adolescents 12-17 years, Adults 18 years and older (EMA 2018).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-buccal#004",
+   "text": "Quantity(ies): Note: On the PLA form, quantities can be expressed as percentage weight by weight (% w/w), percentage weight by volume (% w/v) or percentage volume by volume (% v/v), depending on the product formulation. On the product label, quantities can also be expressed in other equivalent concentration units (e.g., mg/mL).\nLoose/Powder dosage forms\nMethods of preparation: Dry, Powdered\n100% dried flowers (EMA 2018; Bradley 2006; Saunders 2000; Felter and Lloyd 1898).\nNote: Powdered and dried flowers must be prepared as an infusion by the consumer prior to use (see direction for use) and must provide an equivalent of 8 to 16 milligrams dried flowers per 1 milliliter of finished product (EMA 2018).\nGargle/Mouthwash dosage forms\nMethods of preparation: Non-Standardized Liquid Extracts (Decoction, Decoction concentrate, Fluid extract, Infusion, Infusion concentrate, Tincture)\n2 - 100% of dried flower extract preparation in the finished product (Bradley 2006; Saunders 2000).\nNotes:",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 148
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-buccal#005",
+   "text": "Quantity(ies): The extract ratio must be between 1:1 (fluid extract) and 1:75. The formulation must be prepared in a way which is equivalent to a quantity of 8 to 16 milligrams crude dried flowers per 1 milliliter finished product. For example, for an infusion prepared with a 1:50 w/v ratio, the concentration of infusion in the finished product must be between 40 and 80% (8 - 16 mg crude dried flowers * 50 w/v (dilution) = 0.4 - 0.8 mL liquid extract in 1 mL finished product = 40 - 80% v/v extract preparation in the finished product). For a tincture prepared with a 1:5 w/w ratio, the concentration of tincture in the finished product must be between 4 and 8% (8 - 16 mg crude dried flowers * 5 w/w (dilution) = 40 - 80 mg liquid extract in 1 mL finished product = 4 - 8% w/v extract preparation in the finished product).\nFor fluid extracts, the extract ratio must be 1:1 and the solvent must be ethanol or a mix of ethanol and water.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 177
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-buccal#006",
+   "text": "Direction(s) for use: Loose/Powder dosage forms\nPlace [insert volume to be measured by consumer in order to obtain 1 to 2 grams dried flowers, e.g., ½ teaspoon] of product in ½ cup (125 mL) of boiling water, infuse for 10 minutes and strain. Let cool. Use 1 tablespoon (15 mL) as a mouthwash/gargle, up to 4 times per day (EMA 2018; Keukenmeester et al. 2012; Saunders 2000).\nDo not swallow (EMA 2018).\nGargle/Mouthwash dosage forms\nUse 1 tablespoon (15 mL) as a mouthwash/gargle, up to 4 times per day (EMA 2018; Keukenmeester et al. 2012; Saunders 2000).\nDo not swallow (EMA 2018).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-buccal#007",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (EMA 2018).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen or last (for) more than 7 days (EMA 2018).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 46
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-buccal#008",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (Brinker 2010; Mills and Bone 2005).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

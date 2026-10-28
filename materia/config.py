@@ -31,7 +31,7 @@ OCR_PORT = int(os.environ.get("MATERIA_OCR_PORT", "18499"))
 REASON_CTX = int(os.environ.get("MATERIA_REASON_CTX", "4096"))
 REASON_PARALLEL = int(os.environ.get("MATERIA_REASON_PARALLEL", "2"))
 THREADS = int(os.environ.get("MATERIA_THREADS", "6"))
-OCR_CTX = int(os.environ.get("MATERIA_OCR_CTX", "8192"))
+OCR_CTX = int(os.environ.get("MATERIA_OCR_CTX", "16384"))
 
 RSS_LIMIT_MB = float(os.environ.get("MATERIA_RSS_LIMIT_MB", "3500"))
 LOGS_DIR = ROOT / "logs"

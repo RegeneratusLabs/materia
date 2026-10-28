@@ -1,0 +1,208 @@
+{
+ "doc_id": "nccih-lavender",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Lavender",
+ "title_extra": null,
+ "date": "2025-02-01",
+ "revised": "2025-02-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-08-01",
+ "url": "https://www.nccih.nih.gov/health/lavender",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/lavender"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:721719c1cfc27879cff7842122db4ebcf2361f57b4a30e210fe8f52538dec6bf",
+ "entities": [
+  "Lavender"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-lavender#001",
+   "text": "Lavender\n© Steven Foster\nCommon Names:\nlavender,\nEnglish lavender,\ncommon lavender,\nFrench lavender\nLatin Names:\nLavandula angustifolia",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "nccih-lavender#002",
+   "text": "Background: Lavender is an aromatic, evergreen plant that is native to the Mediterranean region, including the countries of France, Spain, Andorra, and Italy.\nThe name lavender comes from the Latin verb “lavare,” meaning “to wash.” Lavender’s popular scent has commonly been used as an ingredient in bath products, perfumes, and aromatherapy.\nLavender is promoted as an oral (by mouth) dietary supplement for calming anxiety, stress, and other conditions. It is also promoted for aromatherapy and topical use (application to the skin).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 81
+  },
+  {
+   "chunk_id": "nccih-lavender#003",
+   "text": "How Much Do We Know?: Studies have been done on the use of lavender products for a variety of conditions, but more high-quality research is needed to reach reliable conclusions about its effectiveness.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "nccih-lavender#004",
+   "text": "What Have We Learned?: Studies have suggested that a lavender oil product, taken orally, might be beneficial for anxiety, including anxiety with co-occurring symptoms of depression. However, the research has several limitations, such as the small sample sizes of the studies, a lack of independent funding and testing, and a lack of participant diversity.\nInitial reports of small sample size have indicated that oral lavender capsules or lavender tea might reduce symptoms of depression in some people, but because the research is preliminary, it should be interpreted with caution. Topical (on the skin) lavender does not seem to have an effect on symptoms of depression.\nOne preliminary study with seventy-two postmenopausal women aged 50-65 years suggested that a lavender oil product, taken orally, might offer some relief for menopause-related sexual dysfunction, but more reliable evidence is needed to confirm effects.\nIt’s unclear whether aromatherapy with lavender oil has benefits for anxiety, stress, symptoms of depression, some types of pain, sleep quality or insomnia, or other conditions. However, some people have reported feeling a sense of improved quality of life from aromatherapy with lavender oil.\nOne preliminary study suggested that lavender syrup might reduce cough severity in people with COVID-19; however, more reliable evidence is needed to confirm any effects.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 209
+  },
+  {
+   "chunk_id": "nccih-lavender#005",
+   "text": "What Do We Know About Safety?: It is likely safe to consume lavender in the amounts typically used in foods.\nOral lavender products might be safe in the short-term and in the amounts tested in studies of anxiety or other conditions. However, some people may experience adverse effects such as diarrhea, headache, nausea, or burping.\nAromatherapy with lavender oil is considered possibly safe, but it may cause headache or coughing.\nTopical products containing lavender may cause allergic skin reactions in some people. A few cases of swelling of breast tissue have been reported in children who used topical products containing lavender. However, it’s unclear whether the lavender was responsible for the breast swelling, a condition that can have many causes.\nThere are theoretical reasons to suspect that lavender might interact with some sedative drugs or herbs, which is especially important if you have an upcoming surgical procedure. If you take any type of medicine, talk with your health care provider before using lavender or other herbal products; some herbs and medicines interact in harmful ways.\nLittle is known about whether it’s safe to use lavender during pregnancy or while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children",
+    "surgery",
+    "sedation"
+   ],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 190
+  },
+  {
+   "chunk_id": "nccih-lavender#006",
+   "text": "Keep in Mind: Depression can be a serious illness. If you or someone in your family may have depression, consult a health care provider.\nTake charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The rules for making and distributing dietary supplements are less strict than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 182
+  },
+  {
+   "chunk_id": "nccih-lavender#007",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-lavender#008",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-lavender#009",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-lavender#010",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-lavender#011",
+   "text": "Key References: Araj-Khodaei M, Noorbala AA, Yarani R, et al.\nA double-blind, randomized pilot study for comparison of\nMelissa officinalis\nL. and\nLavandula angustifolia\nMill. with fluoxetine for the treatment of depression\n.\nBMC Complementary Medicine and Therapies.\n2020;20(1):207.\nBartova L, Dold M, Volz H-P, et al.\nBeneficial effects of Silexan on co-occurring depressive symptoms in patients with subthreshold anxiety and anxiety disorders: randomized, placebo-controlled trial revisited\n.\nEuropean Archives of Psychiatry and Clinical Neuroscience\n. 2023;273(1):51-63.\nDold M, Möller H-J, Volz H-P, et al.\nBaseline symptom severity and efficacy of Silexan in patients with anxiety disorders: a symptom-based, patient-level analysis of randomized, placebo-controlled trials\n.\nEuropean Psychiatry.\n2024;67(1):e23.\nDonelli D, Antonelli M, Bellinazzi C, et al.\nEffects of lavender on anxiety: a systematic review and meta-analysis\n.\nPhytomedicine.\n2019;65:153099.\nFiroozeei TS, Feizi A, Rezaeizadeh H, et al.\nThe antidepressant effects of lavender (\nLavandula angustifolia\nMill.): a systematic review and meta-analysis of randomized controlled clinical trials\n.\nComplementary Therapies in Medicine.\n2021;59:102679.\nHaramshahi M, Babaie S, Shahnazi M, et al.\nThe efficacy of oral\nLavandula angustifolia\nMill. essential oil on menopausal symptoms, serum lipid profile, and cortisol concentration in postmenopausal women: a triple-blind, randomized, controlled trial\n.\nComplementary Therapies in Medicine.\n2024;82:103050.\nHawkins J, Hires C, Dunne E, et al.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 211
+  },
+  {
+   "chunk_id": "nccih-lavender#012",
+   "text": "Key References: The relationship between lavender and tea tree essential oils and pediatric endocrine disorders: a systematic review of the literature\n.\nComplementary Therapies in Medicine.\n2020;49:102288.\nKulakaç N, Sayılan AA.\nEffect of lavender oil on preoperative anxiety: systemic review and meta-analysis\n.\nJournal of PeriAnesthesia Nursing.\n2024;39(2):218-225.\nLavender. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on June 1, 2024. [Database subscription].\nLucena L, Santos-Junior JG, Tufik S, et al.\nEffect of a lavender essential oil and sleep hygiene protocol on insomnia in postmenopausal women: a pilot randomized clinical trial\n.\nExplore (NY).\n2024;20(1):116-125.\nNasiri Lari Z, Hajimonfarednejad M, Riasatian M, et al.\nEfficacy of inhaled\nLavandula angustifolia\nMill. essential oil on sleep quality, quality of life and metabolic control in patients with diabetes mellitus type II and insomnia\n.\nJournal of Ethnopharmacology\n. 2020;251:112560.\nQaraaty M, Bahrami M, Azimi S-A, et al.\nLavender\n(Lavandula angustifolia)\nsyrup as an adjunct to standard care in patients with mild to moderate COVID-19: an open-label, randomized, controlled clinical trial\n.\nAvicenna Journal of Phytomedicine.\n2023;13(4):400-411.\nYap WS, Dolzhenko AV, Jalal Z, et al.\nEfficacy and safety of lavender essential oil (Silexan) capsules among patients suffering from anxiety disorders: a network meta-analysis\n.\nScientific Reports.\n2019;9(1):18042.\nYou J, Shin YK, Seol GH.\nAlleviating effect of lavender\n(Lavandula angustifolia)",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "children",
+    "surgery",
+    "diabetes"
+   ],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "nccih-lavender#013",
+   "text": "Key References: and its major components on postherpetic pain: a randomized blinded controlled trial\n.\nBMC Complementary Medicine and Therapies.\n2024;24(1):54.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Lavender"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 94
+  }
+ ]
+}

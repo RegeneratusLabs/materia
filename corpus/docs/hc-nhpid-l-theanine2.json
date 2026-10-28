@@ -1,0 +1,85 @@
+{
+ "doc_id": "hc-nhpid-l-theanine2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "L-THEANINE",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=l.theanine2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "l.theanine2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:f9ff70058350767b48733f80289227cac4e4441945976961b75e100902d20e03",
+ "entities": [
+  "L-THEANINE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-l-theanine2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "L-THEANINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-l-theanine2#002",
+   "text": "Use(s) or Purpose(s): Helps (to) temporarily promote relaxation (Nobre et al. 2008; Kimura et al. 2007; Lu et al. 2004).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "L-THEANINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-l-theanine2#003",
+   "text": "Quantity(ies): 200 - 250 milligrams of L-Theanine, per day (Kimura et al. 2007; Lu et al. 2004; Song et al. 2002; Kobayashi et al. 1998).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "L-THEANINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  }
+ ]
+}

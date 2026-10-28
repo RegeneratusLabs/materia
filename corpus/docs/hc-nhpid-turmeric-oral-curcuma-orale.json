@@ -1,0 +1,163 @@
+{
+ "doc_id": "hc-nhpid-turmeric-oral-curcuma-orale",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "TURMERIC - CURCUMA LONGA - Oral",
+ "title_extra": null,
+ "date": "2025-09-26",
+ "revised": "2025-09-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-09-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=turmeric.oral.curcuma.orale&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "turmeric.oral.curcuma.orale"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:f9574b9b0bc305ca8c070e7406ac5a7bc3a753ae7791aceb2de405a7ac1e3d37",
+ "entities": [
+  "TURMERIC - CURCUMA LONGA - Oral",
+  "Proper name",
+  "Common name",
+  "Source material",
+  "Curcuma longa"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-turmeric-oral-curcuma-orale#001",
+   "text": "Route of administration: Oral (ESCOP 2003; Blumenthal et al. 2000)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "TURMERIC - CURCUMA LONGA - Oral",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Curcuma longa"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "hc-nhpid-turmeric-oral-curcuma-orale#002",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs\nGuidance\nDocument.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based\nProduct\nLicence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "TURMERIC - CURCUMA LONGA - Oral",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Curcuma longa"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-turmeric-oral-curcuma-orale#003",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (ESCOP 2003; Blumenthal et al. 2000; Mills and Bone\n2000).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the\noxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (ESCOP 2003;\nBlumenthal et al. 2000; Mills and Bone 2000).\nUsed in Herbal Medicine to aid digestion (ESCOP 2003; Williamson 2003; Blumenthal et al. 2000; Mills\nand\nBone 2000).\n(Traditionally) used in Herbal Medicine to help relieve flatulent dyspepsia (carminative) (Mills and\nBone 2005; Blumenthal et al. 2000; Wren 1907).\nUsed in Herbal Medicine as a hepatoprotectant/liver protectant (Boon and Smith 2004; Williamson\n2003).\nUsed in Herbal Medicine to increase bile excretion by the liver (choleretic) and stimulate\ncontraction\nof the gallbladder (cholagogue) (Mills and Bone 2005; Boon and Smith 2004; Wichtl 2004; Blumenthal\net\nal. 2000; Mills and Bone 2000).\n(Traditionally) used in Herbal Medicine (as an anti-inflammatory) to help relieve joint pain (Winston and Kuhn 2008;\nBlumenthal et\nal. 2000; WHO 1999).\nUsed in Traditional Chinese Medicine (TCM) to eliminate blood stasis, promote the flow of qi,\nrelieve\npain of menstruation due to blood stasis (PPRC 2015; Bensky et al. 2004).\nNotes:\nThe above claims can be combined on the product label if from the same traditional or\nnon-traditional",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "liver",
+    "traditional"
+   ],
+   "entities": [
+    "TURMERIC - CURCUMA LONGA - Oral",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Curcuma longa"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 210
+  },
+  {
+   "chunk_id": "hc-nhpid-turmeric-oral-curcuma-orale#004",
+   "text": "Use(s) or Purpose(s): system of medicine (e.g. Used in Herbal Medicine to help relieve flatulent dyspepsia (carminative)\nand\nto help relieve joint pain).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine,\" any indicated\ntraditional use claim must refer to the specific medicinal ingredient(s) and recognized\ntraditional system of medicine from which the claim originates when 1) both traditional and\nmodern claims are present or 2) when claims originate from multiple systems of traditional\nmedicine (e.g. Turmeric is traditionally used in Herbal Medicine to help relieve flatulent\ndyspepsia (carminative)).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME\nidentified\nsystem of traditional medicine AND the product makes ONLY traditional claims, listing of MIs\nin\nthe traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "TURMERIC - CURCUMA LONGA - Oral",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Curcuma longa"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 131
+  },
+  {
+   "chunk_id": "hc-nhpid-turmeric-oral-curcuma-orale#005",
+   "text": "Quantity(ies): Note: ‘decoction’ or ‘infusion’ is listed as an acceptable method of preparation,\n‘decoction concentrate’ or ‘infusion concentrate’ is also allowed. This would also apply to standardized\nmethods of preparations.\nAntioxidant\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Infusion)\nNot to exceed 9 grams of dried rhizome, per day; For dry extracts, maximum ratio is 10:1 (ESCOP 2003;\nWilliamson 2003; Blumenthal et al. 2000).\n*Note: Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry\nextract)” as part of this monograph are ethanol and/or water only.\nMethods of preparation: Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\nExtract providing up to 35% Curcuminoids; Quantity crude equivalent: not to exceed 9 grams of dried\nrhizome,\nper day (Meng et al. 2018; Bagchi 2012; Li et al. 2011; ESCOP 2003; Williamson 2003; Blumenthal et al. 2000).\nNote: Optional: The potency constituent, curcumin, can be included.\nDigestive aid; Relief of flatulent dyspepsia; Hepatoprotectant; Bile excretion; Joint pain\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Infusion)\n1 - 9 grams of dried rhizome, per day; For dry extracts, maximum ratio is 10:1 (Mills and Bone 2005;\nWichtl\n2004; ESCOP 2003; Williamson 2003; Blumenthal et al. 2000).\n*Note: Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "TURMERIC - CURCUMA LONGA - Oral",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Curcuma longa"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-turmeric-oral-curcuma-orale#006",
+   "text": "Quantity(ies): extract)” as part of this monograph are ethanol and/or water only.\nMethods of preparation: Standardized Extracts (Dry extract, Tincture, Fluid extract,\nDecoction, Infusion)\nExtract providing up to 35% Curcuminoids; Quantity crude equivalent: 1-9 grams of dried rhizome, per day\n(Meng et al. 2018; Bagchi 2012; Li et al. 2011; Mills and Bone 2005; Wichtl 2004; ESCOP 2003; Williamson 2003; Blumenthal et al. 2000).\nNote: Optional: The potency constituent, curcumin, can be included.\nTCM\nMethods of preparation: Decoction, Decoction concentrate\n3 - 9 grams of dried rhizome, per day; For dry extracts, maximum ratio is 10:1 (PPRC 2020; Bensky et al. 2004).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "TURMERIC - CURCUMA LONGA - Oral",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Curcuma longa"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "hc-nhpid-turmeric-oral-curcuma-orale#007",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (ESCOP 2003; Brinker 2001; McGuffin et al. 1997).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a liver or biliary disorder (HC 2025; EMA 2018; Brinker 2010; ESCOP 2003; McGuffin et al. 1997).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications (HC 2025).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience any new symptoms including yellowing of the eyes or skin, dark urine, nausea, vomiting, stomach pain (HC 2025).\nAll uses except for Source of antioxidants and Hepatoprotectant\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms\npersist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "liver"
+   ],
+   "entities": [
+    "TURMERIC - CURCUMA LONGA - Oral",
+    "Proper name",
+    "Common name",
+    "Source material",
+    "Curcuma longa"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 135
+  }
+ ]
+}

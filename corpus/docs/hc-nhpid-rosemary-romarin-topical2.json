@@ -1,0 +1,141 @@
+{
+ "doc_id": "hc-nhpid-rosemary-romarin-topical2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ROSEMARY - ROSMARINUS OFFICINALIS Topical",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=rosemary.romarin.topical2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "rosemary.romarin.topical2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:ab07dbfa4d7a31993f226b38e0b4549f20f5141534312b937b8ed9d239255642",
+ "entities": [
+  "ROSEMARY - ROSMARINUS OFFICINALIS Topical",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-topical2#001",
+   "text": "Dosage form(s): Acceptable dosage forms when used according to the requirements indicated in this monograph: Liquid; Loose; Solution; Topical liquid.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ROSEMARY - ROSMARINUS OFFICINALIS Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-topical2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine as supportive therapy to help relieve muscle and joint pain associated with rheumatism (Barnes et al. 2007; Bradley 2006; Wichtl 2004; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000).\n(Traditionally) used in Herbal Medicine to help support peripheral circulation (Wichtl 2004; ESCOP 2003; Blumenthal et al. 2000).\n(Traditionally) used in Herbal Medicine as a mild antiseptic (ESCOP 2003; Williamson et al. 1988).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine as a mild antiseptic and to help support peripheral circulation).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Rosemary is traditional used in Herbal Medicine as a mild antiseptic).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ROSEMARY - ROSMARINUS OFFICINALIS Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-topical2#003",
+   "text": "Quantity(ies): Loose dosage form\nMethod of preparation: Dry\n100% dried leaf, per day (Wichtl 2004; ESCOP 2003; Blumenthal et al. 2000).\nNote: Dried leaves must be prepared as a decoction by the consumer prior to use (see direction for use).\nLiquid; Solution; Topical liquid dosage forms\nMethods of preparation: Decoction, Decoction concentrate\n5 – 100% dried leaf extract preparation in the finished product (Wichtl 2004; ESCOP 2003; Blumenthal et al. 2000).\nNote: The extract ratio must be between 1:1 to 1:20. The formulation must be prepared in a way which is equivalent to a quantity of 50 milligrams crude dried leaves for 1 milliliter of finished product. For example, for a decoction prepared with a 1:10 w/w ratio, the concentration of extract preparation in the final product must be 50% (50 mg crude dried leaves * 10 fold dilution w/w = 500 mg liquid extract in 1 mL finished product = 50% w/v extract preparation in the finished product).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ROSEMARY - ROSMARINUS OFFICINALIS Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 159
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-topical2#004",
+   "text": "Direction(s) for use: Dried leaf (loose dosage form)\nPlace dried leaves in 1 liter of cold water. Bring to a boil and simmer for 5-10 minutes. Let stand covered for 15 to 30 minutes and strain (Wichtl 2004; ESCOP 2003; Blumenthal et al. 2000).\nAll products\nAdd to one full bath once daily, as needed (Wichtl 2004; ESCOP 2003; Blumenthal et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ROSEMARY - ROSMARINUS OFFICINALIS Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-topical2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Gardner and McGuffin 2013; Brinker 2010; Barnes et al. 2007; Blumenthal et al. 2000).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have large open wounds, skin lesions, feverish conditions, acute inflammation, severe circulatory disorders or hypertension (ESCOP 2003).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension"
+   ],
+   "entities": [
+    "ROSEMARY - ROSMARINUS OFFICINALIS Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 78
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-topical2#006",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (Barnes et al. 2007; ESCOP 2003).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ROSEMARY - ROSMARINUS OFFICINALIS Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "doc_id": "hc-nhpid-garlic-ail",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Garlic - Allium sativum",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=garlic_ail&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "garlic_ail"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:88eb242a009c93ebb4337756bd457e3389710ed5f880793dea65f68037348a3f",
+ "entities": [
+  "Garlic - Allium sativum",
+  "Garlic dried bulb",
+  "Proper name",
+  "Common name",
+  "Source information"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-garlic-ail#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 2 years: The acceptable dosage forms are limited to emulsion/suspension and solution/ liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years: The acceptable dosage forms are limited to chewables, emulsion/ suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: The acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications. Although delayed release dosage forms are usually not supported by the NNHPD's monographs, this monograph includes the following dosage forms commonly used for garlic products: Capsule, enteric-coated; Capsule, soft, enteric-coated; Capsule, enteric-coated pellets; Granule enteric-coated; Tablet, enteric-coated; Tablets, enteric-coated granules.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Garlic - Allium sativum",
+    "Garlic dried bulb",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 146
+  },
+  {
+   "chunk_id": "hc-nhpid-garlic-ail#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve the symptoms associated with upper respiratory tract infections and catarrhal conditions (such as nasal congestion/buildup of excess mucus) (Mills and Bone 2005; ESCOP 2003; Bradley 1992; Felter and Lloyd 1983).\nUsed in Herbal Medicine to help reduce elevated blood lipid levels (hyperlipidemia) in adults (Kojuri et al. 2007; Macan et al. 2006; Mills and Bone 2005; ESCOP 2003; Kannar et al. 2001; Blumenthal et al. 2000; Bradley 1992).\nUsed in Herbal Medicine to help maintain cardiovascular health in adults (Kojuri et al. 2007; Macan et al. 2006; Mills and Bone 2005; ESCOP 2003; Kannar et al. 2001; Blumenthal et al. 2000; Bradley 1992).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Used in Herbal Medicine to help reduce elevated blood lipid levels and to help maintain cardiovascular health in adults).\nFor multi-ingredient products:",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Garlic - Allium sativum",
+    "Garlic dried bulb",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 158
+  },
+  {
+   "chunk_id": "hc-nhpid-garlic-ail#003",
+   "text": "Use(s) or Purpose(s): To prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Garlic is traditionally used in Herbal Medicine to help relieve the symptoms associated with upper respiratory tract infections and catarrhal conditions).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Garlic - Allium sativum",
+    "Garlic dried bulb",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "hc-nhpid-garlic-ail#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nTable 3. Dose information for garlic dried bulb presented as dose (grams) per day\nSubpopulation(s) 1 , 2\nGarlic dried bulb (g/day)\nMinimum\nMaximum\nChildren\n2-4 years\n0.08 g\n2 g\n5-9 years\n0.1 g\n3 g\n10-11 years\n0.2 g\n6 g\nAdolescents\n12-14 years\n0.2 g\n6 g\n15-17 years\n0.5 g\n12 g\nAdults\n18 years and older\n0.5 g\n12 g\n1 Children and adolescent doses were calculated as a proportion of the adult dose (JC 2008). The use of garlic in children is supported by the following references: McIntyre 2005; Bove 2001; Schilcher 1997.\n2 Adult dose supported by the following references: Kojuri et al. 2007; Mills and Bone 2005; ESCOP 2003; Kannar et al. 2001; Blumenthal et al. 2000; Bradley 1992.\n*Note: Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry extract)” as part of this monograph are ethanol and/or water only.\nMethods of preparation: Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nTable 4. Dose information for allicin and alliin presented as dose (milligrams) per day. Extracts should be standardized to allicin and/or alliin.\nSubpopulation(s) 1 , 2\nMinimum (mg/day)\nMaximum (mg/day)\nAllicin\nAlliin\nAllicin\nAlliin\nChildren\n2-4 years",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Garlic - Allium sativum",
+    "Garlic dried bulb",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-garlic-ail#005",
+   "text": "Quantity(ies): 0.17 mg\n0.3 mg\n2 mg\n4.5 mg\n5-9 years\n0.25 mg\n0.5 mg\n3 mg\n7 mg\n10-11 years\n0.5 mg\n1 mg\n6 mg\n14 mg\nAdolescents\n12-14 years\n0.5 mg\n1 mg\n6 mg\n14 mg\n15-17 years\n1 mg\n2 mg\n12 mg\n27 mg\nAdults\n18 years and older\n1 mg\n2 mg\n12 mg\n27 mg\n1 Children and adolescent doses were calculated as a proportion of the adult dose (JC 2008). The use of garlic in children is supported by the following references: McIntyre 2005; Bove 2001; Schilcher 1997.\n2 Adult dose for allicin supported by the following references: Kojuri et al. 2007; Mills and Bone 2005; ESCOP 2003; Kannar et al. 2001; Bradley 1992. Adult dose for alliin calculated based on the conversion ratio of 0.45 mg allicin: 1 mg alliin (ESCOP 2003).\nMethod of preparation: Oil, Essential (water steam distillation)\nTable 5. Dose information for garlic essential oil presented as dose (milligrams) per day\nSubpopulation(s)\nGarlic essential oil (mg/day)\nMinimum\nMaximum\nAdults 1\n18 years and older\n2 mg\n5 mg\n1 Adult dose supported by the following reference: Bradley 1992.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Garlic - Allium sativum",
+    "Garlic dried bulb",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 191
+  },
+  {
+   "chunk_id": "hc-nhpid-garlic-ail#006",
+   "text": "Caution(s) and warning(s): Relief of upper respiratory tract infections and catarrhal (nasal congestion) conditions\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAll uses\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners or protease inhibitors (Brinker 2010; Mills and Bone 2005).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant (Brinker 2010; Mills and Bone 2005).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes (Brinker 2010; Mills and Bone 2005).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes"
+   ],
+   "entities": [
+    "Garlic - Allium sativum",
+    "Garlic dried bulb",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "hc-nhpid-garlic-ail#007",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (Brinker 2010; Mills and Bone 2005).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Garlic - Allium sativum",
+    "Garlic dried bulb",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

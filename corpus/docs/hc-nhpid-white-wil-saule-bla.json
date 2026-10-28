@@ -1,0 +1,155 @@
+{
+ "doc_id": "hc-nhpid-white-wil-saule-bla",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "WILLOW BARK",
+ "title_extra": null,
+ "date": "2024-03-28",
+ "revised": "2024-03-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-03-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=white.wil.saule.bla&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "white.wil.saule.bla"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:be04db49dcb58550c8c773ed1bbd5ab4da9e9060cdbbb40af622a515780d5df7",
+ "entities": [
+  "WILLOW BARK",
+  "Proper name",
+  "Source information",
+  "Source material",
+  "Salix alba"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-white-wil-saule-bla#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "WILLOW BARK",
+    "Proper name",
+    "Source information",
+    "Source material",
+    "Salix alba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-white-wil-saule-bla#002",
+   "text": "Use(s) or Purpose(s): Used in Herbal Medicine for short-term relief of lower back pain (EMA 2017).\nUsed in Herbal Medicine to relieve minor joint pain (due to osteoarthritis) (EMA 2017, ESCOP 2003).\nUsed in Herbal Medicine to relieve fever associated with the common cold (EMA 2017).\nUsed in Herbal Medicine to relieve headache (EMA 2017).\nNotes: The above uses can be combined on the product label (e.g., Used in Herbal Medicine to help relieve fever associated with the common cold and headache).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "WILLOW BARK",
+    "Proper name",
+    "Source information",
+    "Source material",
+    "Salix alba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "hc-nhpid-white-wil-saule-bla#003",
+   "text": "Quantity(ies): Note: When ‘decoction’ or ‘infusion’ is listed as an acceptable method of preparation, ‘decoction concentrate’ or ‘infusion concentrate’ is also allowed. It also applies to standardized methods of preparation.\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n3- 9 grams of dried (young branch) bark per day in divided doses: Not to exceed 3 grams per single dose (EMA 2017; ESCOP 2003; Barnes et al. 2002; Blumenthal et al. 2000)\nMethods of preparation: Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\nExtract providing up to 15% total salicin equivalent to 45 - 240 milligrams of total salicin per day in divided doses; Not to exceed 120 milligrams of salicin per single dose (EMA 2017; WHO 2009; Wichtl 2004; ESCOP 2003; Barnes et al. 2002; Blumenthal et al. 2000)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "WILLOW BARK",
+    "Proper name",
+    "Source information",
+    "Source material",
+    "Salix alba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 136
+  },
+  {
+   "chunk_id": "hc-nhpid-white-wil-saule-bla#004",
+   "text": "Duration(s) of use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 6 weeks (Beer and Wegener 2008; Biegert et al. 2004).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "WILLOW BARK",
+    "Proper name",
+    "Source information",
+    "Source material",
+    "Salix alba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  },
+  {
+   "chunk_id": "hc-nhpid-white-wil-saule-bla#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have asthma or peptic ulcer disease (EMA 2017).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners or products containing salicylates (e.g., acetylsalicylic acid or non-steroidal anti-inflammatory drugs) (EMA 2017).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "WILLOW BARK",
+    "Proper name",
+    "Source information",
+    "Source material",
+    "Salix alba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "hc-nhpid-white-wil-saule-bla#006",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (EMA 2017; Brinker 2010; Wichtl 2004; ESCOP 2003; Barnes et al. 2002; Blumenthal et al. 2000).\nDo not use if you are allergic to salicylates (EMA 2017; Brinker 2010; Wichtl 2004, ESCOP 2003; Barnes et al. 2002; Blumenthal et al. 2000).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "WILLOW BARK",
+    "Proper name",
+    "Source information",
+    "Source material",
+    "Salix alba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 51
+  },
+  {
+   "chunk_id": "hc-nhpid-white-wil-saule-bla#007",
+   "text": "Known adverse reaction(s): When using this product you may experience gastrointestinal discomfort/disturbances (EMA 2017; Brinker 2010; Wichtl 2004; ESCOP 2003; Barnes et al. 2002; Blumenthal et al. 2000)",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "WILLOW BARK",
+    "Proper name",
+    "Source information",
+    "Source material",
+    "Salix alba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  }
+ ]
+}

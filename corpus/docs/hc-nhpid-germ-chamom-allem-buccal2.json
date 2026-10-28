@@ -1,0 +1,189 @@
+{
+ "doc_id": "hc-nhpid-germ-chamom-allem-buccal2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=germ_chamom_allem_buccal2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "germ_chamom_allem_buccal2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:8f401f9d294ec7f1d94ef081d0e16617f65c181e3b3001680bad047b845c8561",
+ "entities": [
+  "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-germ-chamom-allem-buccal2#001",
+   "text": "Route of administration: Buccal (ESCOP 2003; Blumenthal et al. 2000; Bradley 1992)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-germ-chamom-allem-buccal2#002",
+   "text": "Dosage form(s): Acceptable dosage forms when used according to the requirements indicated in this monograph: Gargle; Loose; Mouthwash; Powder",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-germ-chamom-allem-buccal2#003",
+   "text": "Use(s) or Purpose(s): Used in Herbal Medicine to help relieve minor inflammation and/or irritation of the mucous membranes of the mouth and/or throat (ESCOP 2003; Bradley 1992; Blumenthal et al. 2000).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "hc-nhpid-germ-chamom-allem-buccal2#004",
+   "text": "Subpopulation(s): Children 6-11 years; Adolescents 12-17 years; Adults 18 years and older (Bove 2001; Schilcher 1997)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-germ-chamom-allem-buccal2#005",
+   "text": "Quantity(ies): Note: On the PLA form, quantities can be expressed as percentage weight by volume (% w/v) or percentage volume by volume (% v/v), depending on the product formulation. On the product label, quantities can also be expressed in other equivalent concentration units (e.g., mg/mL).\nLoose/Powder dosage forms\nMethods of preparation: Dry, Powdered\n100% dried flowers (Mills et Bone 2005; ESCOP 2003; Blumenthal et al. 2000; OMS 1999; Bradley 1992).\nNote: Powdered and dried flowers must be prepared as an infusion or decoction by the consumer prior to use (see direction for use) and must provide an equivalent of 3 to 10 grams dried flowers per 100 milliliters of finished product (Mills and Bone 2005; ESCOP 2003; Blumenthal et al. 2000; WHO 1999; Bradley 1992).\nMethods of preparation: Non-Standardized Aqueous Liquid Extracts (Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n3 - 100% w/v of dried flower extract preparation in the finished product (Mills and Bone 2005; ESCOP 2003; Blumenthal et al. 2000; WHO 1999; Bradley 1992).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 165
+  },
+  {
+   "chunk_id": "hc-nhpid-germ-chamom-allem-buccal2#006",
+   "text": "Quantity(ies): Note: The extract ratio must be between 1:1 and 1:33. The formulation must be prepared in a way which is equivalent to a quantity of 3 to 10 grams crude dried flowers per 100 milliliters of finished product. For example, for an infusion prepared with a 1:10 w/w ratio, the concentration of infusion in the final formulation must be 30 to 100% (3 - 10 g crude dried flowers * 10 w/w (dilution) = 30 - 100 g liquid extract in 100 mL finished product = 30 - 100% w/v extract preparation in the finished product).\nMethod of preparation: Non-Standardized Ethanolic Liquid Extracts (Fluid extract, Tincture)\n1 - 5% v/v of dried flower extract preparation in the finished product (ESCOP 2003; WHO 1999).\nNote: The extract ratio must be between 1:1 (fluid extract) and 1:5. The formulation must be prepared in a way which is equivalent to a quantity of 1 gram crude dried flower per 100 milliliters of finished product. For example, for a tincture prepared with a 1:5 w/w ratio, the concentration of tincture in the finished product must be 5% (1 gram crude dried flowers * 5 w/v (dilution) = 5 milliliters liquid extract in 100 milliliters finished product = 5% v/v extract preparation in the finished product).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-germ-chamom-allem-buccal2#007",
+   "text": "Direction(s) for use: Loose/Powder dosage forms\nPlace [insert volume to be measured by consumer, e.g., X teaspoons] of dried flowers in [insert the volume of water, e.g., 1/2 cup (125 mL)] of boiling/cold water. Infuse for [e.g., 5-15 minutes]/Bring to a boil and let simmer for [e.g., 10-20 minutes] and strain.\nUse 1 tablespoon (15 mL) as a mouthwash/gargle, as needed.\nNote: The direction for use statements can be modified on the label provided it gives clear instructions to consumers. In addition, “1 tablespoon (15 mL)” can be replaced on the label with an equivalent unit of measure.\nGargle/Mouthwash dosage forms\nUse 1 tablespoon (15 mL) as a mouthwash/gargle, as needed.\nNote: “1 tablespoon (15 mL)” can be replaced on the label with an equivalent unit of measure.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 128
+  },
+  {
+   "chunk_id": "hc-nhpid-germ-chamom-allem-buccal2#008",
+   "text": "Caution(s) and warning(s): Ask a healthcare practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-germ-chamom-allem-buccal2#009",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (ESCOP 2003; Bradley 1992).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "GERMAN CHAMOMILE - MATRICARIA CHAMOMILLA Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  }
+ ]
+}

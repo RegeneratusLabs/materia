@@ -1,0 +1,162 @@
+{
+ "doc_id": "hc-nhpid-goldenseal-oral2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "GOLDENSEAL - HYDRASTIS CANADENSIS - Oral",
+ "title_extra": null,
+ "date": "2024-11-29",
+ "revised": "2024-11-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-11-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=goldenseal.oral2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "goldenseal.oral2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:cc33b2a42399d9c51439ab5b2f3a855f66bafa1e88c5c212f486ec8ccff0a816",
+ "entities": [
+  "GOLDENSEAL - HYDRASTIS CANADENSIS - Oral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-goldenseal-oral2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GOLDENSEAL - HYDRASTIS CANADENSIS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-goldenseal-oral2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve infectious and inflammatory conditions of the digestive tract such as gastritis (Mills and Bone 2005; Boon and Smith 2004; Bradley 1992; Wren 1907).\n(Traditionally) used in Herbal Medicine as a bitter (and stomachic) to aid digestion (and to increase appetite) (Mills and Bone 2005; Boon and Smith 2004; Hoffmann 2003; Moerman 1998; Ellingwood 1983; Wren 1907).\n(Traditionally) used in Herbal Medicine to help treat/relieve digestive troubles/(such as) upset stomach/indigestion/dyspepsia (Mills and Bone 2005; Boon and Smith 2004; Moerman 1998; Bradley 1992; Ellingwood 1983; Grieve 1971).\n(Traditionally) used in Herbal Medicine as a mild laxative (Hoffmann 2003; Grieve 1971; Wren 1907).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help relieve infectious and inflammatory conditions of the digestive tract such as gastritis and relieve digestive troubles).\nFor multi-ingredient products:",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "GOLDENSEAL - HYDRASTIS CANADENSIS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 159
+  },
+  {
+   "chunk_id": "hc-nhpid-goldenseal-oral2#003",
+   "text": "Use(s) or Purpose(s): To prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Goldenseal is traditionally used in Herbal Medicine as a bitter to aid digestion).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "GOLDENSEAL - HYDRASTIS CANADENSIS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 108
+  },
+  {
+   "chunk_id": "hc-nhpid-goldenseal-oral2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract * , Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n0.6 - 3 grams of dried root and rhizome, per day (Mills and Bone 2005; Boon and Smith 2004; Hoffmann 2003; Bradley 1992).\n*Note: Solvents allowed for the method of preparation \"Non-standardized extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GOLDENSEAL - HYDRASTIS CANADENSIS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 66
+  },
+  {
+   "chunk_id": "hc-nhpid-goldenseal-oral2#005",
+   "text": "Direction(s) for use: Take a few hours before or after taking other medications or health products (Gardner and McGuffin 2013).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GOLDENSEAL - HYDRASTIS CANADENSIS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-goldenseal-oral2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional before use if you have a kidney or blood pressure disorder (Brinker 2010; Hoffmann 2003).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "GOLDENSEAL - HYDRASTIS CANADENSIS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 41
+  },
+  {
+   "chunk_id": "hc-nhpid-goldenseal-oral2#007",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (Gardner and McGuffin 2013; Brinker 2010; Barnes and al. 2007; Mills and Bone 2005; Boon and Smith 2004; Hoffmann 2003; Bradley 1992).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "GOLDENSEAL - HYDRASTIS CANADENSIS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  }
+ ]
+}

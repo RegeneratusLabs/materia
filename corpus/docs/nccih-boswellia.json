@@ -1,0 +1,210 @@
+{
+ "doc_id": "nccih-boswellia",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Boswellia",
+ "title_extra": null,
+ "date": "2025-04-01",
+ "revised": "2025-04-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-10-01",
+ "url": "https://www.nccih.nih.gov/health/boswellia",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/boswellia"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:767f1094da89639fb8c7d1752b1db6ce420c4ba610f3128e42d7edf78534a81f",
+ "entities": [
+  "Boswellia"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-boswellia#001",
+   "text": "Boswellia\nCommon Names:\nboswellia,\nboswellia serrata,\nboswella,\nboswellin serrata resin,\nfrankincense\nLatin Names:\nBoswellia serrata",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 15
+  },
+  {
+   "chunk_id": "nccih-boswellia#002",
+   "text": "Background: Boswellia serrata\nis a branching tree native to the mountainous regions of Northern Africa, India, and the Middle East.\nBoswellia is an herbal extract made from the gum resin or bark of the tree and can be taken orally or applied topically.\nTraditionally, boswellia has been used in Ayurveda practices to improve arthritis, reduce inflammation and pain, and relieve symptoms of some respiratory and cardiovascular diseases and other disorders.\nBoswellia extracts are sold as dietary supplements to reduce inflammation and to support joint health, mobility, and digestive health.\nThe resin from the bark of\nBoswellia serrata\nor other\nBoswellia\nspecies is the source of frankincense, which is often inhaled for aromatherapy or applied topically.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "nccih-boswellia#003",
+   "text": "How Much Do We Know?: There have been several studies on the potential health benefits and safety of using boswellia, but most of these are small and of low quality. There is not enough high-quality evidence to determine whether boswellia is useful for any health condition.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 46
+  },
+  {
+   "chunk_id": "nccih-boswellia#004",
+   "text": "What Have We Learned?: Several studies have shown taking boswellia orally may help reduce inflammation and pain associated with osteoarthritis, but larger, higher quality studies are needed.\nThe topical use of boswellia (frankincense) for osteoarthritis, rheumatoid arthritis, and other health conditions has been studied, but there isn’t enough evidence to show that it is an effective treatment.\nA few small studies suggest that taking boswellia orally may reduce asthma symptoms. However, there is not enough rigorous evidence to determine whether boswellia is a useful treatment for asthma.\nThere has been limited research in people on taking boswellia orally for several types of cancer, and although some results are encouraging, larger clinical studies are needed. A small study of patients with malignant glioma, an aggressive brain tumor, showed that boswellia taken orally may help to reduce edema (swelling) of the brain but not the tumor.\nThere is no evidence that boswellia can prevent or treat COVID-19.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 155
+  },
+  {
+   "chunk_id": "nccih-boswellia#005",
+   "text": "What Do We Know About Safety?: Boswellia is likely to be safe when taken orally.\nBoswellia serrata\nextract in doses up to 1,000 mg daily has been safely used in several clinical trials lasting up to 6 months. It has also been used with apparent safety at a dose of 2,400 mg for up to 1 month.\nBoswellia (frankincense) may be safe to use topically or for aromatherapy.\nIf you have asthma, follow your health care provider’s recommendations on how to manage your condition. For your safety:\nDo not substitute other approaches for treatments recommended or prescribed by your health care provider.\nConsult your health care provider about adding any complementary health products or practices to your asthma management program. If you take medicine for asthma, talk with your provider before starting to take a dietary supplement. Some dietary supplements and medicines can interact in harmful ways.\nNo complementary approach has been shown to cure cancer or cause it to go into remission. Some products or practices that have been advocated for cancer treatment may interfere with conventional cancer treatments or have other risks. If you’ve been diagnosed with cancer, you should consult your health care providers before using any complementary health approach.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 203
+  },
+  {
+   "chunk_id": "nccih-boswellia#006",
+   "text": "What Do We Know About Safety?: It is likely safe to use boswellia in amounts commonly found in foods during pregnancy or while breastfeeding. Little is known about whether it’s safe to use boswellia orally in medicinal amounts or to use frankincense during pregnancy or while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-boswellia#007",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nIf you take any type of medicine, talk with your health care provider before using any herbal product; some herbs and medicines interact in harmful ways.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The regulatory paths for making and distributing dietary supplements are different than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 187
+  },
+  {
+   "chunk_id": "nccih-boswellia#008",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-boswellia#009",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-boswellia#010",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-boswellia#011",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-boswellia#012",
+   "text": "Key References: Bannuru RR, Osani MC, Al-Eid F, et al.\nEfficacy of curcumin and boswellia for knee osteoarthritis: systematic review and meta-analysis\n.\nSeminars in Arthritis and Rheumatism\n. 2018;48(3):416-429.\nBoswellia serrata. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on April 2, 2024. [Database subscription].\nClark CE, Arnold E, Lasserson TJ, et al.\nHerbal interventions for chronic asthma in adults and children: a systematic review and meta-analysis\n.\nPrimary Care Respiratory Journal\n. 2010;19(4):307-314.\nDubey V, Kheni D, Sureja V.\nEfficacy evaluation of standardized\nBoswellia serrata\nextract (Aflapin\nⓇ\n) in osteoarthritis: a systematic review and sub-group meta-analysis study\n.\nExplore\n(NY).\n2024;20(5):102983.\nEfferth T, Oesch F.\nAnti-inflammatory and anti-cancer activities of frankincense: targets, treatments and toxicities\n.\nSeminars in Cancer Biology\n. 2022;80:39-57.\nFrankincense. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on April 2, 2024. [Database subscription].\nKirste S, Treier M, Wehrle SJ, et al.\nBoswellia\nserrata\nacts on cerebral edema in patients irradiated for brain tumors: a prospective, randomized, placebo-controlled, double-blind pilot trial\n.\nCancer\n. 2011;117(16):3788-3795.\nLiu X, Machado GC, Eyles JP, et al.\nDietary supplements for treating osteoarthritis: a systematic review and meta-analysis\n.\nBritish Journal of Sports Medicine\n. 2018;52(3):167-175.\nSiddiqui MZ.\nBoswellia serrata,\na potential anti-inflammatory agent: an overview\n.\nIndian Journal of Pharmaceutical Sciences\n. 2011;73(3):255-61.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 211
+  },
+  {
+   "chunk_id": "nccih-boswellia#013",
+   "text": "Key References: This publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Boswellia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 75
+  }
+ ]
+}

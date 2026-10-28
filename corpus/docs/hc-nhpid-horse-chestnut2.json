@@ -1,0 +1,140 @@
+{
+ "doc_id": "hc-nhpid-horse-chestnut2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Horse Chestnut - Aesculus Hippocastanum",
+ "title_extra": null,
+ "date": "2026-02-27",
+ "revised": "2026-02-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-02-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=horse.chestnut2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "horse.chestnut2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:7a9eb7bb73f8a0335611eb9aac919a473389ddaa930aa96c2077a7d2ac5db38b",
+ "entities": [
+  "Horse Chestnut - Aesculus Hippocastanum",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-horse-chestnut2#001",
+   "text": "Route of Administration: Oral (Bradley 2006; ESCOP 2003)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Horse Chestnut - Aesculus Hippocastanum",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 8
+  },
+  {
+   "chunk_id": "hc-nhpid-horse-chestnut2#002",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Horse Chestnut - Aesculus Hippocastanum",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-horse-chestnut2#003",
+   "text": "Use(s) or Purpose(s): Traditionally used in Herbal Medicine to help treat haemorrhoids (Bradley 2006; Mills and Bone 2005; Hoffmann 2003; Felter and Lloyd 1983; Grieve 1971).\nUsed in Herbal Medicine to help treat chronic venous insufficiency and associated symptoms (Bradley 2006; Mills and Bone 2005; ESCOP 2003; Blumenthal et al. 2000).\nUsed in Herbal Medicine to help treat varicose veins (Bradley 2006; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help treat chronic venous insufficiency and associated symptoms and to help treat varicose veins).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Horse chestnut is traditionally used in Herbal Medicine to help treat haemorrhoids).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Horse Chestnut - Aesculus Hippocastanum",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "hc-nhpid-horse-chestnut2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n0.3 – 5 grams of dried seed, per day (Mills and Bone 2005; Hoffmann 2003; Blumenthal et al. 2000; Grieve 1971).\n*Note: Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry extract)” as part of this monograph are ethanol and/or water only.\nMethods of preparation: Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n50 – 150 milligrams of aescin, per day (Bradley 2006; Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Horse Chestnut - Aesculus Hippocastanum",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 100
+  },
+  {
+   "chunk_id": "hc-nhpid-horse-chestnut2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Brinker 2010; Mills and Bone 2005).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Horse Chestnut - Aesculus Hippocastanum",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-horse-chestnut2#006",
+   "text": "Known adverse reaction(s): When using this product you may experience headache, dizziness, gastric irritation, or itchiness (Bradley 2006; Mills and Bone 2005; ESCOP 2003).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Horse Chestnut - Aesculus Hippocastanum",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  }
+ ]
+}

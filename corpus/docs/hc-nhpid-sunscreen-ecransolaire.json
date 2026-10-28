@@ -1,0 +1,168 @@
+{
+ "doc_id": "hc-nhpid-sunscreen-ecransolaire",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Primary Sunscreen Monograph (Source ingredient)",
+ "title_extra": null,
+ "date": "2026-02-27",
+ "revised": "2026-02-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-02-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=sunscreen-ecransolaire&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "sunscreen-ecransolaire"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:b7dafcb5c12880380f7be26250162a9773f495c79b66574954837b8962ef9fc6",
+ "entities": [
+  "Primary Sunscreen Monograph",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-sunscreen-ecransolaire#001",
+   "text": "Dosage form(s): Acceptable dosage forms for all NHPs\nCream; Emulsion; Foam; Gel; Liquid; Lotion; Ointment; Paste; Pressed powder; Salve; Solution; Suspension; Topical liquid\nAcceptable dosage forms for NHPs not containing nano titanium dioxide or nano zinc oxide\nAerosol; Aerosol, spray; Loose powder; Spray; Spray (bag-on-valve)\nAcceptable dosage forms for NPDs\nAerosol; Aerosol, spray; Cream; Emulsion; Foam; Gel; Lotion; Ointment; Paste; Powder; Salve; Solution; Spray; Spray (bag-on-valve); Stick; Suspension",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Primary Sunscreen Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "hc-nhpid-sunscreen-ecransolaire#002",
+   "text": "Use(s) or Purpose(s): All products (mandatory)\nSun Protection Factor \"X\"/SPF \"X\" *\nAll products (optional)\nHelps prevent sunburn\nSunscreen\nSunburn protectant\nHelps protect from sunburn\nProducts with a critical wavelength of ≥ 370 nm ** and with medicinal ingredient(s) that provide UVA and UVB protection (optional)\nBroad spectrum\nProducts with a critical wavelength of ≥ 370 nm ** , with medicinal ingredient(s) that provide UVA and UVB protection, and SPF ≥ 15 (optional)\nFilters/Screens UVA/UVB rays\nAbsorbs throughout the UVA/UVB spectrum to provide sunburn protection\nUVA/UVB protection\nProducts that are water resistant *** (optional)\nWater/Sweat Resistant [40 minutes/80 minutes]\nProducts with a critical wavelength of ≥ 370 nm, with medicinal ingredient(s) that provide UVA and UVB protection, and SPF ≥ 15 (optional)\nIf used as directed with other sun protection measures [see Directions (for Use)], decreases the risk of skin cancer and early skin aging caused by the sun.\nNote: For NPDs, to ensure consistency in the labelling requirements for primary sunscreens, products making any of the above claims are eligible for the labelling flexibilities set out in section 2.6 of the Labelling\nrequirements for non-prescription drugs guidance document except for the warning statement regarding the risk of rashes, as mentioned in the Risk information section below.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Primary Sunscreen Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 207
+  },
+  {
+   "chunk_id": "hc-nhpid-sunscreen-ecransolaire#003",
+   "text": "Use(s) or Purpose(s): * As determined using a standardized and reproducible method, such as the ones referenced in the US FDA 2021 M020 monograph, ISO 24444, ISO 23675 and ISO 23698. The SPF value must be ≥ 2 and values greater than 50 are to be declared as SPF 50+.\n** As determined using a standardized and reproducible method, such as the ones referenced in the US FDA 2021 M020 monograph, ISO 24443, ISO 23698 and Colipa 2011.\n*** As determined using a standardized and reproducible method, such as the ones referenced in the US FDA 2021 M020 monograph and Colipa 2005. When the Colipa methodology is used, the labelled SPF value must be the SPF value of the final product formulation determined following immersion (Antoniou et al. 2008).\nUnacceptable use(s) or purpose(s)\nSee Appendix 1 .\nNotes\nPA rating (Protection grade of UVA)\nThe PA rating system was developed in Japan and is currently used by most Asian countries.\nThis system addresses UVA protection based on the Persistent Pigment Darkening method (e.g., ISO 24442).\nFor NPD ingredients, data must be provided to NNHPD through the labelling only submission pathway to support any additional information regarding the PA rating.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Primary Sunscreen Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 199
+  },
+  {
+   "chunk_id": "hc-nhpid-sunscreen-ecransolaire#004",
+   "text": "Use(s) or Purpose(s): For NHP products containing zinc oxide or a combination of zinc oxide and titanium dioxide, the PA rating is acceptable as additional information on the label, as long as it is truthful and not misleading. Valid data using a standardized and reproducible method must be available upon request. This does not apply to titanium dioxide alone which is less effective at blocking long-wave UVA (UVA I) rays.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Primary Sunscreen Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 70
+  },
+  {
+   "chunk_id": "hc-nhpid-sunscreen-ecransolaire#005",
+   "text": "Subpopulation(s): Infants 6 to 12 months, Children 1 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Primary Sunscreen Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  },
+  {
+   "chunk_id": "hc-nhpid-sunscreen-ecransolaire#006",
+   "text": "Direction(s) for use: All products excluding sprays and aerosols\nApply liberally/generously (and evenly) 15 minutes before sun exposure\nReapply at least every 2 hours\nSun Protection Measures: Spending time in the sun increases your risk of skin cancer and early skin aging. To decrease this risk, regularly use a sunscreen with a Broad Spectrum SPF value of 15 or higher and other sun protection measures including:\nlimit time in the sun, especially from 10 a.m. – 2 p.m./11 a.m. – 3 p.m. * /10 a.m. – 3 p.m.; and\nwear long-sleeved shirts, pants, hats, and sunglasses\n* Note : As per Health Canada public health communication on sunscreens , it should be noted that in Canada, the sun's UV rays are strongest between 11 a.m. and 3 p.m.\nSprays and aerosols\nSpray liberally/generously and spread evenly by hand 15 minutes before sun exposure\nHold container 4 to 6 inches/10 to 15 centimetres from the skin to apply\nDo not spray directly onto face. Spray on hands then apply to face\nDo not apply in windy conditions\nUse in a well-ventilated area\nAvoid inhaling or exposing others to spray\nReapply at least every 2 hours",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Primary Sunscreen Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 194
+  },
+  {
+   "chunk_id": "hc-nhpid-sunscreen-ecransolaire#007",
+   "text": "Direction(s) for use: Sun Protection Measures: Spending time in the sun increases your risk of skin cancer and early skin aging. To decrease this risk, regularly use a sunscreen with a Broad Spectrum SPF value of 15 or higher and other sun protection measures including:\nlimit time in the sun, especially from 10 a.m. – 2 p.m./11 a.m. – 3 p.m. * /10 a.m. – 3 p.m.; and\nwear long-sleeved shirts, pants, hats, and sunglasses.\n* See the note listed in the previous section.\nAll products (optional)\nTest on a small area of skin before first use. If irritation occurs (within 24 hours), use a different product\nProducts that are non-water resistant\nUse a water resistant sunscreen if swimming or sweating.\nProducts that are water resistant\nReapply after 40/80 minutes of swimming or sweating.\nReapply immediately after towel drying.\nProducts that are applied to the lips\nReapply after eating or drinking",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Primary Sunscreen Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 151
+  },
+  {
+   "chunk_id": "hc-nhpid-sunscreen-ecransolaire#008",
+   "text": "Caution(s) and warning(s): All products\nFor external use only\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with water (US FDA 2021).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if rash occurs **** (US FDA 2021).\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away\n**** For NPDs, this warning statement must appear on the outer label of all primary sunscreen products, and is ineligible for Level 4 Graduated and Labelling for Low-Risk Non-prescription Drugs (Category I) flexibilities as described in the Guidance Document: Labelling Requirements for Non-prescription Drugs .\nProducts with a critical wavelength of < 370 nm or with SPF value of < 15\nOther warnings Skin Cancer/Skin Aging Alert: Spending time in the sun increases your risk of skin cancer and\nearly skin aging. This product has been\nshown only to help prevent sunburn, not skin cancer or early skin aging (US FDA 2021).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Primary Sunscreen Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 167
+  },
+  {
+   "chunk_id": "hc-nhpid-sunscreen-ecransolaire#009",
+   "text": "Contraindication(s): All products\nDo not use on broken skin (US FDA 2021).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Primary Sunscreen Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  }
+ ]
+}

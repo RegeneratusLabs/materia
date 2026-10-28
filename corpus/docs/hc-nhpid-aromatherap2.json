@@ -1,0 +1,328 @@
+{
+ "doc_id": "hc-nhpid-aromatherap2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Aromatherapy (Essential oils)",
+ "title_extra": null,
+ "date": "2025-07-25",
+ "revised": "2025-07-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-07-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=aromatherap2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "aromatherap2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:ee6e94adbe04263cdef6d5066e0aae3cdd13094731c5711fdd7b9ebbf8bedaec",
+ "entities": [
+  "Aromatherapy",
+  "Essential oils"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#001",
+   "text": "Dosage form(s): Acceptable dosage forms are as follows:\nTopical (diluted products for local application and body massage): Cream; Gel; Liquid; Lotion; Oil; Ointment; Solution\nTopical (undiluted products for local application and body massage): Liquid*\nTopical (bath and compresses): Liquid*\nInhalation: Liquid*\nTopical and Inhalation: Liquid*\n*Note: To be packaged in a dropper bottle.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 53
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#002",
+   "text": "Use(s) or Purpose(s): Consult Table 2 below for uses supported for each medicinal ingredient. The medicinal ingredients in Table 2 are associated with the numbered claims below.\nTopical only\nUsed in aromatherapy for symptomatic relief of acne/boils.\nUsed in aromatherapy to help relieve minor skin irritation/cuts/bruises/burns.\nUsed in aromatherapy for symptomatic relief of eczema/dermatitis.\nUsed in aromatherapy to help relieve joint/muscle pain associated with sprain/strain/rheumatoid arthritis.\nTopical and/or inhalation\nUsed in aromatherapy as a nervine/calmative.\nUsed in aromatherapy to help relieve headache.\nUsed in aromatherapy as a carminative/antispasmodic for symptomatic relief of digestive discomfort.\nUsed in aromatherapy to help relieve colds/cough.\nNote: The above uses can be combined on the product label (e.g., Used in aromatherapy to help relieve headache and colds).\nTable 2. Aromatherapy essential oils uses or purposes\nMedicinal Ingredients\nUses or Purposes\nAbies balsamea\n4, 5\nAbies sibirica\n4, 8\nAngelica archangelica\n4, 5, 6, 7, 8\nAniba rosaeodora\n5, 6, 8\nApium graveolens\n4, 5\nBoswellia frereana (essential oil)\n2, 5, 8\nBoswellia frereana (absolute)\n2, 5, 8\nBoswellia sacra (essential oil)\n2, 5, 8\nBoswellia sacra (absolute)\n2, 5, 8\nCananga odorata\n5\nCarum carvi\n7, 8\nCedrus atlantica\n1, 2, 4, 5, 8\nChamaemelum nobile\n5, 7\nChrysopogon zizanioides\n1, 4\nCinnamomum camphora\n4, 8\nCinnamomum verum\n4, 8\nCistus ladanifer\n4, 5, 7\nCitrus aurantiifolia",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#003",
+   "text": "Use(s) or Purpose(s): 1, 4, 8\nCitrus aurantium (Neroli - flower) (essential oil)\n5, 6, 7, 8\nCitrus aurantium (Neroli - flower) (absolute)\n5, 6, 7, 8\nCitrus aurantium (Petitgrain - leaf)\n4, 5\nCitrus bergamia (expressed)\n6, 7, 8\nCitrus bergamia (expressed - rectified) (FCF)\n1, 2, 3, 6, 7, 8\nCitrus paradisi\n5\nCitrus limon\n8\nCitrus sinensis\n5, 7\nCommiphora myrrha (essential oil)\n2, 3, 8\nCommiphora myrrha (absolute)\n2, 3, 8\nCorymbia citriodora\n4, 6, 8\nCuminum cyminum\n4, 5, 7\nCupressus sempervirens\n4, 8\nCymbopogon citratus\n4, 5, 6, 7\nCymbopogon flexuosus\n4, 5, 6, 7\nCymbopogon martini\n5, 8\nCymbopogon nardus\n4, 6, 7\nCymbopogon winterianus\n4, 6, 7\nElettaria cardamomum\n7, 8\nEucalyptus globulus\n4, 6, 8\nEucalyptus polybractea\n4, 6, 8\nEucalyptus radiata\n4, 6, 8\nFoeniculum vulgare subsp. vulgare var. vulgare\n2, 4, 7, 8\nFoeniculum vulgare subsp. vulgare var. dulce\n2, 4, 7, 8\nHelichrysum italicum\n1, 2, 3, 4, 5, 7, 8\nIIllicium verum\n4, 5, 6, 7, 8\nJasminum officinale\n4, 5, 6, 8\nJuniperus communis\n1, 2, 3, 4, 5\nLaurus nobilis\n4, 5, 6, 8\nLavandula angustifolia\n4, 5, 6, 7, 8\nLavandula x intermedia\n4, 5, 6, 7, 8\nLavandula latifolia\n4, 5, 6, 7, 8\nLitsea cubeba\n7\nMatricaria chamomilla\n1, 2, 4, 5, 6, 7",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#004",
+   "text": "Use(s) or Purpose(s): Melaleuca alternifolia\n8\nMelaleuca cajuputi\n1, 3, 4, 8\nMelaleuca quinquenervia\n8\nMelissa officinalis\n5, 7\nMentha arvensis\n1, 4, 5, 7, 8\nMentha x piperita\n4, 5, 7, 8\nMentha spicata\n5, 6, 7, 8\nMyristica fragrans\n4, 5, 7\nMyrtus communis\n1, 8\nOcimum basilicum\n5, 6, 7, 8\nOriganum majorana\n2, 3, 4, 5, 6, 7, 8\nPelargonium graveolens\n8\nPetroselinum crispum\n2, 4, 5\nPinus sylvestris\n4, 5, 8\nPiper cubeba\n2, 7, 8\nPiper nigrum\n4, 6, 7, 8\nPogostemon cablin\n1, 2, 5, 7\nRosa x damascena\n2, 5, 6, 8\nRosa x centifolia\n2, 5, 6, 8\nRosmarinus officinalis\n2, 4, 7, 8\nSalvia lavandulifolia\n2, 4, 5, 7, 8\nSalvia officinalis\n2, 4, 5, 7, 8\nSalvia sclarea\n4, 5, 6, 7, 8\nSantalum album\n5, 6, 7, 8\nSatureja hortensis\n4, 7, 8\nStyrax benzoin\n4, 5, 7, 8\nSyzygium aromaticum\n4, 8\nThymus vulgaris\n1, 2, 4, 5, 8\nThymus zygis\n1, 2, 4, 5, 8\nZingiber officinale\n4, 7, 8\nReferences: HC 2025, Tisserand and Young 2014, Lis-Balchin 2006, Battaglia 2003.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 185
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#005",
+   "text": "Quantity(ies): Refer to Tables 3, 4, 5 and 6 below.\nNotes\nSee Appendix 1 for definitions of various preparations (i.e. steam distilled, expressed, absolute, rectified).\nThe concentrations in Table 3 below refer to final concentrations after dilution to be applied on the skin.\nThe quantity per dosage unit for undiluted (pure) essential oils should be indicated as a value between 99 - 100% (Table 4) on the PLA form with appropriate dilution information in the Directions for use section.\nTable 3. Topical application - massage or local application: Methods of preparations and concentrations associated with each medicinal ingredient\nMedicinal Ingredients\nMethods of Preparations\nConcentrations for topical application for massage 1\nConcentrations for topical local application 2\nSensitizing (S) and Phototoxic (P) essential oils 3\nAbies balsamea\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 10%\nN/A\nAbies sibirica\nOil, Essential (water steam distillation)\n1 - 2.5%\n1 - 2.5%\nN/A\nAngelica archangelica\nOil, Essential (water steam distillation)\n0.78%\n0.78%\nS, P\nAniba rosaeodora\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 10%\nS\nApium graveolens\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nS, P\nBoswellia frereana\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nBoswellia frereana\nAbsolute\n1 - 3%\n1 - 3%\nN/A\nBoswellia sacra",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#006",
+   "text": "Quantity(ies): Oil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nBoswellia sacra\nAbsolute\n1 - 3%\n1 - 3%\nN/A\nCananga odorata\nOil, Essential (water steam distillation)\n0.8 - 2%\n0.8 - 2%\nS\nCarum carvi\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nN/A\nCedrus atlantica\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nP\nChamaemelum nobile\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nN/A\nChrysopogon zizanioides\nOil, Essential (water steam distillation)\n1 - 1.5%\n1 - 1.5%\nN/A\nCinnamomum camphora\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 20%\nS\nCinnamomum verum\nOil, Essential (water steam distillation)\n0.6 - 5%\n0.6 - 5%\nS\nCistus ladanifer\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nCitrus aurantiifolia\nOil, Essential (expressed)\nUnripe fruit peel: 0.7%\nUnripe fruit peel: 0.7%\nP\nOil, Essential (water steam distillation)\nRipe fruit peel: 1 - 5%\nRipe fruit peel: 1 - 15%\nN/A\nCitrus aurantium (Neroli - flower)\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nS, P\nCitrus aurantium (Neroli - flower)\nAbsolute\n1 - 3%\n1 - 3%\nS, P\nCitrus aurantium (Petitgrain - leaf)\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 10%\nS, P\nCitrus bergamia",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#007",
+   "text": "Quantity(ies): Oil, Essential (expressed)\n0.4%\n0.4%\nS, P\nCitrus bergamia (FCF)\nOil, Essential (expressed - rectified)\n1 - 5%\n1 - 20%\nP\nCitrus paradisi\nOil, Essential (expressed)\n1 - 4%\n1 - 4%\nP\nCitrus limon\nOil, Essential (expressed)\n1 - 2%\n1 - 2%\nS, P\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 10%\nN/A\nCitrus sinensis\nOil, Essential (expressed)\n1 - 5%\n1 - 10%\nS, P\nCommiphora myrrha\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nCommiphora myrrha\nAbsolute\n1 - 3%\n1 - 3%\nN/A\nCorymbia citriodora\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 20%\nS\nCuminum cyminum\nOil, Essential (water steam distillation)\n0.4%\n0.4%\nP\nCupressus sempervirens\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nN/A\nCymbopogon citratus\nOil, Essential (water steam distillation)\n0.7 - 4%\n0.7 - 4%\nS\nCymbopogon flexuosus\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nS\nCymbopogon martini\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 6.5%\nS\nCymbopogon nardus\nOil, Essential (water steam distillation)\n1%\n1%\nS\nCymbopogon winterianus\nOil, Essential (water steam distillation)\n1%\n1%\nS\nElettaria cardamomum\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nN/A\nEucalyptus globulus\nOil, Essential (water steam distillation)\n1 - 5%",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#008",
+   "text": "Quantity(ies): 1 - 20%\nS\nEucalyptus polybractea\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 20%\nS\nEucalyptus radiata\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 20%\nS\nFoeniculum vulgare subsp. vulgare var. vulgare\nOil, Essential (water steam distillation)\n1 - 1.8%\n1 - 1.8%\nN/A\nFoeniculum vulgare subsp. vulgare var. dulce\nOil, Essential (water steam distillation)\n1 - 2.5%\n1 - 2.5%\nN/A\nHelichrysum italicum\nOil, Essential (water steam distillation)\n0.5%\n0.5%\nN/A\nIIllicium verum\nOil, Essential (water steam distillation)\n1 - 1.75%\n1 - 1.75%\nS\nJasminum officinale\nAbsolute\n0.7%\n0.7%\nS\nJuniperus communis\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nLaurus nobilis\nOil, Essential (water steam distillation)\n0.5%\n0.5%\nS\nLavandula angustifolia\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 15%\nS, P\nLavandula x intermedia\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 5%\nS, P\nLavandula latifolia\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nS, P\nLitsea cubeba\nOil, Essential (water steam distillation)\n0.8%\n0.8%\nS\nMatricaria chamomilla\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nN/A\nMelaleuca alternifolia\nOil, Essential (water steam distillation)\n1%\n1%\nS\nMelaleuca cajuputi\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nN/A\nMelaleuca quinquenervia",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#009",
+   "text": "Quantity(ies): Oil, Essential (water steam distillation)\n1 - 5%\n1 - 10%\nS\nMelissa officinalis\nOil, Essential (water steam distillation)\n0.7%\n0.7%\nS\nMentha arvensis\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nMentha x piperita\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 5.4%\nS\nMentha spicata\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nS\nMyristica fragrans\nOil, Essential (water steam distillation)\n0.8%\n0.8%\nN/A\nMyrtus communis\nOil, Essential (water steam distillation)\n1 - 1.9%\n1 - 1.9%\nN/A\nOcimum basilicum\nOil, Essential (water steam distillation)\n1 - 3.3%\n1 - 3.3%\nS\nOriganum majorana\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nN/A\nPelargonium graveolens\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 10%\nS\nPetroselinum crispum\nOil, Essential (water steam distillation)\nHerb top: 1 - 2%\nHerb top: 1 - 2%\nN/A\nSeed: 1 - 1.1%\nSeed: 1 - 1.1%\nN/A\nPinus sylvestris\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 10%\nS\nPiper cubeba\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nPiper nigrum\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nN/A\nPogostemon cablin\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 10%\nN/A\nRosa x damascena",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#010",
+   "text": "Quantity(ies): Oil, Essential (water steam distillation)\n0.6%\n0.6%\nS\nRosa x centifolia\nOil, Essential (water steam distillation)\n1 - 2%\n1 - 2%\nN/A\nRosmarinus officinalis\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 6.5%\nN/A\nSalvia lavandulifolia\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 12.5%\nN/A\nSalvia officinalis\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nSalvia sclarea\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nS\nSantalum album\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 10%\nS\nSatureja hortensis\nOil, Essential (water steam distillation)\n0.5 %\n0.5 %\nN/A\nStyrax benzoin\nOil, Essential (water steam distillation)\n1 - 2%\n1 - 2%\nSyzygium aromaticum\nOil, Essential (water steam distillation)\nFlower bud: 0.5 - 4%\nFlower bud: 0.5 - 4%\nS\nLeaf; Stem: 0.6 - 2%\nLeaf; Stem: 0.6 - 2%\nS\nThymus vulgaris\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nThymus zygis\nOil, Essential (water steam distillation)\n1 - 5%\n1 - 8%\nN/A\nZingiber officinale\nOil, Essential (water steam distillation)\n1 - 4%\n1 - 4%\nN/A\n1 This section refers to minimum and maximum concentrations after dilution for body massage (covering more than 10% of body surface area).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#011",
+   "text": "Quantity(ies): 2 This section refers to minimum and maximum concentrations after dilution for local applications (covering up to 10% of body surface area).\n3 (S) - Sensitizing: For definition, see Appendix 1. Additional duration of use and risk statements are required for medicinal ingredients indicated as sensitizing. Refer to Risk information section. Sensitizing ingredients cannot be included in products intended for use on irritated, broken or sensitive skin. (P) - Phototoxic: For definition, see Appendix 1. Additional risk statements are required for medicinal ingredients indicated as phototoxic. Refer to Risk information section.\nReferences: HC 2025, Tisserand and Young 2014, Lis-Balchin 2006, Battaglia 2003.\nTable 4. Topical application - massage or local application: Methods of preparations and concentrations for undiluted products 1\nMedicinal Ingredients\nMethods of Preparation 3\nConcentration for single ingredient products or total concentration of ingredients from Table 1 for multi-ingredient products\nAny ingredient listed in Table 1 2\nAbsolute\nOil, Essential (water steam distillation)\nOil, Essential (expressed)\nOil, Essential (expressed- rectified)\n99 - 100% 4",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 167
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#012",
+   "text": "Quantity(ies): 1 The quantity per dosage unit for undiluted (pure) essential oils should be indicated as a value between 99 - 100% on the PLA form with appropriate dilution information (such as mixing XX drops of the product in YY mL of carrier oil) in the Directions for use section to meet the concentrations listed in Table 3 once diluted.\n2 Sensitizing ingredients cannot be included in products intended for use on irritated, broken or sensitive skin.\n3 The appropriate method of preparation associated with each essential oil is listed in Table 3.\n4 A minimum concentration of 99% has been included to allow for the addition of a non-medicinal ingredient with a preservative antioxidant purpose as needed.\nTable 5. Topical application - bath or compresses: Methods of preparations and concentration for all medicinal ingredients listed in Table 1\nMedicinal Ingredients\nMethods of Preparations 2\nConcentration for single ingredient products or total concentration of ingredients from Table 1 for multi-ingredient products\nAny ingredient listed in Table 1 1\nAbsolute\nOil, Essential (water steam distillation)\nOil, Essential (expressed)\nOil, Essential (expressed- rectified)\n99 - 100% 3\n1 Sensitizing ingredients cannot be included in products intended for use on irritated, broken or sensitive skin.\n2 The appropriate method of preparation associated with each essential oil is listed in Table 3.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#013",
+   "text": "Quantity(ies): 3 If a combination of essential oils is used, the total concentration of essential oils must be a value between 99 – 100% and each essential oil included in the combination must contribute to the recommended uses for the product. A minimum concentration of 99% has been included to allow for the addition of a non-medicinal ingredient with a preservative antioxidant purpose as needed.\nTable 6. Inhalation - tissue or steaming water: Methods of preparations and concentration for all medicinal ingredients listed in Table 1\nMedicinal Ingredients\nMethods of Preparations 6\nConcentration for single ingredient products or total concentration of ingredients from Table 1 for multi-ingredient products\nAny ingredient listed in Table 1\nAbsolute\nOil, Essential (water steam distillation)\nOil, Essential (expressed)\nOil, Essential (expressed- rectified)\n99 - 100% 2\n1 The appropriate method of preparation associated with each essential oil is listed in Table 3.\n2 If a combination of essential oils is used, the total concentration of essential oils must be a value between 99 - 100% and each essential oil included in the combination must contribute to the recommended uses for the product. A minimum concentration of 99% has been included to allow for the addition of a non-medicinal ingredient with a preservative antioxidant purpose as needed.\nIngredient Combinations",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#014",
+   "text": "Quantity(ies): All ingredients included in this monograph may be combined together with the following restrictions:\nFor local topical application/body massage, the total concentration of the combined essential oils must not exceed 5%;\nand\nEach essential oil in the product combination must not exceed its maximum concentrations listed in Table 3.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 50
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#015",
+   "text": "Direction(s) for use: Topical\nLocal application (10% or less of body surface area)\nApply to a small body area only, 1 to 3 times per day. Rub and/or massage into skin until solution vanishes.\nBody massage (more than 10% of the body surface area)\nApply as a body massage once daily. Rub and/or massage into skin until solution vanishes.\nProducts requiring dilution (topical)\nDo not use the product undiluted.\nMix XX drops of the product in YY ml of carrier oil prior to applying on the skin 1 .\n1 Notes\nSingle ingredient products\nDirections for use explaining appropriate dilution of the product in carrier oil must be included on the PLA form and label. The final concentration to be applied on the skin must meet the concentrations in Table 3.\nThe following information is required on the PLA form to calculate the final concentration of the product:\nThe number of drops of the product (XX) to be diluted in the carrier oil.\nThe volume of the drop (ml) (e.g. 0.05 ml).\nThe volume of the carrier oil (YY) (i.e. fixed oil used to dilute essential oils and absolutes) (ml). Please note that the consumer must be able to measure this volume accurately in the absence of a measuring device (e.g. 5 ml = 1 teaspoon).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#016",
+   "text": "Direction(s) for use: Formula to obtain the final concentration of the product:\nFinal concentration of the product (%) = # of drops of the product * Volume of the drop (ml) * 100/Final volume (ml)\nNote:\nFinal volume (ml) = [# of drops of the product * Volume of the drop (ml)] + Volume of carrier oil (ml)\nCombination products\nDirections for use explaining appropriate dilution of the product in carrier oil must be included on the PLA form and label. The final concentration to be applied on the skin must meet the concentrations in Table 3 for each medicinal ingredient and not exceed a total concentration of 5%.\nThe following information is required on the PLA form for each medicinal ingredient to calculate the final concentration of each medicinal ingredient and of the finished product:\nThe number of drops of the product (XX) to be diluted in the carrier oil.\nThe volume of each medicinal ingredient per drop (ml).\nThe volume of the carrier oil (YY) (i.e. fixed oil used to dilute essential oils and absolutes) (ml) (the same value for each medicinal ingredient). Please note that the consumer must be able to measure this volume accurately in the absence of a measuring device (e.g. 5 ml).\nFormula to obtain the final concentration of each medicinal ingredient (MI):",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#017",
+   "text": "Direction(s) for use: Final concentration of the MI (%) = # of drops of the product * Volume of the MI per drop (ml) * 100/Final volume (ml)\nNote:\nFinal volume (ml) = [# of drops of the product * Volume of the drop (ml)] + Volume of carrier oil (ml)\nFormula to obtain the final concentration of the finished product (maximum concentration of combined medicinal ingredient is 5%):\nFinal concentration of the product (%) = # of drops of the product * Volume of all MI per the drop (ml) * 100/Final volume (ml)\nNotes:\nThe volume of all medicinal ingredients (MI) per drop (ml) in the formula below = sum of the volumes of each medicinal ingredient per drop (ml)\nFinal volume (ml) = [# of drops of the product * Volume of the drop (ml)] + Volume of carrier oil (ml)\nBath\nAdd 2 - 8 drops of undiluted product with the same amount of shampoo or liquid soap before adding it to the bath. Mix the water gently. For maximum benefit, remain in the bath for 10 minutes. Use 2 drops of undiluted product the first time and increase by 1 drop per bath up to a maximum of 8 drops. Use once daily (Tisserand 1977; Price and Price 2007).\nCompresses",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#018",
+   "text": "Direction(s) for use: Add 2 drops of undiluted product to 500 ml of warm water in a bottle. Mix by shaking the bottle and immediately soak the compress. Squeeze lightly, apply the compress to the skin, and cover with clothes and/or towelling. Leave for 2 to 4 hours. Use 1 to 3 times per day (Tisserand 1977).\nInhalation\nHandkerchief/tissue\nApply 1 - 6 drops of undiluted product to a handkerchief/tissue and inhale occasionally. Use 1 to 3 times per day (Price and Price 2007).\nSteaming water/facial steamer\nAdd 3 - 12 drops of undiluted product to a bowl of steaming water/facial steamer. Inhale slowly and deeply for 5 to 10 minutes. Use 1 to 3 times per day (Price and Price 1999; Tisserand and Balacs 1995).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 126
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#019",
+   "text": "Duration(s) of use: All products\nFor occasional use only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 9
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#020",
+   "text": "Risk information: All products\nCaution(s) and warning(s)\nFor external use only.\nWhen using this product avoid contact with eyes and mucous membranes. If contact occurs, rinse thoroughly with water/vegetable oil.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have epilepsy or asthma (Tisserand and Young 2014).\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away\nContraindication(s)\nDo not use this product if you are pregnant or breastfeeding.\nKnown adverse reaction(s)\nStop use if you experience nausea, dizziness, headache, an allergic reaction or skin irritation (Tisserand and Young 2014).\nProducts for topical application (local application/body massage/bath/compresses)\nCaution(s) and warning(s)\nAll products (except products that contain phototoxic essential oils; refer to Table 3)\nWhen using this product avoid exposure of applied area to the sun.\nProducts that contain phototoxic essential oils (refer to Table 3)\nWhen using this product do not expose the applied area to the sun for 24 to 48 hours after application (Kumar et al. 1992).\nContraindication(s)\nProducts that contain sensitizing essential oils (refer to Table 3)\nDo not use on broken, irritated, or sensitive skin.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children"
+   ],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 206
+  },
+  {
+   "chunk_id": "hc-nhpid-aromatherap2#021",
+   "text": "Risk information: Products that contain Cananga odorata essential oil >0.8% and/or Cinnamomum verum essential oil >0.6% and/or Cymbopogon citratus essential oil >0.7% and/or Mentha spicata >1.7% and/or Syzygium aromaticum flower bud essential oil >0.5% and/or Syzygium aromaticum leaf or stem essential oil >0.6%\nDo not use if you are prone to allergic reactions, eczema or unusual skin reactions.\nProducts intended to help relieve colds/cough\nKnown adverse reaction(s)\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms are accompanied by a fever, rash, persistent headache or chronic lung condition.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Aromatherapy",
+    "Essential oils"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  }
+ ]
+}

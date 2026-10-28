@@ -1,0 +1,136 @@
+{
+ "doc_id": "hc-nhpid-male-genital-desensitizers2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Male Genital Desensitizers\nHealth Products And Food Branch (Source ingredient)",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=male.genital.desensitizers2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "male.genital.desensitizers2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:83eb5e5dbfb4e4445b1ee10e52b1b09ff302e76773cc6c91069621f31af47739",
+ "entities": [
+  "Male Genital Desensitizers\nHealth Products And Food Branch",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-male-genital-desensitizers2#001",
+   "text": "Dosage form(s): Acceptable dosage forms for NHPs (Products containing benzocaine)\nAerosol; Aerosol, metered dose; Aerosol, spray; Gel; Liquid; Solution; Spray; Spray (bag-on-valve); Spray, metered dose; Topical liquid; Wipe\nAcceptable dosage forms for NPDs (products containing lidocaine)\nSpray, metered dose",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Male Genital Desensitizers\nHealth Products And Food Branch",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "hc-nhpid-male-genital-desensitizers2#002",
+   "text": "Use(s) or Purpose(s): For reducing oversensitivity in the male advance of intercourse (US FDA 2023).\nFor temporary male genital desensitisation, helping to slow the onset of ejaculation (US FDA 2023).\nHelps in temporarily retarding the onset of ejaculation/temporarily slowing the onset of ejaculation/temporarily prolonging the time until ejaculation (US FDA 2023).\nHelps in the prevention of premature ejaculation (US FDA 2023).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Male Genital Desensitizers\nHealth Products And Food Branch",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "hc-nhpid-male-genital-desensitizers2#003",
+   "text": "Direction(s) for use: Products containing benzocaine\nApply a small amount to head and shaft of penis 5-10 minutes before intercourse, or use as directed by a health care practitioner/health care provider/health care professional/doctor/physician (US FDA 2023; CPhA 1996).\nWipe off any excess product before commencing intercourse (CPhA 1996).\nUse smallest amount possible to achieve desired result.\nWash product off after intercourse (US FDA 2023; CPhA 1996).\nProducts containing lidocaine\nApply 3 or more sprays, not to exceed 10, to head and shaft of penis before intercourse, or use as directed by a health care practitioner/health care provider/health care professional/doctor/physician (US FDA 2023).\nWash product off after intercourse (US FDA 2023).\nSpray and aerosol products\nAvoid inhaling or exposing others to spray (USP DI 2006).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Male Genital Desensitizers\nHealth Products And Food Branch",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 124
+  },
+  {
+   "chunk_id": "hc-nhpid-male-genital-desensitizers2#004",
+   "text": "Duration(s) of use: Products containing benzocaine\nNo statement required.\nProducts containing lidocaine\nDo not use more than 24 sprays in 24 hours.\nDo not use the spray repeatedly for more than 3 months without consulting your doctor.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Male Genital Desensitizers\nHealth Products And Food Branch",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "hc-nhpid-male-genital-desensitizers2#005",
+   "text": "Caution(s) and warning(s): All products\nFor external use only.\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if this product, used as directed, does not provide relief. Premature ejaculation may be due to a condition requiring medical supervision (US FDA 2023).\nProducts containing benzocaine\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with water (US FDA 2023).\nProducts containing lidocaine\nWhen using this product avoid contact with eyes or nostrils. If contact occurs, rinse thoroughly with water.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Male Genital Desensitizers\nHealth Products And Food Branch",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "hc-nhpid-male-genital-desensitizers2#006",
+   "text": "Contraindication(s): All products\nDo not use if your partner is pregnant.\nDo not use if you are elderly.\nProducts containing benzocaine\nDo not use if you or your partner are allergic to benzocaine.\nProducts containing lidocaine\nDo not use if you or your partner are allergic to lidocaine.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Male Genital Desensitizers\nHealth Products And Food Branch",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "hc-nhpid-male-genital-desensitizers2#007",
+   "text": "Known adverse reaction(s): All products\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you or your partner develop a rash or irritation, such as burning or itching (US FDA 2023).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if the following symptoms appear: weakness, confusion, headache, difficulty breathing and/or pale, gray or blue coloured skin. These symptoms may be signs of methemoglobinemia, a rare disorder, which may appear up to 2 hours after use (US FDA 2018; US FDA 2011a,b; HC 2006).\nProducts containing lidocaine\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if you have or have had liver or kidney problems.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if you are taking other medications, as high blood level of lidocaine may affect other medicines.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you develop nervousness, dizziness, convulsions, loss of consciousness, any heart or lung symptoms or you feel unwell or have any unusual symptoms.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "renal"
+   ],
+   "entities": [
+    "Male Genital Desensitizers\nHealth Products And Food Branch",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 173
+  }
+ ]
+}

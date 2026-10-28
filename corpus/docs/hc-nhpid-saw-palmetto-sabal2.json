@@ -1,0 +1,143 @@
+{
+ "doc_id": "hc-nhpid-saw-palmetto-sabal2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "SAW PALMETTO – SERENOA REPENS",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=saw.palmetto.sabal2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "saw.palmetto.sabal2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:935397384d6ac5bf3ebc9a923d0346455076004da7dc83b3423fb2d44228c59d",
+ "entities": [
+  "SAW PALMETTO – SERENOA REPENS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-saw-palmetto-sabal2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "SAW PALMETTO – SERENOA REPENS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 42
+  },
+  {
+   "chunk_id": "hc-nhpid-saw-palmetto-sabal2#002",
+   "text": "Use(s) or Purpose(s): All subpopulations (associated with the medicinal ingredient Saw palmetto only and not with Saw palmetto liposterolic extract, which is based on non-traditional data)\nTraditionally used in Herbal Medicine as a mild diuretic to help relieve symptoms associated with minor urinary tract infections, such as burning sensation and/or frequent urination (Bradley 2006; Blumenthal et al. 2000; Grieve 1971; Felter and Lloyd 1898).\nAdult males only (associated with both medicinal ingredients, Saw palmetto or Saw palmetto liposterolic extract)\nUsed in Herbal Medicine to help relieve the urologic symptoms associated with mild to moderate benign prostatic hyperplasia (BPH) (e.g., weak urine flow/incomplete voiding/frequent daytime/nighttime urination) (USP-NF 2024; Croom and Chan 2010; Bradley 2006; Wilt et al. 2002; Blumenthal et al. 2000).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "SAW PALMETTO – SERENOA REPENS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "hc-nhpid-saw-palmetto-sabal2#003",
+   "text": "Quantity(ies): All uses\nMethods of preparation: Dry, Powdered, Non-Standardized or Standardized* Extracts (Dry extract 1 , 2 , Glycerite, Tincture, Fluid extract, Supercritical Fluid Extraction)\n1 - 4 grams of dried fruit, per day (Bradley 2006; Blumenthal et al. 2000).\n*Note: Optional potency: 70 - 95% total fatty acids.\nUrologic symptoms associated with benign prostatic hyperplasia\nMethods of preparation: Standardized Extracts (Dry extract 1 , 2 , Supercritical Fluid Extraction)\n100 - 400 milligrams of liposterolic extract of dried fruit standardized to 70 - 95% total fatty acids, per day (USP-NF 2024; Croom and Chan 2010; derMarderosian and Beutler 2009).\nNotes:\n1 Dry extract means that any solvent was evaporated; however, it includes lipidic/liposterolic fractions that are liquid at room temperature.\n2 Does not include water extracts as water would not be an appropriate solvent to extract the active constituents.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SAW PALMETTO – SERENOA REPENS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 140
+  },
+  {
+   "chunk_id": "hc-nhpid-saw-palmetto-sabal2#004",
+   "text": "Direction(s) for use: Take with food to minimize gastric disturbance (USP NF-2024; derMarderosian and Beutler 2009).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SAW PALMETTO – SERENOA REPENS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-saw-palmetto-sabal2#005",
+   "text": "Caution(s) and warning(s): All subpopulations\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAdult males only\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use to exclude a diagnosis of prostate cancer (USP-NF 2024; Mills and Bone 2005).\nAdult females only\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking oral contraceptives or hormone replacement therapy (UpToDate 2024).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "SAW PALMETTO – SERENOA REPENS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 72
+  },
+  {
+   "chunk_id": "hc-nhpid-saw-palmetto-sabal2#006",
+   "text": "Contraindication(s): Adult females only\nDo not use if you are pregnant, breastfeeding, or attempting to conceive (UpToDate 2024).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "SAW PALMETTO – SERENOA REPENS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

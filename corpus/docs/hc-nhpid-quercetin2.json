@@ -1,0 +1,138 @@
+{
+ "doc_id": "hc-nhpid-quercetin2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "QUERCETIN",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=quercetin2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "quercetin2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:fb1a1cbdaf5eb0d97d0ed239c66ab9aa7b064817273256186745d674c4cfda49",
+ "entities": [
+  "QUERCETIN",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-quercetin2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "QUERCETIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-quercetin2#002",
+   "text": "Use(s) or Purpose(s): Source of (an) antioxidant(s)/Provides (an) antioxidant(s) (Brayfield and Cadart 2024; RSC 2024; Murray and Bongiorno 2006; Harborne et al. 1999).\nSource of (an) antioxidant(s)/Provides (an) antioxidant(s) that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Brayfield and Cadart 2024; RSC 2024; Murray and Bongiorno 2006; Harborne et al. 1999).\nUsed in Herbal Medicine as a capillary/blood vessel protectant (Brayfield and Cadart 2024; RSC 2024; PDR 2008; Murray and Bongiorno 2006; Harborne et al. 1999).\nNote: If Quercetin is combined with other medicinal ingredients with antioxidant properties, there is an option to use the antioxidant claims in plural. The singular should be used when the product only contains one chemical substance (e.g., Quercetin) as the medicinal ingredient associated with the antioxidant claim.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "QUERCETIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 133
+  },
+  {
+   "chunk_id": "hc-nhpid-quercetin2#003",
+   "text": "Quantity(ies): Antioxidant\nNot to exceed 1,200 milligrams of Quercetin, per day and 600 milligrams per single dose (Wang et al. 2009; Boots et al. 2008; PDR 2008; Erlund et al. 2003; Lamson and Brignall 2000; Hakkinen et al. 1999).\nCapillary/ blood vessel protectant\n600 - 1,200 milligrams of Quercetin, per day. Not to exceed 600 milligrams per single dose (PDR 2008; Murray and Bongiorno 2006).\nNote: Must not exceed 600 milligrams of Citrus bioflavonoids, per day, when combined with other bioflavonoids such as but not limited to, Citrus bioflavonoids, hesperidin, rutin, etc.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "QUERCETIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "hc-nhpid-quercetin2#004",
+   "text": "Direction(s) for use: Products providing 40 milligrams or more Quercetin, per day\nTake with a meal/food (Harwood et al. 2007).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "QUERCETIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-quercetin2#005",
+   "text": "Duration(s) of Use: Products providing 40 milligrams or more Quercetin, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (Harwood et al. 2007; Boyle et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "QUERCETIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "hc-nhpid-quercetin2#006",
+   "text": "Caution(s) and warning(s): Products providing 40 milligrams or more Quercetin, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "QUERCETIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  }
+ ]
+}

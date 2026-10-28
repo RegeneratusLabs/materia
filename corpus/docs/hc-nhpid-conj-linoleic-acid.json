@@ -1,0 +1,175 @@
+{
+ "doc_id": "hc-nhpid-conj-linoleic-acid",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CONJUGATED LINOLEIC ACID",
+ "title_extra": null,
+ "date": "2025-01-10",
+ "revised": "2025-01-10",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-01-10",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=conj.linoleic.acid&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "conj.linoleic.acid"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:851fe37c0aead623590ad52653aa3521745589125ec505616d78c55987733635",
+ "entities": [
+  "CONJUGATED LINOLEIC ACID",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-conj-linoleic-acid#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CONJUGATED LINOLEIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-conj-linoleic-acid#002",
+   "text": "Use(s) or Purpose(s): May help to support a modest improvement to body composition when used with a program of reduced intake of dietary calories and increased physical activity (Raff et al. 2009; Gaullier et al. 2007; Pinkoski et al. 2006; Gaullier et al. 2004; Kamphuis et al. 2003).\nMay help to support a modest reduction in fat mass when used with a program of reduced intake of dietary calories and increased physical activity (Raff et al. 2009; Gaullier et al. 2007; Watras et al. 2007; Pinkoski et al. 2006; Gaullier et al. 2004).\nNote: The above uses can be combined on the product label (e.g., May help to support a modest reduction in fat mass and a modest improvement to body composition when used with a calorie-reduced diet and increased physical activity).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "CONJUGATED LINOLEIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 132
+  },
+  {
+   "chunk_id": "hc-nhpid-conj-linoleic-acid#003",
+   "text": "Quantity(ies): 3 - 5 grams of CLA, per day (Raff et al. 2009; Gaullier et al. 2007; Watras et al. 2007; Pinkoski et al. 2006; Gaullier et al. 2004; Kamphuis et al. 2003).\nNote: Additional information not to be submitted with the compendial PLA (although the quantity of CLA-rich oil may be requested at the NNHPD's discretion): Approximately 4-6.5 g CLA-rich oil provides 3-5 g CLA.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CONJUGATED LINOLEIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 66
+  },
+  {
+   "chunk_id": "hc-nhpid-conj-linoleic-acid#004",
+   "text": "Direction(s) for use: Optional: Take with food (Watras et al. 2007; Kamphuis et al. 2003).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CONJUGATED LINOLEIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 15
+  },
+  {
+   "chunk_id": "hc-nhpid-conj-linoleic-acid#005",
+   "text": "Duration(s) of use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 6 months (Gaullier et al. 2007; Watras et al. 2007; Gaullier et al. 2005; Gaullier et al. 2004).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CONJUGATED LINOLEIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "hc-nhpid-conj-linoleic-acid#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are obese or have cardiovascular disease (CVD) risk factors (Tholstrup et al. 2008; Gaullier et al. 2007; Steck et al. 2007; Larsen et al. 2006; Taylor et al. 2006; Gaullier et al. 2005; Smedman et al. 2005; Gaullier et al. 2004; Basu et al. 2000a,b).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if your goal is to achieve weight loss.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CONJUGATED LINOLEIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 95
+  },
+  {
+   "chunk_id": "hc-nhpid-conj-linoleic-acid#007",
+   "text": "Contraindication(s): Do not use if you are pregnant (HC 2010).\nDo not use if you have cardiovascular disease (CVD), diabetes, metabolic syndrome or insulin resistance (Tholstrup et al. 2008; Gaullier et al. 2007; Steck et al. 2007; Larsen et al. 2006; Taylor et al. 2006; Gaullier et al. 2005; Smedman et al. 2005; Gaullier et al. 2004; Moloney et al. 2004; Basu et al. 2000a,b).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes"
+   ],
+   "entities": [
+    "CONJUGATED LINOLEIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 65
+  },
+  {
+   "chunk_id": "hc-nhpid-conj-linoleic-acid#008",
+   "text": "Known adverse reaction(s): When using this product you may experience gastrointestinal discomfort/disturbances (Gaullier et al. 2007; Pinkoski et al. 2006; Berven et al. 2000; Blankson et al. 2000).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CONJUGATED LINOLEIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  }
+ ]
+}

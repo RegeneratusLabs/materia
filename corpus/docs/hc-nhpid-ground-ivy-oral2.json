@@ -1,0 +1,164 @@
+{
+ "doc_id": "hc-nhpid-ground-ivy-oral2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "GROUND IVY - GLECHOMA HEDERACEA -Oral",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=ground.ivy.oral2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "ground.ivy.oral2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:15c7a94f5257240290a0637c71de206aeca0eb8e13f70977b5350bbb4346e2dc",
+ "entities": [
+  "GROUND IVY - GLECHOMA HEDERACEA -Oral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-ground-ivy-oral2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GROUND IVY - GLECHOMA HEDERACEA -Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-ground-ivy-oral2#002",
+   "text": "Use(s) or Purpose(s): Traditionally used in Herbal Medicine (as a stomachic) to aid digestion (Barnes et al. 2007; Grieve 1971).\nTraditionally used in Herbal Medicine (as an expectorant) to help relieve coughs, mucous production (anticatarrhal) and bronchial afflictions (Barnes et al. 2007; Bradley 1992; Williamson et al. 1988).\nTraditionally used in Herbal Medicine (as an astringent) to help relieve diarrhea (Barnes et al. 2007; Bartram 1998; Bradley 1992; Williamson et al. 1988; Grieve 1971).\nTraditionally used in Herbal Medicine as a diuretic (Barnes et al. 2007; Williamson et al. 1988; Grieve 1971).\nTraditionally used in Herbal Medicine to help relieve hemorrhoids (Barnes et al. 2007; Williamson et al. 1988).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help relieve diarrhea and to help relieve hemorrhoids).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Ground ivy is traditionally used in Herbal Medicine to aid digestion).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "GROUND IVY - GLECHOMA HEDERACEA -Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "hc-nhpid-ground-ivy-oral2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "GROUND IVY - GLECHOMA HEDERACEA -Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-ground-ivy-oral2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n2 - 12 grams of dried herb top, per day (Bradley 1992; Williamson et al. 1988; Grieve 1971).\n*Note: Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry extract)” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GROUND IVY - GLECHOMA HEDERACEA -Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 59
+  },
+  {
+   "chunk_id": "hc-nhpid-ground-ivy-oral2#005",
+   "text": "Duration(s) of Use: Diuretic\nFor occasional use only (Berardi et al. 2002; CPhA 2002).\nOther uses\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "GROUND IVY - GLECHOMA HEDERACEA -Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-ground-ivy-oral2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Barnes et al. 2007).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "GROUND IVY - GLECHOMA HEDERACEA -Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "hc-nhpid-ground-ivy-oral2#007",
+   "text": "Known adverse reaction(s): All products except those making a diuretic claim 1\nWhen using this product diuretic effect may occur.\n1 Note: This statement is not required at a subtherapeutic quantity below 10% of the minimum therapeutic quantity (i.e., < 200 mg of dried herb top per day) as this is based on the therapeutic or residual therapeutic effect of the medicinal ingredient.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "GROUND IVY - GLECHOMA HEDERACEA -Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  }
+ ]
+}

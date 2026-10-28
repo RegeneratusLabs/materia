@@ -1,0 +1,311 @@
+{
+ "doc_id": "hc-nhpid-multiple-joint-health2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Joint Health Products (Source ingredient)",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=multiple.joint.health2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "multiple.joint.health2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:1a3fbaf0f745ea36d2401011210d8cc9cad886963b267683a5034d08f1bcd237",
+ "entities": [
+  "Joint Health Products",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#002",
+   "text": "Use(s) or Purpose(s): Refer to Tables 2 and 3 .\nNotes\nIt is mandatory for all products to cite at least one use or purpose statement from Table 2.\nA use or purpose statement is acceptable only if at least one medicinal ingredient associated with that statement is present at a dose at or above the minimum daily dose listed in Table 2.\nMedicinal ingredients which do not meet the minimum daily dose for a use or purpose statement will be considered as acceptable complementary medicinal ingredients in product formulations.\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Turmeric is traditionally used in Herbal Medicine to help relieve joint pain).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 197
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#003",
+   "text": "Quantity(ies): Refer to Tables 2 and 3 .\nNote: When ‘decoction’ or ‘infusion’ is listed as an acceptable method of preparation, ‘decoction concentrate’ or ‘infusion concentrate’ is also allowed. It also applies to standardized methods of preparation.\nTable 2. Joint health uses or purposes and associated daily doses\nMedicinal ingredients\nUses or purposes 1\nMethods of preparation\nDose/day\nSingle dose\nMinimum 2\nMaximum 3\nMaximum single dose 3\nBoswellia serrata\nHelps relieve joint pain and swelling associated with osteoarthritis of the knee.\nStandardized Extracts\n999 mg extracts standardized to 40% boswellic acid\n999 mg extracts standardized to 40% boswellic acid\n333 mg extracts standardized to 40% boswellic acid\nChondroitin sulfate\nHelps relieve (joint) pain associated with osteoarthritis (of the knee).\nN/A\n800 mg\n1,200 mg\nN/A\nCurcumin\nHelps relieve joint pain and inflammation.\nN/A\n1,200 mg\n1,200 mg\n400 mg\nCurcuminoids\nHelps relieve joint pain and inflammation.\nN/A\n1,500 mg\nOptional: The potency constituent, curcumin, can be included\n1,500 mg\nOptional: The potency constituent, curcumin, can be included\n500 mg\nTurmeric\n(concentrated extracts)\nHelps relieve joint pain and inflammation.\nStandardized Extracts\nExtract standardized to 75% curcuminoids or more; Providing 1,500 mg curcuminoids\nOptional: The potency constituent, curcumin, can be included\nExtract standardized to 75% curcuminoids or more; Providing 1,500 mg curcuminoids\nOptional: The potency constituent, curcumin, can be included",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#004",
+   "text": "Quantity(ies): Extract standardized to 75% curcuminoids or more; Providing 500 mg curcuminoids\nTurmeric\n(native extracts) 4\n(Traditionally) used in Herbal Medicine (as an anti-inflammatory) to help relieve joint pain.\nDry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Infusion)\n1,000 mg dried rhizome; For dry extracts, maximum ratio is 10:1\n9,000 mg dried rhizome; For dry extracts, maximum ratio is 10:1\nN/A\nStandardized Extracts\nExtracts providing up to 35% curcuminoids and a Quantity crude equivalent of 1,000 mg dried rhizome\nOptional: The potency constituent, curcumin, can be included\nExtracts providing up to 35% curcuminoids and a Quantity crude equivalent of 9,000 mg dried rhizome\nOptional: The potency constituent, curcumin, can be included\nDevil's claw\nUsed in Herbal Medicine to help relieve joint pain associated with osteoarthritis.\nDry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Infusion)\n600 mg dried secondary root tubers\n7,500 mg dried secondary root tubers\nN/A\nFish oil 5\nIn conjunction with conventional therapy, helps reduce the pain of rheumatoid arthritis in adults.\nStandardized fixed oil\n2,800 mg eicosapentaenoic acid (EPA) + docosahexaenoic acid (DHA) with a EPA:DHA ratio of 0.5:1-2:1\n5,000 mg EPA + DHA with a EPA:DHA ratio of 0.5:1-2:1\nN/A\nGlucosamine hydrochloride\nHelps maintain healthy cartilage/joint health.\nN/A\n1,500 mg\n2,000 mg\nN/A\nGlucosamine sulfate",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#005",
+   "text": "Quantity(ies): Helps relieve joint pain associated with osteoarthritis (of the knee).\nHelps protect against the deterioration of cartilage.\nA factor in maintaining healthy cartilage and/or joint health.\nN/A\n1,500 mg\n1,500 mg\nN/A\nHyaluronic acid\nHelps support joint health.\nN/A\n48 mg (sourced from Gallus gallus comb)\n120 mg (sourced from Gallus gallus comb)\nN/A\n120 mg (sourced from microbial fermentation)\n200 mg (sourced from microbial fermentation)\nHydrolyzed collagen\nHelps reduce joint pain associated with osteoarthritis.\nHelps reduce osteoarthritis-related joint pain.\nHelps manage/in the management of joint pain.\nN/A\n1,200 mg\n10,000 mg\nN/A\nMethylsulfonylmethane (MSM)\nHelps relieve (joint) pain associated with osteoarthritis (of the knee).\nN/A\n1,500 mg\n6,000 mg\n2,000 mg\nWillow bark\nUsed in Herbal Medicine to relieve minor joint pain (due to osteoarthritis).\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n3,000 mg dried (young branch) bark\n9,000 mg dried (young branch) bark\n3,000 mg dried (young branch) bark\nStandardized Extracts\nExtract providing up to 15% total salicin equivalent to 45 mg total salicin\nExtract providing up to 15% total salicin equivalent to 240 mg total salicin\nExtract providing up to 15% total salicin equivalent to 120 mg total salicin",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 197
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#006",
+   "text": "Quantity(ies): 1 At least two of the following references were consulted per use or purpose: EMA 2017; Bruyère et al. 2012; Benito-Ruiz et al. 2009; Yoshida et al. 2009; Clark et al. 2008; Winston and Kuhn 2008; Herrero-Beaumont et al. 2007; Mazières et al. 2007; Sontakke et al. 2007; Towheed and\nAnastassiades 2007; Kim et al. 2006; Mills and Bone 2005; Uebelhart et al. 2004; Usha and Naidu 2004; Braham et al. 2003; ESCOP 2003; Hoffmann 2003; Kimmatkar et al. 2003; Pavelka et al. 2002; Sato et al. 2002; Mazières et al. 2001; Reginster et al. 2001; Thie et al. 2001; Blumenthal et al. 2000; Mills and Bone 2000; Volker et al. 2000; Houpt et al. 1999; Bourgeois et al. 1998; Bucsi and Poor 1998; Uebelhart et al. 1998; Sköldstam et al. 1992; Deodhar et al. 1980.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 137
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#007",
+   "text": "Quantity(ies): 2 At least one of the following references was consulted per minimum dose: EMA 2017; Bruyère et al. 2012; Benito-Ruiz et al. 2009; WHO 2009; Yoshida et al. 2009; Clark et al. 2008; Kalman et al. 2008; Herrero-Beaumont et al. 2007; Mezieres et al. 2007; Sontakke et al. 2007; Fitzpatrick 2005; Mills and Bone 2005; Boon and Smith 2004; Uebelhart et al. 2004; Usha and Naidu 2004; Wichtl 2004; ESCOP 2003; Hoffmann 2003; Kimmatkar et al. 2003; Williamson 2003; Barnes et al. 2002; Pavelka et al. 2002; Mezieres et al. 2001; Reginster et al. 2001; Blumenthal et al. 2000; Volker et al. 2000; Houpt et al. 1999; Bucsi and Poor 1998; Uebelhart et al. 1998; Deodhar et al. 1980.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#008",
+   "text": "Quantity(ies): 3 At least one of the following references was consulted per maximum dose: EMA 2017; Bruyère et al. 2012; Benito-Ruiz et al. 2009; WHO 2009; Clark et al. 2008; Sato et Iwaso 2008; Herrero-Beaumont et al. 2007; Sontakke et al. 2007; Hathcock and Shao 2006; Kim et al. 2006; Mills and Bone 2005; Boon and Smith 2004; Wichtl 2004; Braham et al. 2003; ESCOP 2003; Kimmatkar et al. 2003; Williamson 2003; Barnes et al. 2002; Pavelka et al. 2002; Sato et al. 2002; Reginster et al. 2001; Blumenthal et al. 2000; Bourgeois et al. 1998; US FDA 1997; BHC 1992; Deodhar et al. 1980.\n4 Turmeric: Refer to the Turmeric monograph for more information on native extracts.\n5 Fish oil: The EPA:DHA ratio for fish oil must be between 0.5:1 and 2:1 (Volker et al. 2000; Sköldstam et al. 1992) and potency must be expressed as the quantity (mg) and/or percent (%) of EPA and DHA (% w/w) relative to the total quantity of fish oil.\n*Note: For Devil's claw and Turmeric, solvents allowed for the method of preparation \"Non-standardized extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 194
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#009",
+   "text": "Quantity(ies): The following claims are only acceptable in addition to at least one claim from Table 2 above. A joint health product cannot contain only ingredients and claims from Table 3.\nTable 3. Additional uses or purposes (optional) and associated daily doses\nMedicinal ingredients\nUses or purposes 1\nMethods of preparation\nDose/day\nSingle dose\nMinimum 2\nMaximum 3\nMaximum/ single dose 3\nbeta-Carotene\nProvitamin A/Source of vitamin A to help in the development and maintenance of bones.\nHelps in the development and maintenance of bones.\nN/A\n390 µg\n18,000 µg\nN/A\nBoron 4\nHelps maintain healthy calcium metabolism.\nN/A\n0.7 mg\n3.36 mg 4\nN/A\nBromelain 5\nUsed in herbal medicine to help relieve minor pain, swelling and inflammation.\nN/A\n480,000 FCC PU\n130,000,000 FCC PU\n45,000,000 FCC PU\nCalcium\nAdequate calcium (and vitamin D) (throughout life) as part of a healthy diet, (along with physical activity) may help prevent bone loss/osteoporosis (in peri- and postmenopausal women) (in later life).\nAdequate calcium (and vitamin D) (throughout life) as part of a healthy diet, (along with physical activity) may reduce the risk of developing osteoporosis (in peri- and postmenopausal women) (in later life).\nAs part of a healthy diet (when taken with Vitamin D) may help prevent bone loss/osteoporosis.\nHelps in the development and maintenance of bones.\nHelps maintain/support bone health.\nN/A",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#010",
+   "text": "Quantity(ies): 65 mg\n1,500 mg\nN/A\nMagnesium\nHelps in the development and maintenance of bones.\nN/A\n20 mg\n500 mg\nN/A\nManganese\nHelps in the development and maintenance of bones.\nN/A\n0.13 mg\n9 mg\nN/A\nVitamin A\nHelps in the development and maintenance of bones.\nHelps build strong bones\nN/A\n65 µg RAE\nall-trans\nRetinol: 3,003 µg RAE\nN/A\nall-trans\nRetinyl acetate: 3,000 µg RAE\nall-trans\nRetinyl palmitate: 3,022 µg RAE\nVitamin C\nHelps in the development and maintenance of bones.\nHelps in collagen formation to maintain/support healthy bones.\nN/A\n6 mg\n2,000 mg\nN/A\nVitamin D\nHelps in the development and maintenance of bones.\nVitamin D intake, when combined with sufficient calcium, a healthy diet, and regular exercise, may reduce the risk of developing osteoporosis.\nN/A\n1 µg\n25 µg\nN/A\nVitamin K 1\nVitamin K 2\nand total Vitamin K 1 + K 2\nHelps in the maintenance of bones.\nN/A\n6 µg\n120 µg\nN/A\n1 At least two of the following references were consulted per use or purpose: HC 2018; Hunt 2012; FDA 2008; Tang et al. 2007; IOM 2006; NAMS 2006; Shils et al. 2006; Devirian and Volpe 2003; Brown and Josse 2002; Walker et al. 2002; Groff and Gropper 2000; NIH 2001; Blumenthal 1998; IOM 1997; Nielsen et al. 1987.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#011",
+   "text": "Quantity(ies): 2 At least one of the following references was consulted per minimum daily dose: HC 2018; Hunt 2012; IOM 2006; Walker et al. 2002; Blumenthal 1998.\n3 At least one of the following references was consulted per maximum daily dose: HC 2018; Hunt 2012; IOM 2006; Kerkhoffs et al. 2004; Singer et al. 2001.\n4 Boron: Specific rule for boron for products providing more than 0.7 mg of boron per day. Refer to the ‘ Notes ’ section below.\n5 Bromelain: One papain unit (PU) is defined as that quantity of enzyme that liberates the equivalent of 1 microgram of tyrosine per hour under the conditions of the assay. One gelatin digestion unit (GDU) is approximately equivalent to 15,000 FCC papain unit (1 GDU ≈ 15,000 FCC PU). The quantity per dosage unit must be the enzymatic activity. The quantity of the enzymatic preparation in mg or ml may also be included as additional quantity\nNotes\nThe above uses can be combined on the product label (e.g. Helps maintain joint health and reduce joint pain associated with osteoarthritis).\nThe terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 192
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#012",
+   "text": "Quantity(ies): Specific rule for products providing more than 0.7 mg of boron per day: in order to ensure a favorable risk-benefit profile, a product providing elemental boron at doses in excess of 0.7 mg and up to the maximum limit of 3.36 mg per day must:\nbe a joint health product;\ncontain at least one medicinal ingredient from Table 2;\nand\nmake only the specified joint pain/health claims from Table 2. In addition, the claim associated with boron ‘Helps maintain healthy calcium metabolism’ can be included.\nOther health products such as multi-vitamin/mineral supplements must not provide more than the maximum limit of 0.7 mg elemental boron per day.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 108
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#013",
+   "text": "Direction(s) for use: Table 4. Direction(s) for use\nMedicinal ingredients\nDaily dose\nDirections for use 1\nBoron\n0.7 mg or more boron when the claim associated with boron is made and if the product formulation does not also contain amounts of vitamin D and calcium that meet the minimum doses from the NNHPD Multi-Vitamin/Mineral Supplement monograph.\nTake with vitamin D and calcium.\nBromelain\nAll doses (Optional)\nTake with food.\nCalcium\nAll doses\nTake with food.\nTake a few hours before or after taking other medications or health products.\nMethylsulfonylmethane (MSM)\n1,500 mg or more MSM\nTake with food.\nAvoid taking at bedtime.\n1 The following references were consulted for the directions for use: Boron: Devirian and Volpe 2003; Zittermann 2003; Calcium: Brayfield and Cadart 2025, IOM 2011, ASHP 2005; MSM: Kim et al. 2006.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 134
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#014",
+   "text": "Duration(s) of use: Notes\nA minimum duration of use statement is required for all products citing use or purpose statements associated with boswellia, chondroitin sulfate, devil's claw, glucosamine (hydrochloride and sulfate), hydrolyzed collagen or methylsulfonylmethane (MSM).\nIf more than one minimum duration of use is required for a particular product formulation, the shortest minimum duration of use must be the only one listed on the label since they are associated with similar uses.\nA maximum duration of use statement is required for all products containing bromelain or willow bark. If the maximum duration of use is shorter than the minimum duration of use to see beneficial effects, the associated claim cannot be included. If more than one maximum duration of use is required for a particular product formulation, the shortest maximum duration of use statement must be the only one listed on the label.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 144
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#015",
+   "text": "Caution(s) and warning(s): Products providing more than 2.8 g of hydrolyzed collagen per day or any other medicinal ingredient from Table 2 at any dose (except products containing willow bark requiring a contraindication)\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\n(Joint) pain (and swelling) associated with osteoarthritis or rheumatoid arthritis\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen.\nJoint inflammation/anti-inflammatory/minor pain, swelling and inflammation relief\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nProducts containing following medicinal ingredients\nTable 6. Caution(s) and warning(s)\nMedicinal ingredients\nDaily dose\nCautions and warnings 1\nbeta-Carotene\nMore than 6,000 µg\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are a tobacco smoker.\nBoron\nMore than 0.7 mg\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have been diagnosed with estrogen-dependant cancer or have a kidney disorder.\nBromelain\nAll doses\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have gastrointestinal lesions/ulcers or are having a surgery.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners, anti-inflammatory agents or antibiotics.\nCurcumin/Curcuminoids/Turmeric (concentrated extracts)\nAll doses",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "surgery",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#016",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a liver or biliary disorder.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications including blood thinners.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience any new symptoms including yellowing of the eyes or skin, dark urine, nausea, vomiting, stomach pain.\nFish oil and willow bark combined\nAll doses\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are having a surgery.\nManganese\nMore than 5 mg\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before if you have a liver disorder.\nTurmeric (native extracts)\nAll doses\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a liver or biliary disorder.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience any new symptoms including yellowing of the eyes or skin, dark urine, nausea, vomiting, stomach pain.\nVitamin K 1 and/or K 2\nAll doses\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners.\nWillow bark\nAll doses",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "surgery"
+   ],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#017",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you have asthma or peptic ulcer disease.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners or products containing salicylates (e.g., acetylsalicylic acid or non-steroidal anti-inflammatory drugs).\n1 The following references were consulted for the caution and warning statements: beta-Carotene: Touvier et al. 2005; Omenn et al. 1996; ATBC 1994; Boron: Usuda et al. 1996; Nielsen et al. 1992; Bromelain: Brinker 2010; Blumenthal et al. 2000; Curcumin: HC 2025; Brinker 2010; Mills and Bone 2005; ESCOP 2003; McGuffin et al. 1997; Fish oil and willow bark combined: Block et al. 2012, 2013; Larson et al. 2008; Manganese: IOM 2006; IOM 2001; Krieger et al. 1995; Turmeric: HC 2025; EMA 2018; Brinker 2010; ESCOP 2003; McGuffin et al. 1997; Vitamin K1, K2: ASHP 2005; Franco et al 2004; IOM 2001; Hansten et al 1997; Willow bark: EMA 2017.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 160
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#018",
+   "text": "Contraindication(s): Products containing willow bark\nDo not use if you are pregnant or breastfeeding (EMA 2017; Brinker 2010; Wichtl 2004; ESCOP 2003; Barnes et al. 2002; Blumenthal et al. 2000).\nDo not use if you are allergic to salicylates (EMA 2017; Brinker 2010; Wichtl 2004, ESCOP 2003; Barnes et al. 2002; Blumenthal et al. 2000).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 55
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-joint-health2#019",
+   "text": "Known adverse reaction(s): Products containing boswellia and/or bromelain\nStop use if hypersensitivity/allergy occurs (Brayfield and Cadart 2025; Brinker 2010; WHO 2009; Murray and Pizzorno 2006; Blumenthal et al. 2000; Baur and Fruhmann 1979).\nProducts containing boswellia; bromelain; hydrolyzed collagen; methylsulfonylmethane and/or willow bark\nWhen using this product you may experience gastrointestinal discomfort/disturbances (Brayfield and Cadart 2025; EMA 2017; Brinker 2010; Sontakke et al. 2007; Brien et al. 2006; Wichtl 2004; ESCOP 2003; Kimmatkar et al. 2003; Barnes et al. 2002; Blumenthal et al. 2000; McGuffin 2000; Moskowitz 2000).\nProducts providing more than 350 mg magnesium per day\nWhen using this product you may experience diarrhoea (IOM 2006, IOM 1997).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Joint Health Products",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 109
+  }
+ ]
+}

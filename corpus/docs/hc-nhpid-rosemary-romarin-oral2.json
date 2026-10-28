@@ -1,0 +1,142 @@
+{
+ "doc_id": "hc-nhpid-rosemary-romarin-oral2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ROSEMARY – ROSMARINUS OFFICINALIS Oral",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=rosemary.romarin.oral2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "rosemary.romarin.oral2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:356fcb6f768601c0832611d951cd99d0a0e7abdd348d428eda99880c4effccb9",
+ "entities": [
+  "ROSEMARY – ROSMARINUS OFFICINALIS Oral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-oral2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ROSEMARY – ROSMARINUS OFFICINALIS Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-oral2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (HC 2026).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (HC 2026).\n(Traditionally) used in Herbal Medicine (as a carminative) to help relieve flatulent indigestion (Barnes et al. 2007; Bradley 2006; Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000).\n(Traditionally) used in Herbal Medicine to help ease (gastric) headaches (Barnes et al. 2007; Bradley 2006; Mills and Bone 2005; Hoffmann 2003; Blumenthal et al. 2000; Tilgner 1999;\nGrieve 1971).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help ease gastric headaches and relieve flatulent indigestion).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Rosemary is traditionally used in Herbal Medicine to help ease headaches).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ROSEMARY – ROSMARINUS OFFICINALIS Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 199
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-oral2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ROSEMARY – ROSMARINUS OFFICINALIS Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-oral2#004",
+   "text": "Quantity(ies): Antioxidants\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nUp to 12 grams of dried leaf, per day (Barnes et al. 2007; Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000; BHP 1983).\nOther uses\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.6 – 12 grams of dried leaf, per day (Barnes et al. 2007; Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000; BHP 1983).\nMethods of preparation: Non-Standardized Aqueous Extracts (Dry extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n2 – 12 grams of dried leaf, per day (Mills and Bone 2005; ESCOP 2003; Blumenthal et al. 2000; BHP 1983).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ROSEMARY – ROSMARINUS OFFICINALIS Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 124
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-oral2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ROSEMARY – ROSMARINUS OFFICINALIS Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "hc-nhpid-rosemary-romarin-oral2#006",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (Gardner and McGuffin 2013; Brinker 2010; Barnes et al. 2007; Blumenthal et al. 2000).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "ROSEMARY – ROSMARINUS OFFICINALIS Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  }
+ ]
+}

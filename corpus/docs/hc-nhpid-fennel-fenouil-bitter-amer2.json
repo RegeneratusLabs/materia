@@ -1,0 +1,269 @@
+{
+ "doc_id": "hc-nhpid-fennel-fenouil-bitter-amer2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "BITTER FENNEL- FOENICULUM VULGARE",
+ "title_extra": null,
+ "date": "2024-11-29",
+ "revised": "2024-11-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-11-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=fennel.fenouil.bitter.amer2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "fennel.fenouil.bitter.amer2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:ff94b0d9e609a65854e69ab2a69406db776e550a3f00241f65819cf86ff9fd36",
+ "entities": [
+  "BITTER FENNEL- FOENICULUM VULGARE",
+  "Bitter fennel fruit",
+  "Proper name",
+  "Common name",
+  "Source information"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 4-5 years: The acceptable dosage forms are limited to chewables, emulsion/suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: The acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 84
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#002",
+   "text": "Use(s) or Purpose(s): All products (fruit/seed and essential oil)\n(Traditionally) used in Herbal Medicine as an expectorant to help relieve coughs associated with colds (EMA 2024, 2007).\nFruit/Seed (except essential oil)\n(Traditionally) used in Herbal Medicine to help relieve digestive upset including bloating and flatulence (EMA 2024).\n(Traditionally) used in Herbal Medicine to help relieve the pain associated with menstruation (EMA 2024).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help relieve the pain associated with menstruation and digestive upset including bloating and flatulence). Does not apply to the essential oil as only one claim is associated with it.\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Bitter fennel is traditionally used in Herbal Medicine as an expectorant to help relieve coughs associated with colds).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 195
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#004",
+   "text": "Subpopulation(s): Adults 18 years and older (EMA 2007).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 8
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#005",
+   "text": "Quantity(ies): Method of preparation: Oil, Essential (water steam distillation)\n0.2 milliliters of essential oil, per day (EMA 2007).\nFRUIT/SEED",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#006",
+   "text": "Subpopulation(s): Adults 18 years and older (Bradley 2006).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 8
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#007",
+   "text": "Quantity(ies): Methods of preparation: Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.6 - 2.8 grams of dried fruit/seed, per day (Bradley 2006; Hoffman 2003; Blumenthal 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#008",
+   "text": "Subpopulation(s): Children 4-11 years, Adolescents 12-17 years, Adults 18 years and older (EMA 2024).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#009",
+   "text": "Quantity(ies): Methods of preparation: Dry 1 , Non-Standardized Aqueous Extracts (Dry extract, Infusion, Infusion concentrate)\nChildren 4-11 years\n3 - 5 grams of dried fruit/seed, per day; Not to exceed 1.6 grams per single dose (EMA 2024)\nAdolescents 12-17 years; Adults 18 years and older\n4.5 - 7.5 grams of dried fruit/seed, per day; Not to exceed 2.5 grams per single dose (EMA 2024)\n1 Note: Dried fruit/seed should be prepared as an infusion (see direction for use).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 78
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#010",
+   "text": "Direction(s) for use: Dried fruits/seeds\nPour 250 ml (1 cup) of boiling water over fruit/seed and infuse for 15 minutes (EMA 2024).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#011",
+   "text": "Duration(s) of Use: Children 4-11 years\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 1 week (EMA 2024).\nAdolescents 12-17 years; Adults 18 years and older\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 2 weeks (EMA 2024, 2007).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#012",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (EMA 2024, 2007).\nEssential oil and Tincture\nAsk a health care practitioner before use if you are taking any medications including birth control pills or hormone therapy or other health products (EMA 2007).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 69
+  },
+  {
+   "chunk_id": "hc-nhpid-fennel-fenouil-bitter-amer2#013",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (EMA 2024, 2007).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "BITTER FENNEL- FOENICULUM VULGARE",
+    "Bitter fennel fruit",
+    "Proper name",
+    "Common name",
+    "Source information"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  }
+ ]
+}

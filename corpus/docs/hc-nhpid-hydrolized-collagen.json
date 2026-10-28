@@ -1,0 +1,155 @@
+{
+ "doc_id": "hc-nhpid-hydrolized-collagen",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Hydrolyzed Collagen",
+ "title_extra": null,
+ "date": "2024-03-28",
+ "revised": "2024-03-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-03-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=hydrolized.collagen&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "hydrolized.collagen"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:ec691a7c4f0c53e472d6e5a9578e092449521d03f5b6a306dad36344cb20f0d0",
+ "entities": [
+  "Hydrolyzed Collagen",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-hydrolized-collagen#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Hydrolyzed Collagen",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrolized-collagen#002",
+   "text": "Use(s) or Purpose(s): Source of (the) essential amino acid(s) (histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, valine) for the maintenance of good health/involved in (muscle) protein synthesis (CNF 2023; IOM 2005; Eastoe 1955).\nSource of (the) non-essential amino acid(s) (alanine, arginine, aspartic acid, glutamic acid, glycine, proline, serine, tyrosine) involved in (muscle) protein synthesis (CNF 2023; IOM 2005; Eastoe 1955).\nSource of (the essential amino acid) lysine to help in collagen formation/synthesis (derMarderosian and Beutler 2011; Baziwane and He 2003; Garrison and Somer 1995; Jansen 1962).\nHelps reduce joint pain associated with osteoarthritis (Bruyère et al. 2012; Benito-Ruiz et al. 2009; Clark et al. 2008).\nHelps reduce osteoarthritis-related joint pain (Bruyère et al. 2012; Benito-Ruiz et al. 2009; Clark et al. 2008).\nHelps manage/in the management of joint pain (Bruyère et al. 2012; Benito-Ruiz et al. 2009; Clark et al. 2008).\nNotes:\nThe above uses can be combined on the product label (e.g. Source of essential amino acids for the maintenance of good health and non-essential amino acids involved in muscle protein synthesis).\nThe terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Hydrolyzed Collagen",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 186
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrolized-collagen#003",
+   "text": "Quantity(ies): Source of (the) essential amino acid(s)(histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, valine)\n2.6-10 grams hydrolyzed collagen, per day (IOM 2005; Moskowitz 2000).\nOR\nEssential amino acids\nMinimum dose (mg/day)\n5% of the RDA 1\nMaximum dose of hydrolyzed collagen (g/day) 2\nL-Histidine\n49 mg\n10 g\nL-Isoleucine\n66.5 mg\nL-Leucine\n147 mg\nL-Lysine\n133 mg\nL-Methionine\n66.5 mg\nL-Phenylalanine\n115.5 mg\nL-Threonine\n70 mg\nL-Valine\n84 mg\n1 Minimum doses have been calculated as 5% of each specific amino acid Recommended Dietary Allowance with a reference weight of 70 kg (IOM 2005).\n2 Maximum dose (Benito-Ruiz et al. 2009; IOM 2005; Moskowitz 2000).\nSource of (the) non-essential amino acid(s) (alanine, arginine, aspartic acid, glutamic acid, glycine, proline, serine, tyrosine)\n2.6-10 grams hydrolyzed collagen, per day (IOM 2005; Moskowitz 2000).\nOR\nNon-Essential amino acids\nMinimum dose (mg/day)\n5% of the RDA 1\nMaximum dose of hydrolyzed collagen (g/day) 2\nL-Alanine\n181.5 mg\n10 g\nL-Arginine\n208.5 mg\nL-Aspartic acid\n325 mg\nL-Glutamic acid\n750 mg\nGlycine\n160 mg\nL-Proline\n259.5 mg\nL-Serine\n175.5 mg\nL-Tyrosine\n139 mg\n1 Minimum doses have been calculated as 5% of each specific amino acid Mean Intake (IOM 2005)\n2 Maximum dose (Benito-Ruiz et al. 2009; IOM 2005; Moskowitz 2000).\nSource of lysine\nEssential amino acids\nMinimum dose(mg/day)\n5% of the RDA 1",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Hydrolyzed Collagen",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrolized-collagen#004",
+   "text": "Quantity(ies): Maximum dose of hydrolyzed collagen (g/day) 2\nL-Lysine\n133 mg\n10 g\n1 Minimum doses have been calculated as 5% of Recommended Dietary Allowance with a reference weight of 70 kg (IOM 2005).\n2 Maximum dose (Benito-Ruiz et al. 2009; IOM 2005; Moskowitz 2000).\nJoint pain\n1.2-10 grams hydrolyzed collagen, per day (Bruyère et al. 2012; Benito-Ruiz et al. 2009; Clark et al. 2008).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Hydrolyzed Collagen",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 65
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrolized-collagen#005",
+   "text": "Duration(s) of use: Joint pain\nUse for at least 5 months to see beneficial effects (Bruyère et al. 2012; Benito-Ruiz et al. 2009; Clark et al. 2008).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Hydrolyzed Collagen",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrolized-collagen#006",
+   "text": "Caution(s) and warning(s): Joint pain\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen.\nProducts providing more than 2.8 g hydrolyzed collagen, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Shils et al. 2006; Goldman and Ausiello 2004).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Hydrolyzed Collagen",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 52
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrolized-collagen#007",
+   "text": "Known adverse reaction(s): When using this product you may experience gastrointestinal discomfort/disturbances (Moskowitz 2000).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Hydrolyzed Collagen",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

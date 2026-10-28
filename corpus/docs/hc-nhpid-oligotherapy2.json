@@ -1,0 +1,131 @@
+{
+ "doc_id": "hc-nhpid-oligotherapy2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Oligotherapy (Please refer)",
+ "title_extra": null,
+ "date": "2025-01-10",
+ "revised": "2025-01-10",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-01-10",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=oligotherapy2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "oligotherapy2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:96af774cb4ddb0833058c2b9fb28b87a80af79d60992bd723d4c96178821caff",
+ "entities": [
+  "Oligotherapy",
+  "Please refer"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-oligotherapy2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nThe acceptable dosage forms are capsules, chewables (e.g. gummies, tablets), liquids, powders, strips or tablets.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Oligotherapy",
+    "Please refer"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "hc-nhpid-oligotherapy2#002",
+   "text": "Quantity(ies): All products except those specified below\n1 dosage unit, 1 - 2 times per day.\nDosage information for specific single ingredient products:\nProducts containing only Bismuth as a medicinal ingredient\n1 dosage unit every 3 hours up to 8 times per day.\nProducts containing Cobalt as a medicinal ingredient\n1 dosage unit per day.\nProducts containing only Copper as a medicinal ingredient\n1 dosage unit every 3 hours up to 8 times per day.\nProducts containing only Iodine, Iron, Magnesium, Phosphorus or Zinc as\na medicinal ingredient\n1 dosage unit, 1 - 2 times per day.\nDosage information for specific multi-ingredient products:\nProducts containing only Zinc and Copper in combination as medicinal\ningredients\n1 dosage unit, 1 - 2 times per day.\nProducts containing Copper, Gold and Silver in combination as medicinal\ningredients\n1 dosage unit, 1 - 2 times per day.\nTable 1: Proper name(s), Common name(s), Source information and Dosage\ninformation for single ingredient preparation\nProper name(s)\nCommon name(s)\nSource ingredient(s)\nMaximum quantity per dosage unit (μg)\nAluminium\nAluminium\nAluminium gluconate\n176\nBismuth\nBismuth\nBismuth gluconate\n70\nCobalt\nCobalt\nCobalt gluconate\n59\nChromium\nChromium\nChromium (III) chloride\n25\nCopper\nCopper\nCopper gluconate\n725.2\nFluoride\nFluoride\nSodium fluoride\n200\nIodine\nIodine\nSodium iodide;\nPotassium iodide\n24\nIron\nIron\nIron gluconate\n14\nMagnesium\nMagnesium\nMagnesium gluconate\n104.4\nManganese\nManganese",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Oligotherapy",
+    "Please refer"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-oligotherapy2#003",
+   "text": "Quantity(ies): Manganese gluconate\n72.8\nNickel\nNickel\nNickel gluconate\n72.6\nPhosphorus\nPhosphorus\nDisodium phosphate\n140\nPotassium\nPotassium\nPotassium gluconate\n40\nSelenium\nSelenium\nSelenite sodium\n100\nSulphur\nSulphur\nSodium thiosulfate\n122\nZinc\nZinc\nZinc gluconate\n67.4\nTable 2: Proper name(s), Common name(s), Source information and Dosage\ninformation for multi-ingredient preparation containing one or more of\nthe following ingredients\nProper name(s)\nCommon name(s)\nSource ingredient(s)\nMaximum quantity per dosage unit (μg)\nManganese;\nCobalt\nManganese;\nCobalt\nManganese gluconate;\nCobalt gluconate\n72.8\n72.6\nManganese;\nCopper;\nCobalt\nManganese;\nCopper;\nCobalt\nManganese gluconate;\nCopper gluconate;\nCobalt gluconate\n72.8\n72.6\n72.8\nManganese;\nCopper\nManganese;\nCopper\nManganese gluconate;\nCopper gluconate;\n72.6\n72.6\nCobalt;\nNickel\nCobalt;\nNickel\nCobalt gluconate\nNickel gluconate;\n72.6\n72.6\nCopper;\nZinc\nCopper;\nZinc\nCoppergluconate;\nZinc gluconate\n72.6\n67.4\nCobalt;\nNickel;\nZinc\nCobalt;\nNickel;\nZinc\nCobalt gluconate;\nNickel gluconate;\nZinc gluconate\n72.6\n72.6\n67.4\nCopper;\nGold;\nSilver\nCopper;\nGold;\nSilver\nCopper gluconate;\nGold elemental;\nSilver gluconate\n31\n98\n50\nCopper;\nGold;\nSilver\nCopper;\nGold;\nSilver\nCopper gluconate;\nGold elemental;\nSilver gluconate\n63\n1.4\n21.36\nCopper;\nGold;\nSilver\nCopper;\nGold;\nSilver\nCopper gluconate;\nGold elemental;\nSilver gluconate\n500\n0.2\n7.4",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Oligotherapy",
+    "Please refer"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 182
+  },
+  {
+   "chunk_id": "hc-nhpid-oligotherapy2#004",
+   "text": "Direction(s) for use: All products\nUse/Take as directed by a health care practitioner/health care provider/health care professional/doctor/physician.\nProducts containing Iron or Zinc\nTake a few hours before or after taking other medications or health products (Health Canada 2023; Sweetman 2017).\nTake with food (Health Canada 2023; Sweetman 2017).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Oligotherapy",
+    "Please refer"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "hc-nhpid-oligotherapy2#005",
+   "text": "Duration(s) of use: Products containing Bismuth and/or Copper\nUse for 3 - 5 days or as recommended by a health care practitioner/health care provider/health care professional/doctor/physician.\nOther products\nUse for up to 2 months or as recommended by a health care practitioner/health care provider/health care professional/doctor/physician (Brigo 1999).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Oligotherapy",
+    "Please refer"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "hc-nhpid-oligotherapy2#006",
+   "text": "Contraindication(s): Products containing Cobalt\nDo not use if you have an iodine deficiency (EVM 2003).\nProducts containing Manganese\nDo not use if you have tuberculosis or a history of tuberculosis (Padrazzi 1988; Ménétrier 1983).\nProducts containing Manganese and Cobalt\nDo not use if you have tuberculosis or a history of tuberculosis (Ménétrier 1983).\nProducts containing Zinc and/or Copper\nDo not use if you have cancer, tuberculosis or a history of tuberculosis (Padrazzi 1988; Ménétrier 1983).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Oligotherapy",
+    "Please refer"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 75
+  },
+  {
+   "chunk_id": "hc-nhpid-oligotherapy2#007",
+   "text": "Known adverse reaction(s): Products containing Fluoride\nWhen using this product you may experience mottling of the tooth enamel in an area where the drinking water has a natural\nfluorine content in excess of 0.7 parts of fluoride ion per million parts\nof water or is artificially fluoridated.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Oligotherapy",
+    "Please refer"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "doc_id": "hc-nhpid-ephedra2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "EPHEDRA - EPHEDRA SINICA",
+ "title_extra": null,
+ "date": "2026-02-27",
+ "revised": "2026-02-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-02-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=ephedra2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "ephedra2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:8f4e478f674a8deae3f2cc74cabd5a52f4903dd2e35e1722ce52d54b54fb46d6",
+ "entities": [
+  "EPHEDRA - EPHEDRA SINICA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-ephedra2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "EPHEDRA - EPHEDRA SINICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-ephedra2#002",
+   "text": "Use(s) or Purpose(s): Used in Herbal Medicine as a decongestant/to relieve nasal congestion (due to hay fever/allergic rhinitis/allergies/sinusitis/the common cold/flu) (Mills and Bone 2005; Mehendale et al. 2004; Hoffman 2003; Blumenthal et al. 2000; BHP 1983).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "EPHEDRA - EPHEDRA SINICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "hc-nhpid-ephedra2#003",
+   "text": "Quantity(ies): Methods of preparation: Standardized extracts\nExtract providing 8 - 32 milligrams of l-Ephedrine, per day; Not to exceed 8 milligrams of l-Ephedrine per single dose; and Quantity crude equivalent 400 - 1,600 milligrams of dried branchlet and/or branch, and/or stem, per day (HC 2008; MHRA 2005; US FDA 2004; Pickup et al. 1976).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "EPHEDRA - EPHEDRA SINICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 54
+  },
+  {
+   "chunk_id": "hc-nhpid-ephedra2#004",
+   "text": "Duration(s) of use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 7 days (Mills and Bone 2005; US FDA 2004; Blumenthal et al 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "EPHEDRA - EPHEDRA SINICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "hc-nhpid-ephedra2#005",
+   "text": "Caution(s) and warning(s): Keep out of reach of children. In case of overdose, call a poison control centre or get medical help right away.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen or last (for) more than 7 days.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms are accompanied by a high fever that lasts longer than 3 days, the production of thick yellow/green phlegm, rash or a persistent headache.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Brinker 2010; Hackman et al. 2006; Kuczkowski 2006; Mills and Bone 2005; Coffey et al. 2004; Greenway et al. 2004; Haller et al. 2004; Hoffman 2003; Boozer et al. 2002; Boozer et al. 2001; Kalman et al. 2000).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking any other cough and cold or weight control medications or prescription drugs, or products which contain caffeine, ephedrine or pseudoephedrine (Brinker 2010; Hackman et al. 2006; Mills and Bone 2005; Greenway et al. 2004; Naik and Freudenberger 2004; Boozer et al. 2002; Boozer et al. 2001; Haller and Benowitz 2000; Kalman et al. 2000).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children"
+   ],
+   "entities": [
+    "EPHEDRA - EPHEDRA SINICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 207
+  },
+  {
+   "chunk_id": "hc-nhpid-ephedra2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you have asthma, diabetes, glaucoma, heart disease, high blood pressure, kidney disease, difficulty urinating, thyroid disease, seizure disorders, or any other serious medical condition (US FDA 2022; Brinker 2010; Hackman et al. 2006; Mills and Bone 2005; Bensky et al. 2004; Coffey et al. 2004; Greenway et al. 2004; Haller et al. 2004; Hioki et al. 2004; Mehendale et al. 2004; Hoffman 2003; Williamson 2003; Boozer et al. 2002; Boozer et al. 2001; Blumenthal et al. 2000; Kalman et al. 2000; BHP 1983).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "thyroid",
+    "diabetes",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "EPHEDRA - EPHEDRA SINICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "hc-nhpid-ephedra2#007",
+   "text": "Contraindication(s): Do not use with a monoamine oxidase inhibitor (MAOI) or for 2 weeks after stopping the MAOI drug (Brinker 2010; Greenway et al. 2004; Hoffman 2003; Blumenthal et al. 2000; Kalman et al. 2000; Dingemanse et al. 1996; Dawson et al. 1995; Elis et al. 1967).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "EPHEDRA - EPHEDRA SINICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "hc-nhpid-ephedra2#008",
+   "text": "Known adverse reaction(s): Stop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience severe headache, confusion, visual changes/change in vision, nervousness, dizziness, sleeplessness, nausea, rapid heartbeat, difficulty or pain when urinating, or allergic reactions (Khang et al. 2024; Ryu et al. 2017; Brinker 2010; Bensky et al. 2004; Mehendale et al. 2004; Shekelle et al. 2003; Boozer et al. 2001; Astrup et al. 1992).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "EPHEDRA - EPHEDRA SINICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 69
+  }
+ ]
+}

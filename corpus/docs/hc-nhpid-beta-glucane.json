@@ -1,0 +1,119 @@
+{
+ "doc_id": "hc-nhpid-beta-glucane",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "BETA-GLUCAN",
+ "title_extra": null,
+ "date": "2026-07-31",
+ "revised": "2026-07-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-07-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=beta.glucane&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "beta.glucane"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:ec1a15a681a83417d5185bb380f48504bf785b39d7e85822c4ef8906c994de10",
+ "entities": [
+  "BETA-GLUCAN",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-beta-glucane#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "BETA-GLUCAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-beta-glucane#002",
+   "text": "Use(s) or Purpose(s): Oat and/or Barley beta-glucan\nHelps reduce/lower LDL cholesterol (which is one risk factor for the development of coronary heart disease) (Charlton et al. 2012; EFSA 2011a,b, 2010; AbuMweiss et al. 2010; HC 2010; Wolever et al. 2010; Delahoy et al. 2009; Queenan et al. 2007; Wood 2007; Biorklund et al. 2005; NECP 2002; Brown et al. 1999; Ripsin et al. 1992).\nHelps reduce/lower bad cholesterol (which is one risk factor for the development of coronary heart disease) (Charlton et al. 2012; EFSA 2011a,b, 2010; AbuMweiss et al. 2010; HC 2010; Wolever et al. 2010; Delahoy et al. 2009; Queenan et al. 2007; Wood 2007; Biorklund et al. 2005; NECP 2002; Brown et al. 1999; Ripsin et al. 1992).\nProvides support for healthy (postprandial) glucose metabolism (within two hours after a meal) (EFSA 2011a,b; Ulmius et al. 2011; Granfeldt et al. 2008; Panahi et al. 2007; Biorklund et al. 2005; Kabir et al. 2002).\nHelps improve (postprandial) glucose metabolism (within two hours after a meal) (EFSA 2011a,b; Ulmius et al 2011; Granfeldt et al. 2008; Panahi et al. 2007; Biorklund et al. 2005; Kabir et al. 2002).\nSource of fiber for the maintenance of good health (CFIA 2025; IOM 2005).\nHelps support and maintain a healthy digestive system (CFIA 2025; IOM 2005).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "BETA-GLUCAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "hc-nhpid-beta-glucane#003",
+   "text": "Use(s) or Purpose(s): Note: The above uses can be combined on the product label (e.g., Helps reduce/lower bad cholesterol and improve glucose metabolism).\nYeast beta-glucan\nSource of yeast beta-glucans with immunomodulating properties (Dharsono et al. 2018; Auinger et al. 2013; Graubaum et al. 2012).\nHelps reduce the severity of symptoms of the common cold (e.g., sore throat, difficulty swallowing, hoarseness, cough, runny nose) in adults prone to recurrent colds when taken as a preventative measure during winter months (Dharsono et al. 2018; Auinger et al. 2013; Graubaum et al. 2012).\nNote: The above uses can be combined on the product label if the recommended dose for the common cold claim is met (e.g., Source of yeast beta-glucans with immunomodulating properties to help reduce the severity of symptoms of the common cold in adults prone to recurrent colds when taken as a preventative measure during winter months).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "BETA-GLUCAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 146
+  },
+  {
+   "chunk_id": "hc-nhpid-beta-glucane#004",
+   "text": "Quantity(ies): Oat and/or Barley beta-glucan\n2 - 10 grams of beta-Glucan, per day (Charlton et al. 2011; EFSA 2011a,b, 2010; AbuMweiss et al. 2010; Queenan et al. 2007; IOM 2005; Johnston et al. 1998; Braaten et al. 1994; Torronen et al. 1992; Uusitupa et al. 1992).\nYeast beta-glucan\nImmunomodulating properties\nUp to 900 milligrams of yeast beta-glucan, per day (Dharsono et al. 2018; Auinger et al. 2013; Graubaum et al. 2012).\nReduction of the severity of symptoms of the common cold\n450 milligrams of yeast beta-glucan, 2 times per day (Dharsono et al. 2018; Auinger et al. 2013; Graubaum et al. 2012).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BETA-GLUCAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "hc-nhpid-beta-glucane#005",
+   "text": "Caution(s) and warning(s): Reduction of the severity of symptoms of the common cold\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "BETA-GLUCAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "doc_id": "hc-nhpid-firstaid-premierssoins2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "First Aid Antiseptics (Source ingredient)",
+ "title_extra": null,
+ "date": "2024-08-28",
+ "revised": "2024-08-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-08-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=firstaid.premierssoins2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "firstaid.premierssoins2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:77d258c37a6cd3d9ccf77907bc1d3cbe662ea84af0844ab2d181c2526ce7ee31",
+ "entities": [
+  "First Aid Antiseptics",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-firstaid-premierssoins2#001",
+   "text": "Dosage form(s): Acceptable dosage forms for NHPs\nCream (povidone iodine only); Gel (povidone iodine only); Liquid; Lotion (povidone iodine only); Ointment (povidone iodine only); Solution; Spray; Swab; Topical liquid; Wipe.\nAcceptable dosage forms for NPDs\nCream; Gel; Lotion; Ointment; Solution; Spray; Swab; Wipe.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "First Aid Antiseptics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-firstaid-premierssoins2#002",
+   "text": "Subpopulation(s): Children 2 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "First Aid Antiseptics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-firstaid-premierssoins2#003",
+   "text": "Direction(s) for use: All products\nClean the affected area (US FDA 2023).\nApply a small amount to wound 1 to 3 times daily (US FDA 2023).\nMay be covered with a light sterile bandage (US FDA 2023).\nSupervise children when they use this product (US FDA 1994).\nSpray products\nAvoid inhaling or exposing others to spray.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "First Aid Antiseptics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 56
+  },
+  {
+   "chunk_id": "hc-nhpid-firstaid-premierssoins2#004",
+   "text": "Caution(s) and Warning(s): All products\nFor external use only (US FDA 2023).\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with water (US FDA 1994).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen or persist after 7 days, or if irritation develops (US FDA 2023).\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away (US FDA 2013; US FDA 1994; Zimmerman 1993).\nProducts containing povidone-iodine\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a thyroid disease (US FDA 2013).\nProducts containing benzalkonium chloride or benzethonium chloride\nAsk a doctor or pharmacist before use if you are pregnant or breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children",
+    "thyroid"
+   ],
+   "entities": [
+    "First Aid Antiseptics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 127
+  },
+  {
+   "chunk_id": "hc-nhpid-firstaid-premierssoins2#005",
+   "text": "Contraindication(s): All products\nDo not use in the eyes or over large areas of the body (US FDA 2023).\nDo not use on deep or puncture wounds, animal bites or serious burns (US FDA 2023).\nProducts containing povidone-iodine\nDo not use if you are pregnant or breastfeeding (US FDA 2013).\nProducts containing a medicinal ingredient from Table 2\nDo not use if you are allergic to any of the ingredients in the product.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "First Aid Antiseptics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "hc-nhpid-firstaid-premierssoins2#006",
+   "text": "Known Adverse Reaction(s): Products containing povidone-iodine\nRare anaphylactic reactions have been known to occur (Gray et al. 2013; Palobart et al. 2009; Yoshida et al. 2008).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "First Aid Antiseptics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 26
+  }
+ ]
+}

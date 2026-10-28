@@ -1,0 +1,99 @@
+{
+ "doc_id": "hc-nhpid-antidandruff-anitpelliculaire",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Anti-Dandruff Products Monograph",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-06-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=antidandruff_anitpelliculaire&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "antidandruff_anitpelliculaire"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:61a33ce09e3397d506fae34bd9312865bdd148981a69ed5a1100dd4d98668e5b",
+ "entities": [
+  "Anti-Dandruff Products Monograph"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-antidandruff-anitpelliculaire#001",
+   "text": "Dosage form(s): Acceptable dosage forms for NHPs\nCream; Emulsion; Foam; Gel; Liquid; Lotion; Ointment; Paste; Shampoo; Shampoo, suspension; Solution; Suspension; Topical liquid\nAcceptable dosage forms for NPDs\nCream; Emulsion; Shampoo; Solution; Suspension",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Anti-Dandruff Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-antidandruff-anitpelliculaire#002",
+   "text": "Use(s) or Purpose(s): All products\nFor the relief of/Controls/Helps prevent/Fights/Reduces/Helps eliminate/Helps stop the symptoms of dandruff (US FDA 2021).\nHelps prevent (the) recurrence of/Reduces (the) recurrence of/Controls (the) recurrence of/Fights (the) recurrence of/Helps eliminate (the) recurrence of/Helps stop (the) recurrence of the symptoms of dandruff (US FDA 2021).\nFor the relief of/Controls/Helps prevent/Fights/Reduces/Helps eliminate/Helps stop skin/scalp itching/irritation/redness/flaking/(and) scaling associated with dandruff (US FDA 2021).\nHelps prevent (the) recurrence of/Reduces (the) recurrence of/Controls (the) recurrence of/Fights (the) recurrence of/Helps eliminate (the) recurrence of/Helps stop (the) recurrence of skin/scalp itching/irritation/redness/flaking/(and) scaling associated with dandruff (US FDA 2021).\nNote: For NPDs, products making any of the above claims are eligible for the labelling flexibilities set out in section 2.6 of the Labelling requirements for non-prescription drugs guidance document.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Anti-Dandruff Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 125
+  },
+  {
+   "chunk_id": "hc-nhpid-antidandruff-anitpelliculaire#003",
+   "text": "Subpopulation(s): Children 2 to 11 years; Adolescents 12 to 17 years; Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Anti-Dandruff Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-antidandruff-anitpelliculaire#004",
+   "text": "Caution(s) and Warning(s): All products\nFor external use only (US FDA 2021).\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with water (US FDA 2021).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if condition worsens or does not improve after regular use of this product (US FDA 2021).\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away.\nProducts containing coal tar\nWhen using this product use caution in exposing skin to sunlight after applying this product. It may increase your tendency to sunburn for up to 24 hours after application (US FDA 2021).\nProducts containing coal tar (Optional)\nWhen using this product light coloured hair, clothing, and skin may be stained.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Anti-Dandruff Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 131
+  },
+  {
+   "chunk_id": "hc-nhpid-antidandruff-anitpelliculaire#005",
+   "text": "Contraindication(s): Products containing selenium sulfide or coal tar\nDo not use within 48 hours of applying hair colours, bleaching agents, tinted/tinting agents, or permanent waving preparations (Krinsky et al. 2017; CTMA 2016; CPMA 2016).\nProducts containing coal tar or more than 1% selenium sulfide\nDo not use for prolonged periods without asking a health care practitioner/health care provider/health care professional/doctor/physician.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Anti-Dandruff Products Monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 60
+  }
+ ]
+}

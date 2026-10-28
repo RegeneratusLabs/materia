@@ -1,0 +1,179 @@
+{
+ "doc_id": "hc-nhpid-aloe-oral-orale2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ALOE - ALOE VERA/ALOE FEROX - Oral",
+ "title_extra": null,
+ "date": "2025-03-28",
+ "revised": "2025-03-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-03-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=aloe.oral.orale2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "aloe.oral.orale2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:8c95e265331df0c28bd90fa4d2cdcff8042962a215a211844e3a37547435997f",
+ "entities": [
+  "ALOE - ALOE VERA/ALOE FEROX - Oral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-aloe-oral-orale2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ALOE - ALOE VERA/ALOE FEROX - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-oral-orale2#002",
+   "text": "Use(s) or Purpose(s): [(Traditionally) used in Herbal Medicine as a] stimulant laxative (Williamson 2003; Bradley 1992; Felter and Lloyd 1983; Grieve 1971).\n(Used in Herbal Medicine for the) short-term relief of occasional constipation (EMA 2016).\n(Used in Herbal Medicine to) promote(s) bowel movement (by direct action on the large intestine) (EMA 2016; Sweetman 2007; WHO 1999).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Used in Herbal Medicine as a stimulant laxative for short-term relief of occasional constipation).\nFor multi-ingredient products (when combined with other medicinal ingredients outside this monograph):\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Aloe is traditionally used in Herbal Medicine as a stimulant laxative).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ALOE - ALOE VERA/ALOE FEROX - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 207
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-oral-orale2#003",
+   "text": "Subpopulation(s): Adolescents 12-17 years, Adults 18 years and older (EMA 2016; Brinker 2010).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ALOE - ALOE VERA/ALOE FEROX - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-oral-orale2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n50 - 300 milligrams dried latex, per day; and providing at least 50 mg of dried latex per single dose (Williamson 2003; Bradley 1992).\nMethods of preparation: Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n10 - 30 milligrams hydroxyanthracene derivatives (calculated as barbaloin/aloin), per day; and providing at least 10 mg of hydroxyanthracene derivatives (calculated as barbaloin/aloin) per single dose (EMA 2016; Barnes st al, 2007; Blumenthal et al. 1998)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ALOE - ALOE VERA/ALOE FEROX - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-oral-orale2#005",
+   "text": "Direction(s) for use: All products\nStart with 1 dose, 2 to 3 times per week and increase up to once daily if results are not observed (EMA 2016; Gardner and McGuffin 2013; Bradley 1992).\nTake a few hours before or after taking other medications or health products (EMA 2016; Gardner and McGuffin 2013; Bradley 1992).\nAllow at least 6 to 12 hours for laxative effect to occur (EMA 2016; Berardi et al. 2002).\nStimulant laxatives should only be used if occasional constipation cannot be improved by a change of diet or the administration of bulk forming laxatives (EMA 2016).\nOptional (for products which provide a dosage range)\nThe optimal dosage is the smallest dose required to produce a soft-formed stool (EMA 2016).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ALOE - ALOE VERA/ALOE FEROX - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 122
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-oral-orale2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a kidney disorder or a lazy bowel (EMA 2016; Gardner and McGuffin 2013; Brinker 2010).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking heart medications, corticosteroids, diuretics, or other health products that may contribute to electrolyte imbalance (EMA 2016; Gardner and McGuffin 2013; Brinker 2010).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "ALOE - ALOE VERA/ALOE FEROX - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 83
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-oral-orale2#007",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (Gardner and McGuffin 2013; Brinker 2010).\nDo not use if you have inflammatory bowel disease, fever or any undiagnosed gastrointestinal trouble (EMA 2016; Gardner and McGuffin 2013; Brinker 2010).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "ALOE - ALOE VERA/ALOE FEROX - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-oral-orale2#008",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy or diarrhea occurs (EMA 2016; Brinker 2010).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ALOE - ALOE VERA/ALOE FEROX - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

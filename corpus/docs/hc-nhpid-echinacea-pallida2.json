@@ -1,0 +1,161 @@
+{
+ "doc_id": "hc-nhpid-echinacea-pallida2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ECHINACEA - ECHINACEA PALLIDA",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=echinacea.pallida2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "echinacea.pallida2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:421b1596fdf59a5fa7663a6eafbf76e5c73004716e55ee739f0f082ac799209f",
+ "entities": [
+  "ECHINACEA - ECHINACEA PALLIDA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-echinacea-pallida2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nChildren 2 years: The acceptable dosage forms are limited to emulsion/suspension and solution/ liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years: The acceptable dosage forms are limited to chewables, emulsion/ suspension, powders and solution/ liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: The acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ECHINACEA - ECHINACEA PALLIDA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 101
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-pallida2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve cold symptoms (Blumenthal et al. 2000; Moerman 1998).\n(Traditionally) used in Herbal Medicine to help relieve symptoms of upper respiratory tract infections (Blumenthal et al. 2000; Moerman 1998).\nSupportive therapy in the treatment of upper respiratory tract infections (e.g., common colds) (EMA 2018; Dorn et al. 1997).\nHelps to relieve the symptoms and shorten the duration of upper respiratory tract infections (e.g., common cold) (Dorn et al. 1997).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help relieve cold symptoms and symptoms of upper respiratory tract infections).\nFor multiple-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Echinacea is traditionally used in Herbal Medicine to help relieve cold symptoms).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ECHINACEA - ECHINACEA PALLIDA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 188
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-pallida2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ECHINACEA - ECHINACEA PALLIDA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-pallida2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nTable 2. Dose information (grams) for Echinacea dried root per day\nSubpopulation(s) 1 , 2\nDried root (g/day)\nMinimum\nMaximum\nChildren\n>2-4 years\n0.06 g\n0.5 g\n5-9 years\n0.09 g\n0.8 g\n10-11 years\n0.18 g\n1.5 g\nAdolescents\n12-14 years\n0.18 g\n1.5 g\n15-17 years\n0.36 g\n3.0 g\nAdults\n18 years and older\n0.36 g\n3.0 g\n1 Children and adolescent doses were calculated as a proportion of the adult dose (JC 2023). The use of Echinacea pallida in children is supported by the following references: Bove 2001; Schilcher 1997.\n2 Adult dose supported by the following references: EMA 2018; Blumenthal 2003; Blumenthal et al. 2000; Blumenthal et al. 1998; Dorn et al. 1997.\n*Note: Solvents allowed for the method of preparation “Non-standardized extracts (Dry extract)” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ECHINACEA - ECHINACEA PALLIDA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 159
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-pallida2#005",
+   "text": "Direction(s) for use: Start treatment at first signs of common cold (EMA 2018).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ECHINACEA - ECHINACEA PALLIDA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-pallida2#006",
+   "text": "Duration(s) of Use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 8 weeks (ESCOP 2003; Blumenthal et al. 1998).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ECHINACEA - ECHINACEA PALLIDA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  },
+  {
+   "chunk_id": "hc-nhpid-echinacea-pallida2#007",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a progressive systemic disease such as tuberculosis, collagenosis, multiple sclerosis, or an immune system disorder (EMA 2018; Gardner and McGuffin 2013; Brinker 2010).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications to suppress the immune system (Brinker 2010; Mills et al. 2006).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ECHINACEA - ECHINACEA PALLIDA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 81
+  }
+ ]
+}

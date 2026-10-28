@@ -1,0 +1,122 @@
+{
+ "doc_id": "hc-nhpid-aloe-gel",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ALOE VERA LEAF GEL - Oral",
+ "title_extra": null,
+ "date": "2025-03-28",
+ "revised": "2025-03-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-03-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=aloe.gel&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "aloe.gel"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:89e87b84144491fc8e98f60820fcb90024b7909720b78235b5d01be0808a437c",
+ "entities": [
+  "ALOE VERA LEAF GEL - Oral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-aloe-gel#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ALOE VERA LEAF GEL - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-gel#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Sajjad 2014; Rajasekaran et al. 2005; Yagi et al. 2003; Yagi et al. 2002).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Sajjad 2014; Rajasekaran et al. 2005; Yagi et al. 2003; Yagi et al. 2002).\nUsed in Herbal Medicine as a demulcent to help soothe irritation/inflammation of the gastrointestinal tract (Godfrey et al. 2010; Mills and Bone 2005; Tilgner 1999; Bartram 1998).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "ALOE VERA LEAF GEL - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 84
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-gel#003",
+   "text": "Quantity(ies): Antioxidant\nMethods of preparation: Freeze-dried; Fresh; Juice; Juice powdered; Juice powdered, freeze-dried; Powdered; Extract liquid; Extract dry.\nNot to exceed 200 milliliters or 200 grams of fresh leaf gel, per day (Davis et al. 2006; Langmead et al. 2004).\nDemulcent\nMethods of preparation: Freeze-dried; Fresh; Juice; Juice powdered; Juice powdered, freeze-dried; Powdered.\n7.5 - 200 milliliters or 7.5 - 200 grams fresh leaf gel, per day (Winston and Kuhn 2008; Davis et al. 2006; Langmead et al. 2004; Bartram 1998).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ALOE VERA LEAF GEL - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 81
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-gel#004",
+   "text": "Direction(s) for use: Powder dosage forms\nMix with liquid before use.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ALOE VERA LEAF GEL - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "hc-nhpid-aloe-gel#005",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Brinker 2010; Mills and Bone 2005; Bartram 1998).\nProducts providing 2.4 g or more fresh leaf gel, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes (Huseini et al. 2012; Pizzorno and Murray 2006).\nDemulcent\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes"
+   ],
+   "entities": [
+    "ALOE VERA LEAF GEL - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 79
+  }
+ ]
+}

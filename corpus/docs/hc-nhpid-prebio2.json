@@ -1,0 +1,161 @@
+{
+ "doc_id": "hc-nhpid-prebio2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Prebiotics (Source ingredient)",
+ "title_extra": null,
+ "date": "2026-04-24",
+ "revised": "2026-04-24",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-04-24",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "prebio2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:a55378ffe01125b3364cbef900daeaab4e4df236a347850d94b0f373246ff36d",
+ "entities": [
+  "Prebiotics",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-prebio2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance\nDocument.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product\nLicence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Prebiotics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-prebio2#002",
+   "text": "Use(s) or Purpose(s): Refer to Tables 2.1 to 2.3 below.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Prebiotics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "hc-nhpid-prebio2#003",
+   "text": "Quantity(ies): Table 2.1. Prebiotic and growth of healthy bacteria uses or purposes, and associated dose information (grams)\nper\nday\nUses or Purposes 1\nMedicinal ingredients\nDoses/day 2\nA source of prebiotic(s).\nHelps stimulate the growth of healthy bacteria (such as bifidobacteria) in the intestine/gut.\nA source of prebiotic(s) that help(s) support/maintain a healthy digestive system.\nInulin\n5 - 15 grams\nAcacia\n10 - 20 grams\nFructooligosaccharides (FOS)\nand/or\nShort-chain fructooligosaccharides (scFOS)\n2.5 - 15 grams\nTransgalactooligosaccharides (GOS)\n2 - 15 grams\nXylooligosaccharides (XOS)\n1.4 - 8 grams\n2'-Fucosyllactose\n10 - 20 grams\n2'-Fucosyllactose + Lacto-N-neotetraose 3\n1 References consulted for the uses or purposes: Lee et al. 2024; Looijesteijn et al. 2024; Van Harsselaar et al.\n2024; Jackson et al. 2023; Parker et al. 2023; Wilson et al. 2021; Vulevic et al. 2018; Hong et al. 2017; Elison et\nal. 2016; Ramnani et al. 2015; Finegold et al. 2014; Holscher et al. 2014; Xiao et al. 2012; Marteau et al. 2011;\nRamnani 2010; Calame et al. 2009; Silk et al. 2009; Na and Kim 2007; Roberfroid 2007a,b; Bouhnik et al. 2006; IOM\n2005; Bouhnik et al. 2004; Cherbut et al. 2003; Menne et al. 2000; Bouhnik et al. 1999; Iino et al. 1997; Gibson et\nal. 1995; Tamai et al. 1992.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Prebiotics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 211
+  },
+  {
+   "chunk_id": "hc-nhpid-prebio2#004",
+   "text": "Quantity(ies): 2 References consulted for the doses: Lee et al. 2024; Looijesteijn et al. 2024; Van Harsselaar et al. 2024; Jackson\net al. 2023; Parker et al. 2023; Jarrar et al. 2021; Wilson et al. 2021; Kaddam et al. 2019; Vulevic et al. 2018;\nBabiker et al. 2017; Hong et al. 2017; Elison et al. 2016; Hernandez-Gonzalez et al. 2016; Ramnani et al. 2015;\nChilds et al. 2014; Finegold et al. 2014; Holscher et al. 2014; Xiao et al. 2012; Calame et al. 2009; Glover et al.\n2009; Silk et al. 2009; Kolida and Gibson 2007; Kolida et al. 2007; Na and Kim 2007; Bouhnik et al. 2006; IOM 2005;\nBouhnik et al. 2004; Cherbut et al. 2003; Menne et al. 2000; Bouhnik et al. 1999; Coussement 1999; Iino et al. 1997;\nTamai et al. 1992.\n3 For products containing 2'-fucosyllactose (2'-FL) in combination with lacto-N-neotetraose (LNnt), the\nprebiotic/growth of healthy bacteria uses or purposes are supported only when the combined daily intake of 2'-FL and\nLNnt is 10-20 grams and the 2'-FL:LNnt ratio is between 2:1 and 4:1 (Iribarren et al. 2020, 2021; Elison et al.\n2016).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Prebiotics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 188
+  },
+  {
+   "chunk_id": "hc-nhpid-prebio2#005",
+   "text": "Direction(s) for use: All products except those containing 2'-Fucosyllactose alone or in combination with Lacto-N-neotetraose\nTake with at least 250 mL of liquid (Daley and Shreenath 2025; IOM 2005; Wardlaw 1999).\nMaintain adequate fluid intake (Daley and Shreenath 2025; IOM 2005; Wardlaw 1999).\nTake a few hours before or after taking other medications or health products (IOM 2005; Wardlaw 1999).\nPowder dosage forms\n(Thoroughly) Mix product in at least 250 mL of liquid immediately before consumption (Daley and Shreenath\n2025;\nIOM 2005; Wardlaw 1999).\nMaintain adequate fluid intake (Daley and Shreenath 2025; IOM 2005; Wardlaw 1999).\nTake a few hours before or after taking other medications or health products (IOM 2005; Wardlaw 1999).\nProducts containing inulin or fructooligosaccharides (FOS) (optional)\nTo minimize gastrointestinal side effects, take in divided doses with meals (Schaafsma and Slavin 2015).\nProducts containing inulin, fructooligosaccharides (FOS) or Short-chain fructooligosaccharides (scFOS) for\nconstipation/irregularity\nStart at a lower dose and increase gradually to the recommended daily dose or until the desired effect is\nobtained.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Prebiotics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 166
+  },
+  {
+   "chunk_id": "hc-nhpid-prebio2#006",
+   "text": "Duration(s) of use: Products providing more than 10 g acacia, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12\nweeks (Jarrar et al. 2021; Kaddam et al. 2019; Babiker et al. 2017; Glover et al. 2009).\nProducts providing up to 4 g xylooligosaccharides (XOS), per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 8\nweeks\n(Sheu et al. 2008; Tateyama et al. 2005).\nProducts providing more than 4 g xylooligosaccharides (XOS), per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 3\nweeks\n(Childs et al. 2014).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Prebiotics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "hc-nhpid-prebio2#007",
+   "text": "Caution(s) and warning(s): Products containing inulin for constipation/irregularity\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms\npersist\nor worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Prebiotics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "hc-nhpid-prebio2#008",
+   "text": "Contraindication(s): Products containing inulin for constipation and/or irregularity\nDo not use if you have fever or any undiagnosed gastrointestinal trouble (HC 2009).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Prebiotics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "hc-nhpid-prebio2#009",
+   "text": "Known adverse reaction(s): Products containing inulin, fructooligosaccharides (FOS), or transgalactooligosaccharides (GOS)\nStop use if hypersensitivity/allergy occurs (Lee et al. 2020; Brinker 2010; Hendler and Rorvik 2008; Franck et\nal.\n2005; Gay-Crosier et al. 2000).\nProducts providing 5 g or more inulin, fructooligosaccharides (FOS) or short-chain fructooligosaccharides\n(scFOS) per\nday\nWhen using this product you may experience temporary gas and bloating (Mysonhimer and Hoslcher 2022; Ramnani et\nal.\n2015, 2010; Schaafsma and Slavin 2015; Holsher et al. 2014; Marteau et al. 2011; Bonnema et al. 2010; Bruhwyler\net\nal. 2009; Bouhnik et al. 2007, 2006; Kolida and Gibson 2007; Menne et al.p2000; Coussement 1999).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Prebiotics",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 103
+  }
+ ]
+}

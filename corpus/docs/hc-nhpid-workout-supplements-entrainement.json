@@ -1,0 +1,365 @@
+{
+ "doc_id": "hc-nhpid-workout-supplements-entrainement",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Workout Supplements (Source ingredient)",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=workout.supplements.entrainement&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "workout.supplements.entrainement"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:7e91b3ae2e48967111fb76d80f3894bba9e004e1d9cc21004bc52bdcd5a04d69",
+ "entities": [
+  "Workout Supplements",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.\nNote\nLiquids and solutions are not permitted for products containing Creatine monohydrate, due to lack of stability of the finished product (Dash and Sawhney 2002).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#002",
+   "text": "Use(s) or Purpose(s): Products providing at least 2.6 g of total protein, total protein and amino acids, or total amino acids from Groups 1, 2a and 2b\nWorkout support/supplement\nAthletic support/supplement\nAssists in the building of lean muscle tissue/mass when combined with regular weight/resistance training and a healthy balanced diet (NNHPD 2024).\nProducts containing at least one ingredient from any of Groups 3 or 4a, at or above the relevant minimum doses indicated in the Dose section below\nWorkout support/supplement\nAthletic support/supplement\nProducts containing at least one ingredient from Group 1, at or above the minimum dose indicated in the Dose section below\nSource of protein for the maintenance of good health (CFIA 2024).\nSource of protein which helps build and repair body tissues (CFIA 2024).\nSource of protein which helps build strong muscles (CFIA 2024).\nSource of amino acids involved in muscle protein synthesis (IOM 2005).\nProducts containing at least one ingredient from Group 2a, at or above the respective minimum dose indicated in the Dose section below\nSource of (an) essential amino acid(s) for the maintenance of good health (CNF 2024).\nSource of (an) (essential) amino acid(s) involved in muscle protein synthesis (IOM 2005).\nProducts containing all three of L-leucine, L-isoleucine and L-valine, at or above the respective minimum doses indicated in the Dose section below",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#003",
+   "text": "Use(s) or Purpose(s): Source of branched chain amino acids (BCAAs), which are involved in protein synthesis (IOM 2005).\nProducts containing at least one ingredient from Group 2b, at or above the respective minimum dose indicated in the Dose section below\nSource of (an) (non-essential) amino acid(s) involved in muscle protein synthesis (IOM 2005).\nProducts containing Beta-Alanine, at or above a minimum dose of 800 mg per single dose and 4.8 g, per day\nIncreases muscle carnosine levels, a factor in delaying neuromuscular fatigue in intermittent high intensity exercises (Hoffman et al. 2008; Hill et al. 2007; Derave et al. 2007; Harris 2006; Stout et al. 2006).\nProducts containing L-glutamine, at or above a minimum dose of 5 g, per day\nHelps restore plasma glutamine levels depleted after periods of physical stress (e.g. prolonged exhaustive exercise) (Krzywkowski et al. 2001; Bowtell et al. 1999; Castell and Newsholme 1997).\nHelps to assist in muscle cell repair after exercise (Newsholme et al. 2003; IOM 2005).\nProducts containing at least one ingredient from Group 3, at or above the minimum dose indicated in the Dose section below\nSource of carbohydrates to support energy production (IOM 2005).\nSource of calories which contributes to weight gain (IOM 2005).\nHelps to maintain performance/promote endurance in extended (greater than 60 min), high intensity exercise (Kerksick et al. 2008).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#004",
+   "text": "Use(s) or Purpose(s): Products containing at least one ingredient from Group 4a, at or above the relevant minimum doses indicated in the Dose section below\nHelps increase physical performance during intensive exercise (NNHPD 2024).\nAdditionally, the following recommended uses may be indicated for products containing the corresponding medicinal ingredients, at or above the relevant minimum doses indicated in the Dose section below:\nCalcium beta-hydroxy-beta-methylbutyrate (CaHMB)\nEnhances muscle strength in previously untrained individuals in combination with intense resistance training exercise (NNHPD 2024).\nL-Carnitine sourced from L-Carnitine or L-Carnitine tartrate\nAids in the muscle recovery process by reducing muscle tissue damage associated with a resistance training regimen (Ho et al. 2010; Spiering et al. 2008; Spiering et al. 2007; Kraemer et al. 2006; Kramer et al. 2003; Volek et al. 2002).\nHelps support muscle tissue repair in individuals involved in resistance training (Ho et al. 2010; Spiering et al. 2008; Spiering et al. 2007; Kraemer et al. 2006; Kramer et al. 2003; Volek et al. 2002).\nHelps improve physical performance when used in conjunction with a training regimen (Wall et al. 2011; Cha et al. 2001; Arenas et al. 1994; Huertas et al. 1992; Arenas et al. 1991; Vecchiet et al. 1990; Marconi et al. 1985).\nHelps delay fatigue during physical activity (Cha et al. 2001; Wall et al. 2011; Karahan et al. 2010).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#005",
+   "text": "Use(s) or Purpose(s): Helps support fat metabolism (Stephens et al. 2007; Karlic and Lohninger 2004; Müller et al. 2002).\nHelps support fat oxidation (Wall et al. 2011; Stephens et al. 2007; Wutzke and Lorenz 2004; Müller et al. 2002).\nProducts containing L-Citrulline at or above a minimum dose of 3 g, per day\nL-Citrulline is a precursor of L-Arginine (Ochiai et al. 2012; Waugh et al. 2001).\nProducts containing L-Citrulline sourced from Citrulline malate at or above a minimum dose of 1.7 g (equivalent to 3 g citrulline malate), per day\nSupports an increase in athletic performance in high-intensity anaerobic exercise with short rest period (Perez-Guisado and Jakeman 2010; Bailey et al. 2015; Bendahan et al. 2002).\nCreatine monohydrate\nIncreases body/(lean)muscle mass/size when used in conjunction with a resistance training regimen (Brose et al. 2003; Bemben et al. 2001; Volek et al. 1999; Vandenberghe et al. 1997).\nImproves strength/power/performance in repetitive bouts of brief, highly-intense physical activity (e.g. sprints, jumping, resistance training) (by increasing muscle/intramuscular creatine/phosphocreatine/energy levels) (Okudan and Gökbel 2005; Brose et al. 2003; Preen et al. 2003; Bemben et al. 2001; Volek et al. 1999; Vandenberghe et al. 1997; Hultman et al. 1996)\nEleuthero/Siberian ginseng\nUsed in Herbal Medicine to help improve physical performance after periods of physical exertion (ESCOP 2003; Hoffmann 2003; Mills and Bone 2000; Bradley 1992).\nPanax ginseng",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 223
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#006",
+   "text": "Use(s) or Purpose(s): Used in Herbal Medicine to help enhance physical capacity/performance (in cases of physical stress) (Kim et al. 2005; ESCOP 2003; Gross et al. 2002; WHO 1999; Gross et al. 1995; Sotaniemi et al. 1995; Schepdael 1993).\nProducts containing Caffeine (Group 4b), at or above the minimum dose indicated in the Dose section below\nHelps (temporarily) to relieve/reduce fatigue, to promote endurance, and to enhance motor performance (Philip et al. 2006; Doherty and Smith 2005; Smith et al. 2005).\nHelps (temporarily) to enhance (physical) energy (Philip et al. 2006; Doherty and Smith 2005; Smith et al. 2005).\nHelps (temporarily) to relieve/reduce fatigue/tiredness (Philip et al. 2006; Doherty and Smith 2005; Smith et al. 2005).\nAdditional claims\nProducts containing ingredients from Group 5, at or above the minimum doses indicated in the Dose section below\nAs per the current NNHPD Multi-Vitamin/Mineral Supplements Monograph (except uses or purposes associated with pregnancy).\nNotes\nThe above uses can be combined on the product label (e.g. Helps temporarily to relieve fatigue and to assist in muscle cell repair after exercise).\nThe terms ‘Helps’ or ‘Helps to’ and the terms ‘Source of’ and ‘Provides’ can be used interchangeably on the label.\nUses or Purposes Restrictions\nClaims from the NNHPD Multi-Vitamin/Mineral Supplements Monograph are only acceptable in addition to at least one claim from Groups 1 to 4.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 223
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#007",
+   "text": "Use(s) or Purpose(s): Rules for caffeine\n(Class I, II and/or III applications):\nProducts containing caffeine from any source (synthetic, isolated or a component of plant material) must not:\nindicate any uses or purposes related to healthy blood pressure or heart/cardiovascular health at any dose of caffeine (except if the product only contains caffeine from a medicinal ingredient supported for these uses such as green coffee bean extract).\nindicate any uses or purposes related to nervine/sedative/relaxation, nor contain a sedative at therapeutic dose, at any dose of caffeine.\nindicate any uses or purposes related to the maintenance/support of good/general health at a daily dose of 40 mg or more total caffeine from all sources.\nProducts providing a total amount of caffeine per day that meets the minimum therapeutic dose (100 mg/day) must indicate a use or purpose associated with caffeine.\nRules for proteins and amino acids\n(Class I, II and/or III applications):\nProducts must provide at least 2.6 g of total protein and/or amino acids to support protein-related claims, with a maximum of 90 g total protein and/or amino acids.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "sedation",
+    "hypertension"
+   ],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 179
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#008",
+   "text": "Use(s) or Purpose(s): For safety, the maximum allowable quantity of amino acids (as defined in Tables 3 and 4) is specific to free amino acids. The quantity of amino acids as sub-ingredients is only taken into account if they are free. For example, amino acids that are components of proteins are not free. However, highly hydrolyzed proteins may contain free amino acids. It is the applicant’s responsibility to know the composition of their ingredient.\nFor efficacy, the total amino acid content (from amino acids as protein sub-ingredients and as individual medicinal ingredients) can be used to support ‘Source of’ claims. However, this does not apply to more specific amino acid claims which are based on studies that administer individual amino acids to participants as the pharmacokinetics and effects of free amino acids may differ from those of amino acids as protein sub-ingredients.\nSoy protein concentrate and/or soy protein isolate must not exceed 35 g of protein per day with a maximum of 30 mg of AIE per day.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 168
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#009",
+   "text": "Quantity(ies): Note: The minimum doses indicated below must be met only for medicinal ingredients which are directly supporting any indicated uses or purposes, as per the Use(s) or Purpose(s) section above.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#010",
+   "text": "Direction(s) for use: All products (optional)\nEnsure to drink optimal fluid before, during, and after exercise.\nProducts containing creatine monohydrate and making creatine claims\nTable 12. Direction(s) for use and duration(s) of use\nOption(s) 1\nDirection(s) for use and duration(s) of use\nOption 1 - loading phase of 15-20 g/day\nStart with a loading phase of X g 2 per day for 5-7 days and follow with a maintenance phase (Y g 2 /day)\nOption 2 - loading phase of 3-5 g/day\nStart with a loading phase of X g 2 per day for a minimum of 4 weeks and follow with a maintenance phase (Y g 2 /day)\nOption 3 - no loading phase\nUse for a minimum of 4 weeks.\nReference: NNHPD 2024.\n1 If more than one option is listed for a product, they should be separated with ‘OR’ for clarity.\n2 The dose in grams can be replaced on the label with the number of dosage unit required to reach the loading dose (X g) and the maintenance dose (Y g) (e.g. X scoop(s); sachet(s); serving(s), etc). The values for X and Y must be listed on the PLA for as an additional direction for use statement (e.g., X = 15 g and Y = 5 g).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 211
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#011",
+   "text": "Direction(s) for use: Products containing L-carnitine and making Muscle recovery, Muscle tissue repair, Workout/Athletic support/supplement, Physical performance, or Fatigue claims\nTake 2-4 hours prior to exercise (Harper et al. 1988).\nProducts providing more than 200 mg of caffeine, per day (i.e. to be taken in divided doses)\nWait 3 to 4 hours between each dose\nProducts containing whey protein\nTake a few hours before or after taking other medications or health products (Sweetman 2011; Jung et al. 1997).\nProducts in powder form\n(Thoroughly) Mix product in enough liquid (water, juice, etc.) immediately before consumption.\nProducts for increasing exercise performance (optional)\nConsume 45-90 minutes before exercising (Aragon and Schoenfeld 2013).\nProducts for repairing body tissues/muscles and restoring plasma glutamine levels (optional)\nConsume no later than 90 minutes after exercising (Aragon and Schoenfeld 2013).\nProducts for endurance based on ingredients from Group 3 (Carbohydrates) (optional)\nConsume 30-60 grams of carbohydrates, per hour of high intensity exercise (Saunders et al. 2007; Ivy et al. 2003).\nProducts containing vitamins and/or minerals\nAs per the current NNHPD Multi-Vitamin/Mineral Supplements Monograph.\nCombinations rules\nAll ingredients included in this monograph may be combined together, across all Groups.\nThe finished product should not exceed a total amount of piperine (from Piper nigrum (black pepper) and/or isolated piperine) of 14 mg per day.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#012",
+   "text": "Direction(s) for use: For combination of Whey protein isolate, Whey protein concentrate and Whey protein hydrolysate, consult the NNHPD Whey products monograph.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#013",
+   "text": "Duration(s) of Use: Products providing more than 200 mg of agmatine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 3 weeks (Gilad and Gilad 2014; Kenyan et al. 2010).\nProducts providing 3 g or more of L-arginine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 8 weeks if you have a cardiovascular disease (Salmani et al. 2021; Sydow et al. 2002; Hambrecht et al. 2000; Clarkson et al.1996; Rector et al. 1996).\nProducts providing more than 9 g and up to 14 g of L-arginine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 6 months (De Nicola et al. 1999).\nProducts providing more than 14 g of L-arginine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (Tangphao et al. 1999).\nNote: Durations of use can be combined on the label (e.g., Ask a health care practitioner for use beyond 6 months, or beyond 8 weeks if you have a cardiovascular disease).\nProducts providing more than 3 g of L-citrulline, per day",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 187
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#014",
+   "text": "Duration(s) of Use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 8 weeks (Harnden et al. 2023; Xie et al. 2023; Smeets et al. 2022; Viribay et al. 2022; Rhim et al 2020; Behpour et al. 2020; Wong et al. 2016; Figueroa et al. 2015).\nProduct providing more than 3 g of beta-alanine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 10 weeks (Derave et al. 2007; Hill et al. 2007).\nProducts containing deanol\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 weeks (de Montigny et al. 1979, Marsh and Linnoila 1979, Caraceni et al. 1978. Penovich et al. 1978).\nProducts containing eleuthero\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 weeks (ESCOP 2003).\nProducts containing Panax ginseng\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (Bradley 2006; Mills and Bone 2005; Blumenthal et al. 2000).\nProducts containing piperine\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (Lieberman et al. 2005).\nProducts containing vitamins and/or minerals\nAs per the current NNHPD Multi-Vitamin/Mineral Supplements Monograph.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 196
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#015",
+   "text": "Caution(s) and warning(s): All products (except products containing deanol requiring a contraindication)\nAsk a healthcare practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nProducts containing milk by-products (such as casein, hydrolyzed casein, casein micelles, whey and milk proteins sourced from Bos taurus milk)\nContains milk by-products.\nProducts providing more than 30 g total protein and/or amino acids (including beta-alanine), per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a liver or kidney disorder (Shils et al. 2006).\nProducts containing 40 mg to 400 mg caffeine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have high blood pressure or glaucoma (Cornelis and El-Sohemy 2007, Chandrasekaran et al. 2005, Noordzij et al. 2005, Avisar et al. 2002, Arya et al. 2000, Jee et al. 1999, Creighton and Stanton 1990).\nProducts providing more than 300 mg of caffeine, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are attempting to conceive (Nawrot et al. 2003).\nProducts providing 400 mg caffeine, per day",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "liver",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 184
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#016",
+   "text": "Caution(s) and warning(s): When using this product avoid taking other health products, foods or beverages that contain caffeine and/or increase blood pressure (FDA 2023; Bui et al. 2006; Bouchard et al. 2005; Haller et al. 2005; NIH 2004; Berardi et al. 2002; Vahedi et al. 2000; Zimmerman 1992).\nProducts containing CaHMB\nAsk a health care practitioner /health care provider/health care professional/doctor/physician before use if you are taking cholesterol medications (Nissen et al. 2000).\nProducts containing cayenne\nKeep out of reach of children. If overdose or accidental ingestion occurs, call a poison control center immediately (CPS 2008).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a stomach ulcer or inflammation (Brinker 2010; Bradley 2006; Boon and Smith 2004).\nProducts containing creatine monohydrate\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a kidney disorder (Pline and Smith 2005; Pritchard and Kalra 1998).\nWhen using this product you may gain weight (Volek and Rawson 2004; Bemben et al. 2001; Mihic et al. 2000).\nProducts providing more than 200 mg of agmatine, per day",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 182
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#017",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a mood/affective or psychiatric disorder, diabetes or a cardiovascular disease (Freitas et al. 2016; Nissim et al. 2014; Payandemehr et al. 2013; Piletz et al. 2013; Shopsin 2013; Uzbay et al. 2013; Su et al. 2003).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking antidepressant or opioid analgesic medications (Freitas et al. 2016; Payandemehr et al. 2013; Shopsin 2013; Uzbay et al. 2013; Su et al. 2003).\nProducts providing more than 0.42 g of L-arginine and/or L-citrulline, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a cardiovascular disease and are attempting an increase in physical activity (Doutreleau et al. 2010; Doutreleau et al. 2006; Schulman et al. 2006; Nagaya et al. 2001; Bednarz et al. 2000; Ceremuzynski et al. 1997; Rector et al. 1996).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medication for cardiovascular diseases, erectile dysfunction, and/or blood thinners (Huynh et al. 2002; Parker et al. 2002; Siani et al. 2000; Adams et al. 1995).\nProducts containing L-tryptophan\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking antidepressants (Boyer 2023; Scotton et al. 2019; Erner 2003).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 223
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#018",
+   "text": "Caution(s) and warning(s): Products containing L-carnitine\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a seizure disorder (CPS 2008).\nProducts containing deanol\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking cholinergic or anticholinergic drugs (NIEHS 2002; de Montigny et al. 1979).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if you have a psychological disorder (NIEHS 2002; Casey 1979; de Montigny et al. 1979).\nProducts containing eleuthero\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have an acute infection (Brinker 2010; Barnes et al. 2007; ESCOP 2003; Mills and Bone 2000).\nProducts containing Panax ginseng\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes (Brinker 2010; Vuksan et al. 2008; Seely et al. 2008; Sievenpiper et al. 2006; ESCOP 2003; Tetsutani et al. 2000; Sotaniemi et al. 1995; Chin 1991).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking antidepressant medication, blood thinners or digoxin (Brinker 2010; Lee et al. 2008a; Dasgupta and Reyes 2005; Janetzki and Morreale 1997; Gonzalez-Seijo et al. 1995; Shader and Greenblatt 1988; Jones and Runikis 1987; Shader and Greenblatt 1985).\nProducts containing piperine",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 209
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#019",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner /health care provider/health care professional/doctor/physician before use if you are taking medications or any other health products, as piperine may alter their effectiveness (Han 2011; Srinivasan 2007; Khajuria et al. 2002; Bano et al. 1991).\nProducts containing vitamins and/or minerals\nAs per the current NNHPD Multi-Vitamin/Mineral Supplements Monograph.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 56
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#020",
+   "text": "Contraindication(s): Products providing more than 9 g of L-arginine, per day\nDo not use if you have had a heart attack/myocardial infarction (Sun et al. 2009; Schulman et al. 2006; Bednarz et al. 2005).\nProducts containing deanol\nDo not use if you are pregnant or breastfeeding (NIEHS 2002).\nProducts containing eleuthero\nDo not use if you have high blood pressure (Brinker 2010; Barnes et al. 2007; Blumenthal et al. 2000; Mills and Bone 2000; McGuffin et al. 1997).\nProducts containing whey proteins and providing 100 mg or more potassium, per day\nDo not use if you are taking other potassium-containing salt-substitutes or supplements (Sweetman 2011).\nProducts containing vitamins and/or minerals\nAs per the current NNHPD Multi-Vitamin/Mineral Supplements Monograph.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension"
+   ],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#021",
+   "text": "Known adverse reaction(s): Products containing beta-alanine\nWhen using this product reduce the dose if flushing, tingling or prickling sensation of the skin occurs (Harris et al. 2006; Hill et al. 2007; Jordan et al. 2010)\nProducts containing deanol\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience drowsiness, confusion, headache, changes in mood, nausea, or gastrointestinal disorders (NIEHS 2002; Casey 1979; Marsh and Linnoila 1979; de Montigny et al. 1979)\nProducts containing caffeine at any dose\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if hypersensitivity/allergy occurs (Infante et al. 2003; Hinrichs et al. 2002).\nProducts providing 40 mg to 400 mg caffeine, per day\nWhen using this product diuretic effect may occur.\nProducts providing 200 mg or more caffeine, per day\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms such as chest pain and irregular heartbeat occur (Higgins and Babu 2013).\nProducts providing more than 200 mg of agmatine, per day or more than 9 g of L-arginine, per day or more than 30 g of protein and/or amino acids, per day\nWhen using this product you may experience gastrointestinal discomfort/disturbances (Keynan et al. 2010; Grimble 2007; Evans et al. 2004; Clarkson et al. 1996).\nProducts containing Panax ginseng",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "anticoagulant",
+    "sedation",
+    "hypertension"
+   ],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#022",
+   "text": "Known adverse reaction(s): Stop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience insomnia, anxiety or headaches (Lee et al. 2008b; Vuksan et al 2008; de Andrade et al. 2007; Sievenpiper et al. 2006; Coon and Ernst 2002; Ellis and Reddy 2002; Scaglione et al. 2001; Siegel 1979).\nProducts containing vitamins and/or minerals\nAs per the current NNHPD Multi-Vitamin/Mineral Supplements Monograph.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Workout Supplements",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 66
+  }
+ ]
+}

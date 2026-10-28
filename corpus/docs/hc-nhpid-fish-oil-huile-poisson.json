@@ -1,0 +1,161 @@
+{
+ "doc_id": "hc-nhpid-fish-oil-huile-poisson",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "FISH OIL",
+ "title_extra": null,
+ "date": "2026-09-25",
+ "revised": "2026-09-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-09-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=fish.oil.huile.poisson&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "fish.oil.huile.poisson"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:82e723d2371887db30b27df4365c567eac76d5b890841f70e6c6c48705a6d837",
+ "entities": [
+  "FISH OIL",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-fish-oil-huile-poisson#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 1-2 years: The acceptable dosage forms are limited to emulsion/suspension and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years: The acceptable dosage forms are limited to chewables, emulsion/ suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: Acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications. Although delayed release dosage forms are usually not supported by NNHPD's monographs, this monograph includes ‘Capsule, soft, enteric-coated’ which is commonly used for marine oil products.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "FISH OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 130
+  },
+  {
+   "chunk_id": "hc-nhpid-fish-oil-huile-poisson#002",
+   "text": "Use(s) or Purpose(s): Products providing 100-5,000 mg eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) 1 , per day\nSource of omega-3 fatty acids for the maintenance of good health (EFSA 2012; Simopoulos 2007; Oh 2005; IOM 2002; Simopoulos 1999).\nSource of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) for the maintenance of good health (EFSA 2012; Simopoulos 2007; Oh 2005; IOM 2002; Simopoulos 1999).\nProducts providing 150-5,000 mg EPA and DHA 1 including at least 100 mg DHA, per day\nHelps support/maintain cognitive health (EFSA 2012; van de Rest et al. 2008; Freund-Levi et al. 2006; Fontani et al. 2005a,b; Haag 2003; Morris et al. 2003; IOM 2002).\nHelps support/maintain brain function (EFSA 2012; van de Rest et al. 2008; Freund-Levi et al. 2006; Fontani et al. 2005a,b; Haag 2003; Morris et al. 2003; IOM 2002).\nProducts for children up to 12 years old and providing 200-2,000 mg EPA and DHA 1 , including at least 150 mg DHA, per day\nHelps support/maintain (healthy) development of brain/(and), eyes/(and) nerves in children up to 12 years of age (Marszalek and Lodish 2005; Haag 2003; IOM 2002; Giedd et al. 1999; Mills 1999).\nProducts providing 200-5,000 mg EPA and DHA 1 , per day\nHelps support/maintain (normal) heart/cardiovascular health (EFSA 2012; Oh 2005; Wang et al. 2004; Leaf et al. 2003; Kris-Etherton et al. 2002).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "FISH OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 223
+  },
+  {
+   "chunk_id": "hc-nhpid-fish-oil-huile-poisson#003",
+   "text": "Use(s) or Purpose(s): Helps support/maintain (normal) heart/cardiovascular function (EFSA 2012; Oh 2005; Wang et al. 2004; Leaf et al. 2003; Kris-Etherton et al. 2002).\nProducts providing 1,000-5,000 mg EPA and DHA 1 , per day\nHelps reduce (blood) triglyceride(s)/triacylglycerol(s) (levels) (EFSA 2012; Oh 2005; Balk et al. 2004; Hooper et al. 2004; Nilsen et al. 2001; Sirtori et al. 1998).\nHelps support/maintain normal (blood) triglyceride/triacylglycerol levels (EFSA 2012; Oh 2005; Balk et al. 2004; Hooper et al. 2004; Nilsen et al. 2001; Sirtori et al. 1998).\nProducts for adults and providing 2,800-5,000 mg EPA and DHA 1 , per day and containing a ratio of EPA:DHA between 0.5:1 and 2:1\nIn conjunction with conventional therapy, helps reduce the pain of rheumatoid arthritis in adults (EFSA 2012; Volker et al. 2000; Skóldstam et al. 1992).\nProducts providing 1,500-5,000 mg EPA and DHA 1 including at least 1000 mg EPA, per day\nHelps promote healthy mood balance (EFSA 2012; Nemets et al. 2006; Sontrop and Campbell 2006; Fontani et al. 2005a,b; Zanarini and Frankenburg 2003; Peet and Horrobin 2002; Stoll et al. 1999).\nNotes:\n1 EPA and DHA may be represented as Omega-3 fatty acids on the PLA form.\nThe above uses can be combined on the product label (e.g., Helps reduce triglycerides and maintain cardiovascular health).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "FISH OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "hc-nhpid-fish-oil-huile-poisson#004",
+   "text": "Use(s) or Purpose(s): The terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "FISH OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-fish-oil-huile-poisson#005",
+   "text": "Quantity(ies): Method of preparation: Standardized fixed oil\nIn addition to the quantity of fish oil, the potency information must be provided. The potency may be expressed either as the amount (milligrams) and/or percentage (%) of EPA and DHA (% w/w) relative to the total quantity of fish oil or replaced with the sub-ingredient, Omega-3 fatty acids, on the PLA form.\nIf potency is declared as Omega-3 fatty acids, the licence holder must ensure that the minimum EPA and DHA amounts required to support the selected claims are met. Documentation demonstrating EPA and DHA content must be maintained and made available upon request.\nOmega-3 fatty acids from fish oil may include EPA, DHA and DPA.\nIf the potency is listed as Omega-3 fatty acids on the PLA form, the label may also include the amounts of EPA and DHA as additional information.\nConversely, if EPA and DHA are listed on the PLA form, the label may also include the total Omega-3 fatty acids content as additional information.\nIf DPA is present, it may be listed as additional information on the marketed label.\nTable 2. Daily dose for eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) in fish oil.\nSubpopulation(s)\nEPA + DHA 1 (mg/day)\nMinimum 2\nMaximum 3\nChildren\n1-8 years\n100\n1,500\n9-11 years\n100\n2,000\nAdolescents\n12-13 years\n100\n2,000",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "FISH OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-fish-oil-huile-poisson#006",
+   "text": "Quantity(ies): 14-17 years\n100\n2,500\nAdults\n18 years and older\n100\n5,000\n1 EPA and DHA may be represented as Omega-3 fatty acids on the PLA form. The minimum daily doses also apply to the sub-ingredient \"Omega-3 fatty acids\" as a threshold; however, the DPA content should be taken into consideration. Due to the potential presence of DPA, the maximum daily dose will not be limited, thereby allowing the product to meet the maximum EPA + DPA amount.\n2 Restrictions to minimum dose may apply according to Use(s) or Purpose(s) section above.\n3 Adult maximum dose of EPA + DHA is supported by US FDA 2019 and EFSA 2012. Children and adolescent maximum doses are calculated as a fraction of the adult dose, are relative to body weight and caloric intake.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "FISH OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 131
+  },
+  {
+   "chunk_id": "hc-nhpid-fish-oil-huile-poisson#007",
+   "text": "Caution(s) and warning(s): Pain of rheumatoid arthritis\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen.\nHealthy mood balance\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have psychological disorders such as anxiety or depression.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "FISH OIL",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "doc_id": "nccih-milk-thistle",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Milk Thistle",
+ "title_extra": null,
+ "date": "2025-02-01",
+ "revised": "2025-02-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-08-01",
+ "url": "https://www.nccih.nih.gov/health/milk-thistle",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/milk-thistle"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:6e8ae58b4e53cde199059c85bc790d48f4fc8c79539a6856f0660ae3431bc98d",
+ "entities": [
+  "Milk Thistle"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-milk-thistle#001",
+   "text": "Milk Thistle\n© Thinkstock\nCommon Names:\nmilk thistle,\nMary thistle,\nholy thistle\nLatin Names:\nSilybum marianum\n,\nsynonym\nCarduus marianus",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#002",
+   "text": "Background: Milk thistle is a tall plant with large purple flowers that is native to Europe. It was introduced into North America by early colonists.\nThe main constituent of milk thistle extract is silymarin, a mixture of compounds.\nHistorically, milk thistle was used for liver disorders and to increase breast milk production.\nMilk thistle is promoted as a dietary supplement for liver disorders, diabetes, and other conditions.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "diabetes"
+   ],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 67
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#003",
+   "text": "How Much Do We Know?: There isn’t enough high-quality evidence to allow definite conclusions to be reached about the effects of milk thistle on health conditions in people.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#004",
+   "text": "What Have We Learned?: Results from a small number of studies in people show that milk thistle extracts may help to control blood sugar in people with type 2 diabetes. Most of this research was done in Middle Eastern countries, and it is unclear whether the same results would be seen in other parts of the world.\nResults from clinical trials of milk thistle for liver diseases, such as alcohol-related liver disease, hepatitis B and C, non-alcoholic fatty liver disease, and liver problems caused by cancer chemotherapy, low oxygen levels, or toxins have been conflicting or too limited to allow conclusions to be reached. Two studies funded by the National Center for Complementary and Integrative Health—one on hepatitis C and one on non-alcoholic steatohepatitis (a progressive form of fatty liver disease)—did not show benefits from supplementation with the milk thistle extract silymarin.\nIt is unclear whether milk thistle has an effect on breast milk production.\nIt’s not known whether milk thistle is helpful for other conditions.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "diabetes",
+    "sedation",
+    "cancer"
+   ],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 166
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#005",
+   "text": "What Do We Know About Safety?: Milk thistle, when taken orally, appears to be well tolerated. The most common side effects are digestive symptoms such as bloating, nausea, and gas.\nConcerns have been raised about poor chemical and microbiological quality of milk thistle dietary supplements sold in the United States and other countries. Some products have been found to contain amounts of silymarin substantially different from what’s stated on the label or to be contaminated with pesticides, microorganisms, or mycotoxins (harmful substances produced by molds or other fungi).\nMilk thistle may cause allergic reactions, particularly among people who are allergic to related plants (for example, ragweed, chrysanthemum, marigold, and daisy).\nIf you take any type of medicine, talk with your health care provider before using milk thistle or other herbal products; some herbs and medicines interact in harmful ways.\nLittle is known about whether it’s safe to use milk thistle during pregnancy or while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 155
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#006",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The rules for making and distributing dietary supplements are less strict than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 161
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#007",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#008",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#009",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#010",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#011",
+   "text": "Key References: Abenavoli L, Izzo AA, Milić N, et al.\nMilk thistle\n(Silybum marianum)\n: a concise overview of its chemistry, pharmacological, and nutraceutical uses in liver diseases\n.\nPhytotherapy Research\n. 2018;32(11):2202-2213.\nEmadi SA, Rahbardar MG, Mehri S, et al.\nA review of therapeutic potentials of milk thistle (\nSilybum marianum\nL.) and its main constituent, silymarin, on cancer, and their related patents\n.\nIranian Journal of Basic Medical Sciences.\n2022;25(10):1166-1176.\nFenclova M, Novakova A, Viktorova J, et al.\nPoor chemical and microbiological quality of the commercial milk thistle-based dietary supplements may account for their reported unsatisfactory and non-reproducible clinical outcomes\n.\nScientific Reports.\n2019;9(1):11118.\nFried MW, Navarro VJ, Afdhal N, et al.\nEffect of silymarin (milk thistle) on liver disease in patients with chronic hepatitis C unsuccessfully treated with interferon therapy: a randomized controlled trial\n.\nJAMA.\n2012;308(3):274-282.\nMilk thistle. Drugs and Lactation Database. (LactMed). National Institute of Child Health and Human Development. Updated July 15, 2024. Accessed at\nncbi.nlm.nih.gov/books/NBK501771\non August 14, 2024.\nMilk Thistle. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on June 24, 2024. [Database subscription].\nNavarro VJ, Belle SH, D’Amato M, et al.\nSilymarin in non-cirrhotics with non-alcoholic steatohepatitis: a randomized, double-blind, placebo controlled trial\n.\nPLoS ONE.\n2019;14(9):e0221683 (published correction appears in\nPLoS ONE\n. 2019;15(10):e0223915).\nPickova D, Ostry V, Toman J, et al.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "pregnancy",
+    "children",
+    "liver",
+    "sedation",
+    "cancer"
+   ],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nccih-milk-thistle#012",
+   "text": "Key References: Presence of mycotoxins in milk thistle\n(Silybum marianum)\nfood supplements: a review\n.\nToxins (Basel).\n2020;12(12):782.\nSoleimani V, Delghandi PS, Moallem SA, et al.\nSafety and toxicity of silymarin, the major constituent of milk thistle extract: an updated review\n.\nPhytotherapy Research.\n2019;33(6):1627-1638.\nXiao F, Gao F, Zhou S, et al.\nThe therapeutic effects of silymarin for patients with glucose/lipid metabolic dysfunction: a meta-analysis\n.\nMedicine (Baltimore).\n2020;99(40):e22249.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Milk Thistle"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 143
+  }
+ ]
+}

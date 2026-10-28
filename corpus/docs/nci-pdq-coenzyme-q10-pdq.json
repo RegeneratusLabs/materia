@@ -1,0 +1,704 @@
+{
+ "doc_id": "nci-pdq-coenzyme-q10-pdq",
+ "source": "NCI PDQ",
+ "tier": "primary",
+ "title": "Coenzyme Q10–Health Professional Version",
+ "title_extra": null,
+ "date": "2024-10-31",
+ "revised": "2024-10-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2034-10-31",
+ "url": "https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+  "note": "NCI PDQ evidence summaries. Text is copyright-free; credit NCI."
+ },
+ "checksum": "sha256:9eb7ce5ba6313ebe4036df260a4c2c3b89e5200aea287339cc6713f0cf626fb1",
+ "entities": [
+  "Coenzyme Q10–Health Professional Version"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#001",
+   "text": "Overview: Go to Patient Version\nThis\ncancer\ninformation summary provides an overview of\nthe use of\ncoenzyme\nQ\n10\nin cancer therapy. The summary includes a\nhistory of coenzyme Q\n10\nresearch, a review of\nlaboratory studies\n,\nand data from investigations involving human subjects. Although several\nnaturally occurring forms of coenzyme Q have been identified, Q\n10\nis the predominant form found in humans and most mammals, and it is the form\nmost studied for\ntherapeutic\npotential. Thus, it will be the only form of coenzyme Q discussed in this\nsummary.\nThis summary contains the following key information:\nCoenzyme Q\n10\nis made naturally by the human body.\nCoenzyme Q\n10\nhelps\ncells\nto produce energy, and it acts as an\nantioxidant\n.\nCoenzyme Q\n10\nhas shown an ability to stimulate the\nimmune\nsystem\nand to protect the heart from damage caused by certain\nchemotherapy\ndrugs.\nLow\nblood\nlevels of coenzyme Q\n10\nhave been detected in\npatients with some types of cancer.\nNo report of a\nrandomized clinical trial\nof coenzyme Q\n10\nas a treatment for cancer has been published in a\npeer-reviewed scientific journal.\nCoenzyme Q\n10\nis marketed in the United States as a\ndietary\nsupplement\n.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 203
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#002",
+   "text": "Overview: Many of the medical and scientific terms used in the summary are hypertext linked (at first use in each section) to the\nNCI Dictionary of Cancer Terms\n, which is oriented toward nonexperts. When a linked term is clicked, a definition will appear in a separate window.\nReference citations in some\nPDQ\ncancer information summaries may include links to external websites that are operated by individuals or organizations for the purpose of marketing or advocating the use of specific treatments or products. These reference citations are included for informational purposes only. Their inclusion should not be viewed as an endorsement of the content of the websites, or of any treatment or product, by the PDQ Integrative, Alternative, and Complementary Therapies Editorial Board or the\nNational Cancer Institute\n.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 129
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#003",
+   "text": "General Information: Coenzyme\nQ\n10\n(also known as CoQ\n10\n, Q\n10\n,\nvitamin Q\n10\n, ubiquinone, and ubidecarenone) is a benzoquinone\ncompound synthesized naturally by the human body. The “Q” and the “10” in the\nname refer to the quinone chemical group and the 10 isoprenyl subunits that are part of this compound’s structure. The term\n“coenzyme” denotes it as an organic (contains carbon atoms), nonprotein\nmolecule\nnecessary for the proper\nfunctioning of its\nprotein\npartner (an\nenzyme\nor an enzyme complex). Coenzyme\nQ\n10\nis used by\ncells\nof the body in a process known variously as:\nAerobic respiration\n.\nAerobic metabolism\n.\nOxidative metabolism\n.\nCell respiration\n.\nThrough this\nprocess, mitochondria produce energy for cell growth and maintenance.[\n1\n-\n4\n]\nCoenzyme Q\n10\nis also used by the body as an\nendogenous\nantioxidant\n.[\n1\n,\n2\n,\n4\n-\n8\n] An antioxidant is a substance that protects cells from\nfree radicals\n, which are highly\nreactive chemicals, often containing oxygen atoms, capable of damaging\nimportant cellular components such as\nDNA\nand\nlipids\n. In addition, the\nplasma\nlevel of coenzyme Q\n10\nhas\nbeen used in studies as a measure of\noxidative stress\n.[\n9\n,\n10\n]\nCoenzyme Q\n10\nis present in most\ntissues\n, but the highest",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#004",
+   "text": "General Information: concentrations are found in the following organs:[\n11\n]\nHeart.\nLiver\n.\nKidneys\n.\nPancreas\n.\nThe lowest concentration is\nfound in the\nlungs\n.[\n11\n] Tissue levels of this compound decrease as people age,\ndue to increased requirements, decreased production,[\n11\n] or insufficient intake\nof the chemical precursors needed for synthesis.[\n12\n] In humans,\nnormal\nblood\nlevels of coenzyme Q\n10\nhave been defined variably,\nwith reported normal values ranging from 0.30 to 3.84\nµg\n/\nmL\n.[\n2\n,\n4\n,\n13\n,\n14\n]\nGiven the importance of coenzyme Q\n10\nin optimizing cellular energy\nproduction, use of this compound as a treatment for diseases other than\ncancer\nhas been explored. Most of these investigations have focused on coenzyme\nQ\n10\nas a treatment for\ncardiovascular\ndisease.[\n2\n,\n4\n,\n15\n] In patients with cancer, coenzyme Q\n10\nhas been shown to do the following:\nProtect the heart from\nanthracycline\n-induced\ncardiotoxicity\n(anthracyclines are\na family of\nchemotherapy\ndrugs, including\ndoxorubicin\n, that have the potential to\ndamage the heart).[\n3\n,\n16\n-\n18\n]\nStimulate the\nimmune system\n.[\n19\n,\n20\n]\nStimulation of the immune system by this compound has also been observed\nin\nanimal studies\nand in humans without cancer.[\n21\n-\n27",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#005",
+   "text": "General Information: ] In part because of its\nimmunostimulatory\npotential, coenzyme Q\n10\nhas been used as an\nadjuvant therapy\nin patients with\nvarious types of cancer.[\n17\n,\n20\n,\n28\n-\n33\n]\nWhile coenzyme Q\n10\nmay show indirect anticancer activity through\nits effect(s) on the immune system, there is evidence to suggest that\nanalogs\nof this compound can suppress\ncancer growth directly. Analogs of coenzyme Q\n10\nhave been shown to\ninhibit the\nproliferation\nof cancer cells\nin vitro\nand the growth of cancer cells\ntransplanted\ninto rats and mice.[\n12\n,\n34\n] In view of these findings, it has\nbeen proposed that analogs of coenzyme Q\n10\nmay function as\nantimetabolites\nto disrupt normal\nbiochemical reactions\nthat are required for cell growth and/or survival and,\nthus, that they may be useful as\nchemotherapeutic\nagents\n.[\n12\n,\n34\n]\nSeveral companies distribute coenzyme Q\n10\nas a\ndietary\nsupplement\n. In the United States, dietary supplements are regulated by the\nU.S. Food and Drug\nAdministration\n(FDA) as a separate category from foods, cosmetics, and drugs. Unlike drugs, dietary supplements do not require premarket evaluation and approval by the FDA unless specific disease\nprevention\nor",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "immunosuppression",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 200
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#006",
+   "text": "General Information: treatment claims are made. The quality and amount of ingredients in dietary supplements are also regulated by the FDA through Good Manufacturing Practices (GMPs). The FDA GMPs requires that every finished batch of dietary supplement meets each product specification for identity, purity, strength, composition, and limits on contamination that may\nadulterate\ndietary supplements. Because dietary supplements are not formally\nreviewed for manufacturing consistency every year, ingredients may vary considerably\nfrom lot to lot and there is no guarantee that ingredients claimed on product labels are present (or are present in the specified amounts). The FDA has not approved coenzyme Q\n10\nfor the treatment of cancer or any other medical condition.\nTo conduct\nclinical\ndrug research in the United States, researchers must\nfile an Investigational New Drug (IND) application with the FDA. The IND\napplication process is highly confidential, and IND information can be\ndisclosed only by the applicants. No investigators have announced\nthat they have applied for an IND to study coenzyme Q\n10\nas a\ntreatment for cancer.\nIn animal studies, coenzyme Q\n10\nhas been administered by\ninjection\n(\nintravenous\n,\nintraperitoneal\n,\nintramuscular\n, or\nsubcutaneous\n). In humans, it is\nusually taken\norally\nas a pill (gel bead or\ncapsule\n), but\nintravenous\ninfusions\nhave been\ngiven.[\n4\n] Coenzyme Q\n10",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#007",
+   "text": "General Information: is absorbed best with fat; therefore, lipid\npreparations are better absorbed than the purified compound.[\n2\n,\n4\n]\nIn human studies, supplementation\ndoses\nand administration schedules have\nvaried, but usually have been in the range of 90 to 390\nmg\n/day.\nReferences\nCrane FL, Sun IL, Sun EE: The essential functions of coenzyme Q. Clin Investig 71 (8 Suppl): S55-9, 1993.\n[PUBMED Abstract]\nPepping J: Coenzyme Q10. Am J Health Syst Pharm 56 (6): 519-21, 1999.\n[PUBMED Abstract]\nFolkers K, Wolaniuk A: Research on coenzyme Q10 in clinical medicine and in immunomodulation. Drugs Exp Clin Res 11 (8): 539-45, 1985.\n[PUBMED Abstract]\nOvervad K, Diamant B, Holm L, et al.: Coenzyme Q10 in health and disease. Eur J Clin Nutr 53 (10): 764-70, 1999.\n[PUBMED Abstract]\nBeyer RE, Nordenbrand K, Ernster L: The role of coenzyme Q as a mitochondrial antioxidant: a short review. In: Folkers K, Yamamura Y, eds.: Biomedical and Clinical Aspects of Coenzyme Q. Vol 5. Elsevier Science Publishers B V (Biomedical Division), 1986, pp 17-24.\nGordon M: Dietary antioxidants in disease prevention. Nat Prod Rep 13 (4): 265-73, 1996.\n[PUBMED Abstract]\nPalazzoni G, Pucello D, Littarru GP, et al.: Coenzyme Q10 and colorectal neoplasms in aged patients. Rays 22 (1 Suppl): 73-6, 1997 Jan-Mar.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#008",
+   "text": "General Information: Ernster L, Dallner G: Biochemical, physiological and medical aspects of ubiquinone function. Biochim Biophys Acta 1271 (1): 195-204, 1995.\n[PUBMED Abstract]\nYamamoto Y, Yamashita S, Fujisawa A, et al.: Oxidative stress in patients with hepatitis, cirrhosis, and hepatoma evaluated by plasma antioxidants. Biochem Biophys Res Commun 247 (1): 166-70, 1998.\n[PUBMED Abstract]\nYamamoto Y, Yamashita S: Plasma ratio of ubiquinol and ubiquinone as a marker of oxidative stress. Mol Aspects Med 18 (Suppl): S79-84, 1997.\n[PUBMED Abstract]\nErnster L, Forsmark-Andrée P: Ubiquinol: an endogenous antioxidant in aerobic organisms. Clin Investig 71 (8 Suppl): S60-5, 1993.\n[PUBMED Abstract]\nFolkers K: The potential of coenzyme Q 10 (NSC-140865) in cancer treatment. Cancer Chemother Rep 2 4 (4): 19-22, 1974.\n[PUBMED Abstract]\nFolkers K, Osterborg A, Nylander M, et al.: Activities of vitamin Q10 in animal models and a serious deficiency in patients with cancer. Biochem Biophys Res Commun 234 (2): 296-9, 1997.\n[PUBMED Abstract]\nJolliet P, Simon N, Barré J, et al.: Plasma coenzyme Q10 concentrations in breast cancer: prognosis and therapeutic consequences. Int J Clin Pharmacol Ther 36 (9): 506-9, 1998.\n[PUBMED Abstract]\nBaggio E, Gandini R, Plancher AC, et al.: Italian multicenter study on the safety and efficacy of coenzyme Q10 as adjunctive therapy in heart failure. CoQ10 Drug Surveillance Investigators. Mol Aspects Med 15 (Suppl): s287-94, 1994.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#009",
+   "text": "General Information: Cortes EP, Gupta M, Chou C, et al.: Adriamycin cardiotoxicity: early detection by systolic time interval and possible prevention by coenzyme Q10. Cancer Treat Rep 62 (6): 887-91, 1978.\n[PUBMED Abstract]\nFolkers K, Brown R, Judy WV, et al.: Survival of cancer patients on therapy with coenzyme Q10. Biochem Biophys Res Commun 192 (1): 241-5, 1993.\n[PUBMED Abstract]\nIarussi D, Auricchio U, Agretto A, et al.: Protective effect of coenzyme Q10 on anthracyclines cardiotoxicity: control study in children with acute lymphoblastic leukemia and non-Hodgkin lymphoma. Mol Aspects Med 15 (Suppl): s207-12, 1994.\n[PUBMED Abstract]\nFolkers K, Shizukuishi S, Takemura K, et al.: Increase in levels of IgG in serum of patients treated with coenzyme Q10. Res Commun Chem Pathol Pharmacol 38 (2): 335-8, 1982.\n[PUBMED Abstract]\nComplementary treatments highlighted at recent meeting. Oncology (Huntingt) 13 (2): 166, 1999.\n[PUBMED Abstract]\nBliznakov E, Casey A, Premuzic E: Coenzymes Q: stimulants of the phagocytic activity in rats and immune response in mice. Experientia 26 (9): 953-4, 1970.\n[PUBMED Abstract]\nFolkers K, Hanioka T, Xia LJ, et al.: Coenzyme Q10 increases T4/T8 ratios of lymphocytes in ordinary subjects and relevance to patients having the AIDS related complex. Biochem Biophys Res Commun 176 (2): 786-91, 1991.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 206
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#010",
+   "text": "General Information: Kawase I, Niitani H, Saijo N, et al.: Enhancing effect of coenzyme, Q10 on immunorestoration with Mycobacterium bovis BCG in tumor-bearing mice. Gann 69 (4): 493-7, 1978.\n[PUBMED Abstract]\nBliznakov EG: Effect of stimulation of the host defense system by coenzyme Q 10 on dibenzpyrene-induced tumors and infection with Friend leukemia virus in mice. Proc Natl Acad Sci U S A 70 (2): 390-4, 1973.\n[PUBMED Abstract]\nBliznakov EG, Adler AD: Nonlinear response of the reticuloendothelial system upon stimulation. Pathol Microbiol (Basel) 38 (6): 393-410, 1972.\n[PUBMED Abstract]\nBliznakov EG: Coenzyme Q in experimental infections and neoplasia. In: Folkers K, Yamamura Y, eds.: Biomedical and Clinical Aspects of Coenzyme Q. Vol 1. Elsevier/North-Holland Biomedical Press, 1977, pp 73-83.\nBarbieri B, Lund B, Lundström B, et al.: Coenzyme Q10 administration increases antibody titer in hepatitis B vaccinated volunteers--a single blind placebo-controlled and randomized clinical study. Biofactors 9 (2-4): 351-7, 1999.\n[PUBMED Abstract]\nLockwood K, Moesgaard S, Hanioka T, et al.: Apparent partial remission of breast cancer in 'high risk' patients supplemented with nutritional antioxidants, essential fatty acids and coenzyme Q10. Mol Aspects Med 15 (Suppl): s231-40, 1994.\n[PUBMED Abstract]\nLockwood K, Moesgaard S, Folkers K: Partial and complete regression of breast cancer in patients in relation to dosage of coenzyme Q10. Biochem Biophys Res Commun 199 (3): 1504-8, 1994.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#011",
+   "text": "General Information: Lockwood K, Moesgaard S, Yamamoto T, et al.: Progress on therapy of breast cancer with vitamin Q10 and the regression of metastases. Biochem Biophys Res Commun 212 (1): 172-7, 1995.\n[PUBMED Abstract]\nFolkers K: Relevance of the biosynthesis of coenzyme Q10 and of the four bases of DNA as a rationale for the molecular causes of cancer and a therapy. Biochem Biophys Res Commun 224 (2): 358-61, 1996.\n[PUBMED Abstract]\nRen S, Lien EJ: Natural products and their derivatives as cancer chemopreventive agents. Prog Drug Res 48: 147-71, 1997.\n[PUBMED Abstract]\nHodges S, Hertz N, Lockwood K, et al.: CoQ10: could it have a role in cancer management? Biofactors 9 (2-4): 365-70, 1999.\n[PUBMED Abstract]\nFolkers K, Porter TH, Bertino JR, et al.: Inhibition of two human tumor cell lines by antimetabolites of coenzyme Q10. Res Commun Chem Pathol Pharmacol 19 (3): 485-90, 1978.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 148
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#012",
+   "text": "History: Coenzyme\nQ\n10\nwas first isolated in 1957, and its\nchemical structure (benzoquinone compound) was determined in 1958.[\n1\n,\n2\n] Interest in coenzyme Q\n10\nas a\ntherapeutic\nagent in\ncancer\nbegan in 1961, when a\ndeficiency\nwas noted in the\nblood\nof both Swedish and\nAmerican cancer patients, especially in the blood of patients with\nbreast\ncancer\n.[\n2\n-\n4\n] A subsequent\nstudy\nshowed a\nstatistically\nsignificant\nrelationship between the level of\nplasma\ncoenzyme Q\n10\ndeficiency and breast cancer\nprognosis\n.[\n5\n] Low blood levels of this\ncompound have been reported in patients with\nmalignancies\nother than breast\ncancer, including\nmyeloma\n,\nlymphoma\n, and cancers of the\nlung\n,\nprostate\n,\npancreas\n,\ncolon\n,\nkidney\n, and\nhead and neck\n.[\n2\n,\n6\n,\n7\n]\nFurthermore, decreased levels of coenzyme Q\n10\nhave been detected in\nmalignant\nhuman\ntissue\n,[\n8\n-\n12\n] but\nincreased levels have been reported as well.[\n8\n]\nA large amount of\nlaboratory\nand\nanimal\ndata on coenzyme Q\n10\nhave\naccumulated since 1962.[\n2\n] Research into cellular energy-producing mechanisms that involve this compound was awarded the Nobel Prize in\nChemistry in 1978. Some of the accumulated data show that coenzyme\nQ\n10\nstimulates animal\nimmune systems\n, leading to higher\nantibody",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#013",
+   "text": "History: levels,[\n13\n] greater numbers\nand/or activities of\nmacrophages\nand\nT cells\n(T\nlymphocytes\n),[\n13\n,\n14\n] and increased\nresistance to\ninfection\n.[\n15\n-\n17\n] Coenzyme Q\n10\nhas also been\nreported to increase IgG (\nimmunoglobulin\nG) antibody levels\nand to increase the CD4 to CD8 T-cell ratio in humans.[\n18\n-\n20\n] CD4 and CD8\nare\nproteins\nfound on the surface of T cells, with CD4 and CD8 identifying\nhelper T cells\nand\ncytotoxic T cells\n,\nrespectively; decreased CD4 to CD8 T-cell ratios have been reported for cancer\npatients.[\n21\n,\n22\n] Research subsequently delineated the\nantioxidant\nproperties\nof coenzyme Q\n10\n.[\n23\n-\n27\n]\nProposed mechanisms of action for coenzyme Q\n10\nthat are relevant\nto cancer include its essential function in cellular energy production and its\nstimulation of the immune system (which may both be related), as well as\nits role as an antioxidant. Coenzyme Q\n10\nis essential to\naerobic\nenergy production,[\n1\n,\n25\n,\n28\n] and it has been suggested that increased cellular energy leads to\nincreased antibody synthesis in\nB cells\n(\nB lymphocytes\n).[\n6\n,\n18\n] As noted previously (\nGeneral Information section\n),\ncoenzyme Q\n10\ncan also behave as an antioxidant.[\n1\n,\n25\n-\n27\n,",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#014",
+   "text": "History: 29\n-\n32\n] In this capacity, coenzyme Q\n10\nis thought to stabilize cell\nmembranes (\nlipid\n-containing structures essential to maintaining cell\nintegrity) and to prevent\nfree radical\ndamage to other important cellular\ncomponents.[\n1\n,\n25\n,\n27\n,\n32\n] Free radical damage to\nDNA\n(and possibly to\nother cellular\nmolecules\n) may be a factor in cancer development.[\n11\n,\n23\n,\n30\n,\n33\n-\n36\n]\nReferences\nPepping J: Coenzyme Q10. Am J Health Syst Pharm 56 (6): 519-21, 1999.\n[PUBMED Abstract]\nFolkers K, Osterborg A, Nylander M, et al.: Activities of vitamin Q10 in animal models and a serious deficiency in patients with cancer. Biochem Biophys Res Commun 234 (2): 296-9, 1997.\n[PUBMED Abstract]\nLockwood K, Moesgaard S, Yamamoto T, et al.: Progress on therapy of breast cancer with vitamin Q10 and the regression of metastases. Biochem Biophys Res Commun 212 (1): 172-7, 1995.\n[PUBMED Abstract]\nRen S, Lien EJ: Natural products and their derivatives as cancer chemopreventive agents. Prog Drug Res 48: 147-71, 1997.\n[PUBMED Abstract]\nJolliet P, Simon N, Barré J, et al.: Plasma coenzyme Q10 concentrations in breast cancer: prognosis and therapeutic consequences. Int J Clin Pharmacol Ther 36 (9): 506-9, 1998.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 206
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#015",
+   "text": "History: Folkers K: The potential of coenzyme Q 10 (NSC-140865) in cancer treatment. Cancer Chemother Rep 2 4 (4): 19-22, 1974.\n[PUBMED Abstract]\nFolkers K: Relevance of the biosynthesis of coenzyme Q10 and of the four bases of DNA as a rationale for the molecular causes of cancer and a therapy. Biochem Biophys Res Commun 224 (2): 358-61, 1996.\n[PUBMED Abstract]\nChipperfield B: Ubiquinone concentrations in some tumour-bearing tissues. Ubiquinone concentrations in tumours and some normal tissues in man. Nature 209 (29): 1207-8, 1966.\n[PUBMED Abstract]\nEggens I, Elmberger PG, Löw P: Polyisoprenoid, cholesterol and ubiquinone levels in human hepatocellular carcinomas. Br J Exp Pathol 70 (1): 83-92, 1989.\n[PUBMED Abstract]\nMano T, Iwase K, Hayashi R, et al.: Vitamin E and coenzyme Q concentrations in the thyroid tissues of patients with various thyroid disorders. Am J Med Sci 315 (4): 230-2, 1998.\n[PUBMED Abstract]\nPicardo M, Grammatico P, Roccella F, et al.: Imbalance in the antioxidant pool in melanoma cells and normal melanocytes from patients with melanoma. J Invest Dermatol 107 (3): 322-6, 1996.\n[PUBMED Abstract]\nPortakal O, Ozkaya O, Erden Inal M, et al.: Coenzyme Q10 concentrations and antioxidant status in tissues of breast cancer patients. Clin Biochem 33 (4): 279-84, 2000.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "thyroid",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 206
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#016",
+   "text": "History: Bliznakov E, Casey A, Premuzic E: Coenzymes Q: stimulants of the phagocytic activity in rats and immune response in mice. Experientia 26 (9): 953-4, 1970.\n[PUBMED Abstract]\nKawase I, Niitani H, Saijo N, et al.: Enhancing effect of coenzyme, Q10 on immunorestoration with Mycobacterium bovis BCG in tumor-bearing mice. Gann 69 (4): 493-7, 1978.\n[PUBMED Abstract]\nBliznakov EG: Effect of stimulation of the host defense system by coenzyme Q 10 on dibenzpyrene-induced tumors and infection with Friend leukemia virus in mice. Proc Natl Acad Sci U S A 70 (2): 390-4, 1973.\n[PUBMED Abstract]\nBliznakov EG, Adler AD: Nonlinear response of the reticuloendothelial system upon stimulation. Pathol Microbiol (Basel) 38 (6): 393-410, 1972.\n[PUBMED Abstract]\nBliznakov EG: Coenzyme Q in experimental infections and neoplasia. In: Folkers K, Yamamura Y, eds.: Biomedical and Clinical Aspects of Coenzyme Q. Vol 1. Elsevier/North-Holland Biomedical Press, 1977, pp 73-83.\nFolkers K, Shizukuishi S, Takemura K, et al.: Increase in levels of IgG in serum of patients treated with coenzyme Q10. Res Commun Chem Pathol Pharmacol 38 (2): 335-8, 1982.\n[PUBMED Abstract]\nFolkers K, Hanioka T, Xia LJ, et al.: Coenzyme Q10 increases T4/T8 ratios of lymphocytes in ordinary subjects and relevance to patients having the AIDS related complex. Biochem Biophys Res Commun 176 (2): 786-91, 1991.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#017",
+   "text": "History: Barbieri B, Lund B, Lundström B, et al.: Coenzyme Q10 administration increases antibody titer in hepatitis B vaccinated volunteers--a single blind placebo-controlled and randomized clinical study. Biofactors 9 (2-4): 351-7, 1999.\n[PUBMED Abstract]\nShaw M, Ray P, Rubenstein M, et al.: Lymphocyte subsets in urologic cancer patients. Urol Res 15 (3): 181-5, 1987.\n[PUBMED Abstract]\nTsuyuguchi I, Shiratsuchi H, Fukuoka M: T-lymphocyte subsets in primary lung cancer. Jpn J Clin Oncol 17 (1): 13-7, 1987.\n[PUBMED Abstract]\nYamamoto Y, Yamashita S, Fujisawa A, et al.: Oxidative stress in patients with hepatitis, cirrhosis, and hepatoma evaluated by plasma antioxidants. Biochem Biophys Res Commun 247 (1): 166-70, 1998.\n[PUBMED Abstract]\nYamamoto Y, Yamashita S: Plasma ratio of ubiquinol and ubiquinone as a marker of oxidative stress. Mol Aspects Med 18 (Suppl): S79-84, 1997.\n[PUBMED Abstract]\nCrane FL, Sun IL, Sun EE: The essential functions of coenzyme Q. Clin Investig 71 (8 Suppl): S55-9, 1993.\n[PUBMED Abstract]\nOvervad K, Diamant B, Holm L, et al.: Coenzyme Q10 in health and disease. Eur J Clin Nutr 53 (10): 764-70, 1999.\n[PUBMED Abstract]\nErnster L, Forsmark-Andrée P: Ubiquinol: an endogenous antioxidant in aerobic organisms. Clin Investig 71 (8 Suppl): S60-5, 1993.\n[PUBMED Abstract]\nFolkers K, Wolaniuk A: Research on coenzyme Q10 in clinical medicine and in immunomodulation. Drugs Exp Clin Res 11 (8): 539-45, 1985.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#018",
+   "text": "History: [PUBMED Abstract]\nBeyer RE, Nordenbrand K, Ernster L: The role of coenzyme Q as a mitochondrial antioxidant: a short review. In: Folkers K, Yamamura Y, eds.: Biomedical and Clinical Aspects of Coenzyme Q. Vol 5. Elsevier Science Publishers B V (Biomedical Division), 1986, pp 17-24.\nGordon M: Dietary antioxidants in disease prevention. Nat Prod Rep 13 (4): 265-73, 1996.\n[PUBMED Abstract]\nPalazzoni G, Pucello D, Littarru GP, et al.: Coenzyme Q10 and colorectal neoplasms in aged patients. Rays 22 (1 Suppl): 73-6, 1997 Jan-Mar.\n[PUBMED Abstract]\nErnster L, Dallner G: Biochemical, physiological and medical aspects of ubiquinone function. Biochim Biophys Acta 1271 (1): 195-204, 1995.\n[PUBMED Abstract]\nAust AE, Eveleigh JF: Mechanisms of DNA oxidation. Proc Soc Exp Biol Med 222 (3): 246-52, 1999.\n[PUBMED Abstract]\nHalliwell B: Oxygen and nitrogen are pro-carcinogens. Damage to DNA by reactive oxygen, chlorine and nitrogen species: measurement, mechanism and the effects of nutrition. Mutat Res 443 (1-2): 37-52, 1999.\n[PUBMED Abstract]\nBurcham PC: Internal hazards: baseline DNA damage by endogenous products of normal metabolism. Mutat Res 443 (1-2): 11-36, 1999.\n[PUBMED Abstract]\nDreher D, Junod AF: Role of oxygen free radicals in cancer development. Eur J Cancer 32A (1): 30-8, 1996.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 201
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#019",
+   "text": "Laboratory/Animal/Preclinical Studies: Laboratory\nwork on\ncoenzyme\nQ\n10\nhas focused primarily on its\nstructure and its function in\ncell respiration\n. Studies in\nanimals\nhave\ndemonstrated that coenzyme Q\n10\nis capable of stimulating the\nimmune\nsystem\n, with treated animals showing increased resistance to\nprotozoal\ninfections\n[\n1\n,\n2\n] and to\nviral\nand chemically-induced\nneoplasia\n.[\n1\n-\n4\n] Early\nstudies of coenzyme Q\n10\nshowed increased\nhematopoiesis\n(the formation of new\nblood\ncells) in monkeys,[\n4\n,\n5\n] rabbits,[\n6\n] and\npoultry.[\n5\n] Coenzyme Q\n10\ndemonstrated a protective\neffect on the heart muscle of mice, rats, and rabbits given the\nanthracycline\nanticancer drug\ndoxorubicin\n.[\n7\n-\n12\n] Although another study confirmed this\nprotective effect with\nintraperitoneal\nadministration of doxorubicin in mice,\nit failed to demonstrate a protective effect when the anthracycline was given\nintravenously\n, which is the route of administration in humans.[\n13\n]\nResearchers in one study sounded a cautionary note when they found that\ncoadministration of coenzyme Q\n10\nand\nradiation therapy\ndecreased the\neffectiveness of the radiation therapy.[\n14\n] In this study, mice inoculated with\nhuman\nsmall cell lung cancer\ncells\n(a\nxenograft\nstudy), and then given\ncoenzyme Q\n10\nand single-\ndose\nradiation therapy, showed\nsubstantially less inhibition of\ntumor\ngrowth than mice in the",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#020",
+   "text": "Laboratory/Animal/Preclinical Studies: control group\nthat were treated with radiation therapy alone. Since radiation leads to the\nproduction of\nfree radicals\n, and since\nantioxidants\nprotect against free\nradical damage, the effect in this study might be explained by coenzyme\nQ\n10\nacting as an antioxidant. As noted previously, there is some evidence from\nlaboratory and animal studies that\nanalogs\nof coenzyme Q\n10\nmay\nhave direct anticancer activity.[\n15\n,\n16\n] See the\nGeneral Information\nsection.\nReferences\nBliznakov EG, Adler AD: Nonlinear response of the reticuloendothelial system upon stimulation. Pathol Microbiol (Basel) 38 (6): 393-410, 1972.\n[PUBMED Abstract]\nBliznakov EG: Coenzyme Q in experimental infections and neoplasia. In: Folkers K, Yamamura Y, eds.: Biomedical and Clinical Aspects of Coenzyme Q. Vol 1. Elsevier/North-Holland Biomedical Press, 1977, pp 73-83.\nBliznakov EG: Effect of stimulation of the host defense system by coenzyme Q 10 on dibenzpyrene-induced tumors and infection with Friend leukemia virus in mice. Proc Natl Acad Sci U S A 70 (2): 390-4, 1973.\n[PUBMED Abstract]\nFolkers K, Osterborg A, Nylander M, et al.: Activities of vitamin Q10 in animal models and a serious deficiency in patients with cancer. Biochem Biophys Res Commun 234 (2): 296-9, 1997.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 200
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#021",
+   "text": "Laboratory/Animal/Preclinical Studies: Folkers K, Brown R, Judy WV, et al.: Survival of cancer patients on therapy with coenzyme Q10. Biochem Biophys Res Commun 192 (1): 241-5, 1993.\n[PUBMED Abstract]\nLudwig FC, Elashoff RM, Smith JL, et al.: Response of the bone marrow of the vitamin E-deficient rabbit to coenzyme Q and vitamin E. Scand J Haematol 4 (4): 292-300, 1967.\n[PUBMED Abstract]\nChoe JY, Combs AB, Folkers K: Prevention by coenzyme Q10 of the electrocardiographic changes induced by adriamycin in rats. Res Commun Chem Pathol Pharmacol 23 (1): 199-202, 1979.\n[PUBMED Abstract]\nCombs AB, Choe JY, Truong DH, et al.: Reduction by coenzyme Q10 of the acute toxicity of adriamycin in mice. Res Commun Chem Pathol Pharmacol 18 (3): 565-8, 1977.\n[PUBMED Abstract]\nFolkers K, Choe JY, Combs AB: Rescue by coenzyme Q10 from electrocardiographic abnormalities caused by the toxicity of adriamycin in the rat. Proc Natl Acad Sci U S A 75 (10): 5178-80, 1978.\n[PUBMED Abstract]\nLubawy WC, Dallam RA, Hurley LH: Protection against anthramycin-induced toxicity in mice by coenzyme Q10. J Natl Cancer Inst 64 (1): 105-9, 1980.\n[PUBMED Abstract]\nShinozawa S, Gomita Y, Araki Y: Protective effects of various drugs on adriamycin (doxorubicin)-induced toxicity and microsomal lipid peroxidation in mice and rats. Biol Pharm Bull 16 (11): 1114-7, 1993.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#022",
+   "text": "Laboratory/Animal/Preclinical Studies: Usui T, Ishikura H, Izumi Y, et al.: Possible prevention from the progression of cardiotoxicity in adriamycin-treated rabbits by coenzyme Q10. Toxicol Lett 12 (1): 75-82, 1982.\n[PUBMED Abstract]\nShaeffer J, El-Mahdi AM, Nichols RK: Coenzyme Q10 and adriamycin toxicity in mice. Res Commun Chem Pathol Pharmacol 29 (2): 309-15, 1980.\n[PUBMED Abstract]\nLund EL, Quistorff B, Spang-Thomsen M, et al.: Effect of radiation therapy on small-cell lung cancer is reduced by ubiquinone intake. Folia Microbiol (Praha) 43 (5): 505-6, 1998.\n[PUBMED Abstract]\nFolkers K: The potential of coenzyme Q 10 (NSC-140865) in cancer treatment. Cancer Chemother Rep 2 4 (4): 19-22, 1974.\n[PUBMED Abstract]\nFolkers K, Porter TH, Bertino JR, et al.: Inhibition of two human tumor cell lines by antimetabolites of coenzyme Q10. Res Commun Chem Pathol Pharmacol 19 (3): 485-90, 1978.\n[PUBMED Abstract]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 138
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#023",
+   "text": "Human/Clinical Studies: Clinical studies\non the use of coenzyme Q\n10\nto prevent\nside effects\nof\ncancer\ntreatment, treat side effects of cancer treatment, and/or as a treatment for cancer are very limited. Importantly,\nclinical trials\nthat examined the use of coenzyme Q\n10\nduring cancer treatment to prevent toxicities have not followed patients for long-term outcomes to determine whether coenzyme Q\n10\ndecreased the\nefficacy\nof cancer treatments (e.g.,\nchemotherapy\nand\nradiation therapy)\n. A recent\nobservational study\nconducted with 1,134 patients with\nbreast cancer\nenrolled in an\nNational Cancer Institute\nmulti-institution clinical trial (\nSWOG S0221\n) suggested that the use of\nantioxidant\nsupplements, including coenzyme Q\n10\n, prior to and during cancer treatment may be associated with increased\nrecurrence\nrates and decreased survival.[\n1\n]",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 129
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#024",
+   "text": "Symptom and Side Effect Management: Cardiac toxicity\nIn view of promising results from\nanimal studies\n, coenzyme\nQ\n10\nwas tested as a protective agent against\ncardiac\ntoxicity that was observed in cancer\npatients treated with the\nanthracycline\ndrug\ndoxorubicin\n. It has been\npostulated that doxorubicin interferes with energy-generating\nbiochemical\nreactions\nthat involve coenzyme Q\n10\nin heart muscle\nmitochondria\nand that this interference can be overcome by coenzyme Q\n10\nsupplementation\n.[\n2\n-\n4\n] Studies with adults and children, including the\naforementioned\nrandomized trial\n, have confirmed the decrease in cardiac\ntoxicity observed in animal studies.[\n2\n,\n5\n-\n7\n] A randomized trial [\n7\n] of 20 patients tested the ability of coenzyme Q\n10\nto reduce\ncardiotoxicity\ncaused by anthracycline drugs.\nFatigue\nTwo randomized,\ncontrolled trials\nhave explored the potential of coenzyme Q\n10\n-containing supplements to prevent or treat\nfatigue\nin patients who received cancer therapy. A randomized,\nplacebo-controlled\ntrial of 236 patients with breast cancer who received\nadjuvant chemotherapy\nwith or without radiation therapy concluded that coenzyme Q\n10\nat a daily\ndose\nof 300\nmg\ncombined with 300\nIU\nof\nvitamin E\n, divided into three doses, did not prevent treatment-induced worsening of mean fatigue levels or\nquality of life\nafter 24 weeks of supplementation.[\n8",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#025",
+   "text": "Symptom and Side Effect Management: ] Another smaller trial (N = 59) used a daily\nadministration\nof a different supplement that contained coenzyme Q\n10\n(30 mg) along with branched-chain\namino acids\n(2,500 mg) and\nL-carnitine\n(50 mg). All patients received adjuvant chemotherapy, but none received radiation therapy during the 21 days of the trial. The results of this trial also failed to show a significant difference in the mean fatigue levels between the treatment group and the\ncontrol group\n, though a\nstatistically significant\nbenefit was seen for the study’s\nprimary endpoint\n(worst level of fatigue during the past 24 hours).[\n9\n]",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#026",
+   "text": "Cancer Treatment: The use of\ncoenzyme\nQ\n10\nas a treatment for cancer in humans has\nbeen investigated in only a limited manner. In view of observations that\nblood\nlevels of coenzyme\nQ\n10\nare frequently reduced in cancer patients,[\n10\n-\n14\n] supplementation with this\ncompound\nhas been tested in patients\nundergoing\nconventional treatment\n. An open-label,\nnonblinded\n, uncontrolled clinical study\nin Denmark followed 32 patients with breast cancer for 18 months.[\n15\n] The disease\nhad spread to the\naxillary lymph nodes\n, and an\nunreported number of patients had distant\nmetastases\n. Patients received\nantioxidant supplementation (\nvitamin C\n, vitamin E, and\nbeta carotene\n), other\nvitamins\nand trace\nminerals\n, essential\nfatty acids\n, and coenzyme\nQ\n10\n(at a dose of 90 mg/day), in addition to\nstandard\ntherapy\n(\nsurgery\n, radiation therapy, and chemotherapy, with or without\ntamoxifen\n). Patients were seen every\n3 months to\nmonitor\ndisease status (\nprogressive disease\nor\nrecurrence\n), and if there was a\nsuspicion of recurrence,\nmammography\n,\nbone scan\n,\nx-ray\n, or\nbiopsy\nwas performed. The\nsurvival rate\nfor\nthe study period was 100% (four deaths were expected). Six\npatients were reported to show some evidence of\nremission\n; however, incomplete clinical\ndata were provided and information suggestive of remission was presented for",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "surgery",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#027",
+   "text": "Cancer Treatment: only three of six patients. None of the six patients had evidence of\nfurther metastases. For all 32 patients, decreased use of painkillers,\nimproved\nquality of life\n, and an\nabsence of weight loss were reported. Whether painkiller use and quality of\nlife were measured objectively (e.g., from pharmacy records and validated\nquestionnaires, respectively) or subjectively (from patient self-reports) was\nnot specified.\nIn a\nfollow-up\nstudy, one of six patients with a reported remission and\none new patient were treated for several months with higher doses of coenzyme\nQ\n10\n(390 mg/day and 300 mg/day, respectively).[\n16\n] Surgical\nremoval of the\nprimary\nbreast tumor in both patients had been incomplete.\nAfter 3 to 4 months of high-level coenzyme Q\n10\nsupplementation,\nboth patients appeared to experience complete\nregression\nof their\nresidual\nbreast\ntumors (assessed by clinical examination and mammography). It should be noted\nthat a different patient identifier was used in the follow-up study for the\npatient who had participated in the original study. Therefore, it is\nimpossible to determine which of the six patients with a reported remission\ntook part in the follow-up study. In the follow-up study report, the\nresearchers noted that all 32 patients from the original study remained alive\nat 24 months of\nobservation\n, whereas six deaths had been expected.[\n16\n]",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "surgery",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#028",
+   "text": "Cancer Treatment: In another report by the same\ninvestigators\n, three patients with breast cancer\nwho received high-dose coenzyme Q\n10\n(390 mg/day) were followed for a total of 3 to 5 years.[\n11\n] One patient had\ncomplete remission\nof\nliver metastases\n(determined by clinical examination and\nultrasonography\n), one patient had\nremission of a tumor that had spread to the\nchest wall\n(determined by clinical\nexamination and\nchest x-ray\n), and one patient had no\nmicroscopic\nevidence of remaining tumor after a\nmastectomy\n(determined by biopsy of the\ntumor bed).\nAll three of the above-mentioned human studies [\n11\n,\n15\n,\n16\n] had important design\nflaws that could have influenced their outcome. Study weaknesses include the\nabsence of a control group (i.e., all patients received coenzyme\nQ\n10\n), possible\nselection\nbias\nin the follow-up investigations, and multiple confounding variables\n(i.e., patients received a variety of supplements in addition to coenzyme\nQ\n10\nand received standard therapy either during or\nimmediately before supplementation with coenzyme Q\n10\n). Thus, it is\nimpossible to determine whether any of the beneficial results was directly\nrelated to coenzyme Q\n10\ntherapy.\nAnecdotal reports\nof coenzyme Q\n10\nlengthening the survival of\npatients with\npancreatic\n,\nlung\n,\nrectal\n,\nlaryngeal\n,\ncolon\n, and\nprostate\ncancers",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#029",
+   "text": "Cancer Treatment: also exist in the peer-reviewed scientific literature.[\n6\n] The patients\ndescribed in these reports also received therapies other than coenzyme\nQ\n10\n, including chemotherapy, radiation therapy, and surgery.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "surgery",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#030",
+   "text": "Current Clinical Trials: Use our\nadvanced clinical trial search\nto find NCI-supported cancer clinical trials that are now enrolling patients. The search can be narrowed by location of the trial, type of treatment, name of the drug, and other criteria.\nGeneral information\nabout clinical trials is also available.\nReferences\nAmbrosone CB, Zirpoli GR, Hutson AD, et al.: Dietary Supplement Use During Chemotherapy and Survival Outcomes of Patients With Breast Cancer Enrolled in a Cooperative Group Clinical Trial (SWOG S0221). J Clin Oncol 38 (8): 804-814, 2020.\n[PUBMED Abstract]\nCortes EP, Gupta M, Chou C, et al.: Adriamycin cardiotoxicity: early detection by systolic time interval and possible prevention by coenzyme Q10. Cancer Treat Rep 62 (6): 887-91, 1978.\n[PUBMED Abstract]\nUsui T, Ishikura H, Izumi Y, et al.: Possible prevention from the progression of cardiotoxicity in adriamycin-treated rabbits by coenzyme Q10. Toxicol Lett 12 (1): 75-82, 1982.\n[PUBMED Abstract]\nIwamoto Y, Hansen IL, Porter TH, et al.: Inhibition of coenzyme Q10-enzymes, succinoxidase and NADH-oxidase, by adriamycin and other quinones having antitumor activity. Biochem Biophys Res Commun 58 (3): 633-8, 1974.\n[PUBMED Abstract]\nFolkers K, Wolaniuk A: Research on coenzyme Q10 in clinical medicine and in immunomodulation. Drugs Exp Clin Res 11 (8): 539-45, 1985.\n[PUBMED Abstract]",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 205
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#031",
+   "text": "Current Clinical Trials: Folkers K, Brown R, Judy WV, et al.: Survival of cancer patients on therapy with coenzyme Q10. Biochem Biophys Res Commun 192 (1): 241-5, 1993.\n[PUBMED Abstract]\nIarussi D, Auricchio U, Agretto A, et al.: Protective effect of coenzyme Q10 on anthracyclines cardiotoxicity: control study in children with acute lymphoblastic leukemia and non-Hodgkin lymphoma. Mol Aspects Med 15 (Suppl): s207-12, 1994.\n[PUBMED Abstract]\nLesser GJ, Case D, Stark N, et al.: A randomized, double-blind, placebo-controlled study of oral coenzyme Q10 to relieve self-reported treatment-related fatigue in newly diagnosed patients with breast cancer. J Support Oncol 11 (1): 31-42, 2013.\n[PUBMED Abstract]\nIwase S, Kawaguchi T, Yotsumoto D, et al.: Efficacy and safety of an amino acid jelly containing coenzyme Q10 and L-carnitine in controlling fatigue in breast cancer patients receiving chemotherapy: a multi-institutional, randomized, exploratory trial (JORTC-CAM01). Support Care Cancer 24 (2): 637-646, 2016.\n[PUBMED Abstract]\nFolkers K, Osterborg A, Nylander M, et al.: Activities of vitamin Q10 in animal models and a serious deficiency in patients with cancer. Biochem Biophys Res Commun 234 (2): 296-9, 1997.\n[PUBMED Abstract]\nLockwood K, Moesgaard S, Yamamoto T, et al.: Progress on therapy of breast cancer with vitamin Q10 and the regression of metastases. Biochem Biophys Res Commun 212 (1): 172-7, 1995.\n[PUBMED Abstract]",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#032",
+   "text": "Current Clinical Trials: Folkers K: Relevance of the biosynthesis of coenzyme Q10 and of the four bases of DNA as a rationale for the molecular causes of cancer and a therapy. Biochem Biophys Res Commun 224 (2): 358-61, 1996.\n[PUBMED Abstract]\nRen S, Lien EJ: Natural products and their derivatives as cancer chemopreventive agents. Prog Drug Res 48: 147-71, 1997.\n[PUBMED Abstract]\nShidal C, Yoon HS, Zheng W, et al.: Prospective study of plasma levels of coenzyme Q10 and lung cancer risk in a low-income population in the Southeastern United States. Cancer Med 10 (4): 1439-1447, 2021.\n[PUBMED Abstract]\nLockwood K, Moesgaard S, Hanioka T, et al.: Apparent partial remission of breast cancer in 'high risk' patients supplemented with nutritional antioxidants, essential fatty acids and coenzyme Q10. Mol Aspects Med 15 (Suppl): s231-40, 1994.\n[PUBMED Abstract]\nLockwood K, Moesgaard S, Folkers K: Partial and complete regression of breast cancer in patients in relation to dosage of coenzyme Q10. Biochem Biophys Res Commun 199 (3): 1504-8, 1994.\n[PUBMED Abstract]",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 168
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#033",
+   "text": "Adverse Effects: No serious\ntoxicity\nassociated with the use of\ncoenzyme\nQ\n10\nhas\nbeen reported.[\n1\n-\n4\n]\nDoses\nof 100\nmg\n/day or\nhigher have caused mild\ninsomnia\nin\nsome individuals.\nLiver\nenzyme\nelevation has been detected in\npatients taking doses of 300 mg/day for extended periods of time,\nbut no liver toxicity has been reported.[\n1\n] Researchers in one\ncardiovascular\nstudy\nreported that coenzyme Q\n10\ncaused rashes,\nnausea\n, and\nepigastric\n(upper\nabdominal\n) pain that required withdrawal of a small number of patients from\nthe study.[\n5\n] Other reported\nside effects\nhave included dizziness,\nphotophobia\n(abnormal visual\nsensitivity to light), irritability,[\n5\n] headache, heartburn, and\nfatigue\n.[\n6\n]\nIn a\nprospective\nstudy that explored the association between supplement use and\nbreast cancer\noutcomes (\nSWOG S0221\n), the use of any\nantioxidant\nsupplement before and during treatment–including coenzyme Q\n10\n,\nvitamin A\n,\nvitamin C\n,\nvitamin E\n, and carotenoids–was associated with a trend showing an increased hazard of\nrecurrence\n(adjusted hazard ratio, 1.41; confidence interval, 0.98–2.04,\nP\n= .06).[\n7\n]\nCertain\nlipid\n-lowering drugs, such as the\nstatins\n(lovastatin,\npravastatin\n, and simvastatin) and gemfibrozil, as well as\noral\nagents that\nlower\nblood\nsugar, such as glyburide and tolazamide, cause a decrease in\nserum\nlevels of coenzyme Q",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#034",
+   "text": "Adverse Effects: 10\nand reduce the effects of coenzyme Q\n10\nsupplementation\n.[\n1\n,\n8\n-\n10\n] Beta-blockers (drugs that slow the heart rate and lower\nblood pressure\n) can inhibit coenzyme Q\n10\n-dependent enzyme\nreactions. The contractile force of the heart in patients with\nhigh blood pressure\ncan be increased by coenzyme Q\n10\nadministration.[\n1\n] Coenzyme Q\n10\ncan reduce the body’s\nresponse to the\nanticoagulant\ndrug\nwarfarin\n.[\n10\n] Finally,\ncoenzyme Q\n10\ncan decrease\ninsulin\nrequirements in individuals with\ndiabetes\n.\nReferences\nPepping J: Coenzyme Q10. Am J Health Syst Pharm 56 (6): 519-21, 1999.\n[PUBMED Abstract]\nOvervad K, Diamant B, Holm L, et al.: Coenzyme Q10 in health and disease. Eur J Clin Nutr 53 (10): 764-70, 1999.\n[PUBMED Abstract]\nHodges S, Hertz N, Lockwood K, et al.: CoQ10: could it have a role in cancer management? Biofactors 9 (2-4): 365-70, 1999.\n[PUBMED Abstract]\nHeller JH: Disease, the host defense, and Q-10. Perspect Biol Med 16 (2): 181-7, 1973 Winter.\n[PUBMED Abstract]\nBaggio E, Gandini R, Plancher AC, et al.: Italian multicenter study on the safety and efficacy of coenzyme Q10 as adjunctive therapy in heart failure. CoQ10 Drug Surveillance Investigators. Mol Aspects Med 15 (Suppl): s287-94, 1994.\n[PUBMED Abstract]",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant",
+    "diabetes",
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 210
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#035",
+   "text": "Adverse Effects: Feigin A, Kieburtz K, Como P, et al.: Assessment of coenzyme Q10 tolerability in Huntington's disease. Mov Disord 11 (3): 321-3, 1996.\n[PUBMED Abstract]\nAmbrosone CB, Zirpoli GR, Hutson AD, et al.: Dietary Supplement Use During Chemotherapy and Survival Outcomes of Patients With Breast Cancer Enrolled in a Cooperative Group Clinical Trial (SWOG S0221). J Clin Oncol 38 (8): 804-814, 2020.\n[PUBMED Abstract]\nKaikkonen J, Nyyssönen K, Tuomainen TP, et al.: Determinants of plasma coenzyme Q10 in humans. FEBS Lett 443 (2): 163-6, 1999.\n[PUBMED Abstract]\nThibault A, Samid D, Tompkins AC, et al.: Phase I study of lovastatin, an inhibitor of the mevalonate pathway, in patients with cancer. Clin Cancer Res 2 (3): 483-91, 1996.\n[PUBMED Abstract]\nCoenzyme Q10. In: Jellin JM, Hitchens K, eds.: Natural Medicines Comprehensive Database. Therapeutic Research Faculty, 1999, pp 241-42.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 138
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#036",
+   "text": "Summary of the Evidence for Coenzyme Q10: To assist readers in evaluating the results of human\nstudies\nof integrative, alternative, and complementary therapies for\ncancer\n, the strength of the evidence (i.e., the “\nlevels of\nevidence\n”) associated with each type of treatment is provided whenever\npossible. To qualify for a level of evidence\nanalysis\n, a study must:\nBe published in a\npeer-reviewed scientific journal\n.\nReport on a\ntherapeutic\noutcome\nor outcomes, such as\ntumor\nresponse\n, improvement in survival, or measured improvement in\nquality of life\n.\nDescribe clinical findings in sufficient detail that a meaningful evaluation can be made.\nSeparate levels of evidence scores are assigned to qualifying human studies on the basis of statistical strength of the study design and scientific strength of the treatment outcomes (i.e.,\nendpoints\n) measured. The resulting two scores are then combined to produce an overall score. A table showing the levels of evidence scores for qualifying human studies cited in this summary is presented below. For an explanation of the scores and additional information about levels of evidence analysis for cancer, see\nLevels of Evidence for Human Studies of Integrative, Alternative, and Complementary Therapies\n.\nCoenzyme Q\n10\nSummary: Reference Numbers and the Corresponding Levels of Evidence\nReference\nNumber\nStatistical Strength of Study Design\nStrength of Endpoints\nMeasured\nCombined Score\n[\n1\n]\n3iii ­",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 227
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#037",
+   "text": "Summary of the Evidence for Coenzyme Q10: Nonconsecutive case series\nDiii ­ Indirect surrogates -- tumor response rate\n3iiiDiii\nReferences\nLockwood K, Moesgaard S, Hanioka T, et al.: Apparent partial remission of breast cancer in 'high risk' patients supplemented with nutritional antioxidants, essential fatty acids and coenzyme Q10. Mol Aspects Med 15 (Suppl): s231-40, 1994.\n[PUBMED Abstract]",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#038",
+   "text": "Latest Updates to This Summary (10/31/2024): The\nPDQ\ncancer\ninformation summaries are reviewed regularly and updated as\nnew information becomes available. This section describes the latest\nchanges made to this summary as of the date above.\nEditorial changes were made to this summary.\nThis summary is written and maintained by the\nPDQ Integrative, Alternative, and Complementary Therapies Editorial Board\n, which is\neditorially independent of NCI. The summary reflects an independent review of\nthe literature and does not represent a policy statement of NCI or NIH. More\ninformation about summary policies and the role of the PDQ Editorial Boards in\nmaintaining the PDQ summaries can be found on the\nAbout This PDQ Summary\nand\nPDQ® Cancer Information for Health Professionals\npages.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#039",
+   "text": "Purpose of This Summary: This PDQ cancer information summary for health professionals provides comprehensive, peer-reviewed, evidence-based information about the use of coenzyme Q10 in the treatment of people with cancer. It is intended as a resource to inform and assist clinicians in the care of their patients. It does not provide formal guidelines or recommendations for making health care decisions.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 60
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#040",
+   "text": "Reviewers and Updates: This summary is reviewed regularly and updated as necessary by the\nPDQ Integrative, Alternative, and Complementary Therapies Editorial Board\n, which is editorially independent of the National Cancer Institute (NCI). The summary reflects an independent review of the literature and does not represent a policy statement of NCI or the National Institutes of Health (NIH).\nBoard members review recently published articles each month to determine whether an article should:\nbe discussed at a meeting,\nbe cited with text, or\nreplace or update an existing article that is already cited.\nChanges to the summaries are made through a consensus process in which Board members evaluate the strength of the evidence in the published articles and determine how the article should be included in the summary.\nAny comments or questions about the summary content should be submitted to Cancer.gov through the NCI website's\nEmail Us\n. Do not contact the individual Board Members with questions or comments about the summaries. Board members will not respond to individual inquiries.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 169
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#041",
+   "text": "Levels of Evidence: Some of the reference citations in this summary are accompanied by a level-of-evidence designation. These designations are intended to help readers assess the strength of the evidence supporting the use of specific interventions or approaches. The PDQ Integrative, Alternative, and Complementary Therapies Editorial Board uses a\nformal evidence ranking system\nin developing its level-of-evidence designations.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 58
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#042",
+   "text": "Permission to Use This Summary: PDQ is a registered trademark. Although the content of PDQ documents can be used freely as text, it cannot be identified as an NCI PDQ cancer information summary unless it is presented in its entirety and is regularly updated. However, an author would be permitted to write a sentence such as “NCI’s PDQ cancer information summary about breast cancer prevention states the risks succinctly: [include excerpt from the summary].”\nThe preferred citation for this PDQ summary is:\nPDQ® Integrative, Alternative, and Complementary Therapies Editorial Board. PDQ Coenzyme Q10. Bethesda, MD: National Cancer Institute. Updated <MM/DD/YYYY>. Available at:\nhttps://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq\n. Accessed <MM/DD/YYYY>. [PMID: 26389329]\nImages in this summary are used with permission of the author(s), artist, and/or publisher for use within the PDQ summaries only. Permission to use images outside the context of PDQ information must be obtained from the owner(s) and cannot be granted by the National Cancer Institute. Information about using the illustrations in this summary, along with many other cancer-related images, is available in\nVisuals Online\n, a collection of over 2,000 scientific images.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 181
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#043",
+   "text": "Disclaimer: The information in these summaries should not be used as a basis for insurance reimbursement determinations. More information on insurance coverage is available on Cancer.gov on the\nManaging Cancer Care\npage.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "nci-pdq-coenzyme-q10-pdq#044",
+   "text": "Contact Us: More information about contacting us or receiving help with the Cancer.gov website can be found on our\nContact Us for Help\npage. Questions can also be submitted to Cancer.gov through the website’s\nEmail Us\n.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Coenzyme Q10–Health Professional Version"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  }
+ ]
+}

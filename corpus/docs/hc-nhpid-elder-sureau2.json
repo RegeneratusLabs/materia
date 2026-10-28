@@ -1,0 +1,251 @@
+{
+ "doc_id": "hc-nhpid-elder-sureau2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ELDER – SAMBUCUS",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=elder.sureau2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "elder.sureau2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:6988f6a0a4e35b7bd3d81bc315119b34efed9c6660edbfa6cb5e740ea88d02fd",
+ "entities": [
+  "ELDER – SAMBUCUS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 2 years: The acceptable dosage forms are limited to emulsion/suspension and solution/ liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years: The acceptable dosage forms are limited to chewables, emulsion/suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: Acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#002",
+   "text": "Use(s) or Purpose(s): Adults 18 years and older\nFlower\n(Traditionally) used in Herbal Medicine (as a diaphoretic) to promote sweating to help relieve fever (in cases of common colds, flus) (Godfrey and Saunders 2010; Bone 2003; Hoffman 2003; WHO 2002; BHC 1992; BHP 1983; Grieve 1931; Sayre 1917; Felter and Lloyd 1898).\n(Traditionally) used in Herbal Medicine to help relieve symptoms of colds and flus (such as coughs, sore throat and mucus buildup (catarrh) of the (upper) respiratory tract) (Godfrey and Saunders 2010; Barnes et al. 2007; Bone 2003; Hoffman 2003; WHO 2002; BHP 1983; Grieve 1931).\nUsed in Herbal Medicine to help relieve nasal congestion and discharge associated with sinusitis, hay fever/allergic rhinitis (Godfrey and Saunders 2010; Barnes et al. 2007; Bone 2003; Hoffman 2003).\n(Traditionally) used in Herbal Medicine as a diuretic (Winston and Kuhn 2008; Barnes et al. 2007; Williamson 2003; BHC 1992; Felter 1922; Culbreth 1927; Fyfe 1903).\n(Traditionally) used in Herbal Medicine (as an alterative) to help remove accumulated waste products via the kidneys, skin and mucus membranes (Williamson 2003; Tilgner 1999; Felter 1922; Culbreth 1921; Fyfe 1903; Felter and Lloyd 1898).\nFruit\n(Traditionally) used in Herbal Medicine (as a diaphoretic) to promote sweating to help relieve fever (in cases of common colds, flus) (Winston and Kuhn 2008; Hoffman 2003; Shook 1992; Grieve 1931; Remington et al. 1918).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension",
+    "renal",
+    "traditional"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 223
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#003",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve symptoms of colds and flus (such as coughs, sore throat and mucus buildup (catarrh) of the (upper) respiratory tract) (Winston and Kuhn 2008; Hoffman 2003; Tillotson 2001; Shook 1992).\n(Traditionally) used in Herbal Medicine to help relieve joint pain associated with conditions such as arthritis (Godfrey and Saunders 2010; Hoffman 2003; Tilgner 1999; Grieve 1931; Remington et al. 1918).\n(Traditionally) used in Herbal Medicine as a diuretic (Hoffman 2003; Shook 1992; Fyfe 1903).\n(Traditionally) used in Herbal Medicine (as an alterative) to help remove accumulated waste products via the kidneys, skin and mucus membranes (Tilgner 1999; Shook 1992; Grieve 1931; Remington et al. 1918; Fyfe 1903).\nSource of antioxidants/Provides antioxidants (Youdim et al. 2004; Abuja et al. 1998).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Youdim et al. 2004; Abuja et al. 1998).\nChildren 2-11 years and Adolescents 12-17 years\nFlower and/or Fruit\n(Traditionally) used in Herbal Medicine (as a diaphoretic) to promote sweating to help relieve fever (in cases of common colds, flus) (Godfrey and Saunders 2010; Winston and Kuhn 2008; Bone 2003; Hoffman 2003; WHO 2002; Shook 1992; BHC 1992; BHP 1983; Grieve 1931; Remington et al. 1918; Sayre 1917; Felter et Lloyd 1898).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "children",
+    "hypertension",
+    "renal",
+    "traditional"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#004",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve symptoms of colds and flus (such as coughs, sore throat and mucus buildup (catarrh) of the (upper) respiratory tract) (Godfrey and Saunders 2010; Winston and Kuhn 2008; Barnes et al. 2007; Bone 2003; Hoffman 2003; WHO 2002; Tillotson 2001; Shook 1992; BHP 1983; Grieve 1931).\nFlower\nUsed in Herbal Medicine to help relieve nasal congestion and discharge associated with sinusitis, hay fever/allergic rhinitis (Godfrey and Saunders 2010; Barnes et al. 2007; Bone 2003; Hoffman 2003).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Used in Herbal Medicine to help relieve symptoms of colds and flus and to help relieve nasal congestion and discharge associated with sinusitis, hay fever).\nFor multi-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Black elder is traditionally used in Herbal Medicine as a diuretic).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 202
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#005",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#006",
+   "text": "Quantity(ies): Flower\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\nTable 2. Dose information (grams) per day for dried flower of black elder or American elder or the total of black elder and American elder\nUse(s) or purpose(s)\nSubpopulation(s) 1 , 2\nDried flower (g/day)\nMinimum\nMaximum\nDiaphoretic\nSinusitis, hay fever\nSymptoms of colds and flus\nChildren\n2-4 years\n0.25 g\n2.5 g\n5-9 years\n0.375 g\n3.75 g\nChildren\n10-11 years\n0.75 g\n7.5 g\nAdolescents\n12-13 years\n0.75 g\n7.5 g\nAdolescents\n14-17 years\n1.5 g\n15 g\nAlterative\nDiaphoretic\nDiuretic\nSinusitis, hay fever\nSymptoms of colds and flus\nAdults\n18 years and older\n1.5 g\n15 g\n1 Children and adolescent doses were calculated as a proportion of the adult dose (JC 2023). The\nuse of Elder spp. in children and adolescents is supported by the following references: McIntyre 2005; Bove 2001; Gladstar 1999.\n2 Adult dose supported by the following references: Winston and Kuhn 2008; Bone 2003; WHO 2002; BHC 1992; Fyfe 1903.\nMethod of preparation: Infusion\nTable 3. Dose information (grams) per day for dried flower of black elder or American elder or the total of black elder and American elder\nUse(s) or purpose(s)\nSubpopulation(s) 1 , 2\nDried flower (g/day)\nMinimum\nMaximum\nDiaphoretic\nSinusitis, hay fever",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "hypertension"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#007",
+   "text": "Quantity(ies): Symptoms of colds and flus\nChildren\n2-4 years\n1 g\n2.5 g\n5-9 years\n1.5 g\n3.75 g\nChildren\n10-11 years\n3 g\n7.5 g\nAdolescents\n12-13 years\n3 g\n7.5 g\nAdolescents\n14-17 years\n6 g\n15 g\nAlterative\nDiaphoretic\nDiuretic\nSinusitis, hay fever\nSymptoms of colds and flus\nAdults\n18 years and older\n6 g\n15 g\n1 Children and adolescent doses were calculated as a proportion of the adult dose (JC 2023). The\nuse of Elder spp. in children and adolescents is supported by the following references: McIntyre 2005; Bove 2001; Gladstar\n1999.\n2 Adult dose supported by the following references: Hoffman 2003 Williamson 2003; WHO 2002; BHC\n1992.\nFruit\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nTable 4. Dose information (grams) per day for dried fruit of black elder or American elder or the total of black elder and American elder\nUse(s) or purpose(s)\nSubpopulation(s) 1 , 2\nDried fruit(g/day)\nMinimum\nMaximum\nDiaphoretic\nSymptoms of colds and flus\nChildren\n2-4 years\n0.217 g\n3 g\n5-9 years\n0.325 g\n4.5 g\nChildren\n10-11 years\n0.65 g\n9 g\nAdolescents\n12-13 years\n0.65 g\n9 g\nAdolescents\n14-17 years\n1.3 g\n18 g\nAlterative\nDiaphoretic\nDiuretic\nSinusitis, hay fever\nSymptoms of colds and flus\nAdults",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "hypertension"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#008",
+   "text": "Quantity(ies): 18 years and older\n1.5 g\n15 g\nAntioxidants\nAdults\n18 years and Older\n-\n18 g\n1 Children and adolescent doses were calculated as a proportion of the adult dose (JC 2023). The use of Sambucus spp. in children and adolescents is supported by the following references: McIntyre 2005; Bove 2001; Gladstar 1999.\n2 Adult dose supported by the following references: Winston and Kuhn 2008; Tillotson 2001; Fyfe 1903.\n*Note: Solvents allowed for the method of preparation “Non-standardized extracts (Dry extract)” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#009",
+   "text": "Duration(s) of use: Diuretic\nFor occasional use only (APhA 2002; CPhA 2002).\nAll other products\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#010",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nDiaphoretic; Symptoms of colds, flus; Sinusitis, hay-fever; Joint pain\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "hc-nhpid-elder-sureau2#011",
+   "text": "Known adverse reaction(s): All products\nStop use if hypersensitivity/allergy occur (Forster-Waldl et al. 2003).\nAll products except those making a diuretic claim\nWhen using this product diuretic effect may occur (Bradley 1992; Winston and Kuhn 2008; Barnes et al. 2007; Hoffman 2003).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "ELDER – SAMBUCUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 42
+  }
+ ]
+}

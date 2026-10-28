@@ -1,0 +1,125 @@
+{
+ "doc_id": "hc-nhpid-homeopathy2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Homeopathy (The proper name)",
+ "title_extra": null,
+ "date": "2026-02-27",
+ "revised": "2026-02-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-02-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=homeopathy2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "homeopathy2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:f3821a84bed3c7e71e3d89257038a3f6c8e1b0c652f2d79046b14aeee26031b2",
+ "entities": [
+  "Homeopathy",
+  "The proper name"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-homeopathy2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nThe acceptable dosage forms are indicated in Table 1 below.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Homeopathy",
+    "The proper name"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "hc-nhpid-homeopathy2#002",
+   "text": "Quantity(ies): Notes\nThe maximum daily dosage has been listed in Table 1 to allow flexibility in terms of single dose and frequency per day. However, doses should generally be taken in 1 to 4 divided doses throughout the day.\nA statement such as \"or as recommended/indicated by a health care practitioner/health care provider/health care professional/doctor/physician\" may be added after the recommended dose (e.g., Take 3 to 5 globules, 2 to 3 times per day, or as indicated by a health care practitioner).\nPlease refer to the Evidence for Homeopathic Medicines guideline for more information.\nTable 1. Dosage forms and their recommended dose for each subpopulation (replaces the doses indicated in the Evidence for Homeopathic Medicines guideline)\nDosage Form(s)\nSubpopulation(s)\nMaximum General Dosing per day\nGlobules (tube)\nAdolescents 12-17 years and Adults 18 years and older\nUp to 3 tubes 1\nChildren 1-11 years\nInfants 0-11 months\nGranules/Globules/Pellets/Pills (small, regular or large size)\nAdolescents 12-17 years and Adults 18 years and older\nUp to 15 granules/globules/pellets/pills\nChildren 1-11 years\nInfants 0-11 months\nTablets\nAdolescents 12-17 years and Adults 18 years and older\nUp to 16 tablets\nChildren 6-11 years\nUp to 12 tablets\nChildren 1-5 years\nUp to 9 tablets\nInfants 0-11 months\nUp to 6 tablets\nOral drops\nAdolescents 12-17 years and Adults 18 years and older\nUp to 90 drops",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Homeopathy",
+    "The proper name"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-homeopathy2#003",
+   "text": "Quantity(ies): Children 6-11 years\nUp to 45 drops\nChildren 1-5 years\nUp to 30 drops\nInfants 0-11 months\nUp to 15 drops\nOral liquid (ampoule)\nAdolescents 12-17 years and Adults 18 years and older\nUp to 3 ampoules 2\nChildren 6-11 years\nUp to 2 ampoules\nChildren 1-5 years\nUp to 1.5 ampoules\nInfants 0-11 months\nUp to 1 ampoule\nOral liquid, solution (dose)\nAdolescents 12-17 years and Adults 18 years and older\nUp to 3 dose 3\nChildren 6-11 years\nChildren 1-5 years\nInfants 0-11 months\nSyrup\nAdolescents 12-17 years and Adults 18 years and older\nUp to 30 mL 4\nChildren 1-11 years\nUp to 15 mL 4\nInfants 0-11 months\nUp to 7.5 mL 4\nTopical preparations such as cream, liniment, ointment, gel 5\nAdolescents 12-17 years and Adults 18 years and older\nSee directions for use\nChildren 1-11 years\nInfants 0-11 months\nSpray (nasal)\nAdolescents 12-17 years and Adults 18 years and older\nUp to 10 sprays per nostril\nChildren 1-11 years\nUp to 4 sprays per nostril\nInfants 0-11 months\nUp to 4 sprays per nostril\nEye drops\nAdolescents 12-17 years and Adults 18 years and older\nUp to 12 drops per eye\nChildren 1-11 years\nUp to 12 drops per eye\nInfants 0-11 months\nUp to 2 drops per eye\nEar drops",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Homeopathy",
+    "The proper name"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-homeopathy2#004",
+   "text": "Quantity(ies): Adolescents 12-17 years and Adults 18 years and older\nUp to 12 drops per eye\nChildren 1-11 years\nUp to 12 drops per eye\nInfants 0-11 months\nUp to 9 drops per eye\nSuppositories (rectal)\nAdolescents 12-17 years and Adults 18 years and older\nUp to 4 suppositories\nChildren 6-11 years\nUp to 3 suppositories\nChildren 1-5 years\nUp to 2 suppositories\nInfants 0-11 months\nUp to 2 suppositories\nSuppositories/Pessaries (vaginal)\nAdolescents 12-17 years and Adults 18 years and older\nUp to 2 suppositories/pessaries\n1 Other equivalent units of measure, such as vial, single-dose tube/container, tube-dose, can be used on the label.\n2 Other equivalent units of measure, such as, vial, drinkable vial, can be used on the label.\n3 Other equivalent units of measure, such as drinkable unidose, can be used on the label.\n4 The units of measure to be indicated on the label for measuring the volume of syrup may be, for example, a teaspoon (5 mL), a tablespoon (15 mL) where applicable, or a measuring cup provided with the product.\n5 Other topical dosage forms used in Homeopathy are also acceptable if available in the Natural Health Products Ingredient Database.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Homeopathy",
+    "The proper name"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 195
+  },
+  {
+   "chunk_id": "hc-nhpid-homeopathy2#005",
+   "text": "Direction(s) for use: When the statement \"or as recommended/indicated by a health care practitioner/health care provider/health care professional/doctor/physician\" is not included as part of the recommended dosing (optional)\nUse/Take as directed by a health care practitioner/health care provider/health care professional/doctor/physician.\nFor globules, pills, pellets, granules, tablets - Infants and children less than 2 years old\nInfants/children less than 2 years old, dissolve dose in a small amount of water before administration.\nTopical preparations such as cream, liniment, ointment, gel\nApply to the affected area(s), as needed.\nOther optional instructions for consumers\nThe directions for use may include additional information such as instructions on the time intervals between doses or dosing for an acute phase [e.g., Take 3 to 5 globules, 2 to 3 times daily. During the acute phase, take 1 dose, every 15 to 60 minutes (do not exceed 12 doses per day). Once symptoms improve, reduce the dose and return to the general dosage].",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Homeopathy",
+    "The proper name"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 156
+  },
+  {
+   "chunk_id": "hc-nhpid-homeopathy2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAnd\nAny ingredient specific risk statement when required as per the NHPID.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Homeopathy",
+    "The proper name"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 46
+  }
+ ]
+}

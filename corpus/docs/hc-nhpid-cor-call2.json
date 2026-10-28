@@ -1,0 +1,133 @@
+{
+ "doc_id": "hc-nhpid-cor-call2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Corn And Callus Remover (Source ingredient)",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=cor_call2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "cor_call2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:d209590c2acdd713fd706e9520c8833eb813893bf68c60d9776ee1fa1455e785",
+ "entities": [
+  "Corn And Callus Remover",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-cor-call2#001",
+   "text": "Dosage form(s): Acceptable dosage forms when used according to the requirements indicated in this monograph: Collodion-like solution; Plaster (US FDA 2021).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Corn And Callus Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  },
+  {
+   "chunk_id": "hc-nhpid-cor-call2#002",
+   "text": "Use(s) or Purpose(s): Corns and calluses remover (US FDA 2021).\n(Product) for the removal of corns and calluses (US FDA 2021).\n(Effectively) removes corns and calluses (US FDA 1990).\nAdditional claim 1\nRelieves pain by removing corns and calluses (US FDA 2021).\n1 Note: This statement can also be included, in addition to one or more of the main claims; however, it cannot be the only claim on the product label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Corn And Callus Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 71
+  },
+  {
+   "chunk_id": "hc-nhpid-cor-call2#003",
+   "text": "Subpopulation(s): Children 2-11 years; Adolescents 12-17 years; Adults 18 years and older.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Corn And Callus Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-cor-call2#004",
+   "text": "Quantity(ies): Table 2. Doses of Salicylic acid associated with dosage forms\nDosage forms\nDoses\nCollodion-like solution\n12 – 17.6%\nPlaster\n12 – 40%\nReference: US FDA 2021.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Corn And Callus Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  },
+  {
+   "chunk_id": "hc-nhpid-cor-call2#005",
+   "text": "Direction(s) for use: Products formulated in a plaster (US FDA 2021)\nWash affected area and dry thoroughly.\nApply (medicated) plaster and remove after 48 hours.\nRepeat this procedure every 48 hours, as needed, (until corn/callus is removed), for up to 14 days.\nOptional (if applicable)\nCut plaster to fit corn/callus.\nCover (medicated) plaster with enclosed cushion.\nProducts formulated in a collodion-like solution (US FDA 2021)\nWash affected area and dry thoroughly.\nApply 1 drop/a small amount at a time with applicator/brush to sufficiently cover each corn/callus. Let dry.\nRepeat this procedure once or twice daily, as needed, (until corn/callus is removed), for up to 14 days.\nOptional (if applicable)\nProtective pads may be used to cushion corn/callus during treatment.\nAll products (Optional)\nMay soak corn/callus in warm water for 5 minutes to assist in removal.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Corn And Callus Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 135
+  },
+  {
+   "chunk_id": "hc-nhpid-cor-call2#006",
+   "text": "Caution(s) and warning(s): All products\nFor external use only (US FDA 2021).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician/podiatrist if discomfort persists (US FDA 2021).\nProducts formulated in a collodion-like solution\nExtremely flammable/flammable/combustible (US FDA 2021).\nKeep away from fire or flame (US FDA 2021).\nCap bottle tightly and store at room temperature away from heat (US FDA 2021).\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with water for 15 minutes (US FDA 2021).\nWhen using this product avoid inhaling vapours (US FDA 2021).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Corn And Callus Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "hc-nhpid-cor-call2#007",
+   "text": "Contraindication(s): Do not use on irritated, infected or reddened skin (US FDA 2021).\nDo not use if you have diabetes or poor blood circulation (US FDA 2021).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Corn And Callus Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  }
+ ]
+}

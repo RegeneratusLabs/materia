@@ -1,0 +1,125 @@
+{
+ "doc_id": "hc-nhpid-carrot2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CARROT - DAUCUS CAROTA SUBSP. SATIVUS",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=carrot2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "carrot2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:8d3c5284f17785c5e0a9bea11da3f35c38f297439fd302ece9142ec5dcc25cc6",
+ "entities": [
+  "CARROT - DAUCUS CAROTA SUBSP. SATIVUS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-carrot2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 1-2 years: The acceptable dosage forms are limited to emulsion/suspension and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years: The acceptable dosage forms are limited to chewables, emulsion/suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: The acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "CARROT - DAUCUS CAROTA SUBSP. SATIVUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "hc-nhpid-carrot2#002",
+   "text": "Use(s) or Purpose(s): General\nProvitamin A/Source of vitamin A for the maintenance of good health (IOM 2006).\nSource of vitamin A.\nSpecific\nHelps to prevent vitamin A deficiency 1 (IOM 2006; Shils et al. 2006; Groff and Gropper 2000).\n(Provitamin A/Source of vitamin A to) help(s) in the development and maintenance of bones (IOM 2006; Shils et al. 2006; Groff and Gropper 2000).\n(Provitamin A/Source of vitamin A to) help(s) in the development and maintenance of night vision (IOM 2006; Shils et al. 2006; Groff and Gropper 2000).\n(Provitamin A/Source of vitamin A to) help(s) in the development and maintenance of teeth (Shils et al. 2006).\n(Provitamin A/Source of vitamin A to) help(s) maintain eyesight, skin, membranes and immune function (IOM 2006; Shils et al. 2006; Groff and Gropper 2000).\nNotes\nThe above uses can be combined on the product label (e.g., Source of vitamin A to help maintain eyesight, skin, membranes and immune function and to help in the development and maintenance of night vision, bones and teeth).\n1 Vitamin A deficiency claim: Refer to Table 3 for the dose requirements.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "CARROT - DAUCUS CAROTA SUBSP. SATIVUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 182
+  },
+  {
+   "chunk_id": "hc-nhpid-carrot2#003",
+   "text": "Quantity(ies): Methods of preparation: Powdered standardized; Standardized extracts\nIn addition to the quantity of carrot powder/extract, the potency information must be expressed as the quantity of beta-carotene.\nAll uses except vitamin A deficiency\nTable 2. Dose information of beta-carotene (micrograms) per day\nSubpopulation(s)\nbeta-carotene (µg/day) 1 , 2\nMinimum\nMaximum\nChildren\n1-3 years\n180 µg\n3,600 µg\n4-8 years\n180 µg\n5,400 µg\nAdolescents\n9-13 years\n180 µg\n10,200 µg\n14-18 years\n390 µg\n16,800 µg\nAdults\n19 years and older\n390 µg\n18,000 µg\n1 Values were derived from the conversion factor of 6 μg of beta-carotene = 1 μg all-trans retinol; hence, a ratio of 6:1 beta-carotene: vitamin A, on a weight to weight basis (HC 1990; FAO/WHO 1967).\n2 Minimum doses based on approximately 5% of the highest AI or RDA for vitamin A, and the maximum doses based on the UL for vitamin A (IOM 2006).\nVitamin A deficiency claim\nTable 3. Dose information of beta-carotene (micrograms) per day for Vitamin A deficiency claim\nSubpopulation(s)\nbeta-carotene (µg/day) 1\nMinimum\nMaximum\nChildren\n1-3 years\n1,800 µg\n3,600 µg\n4-8 years\n2,400 µg\n5,400 µg\nAdolescent males\n9-13 years\n3,600 µg\n10,200 µg\n14-18 years\n5,400 µg\n16,800 µg\nAdult males\n19 years and older\n5,400 µg\n18,000 µg\nAdolescent females\n9-13 years\n3,600 µg\n10,200 µg\n14-18 years",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "CARROT - DAUCUS CAROTA SUBSP. SATIVUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-carrot2#004",
+   "text": "Quantity(ies): 4,200 µg\n16,800 µg\nAdult females\n19 years and older\n4,200 µg\n18,000 µg\nPregnancy\n14-18 years\n4,500 µg\n16,800 µg\n19-50 years\n4,620 µg\n18,000 µg\nBreastfeeding\n14-18 years\n7,200 µg\n16,800 µg\n19-50 years\n7,800 µg\n18,000 µg\n1 These values are based on the RDA and AI values for vitamin A based on subpopulations (IOM 2006) and were derived from the conversion factor of 6 µg of beta-carotene = 1 µg all-trans retinol; hence, a ratio of 6:1 beta-carotene:vitamin A, on a weight to weight basis (HC 1990; FAO/WHO 1967).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CARROT - DAUCUS CAROTA SUBSP. SATIVUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "hc-nhpid-carrot2#005",
+   "text": "Caution(s) and warning(s): Products providing more than 6,000 μg of beta-carotene, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are a tobacco smoker (Touvier et al. 2005; Omenn et al. 1996; ATBC 1994).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CARROT - DAUCUS CAROTA SUBSP. SATIVUS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  }
+ ]
+}

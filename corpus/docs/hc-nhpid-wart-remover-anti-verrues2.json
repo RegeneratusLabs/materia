@@ -1,0 +1,133 @@
+{
+ "doc_id": "hc-nhpid-wart-remover-anti-verrues2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Wart Remover (Source ingredient)",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=wart_remover_anti_verrues2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "wart_remover_anti_verrues2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:8b1776ebfd50e0797227d6e1deaffd439c3bff8df85177dc3f599929d7fc5186",
+ "entities": [
+  "Wart Remover",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-wart-remover-anti-verrues2#001",
+   "text": "Dosage form(s): Acceptable dosage forms when used according to the requirements indicated in this monograph: Collodion-like solution; Karaya gum, glycol plaster; Plaster (US FDA 2021)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Wart Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  },
+  {
+   "chunk_id": "hc-nhpid-wart-remover-anti-verrues2#002",
+   "text": "Use(s) or Purpose(s): Wart remover (US FDA 2021).\n(Product) for the removal of common warts (US FDA 2021).\n(Product) for the removal of plantar warts on the bottom of the foot (US FDA 2021).\nCommon and/or plantar wart treatment (US FDA 1990).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Wart Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 42
+  },
+  {
+   "chunk_id": "hc-nhpid-wart-remover-anti-verrues2#003",
+   "text": "Subpopulation(s): Children 2-11 years; Adolescents 12-17 years; Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Wart Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-wart-remover-anti-verrues2#004",
+   "text": "Quantity(ies): Table 3. Doses of Salicylic acid associated with dosage forms\nDosage forms\nDoses\nCollodion-like solution\n5 - 17%\nKaraya gum, glycol plaster\n15%\nOther types of plasters\n12 - 40%\nReference: US FDA 2021.\nComplementary Ingredient (Safety only)\nNot to exceed 30% of lactic acid (Fiume 1998).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Wart Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "hc-nhpid-wart-remover-anti-verrues2#005",
+   "text": "Direction(s) for use: Products formulated in a collodion-like solution (US FDA 2021)\nWash affected area and dry thoroughly.\nApply one drop/small amount at a time with applicator/brush to sufficiently cover each wart. Let dry.\nDo not apply to surrounding skin.\nRepeat this procedure once or twice daily as needed (until wart is removed) for up to 12 weeks.\nProducts formulated in a karaya gum, glycol plaster (US FDA 2021)\nWash affected area and dry thoroughly.\nGently smooth wart surface with emery file supplied.\nApply a drop of warm water to the wart, keeping the surrounding skin dry.\nApply (medicated) plaster at bedtime and leave in place for at least 8 hours.\nRemove and discard plaster in morning.\nRepeat this procedure every 24 hours as needed (until wart is removed) for up to 12 weeks.\nProducts formulated with other types of plaster (US FDA 2021)\nWash affected area and dry thoroughly.\nApply (medicated) plaster.\nRepeat this procedure every 48 hours as needed (until wart is removed) for up to 12 weeks.\nAll products (Optional)\nMay soak wart in warm water for 5 minutes. 1\n1 Note: To be listed at the beginning of the procedure, after washing the affected area.\nKaraya gum, glycol plaster and other plasters (if applicable)\nCut plaster to fit wart.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Wart Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "hc-nhpid-wart-remover-anti-verrues2#006",
+   "text": "Caution(s) and warning(s): All products\nFor external use only (US FDA 2021).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician/podiatrist if discomfort persists (US FDA 2021).\nProducts formulated in a collodion-like solution\nExtremely flammable/flammable/combustible (US FDA 2021).\nKeep away from fire or flame (US FDA 2021).\nCap bottle tightly and store at room temperature away from heat (US FDA 2021).\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with water for 15 minutes (US FDA 2021).\nWhen using this product avoid inhaling vapours (US FDA 2021).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Wart Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "hc-nhpid-wart-remover-anti-verrues2#007",
+   "text": "Contraindication(s): All products\nDo not use on irritated, infected or reddened skin (US FDA 2021).\nDo not use if you have diabetes or poor blood circulation (US FDA 2021).\nDo not use on moles, birthmarks, mucous membranes, warts with hair growing from them, genital warts, or warts on the face (US FDA 2021).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Wart Remover",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 53
+  }
+ ]
+}

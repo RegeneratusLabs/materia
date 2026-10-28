@@ -1,0 +1,181 @@
+{
+ "doc_id": "hc-nhpid-stinging-nettle-juice2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "STINGING NETTLE JUICE",
+ "title_extra": null,
+ "date": "2026-03-27",
+ "revised": "2026-03-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-03-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=stinging.nettle.juice2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "stinging.nettle.juice2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:87a93843d597129eef72471d3f9fcc1170ce06d48a4c391c98aea6ae06385a58",
+ "entities": [
+  "STINGING NETTLE JUICE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-stinging-nettle-juice2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "STINGING NETTLE JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-stinging-nettle-juice2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine as a diuretic (Mills and Bone 2005; ESCOP 2003; Bisset and Wichtl 2001; Blumenthal et al. 2000; Tilgner 1999; Bradley 1992; Wren 1907).\nUsed in Herbal Medicine as supportive therapy to help relieve rheumatic complaints (Mills and Bone 2005; ESCOP 2003; Blumenthal et al. 2000; Bradley 1992).\nUsed in Herbal Medicine as a nutritive tonic (Hoffman 2003; Tilgner 1999).\nUsed in Herbal Medicine to help relieve seasonal allergy symptoms (Mills and Bone 2005; Tilgner 1999).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Used in Herbal Medicine as supportive therapy to help relieve rheumatic complaints and to help relieve seasonal allergy symptoms).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Stinging nettle is traditionally used in Herbal Medicine as a diuretic).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "STINGING NETTLE JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 193
+  },
+  {
+   "chunk_id": "hc-nhpid-stinging-nettle-juice2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "STINGING NETTLE JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-stinging-nettle-juice2#004",
+   "text": "Quantity(ies): Method of preparation: Juice\n15 - 45 milliliters of juice of fresh herb top, per day (ESCOP 2003; Blumenthal et al. 2000; Bradley 1992)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "STINGING NETTLE JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  },
+  {
+   "chunk_id": "hc-nhpid-stinging-nettle-juice2#005",
+   "text": "Duration(s) of use: Diuretic\nFor occasional use only (Berardi et al. 2002; CPA 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "STINGING NETTLE JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  },
+  {
+   "chunk_id": "hc-nhpid-stinging-nettle-juice2#006",
+   "text": "Caution(s) and warning(s): All products except nutritive tonics\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "STINGING NETTLE JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "hc-nhpid-stinging-nettle-juice2#007",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (Brinker 2010; Barnes et al. 2007; Tilgner 1999).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "STINGING NETTLE JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "hc-nhpid-stinging-nettle-juice2#008",
+   "text": "Known adverse reaction(s): All products except those making only a diuretic claim *\nWhen using this product diuretic effect may occur.\n* Note: This statement can be removed from the label if a diuretic claim is included.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "STINGING NETTLE JUICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  }
+ ]
+}

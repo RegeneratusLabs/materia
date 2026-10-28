@@ -1,0 +1,219 @@
+{
+ "doc_id": "nccih-chasteberry",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Chasteberry",
+ "title_extra": null,
+ "date": "2025-04-01",
+ "revised": "2025-04-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-10-01",
+ "url": "https://www.nccih.nih.gov/health/chasteberry",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/chasteberry"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:10452d19eaad7337f4e5ed5dbee2797b32b0acccd16635bd014aca0dac21f600",
+ "entities": [
+  "Chasteberry"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-chasteberry#001",
+   "text": "Chasteberry\n© Steven Foster\nCommon Names:\nchasteberry,\nchaste tree,\ngattilier,\nmonk's pepper,\nvitex\nLatin Names:\nVitex agnus-castus",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "nccih-chasteberry#002",
+   "text": "Background: The chasteberry plant, also called chaste tree or shrub, is native to the Mediterranean and Central Asia regions. Extracts of chasteberry may be prepared from the herb’s leaves, stems, flowers, and seeds.\nThe name “chasteberry” may reflect the traditional belief that the plant promoted chastity. In the Middle Ages, chasteberry was reportedly used by monks to decrease sexual desire. Chasteberry was also traditionally used for psychological illnesses, gynecological disorders, and hormone-associated skin conditions.\nToday, chasteberry is promoted as a dietary supplement for symptoms of premenstrual syndrome (PMS), breast pain or tenderness associated with the menstrual cycle, infertility, menopause symptoms, and other conditions.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 103
+  },
+  {
+   "chunk_id": "nccih-chasteberry#003",
+   "text": "How Much Do We Know?: Several studies of low-to-moderate quality in people have evaluated chasteberry for alleviating PMS symptoms such as breast pain or tenderness. There isn’t a lot of strong research on the effectiveness of chasteberry for other conditions.\nMuch research has been conducted on the safety of this herb and has determined that chasteberry supplementation may not be safe for women with hormone-sensitive conditions, such as breast, uterine, or ovarian cancer. Some preclinical evidence states that the use of chasteberry during pregnancy or while breastfeeding may be unsafe.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "pregnancy",
+    "cancer"
+   ],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 90
+  },
+  {
+   "chunk_id": "nccih-chasteberry#004",
+   "text": "What Have We Learned?: Some research has suggested that chasteberry might reduce PMS symptoms such as breast pain or tenderness, but higher-quality evidence is needed to reach any definitive conclusions.\nOne study suggested that chasteberry might reduce heavy menstrual bleeding related to an intrauterine device (IUD), but the evidence is of low quality.\nThere isn’t enough reliable evidence to know if chasteberry would help with sexual dysfunction or infertility (but chasteberry may be unsafe during pregnancy).\nA preliminary study suggested that chasteberry might help with some menopausal symptoms, but more research is needed to study this potential effect.\nInitial reports have suggested that some chasteberry extracts might have antifungal effects, but more research is needed to explore this potential in people.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "pregnancy",
+    "anticoagulant"
+   ],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "nccih-chasteberry#005",
+   "text": "What Do We Know About Safety?: Chasteberry is generally well tolerated in the short term. Chasteberry fruit extract has been used safely in research studies for up to 3 months. Side effects are generally mild and may include nausea, stomach pain, diarrhea, headache, or itching.\nChasteberry supplementation may not be safe for women with hormone-sensitive conditions, such as breast, uterine, or ovarian cancer.\nThe use of chasteberry during pregnancy or while breastfeeding may be unsafe.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "cancer"
+   ],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 75
+  },
+  {
+   "chunk_id": "nccih-chasteberry#006",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nIf you take any type of medicine, talk with your health care provider before using any herbal product; some herbs and medicines interact in harmful ways.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The regulatory paths for making and distributing dietary supplements are different than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 187
+  },
+  {
+   "chunk_id": "nccih-chasteberry#007",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-chasteberry#008",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-chasteberry#009",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-chasteberry#010",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-chasteberry#011",
+   "text": "Key References: Chasteberry. Drugs and Lactation Database. (LactMed). National Institute of Child Health and Human Development. Updated May 15, 2024. Accessed at\nncbi.nlm.nih.gov/books/NBK501807/\non August 28, 2024.\nChaste tree. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury [Internet]. National Institute of Diabetes and Digestive and Kidney Diseases. Updated January 20, 2023. Accessed at\nncbi.nlm.nih.gov/books/NBK588847/\non August 28, 2024.\nChristelle K, Norhayati MN, Jaafar SH.\nInterventions to prevent or treat heavy menstrual bleeding or pain associated with intrauterine-device use\n.\nCochrane Database of Systematic Reviews\n. 2022;(8):CD006034. Accessed at\ncochranelibrary.com\non May 1, 2024.\nCsupor D, Lantos T, Hegyi P, et al.\nVitex agnus-castus\nin premenstrual syndrome: a meta-analysis of double-blind randomised controlled trials\n.\nComplementary Therapies in Medicine\n. 2019;47:102190.\nHeirati SFD, Ozgoli G, KabodMehri R, et al.\nThe 4-month effect of\nVitex agnus-castus\nplant on sexual function of women of reproductive age: a clinical trial\n.\nJournal of Education and Health Promotion\n. 2021;10:294.\nHöller M, Steindl H, Abramov-Sommariva D, et al.\nUse of\nVitex agnus‑castus\nin patients with menstrual cycle disorders: a single‑center retrospective longitudinal cohort study\n.\nArchives of Gynecology and Obstetrics\n. 2024;309(5):2089-2098.\nIslam Z, Caldeira GI, Caniça M, et al.\nVitex\ngenus as a source of antimicrobial agents\n.\nPlants\n. 2024;13(3):401.\nKamal N, Mio Asni NS, Rozlan INA, et al.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "pregnancy",
+    "children",
+    "liver",
+    "anticoagulant",
+    "diabetes",
+    "renal"
+   ],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "nccih-chasteberry#012",
+   "text": "Key References: Traditional medicinal uses, phytochemistry, biological properties, and health applications of\nVitex\nsp\n.\nPlants\n. 2022;11(15):1944.\nMahady GB, Michel JL, Soni KK. Chaste tree. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements\n. 2nd ed. New York, NY: Informa Healthcare; 2010:129-135.\nManouchehri A, Abbaszadeh S, Ahmadi M, et al.\nPolycystic ovaries and herbal remedies: a systematic review\n.\nJBRA Assisted Reproduction\n. 2023;27(1):85-91.\nMendes C, da Fonseca AM, Alves MS, et al.\nNarrative review of\nVitex agnus-castus\nin symptoms in gynecology\n.\nRevista da Associacao Medica Brasileira (1992)\n. 2022;68(5):716-719.\nNaseri R, Farnia V, Yazdchi K, et al.\nComparison of\nVitex agnus-castus\nextracts with placebo in reducing menopausal symptoms: a randomized double-blind study\n.\nKorean Journal of Family Medicine\n. 2019;40(6):362-367.\nOoi SL, Watts S, McClean R, et al.\nVitex agnus-castus\nfor the treatment of cyclic mastalgia: a systematic review and meta-analysis\n.\nJournal of Women’s Health.\n2020;29(2):262-278.\nPuglia LT, Lowry J, Tamagno G.\nVitex agnus castus\neffects on hyperprolactinaemia\n.\nFrontiers in Endochrinology\n. 2023;14:1269781.\nRashidipour M, Shakib P, Goudarzi G, et al.\nNative Iranian medicinal plants with anti-vaginal infection properties: a systematic review\n.\nInfectious Disorders Drug Targets\n. 2022;22(6):e10522204326.\nVitex agnus-castus\n.\nNatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on April 16, 2024. [Database subscription].",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "nccih-chasteberry#013",
+   "text": "Key References: This publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Chasteberry"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 75
+  }
+ ]
+}

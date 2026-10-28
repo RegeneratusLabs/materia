@@ -1,0 +1,85 @@
+{
+ "doc_id": "hc-nhpid-tomato-extract2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "TOMATO EXTRACT",
+ "title_extra": null,
+ "date": "2025-08-29",
+ "revised": "2025-08-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-08-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=tomato.extract2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "tomato.extract2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:439264c71ffb80f36bc995b9534952a80cd7201b015219b0d31931478b051ab7",
+ "entities": [
+  "TOMATO EXTRACT",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Solanum lycopersicum"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-tomato-extract2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "TOMATO EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Solanum lycopersicum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-tomato-extract2#002",
+   "text": "Use(s) or Purpose(s): Source of/Provides antioxidants (Silaste et al. 2007; Porrini et al. 2005; Matos et al. 2001).\nHelps to support prostate health (Erdman et al. 2008; Kristal et al. 2008; Schwarz et al. 2008; Mohanty et al. 2005; Giovannucci et al. 2002; Kucuk et al. 2002; Kucuk et al. 2001; Gann et al. 1999).\nNote: The terms ‘Help’ or ‘Help to’ can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "TOMATO EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Solanum lycopersicum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 69
+  },
+  {
+   "chunk_id": "hc-nhpid-tomato-extract2#003",
+   "text": "Quantity(ies): Methods of preparation: Standardized extracts\nAntioxidant\nNot to exceed 30 milligrams of Lycopene, per day (Silaste et al. 2007; Porrini et al. 2005; Kucuk et al. 2002).\nProstate health\n6.5 - 30 milligrams of Lycopene, per day (Kristal et al. 2008; Giovannucci et al. 2002; Gann et al. 1999; Giovannucci et al. 1995).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "TOMATO EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Solanum lycopersicum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 54
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "doc_id": "nccih-valerian",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Valerian",
+ "title_extra": null,
+ "date": "2025-05-01",
+ "revised": "2025-05-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-11-01",
+ "url": "https://www.nccih.nih.gov/health/valerian",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/valerian"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:1b52b468539f8dff4faca5c26bd2e06347d075904121a999fc5d2c4782c1a76e",
+ "entities": [
+  "Valerian"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-valerian#001",
+   "text": "Valerian\n© Steven Foster\nCommon Names:\nvalerian,\nall-heal,\ngarden heliotrope\nLatin Names:\nValeriana officinalis",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  },
+  {
+   "chunk_id": "nccih-valerian#002",
+   "text": "Background: Valerian is a plant native to Europe and Asia; it also grows in North America.\nValerian has been used medicinally since the times of early Greece and Rome. Historically, valerian was used to treat insomnia, migraine, fatigue, and stomach cramps.\nToday, valerian is promoted for insomnia, anxiety, stress, and depression.\nThe roots and rhizomes (underground stems) of valerian are used for medicinal purposes.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 64
+  },
+  {
+   "chunk_id": "nccih-valerian#003",
+   "text": "How Much Do We Know?: Knowledge about valerian is limited because a relatively small amount of research has looked at valerian’s effects on various conditions.\nThere is not enough evidence to determine whether valerian is useful for any health conditions.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "nccih-valerian#004",
+   "text": "What Have We Learned?: The evidence on whether valerian is helpful for sleep problems is inconsistent. In its 2017 clinical practice guidelines, the American Academy of Sleep Medicine recommended against using valerian for chronic insomnia in adults.\nThree small studies suggest that valerian might be helpful for menopause symptoms, but there is not enough evidence to know for certain.\nThere’s not enough evidence to allow any conclusions about whether valerian is helpful for anxiety, depression, premenstrual syndrome, dysmenorrhea (menstrual cramps), stress, or other conditions.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 84
+  },
+  {
+   "chunk_id": "nccih-valerian#005",
+   "text": "What Do We Know About Safety?: Research suggests that valerian is generally safe for short-term use by most adults. It has been used with apparent safety in doses of 300 to 600 milligrams daily for up to 6 weeks. The safety of long-term use of valerian is unknown.\nSide effects of valerian include headache, stomach upset, mental dullness, excitability, uneasiness, and vivid dreams. Some may experience withdrawal symptoms, including anxiety, irritability, heart disturbances, insomnia, and in rare cases, hallucinations, if stopped abruptly after chronic use. In very rare cases, liver injury was reported when taking valerian, most often in combination with other herbals; however, valerian’s long-term effect on liver function is unknown.\nBecause it is possible (though not proven) that valerian might have a sleep-inducing effect, it should not be taken along with alcohol or sedatives. If you take any type of medicine, talk with your health care provider before using valerian or other herbal products; some herbs and medicines interact in harmful ways.\nLittle is known about whether it’s safe to use valerian during pregnancy or while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "liver",
+    "sedation"
+   ],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 179
+  },
+  {
+   "chunk_id": "nccih-valerian#006",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The regulatory paths for making and distributing dietary supplements are different than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 161
+  },
+  {
+   "chunk_id": "nccih-valerian#007",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-valerian#008",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-valerian#009",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-valerian#010",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-valerian#011",
+   "text": "Key References: Abad VC, Guilleminault C.\nInsomnia in elderly patients: recommendations for pharmacological management\n.\nDrugs & Aging.\n2018;35(9):791-817.\nAwang DVC. Valerian. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements.\n2nd ed. New York, NY: Informa Healthcare; 2010:766-777.\nJenabi E, Shobeiri F, Hazavehei SMM, et al.\nThe effect of valerian on the severity and frequency of hot flashes: a triple-blind randomized clinical trial\n.\nWomen & Health.\n2018;58(3):297-304.\nLeach MJ, Page AT.\nHerbal medicine for insomnia: a systematic review and meta-analysis\n.\nSleep Medicine Reviews\n. 2015;24:1-12.\nMirabi P, Mojab F.\nThe effects of valerian root on hot flashes in menopausal women\n.\nIranian Journal of Pharmaceutical Research.\n2013;12(1):217-222.\nNational Institute of Diabetes and Digestive and Kidney Diseases.\nLiverTox: Clinical and Research Information on Drug-Induced Liver Injury\n. National Institute of Diabetes and Digestive and Kidney Diseases; 2012-. [Updated April 5, 2020]. Valerian. Accessed at\nncbi.nlm.nih.gov/books/NBK548255\non January 29, 2025.\nPattanittum P, Kunyanone N, Brown J, et al.\nDietary supplements for dysmenorrhoea\n.\nCochrane Database of Systematic Reviews\n. 2016;(3):CD002124. Accessed at\ncochranelibrary.com\non January 14, 2025.\nSateia MJ, Buysse DJ, Krystal AD, et al.\nClinical practice guideline for the pharmacological treatment of chronic insomnia in adults: an American Academy of Sleep Medicine Clinical Practice Guideline\n.\nJournal of Clinical Sleep Medicine\n. 2017;13(2):307-349.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "liver",
+    "diabetes",
+    "renal"
+   ],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "nccih-valerian#012",
+   "text": "Key References: Valente V, Machado D, Jorge S, et al.\nDoes valerian work for insomnia? An umbrella review of the evidence\n.\nEuropean Neuropsychopharmacology\n. 2024;82:6-28.\nValerian. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on January 3, 2025. [Database subscription].\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nMay 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Valerian"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 112
+  }
+ ]
+}

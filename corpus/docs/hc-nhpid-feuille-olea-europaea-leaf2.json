@@ -1,0 +1,199 @@
+{
+ "doc_id": "hc-nhpid-feuille-olea-europaea-leaf2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "OLIVE LEAF - OLEA EUROPAEA",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=feuille.olea.europaea.leaf2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "feuille.olea.europaea.leaf2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:70a64c2e8b85f66c36236cf852b0d26bb5c66007a38851e50d57d1eebe1c6d0e",
+ "entities": [
+  "OLIVE LEAF - OLEA EUROPAEA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-feuille-olea-europaea-leaf2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "OLIVE LEAF - OLEA EUROPAEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-feuille-olea-europaea-leaf2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Jemai et al. 2009; Andreadou et al. 2006).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Jemai et al. 2009; Andreadou et al. 2006).\nUsed in Herbal Medicine as a diuretic (EMA 2017; Bone 2003).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "OLIVE LEAF - OLEA EUROPAEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 56
+  },
+  {
+   "chunk_id": "hc-nhpid-feuille-olea-europaea-leaf2#003",
+   "text": "Quantity(ies): Antioxidant\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\nNot to exceed 3.5 grams of dried leaf, per day (Bone 2003).\nMethods of preparation: Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\nNot to exceed 3.5 grams of dried leaf, per day and 20.8 % oleuropein (Perrinjaquet-Moccetti et al. 2008; Bone 2003).\nMethods of preparation: Decoction, Decoction concentrate\nNot to exceed 10 grams of dried leaves, per day and 5 grams per single dose (EMA 2017).\nNot to exceed 20 grams of fresh leaves, per day and 10 grams per single dose (EMA 2017).\nMethods of preparation: Decoction standardized, Decoction concentrate standardized\nNot to exceed 10 grams of dried leaves per day, 5 grams per single dose and 20.8 % oleuropein (EMA 2017; Perrinjaquet-Moccetti et al. 2008).\nNot to exceed 20 grams of fresh leaves per day, 10 grams per single dose and 20.8 % oleuropein (EMA 2017; Perrinjaquet-Moccetti et al. 2008).\nMethods of preparation: Infusion, Infusion concentrate\nNot to exceed 30 grams of dried leaves, per day and 8 grams per single dose (EMA 2017).\nMethods of preparation: Infusion standardized, Infusion concentrate standardized\nNot to exceed 30 grams of dried leaves, per day, 8 grams per single dose and 20.8 % oleuropein (EMA 2017; Perrinjaquet-Moccetti et al. 2008).\nDiuretic",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "OLIVE LEAF - OLEA EUROPAEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-feuille-olea-europaea-leaf2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.6 - 3.5 grams of dried leaves, per day (EMA 2017; Bone 2003).\nMethods of preparation: Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.6 - 3.5 grams of dried leaves, per day and not to exceed 20.8 % oleuropein (EMA 2017; Perrinjaquet-Moccetti et al. 2008; Bone 2003).\nMethods of preparation: Decoction, Decoction concentrate\n5 grams of dried leaves, 1 to 2 times per day (EMA 2017).\n10 grams of fresh leaves, 1 to 2 times per day (EMA 2017).\nMethods of preparation: Decoction standardized, Decoction concentrate standardized\n5 grams of dried leaves, 1 to 2 times per day and not to exceed 20.8 % oleuropein (EMA 2017; Perrinjaquet-Moccetti et al. 2008).\n10 grams of fresh leaves, 1 to 2 times per day and not to exceed 20.8 % oleuropein (EMA 2017; Perrinjaquet-Moccetti et al. 2008).\nMethods of preparation: Infusion, Infusion concentrate\n7 - 8 g dried leaves, 1 to 3 times per day (EMA 2017).\nMethods of preparation: Infusion standardized, Infusion concentrate standardized\n7 - 8 g dried leaves, 1 to 3 times per day and not to exceed 20.8 % oleuropein (EMA 2017; Perrinjaquet-Moccetti et al. 2008).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "OLIVE LEAF - OLEA EUROPAEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 203
+  },
+  {
+   "chunk_id": "hc-nhpid-feuille-olea-europaea-leaf2#005",
+   "text": "Quantity(ies): Note: For standardized extracts, as evidence mainly supports the quantity crude equivalent of olive leaves, both the quantity crude equivalent and the maximum concentration of the potency constituent must be met.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "OLIVE LEAF - OLEA EUROPAEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-feuille-olea-europaea-leaf2#006",
+   "text": "Direction(s) for use: Take with food (Bone 2003).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "OLIVE LEAF - OLEA EUROPAEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 8
+  },
+  {
+   "chunk_id": "hc-nhpid-feuille-olea-europaea-leaf2#007",
+   "text": "Duration(s) of use: Diuretic\nFor occasional use only (APhA 2002; CPhA 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "OLIVE LEAF - OLEA EUROPAEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-feuille-olea-europaea-leaf2#008",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you pregnant or breastfeeding (EMA 2017).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a kidney disorder (EMA 2017).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking other diuretics (EMA 2017).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "OLIVE LEAF - OLEA EUROPAEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "hc-nhpid-feuille-olea-europaea-leaf2#009",
+   "text": "Known adverse reaction(s): All products except those making a diuretic claim\nWhen using this product diuretic effect may occur.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "OLIVE LEAF - OLEA EUROPAEA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  }
+ ]
+}

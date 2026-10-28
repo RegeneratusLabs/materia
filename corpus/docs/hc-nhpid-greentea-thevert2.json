@@ -1,0 +1,161 @@
+{
+ "doc_id": "hc-nhpid-greentea-thevert2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "GREEN TEA EXTRACT",
+ "title_extra": null,
+ "date": "2025-07-25",
+ "revised": "2025-07-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-07-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=greentea_thevert2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "greentea_thevert2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:2db8d4c7773f28b294281f8f02ad7db3b59d723ded8a80583d3894769601dde4",
+ "entities": [
+  "GREEN TEA EXTRACT",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-greentea-thevert2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GREEN TEA EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-greentea-thevert2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Camargo et al. 2006; Coimbra et al. 2006; Henning et al. 2004; Nakagawa et al. 1999; Van het Hof et al. 1997).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Camargo et al. 2006; Coimbra et al. 2006; Henning et al. 2004; Nakagawa et al. 1999; Van het Hof et al. 1997).\nTo be used with a program of reduced intake of dietary calories and increased physical activity (if possible) to help in weight management (Nagao et al. 2005; Westerterp-Plantenga et al. 2005; Chantre and Lairon 2002; Dulloo et al. 1999).\nRestrictions when this monograph is combined with other monographs (Class II and III applications):\nIf a weight management claim is made:\nWeight management is a long-term process and must therefore, be associated with a long-term intervention.\nMedicinal ingredient with diuretic properties may be included in weight management products, however no diuretic claim can be applied as it is associated with a short-term duration of use (occasional use only).\nStimulant laxatives cannot be present at therapeutic dose in weight management products as their short term duration of use is not compatible with the duration of use for weight management.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "GREEN TEA EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 210
+  },
+  {
+   "chunk_id": "hc-nhpid-greentea-thevert2#003",
+   "text": "Quantity(ies): Methods of preparation: Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nAntioxidant\nNot to exceed 690 milligrams total catechins* per day, including a maximum of 300 mg epigallocatechin 3-gallate (EGCG); and not to exceed 150 milligrams of caffeine, per day (HC 2023; Nagao et al. 2005; Henning et al. 2004; Nakagawa et al. 1999).\n*Note: Total catechins is the sum of all catechin compounds, including epicatechins and other related compounds. For green tea extract, total catechins include, catechin (C), epicatechin (EC), epigallocatechin (EGC), epicatechin gallate (ECG), and epigallocatechin gallate (EGCG).\nWeight management\n136 - 300 milligrams (-)-epigallocatechin-3-gallate (EGCG) and 75 - 150 milligrams of caffeine, with an EGCG:caffeine ratio of 1.8:1 to 4:1, per day. Not to exceed 690 milligrams of total catechins (including EGCG) per day (Nagao et al. 2005; Westerterp-Plantenga et al. 2005; Chantre and Lairon 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GREEN TEA EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 145
+  },
+  {
+   "chunk_id": "hc-nhpid-greentea-thevert2#004",
+   "text": "Direction(s) for use: All products\nTake with a meal/food (HC 2017).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GREEN TEA EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "hc-nhpid-greentea-thevert2#005",
+   "text": "Duration(s) of use: All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (Nagao et al. 2005; Westerterp-Plantenga et al. 2005; Chantre and Lairon 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GREEN TEA EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "hc-nhpid-greentea-thevert2#006",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a liver disorder or an iron deficiency (HC 2017; HC 2007; Cooper et al. 2006; Nelson and Poulter 2004; Zijp et al. 2000).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking prescription medications.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience any new symptoms including yellowing of the eyes or skin, dark urine, nausea, vomiting, stomach pain (HC 2017; Molinari et al. 2006; Gloro et al. 2005).\nAll products (except for weight management)\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nWeight management\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.\nProducts providing 40 mg or more caffeine, per day and with a catechins:caffeine ratio lower than 2:1\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have high blood pressure or glaucoma (Cornelis and El-Sohemy 2007; Chandrasekaran et al. 2005; Noordzij et al. 2005; Avisar et al. 2002; Arya et al. 2000; Jee et al. 1999; Creighton and Stanton 1990).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "liver",
+    "hypertension"
+   ],
+   "entities": [
+    "GREEN TEA EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 204
+  },
+  {
+   "chunk_id": "hc-nhpid-greentea-thevert2#007",
+   "text": "Contraindication(s): Weight management\nDo not use if you are pregnant (HC 2010).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "GREEN TEA EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  }
+ ]
+}

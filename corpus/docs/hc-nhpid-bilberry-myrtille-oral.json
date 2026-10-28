@@ -1,0 +1,142 @@
+{
+ "doc_id": "hc-nhpid-bilberry-myrtille-oral",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "BILBERRY - VACCINIUM MYRTILLUS - Oral",
+ "title_extra": null,
+ "date": "2024-10-25",
+ "revised": "2024-10-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-10-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=bilberry.myrtille.oral&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "bilberry.myrtille.oral"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:d59b8a63eee93af80f0eab7bbf2100062876c5a329b146b1405d0aac01b8ad01",
+ "entities": [
+  "BILBERRY - VACCINIUM MYRTILLUS - Oral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-bilberry-myrtille-oral#001",
+   "text": "Route of Administration: Oral (Blumenthal et al. 2000)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "BILBERRY - VACCINIUM MYRTILLUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 8
+  },
+  {
+   "chunk_id": "hc-nhpid-bilberry-myrtille-oral#002",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "BILBERRY - VACCINIUM MYRTILLUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-bilberry-myrtille-oral#003",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine as an astringent to help relieve diarrhea (ESCOP 2003; Blumenthal et al. 2000; Mills and Bone 2000; Grieve 1971; Felter and Lloyd 1983).\nSource of antioxidants/Provides antioxidants (Upton 2001; Mills and Bone 2000)\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Upton 2001; Mills and Bone 2000).\nUsed in Herbal Medicine to help slow the progression of disorders of the eye, such as diabetic and hypertensive retinopathy, and macular degeneration (Mills and Bone 2005; Blumenthal 2003; Upton 2001; Morazzoni and Bombardelli 1996).\nUsed in Herbal Medicine to help relieve symptoms related to non-complicated chronic venous insufficiency (CVI), such as sensation of swelling, heaviness and tingling of the legs (Barnes 2007; Mills and Bone 2005; ESCOP 2003; Upton 2001).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g. Used in Herbal Medicine to help slow the progression of disorders of the eye,\nsuch as diabetic and hypertensive retinopathy, and macular degeneration and to help relieve symptoms related to non-complicated chronic venous insufficiency (CVI), such as sensation of swelling, heaviness and tingling of the legs).\nFor multi-ingredient products:",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "diabetes",
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "BILBERRY - VACCINIUM MYRTILLUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 211
+  },
+  {
+   "chunk_id": "hc-nhpid-bilberry-myrtille-oral#004",
+   "text": "Use(s) or Purpose(s): To prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Bilberry is traditionally used in Herbal Medicine as an astringent to help relieve diarrhea).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "BILBERRY - VACCINIUM MYRTILLUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "hc-nhpid-bilberry-myrtille-oral#005",
+   "text": "Quantity(ies): Slowing the progression of disorders of the eye; Relieving symptoms related to non-complicated CVI\nMethods of preparation: Standardized extracts (Dry extract)\n160 - 480 milligrams of dried extract standardized to 36% anthocyanins, per day; Not to exceed 160 milligrams per single dose (USP-NF 2023; Blumenthal 2003; ESCOP 2003; Upton 2001).\nAntioxidant\nMethods of preparation: Dry, Dry standardized, Powdered, Powdered standardized, Standardized and Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 75 grams of dried fruit, per day (USP-NF 2023; Barnes 2007; ESCOP 2003; Blumenthal et al. 2000; Grieve 1971).\nStandardized preparations only: not to exceed 36% anthocyanins.\nRelief of diarrhea\nMethods of preparation: Dry, Dry standardized, Powdered, Powdered standardized, Standardized and Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n1.8 - 75 grams of dried fruit, per day (USP-NF 2023; Barnes 2007; ESCOP 2003; Blumenthal et al. 2000; Grieve 1971).\nStandardized preparations only: not to exceed 36% anthocyanins",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BILBERRY - VACCINIUM MYRTILLUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 162
+  },
+  {
+   "chunk_id": "hc-nhpid-bilberry-myrtille-oral#006",
+   "text": "Caution(s) and warning(s): Relief of diarrhea\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nSlowing the progression of disorders of the eye and to relieve symptoms related to non-complicated CVI\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "BILBERRY - VACCINIUM MYRTILLUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  }
+ ]
+}

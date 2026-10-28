@@ -1,0 +1,138 @@
+{
+ "doc_id": "hc-nhpid-l-carnitine2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "L-CARNITINE",
+ "title_extra": null,
+ "date": "2025-07-25",
+ "revised": "2025-07-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-07-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=l.carnitine2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "l.carnitine2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:8793f1efb42504586f1231f27302a1172587d78b4af016e6c7ef4ada0e530154",
+ "entities": [
+  "L-CARNITINE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-l-carnitine2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "L-CARNITINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-l-carnitine2#002",
+   "text": "Use(s) or Purpose(s): L-Carnitine fumarate; L-Carnitine tartrate; L-Carnitine\nSource of (an) antioxidant(s)/Provides (an) antioxidant(s) (Cao et al. 2011; Arkadeb et al. 2008; Gomez-Amores et al. 2007).\nSource of (an) antioxidant(s)/Provides (an) antioxidant(s) that help(s) fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Cao et al. 2011; Arkadeb et al. 2008; Gomez-Amores et al. 2007).\nWorkout support/supplement (Wall et al. 2011; Cha et al. 2001; Arenas et al. 1994; Huertas et al. 1992; Arenas et al. 1991; Vecchiet et al. 1990; Marconi et al. 1985).\nAthletic support/supplement (Wall et al. 2011; Cha et al. 2001; Arenas et al. 1994; Huertas et al. 1992; Arenas et al. 1991; Vecchiet et al. 1990; Marconi et al. 1985).\nL-Carnitine tartrate; L-Carnitine\nAids in the muscle recovery process by reducing muscle tissue damage associated with a resistance training regimen (Ho et al. 2010; Spiering et al. 2008; Spiering et al. 2007; Kraemer et al. 2006; Kramer et al. 2003; Volek et al. 2002).\nHelps support muscle tissue repair in individuals involved in resistance training (Ho et al. 2010; Spiering et al. 2008; Spiering et al. 2007; Kraemer et al. 2006; Kramer et al. 2003; Volek et al. 2002).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "L-CARNITINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 201
+  },
+  {
+   "chunk_id": "hc-nhpid-l-carnitine2#003",
+   "text": "Use(s) or Purpose(s): Helps improve physical performance when used in conjunction with a training regimen (Wall et al. 2011; Cha et al. 2001; Arenas et al. 1994; Huertas et al. 1992; Arenas et al. 1991; Vecchiet et al. 1990; Marconi et al. 1985).\nHelps delay fatigue during physical activity (Cha et al. 2011; Wall et al. 2011; Karahan et al. 2010).\nHelps support fat metabolism (Stephens et al. 2007; Karlic and Lohninger 2004; Müller et al. 2002).\nHelps support fat oxidation (Wall et al. 2011; Stephens et al. 2007; Wutzke and Lorenz 2004; Müller et al. 2002).\nNotes:\nThe above uses can be combined on the product label (e.g., L-carnitine from L-carnitine tartrate: Workout supplement that helps support fat metabolism and fat oxidation).\nThe terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.\nIf L-carnitine is combined with other medicinal ingredients with antioxidant properties at Class II and III, there is an option to use the claim in plural. The singular should be used when the product only contains one chemical substance as the medicinal ingredient associated with this claim.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "L-CARNITINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 183
+  },
+  {
+   "chunk_id": "hc-nhpid-l-carnitine2#004",
+   "text": "Quantity(ies): Antioxidant\nNot to exceed 4 grams of L-carnitine per day and 2 grams per single dose (Karlic and Lohninger 2004; Benvenga et al. 2001; Ahmet et al. 2000; Harper et al. 1988).\nMuscle recovery, Muscle tissue repair, Workout/Athletic support/supplement\n1 - 4 grams of L-carnitine, per day; Not to exceed 2 grams per single dose (Ho et al. 2010; Spiering et al. 2008; Spiering et al. 2007; Kraemer et al. 2006; Kramer et al. 2003; Volek et al. 2002; Benvenga et al. 2001; Ahmet et al. 2000; Harper et al. 1988).\nPhysical performance, Fatigue\n2 - 4 grams of L-carnitine, per day; Not to exceed 2 grams per single dose (Wall et al. 2011; Benvenga et al. 2001; Cha et al. 2001; Ahmet et al. 2000; Arenas et al. 1994; Huertas et al. 1992; Arenas et al. 1991; Vecchiet et al. 1990; Harper et al. 1988; Marconi et al. 1985).\nFat metabolism, Fat oxidation\n3 - 4 grams of L-carnitine, per day; Not to exceed 2 grams per single dose (Wall et al. 2011; Stephens et al. 2007; Karlic and Lohninger 2004; Wutzke and Lorenz 2004; Müller et al. 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "L-CARNITINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 191
+  },
+  {
+   "chunk_id": "hc-nhpid-l-carnitine2#005",
+   "text": "Direction(s) for use: Muscle recovery, Muscle tissue repair, Workout/Athletic support/supplement, Physical performance, Fatigue\nTake 2-4 hours prior to exercise (Harper et al. 1988).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "L-CARNITINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  },
+  {
+   "chunk_id": "hc-nhpid-l-carnitine2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (CPS 2008).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a seizure disorder (CPS 2008).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "L-CARNITINE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 41
+  }
+ ]
+}

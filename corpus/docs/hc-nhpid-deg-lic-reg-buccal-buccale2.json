@@ -1,0 +1,121 @@
+{
+ "doc_id": "hc-nhpid-deg-lic-reg-buccal-buccale2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "DEGLYCYRRHIZINATED LICORICE Buccal",
+ "title_extra": null,
+ "date": "2025-10-31",
+ "revised": "2025-10-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-10-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=deg.lic.reg.buccal.buccale2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "deg.lic.reg.buccal.buccale2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:729cb71cdf0248561c1ddf031c6db7eb1ff1041397f7fb555f48f590379d9a8d",
+ "entities": [
+  "DEGLYCYRRHIZINATED LICORICE Buccal",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-deg-lic-reg-buccal-buccale2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nDosage forms must be suited for buccal administration which allow for direct contact between the affected tissue and the medicinal ingredient: Gargle; Liquid; Mouthwash.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "DEGLYCYRRHIZINATED LICORICE Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-deg-lic-reg-buccal-buccale2#002",
+   "text": "Use(s) or Purpose(s): (Used in Herbal Medicine (as a demulcent) to) help(s) relieve minor inflammations of mucous membranes of the mouth (such as canker sores) (Pizzorno and Murray 2006; Bruneton 1999; Das et al. 1989).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "DEGLYCYRRHIZINATED LICORICE Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 35
+  },
+  {
+   "chunk_id": "hc-nhpid-deg-lic-reg-buccal-buccale2#003",
+   "text": "Quantity(ies): Method of preparation: Prepared and dry\nTable 2. Dose information (milligrams) and frequency for Deglycyrrhizinated licorice extract.\nSubpopulation(s) 1 , 2\nDeglycyrrhizinated licorice extract (mg)\nMinimum/single dose\nMaximum/single dose\nFrequency/day\nChildren\n2-4 years\n33 mg\n190 mg\n4 times\n5-9 years\n50 mg\n285 mg\n4 times\n10-11 years\n100 mg\n570 mg\n4 times\nAdolescents\n12-14 years\n100 mg\n570 mg\n4 times\n15-17 years\n200 mg\n1140 mg\n4 times\nAdults\n18 years and older\n200 mg\n1140 mg\n4 times\n1 Children and adolescent doses were calculated as a fraction of the adult dose (JC 2024). The use of licorice in children and adolescents is supported by the following references: McIntyre 2005; Schilcher 1997; Bove 1996.\n2 Adult doses are supported by Pizzorno and Murray 2006 and Das et al. 1989.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "DEGLYCYRRHIZINATED LICORICE Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 135
+  },
+  {
+   "chunk_id": "hc-nhpid-deg-lic-reg-buccal-buccale2#004",
+   "text": "Direction(s) for use: Rinse and/or gargle, 4 times per day (Das et al. 1989).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "DEGLYCYRRHIZINATED LICORICE Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  },
+  {
+   "chunk_id": "hc-nhpid-deg-lic-reg-buccal-buccale2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "DEGLYCYRRHIZINATED LICORICE Buccal",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  }
+ ]
+}

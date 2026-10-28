@@ -1,0 +1,161 @@
+{
+ "doc_id": "hc-nhpid-gentian2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Gentian -\nGentiana Lutea",
+ "title_extra": null,
+ "date": "2025-01-10",
+ "revised": "2025-01-10",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-01-10",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=gentian2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "gentian2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:3d767dec86b9d5b2b0d51b631ee09988f5f75317d0b013d2496de3fc63726009",
+ "entities": [
+  "Gentian -\nGentiana Lutea",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-gentian2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Gentian -\nGentiana Lutea",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-gentian2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve digestive disturbances (such as dyspepsia) (Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000; Bradley 1992;Williamson et al. 1988; Felter and Lloyd 1983; Grieve 1971).\n(Traditionally) used in Herbal Medicine (as a digestive tonic and bitter) to help stimulate appetite and (as a stomachic) to aid digestion (Mills and Bone 2005; Wichtl 2004; Hoffmann 2003; Blumenthal et al. 2000; Bradley 1992; Williamson et al.1988; Felter and Lloyd 1983; Grieve 1971).\n(Traditionally) used in Herbal Medicine (as an antiemetic) to help prevent nausea (Bradley 1992; Williamson et al. 1988).\nUsed in Herbal Medicine (as a cholagogue) to help increase bile flow (Wichtl 2004; Hoffmann 2003; Blumenthal et al. 2000).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help prevent nausea and to help relieve digestive disturbances).\nFor multi-ingredient products:",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Gentian -\nGentiana Lutea",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 162
+  },
+  {
+   "chunk_id": "hc-nhpid-gentian2#003",
+   "text": "Use(s) or Purpose(s): To prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Gentian is traditionally used in Herbal Medicine to help prevent nausea).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Gentian -\nGentiana Lutea",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 106
+  },
+  {
+   "chunk_id": "hc-nhpid-gentian2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n0.1 - 6 grams of dried root, per day (Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; Blumenthal et al.2000; Bradley 1992)\n*Note:\nSolvents allowed for the method of preparation “Non-Standardized Extracts (Dry extract)” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Gentian -\nGentiana Lutea",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "hc-nhpid-gentian2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Gentian -\nGentiana Lutea",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-gentian2#006",
+   "text": "Contraindication(s): Do not use if you are pregnant (Hoffmann 2003; Morimoto et al.1983).\nDo not use if you have stomach or duodenal acute inflammation or ulcer (Brinker 2010; ESCOP 2003; Bradley 1992).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Gentian -\nGentiana Lutea",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-gentian2#007",
+   "text": "Known adverse reaction(s): When using this product you may experience headaches (ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Gentian -\nGentiana Lutea",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  }
+ ]
+}

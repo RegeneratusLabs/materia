@@ -1,0 +1,173 @@
+{
+ "doc_id": "hc-nhpid-glucomannan",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "GLUCOMANNAN",
+ "title_extra": null,
+ "date": "2024-07-26",
+ "revised": "2024-07-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-07-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=glucomannan&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "glucomannan"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:5883f444fc666534ca407c10bb227448383cb3fa3508fe47d642fb023177245e",
+ "entities": [
+  "GLUCOMANNAN",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-glucomannan#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nThe acceptable dosage forms are limited to the oral capsule and powder dosage forms listed in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GLUCOMANNAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 50
+  },
+  {
+   "chunk_id": "hc-nhpid-glucomannan#002",
+   "text": "Use(s) or Purpose(s): Helps to lower cholesterol levels (by reducing cholesterol absorption from the gastrointestinal tract) (EFSA 2009; Sood et al. 2008; Martino et al. 2005; Chen et al. 2003; Arvill and Bodin 1995; Walsh et al. 1984).\n(Used in Herbal Medicine as a) bulk-forming laxative (Chua et al. 2010; Chen et al. 2008; Chen et al. 2006; González Canga et al. 2004; Loening-Baucke et al. 2004).\n(Used in Herbal Medicine to) promote(s) bowel movements (by increasing bulk volume and water content) (Chua et al. 2010; Chen et al. 2008; Chen et al. 2006; González Canga et al. 2004; Loening-Baucke et al. 2004).\n(Used in Herbal Medicine to) provide(s) gentle relief of constipation and/or irregularity (Chua et al. 2010; Chen et al. 2008; Chen et al. 2006; González Canga et al. 2004; Loening-Baucke et al. 2004).\nNote: The above uses can be combined on the product label if from the same system of medicine (e.g. Used in Herbal Medicine as a bulk-forming laxative for gentle relief of constipation and/or irregularity).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "GLUCOMANNAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 170
+  },
+  {
+   "chunk_id": "hc-nhpid-glucomannan#003",
+   "text": "Quantity(ies): Lowering of cholesterol\n1 - 1.5 grams of glucomannan, 3 times per day (EFSA 2009; Martino et al. 2005; Chen et al. 2003; Arvill and Bodin 1995; Walsh et al. 1984)\nLaxative; Promotion of bowel movement; Constipation relief\n0.5 - 5 grams of glucomannan, 3 times per day (Chen et al. 2008; Chen et al. 2006; González Canga et al. 2004; Loening-Baucke et al. 2004)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GLUCOMANNAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 66
+  },
+  {
+   "chunk_id": "hc-nhpid-glucomannan#004",
+   "text": "Direction(s) for use: All products\nFor each dose, drink at least 250 ml of liquid (FDA 2023, Martino et al. 2005, Chen et al. 2003, Arvill and Bodin 1995, Walsh et al. 1984).\nMaintain adequate fluid intake (FDA 2023; EMA 2013).\nTake a few hours before or after taking other medications or health products (Sweetman 2007; Keithley and Swanson 2005).\nTaking this product with insufficient liquid may result in choking, or blockage/obstruction of the throat, esophagus or intestine (FDA 2023; Sweetman 2007; Vanderbeek et al. 2007; Henry et al. 1986).\nFor powder dosage forms\nMix well with liquid and drink immediately.\nLowering of cholesterol\nTake 0.5-1 hour before meals (Chen et al. 2003; Arvill and Bodin 1995; Walsh et al. 1984).\nLaxative; Promotion of bowel movement; Constipation relief\nEffects observed 12-24 hours after first dose, but may take 2-3 days (Berardi et al. 2002).\nOptional\nTake during the day (not immediately prior to bedtime) (Sweetman 2007).\nOptional (for products with a dosage range)\nMinimum daily dose may be increased, up to the maximum daily dose, until desired effect is obtained.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GLUCOMANNAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 180
+  },
+  {
+   "chunk_id": "hc-nhpid-glucomannan#005",
+   "text": "Duration(s) of use: Cholesterol-lowering products\nAsk a healthcare practitioner/health care provider/health care professional/doctor/physician for use beyond 8 weeks (Martino et al. 2005; Walsh et al. 1984).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GLUCOMANNAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 26
+  },
+  {
+   "chunk_id": "hc-nhpid-glucomannan#006",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician immediately if you experience chest pain, vomiting, or difficulty swallowing or breathing after taking this product (FDA 2023).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes or a lazy bowel (UpToDate 2023; EMA 2013; Chen et al. 2003; Vuksan et al. 2001).\nLaxative; Promotion of bowel movement; Constipation relief\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen or if laxative effect does not occur within 7 days (Pray 2006; Repchinsky 2002).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes"
+   ],
+   "entities": [
+    "GLUCOMANNAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 113
+  },
+  {
+   "chunk_id": "hc-nhpid-glucomannan#007",
+   "text": "Contraindication(s): All products\nDo not use if you have difficulty swallowing (FDA 2023; Sweetman 2007; Vanderbeek et al. 2007; Henry et al. 1986).\nDo not use if you have fever or any undiagnosed gastrointestinal trouble (EMA 2013; Pray 2006; Berardi et al. 2002).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "GLUCOMANNAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-glucomannan#008",
+   "text": "Known adverse reaction(s): All products\nStop use if hypersensitivity/allergy occurs (EMA 2013).\nWhen using this product you may experience temporary gas and bloating (Sood et al. 2008).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "GLUCOMANNAN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  }
+ ]
+}

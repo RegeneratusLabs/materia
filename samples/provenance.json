@@ -1,0 +1,24 @@
+{
+ "retrieved_at": "2026-10-28",
+ "policy": "Local evaluation fixtures only. Not corpus, not redistributed. samples/raw/ is gitignored.",
+ "documents": [
+  {
+   "file": "samples/raw/nutripath-aminoacids.pdf",
+   "title": "Genova Diagnostics 0013 Bloodspot Amino Acids 11 Profile - sample report",
+   "url": "https://www.nutripath.com.au/wp-content/uploads/2015/07/5043-Amino-Acids-11-BloodSpot.pdf",
+   "host": "nutripath.com.au (AU distributor of Genova Diagnostics)",
+   "type": "real report, text layer present but column order scrambled",
+   "units": "SI (umol/L)",
+   "watermark": "Sample Report",
+   "sha256": "923b02a982f26b5e105c170e9145486dd5e18a6d40efc731f475fe2e9e2986bb"
+  }
+ ],
+ "derived": [
+  {
+   "file": "samples/pages/nutripath-p2-degraded.jpg",
+   "from": "samples/pages/nutripath-p2.png",
+   "transform": "0.6x downscale, 4 degree rotate, JPEG q40",
+   "label": "synthetic photo stand-in, not a real photograph"
+  }
+ ]
+}

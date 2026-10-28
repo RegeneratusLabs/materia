@@ -1,0 +1,178 @@
+{
+ "doc_id": "hc-nhpid-hydrocortisone2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "HYDROCORTISONE - Topical",
+ "title_extra": null,
+ "date": "2025-07-25",
+ "revised": "2025-07-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-07-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=hydrocortisone2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "hydrocortisone2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:241248487c6f292ad2b9c5df0a1a0454161cb82c596fa2be420205154122019b",
+ "entities": [
+  "HYDROCORTISONE - Topical",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-hydrocortisone2#001",
+   "text": "Dosage Form(s): The following dosage forms are acceptable when used according to the requirements indicated in this monograph: Cream; Lotion; Ointment; Spray.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "HYDROCORTISONE - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrocortisone2#002",
+   "text": "Use(s) or Purpose(s): For (the) temporary relief of itching associated with minor skin irritations, (inflammation) and rashes (due to eczema, insect bites, poison ivy, poison oak, poison sumac, seborrheic dermatitis, psoriasis, or contact with soaps, detergents, cosmetics or jewellery) (US FDA 2023).\nFor (the) temporary relief of external feminine genital itching and/or external anal itching (due to hemorrhoids) (US FDA 2023).\nAntipruritic (US FDA 2023).\nAnti-itch (US FDA 2023).\nNote: The above uses can be combined on the product label (e.g., For temporary relief of itching associated with minor skin irritations and rashes and of external feminine genital itching).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "HYDROCORTISONE - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrocortisone2#003",
+   "text": "Subpopulation(s): Products for external feminine genital or anal itching\nAdolescents 12 to 17 years and Adults 18 years and older (US FDA 2023)\nAll other products\nChildren 2 to 11 years, Adolescents 12 to 17 years and Adults 18 years and older (US FDA 2023)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "HYDROCORTISONE - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrocortisone2#004",
+   "text": "Quantity(ies): Note: On the PLA form, quantities can be expressed as percentage weight by weight (% w/w) or percentage weight by volume (% w/v), depending on the product formulation. On the product label, quantities can also be expressed in other equivalent concentration units (e.g. mg/mL).\n0.25 - 1.0% of Hydrocortisone (US FDA 2023; HC 2014).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "HYDROCORTISONE - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 55
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrocortisone2#005",
+   "text": "Direction(s) for use: All products\nDo not use around the eyes or on large areas of the body (HC 1985).\nAll products (except for external anal itching)\nApply to the affected area(s), up to 4 times per day (US FDA 2023).\nProducts for external anal itching\nCleanse the affected area with mild soap and warm water, rinse and dry (US FDA 2023).\nApply to the affected area by patting gently (using a cleansing pad), up to 4 times per day (US FDA 2023).\nDo not put this product into the rectum (US FDA 2023).\nProducts which include a subpopulation of children 2 - 11 years of age\nSupervise children when they use this product.\nProducts in a spray form\nAvoid inhaling or exposing others to spray.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "HYDROCORTISONE - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 126
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrocortisone2#006",
+   "text": "Caution(s) and warning(s): All products\nFor external use only (US FDA 2023; HC 1985).\nWhen using this product avoid contact with the eyes. If contact occurs, rinse thoroughly with water (US FDA 2023).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist for more than 7 days, worsen, or re-occur within a few days (US FDA 2023; HC 1985).\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "HYDROCORTISONE - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 84
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrocortisone2#007",
+   "text": "Contraindication(s): All products\nDo not use for the treatment of diaper rash (US FDA 2023; Berardi et al. 2002).\nProducts for external feminine genital itching\nDo not use if you have a vaginal discharge (US FDA 2023; HC 1985).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "HYDROCORTISONE - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "hc-nhpid-hydrocortisone2#008",
+   "text": "Known adverse reaction(s): Products for external anal itching\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience bleeding (US FDA 2023).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "HYDROCORTISONE - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "doc_id": "nccih-garlic",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Garlic",
+ "title_extra": null,
+ "date": "2025-02-01",
+ "revised": "2025-02-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-08-01",
+ "url": "https://www.nccih.nih.gov/health/garlic",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/garlic"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:b29bd77de0e2f8e6500bde3c9945f561393a208458ab55fa5067ff50d58c106f",
+ "entities": [
+  "Garlic"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-garlic#001",
+   "text": "Garlic\n© Thinkstock\nCommon Names:\ngarlic\nLatin Names:\nAllium sativum",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "nccih-garlic#002",
+   "text": "Background: Garlic is cultivated worldwide. It has a long history of use both in foods and for health purposes. Ancient writings from Egypt, Greece, and India describe its use for a variety of health problems, such as headache, pneumonia, throat conditions, and gastrointestinal disorders.\nCurrently, garlic is promoted as a dietary supplement for various purposes, including helping to manage high blood cholesterol, high blood pressure, and diabetes; preventing various types of cancer; and enhancing immune function. Garlic may also be used topically (applied to the skin).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "diabetes",
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 86
+  },
+  {
+   "chunk_id": "nccih-garlic#003",
+   "text": "How Much Do We Know?: A great deal of research has been done on garlic, especially on its effects on levels of cholesterol and related lipids.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 26
+  },
+  {
+   "chunk_id": "nccih-garlic#004",
+   "text": "What Have We Learned?: Garlic supplements may reduce levels of total cholesterol and low-density lipoprotein (LDL) cholesterol to a small extent in people who have high blood cholesterol levels.\nLimited evidence suggests that garlic supplements may reduce blood pressure to a small extent in people who have high blood pressure.\nGarlic supplements may reduce blood sugar to a small extent in people with diabetes.\nConsuming garlic does not seem to reduce the risk of stomach cancer. It’s uncertain whether garlic influences the risk of colorectal cancer.\nDietary supplements that contain garlic have been promoted as boosters for the immune system, particularly during cold and flu season. However, very little research has been done on this topic. A 2022 review identified only two studies that suggest a possible benefit, and both studies included only small numbers of people and had weaknesses in the research.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "diabetes",
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 143
+  },
+  {
+   "chunk_id": "nccih-garlic#005",
+   "text": "What Do We Know About Safety?: Garlic, taken orally, has been used safely in research studies that lasted as long as 7 years. Some forms of garlic used topically also seem to be safe. However, fresh raw garlic may not be safe when used topically. It can cause severe skin irritation and chemical burns.\nSide effects of garlic consumed orally include breath and body odor, abdominal pain, flatulence, and nausea. Some people have allergic reactions to garlic.\nTaking garlic supplements may increase the risk of bleeding. If you take garlic supplements, make sure to tell your health care providers. This is especially important if you are going to have surgery or if you take medicines, such as anticoagulants or aspirin, that may also affect bleeding.\nIf you take anticoagulants, aspirin, or any other medicine, talk with your health care provider before using garlic or other herbal products; some herbs and medicines interact in harmful ways.\nGarlic may not be safe for use during pregnancy or while breastfeeding when taken orally in amounts greater than those found in foods. Little is known about the safety of using garlic topically during pregnancy or while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "anticoagulant",
+    "surgery"
+   ],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 193
+  },
+  {
+   "chunk_id": "nccih-garlic#006",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The rules for making and distributing dietary supplements are less strict than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 161
+  },
+  {
+   "chunk_id": "nccih-garlic#007",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science:\nH\now Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "nccih-garlic#008",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-garlic#009",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-garlic#010",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-garlic#011",
+   "text": "Key References: Abebe W.\nReview of herbal medications with the potential to cause bleeding: dental implications, and risk prediction and prevention avenues\n.\nEPMA Journal.\n2019;10(1):51-64.\nAlam A, Jahan AAA, Bari MS, et al.\nAllium vegetables: traditional uses, phytoconstituents, and beneficial effects in inflammation and cancer\n.\nCritical Reviews in Food Science and Nutrition\n. 2023;63(23):6580-6614.\nCrawford C, Brown LL, Costello RB, et al.\nSelect dietary supplement ingredients for preserving and protecting the immune system in healthy individuals: a systematic review\n.\nNutrients.\n2022;14(21):4604.\nGarlic. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on December 5, 2023. [Database subscription].\nHatfield J, Saad S, Housewright C.\nDietary supplements and bleeding\n.\nProceedings (Baylor University, Medical Center).\n2022;35(6):802-807.\nHitl M, Kladar N, Gavarić N, et al.\nGarlic burn injuries—a systematic review of reported cases\n.\nAmerican Journal of Emergency Medicine.\n2021;44:5-10.\nRied K, Toben C, Fakler P.\nEffect of garlic on serum lipids: an updated meta-analysis\n.\nNutrition Reviews.\n2013;71(5):282-299.\nShabani E, Sayemiri K, Mohammadpour M.\nThe effect of garlic on lipid profile and glucose parameters in diabetic patients: a systematic review and meta-analysis\n.\nPrimary Care Diabetes.\n2019;13(1):28-42.\nSun Y-E, Wang W, Qin J.\nAnti-hyperlipidemia of garlic by reducing the level of total cholesterol and low-density lipoprotein: a meta-analysis\n.\nMedicine (Baltimore).\n2018;97(18):e0255.\nZhou X, Qian H, Zhang D, et al.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "anticoagulant",
+    "diabetes",
+    "cancer",
+    "traditional"
+   ],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "nccih-garlic#012",
+   "text": "Key References: Garlic intake and the risk of colorectal cancer: a meta-analysis\n.\nMedicine (Baltimore).\n2020;99(1):e18575.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Garlic"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 89
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "doc_id": "hc-nhpid-horseradish-raifort2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Horseradish - Armoracia Rusticana",
+ "title_extra": null,
+ "date": "2026-03-27",
+ "revised": "2026-03-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-03-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=horseradish.raifort2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "horseradish.raifort2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:161e88229c1d23e63370599e91bd917709b8e4ee71edb4050a34341e67a7a8c2",
+ "entities": [
+  "Horseradish - Armoracia Rusticana",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-horseradish-raifort2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Horseradish - Armoracia Rusticana",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 42
+  },
+  {
+   "chunk_id": "hc-nhpid-horseradish-raifort2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to aid digestion (Barnes et al. 2007; Blumenthal et al. 2000; Moerman 1998; Meyer 1993; Felter and Lloyd 1983; Wren 1907).\n(Traditionally) used in Herbal Medicine as a diuretic (Barnes et al. 2007; Blumenthal et al. 2000; Moerman 1998; Mills 1985; Felter and Lloyd 1983; Grieve 1971; Wren 1907).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to aid digestion and as a diuretic).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Horseradish is traditionally used in Herbal Medicine to aid digestion).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "Horseradish - Armoracia Rusticana",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 196
+  },
+  {
+   "chunk_id": "hc-nhpid-horseradish-raifort2#003",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n2 - 20 grams of dried or fresh root, per day (Blumenthal et al. 2000; Mills 1985; Grieve 1971; Wren 1907)\n*Note: Solvents allowed for the method of preparation \"Non-Standardized Extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Horseradish - Armoracia Rusticana",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 62
+  },
+  {
+   "chunk_id": "hc-nhpid-horseradish-raifort2#004",
+   "text": "Duration(s) of Use: Diuretic\nFor occasional use only (Berardi et al. 2002; CPA 2002)\nDigestion\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "Horseradish - Armoracia Rusticana",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "hc-nhpid-horseradish-raifort2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding (Barnes et al. 2007; Blumenthal et al. 2000).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have hypothyroidism, excess stomach acid or acid reflux (Brinker 2010; Barnes et al. 2007; Mills 1985).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking thyroid medications or antacids (Brinker 2010; Barnes et al. 2007B; Mills 1985).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "thyroid"
+   ],
+   "entities": [
+    "Horseradish - Armoracia Rusticana",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 96
+  },
+  {
+   "chunk_id": "hc-nhpid-horseradish-raifort2#006",
+   "text": "Contraindication(s): Do not use if you are pregnant (Brinker 2010).\nDo not use if you have a kidney or stomach disorder, or ulcers (Gardner and McGuffin 2013; Brinker 2010; Blumenthal et al. 2000).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "renal"
+   ],
+   "entities": [
+    "Horseradish - Armoracia Rusticana",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "hc-nhpid-horseradish-raifort2#007",
+   "text": "Known adverse reaction(s): All products except those making only a diuretic claim*\nWhen using this product diuretic effect may occur.\n*Note: This statement can be removed from the label if a diuretic claim is included.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "Horseradish - Armoracia Rusticana",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 35
+  }
+ ]
+}

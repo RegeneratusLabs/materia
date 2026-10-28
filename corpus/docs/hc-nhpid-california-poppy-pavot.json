@@ -1,0 +1,143 @@
+{
+ "doc_id": "hc-nhpid-california-poppy-pavot",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CALIFORNIA POPPY - ESCHSCHOLZIA CALIFORNICA",
+ "title_extra": null,
+ "date": "2025-02-28",
+ "revised": "2025-02-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-02-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=california.poppy.pavot&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "california.poppy.pavot"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:7882fc75f589343d84c04e4a26a7cc6579657b35daba5625fbab439c7b1022b3",
+ "entities": [
+  "CALIFORNIA POPPY - ESCHSCHOLZIA CALIFORNICA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-california-poppy-pavot#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CALIFORNIA POPPY - ESCHSCHOLZIA CALIFORNICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-california-poppy-pavot#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (calmative) (Mills and Bone 2005; Hoffmann 2003; Felter and Lloyd 1983).\n(Traditionally) used in Herbal Medicine as a sleep aid (during times of mental stress) (Mills and Bone 2005; Hoffmann 2003; Felter and Lloyd 1983).\n(Traditionally) used in Herbal Medicine as an analgesic (Mills and Bone 2005; Hoffmann 2003; Felter and Lloyd 1983).\nNotes:\nThe above claims can be combined on the product label if from the same traditional system of medicine e.g. Traditionally used in Herbal Medicine to help relieve restlessness and/or nervousness and as a sleep aid during time of mental stress.\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine,\" any indicated traditional use claim must refer to the specific medicinal ingredient(s) (MI) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., California poppy is traditionally used in Herbal Medicine to help relieve restlessness and/or nervousness).\nWhen ALL of the MIs in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "CALIFORNIA POPPY - ESCHSCHOLZIA CALIFORNICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-california-poppy-pavot#003",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract * , Tincture, Fluid extract, Decoction, Infusion)\n0.2 - 3 grams of dried herb top (flowering), per day (Mills and Bone 2005; Hoffmann 2003)\n* Note: Solvents allowed for the method of preparation \"Non-Standardized Extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CALIFORNIA POPPY - ESCHSCHOLZIA CALIFORNICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "hc-nhpid-california-poppy-pavot#004",
+   "text": "Direction(s) for use: Sleep aid\nTake (1 hour) before bedtime, as needed.\nOther uses\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CALIFORNIA POPPY - ESCHSCHOLZIA CALIFORNICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "hc-nhpid-california-poppy-pavot#005",
+   "text": "Caution(s) and warning(s): Sleep aid\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if sleeplessness persists continuously for more than 4 weeks (chronic insomnia) (Berardi et al. 2002; Dipiro et al. 2002).\nOther uses\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAll products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding (Brinker 2010; Mills and Bone 2005).\nWhen using this product avoid taking with alcohol or products that cause drowsiness and/or with analgesic properties (Brinker 2010; Mills and Bone 2005; Hoffmann 2003).\nWhen using this product exercise caution if you drive or use machinery as you may experience drowsiness (EMA 2015; Berardi et al. 2002).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "sedation"
+   ],
+   "entities": [
+    "CALIFORNIA POPPY - ESCHSCHOLZIA CALIFORNICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "hc-nhpid-california-poppy-pavot#006",
+   "text": "Contraindication(s): Do not use if you are pregnant (Brinker 2010; Blumenthal et al. 2000).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CALIFORNIA POPPY - ESCHSCHOLZIA CALIFORNICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

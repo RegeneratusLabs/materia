@@ -1,0 +1,196 @@
+{
+ "doc_id": "hc-nhpid-ginseng-panax2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "PANAX GINSENG",
+ "title_extra": null,
+ "date": "2025-06-27",
+ "revised": "2025-06-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-06-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=ginseng.panax2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "ginseng.panax2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:b315525d9e4ab86c35639c7e2a349f2a9a27c61e00227ee9b8a1b69771d70761",
+ "entities": [
+  "PANAX GINSENG",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-ginseng-panax2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "PANAX GINSENG",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-ginseng-panax2#002",
+   "text": "Use(s) or Purpose(s): (Used in Herbal Medicine as) supportive therapy for the promotion of healthy glucose levels (Vuksan et al. 2008; Sievenpiper et al. 2006; Williamson 2003; Tetsutani et al. 2000; WHO 1999; Sotaniemi et al. 1995).\n(Used in Herbal Medicine to) help(s) support cognitive function and/or reduce mental fatigue (in cases of mental stress) (Reay et al. 2006; Reay et al. 2005; Sünram-Lea et al. 2005; Kennedy et al. 2004; ESCOP 2003; Kennedy et al. 2002; Scholey and Kennedy 2002; Kennedy et al. 2001; Sorensen and Sonne 1996; Bradley 1992; D’Angelo et al. 1986; BHP 1983).\nHelps support cognition (Reay et al. 2006; Reay et al. 2005; Sünram-Lea et al. 2005; Kennedy et al. 2004; ESCOP 2003; Kennedy et al. 2002; Scholey and Kennedy 2002; Kennedy et al. 2001; Sorensen and Sonne 1996; Bradley 1992; D’Angelo et al. 1986; BHP 1983).\n(Used in Herbal Medicine to) help(s) enhance physical capacity/performance (in cases of physical stress) (Kim et al. 2005; ESCOP 2003; Gross et al. 2002; WHO 1999; Gross et al. 1995; Sotaniemi et al. 1995; Schepdael 1993).\nUsed in Herbal Medicine as an adaptogen to help increase energy and resistance to stress over time (e.g. in case of mental and physical fatigue related to stress) (Winston and Maimes 2007; Bone 2003; Hoffman 2003; Blumenthal et al. 2000; WHO 1999; Bradley 1992).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "PANAX GINSENG",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "hc-nhpid-ginseng-panax2#003",
+   "text": "Use(s) or Purpose(s): Used in Traditional Chinese Medicine (TCM) to reinforce qi, benefit the spleen and lung, relieve symptoms of thirst due to impairment of body fluids and internal heat (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Used in Herbal Medicine to help support cognitive function and/or reduce mental fatigue and as an adaptogen to help increase energy and resistance to stress over time).\nFor multi-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized system of medicine from which the claim originates when 1) both the traditional and modern claims are present or 2) when claims original from multiple systems of traditional medicine (e.g., Panax Ginseng is used in Traditional Chinese Medicine to reinforce qi, benefit the spleen and lung, relieve symptoms of thirst due to impairment of body fluids and internal heat ).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "PANAX GINSENG",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "hc-nhpid-ginseng-panax2#004",
+   "text": "Quantity(ies): Glucose levels; Cognitive function/cognition; Mental stress; Physical stress; Adaptogen\nMethods of preparation: Standardized extracts (Dry extract)\n200 - 600 milligrams of extract, per day; standardized to 4 - 7% total ginsenosides; Not to exceed 9 grams of dried root/rootlet, per day (Vuksan et al. 2008; Reay et al. 2006; Sievenpiper et al. 2006; Reay et al. 2005; Sünram-Lea et al. 2005; Kennedy et al. 2004; ESCOP 2003; Kennedy et al. 2002; Scholey and Kennedy 2002; Engels et al. 2001; Kennedy et al. 2001; Scaglione et al. 2001; Blumenthal et al. 2000; Tetsutani et al. 2000; Engels et al. 1996; Scaglione et al. 1996; Gross et al. 1995; Scaglione et al. 1994; Scaglione et al. 1990; Petkov and Mosharrof 1987; D’Angelo et al. 1986; Soldati and Sticher 1980).\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PANAX GINSENG",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 142
+  },
+  {
+   "chunk_id": "hc-nhpid-ginseng-panax2#005",
+   "text": "Quantity(ies): 0.5 - 9 grams dried root/rootlets, per day (Vuksan et al. 2008; Reay et al. 2006; Sievenpiper et al. 2006; Reay et al. 2005; Sunram-Lea et al. 2005; Kennedy et al. 2004; ESCOP 2003; Kennedy et al. 2002; Scholey and Kennedy 2002; Engels et al. 2001; Kennedy et al. 2001; Scaglione et al. 2001; Blumenthal et al. 2000; Engels et al. 1996; Scaglione et al. 1996; Gross et al. 1995; Scaglione et al. 1994; Scaglione et al. 1990; Petkov and Mosharrof 1987; D'Angelo et al. 1986; Soldati and Sticher 1980).\nTraditional Chinese Medicine\nMethods of preparation: Decoction, Decoction concentrate\n3 - 10 grams dried root, per day (PPRC 2020; Bensky et al. 2004, Chen and Chen 2004).\nMethods of preparation: Powdered (unextracted)\n0.5 - 4 grams dried root, per day (PPRC 2020, Bensky et al. 2004, Chen and Chen 2004).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "PANAX GINSENG",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 141
+  },
+  {
+   "chunk_id": "hc-nhpid-ginseng-panax2#006",
+   "text": "Duration(s) of use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 12 weeks (Mills and Bone 2005; Blumenthal et al. 2000; Bradley 1992).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PANAX GINSENG",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  },
+  {
+   "chunk_id": "hc-nhpid-ginseng-panax2#007",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes (Brinker 2010; Vuksan et al. 2008; Seely et al. 2008; Sievenpiper et al. 2006; ESCOP 2003; Tetsutani et al. 2000; Sotaniemi et al. 1995; Chin 1991).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking antidepressant medication, blood thinners or digoxin (Brinker 2010; Lee et al. 2008a; Dasgupta and Reyes 2005; Janetzki and Morreale 1997; Gonzalez-Seijo et al. 1995; Shader and Greenblatt 1988; Jones and Runikis 1987; Shader and Greenblatt 1985).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes"
+   ],
+   "entities": [
+    "PANAX GINSENG",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 112
+  },
+  {
+   "chunk_id": "hc-nhpid-ginseng-panax2#008",
+   "text": "Contraindication(s): Traditional Chinese Medicine\nDo not use in cases of yin deficiency with heat signs, heat excess, or in the absence of significant qi deficiency (Bensky et al. 2004).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "PANAX GINSENG",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "hc-nhpid-ginseng-panax2#009",
+   "text": "Known adverse reaction(s): Stop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience insomnia, anxiety or headaches (Lee et al. 2008b; Vuksan et al 2008; de Andrade et al.2007; Sievenpiper et al. 2006; Coon and Ernst 2002; Ellis and Reddy 2002; Scaglione et al. 2001; Siegel 1979).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "PANAX GINSENG",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 52
+  }
+ ]
+}

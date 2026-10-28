@@ -1,0 +1,126 @@
+{
+ "doc_id": "hc-nhpid-lemon-balm",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "LEMON BALM - MELISSA OFFICINALIS",
+ "title_extra": null,
+ "date": "2024-04-26",
+ "revised": "2024-04-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-04-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=lemon.balm&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "lemon.balm"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:15d28d9c342a33284bbe4677aa4f48da5c176132fdd764e03ec0f318ce85b93d",
+ "entities": [
+  "LEMON BALM - MELISSA OFFICINALIS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-lemon-balm#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "LEMON BALM - MELISSA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-lemon-balm#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (which helps to promote sleep) (nervine/calmative) (EMA 2014; ESCOP 2009; Bradley 2006; Barnes et al. 2002; Blumenthal et al. 2000).\n(Traditionally) used in Herbal Medicine to help relieve symptoms of mild digestive disturbances/dyspepsia/indigestion (such as upset stomach, bloating and flatulence) (EMA 2014).\nNotes\nThe above claims can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g. Traditionally used in Herbal Medicine to help relieve restlessness or nervousness and to help relieve digestive disturbances).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine,\" any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Lemon balm is traditionally used in Herbal Medicine to help relieve digestive disturbances).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "LEMON BALM - MELISSA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 203
+  },
+  {
+   "chunk_id": "hc-nhpid-lemon-balm#003",
+   "text": "Subpopulation(s): Adolescents 12 to 17 years and Adults 18 years and older (EMA 2014)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "LEMON BALM - MELISSA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  },
+  {
+   "chunk_id": "hc-nhpid-lemon-balm#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powder, Non-Standardized Extracts (Dry extract * , Tincture, Fluid extract, Decoction, Infusion)\n0.4 - 13.5 grams of dried herb top, per day (EMA 2014)\n*Note: Solvents allowed for the method of preparation “Dry extract” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "LEMON BALM - MELISSA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 49
+  },
+  {
+   "chunk_id": "hc-nhpid-lemon-balm#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (EMA 2014).\nWhen using this product exercise caution if you drive or use machinery as you may experience drowsiness (EMA 2014).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "sedation"
+   ],
+   "entities": [
+    "LEMON BALM - MELISSA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 55
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "doc_id": "hc-nhpid-lithotherapy2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Lithotherapy (Products may contain)",
+ "title_extra": null,
+ "date": "2025-01-10",
+ "revised": "2025-01-10",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-01-10",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=lithotherapy2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "lithotherapy2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:d1266e76ea0eafe6904ee9358edc309843537a2237b8c4db97b8cca15b304643",
+ "entities": [
+  "Lithotherapy",
+  "Products may contain"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-lithotherapy2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nThe acceptable dosage forms must be one listed in Table 2 below.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Lithotherapy",
+    "Products may contain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "hc-nhpid-lithotherapy2#002",
+   "text": "Quantity(ies): The dilution for each medicinal ingredient must be equal to or greater than D8 (or equivalent).\nTable 2. Dosage information\nDosage forms\nMaximum General Dosing\nMaximum Acute Dosing\nAmount\nFrequency\n(Optional)\nGlobules (small pellets, pilules)\n1 whole unit dose (tube of container)\n1 time per day\n1 unit dose, 3 times per day\nGlobules (regular and large pellets)\n5 granules\n3 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement of symptoms. Then resume general dosing.\nTablets\n4 tablets\n4 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement of symptoms. Then resume general dosing.\nOral drops\n30 drops\n3 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement of symptoms. Then resume general dosing.\nOral spray\n10-15 sprays\n3 times per day\nEvery 15-60 minutes (up to 12 times per day) or until improvement of symptoms. Then resume general dosing.\nLiquids (Oral drinkable vials)\n1 ampoule\n3 times per day\nUp to 3 times per day\nOral solutions (Unit dose)\nUnit oral dose\n3 times per day\nGive one unit dose upon onset of symptoms. Repeat two more times at 15-minute intervals. Repeat process up to 9 times per day if symptoms reappear.\nSuppositories\n1 suppository\n4 times per day",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Lithotherapy",
+    "Products may contain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-lithotherapy2#003",
+   "text": "Direction(s) for use: Use/Take as directed by a health care practitioner/health care provider/health care professional/doctor/physician.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Lithotherapy",
+    "Products may contain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 15
+  },
+  {
+   "chunk_id": "hc-nhpid-lithotherapy2#004",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nProducts administered rectally\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if insertion of the suppository into the rectum causes pain or bleeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "anticoagulant"
+   ],
+   "entities": [
+    "Lithotherapy",
+    "Products may contain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "doc_id": "hc-nhpid-lecithin2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "LECITHIN",
+ "title_extra": null,
+ "date": "2025-03-28",
+ "revised": "2025-03-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-03-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=lecithin2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "lecithin2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:e61dd9aa1ea41f165554d5286f887f9c440c3d8be72357cf739b85763ec58ee1",
+ "entities": [
+  "LECITHIN",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-lecithin2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "LECITHIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-lecithin2#002",
+   "text": "Use(s) or Purpose(s): Helps support liver functions (IOM 2006; Shils et al. 2006; IOM 1998).\nNote: The terms 'Helps' or 'Helps to' can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "LECITHIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "hc-nhpid-lecithin2#003",
+   "text": "Dose(s): Subpopulation(s)\nAdults 18 years and older\nQuantity(ies)\n1 - 6 grams of Lecithin, per day (IOM 2006; HC 2005; Blumenthal et al. 2000; IOM 1998; Canty and Zeisel 1994; WHO 1974).\nDirection(s) for use\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "LECITHIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "hc-nhpid-lecithin2#004",
+   "text": "Risk Information: Caution(s) and warning(s)\nNo statement required.\nContraindication(s)\nNo statement required.\nKnown adverse reaction(s)\nNo statement required.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "LECITHIN",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

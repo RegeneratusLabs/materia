@@ -1,0 +1,119 @@
+{
+ "doc_id": "hc-nhpid-soyflour-farinesoja",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "SOY FLOUR",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-06-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=soyflour.farinesoja&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "soyflour.farinesoja"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:ea892a52a3bef46c9d5ddb02da83a0d169afdb5db81d8ced9c0e7d5541b9d4de",
+ "entities": [
+  "SOY FLOUR",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-soyflour-farinesoja#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "SOY FLOUR",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-soyflour-farinesoja#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Wang et al. 2013; Liu et al. 2005).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Wang et al. 2013; Liu et al. 2005).\nSource of protein (for the maintenance of good health) (CFIA 2025).\nSource of protein which helps build and repair body tissues (CFIA 2025).\nSource of (an) (non-essential) amino acid(s) involved in muscle protein synthesis (Trumbo et al. 2002).\nSource of (an) (essential) amino acid(s) involved in muscle protein synthesis (Trumbo et al. 2002).\nSource of (an) essential amino acid(s) for the maintenance of good health (Trumbo et al. 2002).\nNote: The above uses can be combined on the product label (e.g., Source of an essential amino acid involved in muscle protein synthesis and for the maintenance of good health).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "SOY FLOUR",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 144
+  },
+  {
+   "chunk_id": "hc-nhpid-soyflour-farinesoja#003",
+   "text": "Quantity(ies): Antioxidants\nMethods of preparation: Powdered; Defatted, ground\nNot to exceed 8 grams of soy flour and/or defatted soy flour, per day (Tomar and Shiao 2008; Travis et al. 2008).\nSource of Protein\nMethod of preparation: Defatted, ground\n5.5 - 8 grams of defatted soy flour, per day (CNF 2024; Travis et al. 2008; Trumbo et al. 2002).\nMethod of preparation: Powdered\n7.5 - 8 grams of soy flour, per day (CNF 2015; Travis et al. 2008; IOM 2005).\nNote: If soy flour and defatted soy flour are combined, 7.5 grams should be used as the minimum total daily dose and 8 grams as the maximum total daily dose.\nSource of (essential) amino acid(s) involved in muscle protein synthesis/for the maintenance of good health\nMethod of preparation: Defatted, ground\n5.5 - 8 grams of defatted soy flour, per day (CNF 2024; Travis et al. 2008; Trumbo et al. 2002).\nMethod of preparation: Powdered\n7.5 - 8 grams of soy flour, per day (CNF 2024; Travis et al. 2008; Trumbo et al. 2002).\nNote: If soy flour and defatted soy flour are combined, 7.5 grams should be used as the minimum total daily dose and 8 grams as the maximum total daily dose.\nOR\nMethod of preparation: Powdered standardized\nEssential amino acids\nMinimum dose of amino acid (milligrams/day) 1",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SOY FLOUR",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-soyflour-farinesoja#004",
+   "text": "Quantity(ies): Maximum dose of Soy flour and/or Defatted soy flour (grams/day) 2\nHistidine\n49 mg\n8 g\nIsoleucine\n66.5 mg\nLeucine\n147 mg\nLysine\n133 mg\nMethionine\n66.5 mg\nPhenylalanine\n115.5 mg\nThreonine\n70 mg\nTryptophan\n17.5 mg\nValine\n84 mg\n1 1Minimum doses have been calculated as 5% of each specific amino acid Recommended Dietary Allowance with a reference weight of 70 kg (Trumbo et al. 2002).\n2 Maximum dose (CNF 2024; Tomar and Shiao 2008; Travis et al. 2008; Trumbo et al. 2002).\nSource of (non-essential) amino acids involved in muscle protein synthesis\nMethod of preparation: Defatted, ground\n5.5 - 8 grams of defatted soy flour, per day (CNF 2024; Travis et al. 2008; Trumbo et al. 2002).\nMethod of preparation: Powdered\n7.5 - 8 grams of soy flour, per day (CNF 2024; Travis et al. 2008; Trumbo et al. 2002).\nNote: If soy flour and defatted soy flour are combined, 7.5 grams should be used as the minimum total daily dose and 8 grams as the maximum total daily dose.\nOR\nMethod of preparation: Powdered standardized\nNon-Essential amino acids\nMinimum dose of amino acid (milligrams/day) 1\nMaximum dose of Soy flour and/or Defatted soy flour (grams/day) 2\nAlanine\n181.5 mg\n8 g\nArginine\n208.5 mg\nAspartic acid\n325 mg\nGlutamic acid\n750 mg\nGlycine\n160 mg\nProline",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SOY FLOUR",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-soyflour-farinesoja#005",
+   "text": "Quantity(ies): 259.5 mg\nSerine\n175.5 mg\nTyrosine\n139 mg\n1 Minimum doses have been calculated as 5% of each specific amino acid Mean Intake with a reference weight of 70 kg (Trumbo et al. 2002).\n2 Maximum dose (CNF 2024; Tomar and Shiao 2008; Travis et al. 2008; Trumbo et al. 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "SOY FLOUR",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 52
+  }
+ ]
+}

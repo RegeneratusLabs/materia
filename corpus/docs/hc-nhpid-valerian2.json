@@ -1,0 +1,126 @@
+{
+ "doc_id": "hc-nhpid-valerian2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Valerian - VALERIANA OFFICINALIS",
+ "title_extra": null,
+ "date": "2024-07-26",
+ "revised": "2024-07-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-07-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=valerian2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "valerian2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:2620efd58394364de239f37be5d1d607ce91a59fdec9c0ada43330e11f31bffe",
+ "entities": [
+  "Valerian - VALERIANA OFFICINALIS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-valerian2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Valerian - VALERIANA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-valerian2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (calmative) (EMA 2016; Mills and Bone 2005; Bradley 1992; Ellingwood 1983; Felter 1983).\n(Traditionally used in Herbal Medicine as a) sleep aid/(to) help(s) (to) promote sleep (Mills and Bone 2005; Ziegler et al. 2002; Blumenthal et al. 2000; Dominguez et al. 2000; Donath et al. 2000; Bradley 1992; Balderer and Borbély 1985; Leathwood and Chauffard 1985; Ellingwood 1983; Felter and Lloyd 1983; Leathwood et al. 1982).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g. Traditionally used in Herbal Medicine to help relieve restlessness and nervousness and to help promote sleep).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine,\" any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Valerian is traditionally used in Herbal Medicine as a sleep aid).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Valerian - VALERIANA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 187
+  },
+  {
+   "chunk_id": "hc-nhpid-valerian2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Valerian - VALERIANA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-valerian2#004",
+   "text": "Dose(s): Subpopulation(s)\nAdults 18 years and older\nQuantity(ies)\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Infusion)\n0.3-12 grams of dried root or root and rhizome, per day; Not to exceed 3.6 grams per single dose (EMA 2016; Mills and Bone 2005; Ziegler et al. 2002; Blumenthal et al. 2000; Donath et al. 2000; Bradley 1992; Balderer and Borbély 1985; Leathwood and Chauffard 1985; BHP 1983; Leathwood et al. 1982).\n*Note: Solvents allowed for the method of preparation “Non-standardized extracts (Dry extract)” as part of this monograph are ethanol and/or water only.\nMethods of preparation: Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.3-12 grams of dried root or root and rhizome, per day; Not to exceed 3.6 grams per single dose\nAnd:\n0.05-0.90% valerenic acid (USP 2023; Brinker 2010USP)\nOR\n0.10-0.90% sesquiterpenic acids (Brinker 2010; Ph. Eur. 2008)\nNote\nFor extracts standardized to valerenic acid or sesquiterpenic acids, the quantity dried equivalent and the extract ratio must be provided.\nDirection(s) for use\nSleep Aid\nTake 30 to 60 minutes before bedtime, as needed (Ziegler et al. 2002; Dominguez et al. 2000; Donath et al. 2000; Balderer and Borbély 1985; Leathwood and Chauffard 1985; Leathwood et al. 1982).\nRestlessness/nervousness\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Valerian - VALERIANA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 208
+  },
+  {
+   "chunk_id": "hc-nhpid-valerian2#005",
+   "text": "Risk Information: Caution(s) and warning(s)\nAll uses\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Mills et al. 2006; Blumenthal et al. 2003; Barnes et al. 2002).\nWhen using this product avoid taking with alcohol or products that cause drowsiness (Brinker 2010; Gennaro et al. 2000).\nWhen using this product exercise caution if you drive or use machinery as you may experience drowsiness (EMA 2016; ESCOP 2003; Bradley 1992).\nSleep aid\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if sleeplessness persists continuously for more than 4 weeks (chronic insomnia) (EMA 2016; Berardi et al. 2002; Dipiro et al. 2002).\nRestlessness/nervousness\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nContraindication(s)\nNo statement required.\nKnown adverse reaction(s)\nNo statement required.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "sedation"
+   ],
+   "entities": [
+    "Valerian - VALERIANA OFFICINALIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 135
+  }
+ ]
+}

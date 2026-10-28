@@ -1,0 +1,138 @@
+{
+ "doc_id": "hc-nhpid-gelee-royal-jelly",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ROYAL JELLY",
+ "title_extra": null,
+ "date": "2026-04-24",
+ "revised": "2026-04-24",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-04-24",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=gelee.royal.jelly&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "gelee.royal.jelly"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:6e2c3a4fe581bed5aa64538887adbfdf71bb4911ec59c6c8b61230be0545c72e",
+ "entities": [
+  "ROYAL JELLY",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-gelee-royal-jelly#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ROYAL JELLY",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-gelee-royal-jelly#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Karadeniz et al. 2011; Silici et al. 2011; Guo et al. 2008; Viuda-Martos et al. 2008; El-Nekeety et al. 2007).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Karadeniz et al. 2011; Silici et al. 2011; Guo et al. 2008; Viuda-Martos et al. 2008; El-Nekeety et al. 2007).\nUsed in Herbal Medicine as a nutritive tonic (Pizzorno and Murray 2013; Peirce 1999; Bartram 1998).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "ROYAL JELLY",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 85
+  },
+  {
+   "chunk_id": "hc-nhpid-gelee-royal-jelly#003",
+   "text": "Quantity(ies): Antioxidant\nMethods of preparation: Fresh, Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 6 grams fresh royal jelly, per day (Karadeniz et al. 2011; Silici et al. 2011; Guo et al. 2007; Viuda-Martos et al. 2008; El-Nekeety et al. 2007).\nNutritive tonic\nMethods of preparation: Fresh, Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n0.8 - 6 grams fresh royal jelly, per day (Barnutiu et al. 2011; Guo et al. 2007; Stocker et al. 2005).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ROYAL JELLY",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "hc-nhpid-gelee-royal-jelly#004",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "ROYAL JELLY",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-gelee-royal-jelly#005",
+   "text": "Contraindication(s): Do not use if you have a history of asthma or allergies (TGA 2001; Leung et al. 1997; Harwood et al. 1996; Laporte et al. 1996; Thien et al. 1996; Leung et al. 1995; Peacock et al. 1995; Bullock 1994).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ROYAL JELLY",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 41
+  },
+  {
+   "chunk_id": "hc-nhpid-gelee-royal-jelly#006",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (Leung et al. 1997; Laporte et al. 1996; Thien et al. 1996; Leung et al. 1995; Peacock et al. 1995).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ROYAL JELLY",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  }
+ ]
+}

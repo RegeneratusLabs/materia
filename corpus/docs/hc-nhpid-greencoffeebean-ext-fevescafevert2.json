@@ -1,0 +1,127 @@
+{
+ "doc_id": "hc-nhpid-greencoffeebean-ext-fevescafevert2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "GREEN COFFEE BEAN EXTRACT",
+ "title_extra": null,
+ "date": "2025-10-31",
+ "revised": "2025-10-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-10-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=greencoffeebean.ext.fevescafevert2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "greencoffeebean.ext.fevescafevert2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:c1130fac32784638661ebd61c5963fab3f164d149498a25226aaba84630233fb",
+ "entities": [
+  "GREEN COFFEE BEAN EXTRACT",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-greencoffeebean-ext-fevescafevert2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GREEN COFFEE BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-greencoffeebean-ext-fevescafevert2#002",
+   "text": "Use(s) or Purpose(s): Could (be a) complement (to) a healthy lifestyle that incorporates a calorie-reduced diet and regular physical activity for individuals involved in a weight management program (Thom 2007; Dellalibera et al. 2006).\nHelps maintain healthy blood pressure levels (Mubarak et al. 2012; Watanabe et al. 2006; Kozuma et al. 2005).\nHelps support cardiovascular health (Mubarak et al. 2012; Watanabe et al. 2006; Kozuma et al. 2005).\nSource of antioxidants/Provides antioxidants (Farah et al. 2008; Castellucio et al. 1995).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Farah et al. 2008; Castellucio et al. 1995).\nNote: The above uses can be combined on the product label (e.g., Helps maintain healthy blood pressure levels and support cardiovascular health).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "GREEN COFFEE BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 132
+  },
+  {
+   "chunk_id": "hc-nhpid-greencoffeebean-ext-fevescafevert2#003",
+   "text": "Quantity(ies): Antioxidant\nMethods of preparation: Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 1000 milligrams of extract per day, standardized to 45-50% chlorogenic acids and up to 4% of caffeine (Thom 2007).\nWeight Management\nMethods of preparation: Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n400 –; 1000 milligrams of extract per day, standardized to 45-50% chlorogenic acids and up to 4% caffeine (Thom 2007; Dellalibera et al. 2006).\nBlood pressure; Cardiovascular health\nMethods of preparation: Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n115 – 1000 milligrams of extract per day, standardized to 45-50% chlorogenic acids and up to 4% caffeine (Thom 2007; Watanabe et al. 2006; Kozuma et al. 2005).\nNote\nBlood pressure; Cardiovascular health\nGreen coffee bean extract (maximum 4% caffeine) cannot be combined with caffeine or other medicinal or non-medicinal ingredients containing caffeine.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "GREEN COFFEE BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 155
+  },
+  {
+   "chunk_id": "hc-nhpid-greencoffeebean-ext-fevescafevert2#004",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "GREEN COFFEE BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "hc-nhpid-greencoffeebean-ext-fevescafevert2#005",
+   "text": "Contraindication(s): Do not use if you are pregnant.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "GREEN COFFEE BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 8
+  }
+ ]
+}

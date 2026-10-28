@@ -1,0 +1,133 @@
+{
+ "doc_id": "hc-nhpid-whey-prod-lactoserum2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Whey Products (Whey protein isolate)",
+ "title_extra": null,
+ "date": "2024-11-29",
+ "revised": "2024-11-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-11-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=whey.prod.lactoserum2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "whey.prod.lactoserum2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:f055ffc6864aa589dccd3d5e63212c879cb19419f392512dc3bf9b7a48857345",
+ "entities": [
+  "Whey Products",
+  "Whey protein isolate"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-whey-prod-lactoserum2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Whey Products",
+    "Whey protein isolate"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-whey-prod-lactoserum2#002",
+   "text": "Use(s) or Purpose(s): Products standardized to protein\nSource of (all) essential amino acids (i.e. histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine) for the maintenance of good health (CNF 2023; Potier and Tomé 2008).\nSource of branched chain amino acids for the maintenance of good health (CNF 2023; Potier and Tomé 2008).\nSource of (essential) amino acids involved in muscle protein synthesis (CNF 2023; IOM 2005).\n(Excellent) Source of protein for the maintenance of good health (CFIA 2022).\n(Excellent) Source of protein which helps build and repair body tissues (CFIA 2022).\n(Excellent) Source of protein which helps build antibodies (CFIA 2022).\nProducts standardized to protein and minerals\nSource of ((the) mineral(s)) calcium/magnesium/phosphorus/potassium/(and) zinc for the maintenance of good health (CNF 2023; IOM 2005).\nNote: The above uses can be combined on the product label (e.g., Source of protein which helps build and repair body tissues and build antibodies).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Whey Products",
+    "Whey protein isolate"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 149
+  },
+  {
+   "chunk_id": "hc-nhpid-whey-prod-lactoserum2#003",
+   "text": "Quantity(ies): The potency of protein on an \"as is\" weight basis is required to be indicated on the PLA form and label.\nSource of protein\n2.6-90 grams of protein per day (CFIA 2022)\nExcellent source of protein\n16-90 grams of protein per day (CFIA 2022)\nSource of amino acids/branched chain amino acids\n3-90 grams of protein per day (CFIA 2022)\nSource of minerals\nNot to exceed 90 grams of protein per day (CFIA 2022)\nand\nTable 2. Daily dose requirements for minerals in whey preparations\nMinerals 1\nMinimum dose (mg/day)\nMaximum dose (mg/day)\nCalcium\n65\n1,500\nMagnesium\n20\n500\nPhosphorus\n62\n2,000\nPotassium\n100\n779\nZinc\n0.7\n50\n1 Quantities for potassium are based on IOM 2005. Quantities for other minerals are based on the NNHPD Multi-vitamin/Mineral Supplements Monograph.\nNotes\nThe use \" Source of mineral(s) xxx \" is only acceptable if indicated minerals are present at dosages at or above the minimum daily doses and not more than the maximum daily doses as listed in Table 2 above.\nIn order to have a use for a particular mineral, the medicinal ingredient must list the respective mineral as potency on the PLA form and label.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Whey Products",
+    "Whey protein isolate"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 195
+  },
+  {
+   "chunk_id": "hc-nhpid-whey-prod-lactoserum2#004",
+   "text": "Direction(s) for use: Take a few hours before or after taking other medications or health products (Sweetman 2011; Jung et al. 1997).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Whey Products",
+    "Whey protein isolate"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "hc-nhpid-whey-prod-lactoserum2#005",
+   "text": "Caution(s) and warning(s): All products\nContains milk by-products (CFIA 2022; Wal 2002).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nProducts providing more than 30 g protein, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a liver or kidney disorder (Shils et al. 2006; Bell 2000).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "liver",
+    "renal"
+   ],
+   "entities": [
+    "Whey Products",
+    "Whey protein isolate"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "hc-nhpid-whey-prod-lactoserum2#006",
+   "text": "Contraindication(s): Products providing 100 mg or more potassium, per day\nDo not use if you are taking other potassium-containing salt-substitutes or supplements (Sweetman 2011).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Whey Products",
+    "Whey protein isolate"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "hc-nhpid-whey-prod-lactoserum2#007",
+   "text": "Known adverse reaction(s): Products providing more than 30 g protein, per day\nWhen using this product you may experience gastrointestinal discomfort/disturbance(s) (Micke et al. 2002).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Whey Products",
+    "Whey protein isolate"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  }
+ ]
+}

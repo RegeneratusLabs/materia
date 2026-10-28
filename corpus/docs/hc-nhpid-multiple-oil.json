@@ -1,0 +1,187 @@
+{
+ "doc_id": "hc-nhpid-multiple-oil",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Fixed Oil Products (Borago officinalis)",
+ "title_extra": null,
+ "date": "2025-09-26",
+ "revised": "2025-09-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-09-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=multiple.oil&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "multiple.oil"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:79bbbab12b4d8ed8dbe5553b36750a858b5f4718723b5ceabdd7d227f43f86e1",
+ "entities": [
+  "Fixed Oil Products",
+  "Borago officinalis"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications. Although delayed release dosage forms are usually not supported by NNHPD's monographs, this monograph includes ‘Capsule, soft, enteric-coated’ which is commonly used for products containing marine oils.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 70
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#002",
+   "text": "Quantity(ies): Refer to Tables 2 and 3.\nTable 2. Uses or purposes, associated daily dose and potency constituents (LA - Linoleic acid; ALA - Alpha-linolenic acid; EPA - Eicosapentaenoic acid; DHA - Docosahexaenoic acid; DPA - Docosapentaenoic acid; GLA-Gamma-linolenic acid; OA - Oleic acid)\nMedicinal ingredient\nMethods of preparation\nUses or Purposes\nDaily Dose 1\nPotency Constituents\nBorage oil\nNon-standardized fixed oil\nAs per Borage oil monograph\nAs per Borage oil monograph\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 5 g and LA, ALA, GLA and/or OA as per Table 3*\nLA, ALA, GLA, OA\nHemp seed oil\nNon-standardized fixed oil\nN/A\nOil: up to 15 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 15 g and LA, ALA, GLA and/or OA as per Table 3*\nLA, ALA, GLA, OA\nCanola oil\nNon-standardized fixed oil\nN/A\nOil: up to 15 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 15 g and LA, ALA and/or OA as per Table 3*.\nLA, ALA, OA\nFalse flax Oil\nNon-standardized fixed oil\nN/A\nOil: up to 15 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 15 g and LA, ALA and/or OA as per Table 3*.\nLA, ALA, OA\nSafflower oil\nNon-standardized fixed oil\nN/A",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 217
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#003",
+   "text": "Quantity(ies): Oil: up to 15 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 15 g and LA, ALA and/or OA as per Table 3*.\nLA, ALA, OA\nCoconut oil\nNon-standardized fixed oil\nSource of antioxidants/Provides antioxidants\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals\nOil: up to 15 g\nN/A\nStandardized fixed oil\nSource of antioxidants/Provides antioxidants\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals and/or\nAs per Table 3\nOil: up to 15 g and LA, ALA and/or OA as per Table 3*\nLA, ALA, OA\nCod liver oil\nStandardized fixed oil\nAs per Cod liver oil monograph\nAs per Cod liver oil monograph\nEPA, DHA, Vitamin A, Vitamin D\nAs per Table 3\nOil: up to 4 g and Minimum amounts of EPA and DHA as per Table 3* and Maximum amounts of EPA, DHA, Vitamin A and Vitamin D as per the Cod liver oil monograph\nPumpkin seed oil\nNon-standardized fixed oil\nN/A\nOil: up to 15 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 15 g and LA and/or OA as per Table 3*\nLA, OA\nFish oil\nStandardized fixed oil",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#004",
+   "text": "Quantity(ies): As per Fish oil monograph\nAs per Fish oil monograph\nEPA, DHA\nAs per Table 3\nOil: up to 10 g and EPA and DHA as per Table 3*\nSunflower oil\nNon-standardized fixed oil\nSource of antioxidants/Provides antioxidants\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals\nOil: up to 15 g\nN/A\nStandardized fixed oil\nSource of antioxidants/Provides antioxidants\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals and/or\nAs per Table 3\nOil: up to 15 g and LA and/or OA as per Table 3*\nLA, OA\nSea buckthorn seed oil\nNon-standardized fixed oil\nN/A\nOil: up to 5 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 5 g and LA, ALA and/or OA as per Table 3*.\nLA, ALA, OA\nSea buckthorn fruit oil\nNon-standardized fixed oil\nN/A\nOil: up to 5 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 5 g and LA, ALA and/or OA as per Table 3*.\nLA, ALA, OA\nKrill oil\nStandardized fixed oil\nAs per Krill oil monograph\nAs per Krill oil monograph\nEPA, DHA, DPA\nAs per Table 3",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#005",
+   "text": "Quantity(ies): Oil: up to 4.1 g and EPA and DHA as per Table 3*\nFlaxseed oil\nNon-Standardized fixed oil\nAs per Flaxseed oil monograph\nAs per Flaxseed oil monograph\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 32 g and LA, ALA and/or OA as per Table 3*\nLA, ALA, OA\nEvening primrose oil\nNon-standardized fixed oil\nAs per Evening primrose oil monograph\nAs per Evening primrose oil monograph\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 6 g and LA, ALA, GLA and/or OA as per Table 3*\nLA, ALA, GLA, OA\nOlive oil\nNon-standardized fixed oil\nSource of antioxidants/Provides antioxidants\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals\nOil: up to 15 g\nN/A\nStandardized fixed oil\nSource of antioxidants/Provides antioxidants\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals and/or\nAs per Table 3\nOil: up to 15 g and LA and/or OA as per Table 3*\nLA, OA\nAlmond oil\nNon-standardized fixed oil\nN/A\nOil: up to 15 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 15 g and LA, ALA and/or OA as per Table 3*\nLA, ALA, OA",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#006",
+   "text": "Quantity(ies): Blackcurrant seed oil\nNon-standardized fixed oil\nN/A\nOil: up to 10.5 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 10.5 g and LA, ALA, GLA and/or OA as per Table 3*\nLA, ALA, GLA, OA\nChia seed oil\nNon-standardized fixed oil\nN/A\nOil: up to 4.5 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 4.5 g and LA, ALA and/or OA as per Table 3*\nLA, ALA, OA\nSchizochytrium oil\nStandardized fixed oil\nHelps support cognitive/brain health/function\nDHA: 200-2,000 mg\nEPA, DHA\nAs per Table 3 (except the use for cognitive health and/or brain function)\nOil: up to 5 g and EPA and/or DHA as per Table 3*\nSeal oil\nStandardized fixed oil\nAs per Seal oil monograph\nAs per Seal oil monograph\nEPA, DHA, DPA\nAs per Table 3\nOil: up to 10 g and EPA and DHA (and DPA) as per Table 3*\nSquid oil\nNon-standardized fixed oil\nN/A\nOil: up to 5 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 5 g and EPA and DHA as per Table 3*\nEPA, DHA\nWheat germ oil\nNon-standardized fixed oil\nSource of antioxidants/Provides antioxidants\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#007",
+   "text": "Quantity(ies): Oil: up to 15 g\nN/A\nStandardized fixed oil\nSource of antioxidants/Provides antioxidants\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals and/or\nAs per Table 3\nOil: up to 15 g and LA, ALA and/or OA as per Table 3*\nLA, ALA, OA\nGrape seed oil\nNon-standardized fixed oil\nN/A\nOil: up to 15 g\nN/A\nStandardized fixed oil\nAs per Table 3\nOil: up to 15 g and LA, ALA and/or OA as per Table 3*\nLA, ALA, OA\nReferences: NNHPD 2023; Zielinska et al. 2017; Quinn et al. 2010; Yang et al. 1999; Leventhal et al. 1994.\n1 The amount of fixed oils can also be represented in volumetric amount (i.e., mL) based on the density information listed in Appendix 1.\n*The total amount of a specific fatty acid (e.g., LA) in the product should meet the minimum dose as per Table 3 to support a claim from this table. It is not required that each oil meets the minimum amount of specific fatty acids if the total amount of a fatty acid in the finished product meets it.\nTable 3. Uses or Purposes based on potency constituents - fatty acids\nPotency constituents: Fatty acids 1\nUses or Purposes\nMinimum Daily Doses 2\nLA",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#008",
+   "text": "Quantity(ies): Source of linoleic acid (LA) for the maintenance of good health\nSource of omega-6 fatty acid for the maintenance of good health\nSource of an essential fatty acid for the maintenance of good health\n850 mg\nALA\nSource of alpha-linolenic acid (ALA) for the maintenance of good health\nSource of omega-3 fatty acid for the maintenance of good health\nSource of an essential fatty acid for the maintenance of good health\n80 mg\nLA + ALA\nSource of essential fatty acids for the maintenance of good health\n850 mg LA And 80 mg ALA\nEPA + DHA (+ DPA 3 )\nSource of omega-3 fatty acids for the maintenance of good health\nSource of essential fatty acids for the maintenance of good health\nSource of eicosapentaenoic acid (EPA), (and) docosahexaenoic acid (DHA) (and docosapentaenoic acid (DPA) 3 ) for the maintenance of good health\nEPA + DPA: 100 mg\nHelps support/maintain cognitive health\nHelps support/maintain brain function\n150 mg EPA + DHA including at least 100 mg DHA 4\nHelps support/maintain (normal) heart/ cardiovascular health\nHelps support/maintain (normal) heart/ cardiovascular function\nEPA + DHA: 200 mg\nHelps support/maintain normal (blood) triglyceride/triacylglycerol levels\nHelps reduce (blood) triglyceride(s)/ triacylglycerol(s) (levels)\nEPA + DHA: 1000 mg\nEPA\nSource of eicosapentaenoic acid (EPA) for the maintenance of good health",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#009",
+   "text": "Quantity(ies): Source of omega-3 fatty acid for the maintenance of good health\nSource of an essential fatty acid for the maintenance of good health\n100 mg\nDHA\nSource of docosahexaenoic acid (DHA) for the maintenance of good health\nSource of omega-3 fatty acid for the maintenance of good health\nSource of an essential fatty acid for the maintenance of good health\n100 mg\nHelps support/maintain eye health/function\nHelps support/maintain visual health/function\n200 mg\nDPA\nSource of docosapentaenoic acid (DPA) for the maintenance of good health\nSource of omega-3 fatty acid for the maintenance of good health\nSource of an essential fatty acid for the maintenance of good health\n100 mg\nGLA\nSource of gamma-linoleic acid (GLA) for the maintenance of good health\nSource of omega-6 fatty acid for the maintenance of good health\nSource of an essential fatty acid for the maintenance of good health\n100 mg\nOA\nSource of oleic acid (OA)\n100 mg\n1 For products making claims from this table, the potencies must be indicated for the relevant fatty acid constituents.\n2 References: NNHPD 2023; EFSA 2010a; EFSA 2010b; EFSA 2009; Simopolous 2007; IOM 2006; IOM 2002; Simopolous 1999.\n3 Docosapentaenoic acid (DPA) can be included in the claim if the potency information for this constituent is also listed.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#010",
+   "text": "Quantity(ies): 4 For Schizochytrium oil, the specific quantity listed in Table 2 for the cognitive/brain health/function applies (i.e., DHA: 200 - 2000 mg per day).\nNotes:\nThe above uses can be combined on the product label (e.g. Helps reduce triglycerides and maintain cardiovascular health).\nThe terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.\nThe following potency information is considered as additional information and can be included on the label: XX% or mg total omega-3 (or omega-6) fatty acids.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "hc-nhpid-multiple-oil#011",
+   "text": "Known adverse reaction(s): Products containing Krill oil and/or Squid oil\nStop use if hypersensitivity/allergy occurs (HC 2017).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Fixed Oil Products",
+    "Borago officinalis"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  }
+ ]
+}

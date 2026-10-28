@@ -1,0 +1,195 @@
+{
+ "doc_id": "hc-nhpid-feverfew2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "FEVERFEW - TANACETUM PARTHENIUM",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=feverfew2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "feverfew2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:e88bffa593aeb591d28434bfb25ccc15fb1defcf832e9b15e1872be1ad11c5d0",
+ "entities": [
+  "FEVERFEW - TANACETUM PARTHENIUM",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-feverfew2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nDigestive aid; Headache relief\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.\nMigraine prevention; Reduction of severity, frequency and symptoms of migraines when taken as a prophylactic\nThe only acceptable dosage forms are: Capsules; Tablets.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "FEVERFEW - TANACETUM PARTHENIUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 70
+  },
+  {
+   "chunk_id": "hc-nhpid-feverfew2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine (as a stomachic) to aid digestion (Williamson 2003; Mills and Bone 2000; Felter and Lloyd 1983).\n(Traditionally) used in Herbal Medicine to help relieve headaches (Winston and Kuhn 2008; Boon and Smith 2004; Williamson 2003; Cook 1869).\n(Used in Herbal Medicine to) help(s) prevent migraine headaches (EMA 2020; Barnes et al. 2007; Hoffmann 2003; Bradley 1992).\n(Used in Herbal Medicine to) help(s) reduce the severity and/or frequency of migraine headaches and associated symptoms such as nausea and vomiting, when taken as a prophylactic (EMA 2020; Palevitch et al. 1997; Murphy et al. 1988; Johnson et al. 1985).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Used in Herbal Medicine to help prevent migraine headaches and to help reduce the severity and frequency of migraine headaches and associated symptoms such as nausea and vomiting, when taken as a prophylactic).\nFor multi-ingredient products:",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "FEVERFEW - TANACETUM PARTHENIUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 163
+  },
+  {
+   "chunk_id": "hc-nhpid-feverfew2#003",
+   "text": "Use(s) or Purpose(s): To prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Feverfew is traditionally used in Herbal Medicine to help relieve headaches).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "FEVERFEW - TANACETUM PARTHENIUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 106
+  },
+  {
+   "chunk_id": "hc-nhpid-feverfew2#004",
+   "text": "Quantity(ies): Digestive aid; Headache relief\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture)\n50 – 250 milligrams of dried herb top and/or leaf, per day (Brayfield and Cadart 2024; Barnes et al. 2007; Hoffmann 2003; Williamson 2003; Mills and Bone 2000; Awang 1993; Bradley 1992).\nMethod of preparation: Powdered standardized\n50 – 250 milligrams of dried herb top and/or leaf per day, standardized to 0.2 - 2 % parthenolide (dry weight); Not to exceed 200 milligrams of dried herb top and/or leaf, per single dose and 4 milligrams of parthenolide, per day (Awang 2010; Curry et al. 2004; Hoffmann 2003; Awang 1993).\nMigraine prevention; Reduction of severity, frequency and symptoms of migraines when taken as a prophylactic\nMethods of preparation: Powdered, Powdered standardized\n50 – 600 milligrams of dried herb top and/or leaf, per day; Not to exceed 200 milligrams of dried herb top and/or leaf, per single dose (EMA 2020; Palevitch et al. 1997; Murphy et al. 1988; Johnson et al. 1985).\nStandardized potency: 0.2 – 2 % parthenolide (dry weight); Not to exceed 4 milligrams of parthenolide, per day.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "FEVERFEW - TANACETUM PARTHENIUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 184
+  },
+  {
+   "chunk_id": "hc-nhpid-feverfew2#005",
+   "text": "Direction(s) for use: All products\nTake with or after food (Gardner and McGuffin 2013; Barnes et al. 2007; Johnson et al. 1985).\nReduce the dosage gradually if treatment is to be paused or discontinued (ESCOP 2003; Mills and Bone 2000).\nProducts to be taken in divided doses\nGradually increase the dose until desired effect is observed/obtained (EMA 2020).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "FEVERFEW - TANACETUM PARTHENIUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 58
+  },
+  {
+   "chunk_id": "hc-nhpid-feverfew2#006",
+   "text": "Duration(s) of Use: Products providing 250 mg or less of dried herb top and/or leaf, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 16 weeks (Awang 1993).\nProducts providing more than 250 mg of dried herb top and/or leaf, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 8 weeks (EMA 2020).\nMigraine prevention; Reduction of severity, frequency and symptoms of migraines when taken as a prophylactic\nUse for at least 4 to 6 weeks to see beneficial effects (Palevitch et al. 1997; Murphy et al. 1988).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "FEVERFEW - TANACETUM PARTHENIUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "hc-nhpid-feverfew2#007",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners (Brinker 2010; Biggs et al. 1982).\nProducts providing 250 mg or less of dried herb top and/or leaf, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/ physician before use if you are breastfeeding (Boon 2000).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "FEVERFEW - TANACETUM PARTHENIUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 74
+  },
+  {
+   "chunk_id": "hc-nhpid-feverfew2#008",
+   "text": "Contraindication(s): Products providing 250 mg or less of dried herb top and/or leaf, per day\nDo not use if you are pregnant (Gardner and McGuffin 2013; Brinker 2010).\nProducts providing more than 250 mg of dried herb top and/or leaf, per day\nDo not use if you are pregnant or breastfeeding (EMA 2020).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "FEVERFEW - TANACETUM PARTHENIUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 53
+  },
+  {
+   "chunk_id": "hc-nhpid-feverfew2#009",
+   "text": "Known adverse reaction(s): All products\nStop use if hypersensitivity/allergy occurs (EMA 2020; Paulsen et al. 2001; Hausen 1996).\nWhen using this product you may experience sore mouth, mouth ulcers and/or gastrointestinal discomfort/disturbances (EMA 2020; Gardner and McGuffin 2013; Murphy et al. 1988; Johnson et al. 1985).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "FEVERFEW - TANACETUM PARTHENIUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 46
+  }
+ ]
+}

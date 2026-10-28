@@ -1,0 +1,196 @@
+{
+ "doc_id": "hc-nhpid-cascara-sagrada2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CASCARA SAGRADA - FRANGULA PURSHIANA",
+ "title_extra": null,
+ "date": "2025-05-30",
+ "revised": "2025-05-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-05-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=cascara.sagrada2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "cascara.sagrada2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:5116f7083971542ba61f1ea0bfd1f09a88425a7bf7e62886239172c40ece4541",
+ "entities": [
+  "CASCARA SAGRADA - FRANGULA PURSHIANA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-cascara-sagrada2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CASCARA SAGRADA - FRANGULA PURSHIANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-cascara-sagrada2#002",
+   "text": "Use(s) or Purpose(s): [(Traditionally) used in Herbal Medicine as a] stimulant laxative (Williamson 2003; Blumenthal et al. 2000; Moerman 1998; Felter and Lloyd 1983).\n(Used in Herbal Medicine for the) short-term relief of occasional constipation (EMA 2020; Mills and Bone 2005; WHO 2002).\n(Used in Herbal Medicine to) promote(s) bowel movement (by direct action on the large intestine) (EMA 2020; Sweetman 2007; Blumenthal et al. 2000).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g. Used in Herbal Medicine as a stimulant laxative for short-term relief of occasional constipation).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Cascara is traditionally used in Herbal Medicine as a stimulant laxative).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "CASCARA SAGRADA - FRANGULA PURSHIANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 208
+  },
+  {
+   "chunk_id": "hc-nhpid-cascara-sagrada2#003",
+   "text": "Subpopulation(s): Adolescents 12 to 17 years and Adults 18 years and older (EMA 2020; Mills and Bone 2005; ESCOP 2003; Berardi et al. 2002)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "CASCARA SAGRADA - FRANGULA PURSHIANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "hc-nhpid-cascara-sagrada2#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n0.25 - 3 grams of dried aged bark, per day; and providing at least 0.25 g of dried aged bark per single dose (Mills and Bone 2005, ESCOP 2003; Williamson 2003; WHO 2002; Blumenthal et al. 2000; Bradley 1992).\nMethods of preparation: Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n10 - 30 milligrams of hydroxyanthracene derivatives (calculated as cascaroside A), per day; and providing at least 10 mg of hydroxyanthracene derivatives (calculated as cascaroside A) per single dose (EMA 2020; Mills and Bone 2005; ESCOP 2003; Blumenthal et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CASCARA SAGRADA - FRANGULA PURSHIANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "hc-nhpid-cascara-sagrada2#005",
+   "text": "Direction(s) for use: Start with 1 dose, 2 to 3 times per week and increase up to once daily if results are not observed (EMA 2020; Bradley 1992).\nTake a few hours before or after taking other medications or health products (Brinker 2010; Repchinsky 2008).\nAllow at least 6 to 12 hours for laxative effect to occur (Berardi et al. 2002).\nStimulant laxatives should only be used if occasional constipation cannot be improved by a change of diet or the administration of bulk forming laxatives (EMA 2020).\nOptional (for products which provide a dosage range)\nThe optimal dosage is the smallest dose required to produce a soft-formed stool (EMA 2020).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CASCARA SAGRADA - FRANGULA PURSHIANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "hc-nhpid-cascara-sagrada2#006",
+   "text": "Duration(s) of Use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 7 days (Berardi et al. 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CASCARA SAGRADA - FRANGULA PURSHIANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  },
+  {
+   "chunk_id": "hc-nhpid-cascara-sagrada2#007",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a kidney disorder or a lazy bowel (EMA 2020; Brinker 2010; WHO 2002).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking heart medications, corticosteroids, diuretics, or other health products that may contribute to electrolyte imbalance (EMA 2020; Brinker 2010; WHO 2002; Blumenthal et al. 2000).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "CASCARA SAGRADA - FRANGULA PURSHIANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 83
+  },
+  {
+   "chunk_id": "hc-nhpid-cascara-sagrada2#008",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (EMA 2020; Brinker 2010; Blumenthal et al. 2000).\nDo not use if you have inflammatory bowel disease, fever or any undiagnosed gastrointestinal trouble (EMA 2020; Brinker 2010; WHO 2002).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CASCARA SAGRADA - FRANGULA PURSHIANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "hc-nhpid-cascara-sagrada2#009",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy or diarrhea occurs (EMA 2020; Brinker 2010).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CASCARA SAGRADA - FRANGULA PURSHIANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

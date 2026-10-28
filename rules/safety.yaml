@@ -1,0 +1,88 @@
+# Context rules for the safety screen.
+# The *specific* contraindication text is never hardcoded here: it is retrieved from the
+# corpus by topic, so the rule cites the monograph that says it. This file only says which
+# context maps to which corpus topic and how hard the screen bites.
+contexts:
+  pregnancy:
+    topic: pregnancy
+    severity: veto
+    label: "Pregnant"
+  breastfeeding:
+    topic: pregnancy
+    severity: veto
+    label: "Breastfeeding"
+  warfarin:
+    topic: anticoagulant
+    severity: veto
+    label: "Taking warfarin"
+  doac:
+    topic: anticoagulant
+    severity: veto
+    label: "Taking a direct oral anticoagulant"
+  antiplatelet:
+    topic: anticoagulant
+    severity: flag
+    label: "Taking an antiplatelet"
+  immunosuppression:
+    topic: immunosuppression
+    severity: veto
+    label: "Immunosuppressed"
+  transplant:
+    topic: immunosuppression
+    severity: veto
+    label: "Transplant recipient"
+  thyroid_hormone:
+    topic: thyroid
+    severity: flag
+    label: "Taking thyroid hormone"
+  antiepileptic:
+    topic: sedation
+    severity: flag
+    label: "Taking an antiepileptic"
+  diabetes:
+    topic: diabetes
+    severity: flag
+    label: "Diabetes"
+  liver_disease:
+    topic: liver
+    severity: veto
+    label: "Liver disease"
+  kidney_disease:
+    topic: renal
+    severity: flag
+    label: "Kidney disease"
+  surgery:
+    topic: surgery
+    severity: veto
+    label: "Surgery scheduled"
+  cancer_therapy:
+    topic: cancer
+    severity: flag
+    label: "Undergoing cancer therapy"
+  child:
+    topic: children
+    severity: veto
+    label: "Child under 12"
+  sedation:
+    topic: sedation
+    severity: flag
+    label: "Sedating medication or driving"
+
+# Contexts the corpus does not topic-tag reliably; these are explicit code-level rules.
+overlay:
+  - id: so-child-under-12
+    context: child
+    applies_to: ["*"]
+    severity: veto
+    reason: "Most herbal monographs are not established for children under 12; dosing must come from a prescriber."
+    citation:
+      source: "Health Canada NNHPD monographs"
+      url: "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/monosReq?monotype=single"
+  - id: so-ssri
+    context: ssri
+    applies_to: ["st john's wort", "hypericum"]
+    severity: veto
+    reason: "Serotonergic combination risk."
+    citation:
+      source: "Health Canada — St John's Wort monograph"
+      url: "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=stjohnswort.millepertuis.oral2&lang=eng"

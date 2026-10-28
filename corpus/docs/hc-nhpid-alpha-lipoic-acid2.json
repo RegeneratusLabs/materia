@@ -1,0 +1,105 @@
+{
+ "doc_id": "hc-nhpid-alpha-lipoic-acid2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "DL-ALPHA-LIPOIC ACID/R-ALPHA-LIPOIC ACID",
+ "title_extra": null,
+ "date": "2025-06-27",
+ "revised": "2025-06-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-06-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=alpha.lipoic.acid2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "alpha.lipoic.acid2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:c4c4b164fa0cb71130e8815e682f05ec6fa88936cf6741d2a967316d7c2173e5",
+ "entities": [
+  "DL-ALPHA-LIPOIC ACID/R-ALPHA-LIPOIC ACID",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-alpha-lipoic-acid2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "DL-ALPHA-LIPOIC ACID/R-ALPHA-LIPOIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-alpha-lipoic-acid2#002",
+   "text": "Use(s) or Purpose(s): Source of (an) antioxidant(s)/Provides (an) antioxidant(s) (Borcea et al. 1999, Marangon et al.1999).\nSource of (an) antioxidant(s)/Provides (an) antioxidant(s) that help(s) fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Borcea et al. 1999, Marangon et al.1999).\nHelps to promote healthy glucose metabolism (Morcos et al. 2001, Jacob et al. 1999, Konrad et al. 1999).\nNote: If DL-alpha-Lipoic or R-alpha-Lipoic acid is combined with other medicinal ingredients with antioxidant properties at Class II and III, there is an option to use the claim in plural. The singular should be used when the product only contains one chemical substance as the medicinal ingredient associated with this claim.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "DL-ALPHA-LIPOIC ACID/R-ALPHA-LIPOIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "hc-nhpid-alpha-lipoic-acid2#003",
+   "text": "Quantity(ies): DL-alpha-Lipoic acid\nAntioxidant\nNot to exceed 600 milligrams of DL-alpha-Lipoic acid, per day (Morcos et al. 2001, Borcea et al. 1999, Marangon et al.1999).\nGlucose metabolism\n600 milligrams of DL-alpha-Lipoic acid, per day (Jacob et al. 1999, Konrad et al. 1999).\nR-alpha-Lipoic acid\nAntioxidant\nNot to exceed 300 milligrams of R-alpha-Lipoic acid * , per day.\nGlucose metabolism\n300 milligrams of R-alpha-Lipoic-acid * , per day.\n*Note: The quantity of R-alpha-lipoic acid is calculated from the quantity of DL-alpha-lipoic acid (i.e. 50%).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "DL-ALPHA-LIPOIC ACID/R-ALPHA-LIPOIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 83
+  },
+  {
+   "chunk_id": "hc-nhpid-alpha-lipoic-acid2#004",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes (Jacob et al. 1999, Konrad et al. 1999, Packer et al. 1995).\nProducts providing 42 milligrams or more DL-alpha-lipoic acid or 21 milligrams or more R-alpha-lipoic acid, per day\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience sweating, paleness, chills, headache, dizziness and/or confusion (as these may be symptoms of serious low blood sugar) (Bae et al., 2013; Gullo et al., 2014; Bresciani et al., 2011; Chang et al., 2009).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes"
+   ],
+   "entities": [
+    "DL-ALPHA-LIPOIC ACID/R-ALPHA-LIPOIC ACID",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 114
+  }
+ ]
+}

@@ -1,0 +1,226 @@
+{
+ "doc_id": "nccih-asian-ginseng",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Asian Ginseng",
+ "title_extra": null,
+ "date": "2025-02-01",
+ "revised": "2025-02-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-08-01",
+ "url": "https://www.nccih.nih.gov/health/asian-ginseng",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/asian-ginseng"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:473e3d3c7009c807bb64d2ba11ee47fbd446c0f2117cb48f11a86ded6a8b6f81",
+ "entities": [
+  "Asian Ginseng"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-asian-ginseng#001",
+   "text": "Asian Ginseng\n© Thinkstock\nCommon Names:\nAsian ginseng,\nChinese ginseng,\nKorean ginseng,\nred ginseng,\nwhite ginseng,\nginseng root\nLatin Names:\nPanax ginseng",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#002",
+   "text": "Background: Asian ginseng is native to the Far East, including Korea, northeastern China, and far-eastern Siberia. It has been used as a calming agent in traditional Chinese medicine and as an adaptogen. (Adaptogenic herbs are thought to help the body resist physiological and psychological stress.)\nAsian ginseng is one of several types of ginseng. The terms “red ginseng” and “white ginseng” refer to Asian ginseng that is prepared in two different ways.\nThe part of the plant most frequently used for health purposes is the root.\nAsian ginseng has been promoted for stress, cognitive function, flu, fatigue, athletic performance, diabetes, aging, asthma, anxiety, and other conditions.\nAsian ginseng contains many substances; those thought to be most important are called ginsenosides (or panaxosides).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "diabetes",
+    "traditional"
+   ],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 122
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#003",
+   "text": "How Much Do We Know?: The amount of research on Asian ginseng for various conditions has gradually increased over recent years. Most of the clinical trials have been small, with fewer than 200 participants, and shorter than 3 months. Larger multicenter studies that last longer than 3 months are needed to improve the clinical evidence of Asian ginseng for different conditions.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#004",
+   "text": "What Have We Learned?: A small amount of research has suggested that Asian ginseng may improve cognitive function, including abstract thinking, attention, arithmetic skills, and reaction time, in middle-aged adults but not in young adults. Any benefit from Asian ginseng on memory has appeared to depend on the addition of ginkgo.\nA very small amount of preliminary research suggests that Asian ginseng extract may help reduce the risk of developing the flu but not the severity or duration of symptoms.\nA 2023 review of 19 studies (2,413 participants) suggested two notable results: Asian ginseng alone may have a small beneficial effect on general fatigue (not related to specific diseases); and certain ginseng herbal formulas containing other ingredients may be beneficial for chronic fatigue, but not ginseng alone. However, not all research agrees on Asian ginseng’s possible benefits for fatigue.\nA 2022 review of 20 studies (1,295 participants) found that Asian ginseng improved many cardiometabolic factors in people with prediabetes and diabetes, including fasting blood glucose levels, total cholesterol, and certain inflammatory markers. But research on the use of Asian ginseng for improving blood sugar control in people with diabetes is overall inconclusive and conflicting.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 194
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#005",
+   "text": "What Have We Learned?: Some research shows that taking oral Asian ginseng seems to improve sexual function in people with erectile dysfunction (ED). Asian ginseng has also been studied in adults with symptoms of ED associated with an enlarged prostate, and one small study suggested it may improve some aspects of sexual function.\nThe majority of research shows that Asian ginseng does not improve athletic performance.\nThere is interest in using Asian ginseng for many other conditions, including aging, asthma, and anxiety, but there isn’t enough reliable information to say whether it might be helpful for these conditions.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#006",
+   "text": "What Do We Know About Safety?: Short-term oral use (by mouth, up to 6 months) of Asian ginseng in recommended amounts appears to be safe for most people. However, questions have been raised about its long-term safety, and some experts recommend against its use for infants, children, and women who are pregnant or breastfeeding.\nThere isn't enough reliable information to know if Asian ginseng used topically on the skin is safe. It might cause side effects such as irritation and burning.\nInsomnia (trouble sleeping) is the herb’s most common side effect. Uncommon side effects that have been reported include severe rash, liver damage, and severe allergic reactions. Asian ginseng may worsen autoimmune disorders and interfere with blood clotting.\nSome evidence suggests that Asian ginseng might lower blood sugar levels. If you have diabetes, consult your health care provider before using Asian ginseng.\nAsian ginseng might interact with certain medications. If you take any type of medicine, talk with your health care provider before using Asian ginseng or other herbal products; some herbs and medicines interact in harmful ways.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children",
+    "liver",
+    "diabetes"
+   ],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 178
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#007",
+   "text": "What Do We Know About Safety?: Some studies of Asian ginseng suggest it may be unsafe when taken orally during pregnancy. One of the chemicals in it has been found to cause birth defects in animals. If you’re considering using Asian ginseng while pregnant, consult your health care provider. Little is known about whether it’s safe to use Asian ginseng while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 62
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#008",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The rules for making and distributing dietary supplements are less strict than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 161
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#009",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#010",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#011",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#012",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#013",
+   "text": "Key References: Fan S, Zhang Z, Su H, et al.\nPanax ginseng clinical trials: current status and future perspectives\n.\nBiomedicine & Pharmacotherapy\n. 2020;132:110832.\nHe M, Huang X, Shuying L, et al.\nThe difference between white and red ginseng: variations in ginsenosides and immunomodulation\n.\nPlanta Medica.\n2018;84(12-13):845-854.\nLi X, Yang M, Zhang YL, et al.\nGinseng and ginseng herbal formulas for symptomatic management of fatigue: a systematic review and meta-analysis\n.\nJournal of Integrative and Complementary Medicine\n. 2023;29(8):468-482.\nNaseri K, Saadati S, Sadeghi A, et al.\nThe efficacy of ginseng (Panax) on human prediabetes and type 2 diabetes mellitus: a systematic review and meta-analysis\n.\nNutrients\n. 2022;14(12):2401.\nPanax ginseng. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on February 21, 2024. [Database subscription].\nShin D, Yoon BI, Bang S, et al.\nSafety and efficacy assessment of red ginseng oil (RXGIN) in men with lower urinary tract symptoms in a randomized, double-blind, placebo-controlled trial\n.\nThe World Journal of Men’s Health\n. 2024;42(1):229-236.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 178
+  },
+  {
+   "chunk_id": "nccih-asian-ginseng#014",
+   "text": "Key References: NCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Asian Ginseng"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  }
+ ]
+}

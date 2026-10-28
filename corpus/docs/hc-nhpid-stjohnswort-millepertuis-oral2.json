@@ -1,0 +1,179 @@
+{
+ "doc_id": "hc-nhpid-stjohnswort-millepertuis-oral2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+ "title_extra": null,
+ "date": "2024-07-26",
+ "revised": "2024-07-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-07-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=stjohnswort.millepertuis.oral2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "stjohnswort.millepertuis.oral2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:3dbc52f3c8fc5a38fe4512c8edd88402ece4cc930093fc21f51b40589a09bd8c",
+ "entities": [
+  "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (nervine/calmative) (Mills and Bone 2005; Hoffmann 2003; Blumenthal et al. 2000; Felter and Lloyd 1983; Grieve 1971).\n(Used in Herbal Medicine to) help(s) promote healthy mood balance (Brattström 2009; Anghelescu et al. 2006; Gastpar et al. 2006; Kasper et al. 2006; Fava et al. 2005; Mills and Bone 2005; Szegedi et al. 2005; Uebelhack et al. 2004; ESCOP 2003; Hoffmann 2003; Lecrubier et al. 2002; Volz et al. 2002; Kalb et al. 2001).\n(Used in Herbal Medicine to) help(s) relieve sleep disturbances associated with mood imbalance (Randløv et al. 2006; Wichtl 2004; Friede et al. 2001; Wheatley 1999; Schrader et al. 1998).\nNotes\nThe recommended uses above can be combined on the product label if they are from the same traditional or non-traditional paradigm (e.g. Used in Herbal Medicine to help promote healthy mood balance and to help relieve sleep disturbances associated with mood imbalance).\nFor multi-ingredient products:",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 162
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#003",
+   "text": "Use(s) or Purpose(s): To prevent the product from being represented as a \"traditional medicine,\" any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. St John's wort is traditionally used in Herbal Medicine to help relieve restlessness and nervousness).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#004",
+   "text": "Quantity(ies): Restlessness/nervousness\nMethods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract * , Tincture, Fluid extract, Decoction, Infusion)\n2 - 12.6 grams of dried herb top, per day; Not to exceed 4.2 grams per single dose (Anghelescu et al. 2006; Witchtl 2004; ESCOP 2003; Blumenthal et al. 2000).\n*Note: Solvents allowed for the method of preparation “Non-standardized extracts (Dry extract)” as part of this monograph are ethanol and/or water only.\nMood balance; Sleep disturbances\nMethods of preparation: Standardized extracts (Dry extract)\n600 - 1800 milligrams of extract, per day, standardized to 3-6% hyperforin and/or 0.12-0.28% hypericin; Not to exceed 600 milligrams of extract per single dose (Anghelescu et al. 2006; Gastpar et al. 2006; Kasper et al. 2006; Fava et al. 2005; Szegedi et al. 2005; Uebelhack et al. 2004; Wichtl 2004; ESCOP 2003; Hoffmann 2003; Lecrubier et al. 2002; Volz et al. 2002; Kalb et al. 2001; Blumenthal et al. 2000; BHP 1983).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 154
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#005",
+   "text": "Duration(s) of Use: Use for at least 2 to 4 weeks to see beneficial effects (Papakostas et al. 2007; Kalb et al. 2001).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 18 weeks (Anghelescu et al. 2006; Gastpar et al. 2006; Kasper et al. 2006; Fava et al. 2005; Mills and Bone 2005; Szegedi et al. 2005; Uebelhack et al. 2004; ESCOP 2003; Hypericum Depression Trial Study Group 2002; Lecrubier et al. 2002; Vloz et al. 2002; Kalb et al. 2001; BHP 1983).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 87
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#006",
+   "text": "Caution(s) and warning(s): Healthy mood balance\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a psychological disorder such as anxiety or depression.\nAll products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Brinker 2010; Barnes et al. 2007; Mills and Bone 2005).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking seizure medications, antihistamines, bronchodilators, muscle relaxants and/or opiates (Brinker 2010; Barnes et al. 2007; Mills and Bone 2005; Kawaguchi et al. 2004; Morimoto et al. 2004; Eich-Höchli et al. 2003; Dresser et al. 2003; Hoffman 2003; Markowitz et al. 2003; Xie et al. 2003; Dannawi 2002; Gurley et al. 2002; Spinella and Eaton 2002; Wang et al. 2002; Parker et al. 2001; Wang et al. 2001; Burstein et al. 2000; Nebel et al. 1999).\nWhen using this product avoid prolonged exposure to sunlight, ultraviolet light (UV) or UV therapy (Brinker 2010; Barnes et al. 2007; Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; McGuffin et al. 1997).\nWhen using this product exercise caution if you drive or use machinery as you may experience drowsiness (Bilia et al. 2002; Ernst et al. 1998).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "sedation"
+   ],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#007",
+   "text": "Contraindication(s): Do not use if you are taking antidepressants, anxiolytics, anti-cancer, cardiovascular, contraceptive medications, blood thinners, anti-HIV agents and/or medications to suppress the immune system (Brinker 2010; Barnes et al. 2007; Bradley 2006; Mills and Bone 2005; Murphy et al. 2005; Frye et al. 2004; Hebert et al. 2004; Jiang et al. 2004; Mueller et al. 2004; Smith et al. 2004; Sparreboom et al. 2004; Tannergren et al. 2004; Wichtl 2004; Alscher and Klotz 2003; Bauer et al. 2003; Dresser et al. 2003; ESCOP 2003; Hall et al. 2003; Hoffmann 2003; Pfrunder et al. 2003; Schwarz et al. 2003; Bolley 2002; Gorski et al. 2002; Mathijssen et al. 2002; Ahmed et al. 2001; De Maat et al. 2001; Moschella and Jaber 2001; Roby et al. 2001; Sugimoto et al. 2001; Turton-Weeks 2001; Wang et al. 2001; Barone et al. 2000; Durr et al. 2000; Karliova et al. 2000; Mai et al. 2000; Piscitelli et al. 2000; Ruschitzka et al. 2000; Ernst 1999; Johne et al. 1999; Maurer et al. 1999; Rey and Walter 1998).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 174
+  },
+  {
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#008",
+   "text": "Known adverse reaction(s): When using this product you may experience mild gastrointestinal disturbances, restlessness, and/or headaches (Barnes et al. 2007; ESCOP 2003).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience muscle rigidity or contractions, tremors, agitation/confusion, increased heart rate, or hypersensitivity/allergy (Boyer 2023; Mayo Clinic Staff 2022; Erner et al. 2003; Papakostas et al. 2007; Barnes et al. 2007; ESCOP 2003).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ST. JOHN'S WORT - HYPERICUM PERFORATUM - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  }
+ ]
+}

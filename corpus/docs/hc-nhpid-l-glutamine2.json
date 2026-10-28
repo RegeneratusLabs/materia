@@ -1,0 +1,104 @@
+{
+ "doc_id": "hc-nhpid-l-glutamine2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "L-Glutamine",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=l.glutamine2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "l.glutamine2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:b0c2d76c247b2ef45fc94eeb45cb24d7b93100b645d60b4a7f3a93c81ec4e324",
+ "entities": [
+  "L-Glutamine",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-l-glutamine2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.\nNote: Liquids and solutions are not permitted due to lack of stability of the finished product (Fürst et al. 1997).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "L-Glutamine",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "hc-nhpid-l-glutamine2#002",
+   "text": "Use(s) or Purpose(s): Helps restore plasma glutamine levels depleted after periods of physical stress (e.g. prolonged exhaustive exercise) (Krzywkowski et al. 2001; Bowtell et al. 1999; Castell and Newsholme 1997).\nHelps support immune system health after periods of physical stress (Shils et al. 2006: Newsholme 2001; Griffiths 1999).\nHelps support digestive system health after periods of physical stress (Shils et al. 2006, Newsholme et al. 2003; IOM 2002).\nHelps to assist in muscle cell repair after exercise (Newsholme et al. 2003; IOM 2002).\nNote: The above uses can be combined on the product label (e.g., Helps restore plasma glutamine levels depleted after periods of physical stress and assist in muscle cell repair after exercise).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "L-Glutamine",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 114
+  },
+  {
+   "chunk_id": "hc-nhpid-l-glutamine2#003",
+   "text": "Quantity(ies): 5 – 9 grams of L-Glutamine, per day (Bowtell et al. 1999; Castell and Newsholme 1997).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "L-Glutamine",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "hc-nhpid-l-glutamine2#004",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "L-Glutamine",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "doc_id": "hc-nhpid-pseudoephedrine-13-18-2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+ "title_extra": null,
+ "date": "2025-04-25",
+ "revised": "2025-04-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-04-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=pseudoephedrine.13.18.2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "pseudoephedrine.13.18.2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:d9cd7834825c102bebd96657306e1b15b9c09af7e656de41ac3ed4e804cc8eb4",
+ "entities": [
+  "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#002",
+   "text": "Use(s) or Purpose(s): Used as a decongestant (for the common cold) (US FDA 2022; HC 2009; Williamson 2003; Mills and Bone 2000; Simons et al. 1996; Bright et al. 1981; Bye et al. 1980; Empey et al. 1980).\nTemporarily relieves/For the temporary relief of cold/(and) flu symptoms such as nasal congestion/sinus congestion/stuffy nose/nasal stuffiness (US FDA 2022; HC 2009; Williamson 2003; Mills and Bone 2000; Simons et al. 1996; Bright et al. 1981; Bye et al. 1980; Empey et al. 1980).\nTemporarily relieves/For the temporary relief of nasal congestion/sinus congestion/stuffy nose/nasal stuffiness (due to hay fever/allergic rhinitis/the common cold) (US FDA 2022; HC 2009; Williamson 2003; Mills and Bone 2000; Simons et al. 1996; Bright et al. 1981; Bye et al. 1980; Empey et al. 1980).\nNasal decongestant (US FDA 2022; HC 2009; Williamson 2003; Mills and Bone 2000; Simons et al. 1996; Bright et al. 1981; Bye et al. 1980; Empey et al. 1980).\nNote: The above uses can be combined on the product label (e.g., Nasal decongestant to temporarily relieve nasal congestion due to the common cold).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 179
+  },
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#003",
+   "text": "Subpopulation(s): Adolescents 12-17 years, Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 9
+  },
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#004",
+   "text": "Quantity(ies): 60 - 240 milligrams of pseudoephedrine per day; Not to exceed 60 milligrams per single dose (US FDA 2022; Simons et al. 1996; Empey et al. 1980; Dickerson et al. 1978).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#005",
+   "text": "Direction(s) for use: Take a single dose every 4-6 hours, up to 4 times per day (US FDA 2022).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#006",
+   "text": "Duration(s) of use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 7 days (Mills and Bone 2005; US FDA 2004; Blumenthal et al 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#007",
+   "text": "Caution(s) and warning(s): Keep out of reach of children. In case of overdose, call a poison control centre or get medical help right away (US FDA 2022; HC 2009).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen or last for more than 7 days (US FDA 2022).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms are accompanied by a high fever that lasts longer than 3 days, the production of thick yellow/green phlegm, rash or a persistent headache.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Brinker 2010; CRN 2000; Carruthers-Czyzewski 1996; Mortimer 1977).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking any other cough and cold or weight control medications or prescription drugs, or products which contain caffeine or ephedrine (Brinker 2010; HC 2009; Mills and Bone 2005; Greenway et al. 2004; Naik and Freudenberger 2004).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children"
+   ],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 166
+  },
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#008",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you have asthma, diabetes, glaucoma, heart disease, high blood pressure, kidney disease, difficulty urinating, thyroid disease, seizure disorders or any other serious medical condition (Ando et al. 2022; Ganesh et al. 2019; Brinker 2010; HC 2009; Eccles 2006; Jorge et al. 2006; Bensky et al. 2004; Williamson 2003; Blumenthal et al. 2000; Mills and Bone 2000; Carruthers-Czyzewski 1996).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "thyroid",
+    "diabetes",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#009",
+   "text": "Contraindication(s): Do not use with a monoamine oxidase inhibitor (MAOI) or for 2 weeks after stopping the MAOI drug (US FDA 2022; Brinker 2010; Eccles 2006; Mills and Bone 2005; Blumenthal et al. 2000; Carruthers-Czyzewski 1996).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "hc-nhpid-pseudoephedrine-13-18-2#010",
+   "text": "Known adverse reaction(s): Stop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience severe headache, confusion, visual changes/changes in vision, nervousness, dizziness, sleeplessness, difficulty or pain when urinating or allergic reactions (Ando et al. 2022; Chen 2022; US FDA 2022; Gewirtz et al. 2021; Hinduja 2020; Patel et al. 2020; Pilato 2020; Ducros 2012; Legriel et al. 2021; Mills and Bone 2005; Bensky et al. 2004; Blumenthal et al. 2000; Dickerson et al. 1978).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if any new symptoms appear.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "PSEUDOEPHEDRINE\nAdolescents 12-17 years and Adults",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 96
+  }
+ ]
+}

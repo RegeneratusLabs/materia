@@ -1,0 +1,205 @@
+{
+ "doc_id": "nccih-soy",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Soy",
+ "title_extra": null,
+ "date": "2025-04-01",
+ "revised": "2025-04-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-10-01",
+ "url": "https://www.nccih.nih.gov/health/soy",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/soy"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:d0ec7facd80d047d3e060406d519b871deb746267cb5e039cd529507acb1ebcc",
+ "entities": [
+  "Soy"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-soy#001",
+   "text": "Soy\n© Steven Foster\nCommon Names:\nsoy\nLatin Names:\nGlycine max",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "nccih-soy#002",
+   "text": "Background: This fact sheet focuses on the use of soy by adults for health purposes.\nSoybeans have long been cultivated in Asia. Currently, they are also produced in other parts of the world, including the United States. Common soy foods include tofu, miso, tempeh, edamame, and soy milk.\nIn addition to its food uses, soy is available in dietary supplements. Soy supplements may contain soy protein, isoflavones (compounds similar in structure to the hormone estrogen), or other components.\nSoy products are promoted for high cholesterol, high blood pressure, diabetes, symptoms of menopause, and many other health conditions.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "diabetes",
+    "hypertension"
+   ],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 97
+  },
+  {
+   "chunk_id": "nccih-soy#003",
+   "text": "How Much Do We Know?: Many studies have been conducted on the safety and usefulness of soy products. We know enough to conclude that there are potential beneficial effects on blood cholesterol levels, menopausal hot flashes, breast cancer risk, bone density, and blood pressure. However, effects may vary for different types of soy products and in different populations.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 58
+  },
+  {
+   "chunk_id": "nccih-soy#004",
+   "text": "What Have We Learned?: Consuming soy protein in place of other proteins may lower cholesterol levels to a small extent. Soy isoflavones may not have the same effect.\nSoy isoflavone supplements or soy protein may help to reduce the frequency and severity of menopausal hot flashes, but the effect may be small, and research results have not been completely consistent.\nObservational studies indicate that among Asian and Asian-American women, higher dietary intakes of soy are associated with a lower risk of breast cancer. The amounts of soy in Western diets, even among the highest consumers of soy, may be too low for this association to be observed. Soy products in supplement form have not been shown to reduce breast cancer risk.\nSoy isoflavones probably have a beneficial effect on bone density in postmenopausal women.\nConsumption of soy isoflavones may lead to a modest decrease in blood pressure.\nPeople who consume diets high in soy may have a lower risk of type 2 diabetes. It’s uncertain whether soy products improve control of blood sugar in people who already have type 2 diabetes.\nIt’s uncertain whether soy has beneficial effects on cognitive function; studies have had conflicting results.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "diabetes",
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 196
+  },
+  {
+   "chunk_id": "nccih-soy#005",
+   "text": "What Do We Know About Safety?: Some people are allergic to soy. In the United States, the presence of soy in packaged foods and dietary supplements must be indicated on the product label.\nIn research studies, soy protein supplements have been safely used for up to 16 weeks, and soy extracts containing concentrated isoflavones have been used safely for up to 6 months.\nSide effects of soy may include bloating, constipation, diarrhea, and nausea.\nInteractions between certain soy products containing high amounts of tyramine (such as tofu and soy sauce), and monoamine oxidase inhibitors (a group of antidepressant drugs) have been reported (i.e., dangerously high blood pressure). If you take any type of medicine, talk with your health care provider before using soy or other herbal products; some herbs and medicines interact in harmful ways.\nThe use of soy during pregnancy may be unsafe in amounts greater than those commonly found in foods. Little is known about whether it is safe to use soy in amounts greater than those commonly found in foods while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension"
+   ],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 175
+  },
+  {
+   "chunk_id": "nccih-soy#006",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The regulatory paths for making and distributing dietary supplements are different than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 161
+  },
+  {
+   "chunk_id": "nccih-soy#007",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-soy#008",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-soy#009",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-soy#010",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-soy#011",
+   "text": "Key References: Asbaghi O, Ashtary-Larky D, Mousa A, et al.\nThe effects of soy products on cardiovascular risk factors in patients with type 2 diabetes: a systematic review and meta-analysis of clinical trials\n.\nAdvances in Nutrition.\n2022;13(2):455-473.\nBarańska A, Błaszczuk A, Kanadys W, et al.\nEffects of soy protein containing of isoflavones and isoflavones extract on plasma lipid profile in postmenopausal women as a potential prevention factor in cardiovascular diseases: systematic review and meta-analysis of randomized controlled trials\n.\nNutrients.\n2021;13(8):2531.\nBarańska A, Błaszczuk A, Polz-Dacewicz M, et al.\nEffects of soy isoflavones on glycemic control and lipid profile in patients with type 2 diabetes: a systematic review and meta-analysis of randomized controlled trials\n.\nNutrients.\n2021;13(6):1886.\nBarańska A, Kanadys W, Bogdan M, et al.\nThe role of soy isoflavones in the prevention of bone loss in postmenopausal women: a systematic review with meta-analysis of randomized controlled trials\n.\nJournal of Clinical Medicine.\n2022;11(16):4676.\nBelobrajdic DP, James-Martin G, Jones D, et al.\nSoy and gastrointestinal health: a review\n.\nNutrients.\n2023;15(8):1959.\nGençtürk N, Bilgiç FS, Kaban HU.\nThe effect of soy isoflavones given to women in the climacteric period on menopausal symptoms and quality of life: systematic review and meta-analysis of randomized controlled trials\n.\nExplore.\n2024;20(6):103012.\nLei L, Hui S, Chen Y, et al.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "nccih-soy#012",
+   "text": "Key References: Effect of soy isoflavone supplementation on blood pressure: a meta-analysis of randomized controlled trials\n.\nNutrition Journal.\n2024;23(1):32 (published correction appears in\nNutrition Journal.\n2024;23(1):53).\nShin S, Fu J, Shin W-K et al.\nAssociation of food groups and dietary pattern with breast cancer risk: a systematic review and meta-analysis\n.\nClinical Nutrition.\n2023;42(3):282-297.\nSoy. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.comon November 11, 2024. [Database subscription].\nSzczerba E, Koch M, Schlesinger S.\nSoy consumption, cognitive function, and dementia\n.\nCurrent Opinion in Lipidology.\n2022;33(1):68-75.\nYang S, Zeng Q, Huang X, et al.\nEffect of isoflavones on blood lipid alterations in postmenopausal females: a systematic review and meta-analysis of randomized trials\n.\nAdvances in Nutrition.\n2023;14(6):1633-1643.\nZuo X, Zhao R, Wu M, et al.\nSoy consumption and risk of type 2 diabetes and cardiovascular diseases: a systematic review and meta-analysis\n.\nNutrients.\n2023;15(6):1358.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "diabetes",
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Soy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  }
+ ]
+}

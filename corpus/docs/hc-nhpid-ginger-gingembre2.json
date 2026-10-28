@@ -1,0 +1,159 @@
+{
+ "doc_id": "hc-nhpid-ginger-gingembre2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "GINGER - ZINGIBER OFFICINALE",
+ "title_extra": null,
+ "date": "2025-12-19",
+ "revised": "2025-12-19",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-12-19",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=ginger.gingembre2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "ginger.gingembre2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:c19e4a0aebd479c0f82df4e6a195296a57b36a5450b47e5465830f75d1556783",
+ "entities": [
+  "GINGER - ZINGIBER OFFICINALE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-ginger-gingembre2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GINGER - ZINGIBER OFFICINALE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-ginger-gingembre2#002",
+   "text": "Use(s) or Purpose(s): Help(s) prevent nausea and vomiting associated with motion sickness, and/or seasickness (Lien et al. 2003; Riebenfeld and Borzone 1999; Schmid et al. 1994; Grøntved et al. 1988; Mowrey and Clayson 1982).\n(Traditionally) used in Herbal Medicine (as a carminative) to help relieve digestive upset including lack of appetite, nausea, digestive spasms, indigestion, dyspepsia, and flatulent colic (Mills and Bone 2000; Bradley 1992; Ellingwood 1983; Felter and Lloyd 1983).\n(Traditionally) used in Herbal Medicine (as an expectorant and cough suppressant (antitussive)) to help relieve bronchitis as well as coughs and colds (Mills and Bone 2000; Bradley 1992; Ellingwood 1983; Wren 1907).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help relieve digestive upset including lack of appetite, nausea, digestive spasms, indigestion, dyspepsia, and flatulent colic and as an expectorant and cough suppressant to help relieve bronchitis as well as coughs and colds).\nFor multi-ingredient products:",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "GINGER - ZINGIBER OFFICINALE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 167
+  },
+  {
+   "chunk_id": "hc-nhpid-ginger-gingembre2#003",
+   "text": "Use(s) or Purpose(s): To prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Ginger is traditionally used in Herbal Medicine as an expectorant and cough suppressant to help relieve bronchitis as well as coughs and cold).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "GINGER - ZINGIBER OFFICINALE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "hc-nhpid-ginger-gingembre2#004",
+   "text": "Subpopulation(s): Children 6-11 years, Adolescents 12-17 years and Adults 18 years and older (ESCOP 2003)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "GINGER - ZINGIBER OFFICINALE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 15
+  },
+  {
+   "chunk_id": "hc-nhpid-ginger-gingembre2#005",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\nMotion sickness/seasickness (nausea and vomiting prevention)\n0.5 – 3 grams of dried rhizome, per day (Mills and Bone 2005; ESCOP 2003; Bradley 1992)\nOther uses\n0.3 – 3 grams of dried rhizome, per day (Mills and Bone 2005; Bradley 1992; Felter and Lloyd 1898; Wren 1907)\nMethods of preparation: Non-Standardized Aqueous Extracts (Dry extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nAll uses\n0.7 – 3 grams of dried rhizome, per day (Mills and Bone 2005).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GINGER - ZINGIBER OFFICINALE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 89
+  },
+  {
+   "chunk_id": "hc-nhpid-ginger-gingembre2#006",
+   "text": "Direction(s) for use: Motion sickness/seasickness (nausea and vomiting prevention)\nTake a single dose 30 minutes before travel (Mills and Bone 2005; ESCOP 2003).\nTake every 4 hours as needed (Optional) (Riebenfeld and Borzone 1999; Schmid et al. 1994).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GINGER - ZINGIBER OFFICINALE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "hc-nhpid-ginger-gingembre2#007",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "GINGER - ZINGIBER OFFICINALE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "doc_id": "hc-nhpid-arctostaphylos-uva-ursi2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Bearberry - Arctostaphylos Uva-Ursi",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=arctostaphylos.uva.ursi2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "arctostaphylos.uva.ursi2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:b968234ef7eac4ac16ad163482e6b3a07a4b2230f9715ab95cf45b5ce9100fcd",
+ "entities": [
+  "Bearberry - Arctostaphylos Uva-Ursi",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-arctostaphylos-uva-ursi2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Bearberry - Arctostaphylos Uva-Ursi",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-arctostaphylos-uva-ursi2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine (as a mild diuretic) to help relieve symptoms associated with mild recurrent lower urinary tract infections, such as burning sensation and/or frequent urination (EMA 2018; Godfrey and Saunders 2010; Hoffman 2003; BHP 1983; Grieve 1971; Felter 1922; Ellingwood 1919; Felter and Lloyd 1898).\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Bearberry is traditionally used in Herbal Medicine to help relieve symptoms associated with mild recurrent lower urinary tract infections, such as burning sensation or frequent urination).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "Bearberry - Arctostaphylos Uva-Ursi",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 173
+  },
+  {
+   "chunk_id": "hc-nhpid-arctostaphylos-uva-ursi2#003",
+   "text": "Quantity(ies): Traditionally used in Herbal Medicine/Used in Herbal Medicine\nMethods of preparation: Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.3 - 1.33 grams of dried leaves, 2 to 3 times per day (Newall 1996; Bradley 1992; BHP 1983; Felter 1922; Ellingwood 1919; Felter and Lloyd 1898).\nMethods of preparation: Dry*, Decoction, Decoction concentrate, Infusion, Infusion concentrate\n1.5 - 8 grams of dried leaves, per day; not to exceed 1.5 grams of dried leaves per single dose (EMA 2018; WHO 2002; Blumenthal 2000; Newall 1996; Bradley 1992; BHP 1983; Felter and Lloyd 1898).\n*Note: Dried leaves should be prepared as an infusion or decoction by consumers prior to use (see direction for use).\nUsed in Herbal Medicine (non-traditional claim only)\nMethods of preparation: Standardized Extracts (Dry Extract)\n500 - 700 milligrams of dry extract standardized to 20% - 30% of Arbutin, 2 to 4 times per day (EMA 2018; ESCOP 2003; WHO 2002; Blumenthal 2000).\nNote: The standardized dry extract dose is equivalent to 100 - 210 milligrams of Arbutin, 2 to 4 times per day.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Bearberry - Arctostaphylos Uva-Ursi",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 177
+  },
+  {
+   "chunk_id": "hc-nhpid-arctostaphylos-uva-ursi2#004",
+   "text": "Direction(s) for use: All products\nTake a few hours before or after taking medications or health products (Brinker 2010; Mills and Bone 2000).\nDo not take with foods or medications that can acidify the urine (Gardner and McGuffin 2013; Brinker 2010; ESCOP 2003; Duke 2002; WHO 2002; Blumenthal 2000; Mills and Bone 2000; Bradley 1992).\nLoose dosage form (for infusion/decoction)*\nPlace [insert volume to be measured by consumer, e.g., X teaspoons] of dried leaves in [insert the volume of water, e.g., ½ cup (125 mL)] of boiling/cold water. Infuse for [e.g., 5-15 minutes]/Bring to a boil and let simmer for [e.g., 10-20 minutes]. Strain and drink.\n*Note: This direction of use statement can be modified on the label provided that it gives clear instructions to consumers.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Bearberry - Arctostaphylos Uva-Ursi",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 126
+  },
+  {
+   "chunk_id": "hc-nhpid-arctostaphylos-uva-ursi2#005",
+   "text": "Duration(s) of Use: Products providing 60 milligrams or more of dried leaves and/or products providing 20 milligrams or more of Arbutin, per day\nFor occasional use only.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 1 week (EMA 2018; Brinker 2010; WHO 2002; Blumenthal 2000; Mills and Bone 2000; Bradley 1992).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Bearberry - Arctostaphylos Uva-Ursi",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 55
+  },
+  {
+   "chunk_id": "hc-nhpid-arctostaphylos-uva-ursi2#006",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nProducts providing 60 milligrams or more of dried leaves and/or products providing 20 milligrams or more of Arbutin, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a liver disorder, fever, painful urination (dysuria), spasms, or blood in urine (EMA 2018; Duke 2002; Newall 1996).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "Bearberry - Arctostaphylos Uva-Ursi",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 71
+  },
+  {
+   "chunk_id": "hc-nhpid-arctostaphylos-uva-ursi2#007",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (EMA 2018; Brinker 2010; ESCOP 2003; WHO 2002; Blumenthal 2000; Mills and Bone 2000; Bradley 1992).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Bearberry - Arctostaphylos Uva-Ursi",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 26
+  }
+ ]
+}

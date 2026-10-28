@@ -1,0 +1,98 @@
+{
+ "doc_id": "hc-nhpid-coenzyme-q10",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Coenzyme Q10 (UBIQUINONE-10)",
+ "title_extra": null,
+ "date": "2025-01-31",
+ "revised": "2025-01-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-01-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=coenzyme.q10&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "coenzyme.q10"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:45a5e91bb7cedde8fca860ff18622fefec3a329ab58c85cfafab9cfe913692cb",
+ "entities": [
+  "Coenzyme Q10 (UBIQUINONE-10)"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-coenzyme-q10#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Coenzyme Q10 (UBIQUINONE-10)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-coenzyme-q10#002",
+   "text": "Use(s) or Purpose(s): Helps to maintain and/or support cardiovascular health (Rosenfeldt et al. 2007; Baggio et al. 1994; Langsjoen et al. 1988).\nHelps to reduce the frequency of migraine headaches and associated nausea and vomiting when taken as a prophylactic/preventative (Hershey et al. 2007; Sandor et al. 2005; Rozen et al. 2002).\nSource of (an) antioxidant(s)/Provides (an) antioxidant(s) (Kalpravidh et al. 2005; Rosenfeldt et al. 2005; Crane 2001; Chello et al. 1994).\nSource of (an) antioxidant(s)/Provides (an) antioxidant(s) that help(s) fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Kalpravidh et al. 2005; Rosenfeldt et al. 2005; Crane 2001; Chello et al. 1994).\nNotes:\nThe above uses can be combined on the product label (e.g., Helps to maintain and support cardiovascular health and to reduce the frequency of migraine headaches and associated nausea and vomiting when taken as a preventative).\nThe terms 'Helps' or 'Helps to' can be used interchangeably on the label.\nIf Coenzyme Q10 is combined with other medicinal ingredients with antioxidant properties, there is an option to use the antioxidant claims in plural. The singular should be used when the product only contains one chemical substance (e.g., Coenzyme Q10) as the medicinal ingredient associated with the antioxidant claim.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Coenzyme Q10 (UBIQUINONE-10)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 208
+  },
+  {
+   "chunk_id": "hc-nhpid-coenzyme-q10#003",
+   "text": "Quantity(ies): Antioxidant\nNot to exceed 300 milligrams of Coenzyme Q10, per day (Bonakdar and Guarneri 2005; Kalpravidh et al. 2005; Rosenfeldt et al. 2005; Chello et al. 1994; Langsjoen 1994; Langsjoen et al. 1988; Tanaka et al. 1982)\nCardiovascular health\n30 - 300 milligrams of Coenzyme Q10, per day (Bonakdar and Guarneri 2005; Kalpravidh et al. 2005; Rosenfeldt et al. 2005; Chello et al. 1994; Langsjoen 1994; Langsjoen et al. 1988; Tanaka et al. 1982)\nMigraine prophylaxis\n150 - 300 milligrams of Coenzyme Q10, per day (Sandor et al. 2005; Rozen et al. 2002)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Coenzyme Q10 (UBIQUINONE-10)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "hc-nhpid-coenzyme-q10#004",
+   "text": "Duration(s) of use: Migraine prophylaxis/prevention\nUse for at least 3 months to see beneficial effects (Hershey et al. 2007; Sandor et al. 2005; Rozen et al. 2002).\nOther uses\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Coenzyme Q10 (UBIQUINONE-10)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-coenzyme-q10#005",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood pressure medication (Rosenfeldt et al. 2007; Singh et al. 1999).\nProducts providing more than 100 mg of Coenzyme Q10 per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners (Engelsen et al. 2003; Landbo and Almdal 1998; Spigset 1994).\nMigraine prophylaxis/prevention\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if migraine frequency increases and associated nausea and vomiting persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension"
+   ],
+   "entities": [
+    "Coenzyme Q10 (UBIQUINONE-10)"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 109
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "doc_id": "nccih-hoodia",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Hoodia",
+ "title_extra": null,
+ "date": "2025-04-01",
+ "revised": "2025-04-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-10-01",
+ "url": "https://www.nccih.nih.gov/health/hoodia",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/hoodia"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:fc6b22e1d96cf3f2a858c7e40e347f7d0e214871f350e98c6e962ef08dbae8ea",
+ "entities": [
+  "Hoodia"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-hoodia#001",
+   "text": "Hoodia\n© Steven Foster\nCommon Names:\nhoodia,\nKalahari cactus,\nXhoba,\nBushman's hat\nLatin Names:\nHoodia gordonii",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "nccih-hoodia#002",
+   "text": "Background: Hoodia is a leafless succulent that grows in Africa’s Kalahari Desert, including parts of Namibia, Botswana, and South Africa. Traditionally, the indigenous San peoples have used hoodia to suppress appetite during long hunts.\nIt’s thought that an oxypregnane steroidal glycoside molecule found in hoodia, known as P57, could have an appetite-reducing effect.\nToday, hoodia supplements are promoted for appetite suppression and weight loss.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 64
+  },
+  {
+   "chunk_id": "nccih-hoodia#003",
+   "text": "How Much Do We Know?: We know very little about hoodia. Only one small study has been done on the effects of hoodia supplements in people.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 26
+  },
+  {
+   "chunk_id": "nccih-hoodia#004",
+   "text": "What Have We Learned?: The one small study of hoodia involved 49 women who were overweight. Those who took hoodia for 15 days didn’t lose more weight than those who took a placebo.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "nccih-hoodia#005",
+   "text": "What Do We Know About Safety?: Little is known about the safety of hoodia, but the one small study in people raised concerns. In that study, participants taking hoodia had more adverse effects, including nausea, vomiting, dizziness, and odd skin sensations, than those taking placebos. The researchers saw clinical and safety concerns for hoodia related to blood pressure and heart measures.\nLittle is known about whether it’s safe to use hoodia during pregnancy or while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension"
+   ],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 76
+  },
+  {
+   "chunk_id": "nccih-hoodia#006",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nIf you take any type of medicine, talk with your health care provider before using any herbal product; some herbs and medications interact in harmful ways.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The regulatory paths for making and distributing dietary supplements are different than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 187
+  },
+  {
+   "chunk_id": "nccih-hoodia#007",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-hoodia#008",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-hoodia#009",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-hoodia#010",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-hoodia#011",
+   "text": "Key References: Blom WAM, Abrahamse SL, Bradford R, et al.\nEffects of 15-d repeated consumption of\nHoodia gordonii\npurified extract on safety, ad libitum energy intake, and body weight in healthy, overweight women: a randomized controlled trial\n.\nAmerican Journal of Clinical Nutrition.\n2011;94(5):1171-1181.\nBonetti G, Herbst KL, Donato K, et al.\nDietary supplements for obesity\n.\nJournal of Preventive Medicine and Hygiene.\n2022;63(3):E160-E168.\nFarrington R, Musgrave IF, Byard RW.\nEvidence for the efficacy and safety of herbal weight loss preparations\n.\nJournal of Integrative Medicine.\n2019;17(2):87-92.\nHoodia. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury [Internet]. National Institute of Diabetes and Digestive and Kidney Diseases. Updated March 28, 2018. Accessed at\nncbi.nlm.nih.gov/books/NBK548704/\non May 1, 2024.\nHoodia. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com/ on May 1, 2024. [Database subscription].\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "liver",
+    "diabetes",
+    "renal"
+   ],
+   "entities": [
+    "Hoodia"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 204
+  }
+ ]
+}

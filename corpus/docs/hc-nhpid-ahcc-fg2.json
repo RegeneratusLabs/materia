@@ -1,0 +1,102 @@
+{
+ "doc_id": "hc-nhpid-ahcc-fg2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "AHCC EXTRACT - Granule",
+ "title_extra": null,
+ "date": "2024-10-25",
+ "revised": "2024-10-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-10-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=ahcc.fg2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "ahcc.fg2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:159821e2202cf735f53022ae52f9bf39aea3ba8283f8cbc86917e64b93718e37",
+ "entities": [
+  "AHCC EXTRACT - Granule",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-ahcc-fg2#001",
+   "text": "Dosage Form(s): The acceptable dosage form is limited to capsules.\nThis monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "AHCC EXTRACT - Granule",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  },
+  {
+   "chunk_id": "hc-nhpid-ahcc-fg2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Ye et al. 2004, 2003; Wang et al. 2001).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Ye et al. 2004, 2003; Wang et al. 2001).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "AHCC EXTRACT - Granule",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "hc-nhpid-ahcc-fg2#003",
+   "text": "Quantity(ies): Not to exceed 6 grams of AHCC extract (granule), per day (Fujii et al. 2011; Cowawintaweewat et al. 2006; Uno et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "AHCC EXTRACT - Granule",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "hc-nhpid-ahcc-fg2#004",
+   "text": "Known adverse reaction(s): Stop use if symptoms such as nausea and diarrhea occur (Sumiyoshi et al. 2010; Matsui et al 2002).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "AHCC EXTRACT - Granule",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  }
+ ]
+}

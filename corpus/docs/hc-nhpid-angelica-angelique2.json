@@ -1,0 +1,164 @@
+{
+ "doc_id": "hc-nhpid-angelica-angelique2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ANGELICA - ANGELICA ARCHANGELICA",
+ "title_extra": null,
+ "date": "2025-08-29",
+ "revised": "2025-08-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-08-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=angelica.angelique2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "angelica.angelique2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:7ac516cee774822e2f0ea976960de54e94ca2c4f6dc27475550c04372e732be7",
+ "entities": [
+  "ANGELICA - ANGELICA ARCHANGELICA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-angelica-angelique2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ANGELICA - ANGELICA ARCHANGELICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-angelique2#002",
+   "text": "Use(s) or Purpose(s): Traditionally used in Herbal Medicine as an expectorant to help relieve bronchial illness, coughs and colds (Bradley 2006; Hoffmann 2003; Blumenthal et al. 2000; Grieve 1971).\nTraditionally used in Herbal Medicine to aid digestion (stomachic) (Bradley 2006; Hoffmann 2003; Blumenthal et al. 2000; Mills 1985; Grieve 1971).\nTraditionally used in Herbal Medicine to help relieve flatulent dyspepsia (carminative) (Bradley 2006; Hoffmann 2003; Grieve 1971)\nTraditionally used in Herbal Medicine to help relieve feverish conditions by inducing sweating (diaphoretic) (Bradley 2006; Grieve 1971).\nTraditionally used in Herbal Medicine as a diuretic (Barnes et al. 2007; Hoffmann 2003; Mills 1985; Felter and Lloyd 1983).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g. Traditionally used in Herbal Medicine to aid digestion (stomachic) and help relieve flatulent dyspepsia (carminative)).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Angelica is traditionally used in Herbal Medicine to help relieve feverish conditions by inducing sweating (diaphoretic)).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "ANGELICA - ANGELICA ARCHANGELICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-angelique2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ANGELICA - ANGELICA ARCHANGELICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-angelique2#004",
+   "text": "Quantity(ies): Methods of preparation : Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Infusion)\nRoot and Rhizome\n0.3 - 12 grams dried root and rhizome, per day (Barnes et al. 2007; Bradley 2006; Blumenthal et al. 2000; Mills 1985).\nLeaf\n0.4 - 5 grams dried leaf, 3 times per day (BHP 1983).\nSeed\n1 - 2 grams dried seed, 3 times per day (Mills 1985).\n*Note : Solvents allowed for the method of preparation “Non-standardized extracts (Dry extract)” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ANGELICA - ANGELICA ARCHANGELICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 90
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-angelique2#005",
+   "text": "Duration(s) of use: Diuretic\nFor occasional use only (Berardi et al. 2002; CPhA 2002).\nOther uses\nNo statement required.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "ANGELICA - ANGELICA ARCHANGELICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-angelique2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding (Brinker 2010; Barnes et al. 2007).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a peptic ulcer (Brinker 2010; Barnes et al. 2007).\nWhen using this product avoid prolonged exposure to sunlight, ultraviolet light (UV) or UV therapy (Brinker 2010; Barnes et al. 2007; Blumenthal et al. 2000).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "ANGELICA - ANGELICA ARCHANGELICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 86
+  },
+  {
+   "chunk_id": "hc-nhpid-angelica-angelique2#007",
+   "text": "Contraindication(s): Do not use if you are pregnant (Brinker 2010; Barnes et al. 2007; Blumenthal et al. 2000).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "ANGELICA - ANGELICA ARCHANGELICA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "doc_id": "hc-nhpid-tribulus-terrestris",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "TRIBULUS - TRIBULUS TERRESTRIS",
+ "title_extra": null,
+ "date": "2026-05-29",
+ "revised": "2026-05-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-05-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=tribulus.terrestris&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "tribulus.terrestris"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:6af0811e77fac67c4aa338cf271887ca56559735b6b62090336bee978cb16e2d",
+ "entities": [
+  "TRIBULUS - TRIBULUS TERRESTRIS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-tribulus-terrestris#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for any age category listed in this monograph for the specified route of administration are listed in the Compendium of Monographs Guidance Document.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "TRIBULUS - TRIBULUS TERRESTRIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "hc-nhpid-tribulus-terrestris#002",
+   "text": "Use(s) or Purpose(s): Traditionally used in Ayurveda as Mutrala (diuretic) (Premila 2006; API 2001; Kapoor 2001).\nTraditionally used in Ayurveda as Vrsya (aphrodisiac) for men (Paranjpe 2005; API 2001).\nTraditionally used in Ayurveda to help relieve Arsa (haemorrhoids) (API 2001).\nTraditionally used in Ayurveda to help relieve Mutrakrcchra (difficult/painful urination) (Khare 2004; API 2001).\nUsed in Traditional Chinese Medicine (TCM) for headache and dizziness, distending pain in the chest and the hypochondrium, acute mastitis, red eyes and nebula, itching caused by rubella (PPRC 2020).\nUsed in Traditional Chinese Medicine (TCM) to calm the Liver and anchor the yang: for headache, vertigo, or dizziness from ascendant Liver yang (Bensky et al. 2004).\nUsed in Traditional Chinese Medicine (TCM) to dispel wind and stop itching: for any kind of skin lesion with significant itching, such as hives (Bensky et al. 2004).\nUsed in Traditional Chinese Medicine (TCM) to dispel wind-heat and brightens the eyes: for red, swollen, and painful eyes as well as increased tearing (Bensky et al. 2004).\nUsed in Traditional Chinese Medicine (TCM) to dredge the Liver qi to smooth its flow while dispersing constraint and clumping: for pain and distention in the chest or flanks or insufficient lactation, from constrained Liver qi (Bensky et al. 2004).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "pregnancy",
+    "liver",
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "TRIBULUS - TRIBULUS TERRESTRIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 207
+  },
+  {
+   "chunk_id": "hc-nhpid-tribulus-terrestris#003",
+   "text": "Use(s) or Purpose(s): Used in Traditional Chinese Medicine (TCM) to pacify the Liver, invigorate blood and dispel wind, improve vision, and relieve itching (PPRC 2020).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Ayurveda to help relieve Arsa and Mutrakrcchra).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Tribulus is traditionally used in Ayurveda as Mutrala).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "liver",
+    "traditional"
+   ],
+   "entities": [
+    "TRIBULUS - TRIBULUS TERRESTRIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 160
+  },
+  {
+   "chunk_id": "hc-nhpid-tribulus-terrestris#004",
+   "text": "Quantity(ies): Traditional Chinese Medicine\nMethods of preparation: Decoction, Decoction concentrate\n6 - 10 grams of dried fruit, per day (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004)\nTraditional Ayurveda Medicine\nArsa (haemorrhoid)\nMethods of preparation: Decoction, Decoction concentrate\n20 - 30 grams of dried fruit, per day (API 2001)\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3 - 6 grams of dried fruit, per day (API 2001)\nMutrala (diuretic), Mutrakrcchra (painful urination) and Vrsya (aphrodisiac)\nMethods of preparation: Decoction, Decoction concentrate\n20 - 30 grams of dried fruit, per day (API 2001)\n20 - 30 grams of dried root, per day (API 2001)\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3 - 6 grams of dried fruit, per day (API 2001)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "TRIBULUS - TRIBULUS TERRESTRIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 135
+  },
+  {
+   "chunk_id": "hc-nhpid-tribulus-terrestris#005",
+   "text": "Duration(s) of Use: Mutrala (diuretic)\nFor occasional use only (APhA 2002; CPhA 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "TRIBULUS - TRIBULUS TERRESTRIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "hc-nhpid-tribulus-terrestris#006",
+   "text": "Caution(s) and warning(s): All products except Vrsya (aphrodisiac for men)\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant (Chen and Chen 2004).\nTraditional Chinese Medicine\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have qi or blood deficiency (Bensky et al. 2004).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "TRIBULUS - TRIBULUS TERRESTRIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "hc-nhpid-tribulus-terrestris#007",
+   "text": "Contraindication(s): Traditional Chinese Medicine\nDo not use if you have low blood pressure or liver deficiency (Bensky et al. 2004; Chen and Chen 2004).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "TRIBULUS - TRIBULUS TERRESTRIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "hc-nhpid-tribulus-terrestris#008",
+   "text": "Known adverse reaction(s): All products\nStop use if hypersensitivity/allergy occurs (Bensky et al. 2004)\nAll products except Mutrala (diuretic)\nWhen using this product diuretic effect may occur.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "TRIBULUS - TRIBULUS TERRESTRIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  }
+ ]
+}

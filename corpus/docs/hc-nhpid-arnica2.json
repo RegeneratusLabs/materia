@@ -1,0 +1,213 @@
+{
+ "doc_id": "hc-nhpid-arnica2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "ARNICA - ARNICA MONTANA",
+ "title_extra": null,
+ "date": "2025-02-28",
+ "revised": "2025-02-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-02-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=arnica2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "arnica2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:580ed929f2709fb2696197f417ab037e4bdd481e0e2d7d65dd0d740a76a85446",
+ "entities": [
+  "ARNICA - ARNICA MONTANA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-arnica2#001",
+   "text": "Dosage Form(s): Acceptable dosage forms when used according to the requirements indicated in this monograph: Cream; Gel; Liniment; Liquid; Loose; Lotion; Oil; Ointment; Paste; Powder; Salve; Solution; Spray; Topical liquid.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 30
+  },
+  {
+   "chunk_id": "hc-nhpid-arnica2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help relieve pain and/or inflammation in muscles and joints (such as sprains, bruises and/or joint pain) (Bradley 2006; Wichtl 2004; ESCOP 2003; Williamson 2003; Blumenthal et al. 2000; Felter and Lloyd 1983; Grieve 1971; Felter 1922).\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Arnica is traditionally used in Herbal Medicine to help relieve pain and/or inflammation in muscles and joints).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 158
+  },
+  {
+   "chunk_id": "hc-nhpid-arnica2#003",
+   "text": "Subpopulation(s): Children 2-11 years, Adolescents 12-17 years, Adults 18 years and older.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-arnica2#004",
+   "text": "Quantity(ies): Note: On the PLA form, quantities can be expressed as percentage weight by weight (% w/w), percentage weight by volume (% w/v) or percentage volume by volume (% v/v), depending on the product formulation. On the product label, quantities can also be expressed in other equivalent concentration units (e.g., mg/mL).\nLoose/Powder dosage forms\nMethods of preparation: Dry, Powdered\n100% of dried flowers (Bradley 2006; Wichtl 2004).\nNote: Products in loose or powder dosage forms must be prepared as an infusion by the consumer and applied as a compress (see direction for use).\nCream/Gel/Liniment/Liquid/Lotion/Oil/Ointment/Paste/Salve/Solution/Spray/Topical liquid dosage forms\nMethods of preparation: Decoction, Decoction concentrate, Infusion, Infusion concentrate\n10 - 100% dried flower extract preparation in the finished product (Bradley 2006; Wichtl 2004; ESCOP 2003; Barnes et al. 2002; Mills and Bone 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 131
+  },
+  {
+   "chunk_id": "hc-nhpid-arnica2#005",
+   "text": "Quantity(ies): Note: The extract ratio must be between 1:10 and 1:50. The formulation must be prepared in a way which is equivalent to a quantity of 10 to 20 milligrams crude dried flowers for 1 milliliter of finished product. For example, for a decoction prepared with a 1:20 w/v ratio, the concentration of decoction in the finished product must be 40% (10 - 20 mg crude dried flowers * 20 w/v (dilution) = 0.2 - 0.4 mL liquid extract in 1 mL finished product = 20 - 40% v/v extract preparation in the finished product).\nMethod of preparation: Oil, Medicated from dried plant\n1 - 15% of dried flower extract preparation in the finished product (Bradley 2006; Wichtl 2004; Blumenthal et al. 2000; Cech 2000).\nNote: Oil of Arnica must be prepared with a 1:5 ratio of arnica flower in vegetable fixed oil (e.g., olive oil, sunflower oil, etc.).\nMethod of preparation: Tincture\n5 - 33% of dried flower extract preparation in the finished product (Bradley 2006; Mills and Bone 2005; Wichtl 2004; Williamson 2003; Blumenthal et al. 2000; Fenner 1918; Remington and Woods 1918).\nNotes:\nArnica tincture must be prepared with an extract ratio between 1:5 and 1:10 and the solvent must be a mix of ethanol and water.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 210
+  },
+  {
+   "chunk_id": "hc-nhpid-arnica2#006",
+   "text": "Quantity(ies): For liquid dosage forms, Arnica tincture must be further diluted in water to obtain a final concentration of 5 to 33% extract preparation (i.e., Arnica tincture) in the finished product. For example, for a tincture with a 1:5 w/v ratio, the concentration of tincture in the finished product must be 5 to 33%, resulting in a formulation prepared with an equivalent quantity of 10 to 67 milligrams crude dried flowers for 1 milliliter of finished product (10 - 67 mg crude dried flowers * 5 w/v (dilution) = 0.05 - 0.33 mL tincture in 1 mL finished product = 5 - 33% v/v extract preparation in the finished product).\nFor semi-solid dosage forms, Arnica tincture must be diluted to reach a final concentration of 5 to 25% extract preparation (i.e., Arnica tincture) in the finished product.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 137
+  },
+  {
+   "chunk_id": "hc-nhpid-arnica2#007",
+   "text": "Direction(s) for use: All products\nRub and/or massage into skin until the preparation disappears.\nDo not apply to wounds or damaged skin (Brinker 2010; Bradley 2006; Pray\n2006; Mills and Bone 2005; Felter 1922).\nDo not tightly bandage (Pray 2006; Felter 1922).\nDo not apply with external heat, such as an electric heating pad, as\nthis may result in excessive skin irritation or skin burn (Pray 2006).\nDo not apply on or near the nipple if you are breastfeeding (Brinker\n2010; Mills and Bone 2005).\nSupervise children when they use this product (Bove 2001).\nLoose/Powder dosage forms\nPlace [insert volume to be measured by consumer in order to obtain 1 to 2 grams dried flower, e.g., 1 teaspoon] of product in 1/2 cup (125 mL) of boiling water and infuse from 10-15 minutes. Let cool. Soak a small towel/pad/gauze/cotton in the product. Apply to affected area(s), up to 4 times per day (Bradley 2006; Pray 2006; Wichtl 2004; ESCOP 2003; Mills and Bone 2000).\nLiquid dosage forms (Liquid; Solution; Topical liquid)\nSoak a small towel/pad/gauze/cotton in the product. Apply to affected area(s), up to 4 times per day (Bradley 2006; Pray 2006; ESCOP 2003; Mills and Bone 2000).\nSpray dosage form\nAvoid inhaling or exposing others to spray.\nCream/Gel/Liniment/Lotion/Oil/Ointment/Paste/Salve/Spray dosage forms",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "pregnancy",
+    "children"
+   ],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 211
+  },
+  {
+   "chunk_id": "hc-nhpid-arnica2#008",
+   "text": "Direction(s) for use: Apply thinly and evenly to affected area(s), up to 4 times per day (Pray 2006).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "hc-nhpid-arnica2#009",
+   "text": "Caution(s) and warning(s): For external use only.\nWhen using this product avoid contact with the eyes and mucous membranes. If contact occurs, rinse thoroughly with water.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist, worsen, or re-occur within a few days.\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 67
+  },
+  {
+   "chunk_id": "hc-nhpid-arnica2#010",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy, rashes or burning discomfort occur (NIH 2023; Brinker 2010; Bradley 2006; Mills and Bone 2005; ESCOP 2003; Hoffmann 2003).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "ARNICA - ARNICA MONTANA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 26
+  }
+ ]
+}

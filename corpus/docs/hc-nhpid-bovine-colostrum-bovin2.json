@@ -1,0 +1,123 @@
+{
+ "doc_id": "hc-nhpid-bovine-colostrum-bovin2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "BOVINE COLOSTRUM",
+ "title_extra": null,
+ "date": "2025-10-31",
+ "revised": "2025-10-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-10-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=bovine.colostrum.bovin2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "bovine.colostrum.bovin2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:e9833e194c18d8cd217576ace4b189700188b1c82122aeb207689f76b074bd73",
+ "entities": [
+  "BOVINE COLOSTRUM",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-bovine-colostrum-bovin2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs\nGuidance\nDocument.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product\nLicence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "BOVINE COLOSTRUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-bovine-colostrum-bovin2#002",
+   "text": "Use(s) or Purpose(s): Helps maintain/support immune function within the upper respiratory tract (Davison and Diment 2009;\nCesarone\net al. 2007; Crooks et al. 2006; Patel and Rana 2006; Brinkworth and Buckley 2003; Mero et al.\n2002).\nHelps maintain/support the immune system (Davison and Diment 2009; Cesarone et al. 2007; Crooks et al.\n2006;\nPatel and Rana 2006; Brinkworth and Buckley 2003; Mero et al. 2002).\nNote: The terms 'Helps' or 'Helps to' can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "BOVINE COLOSTRUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 79
+  },
+  {
+   "chunk_id": "hc-nhpid-bovine-colostrum-bovin2#003",
+   "text": "Quantity(ies): Method of preparation: Powdered\n0.4 - 10 grams of dried colostrum, per day (Kim et al. 2009; Cesarone et al. 2007; Shing et al. 2007;\nShing\net al. 2006).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BOVINE COLOSTRUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 30
+  },
+  {
+   "chunk_id": "hc-nhpid-bovine-colostrum-bovin2#004",
+   "text": "Caution(s) and Warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use\nif you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use\nif you have diabetes, a history of cancer, or an immune system disorder (Kim et al. 2009; Rowlands 2009;\nSalvioli et al. 2009; Tripathi et al. 2006; Albers et al. 2005; Mero et al. 2002; Mero et al. 1997).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use\nif you are taking medications to suppress the immune system (Albers et al. 2005).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes",
+    "cancer"
+   ],
+   "entities": [
+    "BOVINE COLOSTRUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 95
+  },
+  {
+   "chunk_id": "hc-nhpid-bovine-colostrum-bovin2#005",
+   "text": "Contraindication(s): Do not use if you have a known allergy/hypersensitivity to cow's milk (HC 2012).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "BOVINE COLOSTRUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 15
+  }
+ ]
+}

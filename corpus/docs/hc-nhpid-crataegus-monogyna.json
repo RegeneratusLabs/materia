@@ -1,0 +1,159 @@
+{
+ "doc_id": "hc-nhpid-crataegus-monogyna",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Hawthorn",
+ "title_extra": null,
+ "date": "2026-07-31",
+ "revised": "2026-07-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-07-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=crataegus.monogyna&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "crataegus.monogyna"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:a7f222c443d3b81d688ae8d4909398d5c4508dd5e045c5ebabfcc9fa4973741d",
+ "entities": [
+  "Hawthorn",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-crataegus-monogyna#001",
+   "text": "Route Of Administration: Oral (ESCOP 2009; Bradley 2006; Mills and Bone 2000)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Hawthorn",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-crataegus-monogyna#002",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Hawthorn",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-crataegus-monogyna#003",
+   "text": "Use(s) or Purpose(s): Fruit\nTraditionally used in Herbal Medicine to help maintain and/or support cardiovascular health in adults (ESCOP 2009; Bradley 2006; Wichtl 2004; ESCOP 2003; WHO 2002; Mills and Bone 2000; Grieve 1971).\nFruit; Flower and leaf\nUsed in Herbal Medicine to help maintain and/or support cardiovascular health in adults (Bradley 2006; Wichtl 2004; Degenring et al. 2003; ESCOP 2003; WHO 2002; Mills and Bone 2000).\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Hawthorn is traditionally used in Herbal Medicine to help maintain and support cardiovascular health in adults).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Hawthorn",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 179
+  },
+  {
+   "chunk_id": "hc-nhpid-crataegus-monogyna#004",
+   "text": "Quantity(ies): Fruit\nTraditional and Non-traditional Herbal Medicine claims\nMethods of preparation: Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.6 - 3.5 grams of dried fruit, per day (ESCOP 2009; Bradley 2006; Grieve 1971).\nMethods of preparation: Dry * , Non-Standardized Aqueous Extracts (Dry extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n1.5 - 6 grams of dried fruit, per day (EMA 2016; Bradley 2006; Mills and Bone 2000).\n*Note: Dried fruit should be prepared as an infusion or decoction by consumers prior to use (see direction for use).\nNon-traditional Herbal Medicine claim\nMethods of preparation: Standardized Ethanolic Extracts (Liquid extract)\nLiquid extract equivalent to 700 milligrams of fresh fruit per day, providing a minimum of 6.4 mg Oligomeric proanthocyanidins (OPC), per day (Degenring 2003).\nFlower and leaf\nNon-traditional Herbal Medicine claim\nMethods of preparation: Dry * , Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n1.5 - 5 grams of dried flower and leaf, per day (Bradley 2006; ESCOP 2003).\n*Note: Dried flower and leaf should be prepared as an infusion or decoction by consumers prior to use (see direction for use).\nMethods of preparation: Standardized Ethanolic Extracts (Dry extract)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Hawthorn",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 197
+  },
+  {
+   "chunk_id": "hc-nhpid-crataegus-monogyna#005",
+   "text": "Quantity(ies): 160 - 900 milligrams of extract, per day, standardized to 18.75% of Oligomeric procyanidins, as epi-catechin, and/or to 2.2% of flavonoids, as hyperoside (WHO 2002; Blumenthal et al. 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Hawthorn",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 30
+  },
+  {
+   "chunk_id": "hc-nhpid-crataegus-monogyna#006",
+   "text": "Direction(s) for use: Loose dosage form (for infusion/decoction) *\nPlace [insert volume to be measured by consumer, e.g., X teaspoons] of dried fruits/flowers and leaves in [insert the volume of water, e.g., ½ cup (125 mL)] of boiling/cold water. Infuse for [e.g., 5-15 minutes]/Bring to a boil and let simmer for [e.g., 10-20 minutes]. Strain and drink.\n*Note: This direction of use statement can be modified on the label provided that it gives clear instructions to consumers.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Hawthorn",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 77
+  },
+  {
+   "chunk_id": "hc-nhpid-crataegus-monogyna#007",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking cardiac glycosides (e.g., digoxin) or blood pressure or heart medications (Brinker 2010; Bradley 2006).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have chest pain, irregular heartbeat, or shortness of breath.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "hypertension"
+   ],
+   "entities": [
+    "Hawthorn",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  }
+ ]
+}

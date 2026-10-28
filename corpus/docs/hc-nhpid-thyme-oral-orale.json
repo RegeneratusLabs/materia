@@ -1,0 +1,180 @@
+{
+ "doc_id": "hc-nhpid-thyme-oral-orale",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "THYME -\nTHYMUS VULGARIS\n- Oral",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-06-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=thyme.oral.orale&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "thyme.oral.orale"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:b66d5ed4974d3b6370c15d1ec89253eb373a68571751dce81b058cdee51e479d",
+ "entities": [
+  "THYME -\nTHYMUS VULGARIS\n- Oral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-thyme-oral-orale#001",
+   "text": "Route of administration: Oral (Mills and Bone 2005; Blumenthal et al. 2000)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "THYME -\nTHYMUS VULGARIS\n- Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-thyme-oral-orale#002",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 1-2 years:\nThe acceptable dosage forms are limited to emulsion/suspension and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 3-5 years:\nThe acceptable dosage forms are limited to chewables, emulsion/suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older:\nThe acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "THYME -\nTHYMUS VULGARIS\n- Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "hc-nhpid-thyme-oral-orale#003",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine (as an expectorant) to help relieve the symptoms of bronchitis and mucus buildup of the (upper) respiratory tract/catarrhs (EMA 2013; Bradley 2006; Mills and Bone 2005; ESCOP 2003; Hoffmann 2003).\n(Traditionally) used in Herbal Medicine (as a spasmolytic) to help relieve coughs (EMA 2013; Bradley 2006; Mills and Bone 2005; Blumenthal et al. 2000).\n(Traditionally) used in Herbal Medicine (as a carminative) to help relieve digestive upset/indigestion/dyspepsia/(and) flatulent colic (Bradley 2006; Mills and Bone 2005; Hoffmann 2003).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help relieve coughs and as an expectorant to help relieve the symptoms of bronchitis and mucus buildup of the respiratory tract).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Thyme is traditionally used in Herbal Medicine to help relieve coughs).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "THYME -\nTHYMUS VULGARIS\n- Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 203
+  },
+  {
+   "chunk_id": "hc-nhpid-thyme-oral-orale#004",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "THYME -\nTHYMUS VULGARIS\n- Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-thyme-oral-orale#005",
+   "text": "Subpopulation(s): Children 1 to 11 years; Adolescents 12 to 17 years; Adults 18 years and older (EMA 2014; ESCOP 2003)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "THYME -\nTHYMUS VULGARIS\n- Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-thyme-oral-orale#006",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract*, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n1 - 8.4 grams of dried leaf and/or herb top flowering, per day (Bradley 2006; Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000)\n*Note: Solvents allowed for the method of preparation “Non-Standardized Extracts (Dry extract)” as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "THYME -\nTHYMUS VULGARIS\n- Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "hc-nhpid-thyme-oral-orale#007",
+   "text": "Duration(s) of use: Must be established in accordance with the requirements described in the\nNatural Health Products Regulations\n.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "THYME -\nTHYMUS VULGARIS\n- Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-thyme-oral-orale#008",
+   "text": "Caution(s) and warning(s): Ask a healthcare practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "THYME -\nTHYMUS VULGARIS\n- Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  }
+ ]
+}

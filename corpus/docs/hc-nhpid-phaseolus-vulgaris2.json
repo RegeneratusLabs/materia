@@ -1,0 +1,143 @@
+{
+ "doc_id": "hc-nhpid-phaseolus-vulgaris2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "WHITE KIDNEY BEAN EXTRACT",
+ "title_extra": null,
+ "date": "2025-10-31",
+ "revised": "2025-10-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-10-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=phaseolus.vulgaris2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "phaseolus.vulgaris2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:206c17d7e77737d638119d0ea91e562a4750477dbb4cacb09697ee18ad7c7035",
+ "entities": [
+  "WHITE KIDNEY BEAN EXTRACT",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-phaseolus-vulgaris2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "WHITE KIDNEY BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-phaseolus-vulgaris2#002",
+   "text": "Use(s) or Purpose(s): Provides support for healthy (postprandial) glucose metabolism (within two hours after a meal) (Barrett and Udani 2011; Udani et al . 2009; Vinson et al . 2009; Boivin et al . 1987; Layer et al . 1986).\nHelps improve (postprandial) glucose metabolism (within two hours after a meal) (Barrett and Udani 2011; Udani et al . 2009; Vinson et al . 2009; Boivin et al . 1987; Layer et al . 1986).\nHelps reduce the (enzymatic) digestion of carbohydrates (Barrett and Udani 2011; Vinson et al . 2009; Layer et al . 1985; Boivin et al . 1987; Layer et al . 1986).\nTo be used with a program of reduced intake of dietary calories and increased physical activity (if possible) to help in weight management (Jäger et al. 2024; Udani et al. 2018; Grube et al 2014; Wu et al. 2010; Celleno et al. 2007; Udani and Singh 2007; Udani et al. 2004).\nNote: The above uses can be combined on the product label (e.g., Helps reduce the digestion of carbohydrates and improve glucose metabolism).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "WHITE KIDNEY BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 179
+  },
+  {
+   "chunk_id": "hc-nhpid-phaseolus-vulgaris2#003",
+   "text": "Quantity(ies): Methods of preparation: Standardized aqueous extracts (Extract dry)\nGlucose metabolism; Carbohydrate digestion\n1.5 - 3 grams of white kidney bean extract per day, standardized to 3,000 AAIU 1 of alpha-amylase inhibitors, per gram of extract 2 (Barrett and Udani 2009; Udani et al. 2009; Vinson et al. 2009; Layer et al. 1985).\nWeight management\n1 gram of white kidney bean extract, three times per day, standardized to 3,000 AAIU 1 of alpha-amylase inhibitors per gram of extract (Udani et al. 2018; Grube et al 2014; Wu et al. 2010; Celleno et al. 2007; Udani and Singh 2007; Udani et al. 2004).\nNotes:\n1 AAIU = alpha-amylase inhibiting units.\n2 The potency quantity should be equal to 3,000 AAIU of alpha-amylase inhibitors per gram of extract. For example, if the quantity of the extract per dosage unit is listed as 500 mg, the quantity of alpha-amylase inhibitors should be 1,500 AAIU or if the quantity of the extract is 1,500 mg per dosage unit, the quantity of alpha-amylase inhibitors should be 4,500 AAIU, etc.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "renal"
+   ],
+   "entities": [
+    "WHITE KIDNEY BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 174
+  },
+  {
+   "chunk_id": "hc-nhpid-phaseolus-vulgaris2#004",
+   "text": "Direction(s) for use: Take before meals (Udani et al. 2018; Grube et al 2014; Wu et al. 2010; Barrett and Udani 2009; Udani et al. 2009; Vinson et al. 2009; Celleno et al. 2007; Udani and Singh 2007; Udani et al. 2004; Layer et al. 1985).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "WHITE KIDNEY BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 46
+  },
+  {
+   "chunk_id": "hc-nhpid-phaseolus-vulgaris2#005",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes (Buse 2000).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes"
+   ],
+   "entities": [
+    "WHITE KIDNEY BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 35
+  },
+  {
+   "chunk_id": "hc-nhpid-phaseolus-vulgaris2#006",
+   "text": "Contraindication(s): Do not use if you are pregnant.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "WHITE KIDNEY BEAN EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 8
+  }
+ ]
+}

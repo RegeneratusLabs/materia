@@ -1,0 +1,89 @@
+{
+ "doc_id": "hc-nhpid-flower-essences2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Flower Essences (Products may contain)",
+ "title_extra": null,
+ "date": "2025-01-10",
+ "revised": "2025-01-10",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-01-10",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=flower.essences2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "flower.essences2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:4bb2fd882dfd9da943ac55e528ea43e058f3a8968225441c50faf56bdf406ae5",
+ "entities": [
+  "Flower Essences",
+  "Products may contain"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-flower-essences2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable oral dosage forms: granule, liquid, lozenge, spray.\nAcceptable topical dosage forms: cream, liquid, ointment.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Flower Essences",
+    "Products may contain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "hc-nhpid-flower-essences2#002",
+   "text": "Quantity(ies): The dilution for each medicinal ingredient must be equivalent to 5X.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Flower Essences",
+    "Products may contain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-flower-essences2#003",
+   "text": "Direction(s) for use: Oral\nGranule\nTake 5 granules, 2 times per day, before lunch and evening meal or as directed by a health care practitioner/health care provider/health care professional/doctor/physician.\nLiquid\nTake 2 drops , 1 time per day or as directed by a health care practitioner/health care provider/health care professional/doctor/physician.\nOptional:\nAdd drops in water and sip throughout the day.\nLozenge\nTake 1 or 2 lozenge(s), 3 times per day or as directed by a health care practitioner/health care provider/health care professional/doctor/physician.\nSpray\nTake 1 spray, 1 time per day or as directed by a health care practitioner/health care provider/health care professional/doctor/physician.\nOptional:\nAdd 1 spray in water and sip throughout the day.\nTopical\nCream, liquid, ointment\nClean affected area and then apply or as directed by a health care practitioner/health care provider/health care professional/doctor/physician. Cover with a bandage if necessary.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Flower Essences",
+    "Products may contain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 141
+  },
+  {
+   "chunk_id": "hc-nhpid-flower-essences2#004",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Flower Essences",
+    "Products may contain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  }
+ ]
+}

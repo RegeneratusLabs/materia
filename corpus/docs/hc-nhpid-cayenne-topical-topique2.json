@@ -1,0 +1,195 @@
+{
+ "doc_id": "hc-nhpid-cayenne-topical-topique2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+ "title_extra": null,
+ "date": "2026-03-27",
+ "revised": "2026-03-27",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-03-27",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=cayenne.topical.topique2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "cayenne.topical.topique2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:138d7c09fd5b2a8b4a54f884796c98686bee655936aed9a8d891362784a93735",
+ "entities": [
+  "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-cayenne-topical-topique2#001",
+   "text": "Dosage Form(s): The following dosage forms are acceptable when used according to the requirements indicated in this monograph: Cream; Emulsion; Fluid extract; Foam; Gel; Liniment; Liquid; Oil; Ointment; Salve; Solution; Spray; Spray, suspension; Suspension; Tincture; Topical liquid; Wipe.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "hc-nhpid-cayenne-topical-topique2#002",
+   "text": "Use(s) or Purpose(s): Cayenne powder or extracts\nUsed in Herbal Medicine (as a rubefacient/counterirritant) to help (temporarily) relieve the symptoms of rheumatism and/or muscle and joint pain (Blumenthal et al. 2000; Lust 1987; BHP 1983; Ellingwood 1983; Felter 1983; Felter and Lloyd 1983; BPC 1934).\nCayenne extracts or Capsaicin (isolate; synthetic)\nTemporarily relieves aches and pains/soreness of muscles and joints (associated with one or more of the following: simple backache, lumbago, strains and sprains (involving muscles, tendons, and/or ligaments), and arthritis) (US FDA 2023; McCarthy et al. 1992; Deal et al. 1991).\nTemporarily relieves skin (cutaneous) pain associated with conditions such as post-herpetic neuralgia and/or diabetic neuropathy (Hautkappe et al. 1998; Watson et al. 1993; Tandan et al. 1992; Scheffler et al. 1991; The Capsaicin Study Group 1991; Bernstein et al. 1989).\nNote: The above uses can be combined on the product label (e.g., Temporarily relieves aches and pains of muscles and joints and skin pain associated with conditions such as post-herpetic neuralgia or diabetic neuropathy).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 166
+  },
+  {
+   "chunk_id": "hc-nhpid-cayenne-topical-topique2#003",
+   "text": "Subpopulation(s): Children 2 to 11 years; Adolescents 12 to 17 years; Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-cayenne-topical-topique2#004",
+   "text": "Quantity(ies): Cayenne powder or extracts\nHerbal Medicine use\nMethods of preparation: Powdered standardized, Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nThe percentage of the medicinal ingredient in the product formulation and the percentage of the potency constituent, capsaicin, in the medicinal ingredient are not restricted as long as the concentration of capsaicin in the finished product is equivalent to:\n0.01 - 0.05% capsaicin (BHP 1983) 1 .\nCayenne extracts\nRelief of muscle and joint pain\nMethods of preparation: Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nThe percentage of the medicinal ingredient in the product formulation and the percentage of the potency constituent, capsaicin, in the medicinal ingredient are not restricted as long as the concentration of capsaicin in the finished product is equivalent to:\n0.025 - 0.25% capsaicin (US FDA 2023; McCarthy et al. 1992; Deal et al. 1991). 1\nRelief of skin (cutaneous) pain\nMethods of preparation: Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nThe percentage of the medicinal ingredient in the product formulation and the percentage of the potency constituent, capsaicin, in the medicinal ingredient are not restricted as long as the concentration of capsaicin in the finished product is equivalent to:",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-cayenne-topical-topique2#005",
+   "text": "Quantity(ies): 0.075% capsaicin (Watson1993; Tandan et al. 1992; Scheffler et al. 1991; The Capsaicin Study Group 1991; Bernstein et al. 1989). 1\nCapsaicin (isolate; synthetic)\nRelief of muscle and joint pain\nMethods of preparation: Isolate, Synthetic\n0.025 - 0.25% capsaicin (US FDA 2023; McCarthy et al. 1992; Deal et al. 1991).\nRelief of skin (cutaneous) pain\nMethods of preparation: Isolate, Synthetic\n0.075% capsaicin (Watson1993; Tandan et al. 1992; Scheffler et al. 1991; The Capsaicin Study Group 1991; Bernstein et al. 1989).\n1 Note: For standardized Cayenne fruit powder or extract, the percentage of capsaicin in the finished product should also be included on the product label (e.g., Cayenne extract ( Capsicum annuum - fruit) 30%, standardized to 0.1% capsaicin is equivalent to 0.03% capsaicin in the finished product).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 128
+  },
+  {
+   "chunk_id": "hc-nhpid-cayenne-topical-topique2#006",
+   "text": "Direction(s) for use: All products\nApply thinly and evenly to affected area(s), up to 4 times per day (US FDA 2023).\nRub and/or massage into skin until solution vanishes (US FDA 2023).\nDo not apply to wounds or damaged skin (US FDA 2023).\nDo not tightly bandage (US FDA 2023).\nDo not apply with external heat, such as an electric heating pad, as this may result in excessive skin irritation or skin burn (Pray 2006; APhA 2002).\nSupervise children when they use this product (Ragucci et al. 2007; Love et al. 2004).\nProducts in spray or spray, suspension dosage form\nAvoid inhaling or exposing others to spray (APhA 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "hc-nhpid-cayenne-topical-topique2#007",
+   "text": "Duration(s) of Use: Use for at least 1-2 weeks to see beneficial effects (APhA 2002; McCarthy et al. 1992; Deal et al.1991).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "hc-nhpid-cayenne-topical-topique2#008",
+   "text": "Caution(s) and warning(s): All products\nFor external use only (US FDA 2023).\nWhen using this product avoid contact with the eyes and mucous membranes. If contact occurs, rinse thoroughly with water (US FDA 2023).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist, worsen, or re-occur within a few days (US FDA 2023).\nKeep out of the reach of children. If swallowed, call a poison control centre or get medical help right away (CPS 2008).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 81
+  },
+  {
+   "chunk_id": "hc-nhpid-cayenne-topical-topique2#009",
+   "text": "Known adverse reaction(s): All products\nStop use if headache, redness, rashes, burning discomfort and/or hypersensitivity occur (Brayfield and Cadart 2024; Zhang et al. 2008; Hoffman 2003; APhA 2002; McCleane 2000).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CAYENNE - CAPSICUM ANNUUM/CAPSAICIN Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 30
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "doc_id": "hc-nhpid-mugwort",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "MUGWORT - ARTEMISIA VULGARIS",
+ "title_extra": null,
+ "date": "2026-07-31",
+ "revised": "2026-07-31",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-07-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=mugwort&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "mugwort"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:b8058ae3458595aa35079c2a66e8be1d1d7dfaa5ce84533c0fc554a7e39fe1ed",
+ "entities": [
+  "MUGWORT - ARTEMISIA VULGARIS",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-mugwort#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nDosage forms must be suited for buccal administration which allow for direct contact between the affected tissue and the medicinal ingredient (i.e. liquid preparations, gargles and mouthwashes).",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "MUGWORT - ARTEMISIA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 46
+  },
+  {
+   "chunk_id": "hc-nhpid-mugwort#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help stimulate the appetite (Bradley 2006; Williamson et al. 1988; Grieve 1971).\n(Traditionally) used in Herbal Medicine (as a stomachic) to aid digestion (Bradley 2006; Hoffmann 2003; Williamson et al. 1988; Grieve 1971).\n(Traditionally) used in Herbal Medicine (as a choleretic) to help increase bile flow (Bradley 2006; Wichtl 2004; Williamson et al. 1988).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help stimulate the appetite and aid digestion).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Mugwort is traditionally used in Herbal Medicine to aid digestion).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "MUGWORT - ARTEMISIA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 203
+  },
+  {
+   "chunk_id": "hc-nhpid-mugwort#003",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract * , Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n0.2 - 2.4 grams of dried herb top, 3 times per day (Bradley 2006; Wichtl 2004; Hoffmann 2003).\n*Note: Solvents allowed for the method of preparation \"Non-Standardized Extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "MUGWORT - ARTEMISIA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "hc-nhpid-mugwort#004",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "MUGWORT - ARTEMISIA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "hc-nhpid-mugwort#005",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (Brinker 2010; Blumenthal et al. 1998; Williamson et al. 1988).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "MUGWORT - ARTEMISIA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-mugwort#006",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (Brinker 2010; Wichtl 2004; Hoffmann 2003).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "MUGWORT - ARTEMISIA VULGARIS",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

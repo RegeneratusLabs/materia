@@ -1,0 +1,104 @@
+{
+ "doc_id": "hc-nhpid-grape-seed-extract",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "GRAPE SEED EXTRACT",
+ "title_extra": null,
+ "date": "2024-03-28",
+ "revised": "2024-03-28",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-03-28",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=grape.seed.extract&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "grape.seed.extract"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:dc3f32618faab5d6c81c568c1c4a97635221ffe05465d8a6f03e89c1a3461088",
+ "entities": [
+  "GRAPE SEED EXTRACT",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-grape-seed-extract#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "GRAPE SEED EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-grape-seed-extract#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Sano et al. 2007; Natella et al. 2002; Bagchi et al. 2000; Bagchi et al. 1998).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Sano et al. 2007; Natella et al. 2002; Bagchi et al. 2000; Bagchi et al. 1998).\nHelps to relieve symptoms related to non-complicated chronic venous insufficiency (CVI), such as sensation of swelling, heaviness and tingling of the legs (Henriet 1993; Henriet 1988; Thébaut et al. 1985; Delacroix et al. 1981; Sarrat 1981).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "GRAPE SEED EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 97
+  },
+  {
+   "chunk_id": "hc-nhpid-grape-seed-extract#003",
+   "text": "Quantity(ies): Antioxidant\nMethods of preparation: Standardized extracts (Dry extract)\nNot to exceed 475 milligrams of grape seed extract, per day; standardized to 70-85% oligomeric proanthocyanidins (OPC) (Sano et al. 2007; Natella et al. 2002).\nRelief of symptoms related to non-complicated CVI\nMethods of preparation: Standardized extracts (Dry extract)\n150 - 475 milligrams of grape seed extract, per day; standardized to 80-85% oligomeric proanthocyanidins (OPC) (Sano et al. 2007; Henriet 1993; Henriet 1988; Thébaut et al. 1985; Delacroix 1981; Sarrat 1981)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "GRAPE SEED EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 80
+  },
+  {
+   "chunk_id": "hc-nhpid-grape-seed-extract#004",
+   "text": "Caution(s) and Warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nRelief of symptoms related to non-complicated CVI\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "GRAPE SEED EXTRACT",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 41
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "doc_id": "hc-nhpid-calendula-topical2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CALENDULA - CALENDULA OFFICINALIS - Topical",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=calendula.topical2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "calendula.topical2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:2a4f575ffb73adc1a69bae1b1452be11a1bef77a2e694646b53700682ac31c00",
+ "entities": [
+  "CALENDULA - CALENDULA OFFICINALIS - Topical",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-calendula-topical2#001",
+   "text": "Dosage Form(s): The following dosage forms are acceptable when used according to the requirements indicated in this monograph: Cream; Gel; Liquid; Ointment; Salve; Solution; Spray.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-topical2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine to help heal minor wounds (Bradley 2006; Hoffmann 2003; Ellingwood 1983; Felter and Lloyd 1983).\n(Traditionally) used in Herbal Medicine to help relieve skin inflammations and irritations (Bradley 2006; Hoffmann 2003; ESCOP 2003; Blumenthal et al. 2000; Felter and Lloyd 1983).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help heal minor wounds and help relieve skin inflammations and irritations).\nFor multi-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Calendula is traditionally used in Herbal Medicine to help heal minor wounds).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 195
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-topical2#003",
+   "text": "Subpopulation(s): Children 2 to 11 years; Adolescents 12 to 17 years; Adults 18 years and older (McIntyre 2005; Schilcher 1997; Bove 1996).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-topical2#004",
+   "text": "Quantity(ies): Liquid dosage forms: Liquid, Solution, Spray\nMethods of preparation: Decoction, Decoction concentrate, Infusion, Infusion concentrate, Oil infused\n90 - 100% of extract in the finished product (EMA 2018).\nMethods of preparation: Tincture, Fluid extract\n1 - 100% of extract in the finished product (EMA 2018; Saunders 2000).\nSemi-solid dosage forms: Cream, Gel, Ointment, Salve\nMethods of preparation: Dry, Powdered\n2 - 20% of dried flower in semi-solid dosage forms (Bradley 2006, ESCOP 2003).\nMethods of preparation: Tincture, Fluid extract\n5 - 10% of extract in semi-solid dosage forms (Bradley 2006).\nNote: For liquid and semi-solid dosage forms, the extracts are prepared as follows: Tincture (1:2 to 1:5); Fluid extract (1:1); Decoction or Infusion: 1-2 g of dried flower in 150-250 ml of water; Oil infused (1:10) (EMA 2018; ESCOP 2003; Saunders 2000).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 133
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-topical2#005",
+   "text": "Direction(s) for use: All products\nApply to affected area(s), as needed.\nTincture, Fluid extract (Optional)\nDilute 1 part of Calendula extract with 3 parts of freshly boiled, warm water and soak the compress (EMA 2018; Bradley 2006).\nChange the compress several times per day (EMA 2018; Bradley 2006).\nInfusion, Decoction (Optional)\nDilute 1 part of Calendula extract with 3 parts of freshly boiled, warm water and soak the compress (EMA 2018; Bradley 2006).\nChange the compress several times per day (Bradley 2006; Saunders 2000).\nSprays\nAvoid inhaling or exposing others to spray.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-topical2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-calendula-topical2#007",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (Brinker 2010; Mills and Bone 2005).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CALENDULA - CALENDULA OFFICINALIS - Topical",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 14
+  }
+ ]
+}

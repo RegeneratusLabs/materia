@@ -1,0 +1,164 @@
+{
+ "doc_id": "hc-nhpid-skin-peau",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Medicated Skin Care Products Monograph (Source ingredient)",
+ "title_extra": null,
+ "date": "2026-09-25",
+ "revised": "2026-09-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-09-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=skin_peau&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "skin_peau"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:65a13f62e6cbaeed446d47a86cf16c52a7c83594d074646a03f62f86fb3f7b3f",
+ "entities": [
+  "Medicated Skin Care Products Monograph",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-skin-peau#001",
+   "text": "Dosage Form(s): Acceptable dosage forms for NHPs\nCream; Gel; Liquid; Lotion; Oil; Ointment; Paste; Powder; Salve; Solution; Spray; Stick; Suspension; Topical liquid; Wipe\nAcceptable dosage forms for NPDs\nCream; Gel; Lotion; Oil; Ointment; Paste; Powder; Solution; Spray; Stick; Suspension; Wipe",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Medicated Skin Care Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-skin-peau#002",
+   "text": "Use(s) or Purpose(s): Self-Care Framework Category I Uses or Purposes:\nProducts containing allantoin, almond oil, cocoa butter, corn starch, dimethicone, glycerine, hard fat, lactic acid, lanolin, mineral oil, olive oil, petrolatum, white petrolatum, and/or urea\nTemporarily protects and helps relieve minor skin irritation and itching (US FDA 2021, Krinsky 2017).\nProducts containing allantoin, cocoa butter, hard fat, lanolin, mineral oil, petrolatum and/or white petrolatum\nTemporarily protects and helps relieve minor skin irritation and itching due to minor cuts, scrapes and burns (US FDA 2021).\nProducts containing aluminum hydroxide, calamine, kaolin, zinc acetate, zinc carbonate and/or zinc oxide\nTemporarily dries the oozing and weeping and helps relieve minor skin irritation and itching due to poison ivy/oak/sumac (US FDA 2021).\nProducts containing colloidal oatmeal\nTemporarily protects and helps relieve minor skin irritation and itching due to rashes, eczema, poison ivy/oak/sumac, and insect bites (US FDA 2021).\nProducts containing sodium bicarbonate\nTemporarily protects and helps relieve minor skin irritation and itching due to poison ivy/oak/sumac, and insect bites (US FDA 2021).\nProducts containing colloidal oatmeal and mineral oil in combination (NPD only)\nTemporarily protects and helps relieve minor skin irritation and itching due to rashes and/or eczema (US FDA 2021)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Medicated Skin Care Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 197
+  },
+  {
+   "chunk_id": "hc-nhpid-skin-peau#003",
+   "text": "Use(s) or Purpose(s): Note: Product labels must contain at least one of the above health (therapeutic) claims. Claims that are non-therapeutic in nature such as \"relieves/soothes dry skin\" or \"protects against chapping, cracking and roughness of skin due to dryness\" are acceptable as additional information on the label (but not on the licence for NHPs), provided that the claims are verifiable and not misleading. Please consult the Guidelines for the nonprescription and cosmetic industry regarding non-therapeutic advertising and labelling claims published by Ad Standards Canada for more information.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Medicated Skin Care Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 88
+  },
+  {
+   "chunk_id": "hc-nhpid-skin-peau#004",
+   "text": "Subpopulation(s): Products containing allantoin, calamine, cocoa butter, cod liver oil, corn starch, colloidal oatmeal, hard fat, kaolin, lanolin, zinc carbonate and/or zinc oxide\nInfants 0 to 12 months, Children 1 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older\nProducts containing almond oil, aluminum hydroxide, dimethicone, glycerine, lactic acid, mineral oil, olive oil, petrolatum, urea and/or white petrolatum\nInfants 6 to 12 months, Children 1 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older\nProducts containing sodium bicarbonate and/or zinc acetate\nChildren 2 to 11 years, Adolescents 12 to 17 years, Adults 18 years and older",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "liver"
+   ],
+   "entities": [
+    "Medicated Skin Care Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "hc-nhpid-skin-peau#005",
+   "text": "Quantity(ies): See Tables 1 , 2 , and 3 above.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Medicated Skin Care Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "hc-nhpid-skin-peau#006",
+   "text": "Direction(s) for use: Products intended for direct application without dilution (excluding the colloidal oatmeal or sodium bicarbonate products used as a soak in a bath or as a wet dressing) (US FDA 2021)\nApply to affected area(s) as needed.\nColloidal oatmeal products used as a soak in a bath (US FDA 2021)\nUsing warm water turned on at full force, slowly sprinkle (applicant to insert quantity to be used) under running water.\nNote: Applicant must provide adequate directions to allow consumers to obtain a solution containing: For tub bath/infant bath: a minimum of 0.007% colloidal oatmeal or 0.003% colloidal oatmeal when in combination with mineral oil. For foot bath: a minimum of 0.25% colloidal oatmeal.\nStir thoroughly to prevent clumping and settling.\nSoak affected area(s) for 15 to 30 minutes as needed or as directed by a health care practitioner.\nPat dry (do not rub) to keep a thin layer on the skin.\nSodium bicarbonate products used as a soak in a bath (US FDA 2021)\nDissolve 250 to 500 mL (1 to 2 cups) in a tub of warm water.\nSoak affected area(s) 10 to 30 minutes as needed or as directed by a health care practitioner.\nPat dry (do not rub) to keep a thin layer on the skin.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Medicated Skin Care Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 211
+  },
+  {
+   "chunk_id": "hc-nhpid-skin-peau#007",
+   "text": "Direction(s) for use: Colloidal oatmeal or sodium bicarbonate products used as a wet dressing (US FDA 2021)\nUsing warm water turned on at full force, slowly sprinkle (applicant to insert quantity to be used) under running water.\nNote: Applicant must provide adequate directions to allow consumers to obtain a solution containing a minimum of 0.25% colloidal oatmeal or sodium bicarbonate.\nStir thoroughly to prevent clumping and settling.\nSoak a clean, soft cloth in the mixture.\nApply cloth loosely to affected area(s) for 15 to 30 minutes.\nRepeat as needed.\nDiscard mixture after each use.\nSodium bicarbonate products requiring dispersal in water prior to application as a paste (US FDA 2021)\nAdd water to form a paste.\nApply to affected area(s) as needed.\nProducts in a spray form\nAvoid inhaling or exposing others to spray.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Medicated Skin Care Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 134
+  },
+  {
+   "chunk_id": "hc-nhpid-skin-peau#008",
+   "text": "Caution(s) and warning(s): All products\nFor external use only (US FDA 2021).\nWhen using this product avoid contact with eyes. If contact occurs, rinse thoroughly with water (US FDA 2021).\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms worsen or last (for) more than 7 days (US FDA 2021).\nKeep out of reach of children. If swallowed, call a poison control centre or get medical help right away.\nProducts containing colloidal oatmeal or sodium bicarbonate (when labelled for use as a soak or wet dressing)\nWhen using this product soaking too long may over-dry the skin (US FDA 2021).\nProducts containing 3% lactic acid or more\nWhen using this product limit sun exposure and apply a sunburn protectant for a week after use, as this product may increase your skin's sensitivity to the sun.\nProducts in powder form\nWhen using this product keep powder away from face to avoid inhalation, which can cause breathing problems (US FDA 2021).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Medicated Skin Care Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 164
+  },
+  {
+   "chunk_id": "hc-nhpid-skin-peau#009",
+   "text": "Contraindication(s): Products in a powder form\nDo not use on broken skin (US FDA 2021).\nProducts used to temporarily protect minor cuts, scrapes and/or burns\nDo not use on deep or puncture wounds, animal bites or serious burns (US FDA 2021).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Medicated Skin Care Products Monograph",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 41
+  }
+ ]
+}

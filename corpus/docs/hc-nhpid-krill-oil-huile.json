@@ -1,0 +1,155 @@
+{
+ "doc_id": "hc-nhpid-krill-oil-huile",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Krill Oil",
+ "title_extra": null,
+ "date": "2026-09-25",
+ "revised": "2026-09-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-09-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=krill.oil.huile&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "krill.oil.huile"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:ba6d97ba3d8ad1f3fa6e98f45ac781a50c8873b204554561f18cdd821aa492da",
+ "entities": [
+  "Krill Oil",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-krill-oil-huile#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications. Although delayed release dosage forms are usually not supported by the NNHPD's monographs, this monograph includes ‘Capsule, soft, enteric-coated’ which is commonly used for marine oil products.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Krill Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 70
+  },
+  {
+   "chunk_id": "hc-nhpid-krill-oil-huile#002",
+   "text": "Use(s) or Purpose(s): Products providing 100 milligrams or more of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) 1 , per day.\nSource of omega-3 fatty acids for the maintenance of good health (Batetta et al 2009; US FDA 2008; Bunea et al. 2004; Sampalis et al. 2003; IOM 2002).\nSource of the omega-3 fatty acids such as eicosapentaenoic acid (EPA), (and) docosahexaenoic acid (DHA) (and docosapentaenoic acid (DPA)) (Batetta et al 2009; US FDA 2008; Bunea et al. 2004; Sampalis et al. 2003; IOM 2002).\nSource of eicosapentaenoic acid (EPA), (and) docosahexaenoic acid (DHA) (and docosapentaenoic acid (DPA)) for the maintenance of good health (Batetta et al 2009; US FDA 2008; Bunea et al. 2004; Sampalis et al. 2003; IOM 2002).\nProducts providing 200 milligrams or more of EPA and DHA 1 , per day\nHelps support/maintain (normal) heart/cardiovascular health (EFSA 2012).\nHelps support/maintain (normal) heart/cardiovascular function (EFSA 2012).\nProducts providing 1,000 milligrams or more of EPA and DHA 1 , per day\nHelps reduce (blood) triglyceride(s)/triacylglycerol(s) (levels) (EFSA 2012).\nHelps support/maintain normal (blood) triglyceride/triacylglycerol levels (EFSA 2012).\nNotes\n1 EPA and DHA may be represented as Omega-3 fatty acids on the PLA form.\nThe above uses can be combined on the product label (e.g., Helps reduce triglycerides and maintain cardiovascular health).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Krill Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "hc-nhpid-krill-oil-huile#003",
+   "text": "Use(s) or Purpose(s): The terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Krill Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "hc-nhpid-krill-oil-huile#004",
+   "text": "Quantity(ies): Method of preparation : Standardized fixed oil\nNot to exceed 4.1 grams of krill oil, per day; providing 100 milligrams or more eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) 1 per day (US FDA 2008; Bunea et al. 2004; Sampalis et al. 2003; IOM 2002).\nNotes:\n1 EPA and DHA (and DPA) may be represented as Omega-3 fatty acids on the PLA form. The minimum daily dose of 100 mg EPA and DHA also applies to the sub-ingredient \"Omega-3 fatty acids\" as a threshold; however, the DPA content should be taken into consideration.\nIn addition to the quantity of krill oil, the potency information must be provided. The potency may be expressed either as the amount (milligrams) and/or percentage (%) of EPA and DHA (and DPA) (% w/w) relative to the total quantity of krill oil or replaced with the sub-ingredient, Omega-3 fatty acids, on the PLA form.\nIf potency is declared as Omega-3 fatty acids , the licence holder must ensure that the minimum EPA and DHA amounts required to support the selected claims are met. Documentation demonstrating EPA and DHA (and DPA) content must be maintained and made available upon request.\nOmega-3 fatty acids from krill oil may include EPA, DHA and DPA.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Krill Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 206
+  },
+  {
+   "chunk_id": "hc-nhpid-krill-oil-huile#005",
+   "text": "Quantity(ies): If the potency is listed as Omega-3 fatty acids on the PLA form, the label may also include the amounts of EPA and DHA (and DPA) as additional information.\nConversely, if EPA and DHA (and DPA) are listed on the PLA form, the label may also include the total Omega-3 fatty acids content as additional information.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Krill Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "hc-nhpid-krill-oil-huile#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Krill Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-krill-oil-huile#007",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (HC 2009).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Krill Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  }
+ ]
+}

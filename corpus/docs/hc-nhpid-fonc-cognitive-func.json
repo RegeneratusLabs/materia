@@ -1,0 +1,396 @@
+{
+ "doc_id": "hc-nhpid-fonc-cognitive-func",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Cognitive Function Products (Source information for)",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=fonc.cognitive.func&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "fonc.cognitive.func"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:89f3dd837b4004695ed04adff1ac93faf24450aa2553c49b2171bb9a40ca4123",
+ "entities": [
+  "Cognitive Function Products",
+  "Source information for"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#002",
+   "text": "Use(s) or Purpose(s): Refer to Tables 2.1 to 2.6. below.\nNotes:\nThe recommended uses can be combined on the product label if from the same traditional or non-traditional system of medicine.\nThe terms ‘Helps’ or ‘Helps to’ can be used interchangeably on the label.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 44
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#003",
+   "text": "Quantity(ies): Refer to Tables 2.1 to 2.7. below.\nNotes:\nMethods of preparation: Solvents allowed for the methods of preparation, Non-Standardized Extracts “Dry extract” and Non-Standardized Ethanolic Extracts “Dry extract” as part of this monograph are ethanol and/or water only, unless otherwise specified. For Non-Standardized Aqueous Extracts “Dry extract”, water is the only solvent allowed.\nWhen the method of preparation ‘decoction’ or ‘infusion’ is listed as part of the acceptable methods of preparation, the method of preparation ‘decoction concentrate’ or ‘infusion concentrate’ is also applicable.\nTable 2.1. Cognitive function uses or purposes and associated daily doses for ingredients with nervine action\nUses or Purposes 1 1\nMedicinal Ingredients\nMethods of preparation\nDoses/day 2\n(Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (nervine/calmative)\nAnemone pulsatilla (Pasqueflower)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.03-0.6 grams dried herb top, per day\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n0.1-0.9 grams dried herb top, per day\nAvena sativa (Oat)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.6-20 grams dried seed, per day\n3 grams dried herb top, per day\nNepeta cataria (Catnip)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1.2-12 grams dried herb top, per day\nPanax quinquefolius (Canadian/American ginseng)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#004",
+   "text": "Quantity(ies): 0.5-12 grams dried root, per day\nTilia cordata (Small-leaf linden)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1.5-12 grams dried flower, per day\nTilia platyphyllos (Large-leaf linden)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1.5-12 grams dried flower, per day\nTilia x europaea (European Linden)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1.5-12 grams dried flower, per day\nTurnera diffusa (Damiana)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n1.5-4 grams dried leaf/leaf and stem, per day\n(Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (nervine/calmative)\nHypericum perforatum (St. John's wort)\nDry, Powdered, Non- Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2-12.6 grams dried herb top, per day; Not to exceed 4.2 grams per single dose\nUsed in Herbal Medicine to help relieve restlessness and/or nervousness (nervine/calmative)\nAND/OR\n(Used in Herbal Medicine to) help(s) relieve sleep disturbances associated with mood imbalance\nStandardized Extracts (Dry extract)\n600-1800 milligrams of dried herb top extract, per day, standardized to 3-6% hyperforin and/or 0.12- 0.28% hypericin; Not to exceed 600 milligrams of extract per single dose\nHelps (to) relieve sleep disturbances associated with mood imbalance\nL-5-Hydroxytryptophan (L-5-HTP)\nN/A\n100-200 milligrams, per day",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 208
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#005",
+   "text": "Quantity(ies): (Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (which helps to promote sleep) (nervine/calmative)\nMatricaria chamomilla (German chamomile)\nDry, Powdered, Non- Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n1.5-24 grams dried flower, per day\nMelissa officinalis (Lemon balm)\nDry, Powdered, Non- Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.4-13.5 grams dried herb top, per day\nScutellaria lateriflora (Skullcap)\nDry, Powdered, Non- Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.25-12 grams dried herb top, per day\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n3-12 grams dried herb top, per day\nStachys officinalis (Wood betony)\nDry, Powdered, Non- Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n2-4 grams dried herb top, per day\nTraditionally used in Ayurveda to balance aggravated Vata (nervine)\nAND/OR\nTraditionally used in Ayurveda to help relieve restlessness and/or nervousness (which helps (to) promote sleep).\nWithania somnifera (Ashwagandha)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2-6 grams dried root, per day\n1 References consulted for the uses or purposes: Sutanto et al. 2024; ESCOP 2009; Bradley 2006; Bone 2003; Hoffman 2003; Barnes et al. 2002; Kapoor 2001; Blumenthal et al. 2000; Upton 2000; Wheatley 1999; Poldinger et al. 1991; Williamson et al. 1988; Ellingwood 1983; Felter and Lloyd 1983; Soulairac and Lambinet 1977; Grieve 1971.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#006",
+   "text": "Quantity(ies): 2 References consulted for the doses: Sutanto et al. 2024; CNF 2023; EMA 2008; Anghelescu et al. 2006; Bone 2003; Hoffman 2003; API 2001; Kapoor 2001; Blumenthal et al. 2000; Bradley 1992; Williamson et al. 1988; BHP 1983; Ellingwood 1983; Felter and Lloyd 1983; Soulairac and Lambinet 1977; Remington and Wood 1918; BPC 1911.\nTable 2.2. Cognitive function uses or purposes and associated daily doses for ingredients with sedative (soporific) action\nUses or Purposes 1\nMedicinal Ingredients\nMethods of preparation\nDoses/day 2\n(Traditionally) used in Herbal Medicine as a sleep aid (during times of mental stress).\nAND/OR\n(Traditionally) used in Herbal Medicine to help relieve restlessness and/or nervousness (calmative).\nEschscholzia californica (California-poppy)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.2-3 grams dried herb top (flowering), per day\nHumulus lupulus (Hops)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.5-6 grams dried strobile, per day\nPassiflora incarnata (Passionflower)\nDry, Powdered, Non- Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.25-8 grams dried herb top, per day\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n1-8 grams dried herb top, per day\n(Traditionally used in Herbal Medicine as a) sleep aid/(to) help(s) to promote sleep.\nAND/OR\n(Traditionally) used in Herbal Medicine to relieve restlessness and/or nervousness (calmative)\nValeriana officinalis (Valerian)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "sedation",
+    "traditional"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#007",
+   "text": "Quantity(ies): Dry, Powdered, Non- Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.3-12 grams dried root/root and rhizome, per day; Not to exceed 3.6 grams per single dose\nStandardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.3-12 grams dried root/root and rhizome, per day 3 ; Not to exceed 3.6 grams per single dose and:\n0.05-0.90% valerenic acid\nOR\n0.10-0.90% sesquiterpenic acids\n1 References consulted for the uses or purposes: Williamson et al. 1988; refer to respective single ingredient monographs.\n2 References consulted for the doses: Williamson et al. 1988; refer to respective single ingredient monographs.\n3 Note: For Valerian extracts standardized to valerenic acid or sesquiterpenic acids, the quantity dried equivalent and the extract ratio must be provided.\nTable 2.3. Cognitive function uses or purposes and associated daily doses for ingredients with with cognitive support action\nUses or Purposes 1\nMedicinal Ingredients\nMethods of preparation\nDoses/day 2\nHelps support cognitive/brain health/function.\nAcetylcarnitine\nN/A\n1.5-4 grams, per day\nBacopa monnieri (Bacopa)\nStandardized Extracts (Dry extract)\n300 milligrams dried whole plant/herb top extract, per day, standardized to 40-55% bacosides\nCod liver oil\nStandardized fixed oil\n18 years:\n0.77-4 grams cod liver oil, per day\nAnd\n150-1,360 milligrams EPA + DHA including at least 100 milligrams DHA, per day\nAnd\n138-2,800 micrograms RAE (vitamin A), per day\nAnd",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#008",
+   "text": "Quantity(ies): 1.15-23.12 micrograms vitamin D 3 , per day\n19 years and older:\n0.77-4 grams cod liver oil, per day\nAnd\n150-1,360 milligrams EPA + DHA including at least 100 milligrams DHA, per day\nAnd\n138-3,000 micrograms RAE (Vitamin A), per day\nAnd\n1.15-25 micrograms Vitamin D3, per day\nL-alpha-Glycerophosphorylcholine (Choline alfoscerate)\nN/A\n1.2 grams, per day\nFish oil\nStandardized fixed oil\n150-5,000 milligrams EPA and DHA including at least 100 milligrams DHA, per day 3\nPhosphatidylserine\nN/A\n300 milligrams, per day\nSchizochytrium oil\nStandardized fixed oil\n200-2,000 milligrams DHA, per day\nHelps (to) support memory\nBacopa monnieri (Bacopa)\nStandardized Extracts (Dry extract)\n300 milligrams dried whole plant/herb top extract, per day, standardized to 40- 55% bacosides\nTraditionally used in Ayurveda for memory enhancement\nBacopa monnieri (Bacopa)\nDry, Powdered, Non- Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n1-6.5 grams dried whole plant/herb top, per day\nWithania somnifera (Ashwagandha)\nDry, Powdered, Non- Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2-6 grams dried root, per day\nHelps (to) improve sustained attention.\nCiticoline\nN/A\n250-1000 milligrams per day; not to exceed 500 milligrams per single dose\nHelps (to) support cognitive health and/or brain function in older adults.\nN/A\n500-1000 milligrams per day; not to exceed 500 milligrams per single dose",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "liver",
+    "traditional"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 210
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#009",
+   "text": "Quantity(ies): Used in Herbal Medicine to help improve mental performance after periods of mental exertion\nEleutherococcus senticosus (Eleuthero)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.91-6 grams dried root/root and rhizome, per day\nHelps (to) enhance cognitive function and/or memory in adults\nGinkgo biloba (Ginkgo)\nStandardized Extracts (Dry extract)\n80-240 milligrams of extract, per day (quantity crude equivalent 4 - 12 g of dried leaves, per day) providing at least 80 milligrams of extract per single dose and standardized to:\n22-27% flavonoid glycosides\nAnd\n5-7% terpene lactones\n(Used in Herbal Medicine to) help(s) support cognitive function and/or reduce mental fatigue (in cases of mental stress)\nAND/OR\nHelps support cognition\nPanax ginseng (Panax ginseng)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid Extract, Decoction, Infusion)\n0.5-9 grams dried root/ rootlet, per day\nStandardized Extracts (Dry extract)\n200-600 milligrams of extract, per day; standardized to 4-7% total ginsenosides; Not to exceed a quantity crude equivalent of 9 grams of dried root/rootlet, per day\n(Used in Herbal Medicine) (to) help(s) support cognitive function (such as mental focus and mental stamina)\nRhodiola rosea (Rhodiola)\nTincture\n1.2-1.8 grams dried root/root and rhizome, per day\nStandardized Extracts (Dry extract)\n144-680 milligrams of dried root/root and rhizome extract, per day; Not to exceed 200 milligrams per single dose and:\n0.8-3% salidroside\nAnd/Or\n1-6% rosavins",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#010",
+   "text": "Quantity(ies): Helps to decrease cognitive fatigue due to physically stressful situations (e.g. extended wakefulness, exposure to cold, excessive noise).\nL-Tyrosine\nN/A\n10-20 grams, per day; Not to exceed 10 grams per single dose\n1 References consulted for the uses or purposes: Nakazaki et al. 2021; McGlade et al. 2015, 2012; Morgan and Stevens 2010; Yurko-Mauro et al. 2010; Barbhaiya et al. 2008; Calabrese et al. 2008; Malaguanera et al. 2008; Stough et al. 2008; Raghav et al. 2006; Murthy 2004; De Jesus Moreno Moreno 2003; Roodenrys et al. 2002; API 2001; Parnetti et al. 2001; Stough et al. 2001; Thal et al. 2000; Upton 2000; Neri et al. 1995; Barbagallo et al. 1994; Pettegrewet al. 1994; Parnetti et al. 1993; Sano et al. 1992; Canal et al. 1991; Spagnoli et al. 1991.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 132
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#011",
+   "text": "Quantity(ies): 2 References consulted for the doses : Nakazaki et al. 2021; McGlade et al. 2015, 2012; Cotroneo et al. 2013; EFSA 2013; Jensen et al. 2010; Morgan and Stevens 2010; Quinn et al. 2010; Yurko-Mauro et al. 2010; Calabrese et al. 2008; Malaguanera et al. 2008; Mahoney et al. 2007; Bone 2003; De Jesus Moreno Moreno 2003; API 2001; Kapoor 2001; Parnetti et al. 2001; Stough et al. 2001; Thal et al. 2000; Barbagallo et al. 1994; Pettegrewet al. 1994; Parnetti et al. 1993; Sano et al. 1992; Canal et al. 1991; Spagnoli et al. 1991.\n3 For fish oil including species of Gadidae as a source material, the vitamin A and D content should be tested to ensure that the daily maximum amounts meet the Multi-Vitamin/Mineral Supplements monograph for each age group.\nTable 2.4. Cognitive function uses or purposes and associated daily doses for caffeine and ingredients containing caffeine\nUses or Purposes 1\nMedicinal Ingredients\nMethods of preparation\nDoses/day 2\nHelps (temporarily) (to) promote alertness and wakefulness, and (to) enhance cognitive performance\nAND/OR\nHelps (temporarily) (to) relieve/reduce fatigue/tiredness\nAND/OR\nHelps (temporarily) (to) support/promote mental sharpness/alertness\n1,3,7-Trimethylxanthine (Caffeine)\nN/A\n100-400 milligrams, per day and 100-200 milligrams per single dose\nIlex paraguariensis (Yerba mate)\nStandardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#012",
+   "text": "Quantity(ies): Extract standardized to caffeine corresponding to a maximum Quantity Crude Equivalent of 6 grams dried leaf, per day; not exceeding 150 milligrams caffeine per day; and providing 100-150 milligrams caffeine per single dose\nPaullinia cupana (Guarana)\nStandardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\nExtract standardized to caffeine corresponding to a maximum Quantity Crude Equivalent of 3 grams dried seed per day and not exceeding 200 milligrams caffeine per day; and providing 100-200 milligrams caffeine per single dose\nUsed in Herbal Medicine to help temporarily promote alertness and wakefulness, and to enhance cognitive performance\nIlex paraguariensis (Yerba mate)\nStandardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\nExtract standardized to caffeine corresponding to a Quantity Crude Equivalent of 3-6 grams dried leaf, per day and not exceeding 150 milligrams caffeine per day\nStandardized Aqueous Extracts (Dry extract, Decoction, Infusion)\nExtract standardized to caffeine corresponding to a Quantity Crude Equivalent of 2-6 grams dried leaf, per day and not exceeding 150 milligrams caffeine per day\nPaullinia cupana (Guarana)\nStandardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\nExtract standardized to caffeine corresponding to a Quantity Crude Equivalent of 1-3 grams dried seed, per day and not exceeding 200 milligrams caffeine per day",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 200
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#013",
+   "text": "Quantity(ies): 1 References consulted for the uses or purposes: EMA 2013; EMA 2010; ESCOP 2009; Bradley 2006; Christopher et al. 2005; Kennedy al. 2004; Taylor 2003; Barnes et al. 2002; Kamimori et al. 2000; Zwyghuizen- Doorenbos et al. 1990.\n2 References consulted for the doses: Health Canada 2025; EMA 2013; Health Canada 2012; EMA 2010; ESCOP 2009; Bradley 2006; Taylor 2003.\nTable 2.5. Cognitive function uses or purposes and associated daily doses for ingredients with relaxation action\nUses or Purposes 1 1\nMedicinal Ingredients\nMethods of preparation\nDoses/day 2\nHelps (to) temporarily promote relaxation\n4-Aminobutanoic acid (GABA)\nN/A\n50-3,000 milligrams, per day; Not to exceed 750 milligrams per single dose\nL-Theanine\nN/A\n200-250 milligrams, per day\n1 References consulted for the uses or purposes: Kanehira et al. 2011; Abdou et al. 2006.\n2 References consulted for the doses: Kanehira et al. 2011; Powers et al. 2007; Yamakoshi et al. 2006.\nTable 2.6. Cognitive function uses or purposes and associated daily doses for ingredients with adaptogen action\nUses or Purposes 1\nMedicinal Ingredients\nMethods of preparation\nDoses/day 2\nUsed in Herbal Medicine as an adaptogen to help increase energy and resistance to stress over time (e.g. in case of mental and physical fatigue related to stress)\nAsparagus racemosus (Shatavari)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 218
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#014",
+   "text": "Quantity(ies): 2-6 grams dried root, per day\nAstragalus membranaceus (Astragalus)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n2-4.8 grams dried root, per day\nEleutherococcus senticosus (Eleuthero)\nDry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n0.91-6 grams dried root/root and rhizome, per day\nGanoderma lucidum (Reishi)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n1.5-6 grams dried cultured mycelium/ fruiting body/mycelium, per day\nDecoction, Decoction concentrate\n3-15 grams dried cultured mycelium/ fruiting body/mycelium, per day\nDecoction Standardized, Decoction concentrate Standardized\n3-15 grams dried cultured mycelium/ fruiting body/mycelium, per day and not to exceed 40 % polysaccharides\nGlycyrrhiza glabra (Licorice)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.6-6 grams dried root/root and stolon, per day\nOcimum tenuiflorum (Holy basil)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n2-3 grams dried leaf, per day\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n4.2-28 grams dried leaf, per day\nPanax ginseng (Panax ginseng)\nDry, Powdered, Non- Standardized Extracts (Dry extract, Tincture, Fluid Extract, Decoction, Infusion)\n0.5-9 grams dried root/ rootlet, per day\nStandardized Extracts (Dry extract)\n200-600 milligrams of extract, per day; standardized to 4-7% total ginsenosides; Not to exceed a quantity crude equivalent of 9 grams dried root/rootlet, per day\nPanax quinquefolius (Canadian/American ginseng)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 213
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#015",
+   "text": "Quantity(ies): Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n1-3 grams dried root, per day\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n6-9 grams dried root, per day; Not to exceed 3 grams per single dose\nRhodiola rosea (Rhodiola)\nNon-Standardized Ethanolic Extracts (Dry extract)\n144-400 milligrams of extract and a quantity crude equivalent of 216-2,000 milligrams dried root/root and rhizome, per day; Not to exceed 200 milligrams of extract and a QCE of 1 gram dried root/root and rhizome, per single dose\nTincture\n1.2-1.8 grams dried root/root and rhizome, per day\nStandardized Extracts (Dry extract)\n144-680 milligrams of dried root/root and rhizome extract, per day; Not to exceed 200 milligrams per single dose and:\n0.8 - 3% salidroside\nAnd/Or\n1 - 6% rosavins\nSchisandra chinensis (Schisandra)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract\n1.2-6 grams dried fruit, per day\nNon-Standardized Aqueous Extracts (Dry extract, Decoction, Infusion)\n1.5-6 grams dried fruit, per day\nTinospora cordifolia (Guduchi)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.9-3 grams dried stem, per day\nDecoction, Decoction concentrate\n20-30 grams dried stem, per day\nWithania somnifera (Ashwagandha)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n2.5-6.5 grams dried root/whole plant, per day",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 205
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#016",
+   "text": "Quantity(ies): (Used in Herbal Medicine to) help(s) (to) temporarily relieve symptoms of stress (such as mental fatigue and sensation of weakness)\nRhodiola rosea (Rhodiola)\nNon-Standardized Ethanolic Extracts (Dry extract)\n144-400 milligrams of extract and a Quantity Crude Equivalent (QCE) of 216-2,000 milligrams dried root/root and rhizome, per day; Not to exceed 200 milligrams of extract and a QCE of 1 gram dried root/root and rhizome, per single dose\nTincture\n1.2-1.8 grams dried root/root and rhizome, per day\nStandardized Extracts (Dry extract)\n144-680 milligrams of dried root/root and rhizome extract, per day; Not to exceed 200 milligrams per single dose and:\n0.8 - 3% salidroside\nAnd/Or\n1 - 6% rosavins\nTraditionally used in Ayurveda as Rasayana (rejuvenative tonic)\nAsparagus racemosus (Shatavari)\nDry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n3-6 grams dried root, per day\nWithania somnifera (Ashwagandha)\nDry, Powdered, Non- Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Infusion)\n2-6 grams dried root, per day\n1 References consulted for the uses or purposes: Upton 2012; Winston and Maimes 2007; Mills and Bone 2005; API 2004; WHO 2004; Bone 2003; Hoffman 2003; Thomsen 2002; Williamson 2002; API 2001; Blumenthal et al. 2000; Upton 2000, 1999; WHO 1999; Bradley 1992.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 200
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#017",
+   "text": "Quantity(ies): 2 References consulted for the doses: Upton 2012; Winston and Maimes 2007; Mills and Bone 2005; API 2004, 2001; WHO 2004; Bone 2003; Hoffman 2003; Thomsen 2002; Williamson 2002; Kapoor 2001; Blumenthal et al. 2000; Upton 1999; WHO 1999; Bradley 1992.\nTable 2.7. Maximum daily doses for complementary ingredients with no associated recommended use\nMedicinal Ingredients\nMethods of preparations\nDoses/day 1\nHuperzia serrata (Toothed club-moss)\nStandardized extracts (Dry extract)\nUp to 20 milligrams extract standardized to huperzine A, per day; Not to exceed 1% huperzine A potency\nHuperzine A\nN/A\nUp to 200 micrograms, per day\nTheacrine\nN/A\nUp to 300 milligrams, per day\nTheobromine\nN/A\nUp to 850 milligrams, per day\n1 References consulted for the doses: Clewell et al. 2016; Taylor et al. 2016; Neufingerl et al. 2013; Ma et al. 2007; Sun et al. 1999.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 139
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#018",
+   "text": "Risk Information: Consult Table 5 for appropriate statements related to each medicinal ingredient. The medicinal ingredients in Table 5 are associated with the required numbered statements below.\nAs per the respective NNHPD monograph.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#019",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a urinary tract disorder and/or kidney disease.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have kidney disease and/or a seizure disorder.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have high blood pressure or glaucoma.\nProducts providing Huperzia serrata, huperzine A, or over 150 mg/day theobromine: Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a blood pressure or cardiovascular disorder.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking medications which affect acetylcholine levels (cholinergic or anticholinergic drugs).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking dopaminergic or cholinergic drugs.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 198
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#020",
+   "text": "Caution(s) and warning(s): Products making a sustained attention claim: Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you have an attention deficit disorder with or without hyperactivity (ADD or ADHD).\nWhen using this product exercise caution if you drive or use machinery as you may experience drowsiness.\nProducts providing 300 mg or more GABA per day: When using this product avoid taking with alcohol.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#021",
+   "text": "Contraindication(s): Do not use this product if you are pregnant or breastfeeding.\nDo not use this product if you are pregnant.\nDo not use if you have gastrointestinal irritation.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#022",
+   "text": "Known adverse reaction(s): Stop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if you experience dizziness, unusual muscle cramping, agitation, gastrointestinal symptoms such as nausea, vomiting, diarrhea or excessive salivation.\nStop use and ask a health care practitioner/health care provider/health care professional/doctor/physician if hypersensitivity/allergy occurs.\nStop use if you experience severe stomach and/or intestinal irritation.\nWhen using this product you may experience gastrointestinal discomfort/disturbances.\nWhen using this product you may experience headaches or gastrointestinal discomfort/disturbances.\nWhen using this product (a) diuretic effect may occur.\nTable 5. Risk information, durations of use, and directions for use associated with medicinal ingredients\nMedicinal Ingredients\nRisk Information\nDurations of Use\nDirections for use\n1,3,7-Trimethylxanthine (Caffeine)\n1\n1\n4-Aminobutanoic acid (GABA)\n5,16\n2\nAcetyl-L-Carnitine (Acetylcarnitine)\n5, 9, 23\nAnemone pulsatilla (Pasqueflower)\n4, 8, 17, 19, 22\nAsparagus racemosus (Shatavari)\n6\nAstragalus membranaceus (Astragalus)\n1\nAvena sativa (Oat)\n4\nBacopa monnieri (Bacopa)\n5, 23\nCiticoline\n5, 13, 14, 24\nCod liver oil\n1\nEleutherococcus senticosus (Eleuthero)\n1\n1\nEschscholzia californica (California-poppy)\n1\n1\nFish oil\n1\nGanoderma lucidum (Reishi)\n1\n1\nGinkgo biloba (Ginkgo)\n1\n1\nGlycyrrhiza glabra (Licorice)\n1\n1\nHumulus lupulus (Hops)\n1\n1\nHuperzia serrata ; Huperzine A\n11, 12, 17, 20\n2\nHypericum perforatum (St. John's wort)\n1\n1\nIlex paraguariensis (Yerba mate)\n5, 10, 21, 25\nL-5-Hydroxytryptophan (L-5-HTP)\n1\n1\n1",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "hypertension"
+   ],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 223
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#023",
+   "text": "Known adverse reaction(s): L-alpha-Glycerophosphorylcholine (Choline alfoscerate)\n5\nL-Tyrosine\n1\n1\n1\nMatricaria chamomilla (German chamomile)\n1\nMelissa officinalis (Lemon balm)\n1\nNepeta cataria (Catnip)\n1\nOcimum tenuiflorum (Holy basil)\n1\nPanax ginseng (Asian ginseng)\n1\n1\nPanax quinquefolius (Canadian/American ginseng)\n1\nPassiflora incarnata (Passionflower)\n1\n1\nPaullinia cupana (Guarana)\n5, 10, 21, 25\nPhosphatidylserine\n1\nRhodiola rosea (Rhodiola)\n1\nSchisandra chinensis (Schisandra)\n7, 18\nScutellaria lateriflora (Skullcap)\n1\nStachys officinalis (Wood Betony)\n4, 5, 15\nTheacrine\n5, 10\n3\nTheobromine\n5, 11, 23\n2\nTilia cordata (Small-leaf linden)\n1\nTilia platyphyllos (Large-leaf linden)\n1\nTilia x europaea (European linden)\n1\nTinospora cordifolia (Guduchi)\n5\nTurnera diffusa (Damiana)\n4, 7, 18\nValeriana officinalis (Valerian)\n1\n1\nWithania somnifera (Ashwagandha)\n1\nCombination of ingredients resulting in a total caffeine content of 40 mg/day or more (e.g. Yerba mate and Guarana extracts)\nas per the caffeine monograph\nas per the caffeine monograph",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 149
+  },
+  {
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#024",
+   "text": "Known adverse reaction(s): References: Nakazaki et al. 2021; Clewell et al. 2016; Taylor et al. 2016; Kuhman et al. 2015, McGlade et al. 2015, Morasch et al. 2015, Baggott et al. 2013, Cotroneo et al. 2013; EFSA 2013; EMA 2013; Gardner and McGuffin 2013, Neufingerl et al. 2013, Yang et al. 2013, McGlade et al. 2012, Fiebich et al. 2011; AMR 2010; Morgan and Stevens 2010; Okun et al. 2010, Van den Bogaard et al. 2010; ESCOP 2009; Wang et al. 2009; Calabrese et al. 2008; CPS 2008; Li et al. 2008, Cornelis and El-Sohemy 2007; Powers et al. 2007; Bain et al.2006; Bradley 2006; Bui et al. 2006; Mills et al. 2006; Shils et al. 2006; Turner et al. 2006; Bouchard et al. 2005; Chandrasekaran et al. 2005; Haller et al. 2005; Noordzij et al. 2005; Nathan et al. 2004; Bone 2003; Zangara 2003; Avisar et al. 2002; Barnes et al. 2002; Berardi et al. 2002; Thomsen 2002; Brinker 2001; Nathan et al. 2001; Stough et al. 2001; Arya et al. 2000; Pepping 2000; Vahedi et al. 2000; Jee et al. 1999; Sun et al. 1999; Mester et al. 1995; Xu et al. 1995, Bradley 1992; Zimmerman 1992; Creighton and Stanton 1990; Rai et al. 1990; Jefferson 1988.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Cognitive Function Products",
+    "Source information for"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 209
+  }
+ ]
+}

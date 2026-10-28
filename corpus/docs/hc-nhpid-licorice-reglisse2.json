@@ -1,0 +1,168 @@
+{
+ "doc_id": "hc-nhpid-licorice-reglisse2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "LICORICE",
+ "title_extra": null,
+ "date": "2024-11-29",
+ "revised": "2024-11-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-11-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=licorice.reglisse2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "licorice.reglisse2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:9ec7edd0539e7e822bcee16efabe9e9ae26000ccc14e278051254123e5ef7fcd",
+ "entities": [
+  "LICORICE",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-licorice-reglisse2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms by age group:\nChildren 4-5 years: The acceptable dosage forms are limited to chewables, emulsion/ suspension, powders and solution/liquid preparations (Giacoia et al. 2008; EMA/CHMP 2006).\nChildren 6-11 years, Adolescents 12-17 years, and Adults 18 years and older: The acceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "LICORICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 85
+  },
+  {
+   "chunk_id": "hc-nhpid-licorice-reglisse2#002",
+   "text": "Use(s) or Purpose(s): All subpopulations\n(Traditionally) used in Herbal Medicine as an expectorant to help relieve (mucous buildup (catarrhs) and) cough associated with upper respiratory tract infections/cold (EMA 2012; Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000; Bradley 1992; Felter and Lloyd 1983, Grieve 1971).\nAdults only\nUsed in Herbal Medicine to help relieve inflammatory conditions of the gastrointestinal tract, such as gastritis in adults (ESCOP 2003; Hoffmann 2003; Bradley 1992).\nNotes\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Licorice is used in Herbal Medicine as an expectorant to help relieve cough associated with upper respiratory tract infections).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "LICORICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 190
+  },
+  {
+   "chunk_id": "hc-nhpid-licorice-reglisse2#003",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract * , Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nTable 2. Dose information for licorice dried root/root and rhizome/root and stolon/root and rhizome and stolon per day\nSubpopulations\nDried root/rhizome/stolon (gram/day)\nMinimum\nMaximum\nChildren 1\n4 years\n0.1\n2.5\n5-9 years\n0.15\n3.75\n10-11 years\n0.3\n7.5\nAdolescents 1\n12-14 years\n0.3\n7.5\n15-17 years\n0.6\n15\nAdults 1 , 2\n18 years and older\n0.6\n15\n1 Children and adolescent doses were calculated as a fraction of the adult dose (JC 2018). The use of licorice in children and adolescents is supported by the following references: McIntyre 2005; Schilcher 1997; Bove 1996.\n2 Adult dose supported by the following references: Mills and Bone 2005; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000; Bradley 1992.\n*Note: Solvents allowed for the method of preparation \"Non-standardized extracts (Dry extract)\" as part of this monograph are ethanol and/or water only.\nMethods of preparation: Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nTable 3. Dose information for glycyrrhizin per day\nSubpopulations\nGlycyrrhizin (milligram/day)\nMinimum\nMaximum\nChildren 1\n4 years\n10\n100\n5-9 years\n15\n150\n10-11 years\n30\n300\nAdolescents 1\n12-14 years\n30\n300\n15-17 years\n60\n600\nAdults 1 , 2\n18 years and older\n60",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "LICORICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "hc-nhpid-licorice-reglisse2#004",
+   "text": "Quantity(ies): 600\n1 Children and adolescent doses were calculated as a fraction of the adult dose (JC 2023). The use of licorice in children and adolescents is supported by the following references: McIntyre 2005; Schilcher 1997; Bove 1996.\n2 Adult dose supported by the following references: ESCOP 2003.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "LICORICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "hc-nhpid-licorice-reglisse2#005",
+   "text": "Duration(s) of Use: Ask a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 4 weeks (EMA 2012).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "LICORICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "hc-nhpid-licorice-reglisse2#006",
+   "text": "Caution(s) and warning(s): All products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding (Gardner and McGuffin 2013).\nCough relief\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if cough worsens or persists (for) more than 1 week (EMA 2012).\nGastritis relief\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "LICORICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "hc-nhpid-licorice-reglisse2#007",
+   "text": "Contraindication(s): All products\nDo not use if you are pregnant (EMA 2012).\nDo not use if you have hypokalemia, high blood pressure, or a kidney, liver or cardiovascular disorder (EMA 2012; Brinker 2010; ESCOP 2003; Bradley 1992).\nDo not use if you are taking heart medications, corticosteroids, stimulant laxatives, or other health products that may contribute electrolyte imbalance (Brinker 2010; ESCOP 2003; Hoffmann 2003; Blumenthal et al. 2000).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "liver",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "LICORICE",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  }
+ ]
+}

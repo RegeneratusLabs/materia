@@ -1,0 +1,102 @@
+{
+ "doc_id": "hc-nhpid-blueberry-bleuet2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Blueberry",
+ "title_extra": null,
+ "date": "2025-08-29",
+ "revised": "2025-08-29",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-08-29",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=blueberry.bleuet2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "blueberry.bleuet2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:0069bb4b48456342d7ff0d585b4f64424e9e4770acdb3a6e020a667326b1dcbc",
+ "entities": [
+  "Blueberry",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-blueberry-bleuet2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Blueberry",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-blueberry-bleuet2#002",
+   "text": "Use(s) or Purpose(s): Source of antioxidants/Provides antioxidants (Serafini et al. 2009; Kolosova et al. 2004).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Serafini et al. 2009; Kolosova et al. 2004).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Blueberry",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "hc-nhpid-blueberry-bleuet2#003",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 20 grams of dried fruit, per day (CNF 2025; McAnulty et al. 2004).\nNot to exceed 150 grams of fresh fruit, per day (CNF 2025; McAnulty et al. 2004).\nMethods of preparation: Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nExtracts providing up to 40 % Anthocyanins and not to exceed 195 milligrams Anthocyanins, per day and a Quantity crude equivalent of 20 grams of dried fruit or 150 grams of fresh fruit, per day (CNF 2025; McAnulty et al. 2004; Prior et al. 1998).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Blueberry",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 112
+  },
+  {
+   "chunk_id": "hc-nhpid-blueberry-bleuet2#004",
+   "text": "Caution(s) and warning(s): Products providing 5 grams or more of total dried fruit, per day; Products providing 37.5 grams or more of total fresh fruit, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners (ASHP 2005; Franco et al. 2004; IOM 2001; Hansten et al. 1997).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Blueberry",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 56
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "doc_id": "nccih-black-cohosh",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Black Cohosh",
+ "title_extra": null,
+ "date": "2024-11-01",
+ "revised": "2024-11-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-05-01",
+ "url": "https://www.nccih.nih.gov/health/black-cohosh",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/black-cohosh"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:8b4eb8ff14da22b1e028ed65e26139dd3c3ad1b76f3e833630452b46cfb81ed5",
+ "entities": [
+  "Black Cohosh"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-black-cohosh#001",
+   "text": "Black Cohosh\n© Steven Foster\nCommon Names:\nblack cohosh,\nblack snakeroot,\nmacrotys,\nbugbane,\nbugwort,\nrattleroot,\nrattleweed\nLatin Names:\nActaea racemosa\n,\nCimicifuga racemosa",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#002",
+   "text": "Background: Black cohosh, a member of the buttercup family, grows in North America. Native Americans used black cohosh for treatment of a variety of conditions including kidney ailments, malaria, sore throat, and menstrual cramps. It has also been used medicinally in Germany since the late 19th century.\nCurrently, black cohosh is promoted as a dietary supplement for menopause symptoms. It has also been promoted for other conditions, including menstrual cramps and premenstrual syndrome, and to induce labor.\nThe part of the black cohosh plant used in herbal preparations is the root or rhizome (underground stem).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "renal"
+   ],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 95
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#003",
+   "text": "How Much Do We Know?: A substantial number of studies in people have evaluated black cohosh for menopause symptoms. Much less research has been done on black cohosh for other conditions.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#004",
+   "text": "What Have We Learned?: A 2023 review of 22 studies of products containing black cohosh extracts, alone or in combination with other herbs, found that they were potentially beneficial for overall menopause symptoms. Data on specific symptoms showed improvements in hot flashes but not anxiety or depressive symptoms.\nIt’s uncertain whether black cohosh can reduce hot flashes related to breast cancer treatment.\nThere aren’t enough reliable data to show whether black cohosh is effective for other uses.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 77
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#005",
+   "text": "What Do We Know About Safety?: While black cohosh has been used safely in research studies that lasted as long as a year and is generally well tolerated, concerns have been raised that it may cause liver damage in some people.\nCases of liver damage—some very serious—have been reported in people taking products labeled as black cohosh. These problems are rare, and it’s uncertain whether black cohosh was responsible for them. If you take black cohosh, consult your health care provider if you develop symptoms of liver damage such as dark urine and fatigue.\nSome commercial black cohosh products have been found to contain the wrong herb or to contain mixtures of black cohosh and other herbs that are not listed on the label. It is possible but not proven that these contaminants might be responsible for cases of liver damage linked to black cohosh products.\nBlack cohosh and blue cohosh\n(Caulophyllum thalictroides)\nare different herbs. Blue cohosh may cause adverse effects such as high blood pressure, high blood sugar, and chest pain. The use of blue cohosh to induce labor has been associated with life-threatening complications in the infant, including seizures.\nIt’s uncertain whether black cohosh is safe for women who have had hormone-sensitive conditions such as breast or uterine cancer.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "liver",
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#006",
+   "text": "What Do We Know About Safety?: If you take any type of medicine, talk with your health care provider before using black cohosh or other herbal products; some herbs and medicines interact in harmful ways.\nBlack cohosh may not be safe for use during pregnancy or while breastfeeding.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#007",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The rules for making and distributing dietary supplements are less strict than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 161
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#008",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#009",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#010",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#011",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#012",
+   "text": "Key References: Black cohosh. Drugs and Lactation Database (LactMed). National Institute of Child Health and Human Development. Updated May 17, 2021. Accessed at\nncbi.nlm.nih.gov/books/NBK501781\non September 5, 2023.\nBlack cohosh. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury [Internet]. National Institute of Diabetes and Digestive and Kidney Diseases. Updated November 4, 2020. Accessed at\nncbi.nlm.nih.gov/books/NBK547990/\non September 5, 2023.\nBlack cohosh. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on August 31, 2023. [Database subscription].\nBlue cohosh. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on September 19, 2023. [Database subscription].\nFabricant DS, Krause EC, Farnsworth NR. Black cohosh. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements.\n2nd ed. New York, NY: Informa Healthcare; 2010:60-74.\nFrommenwiler DA, Reich E, Sharaf MHM, et al.\nInvestigation of market herbal products regulated under different categories: how can HPTLC help to detect quality problems?\nFrontiers in Pharmacology\n. 2022;13:925298.\nNational Cancer Institute. Black Cohosh (PDQ®)—Health Professional Version. Accessed at\ncancer.gov/about-cancer/treatment/cam/hp/black-cohosh-pdq\non September 1, 2023.\nOffice of Dietary Supplements. Black Cohosh. Fact Sheet for Health Professionals. Accessed at\nods.od.nih.gov/factsheets/Blackcohosh-HealthProfessional\non September 5, 2023.\nSadahiro R, Matsuoka LN, Zeng B-S, et al.\nBlack cohosh extracts in women with menopausal symptoms: an updated pairwise meta-analysis\n.\nMenopause\n. 2023;30(7):766-773.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "pregnancy",
+    "children",
+    "liver",
+    "diabetes",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "nccih-black-cohosh#013",
+   "text": "Key References: NCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nNovember 2024",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Black Cohosh"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  }
+ ]
+}

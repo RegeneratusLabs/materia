@@ -1,0 +1,225 @@
+{
+ "rows_expected": 12,
+ "rows_found": 12,
+ "matched": 12,
+ "missing": [],
+ "spurious": [],
+ "wrong_value": [],
+ "wrong_ref": [],
+ "silent_wrong": [],
+ "value_accuracy": 1.0,
+ "ref_accuracy": 1.0,
+ "value_accuracy_str": "12/12 = 100.0% [75.7, 100.0]",
+ "ref_accuracy_str": "12/12 = 100.0% [75.7, 100.0]",
+ "label": "clean",
+ "image": "samples/pages/nutripath-p2.png",
+ "ocr_seconds": 0.0,
+ "ocr_tokens": 799,
+ "ocr_finish": "stop",
+ "ocr_truncated": false,
+ "model": "/home/josh/models/minicpm-ocr/MiniCPM-OCR-1_0-Q4_K_M.gguf",
+ "two_read": {
+  "truth_numbers": 33,
+  "found_in_text_layer": 33,
+  "found_in_ocr": 33,
+  "text_layer_structurally_usable": false,
+  "note": "text layer present but column order scrambled; completeness check only"
+ },
+ "pass_value": true,
+ "pass_silent": true,
+ "raw_otsl": "<otsl><fcel>Accession #: A1201160021 Date Collected: 01/15/2012<lcel><lcel><lcel><lcel><lcel><nl><fcel>Order #: G1234567 Date Received: 01/16/2012<lcel><lcel><lcel><lcel><lcel><nl><fcel>Reference #: Date of Report: 01/16/2012<lcel><lcel><lcel><lcel><lcel><nl><fcel>Patient: 02/05/1962 Telephone: 7704464583<lcel><lcel><lcel><lcel><lcel><nl><fcel>Age: 49 Fax: 7704412237<lcel><lcel><lcel><lcel><lcel><nl><fcel>Sex: Female<lcel><lcel><lcel><lcel><lcel><nl><fcel>Reprinted: 07/10/2013<lcel><lcel><lcel><lcel><lcel><nl><fcel>Comment:<lcel><lcel><lcel><lcel><lcel><nl><fcel>0013 Bloodspot Amino Acids 11 Profile<lcel><lcel><lcel><lcel><lcel><nl><fcel>Methodology: High Pressure Liquid Chromatography<lcel><lcel><lcel><lcel><lcel><nl><fcel>Ranges are for ages 13 and over<lcel><lcel><lcel><lcel><lcel><nl><fcel>Results \u03bcmol/L Quintile Ranking 95% Reference Range<lcel><lcel><lcel><lcel><lcel><nl><fcel>Essential Amino Acids<lcel><lcel><lcel><lcel><lcel><nl><fcel>Limiting Amino Acids<lcel><lcel><lcel><lcel><lcel><nl><fcel>1. Lysine<fcel>124<fcel>92<fcel>183<fcel>63-220<ecel><nl><fcel>2. Methionine<fcel>10<fcel>12<fcel>28<fcel>10-33<ecel><nl><fcel>3. Tryptophan<fcel>24<fcel>28<fcel>45<fcel>24-52<ecel><nl><fcel>Branched Chain Amino Acids<lcel><lcel><lcel><lcel><lcel><nl><fcel>4. Isoleucine<fcel>51<fcel>35<fcel>77<fcel>28-96<ecel><nl><fcel>5. Leucine<fcel>126<fcel>71<fcel>139<fcel>59-162<ecel><nl><fcel>6. Valine<fcel>175<fcel>126<fcel>229<fcel>105-266<ecel><nl><fcel>Other Essential Amino Acids<lcel><lcel><lcel><lcel><lcel><nl><fcel>7. Phenylalanine<fcel>40<fcel>43<fcel>72<fcel>37-86<ecel><nl><fcel>8. Histidine<fcel>67<fcel>31<fcel>84<fcel>22-99<ecel><nl><fcel>9. Threonine<fcel>101<fcel>67<fcel>143<fcel>54-169<ecel><nl><fcel>Conditionally Essential Amino Acids<lcel><lcel><lcel><lcel><lcel><nl><fcel>10. Arginine<fcel>66<fcel>28<fcel>71<fcel>17-91<ecel><nl><fcel>11. Taurine<fcel>165<fcel>145<fcel>245<fcel>124-282<ecel><nl><fcel>Ratios<lcel><lcel><lcel><lcel><lcel><nl><fcel>31. Tryptophan/LNAA*<fcel>0.052<fcel>0.061<fcel>0.093<fcel>0.050-0.105<ecel><nl><fcel>*Large neutral amino acids (Leu+Ile+Val+Phe+Tyr)<lcel><lcel><lcel><lcel><lcel><nl><fcel>Georgia Lab Lic. Code #067-007 Laboratory Director: Robert M. David, PhD CLIA ID# 11D0255349 Testing Performed by Genova Diagnostics, Inc. 3425 Corporate Way, Duluth, GA 30096 New York Clinical Lab PFI #4578 Florida Clinical Lab Lic. #800008124 Page 2<lcel><lcel><lcel><lcel><lcel><nl></otsl>",
+ "predicted": [
+  {
+   "analyte": "Lysine",
+   "value": 124.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 63.0,
+   "ref_high": 220.0,
+   "ref_text": "63-220",
+   "raw_cells": [
+    "1. Lysine",
+    "124",
+    "92",
+    "183",
+    "63-220",
+    ""
+   ]
+  },
+  {
+   "analyte": "Methionine",
+   "value": 10.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 10.0,
+   "ref_high": 33.0,
+   "ref_text": "10-33",
+   "raw_cells": [
+    "2. Methionine",
+    "10",
+    "12",
+    "28",
+    "10-33",
+    ""
+   ]
+  },
+  {
+   "analyte": "Tryptophan",
+   "value": 24.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 24.0,
+   "ref_high": 52.0,
+   "ref_text": "24-52",
+   "raw_cells": [
+    "3. Tryptophan",
+    "24",
+    "28",
+    "45",
+    "24-52",
+    ""
+   ]
+  },
+  {
+   "analyte": "Isoleucine",
+   "value": 51.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 28.0,
+   "ref_high": 96.0,
+   "ref_text": "28-96",
+   "raw_cells": [
+    "4. Isoleucine",
+    "51",
+    "35",
+    "77",
+    "28-96",
+    ""
+   ]
+  },
+  {
+   "analyte": "Leucine",
+   "value": 126.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 59.0,
+   "ref_high": 162.0,
+   "ref_text": "59-162",
+   "raw_cells": [
+    "5. Leucine",
+    "126",
+    "71",
+    "139",
+    "59-162",
+    ""
+   ]
+  },
+  {
+   "analyte": "Valine",
+   "value": 175.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 105.0,
+   "ref_high": 266.0,
+   "ref_text": "105-266",
+   "raw_cells": [
+    "6. Valine",
+    "175",
+    "126",
+    "229",
+    "105-266",
+    ""
+   ]
+  },
+  {
+   "analyte": "Phenylalanine",
+   "value": 40.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 37.0,
+   "ref_high": 86.0,
+   "ref_text": "37-86",
+   "raw_cells": [
+    "7. Phenylalanine",
+    "40",
+    "43",
+    "72",
+    "37-86",
+    ""
+   ]
+  },
+  {
+   "analyte": "Histidine",
+   "value": 67.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 22.0,
+   "ref_high": 99.0,
+   "ref_text": "22-99",
+   "raw_cells": [
+    "8. Histidine",
+    "67",
+    "31",
+    "84",
+    "22-99",
+    ""
+   ]
+  },
+  {
+   "analyte": "Threonine",
+   "value": 101.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 54.0,
+   "ref_high": 169.0,
+   "ref_text": "54-169",
+   "raw_cells": [
+    "9. Threonine",
+    "101",
+    "67",
+    "143",
+    "54-169",
+    ""
+   ]
+  },
+  {
+   "analyte": "Arginine",
+   "value": 66.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 17.0,
+   "ref_high": 91.0,
+   "ref_text": "17-91",
+   "raw_cells": [
+    "10. Arginine",
+    "66",
+    "28",
+    "71",
+    "17-91",
+    ""
+   ]
+  },
+  {
+   "analyte": "Taurine",
+   "value": 165.0,
+   "unit": "\u03bcmol/L",
+   "ref_low": 124.0,
+   "ref_high": 282.0,
+   "ref_text": "124-282",
+   "raw_cells": [
+    "11. Taurine",
+    "165",
+    "145",
+    "245",
+    "124-282",
+    ""
+   ]
+  },
+  {
+   "analyte": "Tryptophan/LNAA",
+   "value": 0.052,
+   "unit": "ratio",
+   "ref_low": 0.05,
+   "ref_high": 0.105,
+   "ref_text": "0.050-0.105",
+   "raw_cells": [
+    "31. Tryptophan/LNAA*",
+    "0.052",
+    "0.061",
+    "0.093",
+    "0.050-0.105",
+    ""
+   ]
+  }
+ ]
+}

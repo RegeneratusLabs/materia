@@ -1,0 +1,178 @@
+{
+ "doc_id": "hc-nhpid-blessed-thistle-oral2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+ "title_extra": null,
+ "date": "2026-01-30",
+ "revised": "2026-01-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2027-01-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=blessed.thistle.oral2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "blessed.thistle.oral2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:807c5d88b5f21c986fd4a185b99c907ad90567afcac68bbed87d21846532ceab",
+ "entities": [
+  "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-blessed-thistle-oral2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-blessed-thistle-oral2#002",
+   "text": "Use(s) or Purpose(s): (Traditionally) used in Herbal Medicine (as a digestive tonic and bitter) to increase appetite and (as a stomachic) to aid digestion (EMA 2023; Blumenthal et al. 2000; Bradley 1992; Felter and Lloyd 1983; Wren 1907).\n(Traditionally) used in Herbal Medicine to help relieve indigestion/dyspepsia (EMA 2023; Bradley 1992; Felter and Lloyd 1983; Wren 1907).\nTraditionally used in Herbal Medicine (as an expectorant) to help relieve cold symptoms such as excessive mucus build up (excessive catarrh) (Williamson 2003; Felter and Lloyd 1983).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Traditionally used in Herbal Medicine to help relieve indigestion and cold symptoms such as excessive mucus build up).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Blessed thistle is traditionally used in Herbal Medicine to help relieve indigestion).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 194
+  },
+  {
+   "chunk_id": "hc-nhpid-blessed-thistle-oral2#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-blessed-thistle-oral2#004",
+   "text": "Quantity(ies): Methods of preparation: Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n0.6 - 6 grams of dried herb tops, per day (EMA 2023; Blumenthal et al. 2000; Bradley 1992; Felter and Lloyd 1983).\nMethods of preparation: Dry*, Non-Standardized Aqueous Extracts (Dry extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\n4 - 9 grams of dried herb tops, per day (EMA 2023; Blumenthal et al. 2000; Bradley 1992; Felter and Lloyd 1983).\n*Note: Dried herb tops should be prepared as an infusion or decoction by consumers prior to use (see direction for use) (EMA 2023).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 95
+  },
+  {
+   "chunk_id": "hc-nhpid-blessed-thistle-oral2#005",
+   "text": "Direction(s) for use: Loose dosage form (for infusion/decoction)*\nPlace [insert volume to be measured by consumer, e.g., X teaspoons] of dried herb tops in [insert the volume of water, e.g., ½ cup (125 mL)] of boiling/cold water. Infuse for [e.g., 5-15 minutes]/Bring to a boil and let simmer for [e.g., 10-20 minutes]. Strain and drink.\n*Note: This direction of use statement can be modified on the label provided that it gives clear instructions to consumers.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 75
+  },
+  {
+   "chunk_id": "hc-nhpid-blessed-thistle-oral2#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "hc-nhpid-blessed-thistle-oral2#007",
+   "text": "Contraindication(s): Do not use if you are pregnant (EMA 2023; Gardner and McGuffin 2013; Bradley 1992; Felter and Lloyd 1983).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-blessed-thistle-oral2#008",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (EMA 2023; Brinker 2010; Blumenthal et al. 2000).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "BLESSED THISTLE - CNICUS BENEDICTUS - Oral",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  }
+ ]
+}

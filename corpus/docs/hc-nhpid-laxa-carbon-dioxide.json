@@ -1,0 +1,133 @@
+{
+ "doc_id": "hc-nhpid-laxa-carbon-dioxide",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Carbon Dioxide-Releasing Laxatives (Source ingredient)",
+ "title_extra": null,
+ "date": "2024-02-23",
+ "revised": "2024-02-23",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-02-23",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=laxa_carbon_dioxide&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "laxa_carbon_dioxide"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:ff9e1d072f79040f16afb6aa67a9216375306b4e881ea3c88e1779479e716e66",
+ "entities": [
+  "Carbon Dioxide-Releasing Laxatives",
+  "Source ingredient"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-laxa-carbon-dioxide#001",
+   "text": "Use(s) or Purpose(s): For relief of occasional constipation and/or irregularity (US FDA 2023).\nLaxative (US FDA 2023).\nPromotes evacuation of the lower bowel (Sweetman 2002).\nNote: The above uses can be combined on the product label (e.g. Laxative for the relief of occasional constipation and/or irregularity and promotes evacuation of the lower bowel).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Carbon Dioxide-Releasing Laxatives",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 53
+  },
+  {
+   "chunk_id": "hc-nhpid-laxa-carbon-dioxide#002",
+   "text": "Subpopulation(s): Adolescents 12-17 years and Adults 18 years and older (US FDA 2023).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children"
+   ],
+   "entities": [
+    "Carbon Dioxide-Releasing Laxatives",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "hc-nhpid-laxa-carbon-dioxide#003",
+   "text": "Quantity(ies): 1 suppository per day, containing 1.2 - 1.5 grams of Monosodium phosphate + 0.04 -0.05 grams of Disodium dihydrogen pyrophosphate + 1 - 1.5 grams of Carbonic acid sodium salt (1:1) (Sodium bicarbonate) (US\nFDA 2023).\n1 suppository per day, containing 0.6 grams of Carbonic acid sodium salt (1:1) (Sodium bicarbonate) + 0.9 grams of (2R,3R)-2,3-Dihydroxybutanedioic acid potassium salt (1:1) (Potassium bitartrate) (US FDA\n2023).\nPermitted combinations\nProducts with only one medicinal ingredient are not allowed; medicinal ingredients are permitted only in the combinations indicated in the Quantities section (US FDA 2023).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Carbon Dioxide-Releasing Laxatives",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "hc-nhpid-laxa-carbon-dioxide#004",
+   "text": "Direction(s) for use: Do not use within 2 hours of another medicine as the desired effect of the other medicine may be reduced (Berardi et al . 2002).\nRemove suppository from wrapper (for suppositories packaged in a wrapper) (US FDA 2021).\nPlace under running water for 30 seconds, or in a cup of water for at least 10 seconds before insertion (US FDA 2023).\nDo not lubricate with mineral oil or petrolatum prior to rectal insertion (US FDA 2023).\nGently insert in the rectum.\nAllow 5-30 minutes to produce bowel movement (US FDA 2023).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Carbon Dioxide-Releasing Laxatives",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "hc-nhpid-laxa-carbon-dioxide#005",
+   "text": "Duration(s) of use: Do not use beyond 7 days (US FDA 2023).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Carbon Dioxide-Releasing Laxatives",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "hc-nhpid-laxa-carbon-dioxide#006",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are on a sodium-restricted diet (US FDA 2024).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen (US FDA 2021).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician promptly in case of bleeding (US FDA 2021).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "Carbon Dioxide-Releasing Laxatives",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 58
+  },
+  {
+   "chunk_id": "hc-nhpid-laxa-carbon-dioxide#007",
+   "text": "Contraindication(s): Do not use if you have abdominal pain, nausea, fever or vomiting (US FDA 2023).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "Carbon Dioxide-Releasing Laxatives",
+    "Source ingredient"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  }
+ ]
+}

@@ -1,0 +1,2290 @@
+[
+ {
+  "id": "H01",
+  "cat": "herb-drug",
+  "gold": "C",
+  "gold_text": "Reduced contraceptive efficacy via CYP3A4 and P-glycoprotein induction, with breakthrough bleeding and pregnancy risk",
+  "supported": false,
+  "score": 0.111,
+  "chunk_ids": [
+   "nccih-st-johns-wort#001",
+   "nccih-st-johns-wort#013",
+   "hc-nhpid-stjohnswort-millepertuis-topical#006",
+   "hc-nhpid-stjohnswort-millepertuis-oral2#007",
+   "hc-nhpid-stjohnswort-millepertuis-topical#008"
+  ],
+  "best": {
+   "score": 0.111,
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#007",
+   "section": "contraindications",
+   "source": "Health Canada NNHPD",
+   "text": "Contraindication(s): Do not use if you are taking antidepressants, anxiolytics, anti-cancer, cardiovascular, contraceptive medications, blood thinners, anti-HIV agents and/or medications to suppress the immune system (Brinker 2010; Barnes et al. 2007; Bradley 2006; Mills and Bone 2005; Murphy et al. 2005; Frye et al. 2004; Hebert et al. 2004; Jiang et al. 2004; Mueller et al. 2004; Smith et al. 20"
+  }
+ },
+ {
+  "id": "H02",
+  "cat": "herb-drug",
+  "gold": "D",
+  "gold_text": "Ginkgo's antiplatelet effect adds to anticoagulation and increases bleeding risk",
+  "supported": true,
+  "score": 0.286,
+  "chunk_ids": [
+   "nccih-ginkgo#001",
+   "hc-nhpid-ginkgo-biloba2#002",
+   "nccih-ginkgo#006",
+   "hc-nhpid-fonc-cognitive-func#009",
+   "hc-nhpid-tcm#010"
+  ],
+  "best": {
+   "score": 0.286,
+   "chunk_id": "nccih-ginkgo#006",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: For most adults, ginkgo leaf extracts are likely to be safe when taken orally in moderate\u00a0amounts. They have been used safely in research studies lasting as long as 6 years. Fresh ginkgo seeds are toxic when consumed orally, and serious side effects have also occurred in people who consumed roasted ginkgo seeds or the crude ginkgo plant.\nGinkgo leaf extract is genera"
+  }
+ },
+ {
+  "id": "H03",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Kava (Piper methysticum)",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#046",
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-milk-thistle-pdq#029",
+   "nci-pdq-dietary-interactions-pdq#012",
+   "nci-pdq-black-cohosh-pdq#012"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#046",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Adverse Effects: concluded that the fulminant liver failure experienced by this patient was most likely related to the consumption of\nover-the-counter\nGTE weight-loss supplements. In addition, the sale of an ethanolic GTE sold as a weight-reduction aid was suspended in 2003 after reports associated hepatotoxicity (four cases in Spain and nine cases in France) with its use.[\n55\n] Time to onset of h"
+  }
+ },
+ {
+  "id": "H04",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Pyrrolizidine alkaloids causing hepatic veno-occlusive disease",
+  "supported": false,
+  "score": 0.143,
+  "chunk_ids": [
+   "nci-pdq-suns-soup-pdq#004",
+   "nci-pdq-cartilage-pdq#055",
+   "nccih-st-johns-wort#007",
+   "nci-pdq-curcumin-pdq#005",
+   "nccih-soy#005"
+  ],
+  "best": {
+   "score": 0.143,
+   "chunk_id": "nci-pdq-suns-soup-pdq#004",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information: In the United States, dietary supplements are regulated as foods, not drugs. Therefore, premarket evaluation and approval by the U.S. Food and Drug Administration (FDA) are not required unless specific disease prevention or treatment claims are made. The FDA can, however, remove from the market dietary supplements that it deems unsafe. It should be noted that no formulation of"
+  }
+ },
+ {
+  "id": "H05",
+  "cat": "herb-drug",
+  "gold": "C",
+  "gold_text": "Inhibits intestinal CYP3A4, reducing first-pass metabolism",
+  "supported": true,
+  "score": 0.286,
+  "chunk_ids": [
+   "nci-pdq-dietary-interactions-pdq#023",
+   "nci-pdq-dietary-interactions-pdq#034",
+   "nci-pdq-prostate-supplements-pdq#069",
+   "nci-pdq-prostate-supplements-pdq#035",
+   "nci-pdq-ndv-pdq#002"
+  ],
+  "best": {
+   "score": 0.286,
+   "chunk_id": "nci-pdq-dietary-interactions-pdq#023",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Grapefruit: General information\nGrapefruit and other similar fruits, such as Seville orange, pomelo, and lime, have been known to\ninteract\nwith a variety of\ndrugs\n, including some anticancer drugs. These\npharmacokinetic\ninteractions may be caused by the furanocoumarin components found in the seeds of grapefruit. These components have been observed impacting the\nmetabolism\nof substrates of CYP3A4.["
+  }
+ },
+ {
+  "id": "H06",
+  "cat": "herb-safety",
+  "gold": "B",
+  "gold_text": "Mineralocorticoid excess from 11-beta-HSD2 inhibition (pseudoaldosteronism)",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-licorice-root#005",
+   "nccih-licorice-root#001",
+   "hc-nhpid-licorice-reglisse2#003",
+   "hc-nhpid-antiox#055",
+   "nci-pdq-suns-soup-pdq#004"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-licorice-root#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Licorice root is generally considered safe as a food ingredient.\nLicorice contains a component called glycyrrhizin, or glycyrrhizic acid, that can cause serious adverse effects, such as irregular heartbeat and cardiac arrest, especially when consumed in large amounts or in the long term. Even small amounts of glycyrrhizin from licorice root products have been linked "
+  }
+ },
+ {
+  "id": "H07",
+  "cat": "nutrient-drug",
+  "gold": "A",
+  "gold_text": "Separate levothyroxine from calcium and iron by at least four hours",
+  "supported": true,
+  "score": 0.333,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#014",
+   "nci-pdq-hydrazine-sulfate-pdq#031",
+   "hc-nhpid-oligotherapy2#004",
+   "hc-nhpid-vitamin-d-hd#005",
+   "nci-pdq-hydrazine-sulfate-pdq#008"
+  ],
+  "best": {
+   "score": 0.333,
+   "chunk_id": "hc-nhpid-vitamin-d-hd#005",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Direction(s) for use: Products that do not contain calcium at therapeutic dose\nTake with an adequate intake of calcium.\nProducts containing calcium or zinc\nTake with food (NNHPD 2026).\nTake a few hours before or after taking other medications or health products (NNHPD 2026)."
+  }
+ },
+ {
+  "id": "H08",
+  "cat": "herb-drug",
+  "gold": "D",
+  "gold_text": "Serotonin syndrome from additive serotonergic activity",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-5htp#003",
+   "hc-nhpid-5htp#005",
+   "nccih-rhodiola#011",
+   "hc-nhpid-diindolylmethane#005",
+   "hc-nhpid-indole3carbinol#005"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-5htp#003",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Quantity(ies): Healthy mood balance\n150 - 300 milligrams of 5-HTP, per day (P\u00f6ldinger et al. 1991; Nakajima et al. 1978).\nFibromyalgia symptoms\n300 - 400 milligrams of 5-HTP, per day; Not to exceed 300 milligrams per single dose (Nicolodi and Sicuteri 1996; Caruso et al. 1990).\nMigraine prophylaxis\n200 - 600 milligrams of 5-HTP, per day; Not to exceed 300 milligrams per single dose (Titus et al. 1"
+  }
+ },
+ {
+  "id": "H09",
+  "cat": "herb-drug",
+  "gold": "D",
+  "gold_text": "Inhibits CYP3A4 and P-glycoprotein, raising concentrations of substrates",
+  "supported": false,
+  "score": 0.167,
+  "chunk_ids": [
+   "nccih-goldenseal#004",
+   "nci-pdq-prostate-supplements-pdq#192",
+   "nccih-ashwagandha#005",
+   "nci-pdq-prostate-supplements-pdq#130",
+   "nccih-astragalus#005"
+  ],
+  "best": {
+   "score": 0.167,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#130",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Human Studies: A number of explanations have been suggested, including the dose and form of vitamin E used in the trial and the specific form of selenium chosen for the study. L-selenomethionine was used in SELECT, while selenite and Se-yeast had been used in previous studies. SELECT researchers chose selenomethionine because it was the major component of Se-yeast and because selenite was not abso"
+  }
+ },
+ {
+  "id": "H10",
+  "cat": "nutrient-drug",
+  "gold": "D",
+  "gold_text": "Fall in INR from increased vitamin K intake",
+  "supported": true,
+  "score": 0.25,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#009",
+   "nccih-cranberry#006",
+   "hc-nhpid-antiox#055",
+   "nci-pdq-prostate-supplements-pdq#226",
+   "nccih-bitter-orange#005"
+  ],
+  "best": {
+   "score": 0.25,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#009",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information and History: Calcium, the most abundant\nmineral\nin the body, is found in some foods, added to others, available as a dietary supplement, and present in some\nmedicines\n(such as antacids). Calcium is required for vascular contraction and vasodilation, muscle function, nerve transmission, intracellular signaling, and hormonal secretion, although less than 1% of total body calcium "
+  }
+ },
+ {
+  "id": "H11",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Hyperthyroidism, because it can increase thyroid hormone levels",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-ashwagandha#001",
+   "hc-nhpid-fonc-cognitive-func#008",
+   "nccih-ashwagandha#011",
+   "hc-nhpid-ashwagandha2#005",
+   "hc-nhpid-ashwagandha2#003"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-ashwagandha#001",
+   "section": "other",
+   "source": "NCCIH (NIH)",
+   "text": "Ashwagandha\nPhoto credit: Oregon's Wild Harvest\nCommon Names:\nashwagandha,\nIndian ginseng\nLatin Names:\nWithania somnifera"
+  }
+ },
+ {
+  "id": "H12",
+  "cat": "herb-drug",
+  "gold": "A",
+  "gold_text": "Additive CNS depression and sedation",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-valerian#003",
+   "nccih-valerian#005",
+   "hc-nhpid-valerian2#004",
+   "hc-nhpid-rhodiol2#006",
+   "hc-nhpid-california-poppy-pavot#004"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-valerian#003",
+   "section": "dosage",
+   "source": "NCCIH (NIH)",
+   "text": "How Much Do We Know?: Knowledge about valerian is limited because a relatively small amount of research has looked at valerian\u2019s effects on various conditions.\nThere is not enough evidence to determine whether valerian is useful for any health conditions."
+  }
+ },
+ {
+  "id": "H13",
+  "cat": "herb-drug",
+  "gold": "D",
+  "gold_text": "Reduce INR, likely via altered warfarin metabolism, with case reports of interaction",
+  "supported": false,
+  "score": 0.125,
+  "chunk_ids": [
+   "nci-pdq-pc-spes-pdq#022",
+   "nci-pdq-pc-spes-pdq#005",
+   "nccih-asian-ginseng#001",
+   "hc-nhpid-tcm#010",
+   "nccih-asian-ginseng#013"
+  ],
+  "best": {
+   "score": 0.125,
+   "chunk_id": "nci-pdq-pc-spes-pdq#022",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Laboratory/Animal/Preclinical Studies: Before the discovery of\ndiethylstilbestrol\n(DES),\nwarfarin,\nand\nindomethacin\ncontamination,\nPC-SPES\nappeared to have some\nefficacy\nas an\nantineoplastic\nagent in\nlaboratory\nand\nanimal studies\n. These studies are presented below. Due to the fact that there was no standardization of the composition of PC-SPES or any knowledge of the amount of contamination of ea"
+  }
+ },
+ {
+  "id": "H14",
+  "cat": "herb-safety",
+  "gold": "B",
+  "gold_text": "Green tea extract (high-dose EGCG)",
+  "supported": true,
+  "score": 0.6,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-milk-thistle-pdq#029",
+   "nci-pdq-prostate-supplements-pdq#046",
+   "nci-pdq-black-cohosh-pdq#012",
+   "nccih-turmeric#012"
+  ],
+  "best": {
+   "score": 0.6,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#045",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Adverse Effects: ] administered approximately 300 mg EGCG per day for 1 year without any reported toxicities.\nIn a U.S. trial, 400 mg of EGCG containing Polyphenon E was administered for 1 year to nonfasting men with HGPIN and atypical small acinar proliferation. More possible and probable grade 2 through grade 3 events in men who received Polyphenon E were observed and compared with those in men "
+  }
+ },
+ {
+  "id": "H15",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Stimulant laxative (anthraquinones) with risk of electrolyte loss",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-aloe-vera#006",
+   "nccih-aloe-vera#007",
+   "hc-nhpid-aloe-oral-orale2#004",
+   "hc-nhpid-antiox#061",
+   "hc-nhpid-aloe-gel#003"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-aloe-vera#006",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Topical use of aloe gel is generally well tolerated; however, there have been occasional reports of burning, itching, rash, and eczema.\nResearch studies suggest that short-term use of oral aloe gel up to 42 days is safe.\nOral use of aloe latex can cause abdominal pain, cramps, and diarrhea. Oral\u00a0consumption of\u00a0aloe leaf extracts (for as little as 3\u00a0weeks and as long "
+  }
+ },
+ {
+  "id": "H16",
+  "cat": "nutrient-drug",
+  "gold": "A",
+  "gold_text": "Sensory peripheral neuropathy",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-kava#005",
+   "hc-nhpid-greentea-thevert2#002",
+   "nccih-ashwagandha#005",
+   "nci-pdq-vitamin-c-pdq#038",
+   "nci-pdq-antineoplastons-pdq#038"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-kava#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Various kava products have been linked to rare cases of liver injury, some of which have been serious or even fatal. The first reported cases involved medicinal or dietary supplement products that had been extracted with alcohol or acetone, but other cases have involved kava beverages prepared with water. It has been suggested that the use of undesirable varieties (c"
+  }
+ },
+ {
+  "id": "H17",
+  "cat": "nutrient-safety",
+  "gold": "B",
+  "gold_text": "Teratogenicity (craniofacial, cardiac and CNS malformations)",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-workout-supplements-entrainement#020",
+   "hc-nhpid-vitamin-d-hd#009",
+   "hc-nhpid-tcm#008",
+   "hc-nhpid-organotherapy#006",
+   "hc-nhpid-frankincense-arbre-buc2#006"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-workout-supplements-entrainement#020",
+   "section": "contraindications",
+   "source": "Health Canada NNHPD",
+   "text": "Contraindication(s): Products providing more than 9 g of L-arginine, per day\nDo not use if you have had a heart attack/myocardial infarction (Sun et al. 2009; Schulman et al. 2006; Bednarz et al. 2005).\nProducts containing deanol\nDo not use if you are pregnant or breastfeeding (NIEHS 2002).\nProducts containing eleuthero\nDo not use if you have high blood pressure (Brinker 2010; Barnes et al. 2007; "
+  }
+ },
+ {
+  "id": "H18",
+  "cat": "nutrient-drug",
+  "gold": "D",
+  "gold_text": "Hyperkalaemia",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "hc-nhpid-oligotherapy2#002",
+   "nci-pdq-coenzyme-q10-pdq#035",
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "nci-pdq-gerson-pdq#005"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#004",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 6 grams of Chlorella broken cell per day (Lee et al. 2010).\nMethods of preparation: Dry standardized, Powdered standardized, Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Deco"
+  }
+ },
+ {
+  "id": "H19",
+  "cat": "nutrient-lab",
+  "gold": "D",
+  "gold_text": "Correct the anaemia while allowing neurological damage to progress",
+  "supported": false,
+  "score": 0.143,
+  "chunk_ids": [
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "hc-nhpid-cod-liver-oil#002",
+   "nci-pdq-vitamin-c-pdq#003",
+   "nci-pdq-gerson-pdq#006"
+  ],
+  "best": {
+   "score": 0.143,
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#002",
+   "section": "indications",
+   "source": "Health Canada NNHPD",
+   "text": "Use(s) or Purpose(s): All products\nSource of antioxidants/Provides antioxidants (Lee et al. 2010).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Lee et al. 2010).\nUses based on constituent potency, provided at or above the minimum doses indicated in the dose se"
+  }
+ },
+ {
+  "id": "H20",
+  "cat": "nutrient-drug",
+  "gold": "C",
+  "gold_text": "Tea or coffee",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-dietary-interactions-pdq#027",
+   "nci-pdq-prostate-supplements-pdq#174",
+   "nci-pdq-prostate-supplements-pdq#070",
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "hc-nhpid-chlorella-vulgaris2#004"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-dietary-interactions-pdq#027",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Green Tea: PK was thought to be the result of interference in the\nabsorption\nof palbociclib. The authors recommended against the coadministration of these\ncompounds\n.[\n15\n]\nResearch on rat animal models investigated the impact of green tea extract on the oral bioavailability of\nerlotinib\nand\nlapatinib\n. A decrease in the oral bioavailability for erlotinib and lapatinib was observed after consumpti"
+  }
+ },
+ {
+  "id": "H21",
+  "cat": "herb-drug",
+  "gold": "B",
+  "gold_text": "Strongly inhibits CYP1A2, raising melatonin exposure",
+  "supported": false,
+  "score": 0.167,
+  "chunk_ids": [
+   "hc-nhpid-melatonin-oral2#004",
+   "hc-nhpid-melatonin-sublinguale2#004",
+   "hc-nhpid-melatonin-oral2#007",
+   "hc-nhpid-melatonin-sublinguale2#007",
+   "nccih-kava#006"
+  ],
+  "best": {
+   "score": 0.167,
+   "chunk_id": "hc-nhpid-melatonin-oral2#004",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Quantity(ies): All uses except jet lag\n0.1-10 milligrams of melatonin, per day (Brzezinski et al. 2005; IOM 2004; Kayumov et al. 2001; Koda-Kimble 2001; Zhdanova et al. 2001; Brusco et al. 1999; Jean-Louis et al. 1999; Matsumoto 1999; Sack et al. 1997; Attenburrow et al. 1996; Garfinkel 1995; Zhdanova et al. 1995; Tzischinsky and Lavie 1994; Dollins et al. 1994; Dahlitz et al. 1991; James et al. 1"
+  }
+ },
+ {
+  "id": "H22",
+  "cat": "herb-safety",
+  "gold": "D",
+  "gold_text": "Hepatotoxicity",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-black-cohosh-pdq#007",
+   "nccih-black-cohosh#003",
+   "nci-pdq-black-cohosh-pdq#028",
+   "nccih-black-cohosh#002",
+   "hc-nhpid-black-cohosh-actee-noire2#002"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-black-cohosh-pdq#007",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "History: Black cohosh\nwas in use by American Indian or Alaska Native people when Europeans arrived in the New World.[\n1\n] Among the reported indications for black cohosh in traditional American Indian or Alaska Native\nmedicine\nwere various female\nconditions\n,\nrheumatism\n,\nfever\n(possibly due to malaria), general malaise, sore\nthroat\n, childbirth, and snakebite.[\n1\n,\n2\n] Early European settlers, an"
+  }
+ },
+ {
+  "id": "H23",
+  "cat": "herb-drug",
+  "gold": "C",
+  "gold_text": "Severe cardiovascular and cerebrovascular adverse events from sympathomimetic action",
+  "supported": true,
+  "score": 0.286,
+  "chunk_ids": [
+   "nccih-yohimbe#005",
+   "nccih-bitter-orange#002",
+   "nccih-ephedra#005",
+   "nccih-ephedra#002",
+   "nci-pdq-acupuncture-pdq#024"
+  ],
+  "best": {
+   "score": 0.286,
+   "chunk_id": "nccih-ephedra#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: The FDA has banned dietary supplements containing ephedrine alkaloids because they have serious safety risks. Even in relatively low doses and short-term use, ephedra has been linked to harmful effects like high blood pressure, heart attack, seizure, stroke, and psychosis. Ephedra can be life-threatening or disabling in some people.\nEphedra can also cause anxiety, di"
+  }
+ },
+ {
+  "id": "H24",
+  "cat": "herb-drug",
+  "gold": "C",
+  "gold_text": "Anti-platelet activity augmenting bleeding risk",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-curcumin-pdq#051",
+   "nccih-turmeric#003",
+   "nci-pdq-curcumin-pdq#012",
+   "nccih-turmeric#002",
+   "hc-nhpid-curcumin-curcumine2#003"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-curcumin-pdq#051",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Adverse Effects: Most\nclinical studies\nof curcuma-containing products have demonstrated few, if any, associated\nadverse effects\n. In one small study (N = 17) of patients who received a\ncurcumin\n-containing product along with\ngemcitabine\nchemotherapy\n, about 30% of patients (N = 5) who received 8,000 mg/day of the curcumin-containing product discontinued the product because of intractable\nabdominal"
+  }
+ },
+ {
+  "id": "H25",
+  "cat": "herb-safety",
+  "gold": "D",
+  "gold_text": "Echinacea, because of immunostimulant effects",
+  "supported": true,
+  "score": 0.5,
+  "chunk_ids": [
+   "nccih-astragalus#005",
+   "nccih-ashwagandha#005",
+   "nccih-thunder-god-vine#002",
+   "nci-pdq-714-x-pdq#004",
+   "nccih-cats-claw#005"
+  ],
+  "best": {
+   "score": 0.5,
+   "chunk_id": "nccih-astragalus#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Astragalus may be safe when used orally. (Taking up to 60 grams per day for as long as 4 months does not seem to cause adverse effects.) However, a thorough safety evaluation has not been done.\nThere isn\u2019t enough reliable information to know if applying astragalus to the skin is safe or has potential side effects.\nBecause astragalus might worsen symptoms of autoimmun"
+  }
+ },
+ {
+  "id": "L01",
+  "cat": "lab",
+  "gold": "B",
+  "gold_text": "Primary hypothyroidism",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-aromatherapy-pdq#006",
+   "nccih-soy#012",
+   "nccih-saw-palmetto#002",
+   "nccih-green-tea#006",
+   "nci-pdq-prostate-supplements-pdq#003"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-aromatherapy-pdq#006",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information: A large body of literature has been published on the effects of odors on the human brain and emotions. Some studies have tested the effects of essential oils on mood, alertness, and mental stress in healthy participants. Other studies investigated the effects of various (usually synthetic) odors on task performance, reaction time, and autonomic parameters or evaluated the dire"
+  }
+ },
+ {
+  "id": "L02",
+  "cat": "lab",
+  "gold": "D",
+  "gold_text": "Subclinical hypothyroidism",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-curcumin-pdq#012",
+   "hc-nhpid-propolis-oral-orale2#002",
+   "hc-nhpid-cayenne-oral-orale2#002",
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "nci-pdq-prostate-supplements-pdq#082"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-curcumin-pdq#012",
+   "section": "evidence",
+   "source": "NCI PDQ",
+   "text": "Bioavailability of Curcumin-Containing Products (Phase I Clinical Trials): At least six\nphase I clinical trials\nof\ncurcumin\n-containing products have investigated the\npharmacokinetics\nand pharmacodynamics of pure curcumin (CUR) alone in humans. These studies have shown that\nsystemic\nexposure to curcumin-containing products at\ndoses\nof up to 8,000\nmg\n/day was safe and tolerable and did not cause se"
+  }
+ },
+ {
+  "id": "L03",
+  "cat": "lab",
+  "gold": "C",
+  "gold_text": "Iron deficiency",
+  "supported": true,
+  "score": 0.5,
+  "chunk_ids": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-gerson-pdq#005",
+   "nci-pdq-aromatherapy-pdq#006",
+   "nci-pdq-mistletoe-pdq#048",
+   "hc-nhpid-oligotherapy2#002"
+  ],
+  "best": {
+   "score": 0.5,
+   "chunk_id": "nci-pdq-milk-thistle-pdq#038",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Iron Chelation: Silymarin was found to be beneficial as an adjunct to the iron chelator desferrioxamine in patients with\ntransfusion\n-dependent beta-thalassemia major.[\n26\n]\nIn a study of 97 patients, significant decreases in markers of\niron overload\n(serum\nferritin\n, serum iron, hepcidin, and\nsoluble\ntransferring receptor) were observed in the patients who received silymarin as compared with thos"
+  }
+ },
+ {
+  "id": "L04",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "As unreliable, because ferritin is an acute-phase reactant and may mask iron deficiency",
+  "supported": true,
+  "score": 0.333,
+  "chunk_ids": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "hc-nhpid-oral-health-sante-bucco-dentaire#004",
+   "nci-pdq-pc-spes-pdq#006",
+   "nci-pdq-curcumin-pdq#035",
+   "nci-pdq-cartilage-pdq#031"
+  ],
+  "best": {
+   "score": 0.333,
+   "chunk_id": "nci-pdq-milk-thistle-pdq#038",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Iron Chelation: Silymarin was found to be beneficial as an adjunct to the iron chelator desferrioxamine in patients with\ntransfusion\n-dependent beta-thalassemia major.[\n26\n]\nIn a study of 97 patients, significant decreases in markers of\niron overload\n(serum\nferritin\n, serum iron, hepcidin, and\nsoluble\ntransferring receptor) were observed in the patients who received silymarin as compared with thos"
+  }
+ },
+ {
+  "id": "L05",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "True functional vitamin B12 deficiency despite a low-normal B12 level",
+  "supported": false,
+  "score": 0.143,
+  "chunk_ids": [
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-acupuncture-pdq#078",
+   "nccih-green-tea#006",
+   "nci-pdq-prostate-supplements-pdq#136"
+  ],
+  "best": {
+   "score": 0.143,
+   "chunk_id": "nci-pdq-essiac-pdq#007",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information: dose\nand schedule of administration is freely available from the manufacturer of Essiac.[\n1\n] According to the manufacturer, the dose will vary, depending on the reason for\ningestion\n; the manufacturer\u2019s recommended schedules of administration assume a 12-week program of uninterrupted use.[\n1\n] Although Essiac is said to be safe for pets, no information is given about its safe"
+  }
+ },
+ {
+  "id": "L06",
+  "cat": "lab",
+  "gold": "D",
+  "gold_text": "Vitamin B12, folate or vitamin B6",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-gerson-pdq#021",
+   "nccih-hoodia#005",
+   "nci-pdq-prostate-supplements-pdq#117",
+   "nccih-bitter-orange#005",
+   "hc-nhpid-astragalus-astragale2#002"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-gerson-pdq#021",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Adverse Effects: Case reports of adverse events associated with coffee enemas raise concern about their use. Three deaths that seem related to coffee enemas have been reported in the literature.\nSalmonella enteridis\ngroup D and\nCampylobacter fetus intestinalis\nwere cultured from\nstool\nand\nblood\nof one patient who died shortly after treatment at the Gerson Institute clinic. This death could not be "
+  }
+ },
+ {
+  "id": "L07",
+  "cat": "lab",
+  "gold": "C",
+  "gold_text": "Check total IgA and refer for gastroenterology assessment including duodenal biopsy",
+  "supported": true,
+  "score": 0.25,
+  "chunk_ids": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-prostate-supplements-pdq#178",
+   "nci-pdq-cartilage-pdq#018",
+   "nci-pdq-ndv-pdq#026",
+   "nci-pdq-prostate-supplements-pdq#183"
+  ],
+  "best": {
+   "score": 0.25,
+   "chunk_id": "nci-pdq-ndv-pdq#026",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "History: The first published report to establish a link between\ninfection\nwith a\nvirus\nand the\nregression\nof\ncancer\nappeared in 1912.[\n1\n-\n6\n] This report described a woman\nwhose\ncervical cancer\nimproved\nfollowing treatment to prevent\nrabies\n.\nThe woman had been bitten by a dog, and she was subsequently injected with a\nvaccine\nmade of\nattenuated\n(i.e.,\nweakened) rabies virus. Over the next 60 year"
+  }
+ },
+ {
+  "id": "L08",
+  "cat": "lab",
+  "gold": "D",
+  "gold_text": "Prediabetes range",
+  "supported": true,
+  "score": 0.5,
+  "chunk_ids": [
+   "nccih-astragalus#004",
+   "hc-nhpid-pygeum#005",
+   "nccih-aloe-vera#005",
+   "hc-nhpid-fonc-cognitive-func#012",
+   "hc-nhpid-saw-palmetto-sabal2#006"
+  ],
+  "best": {
+   "score": 0.5,
+   "chunk_id": "nccih-aloe-vera#005",
+   "section": "other",
+   "source": "NCCIH (NIH)",
+   "text": "What Have We Learned?: Two small studies suggest that topical application of aloe gel, in combination with other forms of treatment, may improve acne.\nClinical research suggests topical application of aloe gel may speed burn healing and reduce burn-related pain.\nA small amount of research suggests topical use of aloe also may help people with genital herpes, lichen planus, psoriasis, oral submucou"
+  }
+ },
+ {
+  "id": "L09",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "Insulin resistance",
+  "supported": true,
+  "score": 1.0,
+  "chunk_ids": [
+   "nccih-grape-seed-extract#004",
+   "nccih-green-tea#004",
+   "hc-nhpid-fish-oil-huile-poisson#003",
+   "nccih-flaxseed-and-flaxseed-oil#004",
+   "nci-pdq-prostate-supplements-pdq#036"
+  ],
+  "best": {
+   "score": 1.0,
+   "chunk_id": "nccih-flaxseed-and-flaxseed-oil#004",
+   "section": "other",
+   "source": "NCCIH (NIH)",
+   "text": "What Have We Learned?: One clinical trial suggests that flaxseed mucilage powder (mixed with water) might support weight loss in adults with overweight or obesity. However, flaxseed lignan extract and flaxseed oil supplements\u00a0don\u2019t seem to help with weight loss.\nIn pregnant people with gestational diabetes, some research suggests that flaxseed oil supplements containing ALA might improve fasting m"
+  }
+ },
+ {
+  "id": "L10",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "Hereditary haemochromatosis, requiring genetic testing",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-prostate-supplements-pdq#239",
+   "nci-pdq-milk-thistle-pdq#040",
+   "nci-pdq-acupuncture-pdq#040",
+   "nccih-turmeric#004"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-milk-thistle-pdq#038",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Iron Chelation: Silymarin was found to be beneficial as an adjunct to the iron chelator desferrioxamine in patients with\ntransfusion\n-dependent beta-thalassemia major.[\n26\n]\nIn a study of 97 patients, significant decreases in markers of\niron overload\n(serum\nferritin\n, serum iron, hepcidin, and\nsoluble\ntransferring receptor) were observed in the patients who received silymarin as compared with thos"
+  }
+ },
+ {
+  "id": "L11",
+  "cat": "lab",
+  "gold": "D",
+  "gold_text": "Intermediate-to-high cardiovascular risk band, needing repeat testing away from acute illness",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-oral-health-sante-bucco-dentaire#004",
+   "nci-pdq-acupuncture-pdq#093",
+   "nci-pdq-acupuncture-pdq#035",
+   "nci-pdq-laetrile-pdq#030",
+   "nccih-cinnamon#003"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-oral-health-sante-bucco-dentaire#004",
+   "section": "cautions",
+   "source": "Health Canada NNHPD",
+   "text": "Caution(s) and warning(s): Keep out of reach of children. This product contains enough fluoride to seriously harm a child. (Note: These cautionary statements shall be preceded by a prominently displayed symbol that is octagonal in shape, conspicuous in colour and on a background of a contrasting colour. If the product is recommended solely for children, all package sizes must be packaged in a chil"
+  }
+ },
+ {
+  "id": "L12",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "Cholestatic liver injury",
+  "supported": true,
+  "score": 0.333,
+  "chunk_ids": [
+   "nci-pdq-milk-thistle-pdq#036",
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-milk-thistle-pdq#035",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-curcumin-pdq#020"
+  ],
+  "best": {
+   "score": 0.333,
+   "chunk_id": "nci-pdq-milk-thistle-pdq#036",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Hepatitis: level. In this study, silymarin given orally in higher-than-usual doses failed to significantly reduce serum ALT levels. No significant\nadverse effects\nwere associated with silymarin. In one of the largest observational studies involving 2,637 patients with chronic liver disease, 8 weeks of treatment with 560 mg of silymarin per day resulted in reductions of serum AST, ALT, and gamma-gl"
+  }
+ },
+ {
+  "id": "L13",
+  "cat": "lab",
+  "gold": "C",
+  "gold_text": "Possible copper insufficiency requiring corroboration before supplementation",
+  "supported": true,
+  "score": 0.429,
+  "chunk_ids": [
+   "nci-pdq-cancell-pdq#012",
+   "nccih-ginkgo#004",
+   "nci-pdq-prostate-supplements-pdq#039",
+   "hc-nhpid-oligotherapy2#003",
+   "hc-nhpid-vitamin-d-hd#008"
+  ],
+  "best": {
+   "score": 0.429,
+   "chunk_id": "hc-nhpid-vitamin-d-hd#008",
+   "section": "cautions",
+   "source": "Health Canada NNHPD",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are unsure whether you are taking enough copper as zinc supplementation can cause a copper deficiency (NNHPD 2026)."
+  }
+ },
+ {
+  "id": "L14",
+  "cat": "lab",
+  "gold": "D",
+  "gold_text": "Central (pituitary or hypothalamic) hypothyroidism",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-cancell-pdq#006",
+   "nci-pdq-cancell-pdq#007",
+   "nci-pdq-gonzalez-pdq#010",
+   "nccih-green-tea#006",
+   "nci-pdq-acupuncture-pdq#006"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-cancell-pdq#006",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "History: Cancell/Cantron/Protocel\nwas developed in the 1950s by a chemist who called it\nEntelev and provided it free of charge to patients with\nterminal\ncancer\n.[\n1\n,\n2\n] In 1984, production was taken over by a second manufacturer who\ndistributed the mixture free of charge under the trademarked name Cancell to\nindividuals with cancer,\nAIDS\n, and other conditions.[\n1\n,\n2\n]\nThe two principal manufac"
+  }
+ },
+ {
+  "id": "L15",
+  "cat": "lab",
+  "gold": "D",
+  "gold_text": "Mildly deficient / insufficient depending on the guideline used, warranting correction",
+  "supported": false,
+  "score": 0.125,
+  "chunk_ids": [
+   "hc-nhpid-antiox#057",
+   "hc-nhpid-fonc-cognitive-func#008",
+   "hc-nhpid-vitamin-d-hd#004",
+   "hc-nhpid-carrot2#004",
+   "hc-nhpid-multiple-joint-health2#010"
+  ],
+  "best": {
+   "score": 0.125,
+   "chunk_id": "hc-nhpid-fonc-cognitive-func#008",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Quantity(ies): 1.15-23.12 micrograms vitamin D 3 , per day\n19 years and older:\n0.77-4 grams cod liver oil, per day\nAnd\n150-1,360 milligrams EPA + DHA including at least 100 milligrams DHA, per day\nAnd\n138-3,000 micrograms RAE (Vitamin A), per day\nAnd\n1.15-25 micrograms Vitamin D3, per day\nL-alpha-Glycerophosphorylcholine (Choline alfoscerate)\nN/A\n1.2 grams, per day\nFish oil\nStandardized fixed oil\n"
+  }
+ },
+ {
+  "id": "S01",
+  "cat": "safety",
+  "gold": "A",
+  "gold_text": "Possible additive bleeding risk at high doses; discuss and monitor INR",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-fish-oil-huile-poisson#005",
+   "hc-nhpid-fish-oil-huile-poisson#003",
+   "hc-nhpid-multiple-joint-health2#008",
+   "hc-nhpid-cod-liver-oil#004",
+   "hc-nhpid-multiple-oil#010"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-fish-oil-huile-poisson#005",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Quantity(ies): Method of preparation: Standardized fixed oil\nIn addition to the quantity of fish oil, the potency information must be provided. The potency may be expressed either as the amount (milligrams) and/or percentage (%) of EPA and DHA (% w/w) relative to the total quantity of fish oil or replaced with the sub-ingredient, Omega-3 fatty acids, on the PLA form.\nIf potency is declared as Omeg"
+  }
+ },
+ {
+  "id": "S02",
+  "cat": "safety",
+  "gold": "A",
+  "gold_text": "Mental status change, autonomic instability, neuromuscular abnormalities",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-peppermint-oil#002",
+   "nci-pdq-acupuncture-pdq#060",
+   "nccih-st-johns-wort#005",
+   "nccih-garcinia-cambogia#005",
+   "nci-pdq-mistletoe-pdq#067"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-peppermint-oil#002",
+   "section": "other",
+   "source": "NCCIH (NIH)",
+   "text": "Background: The herb peppermint, a natural cross between water mint and spearmint, grows throughout Europe, North America, and the Mediterranean.\nBoth peppermint leaves and the essential oil from peppermint have been used for health purposes. Peppermint oil is the essential oil taken from the flowering parts and leaves of the peppermint plant. (Essential oils are very concentrated oils containing "
+  }
+ },
+ {
+  "id": "S03",
+  "cat": "safety",
+  "gold": "B",
+  "gold_text": "Stop the product and arrange liver function tests urgently",
+  "supported": true,
+  "score": 0.286,
+  "chunk_ids": [
+   "nccih-turmeric#005",
+   "hc-nhpid-multiple-joint-health2#016",
+   "hc-nhpid-greentea-thevert2#006",
+   "hc-nhpid-tamar-malabar2#005",
+   "hc-nhpid-calcium-potassium2#006"
+  ],
+  "best": {
+   "score": 0.286,
+   "chunk_id": "nccih-turmeric#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Conventionally formulated oral turmeric or curcumin (not modified to enhance bioavailability) is likely safe in the recommended amounts for up to 2 or 3 months.\nOral turmeric can cause adverse effects such as nausea and vomiting, acid reflux, stomach upset, diarrhea, or constipation. Topical curcumin can cause hives or itching.\nMany curcumin products with increased b"
+  }
+ },
+ {
+  "id": "S04",
+  "cat": "safety",
+  "gold": "D",
+  "gold_text": "Ginger, with attention to dose and product quality; always assess red flags first",
+  "supported": false,
+  "score": 0.111,
+  "chunk_ids": [
+   "nccih-feverfew#011",
+   "nccih-peppermint-oil#013",
+   "nci-pdq-cancell-pdq#001",
+   "nccih-bilberry#011",
+   "nccih-acai#012"
+  ],
+  "best": {
+   "score": 0.111,
+   "chunk_id": "nccih-acai#012",
+   "section": "red_flags",
+   "source": "NCCIH (NIH)",
+   "text": "Key References: Mart.) dietary intake affects plasma lipids, apolipoproteins, cholesteryl ester transfer to high-density lipoprotein and redox metabolism: a prospective study in women\n.\nClinical Nutrition\n. 2018;37(2):618-623.\nSchreckinger ME, Lotton J, Lila MA, et al.\nBerries from South America: a comprehensive review on chemistry, health potential, and commercialization\n.\nJournal of Medicinal Fo"
+  }
+ },
+ {
+  "id": "S05",
+  "cat": "safety",
+  "gold": "C",
+  "gold_text": "Products with high sodium or liquorice root content, and herb-drug interactions with diuretics and digoxin",
+  "supported": true,
+  "score": 0.273,
+  "chunk_ids": [
+   "nci-pdq-coenzyme-q10-pdq#034",
+   "nccih-hawthorn#012",
+   "hc-nhpid-tcm#008",
+   "nccih-hawthorn#003",
+   "nccih-passionflower#004"
+  ],
+  "best": {
+   "score": 0.273,
+   "chunk_id": "hc-nhpid-tcm#008",
+   "section": "contraindications",
+   "source": "Health Canada NNHPD",
+   "text": "Contraindication(s): All products\nDo not use if you are pregnant or breastfeeding.\nAnd\nAny additional risk statement not covered by the above statement as specified by referenced texts.\nOral products containing two or more diuretics from Table 2 (total QCE (Quantity Crude Equivalent): > 100 mg/day for powdered and ethanolic extracts or > 300 mg/day for decoction and decoction concentrate)\nDo not u"
+  }
+ },
+ {
+  "id": "S06",
+  "cat": "safety",
+  "gold": "A",
+  "gold_text": "Bleeding",
+  "supported": true,
+  "score": 1.0,
+  "chunk_ids": [
+   "nccih-dandelion#005",
+   "nccih-ginkgo#006",
+   "nccih-cranberry#006",
+   "nccih-cats-claw#005",
+   "nccih-garlic#005"
+  ],
+  "best": {
+   "score": 1.0,
+   "chunk_id": "nccih-ginkgo#006",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: For most adults, ginkgo leaf extracts are likely to be safe when taken orally in moderate\u00a0amounts. They have been used safely in research studies lasting as long as 6 years. Fresh ginkgo seeds are toxic when consumed orally, and serious side effects have also occurred in people who consumed roasted ginkgo seeds or the crude ginkgo plant.\nGinkgo leaf extract is genera"
+  }
+ },
+ {
+  "id": "E01",
+  "cat": "herb-drug",
+  "gold": "C",
+  "gold_text": "Reduced tacrolimus levels via CYP3A4 and P-glycoprotein induction, risking graft rejection",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-st-johns-wort#005",
+   "nccih-st-johns-wort#002",
+   "hc-nhpid-fonc-cognitive-func#004",
+   "hc-nhpid-stjohnswort-millepertuis-oral2#002",
+   "nci-pdq-dietary-interactions-pdq#021"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-st-johns-wort#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: For most adults who are not taking any kind of medicine, St. John\u2019s wort appears to be safe when used for up to 12 weeks, and some studies indicate that it can be used safely for a year or more.\nIf taken orally in large doses or applied to the skin, St. John\u2019s wort might cause severe skin reactions after sun exposure. Other side effects can include diarrhea, dizzines"
+  }
+ },
+ {
+  "id": "E02",
+  "cat": "herb-drug",
+  "gold": "B",
+  "gold_text": "Induces intestinal CYP3A4 and P-glycoprotein, reducing drug exposure",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-garlic-ail#006",
+   "nccih-garlic#004",
+   "nccih-garlic#002",
+   "nci-pdq-prostate-supplements-pdq#130",
+   "nccih-yohimbe#005"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-garlic-ail#006",
+   "section": "cautions",
+   "source": "Health Canada NNHPD",
+   "text": "Caution(s) and warning(s): Relief of upper respiratory tract infections and catarrhal (nasal congestion) conditions\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAll uses\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are taking blood thinners or protease "
+  }
+ },
+ {
+  "id": "E03",
+  "cat": "herb-drug",
+  "gold": "D",
+  "gold_text": "Raise INR, with case reports of bleeding",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-cranberry#006",
+   "nccih-cranberry#005",
+   "hc-nhpid-cranberry-canneberge2#004",
+   "nci-pdq-coenzyme-q10-pdq#004",
+   "hc-nhpid-antiox#068"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-cranberry#006",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Cranberry taken orally (by mouth) is generally thought to be safe. However, if consumed in very large amounts, cranberry can cause stomach upset and diarrhea, particularly in young children.\nPeople who think they have a UTI should see a health care provider for diagnosis and treatment. Don\u2019t use cranberry products instead of a proven treatment for a UTI.\nThere is con"
+  }
+ },
+ {
+  "id": "E04",
+  "cat": "herb-drug",
+  "gold": "A",
+  "gold_text": "Stimulates immune activity that opposes immunosuppression",
+  "supported": false,
+  "score": 0.2,
+  "chunk_ids": [
+   "nccih-echinacea#005",
+   "nccih-echinacea#006",
+   "nccih-ashwagandha#005",
+   "nccih-ephedra#005",
+   "nccih-kava#005"
+  ],
+  "best": {
+   "score": 0.2,
+   "chunk_id": "nccih-ashwagandha#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Ashwagandha may be safe when taken in the short term (up to 3 months). There is not enough information to allow conclusions about its long-term safety to be reached.\nIn some individuals, ashwagandha preparations may cause drowsiness, stomach upset, diarrhea, and vomiting.\nAlthough it is rare, there have been a number of cases that link liver injury to ashwagandha sup"
+  }
+ },
+ {
+  "id": "E05",
+  "cat": "herb-drug",
+  "gold": "B",
+  "gold_text": "Add to anticoagulation and lower blood glucose",
+  "supported": true,
+  "score": 0.25,
+  "chunk_ids": [
+   "nccih-fenugreek#002",
+   "nci-pdq-mistletoe-pdq#095",
+   "nccih-fenugreek#001",
+   "nci-pdq-gerson-pdq#021",
+   "nccih-cranberry#006"
+  ],
+  "best": {
+   "score": 0.25,
+   "chunk_id": "nci-pdq-gerson-pdq#021",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Adverse Effects: Case reports of adverse events associated with coffee enemas raise concern about their use. Three deaths that seem related to coffee enemas have been reported in the literature.\nSalmonella enteridis\ngroup D and\nCampylobacter fetus intestinalis\nwere cultured from\nstool\nand\nblood\nof one patient who died shortly after treatment at the Gerson Institute clinic. This death could not be "
+  }
+ },
+ {
+  "id": "E06",
+  "cat": "herb-drug",
+  "gold": "B",
+  "gold_text": "Coumarin content and hepatotoxicity risk",
+  "supported": true,
+  "score": 0.333,
+  "chunk_ids": [
+   "nccih-cinnamon#005",
+   "nccih-cinnamon#006",
+   "nccih-peppermint-oil#006",
+   "nccih-licorice-root#005",
+   "nccih-sage#005"
+  ],
+  "best": {
+   "score": 0.333,
+   "chunk_id": "nccih-cinnamon#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Cinnamon is likely safe when consumed in the amounts commonly used in foods as a spice or flavoring agent. When used in larger amounts or for long periods of time, cinnamon is sometimes associated with side effects, most commonly gastrointestinal problems or allergic reactions.\nNever consume cinnamon powder as part of the \u201ccinnamon challenge,\u201d an unsafe internet dare"
+  }
+ },
+ {
+  "id": "E07",
+  "cat": "herb-drug",
+  "gold": "D",
+  "gold_text": "Hypertensive crisis",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-yohimbe#005",
+   "nci-pdq-acupuncture-pdq#098",
+   "nci-pdq-acupuncture-pdq#106",
+   "nccih-ashwagandha#005",
+   "nccih-astragalus#005"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-yohimbe#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Yohimbine, a component of yohimbe, has been associated with cardiac arrhythmia (irregular heartbeat), blood pressure problems, heart attacks, and seizures.\nBecause of inaccurate labeling and potential for serious side effects, yohimbe supplements have been restricted or banned in many countries.\nYohimbe caused stomach problems, tachycardia (a rapid heartbeat), anxiet"
+  }
+ },
+ {
+  "id": "E08",
+  "cat": "herb-drug",
+  "gold": "B",
+  "gold_text": "Has sympathomimetic cardiovascular effects",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-bitter-orange#012",
+   "nccih-bitter-orange#002",
+   "nci-pdq-aromatherapy-pdq#037",
+   "hc-nhpid-aromatherap2#003",
+   "hc-nhpid-aromatherap2#006"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-bitter-orange#012",
+   "section": "red_flags",
+   "source": "NCCIH (NIH)",
+   "text": "Key References: Bitter orange. Drugs and Lactation Database (LactMed). National Institute of Child Health and Human Development. Updated June 2021. Accessed at\nncbi.nlm.nih.gov/books/NBK501892\non July 21, 2023.\nBitter orange. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on July 20, 2023. [Database\u00a0subscription].\nKoncz D, T\u00f3th B, Bahar MA, et al.\nThe safety and efficacy "
+  }
+ },
+ {
+  "id": "E09",
+  "cat": "herb-drug",
+  "gold": "B",
+  "gold_text": "Additive CNS depression",
+  "supported": true,
+  "score": 0.5,
+  "chunk_ids": [
+   "nccih-passionflower#002",
+   "nccih-passionflower#005",
+   "nccih-kava#005",
+   "hc-nhpid-stjohnswort-millepertuis-oral2#006",
+   "nccih-st-johns-wort#006"
+  ],
+  "best": {
+   "score": 0.5,
+   "chunk_id": "hc-nhpid-stjohnswort-millepertuis-oral2#006",
+   "section": "cautions",
+   "source": "Health Canada NNHPD",
+   "text": "Caution(s) and warning(s): Healthy mood balance\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have a psychological disorder such as anxiety or depression.\nAll products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding (Brinker 2010; Barnes et"
+  }
+ },
+ {
+  "id": "E10",
+  "cat": "herb-drug",
+  "gold": "D",
+  "gold_text": "Tannins and polyphenols forming insoluble complexes",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-dietary-interactions-pdq#027",
+   "nci-pdq-dietary-interactions-pdq#032",
+   "nci-pdq-prostate-supplements-pdq#035",
+   "nccih-green-tea#005",
+   "nccih-green-tea#002"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-dietary-interactions-pdq#027",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Green Tea: PK was thought to be the result of interference in the\nabsorption\nof palbociclib. The authors recommended against the coadministration of these\ncompounds\n.[\n15\n]\nResearch on rat animal models investigated the impact of green tea extract on the oral bioavailability of\nerlotinib\nand\nlapatinib\n. A decrease in the oral bioavailability for erlotinib and lapatinib was observed after consumpti"
+  }
+ },
+ {
+  "id": "E11",
+  "cat": "herb-drug",
+  "gold": "A",
+  "gold_text": "Chelation and reduced antibiotic absorption",
+  "supported": true,
+  "score": 0.25,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#019",
+   "nci-pdq-prostate-supplements-pdq#015",
+   "hc-nhpid-rhodiol2#002",
+   "hc-nhpid-multiple-joint-health2#013",
+   "nci-pdq-coenzyme-q10-pdq#033"
+  ],
+  "best": {
+   "score": 0.25,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#015",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Human Studies: published in 2005 reported that there may be an association between increased risk of prostate cancer and greater consumption of dairy products and calcium.[\n22\n]\nA 2008 meta-analysis reviewed 45 observational studies and found no evidence of a link between dairy products and risk of prostate cancer.[\n23\n] A meta-analysis of\ncohort studies\npublished between 1996 and 2006 found a pos"
+  }
+ },
+ {
+  "id": "E12",
+  "cat": "herb-drug",
+  "gold": "A",
+  "gold_text": "Copper deficiency, with anaemia and neuropathy",
+  "supported": true,
+  "score": 0.5,
+  "chunk_ids": [
+   "hc-nhpid-vitamin-d-hd#008",
+   "hc-nhpid-skin-peau#004",
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "nci-pdq-dietary-interactions-pdq#009",
+   "nci-pdq-prostate-supplements-pdq#195"
+  ],
+  "best": {
+   "score": 0.5,
+   "chunk_id": "hc-nhpid-vitamin-d-hd#008",
+   "section": "cautions",
+   "source": "Health Canada NNHPD",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician before use if you are unsure whether you are taking enough copper as zinc supplementation can cause a copper deficiency (NNHPD 2026)."
+  }
+ },
+ {
+  "id": "E13",
+  "cat": "herb-drug",
+  "gold": "A",
+  "gold_text": "Myopathy and hepatotoxicity",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#192",
+   "hc-nhpid-soyflour-farinesoja#003",
+   "nccih-european-mistletoe#004",
+   "nci-pdq-prostate-supplements-pdq#205",
+   "hc-nhpid-soyflour-farinesoja#004"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#192",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Human Studies: A post hoc analysis was conducted on data from two randomized controlled trials. Patients with castration-resistant prostate cancer received the combination of a\nstatin\nand vitamin D with abiraterone (AA). The analysis reported that one study (\nCOU-AA-301\n) found that the use of AA with a statin and vitamin D reduced the risk of death by 38% (\nP\n= .0007), while AA alone was associat"
+  }
+ },
+ {
+  "id": "E14",
+  "cat": "herb-drug",
+  "gold": "C",
+  "gold_text": "Inhibits intestinal CYP3A4, raising simvastatin exposure and myopathy risk",
+  "supported": false,
+  "score": 0.143,
+  "chunk_ids": [
+   "nci-pdq-dietary-interactions-pdq#023",
+   "nci-pdq-dietary-interactions-pdq#024",
+   "nccih-pomegranate#005",
+   "nci-pdq-gerson-pdq#006",
+   "nci-pdq-gerson-pdq#004"
+  ],
+  "best": {
+   "score": 0.143,
+   "chunk_id": "nci-pdq-dietary-interactions-pdq#023",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Grapefruit: General information\nGrapefruit and other similar fruits, such as Seville orange, pomelo, and lime, have been known to\ninteract\nwith a variety of\ndrugs\n, including some anticancer drugs. These\npharmacokinetic\ninteractions may be caused by the furanocoumarin components found in the seeds of grapefruit. These components have been observed impacting the\nmetabolism\nof substrates of CYP3A4.["
+  }
+ },
+ {
+  "id": "E15",
+  "cat": "herb-drug",
+  "gold": "D",
+  "gold_text": "Lithium, because reduced renal clearance can raise lithium levels",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-black-cohosh-pdq#014",
+   "hc-nhpid-caffeine-cafeine#006",
+   "hc-nhpid-feuille-olea-europaea-leaf2#009",
+   "hc-nhpid-feuille-olea-europaea-leaf2#007",
+   "hc-nhpid-caffeine-cafeine#004"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-black-cohosh-pdq#014",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Mechanism of Action, Pharmacokinetics, Pharmacodynamics: ]\u2014especially since a very high dose was used for this particular investigation (1,090 mg bid). Studies have yet to verify this effect;[\n2\n] however, given that tamoxifen is a\nselective estrogen receptor modulator\nand is primarily metabolized by CYP2D6, even mild inhibition of the enzyme by black cohosh may warrant consideration.[\n2\n]"
+  }
+ },
+ {
+  "id": "E16",
+  "cat": "herb-drug",
+  "gold": "A",
+  "gold_text": "Hydroquinone derivatives with hepatotoxic and irritant potential",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-arctostaphylos-uva-ursi2#007",
+   "nccih-peppermint-oil#006",
+   "nccih-valerian#005",
+   "hc-nhpid-arctostaphylos-uva-ursi2#001",
+   "nccih-ashwagandha#005"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-arctostaphylos-uva-ursi2#007",
+   "section": "contraindications",
+   "source": "Health Canada NNHPD",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (EMA 2018; Brinker 2010; ESCOP 2003; WHO 2002; Blumenthal 2000; Mills and Bone 2000; Bradley 1992)."
+  }
+ },
+ {
+  "id": "E17",
+  "cat": "herb-safety",
+  "gold": "D",
+  "gold_text": "Progressive nephropathy and urothelial cancer",
+  "supported": true,
+  "score": 0.25,
+  "chunk_ids": [
+   "nccih-yohimbe#005",
+   "nci-pdq-dietary-interactions-pdq#007",
+   "nci-pdq-mushrooms-pdq#001",
+   "nccih-ephedra#002",
+   "nccih-cinnamon#003"
+  ],
+  "best": {
+   "score": 0.25,
+   "chunk_id": "nci-pdq-dietary-interactions-pdq#007",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information: Some common dietary\nantioxidants\ninclude the following:\nVitamin C\n(ascorbate).\nVitamin E\n.\nFlavonoids\n(e.g.,\nsoy\nisoflavones\n, green tea\ncatechins\n).\nBeta-carotene\n.\nGlutathione\n.\nNumerous anticancer agents generate\nreactive oxygen species\n, which cause decreased levels of antioxidants,\ndeoxyribonucleic acid\ndamage, and\ncancer\ncell\ndeath. Antioxidants are taken by many cancer "
+  }
+ },
+ {
+  "id": "E18",
+  "cat": "herb-safety",
+  "gold": "D",
+  "gold_text": "Germander (Teucrium chamaedrys)",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#046",
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-milk-thistle-pdq#029",
+   "nci-pdq-dietary-interactions-pdq#012",
+   "nci-pdq-black-cohosh-pdq#026"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#046",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Adverse Effects: concluded that the fulminant liver failure experienced by this patient was most likely related to the consumption of\nover-the-counter\nGTE weight-loss supplements. In addition, the sale of an ethanolic GTE sold as a weight-reduction aid was suspended in 2003 after reports associated hepatotoxicity (four cases in Spain and nine cases in France) with its use.[\n55\n] Time to onset of h"
+  }
+ },
+ {
+  "id": "E19",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Hepatotoxicity",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-ndv-pdq#100",
+   "nci-pdq-gonzalez-pdq#023",
+   "nci-pdq-aromatherapy-pdq#046",
+   "nci-pdq-gerson-pdq#021",
+   "nci-pdq-essiac-pdq#027"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-ndv-pdq#100",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Adverse Effects: The\nside effects\nassociated with exposure to\nNewcastle disease virus\n(NDV) have generally been\ndescribed as mild to moderate in severity. As noted previously\n(refer to the\nGeneral Information\nsection of this summary for more information), NDV has been reported to cause\nmild flu-like symptoms,\nconjunctivitis\n, and\nlaryngitis\nin humans. [\n1\n-\n10\n]\nThe most commonly reported side eff"
+  }
+ },
+ {
+  "id": "E20",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Melanosis coli and laxative dependence with electrolyte disturbance",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-senna-sene#003",
+   "nci-pdq-hydrazine-sulfate-pdq#006",
+   "hc-nhpid-hops-houblon#007",
+   "nci-pdq-gerson-pdq#013",
+   "hc-nhpid-senna-sene#009"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-senna-sene#003",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Subpopulation(s): Adolescents 12-17 years and Adults 18 years and older (Mills and Bone 2005; ESCOP 2003; WHO 1999)"
+  }
+ },
+ {
+  "id": "E21",
+  "cat": "herb-safety",
+  "gold": "A",
+  "gold_text": "Is hepatotoxic and has been used as an abortifacient with fatal outcomes",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-pennyroyal2#005",
+   "hc-nhpid-pennyroyal2#001",
+   "nccih-peppermint-oil#001",
+   "hc-nhpid-aromatherap2#009",
+   "hc-nhpid-aromatherap2#021"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-pennyroyal2#005",
+   "section": "contraindications",
+   "source": "Health Canada NNHPD",
+   "text": "Contraindication(s): Do not use if you are pregnant or breastfeeding (Brinker 2010)."
+  }
+ },
+ {
+  "id": "E22",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Neonatal stroke and heart failure",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-black-cohosh#005",
+   "nccih-black-cohosh#012",
+   "nccih-feverfew#011",
+   "nci-pdq-black-cohosh-pdq#009",
+   "nccih-asian-ginseng#007"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-black-cohosh#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: While black cohosh has been used safely in research studies that lasted as long as a year and is generally well tolerated, concerns have been raised that it may cause liver damage in some people.\nCases of liver damage\u2014some very serious\u2014have been reported in people taking products labeled as black cohosh. These problems are rare, and it\u2019s uncertain whether black cohos"
+  }
+ },
+ {
+  "id": "E23",
+  "cat": "herb-safety",
+  "gold": "A",
+  "gold_text": "Anisatin, a neurotoxin causing seizures, particularly in infants",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-curcumin-pdq#005",
+   "nccih-licorice-root#002",
+   "nci-pdq-aromatherapy-pdq#004",
+   "nci-pdq-antineoplastons-pdq#018",
+   "nci-pdq-coenzyme-q10-pdq#006"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-curcumin-pdq#005",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information and History: or treatment claims are made. The quality and amount of ingredients in dietary supplements are also regulated by the FDA through Good Manufacturing Practices (GMPs). The FDA GMPs requires that every finished batch of dietary supplement meets each product specification for identity, purity, strength, composition, and limits on contamination that may\nadulterate\ndieta"
+  }
+ },
+ {
+  "id": "E24",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Safrole, an hepatocarcinogen",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-curcumin-pdq#005",
+   "nci-pdq-suns-soup-pdq#004",
+   "nccih-horse-chestnut#005",
+   "nccih-aloe-vera#002",
+   "hc-nhpid-cor-call2#002"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-curcumin-pdq#005",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information and History: or treatment claims are made. The quality and amount of ingredients in dietary supplements are also regulated by the FDA through Good Manufacturing Practices (GMPs). The FDA GMPs requires that every finished batch of dietary supplement meets each product specification for identity, purity, strength, composition, and limits on contamination that may\nadulterate\ndieta"
+  }
+ },
+ {
+  "id": "E25",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Coumarin derivatives adding to bleeding risk",
+  "supported": true,
+  "score": 0.25,
+  "chunk_ids": [
+   "nccih-ginkgo#006",
+   "hc-nhpid-angelica-sinensis2#003",
+   "hc-nhpid-angelica-sinensis2#002",
+   "nccih-cranberry#006",
+   "nccih-garlic#005"
+  ],
+  "best": {
+   "score": 0.25,
+   "chunk_id": "nccih-ginkgo#006",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: For most adults, ginkgo leaf extracts are likely to be safe when taken orally in moderate\u00a0amounts. They have been used safely in research studies lasting as long as 6 years. Fresh ginkgo seeds are toxic when consumed orally, and serious side effects have also occurred in people who consumed roasted ginkgo seeds or the crude ginkgo plant.\nGinkgo leaf extract is genera"
+  }
+ },
+ {
+  "id": "E26",
+  "cat": "herb-safety",
+  "gold": "A",
+  "gold_text": "Ginkgolic acids, which are allergenic and cytotoxic",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-ginkgo#006",
+   "nccih-ginkgo#002",
+   "nccih-horse-chestnut#005",
+   "nci-pdq-gerson-pdq#004",
+   "nccih-butterbur#004"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-ginkgo#006",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: For most adults, ginkgo leaf extracts are likely to be safe when taken orally in moderate\u00a0amounts. They have been used safely in research studies lasting as long as 6 years. Fresh ginkgo seeds are toxic when consumed orally, and serious side effects have also occurred in people who consumed roasted ginkgo seeds or the crude ginkgo plant.\nGinkgo leaf extract is genera"
+  }
+ },
+ {
+  "id": "E27",
+  "cat": "herb-safety",
+  "gold": "C",
+  "gold_text": "Vomiting and respiratory depression",
+  "supported": true,
+  "score": 0.333,
+  "chunk_ids": [
+   "nccih-licorice-root#002",
+   "nci-pdq-prostate-supplements-pdq#217",
+   "nccih-turmeric#002",
+   "nci-pdq-vitamin-c-pdq#038",
+   "nci-pdq-black-cohosh-pdq#007"
+  ],
+  "best": {
+   "score": 0.333,
+   "chunk_id": "nci-pdq-black-cohosh-pdq#007",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "History: Black cohosh\nwas in use by American Indian or Alaska Native people when Europeans arrived in the New World.[\n1\n] Among the reported indications for black cohosh in traditional American Indian or Alaska Native\nmedicine\nwere various female\nconditions\n,\nrheumatism\n,\nfever\n(possibly due to malaria), general malaise, sore\nthroat\n, childbirth, and snakebite.[\n1\n,\n2\n] Early European settlers, an"
+  }
+ },
+ {
+  "id": "E28",
+  "cat": "herb-safety",
+  "gold": "B",
+  "gold_text": "Pyrrolizidine alkaloids",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-yohimbe#005",
+   "nccih-butterbur#001",
+   "nccih-noni#005",
+   "nccih-pomegranate#005",
+   "nccih-horse-chestnut#005"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-yohimbe#005",
+   "section": "adverse_effects",
+   "source": "NCCIH (NIH)",
+   "text": "What Do We Know About Safety?: Yohimbine, a component of yohimbe, has been associated with cardiac arrhythmia (irregular heartbeat), blood pressure problems, heart attacks, and seizures.\nBecause of inaccurate labeling and potential for serious side effects, yohimbe supplements have been restricted or banned in many countries.\nYohimbe caused stomach problems, tachycardia (a rapid heartbeat), anxiet"
+  }
+ },
+ {
+  "id": "E29",
+  "cat": "nutrient-drug",
+  "gold": "B",
+  "gold_text": "Hypercalcaemia",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-vitamin-d-hd#007",
+   "hc-nhpid-antiox#057",
+   "nci-pdq-prostate-supplements-pdq#194",
+   "hc-nhpid-fonc-cognitive-func#008",
+   "hc-nhpid-vitamin-d-hd#004"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-vitamin-d-hd#007",
+   "section": "cautions",
+   "source": "Health Canada NNHPD",
+   "text": "Caution(s) and warning(s): All products except products containing zinc sourced from picolinate requiring a contraindication\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are pregnant or breastfeeding.\nAll products\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have ki"
+  }
+ },
+ {
+  "id": "E30",
+  "cat": "nutrient-drug",
+  "gold": "D",
+  "gold_text": "Hypomagnesaemia",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-vitamin-c-pdq#003",
+   "hc-nhpid-chitosan2#002",
+   "hc-nhpid-greentea-thevert2#002",
+   "nci-pdq-acupuncture-pdq#060",
+   "nci-pdq-dietary-interactions-pdq#005"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-vitamin-c-pdq#003",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information: Vitamin C\nis an essential\nnutrient\nthat has\nredox\nfunctions, is a cofactor for several\nenzymes\n, and plays an important role in the synthesis of\ncollagen\n.[\n1\n] A severe\ndeficiency\nin vitamin C results in scurvy, which is associated with malaise,\nlethargy\n, easy bruising, and spontaneous bleeding.[\n2\n] One of the effects of scurvy is a change in collagen structure to a thinner"
+  }
+ },
+ {
+  "id": "E31",
+  "cat": "nutrient-drug",
+  "gold": "C",
+  "gold_text": "Vitamin B6 (pyridoxine)",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-black-cohosh-pdq#018",
+   "hc-nhpid-homeopathy2#005",
+   "nci-pdq-pc-spes-pdq#032",
+   "nccih-green-tea#005",
+   "hc-nhpid-5htp#006"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-black-cohosh-pdq#018",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Breast Cancer Patients: Observational and\nopen-label\nstudies have demonstrated reductions in the number and severity of hot flashes among breast cancer patients undergoing adjuvant\nendocrine therapy\ncomplemented with black cohosh; however, randomized, double-blind,\nplacebo-controlled\nclinical trials have failed to demonstrate reductions greater than that seen with\nplacebo\n.[\n2\n]\nSignificant declin"
+  }
+ },
+ {
+  "id": "E32",
+  "cat": "nutrient-drug",
+  "gold": "A",
+  "gold_text": "Bisphosphonates such as alendronate",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#174",
+   "hc-nhpid-multiple-joint-health2#009",
+   "hc-nhpid-vitamin-d-hd#002",
+   "nccih-green-tea#005",
+   "nci-pdq-prostate-supplements-pdq#195"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#174",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information and History: Vitamin D, also called calciferol,\ncholecalciferol\n(D3), or\nergocalciferol\n(D2), is a\nfat-soluble vitamin\nfound in fatty fish, fish liver oil, eggs, and fortified dairy products. Vitamin D is made naturally by the body when exposed to sunlight.\nIn 1922, researchers discovered that heated, oxidized cod-liver oil, called\nfat-soluble factor A\nand later known as vitami"
+  }
+ },
+ {
+  "id": "E33",
+  "cat": "nutrient-drug",
+  "gold": "A",
+  "gold_text": "Increases non-haem iron absorption",
+  "supported": true,
+  "score": 0.25,
+  "chunk_ids": [
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "nci-pdq-prostate-supplements-pdq#194",
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "nci-pdq-vitamin-c-pdq#007",
+   "nci-pdq-prostate-supplements-pdq#192"
+  ],
+  "best": {
+   "score": 0.25,
+   "chunk_id": "hc-nhpid-chlorella-vulgaris2#004",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Extracts (Dry extract, Tincture, Fluid extract, Decoction, Decoction concentrate, Infusion, Infusion concentrate)\nNot to exceed 6 grams of Chlorella broken cell per day (Lee et al. 2010).\nMethods of preparation: Dry standardized, Powdered standardized, Standardized extracts (Dry extract, Tincture, Fluid extract, Decoction, Deco"
+  }
+ },
+ {
+  "id": "E34",
+  "cat": "nutrient-drug",
+  "gold": "A",
+  "gold_text": "Reduce methotrexate toxicity without abolishing efficacy",
+  "supported": true,
+  "score": 0.5,
+  "chunk_ids": [
+   "nccih-thunder-god-vine#012",
+   "nccih-thunder-god-vine#002",
+   "nccih-evening-primrose-oil#002",
+   "hc-nhpid-fish-oil-huile-poisson#007",
+   "hc-nhpid-multiple-joint-health2#004"
+  ],
+  "best": {
+   "score": 0.5,
+   "chunk_id": "nccih-thunder-god-vine#012",
+   "section": "red_flags",
+   "source": "NCCIH (NIH)",
+   "text": "Key References: Brown AC.\nHeart toxicity related to herbs and dietary supplements: online table of case reports. Part 4 of 5\n.\nJournal of Dietary Supplements\n. 2018;15(4):516-555.\nBrown AC.\nKidney toxicity related to herbs and dietary supplements: online table of case reports. Part 3 of 5 series\n.\nFood and Chemical Toxicology\n. 2017;107(Pt A):502-519.\nCao Z, Liu B, Li L, et al.\nDetoxification stra"
+  }
+ },
+ {
+  "id": "E35",
+  "cat": "nutrient-drug",
+  "gold": "B",
+  "gold_text": "Tetracyclines and fluoroquinolones",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-probio#002",
+   "nci-pdq-dietary-interactions-pdq#027",
+   "nccih-cranberry#012",
+   "nci-pdq-prostate-supplements-pdq#174",
+   "nccih-echinacea#012"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-probio#002",
+   "section": "indications",
+   "source": "Health Canada NNHPD",
+   "text": "Use(s) or Purpose(s): Medicinal ingredients from Tables 1, 2, and 3\nSource of probiotics.\nMedicinal ingredients from Tables 1, 2, and 3 except Lactobacillus crispatus and Lactobacillus gallinarum\nHelps support intestinal/gastrointestinal health (WGOGG 2023; Alonso and Guarner 2013; DuPont and DuPont 2011; Rolfe 2000).\nCould promote a favorable gut flora (Bezkorovainy 2001; Morelli 2000; Collins et"
+  }
+ },
+ {
+  "id": "L16",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "Within the reference interval, in the lower part of the range",
+  "supported": false,
+  "score": 0.167,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#039",
+   "nci-pdq-mushrooms-pdq#011",
+   "nci-pdq-coenzyme-q10-pdq#020",
+   "nci-pdq-pc-spes-pdq#022",
+   "nci-pdq-antineoplastons-pdq#042"
+  ],
+  "best": {
+   "score": 0.167,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#039",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Human Studies: < .024), with these findings largely driven by the absence of atypical small acinar proliferation on end-of-study biopsy on the Polyphenon E arm (Polyphenon E [0/26] vs. placebo arm [5/25]). Because there is no clear evidence that HGPIN and atypical small acinar proliferation represent steps on a linear path to prostate cancer, these findings should be interpreted with caution. A co"
+  }
+ },
+ {
+  "id": "L17",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "Mildly deficient or insufficient, warranting correction",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-fish-oil-huile-poisson#006",
+   "nci-pdq-prostate-supplements-pdq#183",
+   "hc-nhpid-antiox#057",
+   "nci-pdq-prostate-supplements-pdq#203",
+   "hc-nhpid-vitamin-d-hd#004"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-fish-oil-huile-poisson#006",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Quantity(ies): 14-17 years\n100\n2,500\nAdults\n18 years and older\n100\n5,000\n1 EPA and DHA may be represented as Omega-3 fatty acids on the PLA form. The minimum daily doses also apply to the sub-ingredient \"Omega-3 fatty acids\" as a threshold; however, the DPA content should be taken into consideration. Due to the potential presence of DPA, the maximum daily dose will not be limited, thereby allowing"
+  }
+ },
+ {
+  "id": "L18",
+  "cat": "lab",
+  "gold": "B",
+  "gold_text": "Below the reference interval, consistent with deficiency",
+  "supported": false,
+  "score": 0.2,
+  "chunk_ids": [
+   "nci-pdq-gerson-pdq#006",
+   "nci-pdq-acupuncture-pdq#077",
+   "nci-pdq-acupuncture-pdq#078",
+   "nci-pdq-vitamin-c-pdq#038",
+   "hc-nhpid-chlorella-vulgaris2#002"
+  ],
+  "best": {
+   "score": 0.2,
+   "chunk_id": "nci-pdq-vitamin-c-pdq#038",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Adverse Effects: Intravenous\n(IV) high-\ndose\nascorbic acid\nhas been generally well tolerated in\nclinical trials\n.[\n1\n-\n9\n]\nRenal failure\nafter ascorbic acid treatment has been reported in patients with preexisting renal\ndisorders\n.[\n10\n] One study reported\nfluid\noverload related to ascorbic acid\ninfusion\n, but this may be caused by the delivery method and not the product.[\n11\n]\nCase reports\nhave i"
+  }
+ },
+ {
+  "id": "L19",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "Prediabetes range under common guidelines",
+  "supported": false,
+  "score": 0.2,
+  "chunk_ids": [
+   "nccih-astragalus#004",
+   "hc-nhpid-pygeum#005",
+   "nccih-aloe-vera#005",
+   "hc-nhpid-fonc-cognitive-func#012",
+   "hc-nhpid-saw-palmetto-sabal2#006"
+  ],
+  "best": {
+   "score": 0.2,
+   "chunk_id": "nccih-aloe-vera#005",
+   "section": "other",
+   "source": "NCCIH (NIH)",
+   "text": "What Have We Learned?: Two small studies suggest that topical application of aloe gel, in combination with other forms of treatment, may improve acne.\nClinical research suggests topical application of aloe gel may speed burn healing and reduce burn-related pain.\nA small amount of research suggests topical use of aloe also may help people with genital herpes, lichen planus, psoriasis, oral submucou"
+  }
+ },
+ {
+  "id": "L20",
+  "cat": "lab",
+  "gold": "C",
+  "gold_text": "In the diabetes range on repeat testing",
+  "supported": true,
+  "score": 0.25,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#036",
+   "nccih-flaxseed-and-flaxseed-oil#004",
+   "nccih-asian-ginseng#004",
+   "nccih-astragalus#004",
+   "nci-pdq-prostate-supplements-pdq#035"
+  ],
+  "best": {
+   "score": 0.25,
+   "chunk_id": "nccih-flaxseed-and-flaxseed-oil#004",
+   "section": "other",
+   "source": "NCCIH (NIH)",
+   "text": "What Have We Learned?: One clinical trial suggests that flaxseed mucilage powder (mixed with water) might support weight loss in adults with overweight or obesity. However, flaxseed lignan extract and flaxseed oil supplements\u00a0don\u2019t seem to help with weight loss.\nIn pregnant people with gestational diabetes, some research suggests that flaxseed oil supplements containing ALA might improve fasting m"
+  }
+ },
+ {
+  "id": "L21",
+  "cat": "lab",
+  "gold": "B",
+  "gold_text": "Iron overload, including hereditary haemochromatosis",
+  "supported": false,
+  "score": 0.2,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#239",
+   "nci-pdq-prostate-supplements-pdq#121",
+   "nci-pdq-aromatherapy-pdq#006",
+   "nccih-bilberry#002",
+   "nci-pdq-laetrile-pdq#024"
+  ],
+  "best": {
+   "score": 0.2,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#239",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "African Cherry/ Pygeum africanum: P. africanum\nis a tree from the Rosaceae family that grows in tropical zones. It is found in a number of African countries including Kenya, Madagascar, Uganda, and Nigeria. Bark from the\nP. africanum\ntree was used by African tribes to treat\nurinary\nsymptoms\nand\ngastric\npain.[\n1\n] In the 18th century, European travelers learned from South African tribes that\nP. afr"
+  }
+ },
+ {
+  "id": "L22",
+  "cat": "lab",
+  "gold": "D",
+  "gold_text": "Raised, prompting assessment of B12, folate and B6 status",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-cinnamon#003",
+   "nci-pdq-antineoplastons-pdq#042",
+   "nccih-bitter-orange#004",
+   "nci-pdq-mushrooms-pdq#011",
+   "nci-pdq-prostate-supplements-pdq#039"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-cinnamon#003",
+   "section": "dosage",
+   "source": "NCCIH (NIH)",
+   "text": "How Much Do We Know?: There have been many studies of cinnamon, especially for diabetes. However, the results of the studies are difficult to interpret because it\u2019s often unclear which species or part of the cinnamon plant was tested."
+  }
+ },
+ {
+  "id": "L23",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "Low, consistent with hypomagnesaemia",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#063",
+   "nci-pdq-prostate-supplements-pdq#039",
+   "hc-nhpid-oligotherapy2#002",
+   "nci-pdq-coenzyme-q10-pdq#033",
+   "nci-pdq-coenzyme-q10-pdq#009"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-prostate-supplements-pdq#063",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Human Studies: Epidemiological studies\nSeveral epidemiological studies have assessed potential associations between lycopene intake and prostate cancer\nincidence\n.\nEpidemiological studies have demonstrated that populations with high intake of dietary lycopene have lower risk of prostate cancer.[\n7\n,\n9\n-\n13\n] Prospective and\ncase-control studies\nhave shown lycopene to be significantly lower in the "
+  }
+ },
+ {
+  "id": "L24",
+  "cat": "lab",
+  "gold": "B",
+  "gold_text": "Below the typical morning reference interval, suggesting adrenal insufficiency needs exclusion",
+  "supported": false,
+  "score": 0.1,
+  "chunk_ids": [
+   "nci-pdq-prostate-supplements-pdq#183",
+   "nccih-lavender#011",
+   "nci-pdq-curcumin-pdq#018",
+   "nci-pdq-prostate-supplements-pdq#076",
+   "nci-pdq-cartilage-pdq#048"
+  ],
+  "best": {
+   "score": 0.1,
+   "chunk_id": "nci-pdq-curcumin-pdq#018",
+   "section": "indications",
+   "source": "NCI PDQ",
+   "text": "Cancer Prevention and Treatment of Precancerous Lesions: smoldering multiple myeloma\n(SMM).\nPublished results (effectiveness of curcumin-containing product on MGUS and SMM):\nA\ndouble-blind\n,\nplacebo-controlled\n,\ncrossover study\nfollowed by an\nopen-label\nextension study explored the effectiveness of a curcumin-containing product in patients with MGUS or SMM. Thirty-six patients (19 with MGUS and 17"
+  }
+ },
+ {
+  "id": "L25",
+  "cat": "lab",
+  "gold": "A",
+  "gold_text": "Low ferritin, low transferrin saturation, high TIBC",
+  "supported": false,
+  "score": 0.2,
+  "chunk_ids": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-antineoplastons-pdq#039",
+   "nci-pdq-ndv-pdq#105",
+   "nci-pdq-antineoplastons-pdq#015",
+   "nci-pdq-gerson-pdq#005"
+  ],
+  "best": {
+   "score": 0.2,
+   "chunk_id": "nci-pdq-milk-thistle-pdq#038",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Iron Chelation: Silymarin was found to be beneficial as an adjunct to the iron chelator desferrioxamine in patients with\ntransfusion\n-dependent beta-thalassemia major.[\n26\n]\nIn a study of 97 patients, significant decreases in markers of\niron overload\n(serum\nferritin\n, serum iron, hepcidin, and\nsoluble\ntransferring receptor) were observed in the patients who received silymarin as compared with thos"
+  }
+ },
+ {
+  "id": "L26",
+  "cat": "lab",
+  "gold": "C",
+  "gold_text": "Stage 3b",
+  "supported": true,
+  "score": 1.0,
+  "chunk_ids": [
+   "hc-nhpid-fonc-cognitive-func#012",
+   "nci-pdq-acupuncture-pdq#039",
+   "hc-nhpid-creatine-mono#003",
+   "nci-pdq-vitamin-c-pdq#025",
+   "nci-pdq-prostate-supplements-pdq#151"
+  ],
+  "best": {
+   "score": 1.0,
+   "chunk_id": "nci-pdq-acupuncture-pdq#039",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Effect of Acupuncture on Cancer Treatment\u2013Related Side Effects: Yes, local analgesics\nAcupressure reduced severe pain compared with sham acupressure\n1sC\n[\n23\n]\nBMAB\n90; 30 (acupressure at LI4), 30 (acupressure at HT7); 30 (sham acupressure)\n2 min after the start and end of biopsy\nYes,\nlidocaine\nReduced anxiety and pain in treatment group\n1sC\nAcupuncture for aromatase inhibitor-associated musculosk"
+  }
+ },
+ {
+  "id": "L27",
+  "cat": "lab",
+  "gold": "D",
+  "gold_text": "Hepatocellular injury",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-milk-thistle-pdq#032",
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-milk-thistle-pdq#035",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-curcumin-pdq#020"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-milk-thistle-pdq#032",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Hepatitis: Most clinical trials of milk thistle have been conducted in patients with either\nhepatitis\nor\ncirrhosis\n. Other studies have investigated the use of milk thistle in patients with hyperlipidemia,\ndiabetes\n, and\nAmanita phalloides\n(Fr.) mushroom poisoning. Ten randomized trials [\n2\n,\n6\n-\n14\n] have been reported in patients with hepatitis or cirrhosis, and one randomized trial has reported"
+  }
+ },
+ {
+  "id": "L28",
+  "cat": "lab",
+  "gold": "C",
+  "gold_text": "A bone source rather than a liver source",
+  "supported": true,
+  "score": 0.25,
+  "chunk_ids": [
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-milk-thistle-pdq#036",
+   "nci-pdq-antineoplastons-pdq#003",
+   "nci-pdq-laetrile-pdq#010"
+  ],
+  "best": {
+   "score": 0.25,
+   "chunk_id": "nci-pdq-milk-thistle-pdq#036",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Hepatitis: level. In this study, silymarin given orally in higher-than-usual doses failed to significantly reduce serum ALT levels. No significant\nadverse effects\nwere associated with silymarin. In one of the largest observational studies involving 2,637 patients with chronic liver disease, 8 weeks of treatment with 560 mg of silymarin per day resulted in reductions of serum AST, ALT, and gamma-gl"
+  }
+ },
+ {
+  "id": "L29",
+  "cat": "lab",
+  "gold": "B",
+  "gold_text": "Above a desirable LDL target for secondary prevention, warranting review",
+  "supported": false,
+  "score": 0.143,
+  "chunk_ids": [
+   "hc-nhpid-irvingia-gabonensis#002",
+   "hc-nhpid-free-plant-sterols-vegetaux#002",
+   "hc-nhpid-plant-stanol-esters#003",
+   "hc-nhpid-plant-sterol-esters#003",
+   "nccih-green-tea#004"
+  ],
+  "best": {
+   "score": 0.143,
+   "chunk_id": "hc-nhpid-irvingia-gabonensis#002",
+   "section": "indications",
+   "source": "Health Canada NNHPD",
+   "text": "Use(s) or Purpose(s): Could be a complement to a healthy lifestyle that incorporates a\ncalorie-reduced diet and regular physical activity for individuals\ninvolved in a weight management program (Ross 2011; Ngondi et al. 2009,\nNgondi et al. 2005).\nHelps support healthy cholesterol levels/cardiovascular health by\nreducing total and LDL cholesterol (Ross 2011; Ngondi et al. 2009;\nNgondi et al. 2005)."
+  }
+ },
+ {
+  "id": "L30",
+  "cat": "lab",
+  "gold": "B",
+  "gold_text": "Raised methylmalonic acid",
+  "supported": true,
+  "score": 0.333,
+  "chunk_ids": [
+   "nci-pdq-gerson-pdq#006",
+   "nci-pdq-vitamin-c-pdq#003",
+   "nci-pdq-acupuncture-pdq#077",
+   "nci-pdq-prostate-supplements-pdq#186",
+   "hc-nhpid-carrot2#002"
+  ],
+  "best": {
+   "score": 0.333,
+   "chunk_id": "nci-pdq-vitamin-c-pdq#003",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information: Vitamin C\nis an essential\nnutrient\nthat has\nredox\nfunctions, is a cofactor for several\nenzymes\n, and plays an important role in the synthesis of\ncollagen\n.[\n1\n] A severe\ndeficiency\nin vitamin C results in scurvy, which is associated with malaise,\nlethargy\n, easy bruising, and spontaneous bleeding.[\n2\n] One of the effects of scurvy is a change in collagen structure to a thinner"
+  }
+ },
+ {
+  "id": "R01",
+  "cat": "referral",
+  "gold": "A",
+  "gold_text": "Unexplained weight loss with night sweats",
+  "supported": false,
+  "score": 0.2,
+  "chunk_ids": [
+   "hc-nhpid-antiox#055",
+   "nci-pdq-milk-thistle-pdq#005",
+   "nccih-bitter-orange#004",
+   "nccih-pomegranate#003",
+   "nci-pdq-mushrooms-pdq#002"
+  ],
+  "best": {
+   "score": 0.2,
+   "chunk_id": "hc-nhpid-antiox#055",
+   "section": "dosage",
+   "source": "Health Canada NNHPD",
+   "text": "Dose(s): Notes\n1 When the method of preparation \u2018decoction\u2019 or \u2018infusion\u2019 is listed as part of the acceptable methods of preparation in Table 2, the method of preparation \u2018decoction concentrate\u2019 or \u2018infusion concentrate\u2019 is also applicable. This would also apply to standardized extracts.\n2 For juices, the juice quantity may be listed on the product label in weight (e.g., mg) rather than in volume "
+  }
+ },
+ {
+  "id": "R02",
+  "cat": "referral",
+  "gold": "D",
+  "gold_text": "Urgent referral for assessment of possible malignancy",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "hc-nhpid-horseradish-raifort2#005",
+   "nci-pdq-mistletoe-pdq#092",
+   "nci-pdq-prostate-supplements-pdq#117",
+   "nccih-ashwagandha#005",
+   "nci-pdq-acupuncture-pdq#062"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "hc-nhpid-horseradish-raifort2#005",
+   "section": "cautions",
+   "source": "Health Canada NNHPD",
+   "text": "Caution(s) and warning(s): Ask a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding (Barnes et al. 2007; Blumenthal et al. 2000).\nAsk a health care practitioner/health care provider/health care professi"
+  }
+ },
+ {
+  "id": "R03",
+  "cat": "referral",
+  "gold": "C",
+  "gold_text": "Urgent medical assessment",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-antineoplastons-pdq#054",
+   "nci-pdq-antineoplastons-pdq#036",
+   "nci-pdq-aromatherapy-pdq#012",
+   "nci-pdq-acupuncture-pdq#003",
+   "nci-pdq-coenzyme-q10-pdq#025"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-antineoplastons-pdq#054",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Adverse Effects: Adverse effects\nof\nantineoplaston\ntherapy\nhave ranged from mild and short-lasting\nsymptoms\nto severe\nneurologic\ntoxicity\nnecessitating discontinuation of therapy in some patients.[\n1\n]\nTable 3\nsummarizes the adverse effects in the referenced studies.\nTable 3. Adverse Effects\nAdverse Effect\nReference\na\nThe most severe adverse effects occurred in this study, which reported neurologi"
+  }
+ },
+ {
+  "id": "R04",
+  "cat": "referral",
+  "gold": "A",
+  "gold_text": "Investigation of the gastrointestinal tract for bleeding, not just iron replacement",
+  "supported": false,
+  "score": 0.143,
+  "chunk_ids": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "hc-nhpid-cod-liver-oil#003",
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-prostate-supplements-pdq#239",
+   "nci-pdq-antineoplastons-pdq#039"
+  ],
+  "best": {
+   "score": 0.143,
+   "chunk_id": "nci-pdq-milk-thistle-pdq#038",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "Iron Chelation: Silymarin was found to be beneficial as an adjunct to the iron chelator desferrioxamine in patients with\ntransfusion\n-dependent beta-thalassemia major.[\n26\n]\nIn a study of 97 patients, significant decreases in markers of\niron overload\n(serum\nferritin\n, serum iron, hepcidin, and\nsoluble\ntransferring receptor) were observed in the patients who received silymarin as compared with thos"
+  }
+ },
+ {
+  "id": "R05",
+  "cat": "referral",
+  "gold": "B",
+  "gold_text": "Dysphagia",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nccih-peppermint-oil#004",
+   "hc-nhpid-peppermint-menthepoivree#005",
+   "nci-pdq-black-cohosh-pdq#028",
+   "hc-nhpid-horseradish-raifort2#005",
+   "nccih-turmeric#005"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nccih-peppermint-oil#004",
+   "section": "other",
+   "source": "NCCIH (NIH)",
+   "text": "What Have We Learned?: A small amount of research suggests that peppermint oil in enteric-coated capsules may improve IBS symptoms in adults. A 2022 review of 10 studies (involving 1,030 participants) found that peppermint oil was better than placebo at improving overall IBS symptoms and reducing abdominal pain but caused more side effects than placebo. Most of the side effects were mild and inclu"
+  }
+ },
+ {
+  "id": "R06",
+  "cat": "referral",
+  "gold": "B",
+  "gold_text": "Urgent medical assessment",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-gerson-pdq#005",
+   "hc-nhpid-chitosan2#002",
+   "hc-nhpid-conj-linoleic-acid#002",
+   "nci-pdq-prostate-supplements-pdq#009",
+   "hc-nhpid-greencoffeebean-ext-fevescafevert2#002"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-gerson-pdq#005",
+   "section": "other",
+   "source": "NCI PDQ",
+   "text": "General Information: ] No other fat such as cooking oil and no salt or spices of any kind are allowed. A glass of freshly prepared juice from vegetables and fruits must be consumed every hour for 13 hours throughout the day. The vegetables and fruits used on the diet are very high in\npotassium\nand very low in\nsodium\n.\nFood preparation is also controlled. Food may be prepared only in cast-iron pots"
+  }
+ },
+ {
+  "id": "R07",
+  "cat": "referral",
+  "gold": "A",
+  "gold_text": "Altered mental state, autonomic instability and neuromuscular hyperactivity",
+  "supported": false,
+  "score": 0.0,
+  "chunk_ids": [
+   "nci-pdq-acupuncture-pdq#060",
+   "nccih-garcinia-cambogia#005",
+   "nci-pdq-pc-spes-pdq#016",
+   "nccih-st-johns-wort#005",
+   "nci-pdq-pc-spes-pdq#018"
+  ],
+  "best": {
+   "score": 0.0,
+   "chunk_id": "nci-pdq-acupuncture-pdq#060",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Effect of Acupuncture on Cancer Treatment\u2013Related Side Effects: EA = electroacupuncture; GA = gabapentin; HFRDI = hot flash\u2013related daily interference scale; hr = hour(s); HT = hormone therapy; RA = real acupuncture; SA = sham acupuncture; SNRI = serotonin-norepinephrine reuptake inhibitor; SSRI =\nselective serotonin reuptake inhibitor\n.\na\nFor additional information and definition of terms, see th"
+  }
+ },
+ {
+  "id": "R08",
+  "cat": "referral",
+  "gold": "B",
+  "gold_text": "ALT three times the upper limit of normal",
+  "supported": false,
+  "score": 0.2,
+  "chunk_ids": [
+   "nccih-ephedra#004",
+   "nci-pdq-curcumin-pdq#038",
+   "nccih-acai#004",
+   "nci-pdq-dietary-interactions-pdq#025",
+   "nccih-st-johns-wort#014"
+  ],
+  "best": {
+   "score": 0.2,
+   "chunk_id": "nci-pdq-curcumin-pdq#038",
+   "section": "adverse_effects",
+   "source": "NCI PDQ",
+   "text": "Cancer Therapy Side Effects: /radiation therapy and received turmeric (6 times a day) or povidone-\niodine\n(twice a day) mouthwash every other day. Oral mucositis was assessed using the Radiation Therapy Oncology Group (RTOG) grading system.[\n41\n]\nTurmeric mouthwash delayed and reduced the levels of radiation-induced oral mucositis at all time points.\nPatients who used the turmeric mouthwash had de"
+  }
+ }
+]

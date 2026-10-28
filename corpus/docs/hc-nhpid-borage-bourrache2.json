@@ -1,0 +1,85 @@
+{
+ "doc_id": "hc-nhpid-borage-bourrache2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Borage Oil",
+ "title_extra": null,
+ "date": "2025-04-25",
+ "revised": "2025-04-25",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-04-25",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=borage.bourrache2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "borage.bourrache2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:5a3266cfe4950ea68f9fd0ef15c072e54df371bd24e559c55583d60930caa8d3",
+ "entities": [
+  "Borage Oil",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-borage-bourrache2#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Borage Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-borage-bourrache2#002",
+   "text": "Use(s) or Purpose(s): Source of essential fatty acids for the maintenance of good health (Brayfield and Cadart 2024; Hoffmann 2003).\nSource of omega-6 fatty acids for the maintenance of good health (Ziboh 2004; van Gool 2003; IOM 2002).\nSource of linoleic acid (LA) for the maintenance of good health (Ziboh 2004; van Gool 2003; IOM 2002).\nNote: The above uses can be combined on the product label (e.g., Source of essential fatty acids, including linoleic acid, for the maintenance of good health).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Borage Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "hc-nhpid-borage-bourrache2#003",
+   "text": "Quantity(ies): Method of preparation: Non-standardized fixed oil\n3.7 - 5 grams of borage oil, per day (Schirmer and Phinney 2007; Ziboh 2004; Hoffman 2003; Takwale et al. 2003; van Gool 2003; IOM 2002).\nMethod of preparation: Standardized fixed oil\n3.7 - 5 grams of borage oil, per day (Schirmer and Phinney 2007; Ziboh 2004; Hoffman 2003; Takwale et al. 2003; van Gool 2003; IOM 2002) standardized to:\n0.2 - 10% alpha-linolenic acid (ALA), and/or\n18 - 27% gamma-linolenic/gamolenic acid (GLA), and/or\n23 - 37 % linoleic acid (LA).\nNote: The following potency information is considered as additional information and can be included on the label: XX% total omega-6 fatty acids.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Borage Oil",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 110
+  }
+ ]
+}

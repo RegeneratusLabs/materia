@@ -1,0 +1,202 @@
+{
+ "doc_id": "hc-nhpid-cassia-cinnamomum-aromaticum2",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "CASSIA - CINNAMOMUM AROMATICUM",
+ "title_extra": null,
+ "date": "2025-05-30",
+ "revised": "2025-05-30",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2026-05-30",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=cassia.cinnamomum.aromaticum2&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "cassia.cinnamomum.aromaticum2"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:312a6e955a46bf30b875cd37f51e51e7bc3bb07908f6fe2035936ef34e963ad6",
+ "entities": [
+  "CASSIA - CINNAMOMUM AROMATICUM",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-cassia-cinnamomum-aromaticum2#001",
+   "text": "Dosage form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "CASSIA - CINNAMOMUM AROMATICUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-cassia-cinnamomum-aromaticum2#002",
+   "text": "Use(s) or Purpose(s): Branch bark, Stem bark or Trunk bark\nHelps to support/maintain healthy blood glucose levels (Davis and Yokoyama 2011; Crawford 2009; Mang et al. 2006).\nSource of antioxidants/Provides antioxidants (Gruenwald et al. 2010; Roussel et al. 2009; Halvorsen et al. 2006; Shan et al. 2005).\nSource of antioxidants/Provides antioxidants that help fight/protect (cell) against/reduce (the oxidative effect of/the oxidative damage caused by/cell damage caused by) free radicals (Gruenwald et al. 2010; Roussel et al. 2009; Halvorsen et al. 2006; Shan et al. 2005).\n(Traditionally) used in Herbal Medicine for digestive disturbances/dyspeptic complaints/indigestion (such as mild spasms of the gastrointestinal tract, bloating and flatulence) (BHC 2006; Blumenthal et al. 2000, 1998).\n(Traditionally) used in Herbal Medicine for loss of appetite (BHC 2006; Blumenthal et al. 2000, 1998).\nTrunk bark only\nUsed in Traditional Chinese Medicine (TCM) to dispel cold, relieve pain, open channels and collaterals (Bensky et al. 2004; Chen and Chen 2004).\nUsed in Traditional Chinese Medicine (TCM) to dispel cold, warm the spleen and relieve pain (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004).\nUsed in Traditional Chinese Medicine (TCM) to encourage production of qi and blood (Bensky et al. 2004; Chen and Chen 2004).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "diabetes",
+    "traditional"
+   ],
+   "entities": [
+    "CASSIA - CINNAMOMUM AROMATICUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 200
+  },
+  {
+   "chunk_id": "hc-nhpid-cassia-cinnamomum-aromaticum2#003",
+   "text": "Use(s) or Purpose(s): Used in Traditional Chinese Medicine (TCM) to tonify kidney yang and augment ming men (life gate) fire (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004).\nNotes\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g., Used in Traditional Chinese Medicine to encourage production of qi and blood, tonify kidney yang and augment ming men fire).\nFor multi-ingredient products:\nTo prevent the product from being represented as a “traditional medicine”, any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g., Cassia is traditionally used in Herbal Medicine for loss of appetite).\nWhen ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "renal",
+    "traditional"
+   ],
+   "entities": [
+    "CASSIA - CINNAMOMUM AROMATICUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 178
+  },
+  {
+   "chunk_id": "hc-nhpid-cassia-cinnamomum-aromaticum2#004",
+   "text": "Quantity(ies): Branch bark, Stem bark or Trunk bark\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\nAntioxidant\nNot to exceed 6 grams of dried branch bark, stem bark and/or trunk bark, per day and 4 grams per single dose (Gruenwald et al. 2010; Roussel et al. 2009; Halvorson et al. 2006; Shan et al. 2005).\nAppetite loss; Digestive disturbances/Indigestion\n1 - 6 grams of dried branch bark, stem bark and/or trunk bark, per day; Not to exceed 4 grams per single dose (Gruenwald et al. 2010; Al Jamal et al. 2009; Crawford 2009; Mang et al. 2006; Safdar et al. 2004; Khan et al. 2003).\nHealthy glucose\n3 - 6 grams of dried branch bark, stem bark and/or trunk bark, per day; Not to exceed 4 grams per single dose (Davis and Yokoyama 2011; Gruenwald et al. 2010; Crawford 2009; Mang et al. 2006).\nTrunk bark only\nTraditional Chinese Medicine claims\nMethod of preparation: Decoction, Decoction concentrate\n2 - 5 grams of dried trunk bark, per day (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004).\nMethods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\n1 - 2 grams of dried trunk bark, per day (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "CASSIA - CINNAMOMUM AROMATICUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "hc-nhpid-cassia-cinnamomum-aromaticum2#005",
+   "text": "Direction(s) for use: Appetite loss\n(For appetite loss)*, take 30 minutes before meals.\nDigestive disturbances/Indigestion\n(For digestive disturbances)*, take with a meal/food (Crawford 2009).\n*Note: Information in brackets is required on the label when both uses for appetite loss and digestive disturbances are listed on the label.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CASSIA - CINNAMOMUM AROMATICUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "hc-nhpid-cassia-cinnamomum-aromaticum2#006",
+   "text": "Duration(s) of use: Products providing 4 - 6 g of branch bark, stem bark and/or trunk bark, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 6 weeks (Safdar et al. 2004; Khan et al. 2003).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "CASSIA - CINNAMOMUM AROMATICUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 41
+  },
+  {
+   "chunk_id": "hc-nhpid-cassia-cinnamomum-aromaticum2#007",
+   "text": "Caution(s) and warning(s): Appetite loss; Digestive disturbances/Indigestion; Traditional Chinese Medicine claims\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.\nProducts providing 1 g or more of branch bark, stem bark and/or trunk bark, per day\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you are breastfeeding (Blumenthal et al. 2000; WHO 1999).\nAsk a health care practitioner/health care provider/health care professional/doctor/physician before use if you have diabetes (Gardner and McGuffin 2013; Brinker 2010).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "diabetes",
+    "traditional"
+   ],
+   "entities": [
+    "CASSIA - CINNAMOMUM AROMATICUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 83
+  },
+  {
+   "chunk_id": "hc-nhpid-cassia-cinnamomum-aromaticum2#008",
+   "text": "Contraindication(s): Products providing 1 g or more of branch bark, stem bark and/or trunk bark, per day\nDo not use if you are pregnant (PPRC 2020; Brinker 2010; BHC 2006; Chen and Chen 2004; Blumenthal 2000, 1998).\nTraditional Chinese Medicine claims\nDo not use if you have excess heat, blood heat or deficiency, or yin-deficient fire (PPRC 2020; Bensky et al. 2004; Chen and Chen 2004).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "CASSIA - CINNAMOMUM AROMATICUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 66
+  },
+  {
+   "chunk_id": "hc-nhpid-cassia-cinnamomum-aromaticum2#009",
+   "text": "Known adverse reaction(s): Stop use if hypersensitivity/allergy occurs (Gardner and McGuffin 2013; Blumenthal 2000; WHO 1999).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "CASSIA - CINNAMOMUM AROMATICUM",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  }
+ ]
+}

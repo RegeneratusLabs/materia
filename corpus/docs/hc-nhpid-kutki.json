@@ -1,0 +1,198 @@
+{
+ "doc_id": "hc-nhpid-kutki",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "KUTKI - PICRORHIZA KURROOA",
+ "title_extra": null,
+ "date": "2024-07-26",
+ "revised": "2024-07-26",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-07-26",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=kutki&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "kutki"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Commercial and non-commercial reuse permitted with attribution. Third-party figures excluded."
+ },
+ "checksum": "sha256:bf9beac17b2fb9f6a5b5506ea1dbdba54f798007949c9eba22b6494c1465a469",
+ "entities": [
+  "KUTKI - PICRORHIZA KURROOA",
+  "Proper name",
+  "Common name",
+  "Source information",
+  "Source material"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-kutki#001",
+   "text": "Dosage Form(s): This monograph excludes foods or food-like dosage forms as indicated in the Compendium of Monographs Guidance Document.\nAcceptable dosage forms for oral use are indicated in the dosage form drop-down list of the web-based Product Licence Application form for Compendial applications.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "KUTKI - PICRORHIZA KURROOA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-kutki#002",
+   "text": "Use(s) or Purpose(s): Traditionally used in Ayurveda as a bitter tonic to help stimulate appetite and aid digestion (stomachic) (Williamson 2002; API 2001; Kapoor 2001).\nTraditionally used in Ayurveda as a hepatoprotectant/liver protectant (Williamson 2002; Kapoor 2001).\nTraditionally used in Ayurveda as a laxative for the relief of occasional constipation (Sudarshan 2005; API 2001; Kapoor 2001).\nNotes\nThe laxative claim is based on the Ayurvedic Medicine; however, the mode of action is unclear but may be comparable to stimulant laxatives.\nThe above uses can be combined on the product label if from the same traditional or non-traditional system of medicine (e.g. Traditionally used in Ayurveda as a bitter tonic to help stimulate appetite and aid digestion and as a laxative for the relief of occasional constipation).\nFor multi-ingredient products:\nTo prevent the product from being represented as a \"traditional medicine\", any indicated traditional use claim must refer to the specific medicinal ingredient(s) and recognized traditional system of medicine from which the claim originates when 1) both traditional and modern claims are present or 2) when claims originate from multiple systems of traditional medicine (e.g. Kutki is traditionally used in Ayurveda as a bitter tonic to help stimulate appetite and aid digestion).",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "liver",
+    "traditional"
+   ],
+   "entities": [
+    "KUTKI - PICRORHIZA KURROOA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 201
+  },
+  {
+   "chunk_id": "hc-nhpid-kutki#003",
+   "text": "Use(s) or Purpose(s): When ALL of the medicinal ingredients (MIs) in the product are used within the SAME identified system of traditional medicine AND the product makes ONLY traditional claims, listing of MIs in the traditional claim(s) is not required",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "KUTKI - PICRORHIZA KURROOA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "hc-nhpid-kutki#004",
+   "text": "Quantity(ies): Methods of preparation: Dry, Powdered, Non-Standardized Ethanolic Extracts (Dry extract, Tincture, Fluid extract)\nBitter tonic; Liver protectant\n1 - 3 grams of dried rhizome/root, per day (WHO 2009; API 2001)\nLaxative\n1.5 - 3 grams of dried rhizome/root, per day (Paranjape 2005)",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "KUTKI - PICRORHIZA KURROOA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "hc-nhpid-kutki#005",
+   "text": "Direction(s) for use: All products\nTake a few hours before or after taking other medications or health products (HC 2009).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "KUTKI - PICRORHIZA KURROOA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-kutki#006",
+   "text": "Duration(s) of Use: Laxative\nAsk a health care practitioner/health care provider/health care professional/doctor/physician for use beyond 7 days (HC 2009; Pray 2006; CPhA 2002).",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "KUTKI - PICRORHIZA KURROOA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "hc-nhpid-kutki#007",
+   "text": "Caution(s) and warning(s): Bitter tonic; Laxative\nAsk a health care practitioner/health care provider/health care professional/doctor/physician if symptoms persist or worsen.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [],
+   "entities": [
+    "KUTKI - PICRORHIZA KURROOA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "hc-nhpid-kutki#008",
+   "text": "Contraindication(s): All products\nDo not use if you are pregnant or breastfeeding (Brinker 2010).\nDo not use if you have fever or any undiagnosed gastrointestinal trouble (HC 2009).",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "KUTKI - PICRORHIZA KURROOA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "hc-nhpid-kutki#009",
+   "text": "Known adverse reaction(s): Bitter tonic; Liver protectant\nWhen using this product you may experience a laxative effect (Sudarshan 2005; API 2001; Kapoor 2001).",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "KUTKI - PICRORHIZA KURROOA",
+    "Proper name",
+    "Common name",
+    "Source information",
+    "Source material"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "doc_id": "nccih-aloe-vera",
+ "source": "NCCIH (NIH)",
+ "tier": "compendium",
+ "title": "Aloe Vera",
+ "title_extra": null,
+ "date": "2025-02-01",
+ "revised": "2025-02-01",
+ "retrieved_at": "2026-10-28",
+ "next_review_due": "2025-08-01",
+ "url": "https://www.nccih.nih.gov/health/aloe-vera",
+ "identifier": {
+  "type": "web",
+  "value": "https://www.nccih.nih.gov/health/aloe-vera"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain",
+  "redistributable": true,
+  "evidence_url": "https://www.nih.gov/web-policies-notices",
+  "note": "Credit NCCIH. Third-party images and quoted material excluded."
+ },
+ "checksum": "sha256:a80a4636bbb74774c977110e10eec232718bc3efb8ec50021c4ba69847e2be5c",
+ "entities": [
+  "Aloe Vera"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "nccih-aloe-vera#001",
+   "text": "Aloe Vera\n© Steven Foster\nCommon Names:\naloe\nLatin Names:\nAloe vera\n,\nAloe africana\n,\nAloe arborescens\n,\nAloe barbadensis",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#002",
+   "text": "Background: Aloe is a cactus-like plant that grows in hot, dry climates. It is grown in subtropical regions around the world, including the southern border areas of Texas, New Mexico, Arizona, and California.\nAloe was used in ancient Greece, Rome, Babylonia, and China. Historically, it was used for skin conditions and was thought to prevent premature graying of hair and promote wound healing.\nAloe is used topically (applied to the skin) and orally. Topical use of aloe is promoted for acne, psoriasis, lichen planus (a very itchy rash on the skin or in the mouth), oral submucous fibrosis (a disease that causes scars and tissue fibrosis and can involve a burning sensation in the mouth), burns, and skin damage from radiation therapy. Oral use of aloe is promoted for weight loss, diabetes, and inflammatory bowel disease (a group of conditions caused by gut inflammation that includes Crohn’s disease and ulcerative colitis).\nAloe products can be made from various parts of the aloe leaf, including the gel (from the inner leaf), latex (from the leaf’s outer layer), and whole crushed leaf (containing the gel and latex).\nIn 2002, the U.S. Food and Drug Administration issued a ruling that required manufacturers to remove aloe latex from over-the-counter laxative products because of a lack of safety data.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 214
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#003",
+   "text": "Background: The International Agency for Research on Cancer has classified whole leaf extract of aloe vera as a possible carcinogen in humans. (This form, called non-decolorized, has not undergone activated carbon treatment to remove toxic anthraquinone components.)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#004",
+   "text": "How Much Do We Know?: A number of studies have investigated the usefulness of aloe as a dietary supplement or a topical product for various health purposes and conditions in people.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#005",
+   "text": "What Have We Learned?: Two small studies suggest that topical application of aloe gel, in combination with other forms of treatment, may improve acne.\nClinical research suggests topical application of aloe gel may speed burn healing and reduce burn-related pain.\nA small amount of research suggests topical use of aloe also may help people with genital herpes, lichen planus, psoriasis, oral submucous fibrosis, skin damage from radiation therapy, or sores in the mouth from dental appliances.\nA small amount of research suggests that aloe taken orally may reduce blood sugar and HbA1c in people with diabetes. A small study showed that a specific aloe gel product taken orally for 8 weeks modestly reduced weight and fat mass in adults with obesity or overweight who had diabetes or prediabetes.\nThere is interest in using aloe for many other conditions, but there isn’t enough reliable information to say whether it might be helpful for those conditions, which include eczema, diabetic foot ulcers, irritable bowel syndrome, and ulcerative colitis.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "diabetes"
+   ],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 166
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#006",
+   "text": "What Do We Know About Safety?: Topical use of aloe gel is generally well tolerated; however, there have been occasional reports of burning, itching, rash, and eczema.\nResearch studies suggest that short-term use of oral aloe gel up to 42 days is safe.\nOral use of aloe latex can cause abdominal pain, cramps, and diarrhea. Oral consumption of aloe leaf extracts (for as little as 3 weeks and as long as 5 years) has been related to cases of acute hepatitis.\nSome animal studies have noted an association between a non-decolorized extract of aloe vera leaf taken orally and gastrointestinal cancer in rats and mice; most toxicity and safety studies in animals have tested non-decolorized whole leaf extract of aloe vera, which is not commonly used by consumers. A small amount of laboratory research suggests that even the decolorized extract might have the potential to damage DNA or chromosomes.\nA 2023 review looked at animal and laboratory studies of aloe vera inner leaf gel extract and decolorized whole leaf extract used in commercially available food-grade drinkable products containing no more than 10 parts per million of aloin (a type of anthraquinone). The authors of the review concluded that the drinkable products were not genotoxic.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 204
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#007",
+   "text": "What Do We Know About Safety?: Overuse of aloe latex may increase the risk of adverse effects from cardiac glycosides, such as digoxin, which are used for some heart problems.\nIf you take any type of medicine, talk with your health care provider before using aloe vera or other herbal products; some herbs and medicines interact in harmful ways.\nAloe—in gel, latex, or whole leaf extract form—when taken by mouth may be unsafe during pregnancy and while breastfeeding. If you’re considering using aloe vera while pregnant or breastfeeding, consult your health care provider.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy"
+   ],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#008",
+   "text": "Keep in Mind: Take charge of your health—talk with your health care providers about any complementary health approaches you use. Together, you can make shared, well-informed decisions.\nFederal Regulation of Herbal Products\nDepending on what’s in them, how they’re intended to be used, and how they’re administered (orally or topically), herbal products are regulated in a variety of ways. Many herbal products intended for oral use are marketed as dietary supplements. The rules for making and distributing dietary supplements are less strict than those for drugs.\nUnlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public. When public health concerns arise about the safety of a dietary supplement or an ingredient including an herb, the FDA can take action to protect the public. Manufacturers and distributors of supplements are responsible for evaluating the safety and labeling of their products before marketing to ensure that they meet all regulatory requirements.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 161
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#009",
+   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#010",
+   "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#011",
+   "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#012",
+   "text": "National Institute of Environmental Health Sciences (NIEHS): NIEHS supports research to understand the effects of the environment on human health and is part of NIH.\nP.O. Box 12233, MD K3-16\nResearch Triangle Park, NC 27709-2233\nPhone Number:\n919-541-3345\nWebsite:\nhttps://www.niehs.nih.gov/\nEmail:\nwebcenter@niehs.nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#013",
+   "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#014",
+   "text": "Key References: Al-Maweri SA, Ashraf S, Lingam AS, et al.\nAloe vera in treatment of oral submucous fibrosis: a systematic review and meta-analysis\n.\nJournal of Oral Pathology & Medicine\n. 2019;48(2):99-107.\nAloe. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on July 18, 2023. [Database subscription].\nGuo X, Mei N.\nAloe vera: a review of toxicity and adverse clinical effects\n.\nJournal of Environmental Science and Health, Part C: Environmental Carcinogenesis & Ecotoxicology Reviews\n. 2016;34(2):77-96.\nInternational Agency for Research on Cancer (IARC) Working Group on the Evaluation of Carcinogenic Risks to Humans.\nSome Drugs and Herbal Products\n.\nIARC Monographs on the Evaluation of Carcinogenic Risks to Humans, No. 108\n. Lyon, France: IARC; 2016. Accessed at\nncbi.nlm.nih.gov/books/NBK350406/\non December 21, 2023.\nKim S-T, Pressman P, Clemens R, et al.\nThe absence of genotoxicity of aloe vera beverages: a review of the literature\n.\nFood and Chemical Toxicology\n. 2023;174:113628.\nLong V.\nAloe vera in dermatology—the plant of immortality\n.\nJAMA Dermatology.\n2016;152(12):1364.\nMahboub M, Aghazadeh Attari AM, Sheikhalipour Z, et al.\nA comparative study of the impacts of aloe vera gel and silver sulfadiazine cream 1% on healing, itching and pain of burn wounds: a randomized clinical trial\n.\nJournal of Caring Sciences\n. 2021;11(3):132-138.\nPressman P, Clemens R, Hayes AW.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "cancer"
+   ],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "nccih-aloe-vera#015",
+   "text": "Key References: Aloe vera at the frontier of glycobiology and integrative medicine: health implications of an ancient plant\n.\nSAGE Open Medicine\n. 2019;7:2050312119875921.\nRodriguez S, Dentali S, Powell D. Aloe vera. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements.\n2nd ed. New York, NY: Informa Healthcare; 2010:7-14.\nSharma S, Alfonso AR, Gordon AJ, et al.\nSecond-degree burns and aloe vera: a meta-analysis and systematic review\n.\nAdvances in Skin and Wound Care\n. 2022;35(11):1-9.\nZhong H, Li X, Zhang W, et al.\nEfficacy of a new non-drug acne therapy: aloe vera gel combined with ultrasound and soft mask for the treatment of mild to severe facial acne\n.\nFrontiers in Medicine\n. 2021;8:662640.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [],
+   "entities": [
+    "Aloe Vera"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 193
+  }
+ ]
+}
