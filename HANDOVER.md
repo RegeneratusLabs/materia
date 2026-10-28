@@ -263,11 +263,11 @@ Honest reading: **no extra instruction helped; two of three trends went negative
 
 ## 5. Where everything lives
 
-**Same host as DSH. No transfer required.** Note `~/hermes-shared` is a symlink: `/home/josh/hermes-shared → /media/josh/Files/hermes-shared`. Use the real path when handing paths to anything that does not expand `~`.
+**Same host as DSH. No transfer required.** The project lives in the working projects folder alongside `pantler`, `AUGURY`, `invoiceyarn`, `lolabee` and the rest — `/home/josh/projects/`. (It is *not* under `~/hermes-shared/projects`, which is a separate shared tree.)
 
 | What | Absolute path |
 |---|---|
-| Project root | `/media/josh/Files/hermes-shared/projects/materia` |
+| Project root | `/home/josh/projects/materia` |
 | Panels | `.../data/herbal_set_104.json` (primary), `herbal_set.json` (v1), `herbal_set_v2_extra.json`, `probes.json` |
 | Public benchmark data | `.../data/medqa_*.json`, `.../data/pubmedqa_*.json` |
 | Raw results | `.../results/*.jsonl` |
