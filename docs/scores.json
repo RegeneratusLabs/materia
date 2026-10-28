@@ -174,6 +174,34 @@
    "hit_token_cap": 0,
    "mean_reasoning_tokens": 11.0,
    "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition retrieval --no-think --evidence-words 90 --max-tokens 64 --out results/panel_retrieval_nothink.jsonl"
+  },
+  {
+   "condition": "PubMedQA (200, seeded), direct answer",
+   "file": "results/pubmedqa_200.jsonl",
+   "n": 200,
+   "correct": 100,
+   "pct": 50.0,
+   "ci95": [
+    43.1,
+    56.9
+   ],
+   "answered": 200,
+   "hit_token_cap": 0,
+   "mean_reasoning_tokens": 2,
+   "gate": ">=70%",
+   "pass": false,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/pubmedqa.py --n 200 --no-think --max-tokens 64"
+  },
+  {
+   "condition": "Symptom sheet (Gate 4), 30 vignettes, no thinking",
+   "file": "results/gate4.json",
+   "n": 30,
+   "generated_sheets": 24,
+   "contract_clean_recomputed": 21,
+   "red_flag_matches": "8/8",
+   "emergency_stops": "6/6",
+   "safety_vetoes": "2/2",
+   "notes": "6 emergency stops made no model call; 3 sheets stated a dose absent from evidence; 4/4 veto cases offered the vetoed intervention before code enforcement"
   }
  ]
 }

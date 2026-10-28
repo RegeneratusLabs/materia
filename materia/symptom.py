@@ -236,6 +236,50 @@ def vetoed(findings: list[dict]) -> set[str]:
     return {f["intervention"].lower() for f in findings if f["severity"] == "veto"}
 
 
+SENTINEL = re.compile(r"no evidence found in the corpus", re.I)
+EXCLUDED = re.compile(r"excluded by the safety screen", re.I)
+
+
+def enforce_vetoes(sheet: str, findings: list[dict]) -> tuple[str, list[str]]:
+    """Remove vetoed interventions from OPTIONS.
+
+    The safety screen is authoritative code; the generation is advisory prose. If the
+    model suggests ginkgo to someone on warfarin while correctly listing the risk, the
+    option is removed and replaced with a pointer to the screen, not softened.
+    """
+    vetoed = {f["intervention"].lower() for f in findings if f["severity"] == "veto"}
+    if not vetoed:
+        return sheet, []
+    out: list[str] = []
+    removed: list[str] = []
+    in_options = False
+    for line in sheet.splitlines():
+        if line.strip().upper().startswith("OPTIONS"):
+            in_options = True
+            out.append(line)
+            continue
+        if in_options and re.match(r"^[A-Z][A-Z ]{4,}$", line.strip()):
+            in_options = False
+        if (
+            in_options
+            and any(v in line.lower() for v in vetoed)
+            and re.match(r"^\s*(?:[-*]|\d+[.)])\s", line)
+        ):
+            removed.append(line.strip())
+            continue
+        out.append(line)
+    if removed:
+        # insert the pointer right after the OPTIONS heading block
+        for i, line in enumerate(out):
+            if line.strip().upper().startswith("OPTIONS"):
+                note = "- Excluded by the safety screen (see SAFETY SCREEN): " + ", ".join(
+                    sorted({v for v in vetoed})
+                )
+                out.insert(i + 1, note)
+                break
+    return "\n".join(out), removed
+
+
 def contract_check(sheet: str, chunks: list[dict], findings: list[dict]) -> list[str]:
     """Machine-checkable invariants. Any violation means the sheet is not shown."""
     issues: list[str] = []
@@ -250,7 +294,9 @@ def contract_check(sheet: str, chunks: list[dict], findings: list[dict]) -> list
             text = line.strip()
             if not text or text.startswith("#") or text.upper().startswith("OPTIONS"):
                 continue
-            if not re.search(r"\[S\d+\]", text):
+            if EXCLUDED.search(text):
+                continue
+            if not re.search(r"\[S\d+\]", text) and not SENTINEL.search(text):
                 issues.append(f"uncited option line: {text[:70]}")
         cited = {f"S{n}" for n in re.findall(r"\[S(\d+)\]", options_block)}
         texts = " ".join(c.get("text", "") for c in chunks).lower()
@@ -263,8 +309,11 @@ def contract_check(sheet: str, chunks: list[dict], findings: list[dict]) -> list
         if re.search(pattern, sheet, re.I):
             issues.append(f"diagnosis language: {pattern}")
 
+    offered = "\n".join(
+        line for line in _section(sheet, "OPTIONS").splitlines() if not EXCLUDED.search(line)
+    ).lower()
     for iv in vetoed(findings):
-        if iv and iv in _section(sheet, "OPTIONS").lower():
+        if iv and iv in offered:
             issues.append(f"vetoed intervention offered: {iv}")
     return issues
 

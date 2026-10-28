@@ -8,6 +8,8 @@
 
 ## TL;DR
 
+**DSH takeover:** §11 records what was measured and built in the DSH session on 2026-10-28, including corrections to this document. Read it before acting on §2 or §10.
+
 - **The product is a cited evidence engine for naturopathic / holistic practitioners.** Not a protocol generator, not a chatbot, not a diagnosis tool.
 - **Everything measured so far is closed-book model knowledge. There is no retrieval, no corpus, no fine-tuning in this repo yet.** That is deliberate, and it is the single most important thing to understand before continuing.
 - **Headline result:** `MiniCPM5-2B` Q8_0 scores **95.2% (99/104, 95% CI 89.2–97.9)** on a naturopathic MCQ panel it has never been trained on, with a 60-word reasoning budget. Same model, no budget, direct answer: **71.7%** on the 46-item predecessor.
@@ -347,6 +349,50 @@ Question: does putting monographs and reference ranges in context close the know
 7. **Report honestly:** real outputs, explicit recommendation, the denominator and CI on every number, no hype, no fabricated results.
 
 ---
+
+## 11. DSH takeover — measured state, 2026-10-28 (evening)
+
+Written by the DSH agent that took this over. §1–§10 remain the design record; this section is what
+changed. Every number below traces to a file in `results/` and is listed in `docs/scores.json`.
+
+**Verified before trusting anything here.** `docs/rescore.py` reproduced 99/104. Of the five misses, two
+were wrong answers (E23, E31) and **three were truncated at the 500-token cap** (L15, E16, L24). There was
+no llama-server running, no OCR weights, and no corpus, retrieval, safety or symptom code at handover.
+
+**Built and committed.** A `materia/` package (model lifecycle with RSS guard and phase switching,
+uppercase-safe parser, OCR + OTSL extraction, plausibility gate, corpus schema/adapters/index, BM25
+retriever with conflict grouping, symptom intake/red-flag/safety/contract layer, lab arithmetic, CLI), 42
+tests, a 301-document corpus with manifest and freshness check, and four gate reports (`docs/gate0.md`,
+`gate1.md`, `gate3.md`, `gate4.md`).
+
+| Condition | n | Result |
+|---|---|---|
+| Closed-book, 60-word budget, **max_tokens 768** | 104 | **102/104 = 98.1% [93.3, 99.5]**, 2 capped, 0 wrong |
+| Closed-book, no thinking | 104 | 90/104 = 86.5% [78.7, 91.8] |
+| Retrieval k=5, no thinking | 104 | 86/104 = 82.7% [74.3, 88.8] |
+| PubMedQA, direct answer | 200 | 100/200 = 50.0% [43.1, 56.9]; majority class 49.5% |
+| Gate 0 OCR, clean / degraded page | 12 fields | 12/12 values and intervals both, **0 silent wrong** |
+| Gate 4 red flags / emergencies / safety vetoes | 8 / 6 / 2 | 8/8, 6/6, 2/2; 21/24 sheets contract-clean |
+
+**Corrections to this document.**
+
+1. **The 95.2% was partly a cap artefact.** At max_tokens 768 the same condition scores 102/104. The
+   60-word budget still holds; the 500-token ceiling was converting three answers into blanks.
+2. **MSK About Herbs is not redistributable** — free to read, not to ship. WHO monographs are mostly
+   CC BY-NC-SA. Neither can ship in an Apache-2.0 project.
+3. **EMA permits commercial reuse with attribution** (verified on the legal notice). The blocker is
+   acquisition, not licence: the sitemap is 164 pages / ~1.1 GB and search is robots-blocked. Target the
+   ~24 panel herbs by slug first.
+4. **NICE CKS returns 403 outside the UK**; ODS and NCBI Bookshelf serve Cloudflare/reCAPTCHA from this
+   host. Those sources need manual downloads, not a crawler.
+5. **OCR on-disk sizes:** Q4_K_M 0.529 GB, mmproj 0.901 GB. It runs on b11936 unchanged — no upgrade.
+6. **The 2B model cannot deliberate and cite inside one budget.** Retrieval + thinking produced no answer
+   in 2/2 items (both hit the cap); symptom sheets with thinking were empty 6/6. Evidence-in-prompt paths
+   must answer directly. This is the most consistent behavioural finding of the session.
+
+**Open, unresolved.** TCM scope; Q4 vs Q8 shipping tier; Jev remains Phase B (no measured OCR error to
+justify it — Gate 0 found none); public naming. The 301-document corpus is a proof of concept with 29.8%
+lexical grounding of the panel, and it is Canada-heavy for monographs.
 
 ## Josh's context
 

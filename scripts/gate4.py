@@ -30,13 +30,18 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--out", default=str(config.RESULTS_DIR / "gate4.json"))
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--k", type=int, default=5)
-    ap.add_argument("--max-tokens", type=int, default=900)
+    ap.add_argument("--max-tokens", type=int, default=600)
+    ap.add_argument("--no-think", action="store_true")
+    ap.add_argument("--ids", default="", help="comma-separated vignette ids")
     args = ap.parse_args(argv)
 
     rules = symptom.load_rules()
     conn = open_index(args.index)
     retriever = Retriever(conn, k=args.k, per_doc=2)
     vignettes = json.loads(Path(args.vignettes).read_text())["vignettes"]
+    if args.ids:
+        keep = {s.strip() for s in args.ids.split(",")}
+        vignettes = [v for v in vignettes if v["id"] in keep]
     if args.limit:
         vignettes = vignettes[: args.limit]
 
@@ -62,12 +67,20 @@ def main(argv: list[str] | None = None) -> int:
             print(f"[{n}/{len(vignettes)}] {v['id']} STOPPED ({red_hits[0]['id']})", flush=True)
             continue
 
+        if llm.guard_rss(ctx=8192, parallel=2):
+            print("[guard] restarted server at ctx=8192", flush=True)
         chunks = retriever.search(v["text"])
         interventions = symptom.candidate_interventions(v["text"], chunks, retriever.lex)
         findings = symptom.safety_screen(intake, interventions, conn, rules["safety"])
         prompt = symptom.build_prompt(v["text"], chunks, findings, red_hits, intake)
-        r = llm.chat([{"role": "user", "content": prompt}], max_tokens=args.max_tokens, timeout=1200)
-        issues = symptom.contract_check(r["text"], chunks, findings)
+        r = llm.chat(
+            [{"role": "user", "content": prompt}],
+            max_tokens=args.max_tokens,
+            enable_thinking=not args.no_think,
+            timeout=1200,
+        )
+        sheet, removed = symptom.enforce_vetoes(r["text"], findings)
+        issues = symptom.contract_check(sheet, chunks, findings)
         records.append(
             {
                 "id": v["id"],
@@ -77,9 +90,15 @@ def main(argv: list[str] | None = None) -> int:
                 "intake": intake.as_dict(),
                 "interventions": interventions,
                 "findings": findings,
+                "retrieved": [c["chunk_id"] for c in chunks],
+                "evidence": [
+                    {"chunk_id": c["chunk_id"], "text": c["text"][:600]} for c in chunks
+                ],
                 "contract_issues": issues,
                 "conflicts": group_conflicts(chunks),
-                "sheet": r["text"],
+                "sheet": sheet,
+                "raw_sheet": r["text"],
+                "vetoed_removed": removed,
                 "finish": r["finish"],
                 "ctok": r["ctok"],
                 "model_called": True,
@@ -124,6 +143,7 @@ def main(argv: list[str] | None = None) -> int:
         "contract_violations": sum(len(r["contract_issues"]) for r in generated),
         "minutes": round((time.time() - t0) / 60, 1),
         "model": str(config.REASON_GGUF),
+        "condition": "symptom/nothink" if args.no_think else "symptom/think",
     }
     Path(args.out).write_text(json.dumps({"summary": summary, "records": records}, indent=1) + "\n")
 

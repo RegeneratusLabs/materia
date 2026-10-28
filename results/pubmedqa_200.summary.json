@@ -1,0 +1,20 @@
+{
+ "condition": "PubMedQA (200, seeded sample)",
+ "file": "results/pubmedqa_200.jsonl",
+ "seed": 20261028,
+ "n": 200,
+ "correct": 100,
+ "pct": 50.0,
+ "ci95": [
+  43.1,
+  56.9
+ ],
+ "answered": 200,
+ "hit_token_cap": 0,
+ "mean_ctok": 2,
+ "minutes": 17.8,
+ "gate": ">=70%",
+ "pass": false,
+ "model_gguf": "/home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf",
+ "command": "/home/josh/projects/materia/.venv/bin/python scripts/pubmedqa.py --n 200 --no-think --max-tokens 64"
+}

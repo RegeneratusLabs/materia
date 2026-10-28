@@ -51,13 +51,11 @@ def load_items(n: int, seed: int) -> list[dict]:
 
 
 def build_prompt(item: dict) -> str:
+    """Own instruction: the MCQ budget text says "reply with the letter", which is wrong here."""
     return (
-        config.RULE_BUDGET.replace(
-            "replying with ONLY the letter of the single best option (A, B, C or D)",
-            "replying with ONLY one word: YES, NO or MAYBE",
-        )
-        .replace("Answer:", "")
-        + "\n\nABSTRACT\n"
+        "Think for at most 60 words, then reply with ONLY one word: YES, NO or MAYBE. "
+        "No explanation after the word."
+        "\n\nABSTRACT\n"
         + item["context"][:6000]
         + "\n\nQUESTION\n"
         + item["question"]
@@ -79,6 +77,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--seed", type=int, default=20261028)
     ap.add_argument("--max-tokens", type=int, default=768)
     ap.add_argument("--workers", type=int, default=2)
+    ap.add_argument("--no-think", action="store_true", help="direct answer (no reasoning)")
     ap.add_argument("--out", default=str(config.RESULTS_DIR / "pubmedqa_200.jsonl"))
     args = ap.parse_args(argv)
 
@@ -93,6 +92,7 @@ def main(argv: list[str] | None = None) -> int:
         r = llm.chat(
             [{"role": "user", "content": build_prompt(item)}],
             max_tokens=args.max_tokens,
+            enable_thinking=not args.no_think,
             timeout=1200,
         )
         rec = {

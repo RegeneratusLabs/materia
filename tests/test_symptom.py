@@ -122,3 +122,17 @@ def test_contract_flags_vetoed_intervention():
     findings = [{"intervention": "valerian", "severity": "veto", "context": "pregnancy"}]
     issues = symptom.contract_check(_sheet(), [{"text": "valerian 300-600 mg at night"}], findings)
     assert any("vetoed intervention" in i for i in issues)
+
+
+def test_enforce_vetoes_removes_option_and_leaves_pointer():
+    findings = [{"intervention": "ginkgo", "severity": "veto", "context": "warfarin"}]
+    sheet, removed = symptom.enforce_vetoes(_sheet("1. Ginkgo — bleeding risk [S1]"), findings)
+    assert removed and "ginkgo" in removed[0].lower()
+    assert "bleeding risk" not in symptom._section(sheet, "OPTIONS").lower()
+    assert "excluded by the safety screen" in sheet.lower()
+
+
+def test_enforce_vetoes_leaves_clean_sheet_alone():
+    sheet = _sheet("1. Valerian — 300-600 mg at night [S1]")
+    out, removed = symptom.enforce_vetoes(sheet, [{"intervention": "ginkgo", "severity": "veto"}])
+    assert removed == [] and out.strip() == sheet.strip()

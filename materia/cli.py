@@ -131,8 +131,11 @@ def cmd_symptom(args: argparse.Namespace) -> int:
     llm.ensure_reason(ctx=8192, parallel=2)
     prompt = symptom.build_prompt(args.text, chunks, findings, red, intake)
     out = llm.chat([{"role": "user", "content": prompt}], max_tokens=args.max_tokens, timeout=1200)
-    issues = symptom.contract_check(out["text"], chunks, findings)
-    print("\n" + out["text"].strip())
+    sheet, removed = symptom.enforce_vetoes(out["text"], findings)
+    issues = symptom.contract_check(sheet, chunks, findings)
+    print("\n" + sheet.strip())
+    if removed:
+        print("\n[vetoed options removed by the safety screen]")
     print("\nEVIDENCE")
     for i, c in enumerate(chunks, start=1):
         print(f"[S{i}] {c['chunk_id']} · {c['source']} · {c['date']} · {c['section']}")

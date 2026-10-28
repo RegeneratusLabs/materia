@@ -7,3 +7,6 @@ corpus/raw/
 samples/raw/
 *.sqlite
 results/tmp/
+*.sqlite-wal
+*.sqlite-shm
+results/tmp/
