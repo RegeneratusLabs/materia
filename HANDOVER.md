@@ -14,8 +14,9 @@
 - **External anchor:** **49.5% (198/400, CI 44.6–54.4)** on MedQA-USMLE. Chance is 25%. This is an *upper bound* — MedQA is in pretraining.
 - **Do NOT fine-tune for knowledge.** The evidence says the knowledge is already in the weights and is an *elicitation* problem, not a training problem. The fix is retrieval + scaffolding.
 - **Prompt scaffolding: one instruction only.** "Think for at most 60 words, then answer." Every extra meta-instruction tried so far scored *lower* (3 of 3 conditions), though with n=104 none reached statistical significance. Details in §4 and §8 — do not tell the model to distrust its priors.
-- **Not done:** retrieval layer, evidence corpus, PubMedQA run, MedXpertQA, HealthBench, safety gate, UI, practitioner testing.
-- **First task:** §10 step 3 — wire retrieval over a small curated corpus and re-run the 104-item panel. Do not start with training.
+- **Not done:** retrieval layer, evidence corpus, OCR run, PubMedQA, MedXpertQA, HealthBench, safety gate, UI, practitioner testing.
+- **First task:** §10 step 3 — prove `MiniCPM-OCR-1.0` on a real Australian lab report, then step 5 build the corpus. Do not start with training.
+- **Stack is 100% OpenBMB:** `MiniCPM5-2B` (reasoning), `MiniCPM-OCR-1.0` (documents), `MiniCPM-OCR-Jev` (per-region OCR confidence). All Apache-2.0. Never all resident at once — load by phase, peak 3.2 GB.
 
 ---
 
@@ -35,32 +36,93 @@ A tool for naturopaths, nutritionists, herbalists and functional-medicine practi
 
 ## 2. Architecture (LOCKED — do not re-litigate)
 
+**Stack is 100% OpenBMB (Josh, 2026-10-28).** Three models, each doing one job:
+
+| Role | Model | Params | Weights (GGUF) | Licence |
+|---|---|---|---|---|
+| Reasoning | `openbmb/MiniCPM5-2B` | 2B | Q8_0 2,556 MB · Q4_K_M 1,489 MB | Apache-2.0 |
+| Document OCR | `openbmb/MiniCPM-OCR-1.0` | 1.3B | Q4_K_M **505 MB + mmproj 859 MB** = 1,364 MB | Apache-2.0 |
+| OCR confidence | `openbmb/MiniCPM-OCR-Jev` | 2B | Q4_K_M **1,215 MB + mmproj 640 MB** = 1,855 MB | Apache-2.0 |
+
+`MiniCPM-OCR-1.0` — released 2026-10-26. First OCR-specific model in the MiniCPM-V/o family. SOTA 93.68 on Real5-OmniDocBench, leading on OmniDocBench v1.6 / Wild-OmniDocBench / olmOCR-Bench, 54.7 on OCRBench v2. Handles scans, curved pages, skewed pages, photographs and recaptured documents — i.e. phone photos of lab printouts, which is the actual input. English + Chinese. GGUF, llama.cpp and Ollama from day one, DSpark variants (~55% faster end-to-end).
+
+**`MiniCPM-OCR-Jev` is the important one nobody mentions.** It is not an OCR model — given an image and its OCR result, it returns a **0–1 quality score per region**. AUROC ×100 of 93.6 on JevOCRBench, beating JEV-35B-A3B (90.1). For this project that is the citation-auditability principle applied to input: **a lab value that OCR'd at 0.72 does not silently populate the record — it goes to the user for confirmation.** Gate it at 0.85 for numeric lab fields, 0.70 for free text.
+
+**Load by phase, never all at once.** OCR + Jev together are 3.2 GB; the text engine is 2.8 GB. A document-ingest pass peaks at ~3.2 GB, a query pass at ~2.8 GB. Keep all three warm only on 16 GB machines.
+
+One dependency is **not** OpenBMB: the reference pipeline uses `PP-DocLayoutV3` (PaddlePaddle) for layout detection and reading order. For single-column lab reports you can skip layout entirely and feed whole pages — tables are handled. That keeps the shipped stack fully OpenBMB.
+
 ```
-Intake note
+Intake note / lab PDF / phone photo
    │
-   ├─ OpenMed privacy-filter / NER        de-identify + structure (Apache-2.0, 2,278 repos)
+   ├─ MiniCPM-OCR-1.0            page → markdown/HTML, tables preserved
+   │  + MiniCPM-OCR-Jev          per-region 0–1 confidence → gate at 0.85 for numbers
    │
-   ├─ Evidence corpus  ← THE MOAT         PubMed/Europe PMC, LiverTox, MSK About Herbs,
-   │                                      EMA/ESCOP monographs, TGA ARTG, RCPA reference ranges
+   ├─ Structured extraction      analyte · value · unit · the LAB'S interval · date
+   │                             (numeric fields only enter the record above threshold)
    │
-   ├─ Hybrid retrieval (BM25 + dense)
+   ├─ OpenMed privacy-filter/NER de-identify + structure free text
    │
-   ├─ MiniCPM5-2B (local, Q8_0)           60-word reasoning budget
-   │                                      every claim carries a source ID or it does not render
+   ├─ Evidence corpus  ← THE MOAT         (built out in DSH, see §2.1)
    │
-   ├─ Deterministic safety gate           rules, NOT an LLM: pregnancy, lactation,
-   │                                      anticoagulants, thyroid, immunosuppressants,
-   │                                      liver disease, paediatric, hepatotoxins, TGA schedules
+   ├─ Hybrid retrieval (BM25 + dense) + source-ID assignment
+   │
+   ├─ MiniCPM5-2B Q8_0           60-word reasoning budget; every claim carries a source ID
+   │
+   ├─ Claim→passage verification  second pass: does passage P actually support claim C?
+   │
+   ├─ Deterministic safety gate   rules, NOT an LLM: pregnancy, lactation, anticoagulants,
+   │                             thyroid, immunosuppressants, liver disease, paediatric,
+   │                             hepatotoxins, TGA schedules
    │
    └─ SOAP note + cited rationale + "where evidence is absent or conflicting"
 ```
+
+### 2.1 Corpus schema (DSH builds this)
+
+The corpus is the project. It must be built to a schema that makes citation inevitable:
+
+```json
+{
+  "doc_id": "ema-monograph-echinacea-2024",
+  "source": "EMA herbal monograph",
+  "tier": "regulatory",
+  "title": "Echinacea purpurea — herbal monograph",
+  "date": "2024-03-01",
+  "url": "https://...",
+  "identifier": { "type": "ema", "value": "EMA/HMPC/..." },
+  "language": "en",
+  "chunks": [
+    {
+      "chunk_id": "ema-monograph-echinacea-2024#003",
+      "text": "Not recommended in patients with progressive systemic disease...",
+      "section": "contraindications",
+      "topics": ["autoimmune", "contraindication"],
+      "analytes": [],
+      "entities": ["Echinacea purpurea"]
+    }
+  ]
+}
+```
+
+Non-negotiables for every document:
+
+- **`tier`** ∈ `primary` (RCT, systematic review, Cochrane) · `regulatory` (EMA, ESCOP, WHO, TGA) · `compendium` (MSK About Herbs, LiverTox, Natural Medicines) · `traditional` (historical use). The UI renders tier with the citation; a traditional-use claim must never look like an RCT.
+- **`identifier`** must be resolvable by a human in one click (PMID, DOI, EMA doc number, ARTG number).
+- **`date`** is mandatory. A 2009 monograph and a 2024 one are not interchangeable, and the UI shows the date next to the claim.
+- **Every chunk carries `section`** so the retrieval prompt can tell a contraindication from a pharmacology note. Most RAG failures on monographs are section-blindness.
+- **No document enters without a resolvable identifier.** If you cannot cite it, it is not corpus — it is a note.
+
+Suggested build order: lab reference intervals (small, finite, unblocks the whole lab path) → herb monographs for the 104-item panel's herbs → herb–drug interaction pairs → nutrient–drug interactions → referral red flags. That order follows the measured failure classes in §4.
 
 **Settled decisions:**
 
 | Decision | Settled by | To reopen it you would need |
 |---|---|---|
 | Retrieval over fine-tuning for factual knowledge | evidence (see §4), Josh agreed 2026-10-28 | a corpus that does not exist, plus a demonstration that fine-tuning beats base+RAG |
-| Small local open-weight model, not an API | Josh (anti-closed-source, no OpenAI) | — |
+| Whole stack is OpenBMB, including OCR | Josh, 2026-10-28 | a measured failure of MiniCPM-OCR on real lab reports |
+| OCR confidence gates numeric extraction | design (Jev exists; not using it is indefensible) | — |
+| Small local open-weight models, not an API | Josh (anti-closed-source, no OpenAI) | — |
 | OpenMed used for extraction/PII only, never as the reasoning engine | measurement: 2,255 of 2,278 OpenMed repos are `token-classification` | — |
 | Reasoning budget in the prompt | measurement (§4) | a better scaffold that beats it on the 104-item panel |
 | Safety gate is deterministic code, not model output | design principle | — |
@@ -143,7 +205,7 @@ Honest reading: **no extra instruction helped; two of three trends went negative
 
 **Panel composition (104):** herb-drug 26, herb-safety 20, nutrient-drug 12, lab 30, referral 8, safety 6, nutrient-safety 1, nutrient-lab 1.
 
-**Not done, and it matters:** no retrieval, no corpus, no safety gate, no UI, no practitioner has seen it, PubMedQA never run, MedXpertQA/HealthBench/PhysicianBench never run.
+**Not done, and it matters:** no retrieval, no corpus, no safety gate, no UI, no practitioner has seen it, **no OCR run** (`MiniCPM-OCR-1.0` and `Jev` identified and sized but not executed on a single document), PubMedQA never run, MedXpertQA/HealthBench/PhysicianBench never run.
 
 **Extrapolation, labelled as such:** the 95.2% is on 104 multiple-choice items I wrote. Real patient files are longer, messier and multi-turn. Expect a material drop; nobody has measured it.
 
@@ -163,6 +225,7 @@ Honest reading: **no extra instruction helped; two of three trends went negative
 | Logs | `.../logs/*.txt`, `.../logs/*.log` |
 | Scores | `.../docs/scores.json` |
 | **Model weights (outside repo, do not move in)** | `/home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf` (2,556 MB), `MiniCPM5-2B-Q4_K_M.gguf` (1,489 MB) |
+| **OCR + confidence weights (not yet downloaded)** | target `/home/josh/models/minicpm-ocr/`: `MiniCPM-OCR-1_0-Q4_K_M.gguf` (505 MB) + `mmproj-model-f16-4x.gguf` (859 MB) from `openbmb/MiniCPM-OCR-1.0-gguf`; `MiniCPM-OCR-Jev-Q4_K_M.gguf` (1,215 MB) + `mmproj-model-f16.gguf` (640 MB) from `openbmb/MiniCPM-OCR-Jev-gguf` |
 | llama.cpp binaries | `/home/josh/bin/llamacpp/llama-b11936/` |
 | Reusable harness + method | Hermes skill `local-gguf-capability-eval` (scripts/eval_harness.py) |
 
@@ -226,11 +289,12 @@ Question: does putting monographs and reference ranges in context close the know
      -m ~/models/minicpm5/MiniCPM5-2B-Q8_0.gguf \
      -c 4096 -np 2 -t 6 --jinja --no-reasoning-preserve --port 8099
    ```
-2. **Verify one number before trusting the rest.** Re-score `results/v2_budget.jsonl` from the `got` field with the script in `docs/` and confirm 99/104. If you get 101/104, you are re-parsing truncated text (§8).
-3. **Run Gate 1 (PubMedQA, data already on disk).** Before writing any retrieval code.
-4. **Build the smallest useful corpus** — 50 herb monographs + AU reference ranges for the panel's lab items — and wire retrieval.
-5. **Re-run the 104-item panel** under the same 60-word budget. Compare against 95.2%, paired, per category.
-6. **Report honestly:** real outputs, explicit recommendation, the denominator and CI on every number, no hype, no fabricated results.
+2. **Verify one number before trusting the rest.** Re-score `results/v2_budget.jsonl` from the `got` field: `python3 docs/rescore.py results/v2_budget.jsonl` must print 99/104 = 95.2%. If you get 101/104 you are re-parsing truncated text (§8).
+3. **Prove the OCR path before building on it (Gate 0).** Download `MiniCPM-OCR-1.0-gguf` Q4_K_M + `mmproj-model-f16-4x.gguf`, OCR one real Australian lab report (an SN/QML/Laverty PDF, or a phone photo of a printout), and check that every analyte, value, unit and the lab's interval survive into a table. Then run `MiniCPM-OCR-Jev` over the same page and confirm its per-region scores separate the clean values from a deliberately blurred or skewed region. **Gate: 100% of numeric fields recovered correctly on a clean page; Jev score ≥0.85 on clean regions and visibly lower on the degraded one.** If OCR fails here, the lab-upload feature is speculation and Josh needs to know immediately.
+4. **Run Gate 1 (PubMedQA, data already on disk).** Cheap, and it settles recall-vs-reasoning before you invest in the corpus.
+5. **Build the corpus to the §2.1 schema**, in the stated order — reference intervals first, because it unblocks the entire lab path and is finite. Every document needs a resolvable identifier; anything you cannot cite is a note, not corpus.
+6. **Wire retrieval and re-run the 104-item panel** under the same 60-word budget. Compare against 95.2%, paired, per category.
+7. **Report honestly:** real outputs, explicit recommendation, the denominator and CI on every number, no hype, no fabricated results.
 
 ---
 
