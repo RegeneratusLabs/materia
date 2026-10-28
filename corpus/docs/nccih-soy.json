@@ -7,7 +7,7 @@
  "date": "2025-04-01",
  "revised": "2025-04-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-10-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/soy",
  "identifier": {
   "type": "web",
@@ -119,19 +119,6 @@
   },
   {
    "chunk_id": "nccih-soy#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Soy"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-soy#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -144,7 +131,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-soy#009",
+   "chunk_id": "nccih-soy#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -157,7 +144,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-soy#010",
+   "chunk_id": "nccih-soy#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -168,38 +155,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-soy#011",
-   "text": "Key References: Asbaghi O, Ashtary-Larky D, Mousa A, et al.\nThe effects of soy products on cardiovascular risk factors in patients with type 2 diabetes: a systematic review and meta-analysis of clinical trials\n.\nAdvances in Nutrition.\n2022;13(2):455-473.\nBarańska A, Błaszczuk A, Kanadys W, et al.\nEffects of soy protein containing of isoflavones and isoflavones extract on plasma lipid profile in postmenopausal women as a potential prevention factor in cardiovascular diseases: systematic review and meta-analysis of randomized controlled trials\n.\nNutrients.\n2021;13(8):2531.\nBarańska A, Błaszczuk A, Polz-Dacewicz M, et al.\nEffects of soy isoflavones on glycemic control and lipid profile in patients with type 2 diabetes: a systematic review and meta-analysis of randomized controlled trials\n.\nNutrients.\n2021;13(6):1886.\nBarańska A, Kanadys W, Bogdan M, et al.\nThe role of soy isoflavones in the prevention of bone loss in postmenopausal women: a systematic review with meta-analysis of randomized controlled trials\n.\nJournal of Clinical Medicine.\n2022;11(16):4676.\nBelobrajdic DP, James-Martin G, Jones D, et al.\nSoy and gastrointestinal health: a review\n.\nNutrients.\n2023;15(8):1959.\nGençtürk N, Bilgiç FS, Kaban HU.\nThe effect of soy isoflavones given to women in the climacteric period on menopausal symptoms and quality of life: systematic review and meta-analysis of randomized controlled trials\n.\nExplore.\n2024;20(6):103012.\nLei L, Hui S, Chen Y, et al.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "diabetes"
-   ],
-   "entities": [
-    "Soy"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 216
-  },
-  {
-   "chunk_id": "nccih-soy#012",
-   "text": "Key References: Effect of soy isoflavone supplementation on blood pressure: a meta-analysis of randomized controlled trials\n.\nNutrition Journal.\n2024;23(1):32 (published correction appears in\nNutrition Journal.\n2024;23(1):53).\nShin S, Fu J, Shin W-K et al.\nAssociation of food groups and dietary pattern with breast cancer risk: a systematic review and meta-analysis\n.\nClinical Nutrition.\n2023;42(3):282-297.\nSoy. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.comon November 11, 2024. [Database subscription].\nSzczerba E, Koch M, Schlesinger S.\nSoy consumption, cognitive function, and dementia\n.\nCurrent Opinion in Lipidology.\n2022;33(1):68-75.\nYang S, Zeng Q, Huang X, et al.\nEffect of isoflavones on blood lipid alterations in postmenopausal females: a systematic review and meta-analysis of randomized trials\n.\nAdvances in Nutrition.\n2023;14(6):1633-1643.\nZuo X, Zhao R, Wu M, et al.\nSoy consumption and risk of type 2 diabetes and cardiovascular diseases: a systematic review and meta-analysis\n.\nNutrients.\n2023;15(6):1358.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "diabetes",
-    "hypertension",
-    "cancer"
-   ],
-   "entities": [
-    "Soy"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 216
   }
  ]
 }

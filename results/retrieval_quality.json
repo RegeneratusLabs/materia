@@ -1,0 +1,1566 @@
+[
+ {
+  "id": "H01",
+  "cat": "herb-drug",
+  "q_entities": [
+   "st john's wort"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-st-johns-wort#001",
+   "nccih-st-johns-wort#013",
+   "hc-nhpid-stjohnswort-millepertuis-topical#006",
+   "hc-nhpid-stjohnswort-millepertuis-oral2#007",
+   "hc-nhpid-stjohnswort-millepertuis-topical#008"
+  ]
+ },
+ {
+  "id": "H02",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Ginkgo",
+   "ginkgo"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-ginkgo#001",
+   "hc-nhpid-ginkgo-biloba2#002",
+   "nccih-ginkgo#006",
+   "hc-nhpid-fonc-cognitive-func#009",
+   "hc-nhpid-tcm#010"
+  ]
+ },
+ {
+  "id": "H03",
+  "cat": "herb-safety",
+  "q_entities": [
+   "fish oil"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#046",
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-milk-thistle-pdq#029",
+   "nci-pdq-dietary-interactions-pdq#012",
+   "nci-pdq-black-cohosh-pdq#012"
+  ]
+ },
+ {
+  "id": "H04",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-suns-soup-pdq#004",
+   "nci-pdq-cartilage-pdq#055",
+   "nccih-st-johns-wort#007",
+   "nci-pdq-curcumin-pdq#005",
+   "nccih-soy#005"
+  ]
+ },
+ {
+  "id": "H05",
+  "cat": "herb-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-dietary-interactions-pdq#023",
+   "nci-pdq-dietary-interactions-pdq#034",
+   "nci-pdq-prostate-supplements-pdq#069",
+   "nci-pdq-prostate-supplements-pdq#035",
+   "nci-pdq-ndv-pdq#002"
+  ]
+ },
+ {
+  "id": "H06",
+  "cat": "herb-safety",
+  "q_entities": [
+   "licorice"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-licorice-root#005",
+   "nccih-licorice-root#001",
+   "hc-nhpid-licorice-reglisse2#003",
+   "hc-nhpid-antiox#055",
+   "nci-pdq-suns-soup-pdq#004"
+  ]
+ },
+ {
+  "id": "H07",
+  "cat": "nutrient-drug",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#014",
+   "nci-pdq-hydrazine-sulfate-pdq#031",
+   "hc-nhpid-oligotherapy2#004",
+   "hc-nhpid-vitamin-d-hd#005",
+   "nci-pdq-hydrazine-sulfate-pdq#008"
+  ]
+ },
+ {
+  "id": "H08",
+  "cat": "herb-drug",
+  "q_entities": [
+   "5-HTP"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "hc-nhpid-5htp#003",
+   "hc-nhpid-5htp#005",
+   "nccih-rhodiola#011",
+   "hc-nhpid-diindolylmethane#005",
+   "hc-nhpid-indole3carbinol#005"
+  ]
+ },
+ {
+  "id": "H09",
+  "cat": "herb-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-goldenseal#004",
+   "nci-pdq-prostate-supplements-pdq#192",
+   "nccih-ashwagandha#005",
+   "nci-pdq-prostate-supplements-pdq#130",
+   "nccih-astragalus#005"
+  ]
+ },
+ {
+  "id": "H10",
+  "cat": "nutrient-drug",
+  "q_entities": [
+   "nac"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#009",
+   "nccih-cranberry#006",
+   "hc-nhpid-antiox#055",
+   "nci-pdq-prostate-supplements-pdq#226",
+   "nccih-bitter-orange#005"
+  ]
+ },
+ {
+  "id": "H11",
+  "cat": "herb-safety",
+  "q_entities": [
+   "Ashwagandha",
+   "ashwagandha",
+   "fish oil"
+  ],
+  "entity_hit": false,
+  "any_hit": true,
+  "hits": [
+   "nccih-ashwagandha#001",
+   "hc-nhpid-fonc-cognitive-func#008",
+   "nccih-ashwagandha#011",
+   "hc-nhpid-ashwagandha2#005",
+   "hc-nhpid-ashwagandha2#003"
+  ]
+ },
+ {
+  "id": "H12",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Valerian"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-valerian#003",
+   "nccih-valerian#005",
+   "hc-nhpid-valerian2#004",
+   "hc-nhpid-rhodiol2#006",
+   "hc-nhpid-california-poppy-pavot#004"
+  ]
+ },
+ {
+  "id": "H13",
+  "cat": "herb-drug",
+  "q_entities": [
+   "PANAX GINSENG",
+   "ginseng"
+  ],
+  "entity_hit": false,
+  "any_hit": true,
+  "hits": [
+   "nci-pdq-pc-spes-pdq#022",
+   "nci-pdq-pc-spes-pdq#005",
+   "nccih-asian-ginseng#001",
+   "hc-nhpid-tcm#010",
+   "nccih-asian-ginseng#013"
+  ]
+ },
+ {
+  "id": "H14",
+  "cat": "herb-safety",
+  "q_entities": [
+   "fish oil"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-milk-thistle-pdq#029",
+   "nci-pdq-prostate-supplements-pdq#046",
+   "nci-pdq-black-cohosh-pdq#012",
+   "nccih-turmeric#012"
+  ]
+ },
+ {
+  "id": "H15",
+  "cat": "herb-safety",
+  "q_entities": [
+   "Aloe Vera"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-aloe-vera#006",
+   "nccih-aloe-vera#007",
+   "hc-nhpid-aloe-oral-orale2#004",
+   "hc-nhpid-antiox#061",
+   "hc-nhpid-aloe-gel#003"
+  ]
+ },
+ {
+  "id": "H16",
+  "cat": "nutrient-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-kava#005",
+   "hc-nhpid-greentea-thevert2#002",
+   "nccih-ashwagandha#005",
+   "nci-pdq-vitamin-c-pdq#038",
+   "nci-pdq-antineoplastons-pdq#038"
+  ]
+ },
+ {
+  "id": "H17",
+  "cat": "nutrient-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-workout-supplements-entrainement#020",
+   "hc-nhpid-vitamin-d-hd#009",
+   "hc-nhpid-tcm#008",
+   "hc-nhpid-organotherapy#006",
+   "hc-nhpid-frankincense-arbre-buc2#006"
+  ]
+ },
+ {
+  "id": "H18",
+  "cat": "nutrient-drug",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "hc-nhpid-oligotherapy2#002",
+   "nci-pdq-coenzyme-q10-pdq#035",
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "nci-pdq-gerson-pdq#005"
+  ]
+ },
+ {
+  "id": "H19",
+  "cat": "nutrient-lab",
+  "q_entities": [
+   "vitamin b12",
+   "folate"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "hc-nhpid-cod-liver-oil#002",
+   "nci-pdq-vitamin-c-pdq#003",
+   "nci-pdq-gerson-pdq#006"
+  ]
+ },
+ {
+  "id": "H20",
+  "cat": "nutrient-drug",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-dietary-interactions-pdq#027",
+   "nci-pdq-prostate-supplements-pdq#174",
+   "nci-pdq-prostate-supplements-pdq#070",
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "hc-nhpid-chlorella-vulgaris2#004"
+  ]
+ },
+ {
+  "id": "H21",
+  "cat": "herb-drug",
+  "q_entities": [
+   "melatonin"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "hc-nhpid-melatonin-oral2#004",
+   "hc-nhpid-melatonin-sublinguale2#004",
+   "hc-nhpid-melatonin-oral2#007",
+   "hc-nhpid-melatonin-sublinguale2#007",
+   "nccih-kava#006"
+  ]
+ },
+ {
+  "id": "H22",
+  "cat": "herb-safety",
+  "q_entities": [
+   "Black Cohosh"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nci-pdq-black-cohosh-pdq#007",
+   "nccih-black-cohosh#003",
+   "nci-pdq-black-cohosh-pdq#028",
+   "nccih-black-cohosh#002",
+   "hc-nhpid-black-cohosh-actee-noire2#002"
+  ]
+ },
+ {
+  "id": "H23",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Ephedra"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-yohimbe#005",
+   "nccih-bitter-orange#002",
+   "nccih-ephedra#005",
+   "nccih-ephedra#002",
+   "nci-pdq-acupuncture-pdq#024"
+  ]
+ },
+ {
+  "id": "H24",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Turmeric",
+   "turmeric"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nci-pdq-curcumin-pdq#051",
+   "nccih-turmeric#003",
+   "nci-pdq-curcumin-pdq#012",
+   "nccih-turmeric#002",
+   "hc-nhpid-curcumin-curcumine2#003"
+  ]
+ },
+ {
+  "id": "H25",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-astragalus#005",
+   "nccih-ashwagandha#005",
+   "nccih-thunder-god-vine#002",
+   "nci-pdq-714-x-pdq#004",
+   "nccih-cats-claw#005"
+  ]
+ },
+ {
+  "id": "L01",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-aromatherapy-pdq#006",
+   "nccih-soy#012",
+   "nccih-saw-palmetto#002",
+   "nccih-green-tea#006",
+   "nci-pdq-prostate-supplements-pdq#003"
+  ]
+ },
+ {
+  "id": "L02",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-curcumin-pdq#012",
+   "hc-nhpid-propolis-oral-orale2#002",
+   "hc-nhpid-cayenne-oral-orale2#002",
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "nci-pdq-prostate-supplements-pdq#082"
+  ]
+ },
+ {
+  "id": "L03",
+  "cat": "lab",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-gerson-pdq#005",
+   "nci-pdq-aromatherapy-pdq#006",
+   "nci-pdq-mistletoe-pdq#048",
+   "hc-nhpid-oligotherapy2#002"
+  ]
+ },
+ {
+  "id": "L04",
+  "cat": "lab",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "hc-nhpid-oral-health-sante-bucco-dentaire#004",
+   "nci-pdq-pc-spes-pdq#006",
+   "nci-pdq-curcumin-pdq#035",
+   "nci-pdq-cartilage-pdq#031"
+  ]
+ },
+ {
+  "id": "L05",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-acupuncture-pdq#078",
+   "nccih-green-tea#006",
+   "nci-pdq-prostate-supplements-pdq#136"
+  ]
+ },
+ {
+  "id": "L06",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-gerson-pdq#021",
+   "nccih-hoodia#005",
+   "nci-pdq-prostate-supplements-pdq#117",
+   "nccih-bitter-orange#005",
+   "hc-nhpid-astragalus-astragale2#002"
+  ]
+ },
+ {
+  "id": "L07",
+  "cat": "lab",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-prostate-supplements-pdq#178",
+   "nci-pdq-cartilage-pdq#018",
+   "nci-pdq-ndv-pdq#026",
+   "nci-pdq-prostate-supplements-pdq#183"
+  ]
+ },
+ {
+  "id": "L08",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-astragalus#004",
+   "hc-nhpid-pygeum#005",
+   "nccih-aloe-vera#005",
+   "hc-nhpid-fonc-cognitive-func#012",
+   "hc-nhpid-saw-palmetto-sabal2#006"
+  ]
+ },
+ {
+  "id": "L09",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-grape-seed-extract#004",
+   "nccih-green-tea#004",
+   "hc-nhpid-fish-oil-huile-poisson#003",
+   "nccih-flaxseed-and-flaxseed-oil#004",
+   "nci-pdq-prostate-supplements-pdq#036"
+  ]
+ },
+ {
+  "id": "L10",
+  "cat": "lab",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-prostate-supplements-pdq#239",
+   "nci-pdq-milk-thistle-pdq#040",
+   "nci-pdq-acupuncture-pdq#040",
+   "nccih-turmeric#004"
+  ]
+ },
+ {
+  "id": "L11",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-oral-health-sante-bucco-dentaire#004",
+   "nci-pdq-acupuncture-pdq#093",
+   "nci-pdq-acupuncture-pdq#035",
+   "nci-pdq-laetrile-pdq#030",
+   "nccih-cinnamon#003"
+  ]
+ },
+ {
+  "id": "L12",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-milk-thistle-pdq#036",
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-milk-thistle-pdq#035",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-curcumin-pdq#020"
+  ]
+ },
+ {
+  "id": "L13",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-cancell-pdq#012",
+   "nccih-ginkgo#004",
+   "nci-pdq-prostate-supplements-pdq#039",
+   "hc-nhpid-oligotherapy2#003",
+   "hc-nhpid-vitamin-d-hd#008"
+  ]
+ },
+ {
+  "id": "L14",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-cancell-pdq#006",
+   "nci-pdq-cancell-pdq#007",
+   "nci-pdq-gonzalez-pdq#010",
+   "nccih-green-tea#006",
+   "nci-pdq-acupuncture-pdq#006"
+  ]
+ },
+ {
+  "id": "L15",
+  "cat": "lab",
+  "q_entities": [
+   "VITAMIN D (>1,000 - 2,500 IU)",
+   "vitamin d"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "hc-nhpid-antiox#057",
+   "hc-nhpid-fonc-cognitive-func#008",
+   "hc-nhpid-vitamin-d-hd#004",
+   "hc-nhpid-carrot2#004",
+   "hc-nhpid-multiple-joint-health2#010"
+  ]
+ },
+ {
+  "id": "S01",
+  "cat": "safety",
+  "q_entities": [
+   "FISH OIL"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "hc-nhpid-fish-oil-huile-poisson#005",
+   "hc-nhpid-fish-oil-huile-poisson#003",
+   "hc-nhpid-multiple-joint-health2#008",
+   "hc-nhpid-cod-liver-oil#004",
+   "hc-nhpid-multiple-oil#010"
+  ]
+ },
+ {
+  "id": "S02",
+  "cat": "safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-peppermint-oil#002",
+   "nci-pdq-acupuncture-pdq#060",
+   "nccih-st-johns-wort#005",
+   "nccih-garcinia-cambogia#005",
+   "nci-pdq-mistletoe-pdq#067"
+  ]
+ },
+ {
+  "id": "S03",
+  "cat": "safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-turmeric#005",
+   "hc-nhpid-multiple-joint-health2#016",
+   "hc-nhpid-greentea-thevert2#006",
+   "hc-nhpid-tamar-malabar2#005",
+   "hc-nhpid-calcium-potassium2#006"
+  ]
+ },
+ {
+  "id": "S04",
+  "cat": "safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-feverfew#011",
+   "nccih-peppermint-oil#013",
+   "nci-pdq-cancell-pdq#001",
+   "nccih-bilberry#011",
+   "nccih-acai#012"
+  ]
+ },
+ {
+  "id": "S05",
+  "cat": "safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-coenzyme-q10-pdq#034",
+   "nccih-hawthorn#012",
+   "hc-nhpid-tcm#008",
+   "nccih-hawthorn#003",
+   "nccih-passionflower#004"
+  ]
+ },
+ {
+  "id": "S06",
+  "cat": "safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-dandelion#005",
+   "nccih-ginkgo#006",
+   "nccih-cranberry#006",
+   "nccih-cats-claw#005",
+   "nccih-garlic#005"
+  ]
+ },
+ {
+  "id": "E01",
+  "cat": "herb-drug",
+  "q_entities": [
+   "st john's wort"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-st-johns-wort#005",
+   "nccih-st-johns-wort#002",
+   "hc-nhpid-fonc-cognitive-func#004",
+   "hc-nhpid-stjohnswort-millepertuis-oral2#002",
+   "nci-pdq-dietary-interactions-pdq#021"
+  ]
+ },
+ {
+  "id": "E02",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Garlic"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "hc-nhpid-garlic-ail#006",
+   "nccih-garlic#004",
+   "nccih-garlic#002",
+   "nci-pdq-prostate-supplements-pdq#130",
+   "nccih-yohimbe#005"
+  ]
+ },
+ {
+  "id": "E03",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Cranberry"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-cranberry#006",
+   "nccih-cranberry#005",
+   "hc-nhpid-cranberry-canneberge2#004",
+   "nci-pdq-coenzyme-q10-pdq#004",
+   "hc-nhpid-antiox#068"
+  ]
+ },
+ {
+  "id": "E04",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Echinacea",
+   "nac"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-echinacea#005",
+   "nccih-echinacea#006",
+   "nccih-ashwagandha#005",
+   "nccih-ephedra#005",
+   "nccih-kava#005"
+  ]
+ },
+ {
+  "id": "E05",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Fenugreek"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-fenugreek#002",
+   "nci-pdq-mistletoe-pdq#095",
+   "nccih-fenugreek#001",
+   "nci-pdq-gerson-pdq#021",
+   "nccih-cranberry#006"
+  ]
+ },
+ {
+  "id": "E06",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Cinnamon"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-cinnamon#005",
+   "nccih-cinnamon#006",
+   "nccih-peppermint-oil#006",
+   "nccih-licorice-root#005",
+   "nccih-sage#005"
+  ]
+ },
+ {
+  "id": "E07",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Yohimbe"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-yohimbe#005",
+   "nci-pdq-acupuncture-pdq#098",
+   "nci-pdq-acupuncture-pdq#106",
+   "nccih-ashwagandha#005",
+   "nccih-astragalus#005"
+  ]
+ },
+ {
+  "id": "E08",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Bitter Orange"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-bitter-orange#012",
+   "nccih-bitter-orange#002",
+   "nci-pdq-aromatherapy-pdq#037",
+   "hc-nhpid-aromatherap2#003",
+   "hc-nhpid-aromatherap2#006"
+  ]
+ },
+ {
+  "id": "E09",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Passionflower"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-passionflower#002",
+   "nccih-passionflower#005",
+   "nccih-kava#005",
+   "hc-nhpid-stjohnswort-millepertuis-oral2#006",
+   "nccih-st-johns-wort#006"
+  ]
+ },
+ {
+  "id": "E10",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Green Tea",
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": true,
+  "hits": [
+   "nci-pdq-dietary-interactions-pdq#027",
+   "nci-pdq-dietary-interactions-pdq#032",
+   "nci-pdq-prostate-supplements-pdq#035",
+   "nccih-green-tea#005",
+   "nccih-green-tea#002"
+  ]
+ },
+ {
+  "id": "E11",
+  "cat": "herb-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#019",
+   "nci-pdq-prostate-supplements-pdq#015",
+   "hc-nhpid-rhodiol2#002",
+   "hc-nhpid-multiple-joint-health2#013",
+   "nci-pdq-coenzyme-q10-pdq#033"
+  ]
+ },
+ {
+  "id": "E12",
+  "cat": "herb-drug",
+  "q_entities": [
+   "zinc"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-vitamin-d-hd#008",
+   "hc-nhpid-skin-peau#004",
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "nci-pdq-dietary-interactions-pdq#009",
+   "nci-pdq-prostate-supplements-pdq#195"
+  ]
+ },
+ {
+  "id": "E13",
+  "cat": "herb-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#192",
+   "hc-nhpid-soyflour-farinesoja#003",
+   "nccih-european-mistletoe#004",
+   "nci-pdq-prostate-supplements-pdq#205",
+   "hc-nhpid-soyflour-farinesoja#004"
+  ]
+ },
+ {
+  "id": "E14",
+  "cat": "herb-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-dietary-interactions-pdq#023",
+   "nci-pdq-dietary-interactions-pdq#024",
+   "nccih-pomegranate#005",
+   "nci-pdq-gerson-pdq#006",
+   "nci-pdq-gerson-pdq#004"
+  ]
+ },
+ {
+  "id": "E15",
+  "cat": "herb-drug",
+  "q_entities": [
+   "Dandelion"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-black-cohosh-pdq#014",
+   "hc-nhpid-caffeine-cafeine#006",
+   "hc-nhpid-feuille-olea-europaea-leaf2#009",
+   "hc-nhpid-feuille-olea-europaea-leaf2#007",
+   "hc-nhpid-caffeine-cafeine#004"
+  ]
+ },
+ {
+  "id": "E16",
+  "cat": "herb-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-arctostaphylos-uva-ursi2#007",
+   "nccih-peppermint-oil#006",
+   "nccih-valerian#005",
+   "hc-nhpid-arctostaphylos-uva-ursi2#001",
+   "nccih-ashwagandha#005"
+  ]
+ },
+ {
+  "id": "E17",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-yohimbe#005",
+   "nci-pdq-dietary-interactions-pdq#007",
+   "nci-pdq-mushrooms-pdq#001",
+   "nccih-ephedra#002",
+   "nccih-cinnamon#003"
+  ]
+ },
+ {
+  "id": "E18",
+  "cat": "herb-safety",
+  "q_entities": [
+   "fish oil"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#046",
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-milk-thistle-pdq#029",
+   "nci-pdq-dietary-interactions-pdq#012",
+   "nci-pdq-black-cohosh-pdq#026"
+  ]
+ },
+ {
+  "id": "E19",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-ndv-pdq#100",
+   "nci-pdq-gonzalez-pdq#023",
+   "nci-pdq-aromatherapy-pdq#046",
+   "nci-pdq-gerson-pdq#021",
+   "nci-pdq-essiac-pdq#027"
+  ]
+ },
+ {
+  "id": "E20",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-senna-sene#003",
+   "nci-pdq-hydrazine-sulfate-pdq#006",
+   "hc-nhpid-hops-houblon#007",
+   "nci-pdq-gerson-pdq#013",
+   "hc-nhpid-senna-sene#009"
+  ]
+ },
+ {
+  "id": "E21",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-pennyroyal2#005",
+   "hc-nhpid-pennyroyal2#001",
+   "nccih-peppermint-oil#001",
+   "hc-nhpid-aromatherap2#009",
+   "hc-nhpid-aromatherap2#021"
+  ]
+ },
+ {
+  "id": "E22",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-black-cohosh#005",
+   "nccih-black-cohosh#012",
+   "nccih-feverfew#011",
+   "nci-pdq-black-cohosh-pdq#009",
+   "nccih-asian-ginseng#007"
+  ]
+ },
+ {
+  "id": "E23",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-curcumin-pdq#005",
+   "nccih-licorice-root#002",
+   "nci-pdq-aromatherapy-pdq#004",
+   "nci-pdq-antineoplastons-pdq#018",
+   "nci-pdq-coenzyme-q10-pdq#006"
+  ]
+ },
+ {
+  "id": "E24",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-curcumin-pdq#005",
+   "nci-pdq-suns-soup-pdq#004",
+   "nccih-horse-chestnut#005",
+   "nccih-aloe-vera#002",
+   "hc-nhpid-cor-call2#002"
+  ]
+ },
+ {
+  "id": "E25",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-ginkgo#006",
+   "hc-nhpid-angelica-sinensis2#003",
+   "hc-nhpid-angelica-sinensis2#002",
+   "nccih-cranberry#006",
+   "nccih-garlic#005"
+  ]
+ },
+ {
+  "id": "E26",
+  "cat": "herb-safety",
+  "q_entities": [
+   "Ginkgo"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "nccih-ginkgo#006",
+   "nccih-ginkgo#002",
+   "nccih-horse-chestnut#005",
+   "nci-pdq-gerson-pdq#004",
+   "nccih-butterbur#004"
+  ]
+ },
+ {
+  "id": "E27",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-licorice-root#002",
+   "nci-pdq-prostate-supplements-pdq#217",
+   "nccih-turmeric#002",
+   "nci-pdq-vitamin-c-pdq#038",
+   "nci-pdq-black-cohosh-pdq#007"
+  ]
+ },
+ {
+  "id": "E28",
+  "cat": "herb-safety",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-yohimbe#005",
+   "nccih-butterbur#001",
+   "nccih-noni#005",
+   "nccih-pomegranate#005",
+   "nccih-horse-chestnut#005"
+  ]
+ },
+ {
+  "id": "E29",
+  "cat": "nutrient-drug",
+  "q_entities": [
+   "VITAMIN D (>1,000 - 2,500 IU)"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "hc-nhpid-vitamin-d-hd#007",
+   "hc-nhpid-antiox#057",
+   "nci-pdq-prostate-supplements-pdq#194",
+   "hc-nhpid-fonc-cognitive-func#008",
+   "hc-nhpid-vitamin-d-hd#004"
+  ]
+ },
+ {
+  "id": "E30",
+  "cat": "nutrient-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-vitamin-c-pdq#003",
+   "hc-nhpid-chitosan2#002",
+   "hc-nhpid-greentea-thevert2#002",
+   "nci-pdq-acupuncture-pdq#060",
+   "nci-pdq-dietary-interactions-pdq#005"
+  ]
+ },
+ {
+  "id": "E31",
+  "cat": "nutrient-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-black-cohosh-pdq#018",
+   "hc-nhpid-homeopathy2#005",
+   "nci-pdq-pc-spes-pdq#032",
+   "nccih-green-tea#005",
+   "hc-nhpid-5htp#006"
+  ]
+ },
+ {
+  "id": "E32",
+  "cat": "nutrient-drug",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#174",
+   "hc-nhpid-multiple-joint-health2#009",
+   "hc-nhpid-vitamin-d-hd#002",
+   "nccih-green-tea#005",
+   "nci-pdq-prostate-supplements-pdq#195"
+  ]
+ },
+ {
+  "id": "E33",
+  "cat": "nutrient-drug",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "nci-pdq-prostate-supplements-pdq#194",
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "nci-pdq-vitamin-c-pdq#007",
+   "nci-pdq-prostate-supplements-pdq#192"
+  ]
+ },
+ {
+  "id": "E34",
+  "cat": "nutrient-drug",
+  "q_entities": [
+   "folate"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-thunder-god-vine#012",
+   "nccih-thunder-god-vine#002",
+   "nccih-evening-primrose-oil#002",
+   "hc-nhpid-fish-oil-huile-poisson#007",
+   "hc-nhpid-multiple-joint-health2#004"
+  ]
+ },
+ {
+  "id": "E35",
+  "cat": "nutrient-drug",
+  "q_entities": [
+   "zinc"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-probio#002",
+   "nci-pdq-dietary-interactions-pdq#027",
+   "nccih-cranberry#012",
+   "nci-pdq-prostate-supplements-pdq#174",
+   "nccih-echinacea#012"
+  ]
+ },
+ {
+  "id": "L16",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#039",
+   "nci-pdq-mushrooms-pdq#011",
+   "nci-pdq-coenzyme-q10-pdq#020",
+   "nci-pdq-pc-spes-pdq#022",
+   "nci-pdq-antineoplastons-pdq#042"
+  ]
+ },
+ {
+  "id": "L17",
+  "cat": "lab",
+  "q_entities": [
+   "VITAMIN D (>1,000 - 2,500 IU)",
+   "vitamin d"
+  ],
+  "entity_hit": true,
+  "any_hit": true,
+  "hits": [
+   "hc-nhpid-fish-oil-huile-poisson#006",
+   "nci-pdq-prostate-supplements-pdq#183",
+   "hc-nhpid-antiox#057",
+   "nci-pdq-prostate-supplements-pdq#203",
+   "hc-nhpid-vitamin-d-hd#004"
+  ]
+ },
+ {
+  "id": "L18",
+  "cat": "lab",
+  "q_entities": [
+   "vitamin b12"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-gerson-pdq#006",
+   "nci-pdq-acupuncture-pdq#077",
+   "nci-pdq-acupuncture-pdq#078",
+   "nci-pdq-vitamin-c-pdq#038",
+   "hc-nhpid-chlorella-vulgaris2#002"
+  ]
+ },
+ {
+  "id": "L19",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-astragalus#004",
+   "hc-nhpid-pygeum#005",
+   "nccih-aloe-vera#005",
+   "hc-nhpid-fonc-cognitive-func#012",
+   "hc-nhpid-saw-palmetto-sabal2#006"
+  ]
+ },
+ {
+  "id": "L20",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#036",
+   "nccih-flaxseed-and-flaxseed-oil#004",
+   "nccih-asian-ginseng#004",
+   "nccih-astragalus#004",
+   "nci-pdq-prostate-supplements-pdq#035"
+  ]
+ },
+ {
+  "id": "L21",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#239",
+   "nci-pdq-prostate-supplements-pdq#121",
+   "nci-pdq-aromatherapy-pdq#006",
+   "nccih-bilberry#002",
+   "nci-pdq-laetrile-pdq#024"
+  ]
+ },
+ {
+  "id": "L22",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-cinnamon#003",
+   "nci-pdq-antineoplastons-pdq#042",
+   "nccih-bitter-orange#004",
+   "nci-pdq-mushrooms-pdq#011",
+   "nci-pdq-prostate-supplements-pdq#039"
+  ]
+ },
+ {
+  "id": "L23",
+  "cat": "lab",
+  "q_entities": [
+   "magnesium"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#063",
+   "nci-pdq-prostate-supplements-pdq#039",
+   "hc-nhpid-oligotherapy2#002",
+   "nci-pdq-coenzyme-q10-pdq#033",
+   "nci-pdq-coenzyme-q10-pdq#009"
+  ]
+ },
+ {
+  "id": "L24",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-prostate-supplements-pdq#183",
+   "nccih-lavender#011",
+   "nci-pdq-curcumin-pdq#018",
+   "nci-pdq-prostate-supplements-pdq#076",
+   "nci-pdq-cartilage-pdq#048"
+  ]
+ },
+ {
+  "id": "L25",
+  "cat": "lab",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-antineoplastons-pdq#039",
+   "nci-pdq-ndv-pdq#105",
+   "nci-pdq-antineoplastons-pdq#015",
+   "nci-pdq-gerson-pdq#005"
+  ]
+ },
+ {
+  "id": "L26",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-fonc-cognitive-func#012",
+   "nci-pdq-acupuncture-pdq#039",
+   "hc-nhpid-creatine-mono#003",
+   "nci-pdq-vitamin-c-pdq#025",
+   "nci-pdq-prostate-supplements-pdq#151"
+  ]
+ },
+ {
+  "id": "L27",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-milk-thistle-pdq#032",
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-milk-thistle-pdq#035",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-curcumin-pdq#020"
+  ]
+ },
+ {
+  "id": "L28",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-milk-thistle-pdq#036",
+   "nci-pdq-antineoplastons-pdq#003",
+   "nci-pdq-laetrile-pdq#010"
+  ]
+ },
+ {
+  "id": "L29",
+  "cat": "lab",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-irvingia-gabonensis#002",
+   "hc-nhpid-free-plant-sterols-vegetaux#002",
+   "hc-nhpid-plant-stanol-esters#003",
+   "hc-nhpid-plant-sterol-esters#003",
+   "nccih-green-tea#004"
+  ]
+ },
+ {
+  "id": "L30",
+  "cat": "lab",
+  "q_entities": [
+   "vitamin b12"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-gerson-pdq#006",
+   "nci-pdq-vitamin-c-pdq#003",
+   "nci-pdq-acupuncture-pdq#077",
+   "nci-pdq-prostate-supplements-pdq#186",
+   "hc-nhpid-carrot2#002"
+  ]
+ },
+ {
+  "id": "R01",
+  "cat": "referral",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-antiox#055",
+   "nci-pdq-milk-thistle-pdq#005",
+   "nccih-bitter-orange#004",
+   "nccih-pomegranate#003",
+   "nci-pdq-mushrooms-pdq#002"
+  ]
+ },
+ {
+  "id": "R02",
+  "cat": "referral",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "hc-nhpid-horseradish-raifort2#005",
+   "nci-pdq-mistletoe-pdq#092",
+   "nci-pdq-prostate-supplements-pdq#117",
+   "nccih-ashwagandha#005",
+   "nci-pdq-acupuncture-pdq#062"
+  ]
+ },
+ {
+  "id": "R03",
+  "cat": "referral",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-antineoplastons-pdq#054",
+   "nci-pdq-antineoplastons-pdq#036",
+   "nci-pdq-aromatherapy-pdq#012",
+   "nci-pdq-acupuncture-pdq#003",
+   "nci-pdq-coenzyme-q10-pdq#025"
+  ]
+ },
+ {
+  "id": "R04",
+  "cat": "referral",
+  "q_entities": [
+   "iron"
+  ],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "hc-nhpid-cod-liver-oil#003",
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-prostate-supplements-pdq#239",
+   "nci-pdq-antineoplastons-pdq#039"
+  ]
+ },
+ {
+  "id": "R05",
+  "cat": "referral",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-peppermint-oil#004",
+   "hc-nhpid-peppermint-menthepoivree#005",
+   "nci-pdq-black-cohosh-pdq#028",
+   "hc-nhpid-horseradish-raifort2#005",
+   "nccih-turmeric#005"
+  ]
+ },
+ {
+  "id": "R06",
+  "cat": "referral",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-gerson-pdq#005",
+   "hc-nhpid-chitosan2#002",
+   "hc-nhpid-conj-linoleic-acid#002",
+   "nci-pdq-prostate-supplements-pdq#009",
+   "hc-nhpid-greencoffeebean-ext-fevescafevert2#002"
+  ]
+ },
+ {
+  "id": "R07",
+  "cat": "referral",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nci-pdq-acupuncture-pdq#060",
+   "nccih-garcinia-cambogia#005",
+   "nci-pdq-pc-spes-pdq#016",
+   "nccih-st-johns-wort#005",
+   "nci-pdq-pc-spes-pdq#018"
+  ]
+ },
+ {
+  "id": "R08",
+  "cat": "referral",
+  "q_entities": [],
+  "entity_hit": false,
+  "any_hit": false,
+  "hits": [
+   "nccih-ephedra#004",
+   "nci-pdq-curcumin-pdq#038",
+   "nccih-acai#004",
+   "nci-pdq-dietary-interactions-pdq#025",
+   "nccih-st-johns-wort#014"
+  ]
+ }
+]

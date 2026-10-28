@@ -229,9 +229,9 @@
   "chunk_ids": [
    "nccih-ashwagandha#001",
    "hc-nhpid-fonc-cognitive-func#008",
-   "nccih-ashwagandha#011",
    "hc-nhpid-ashwagandha2#005",
-   "hc-nhpid-ashwagandha2#003"
+   "hc-nhpid-ashwagandha2#003",
+   "hc-nhpid-fonc-cognitive-func#023"
   ],
   "best": {
    "score": 0.0,
@@ -275,7 +275,7 @@
    "nci-pdq-pc-spes-pdq#005",
    "nccih-asian-ginseng#001",
    "hc-nhpid-tcm#010",
-   "nccih-asian-ginseng#013"
+   "nci-pdq-suns-soup-pdq#004"
   ],
   "best": {
    "score": 0.125,
@@ -956,15 +956,15 @@
    "nccih-feverfew#011",
    "nccih-peppermint-oil#013",
    "nci-pdq-cancell-pdq#001",
-   "nccih-bilberry#011",
-   "nccih-acai#012"
+   "nccih-elderberry#005",
+   "nccih-echinacea#006"
   ],
   "best": {
    "score": 0.111,
-   "chunk_id": "nccih-acai#012",
-   "section": "red_flags",
+   "chunk_id": "nccih-echinacea#006",
+   "section": "adverse_effects",
    "source": "NCCIH (NIH)",
-   "text": "Key References: Mart.) dietary intake affects plasma lipids, apolipoproteins, cholesteryl ester transfer to high-density lipoprotein and redox metabolism: a prospective study in women\n.\nClinical Nutrition\n. 2018;37(2):618-623.\nSchreckinger ME, Lotton J, Lila MA, et al.\nBerries from South America: a comprehensive review on chemistry, health potential, and commercialization\n.\nJournal of Medicinal Fo"
+   "text": "What Do We Know About Safety?: suggest it is possibly safe for up to 7 days during the first trimester of pregnancy. If you\u2019re considering using echinacea while pregnant, consult your health care provider. Little is known about whether it\u2019s safe to use echinacea while breastfeeding."
   }
  },
  {
@@ -1173,18 +1173,18 @@
   "supported": false,
   "score": 0.0,
   "chunk_ids": [
-   "nccih-bitter-orange#012",
    "nccih-bitter-orange#002",
+   "nccih-bitter-orange#001",
    "nci-pdq-aromatherapy-pdq#037",
    "hc-nhpid-aromatherap2#003",
    "hc-nhpid-aromatherap2#006"
   ],
   "best": {
    "score": 0.0,
-   "chunk_id": "nccih-bitter-orange#012",
-   "section": "red_flags",
+   "chunk_id": "nccih-bitter-orange#002",
+   "section": "other",
    "source": "NCCIH (NIH)",
-   "text": "Key References: Bitter orange. Drugs and Lactation Database (LactMed). National Institute of Child Health and Human Development. Updated June 2021. Accessed at\nncbi.nlm.nih.gov/books/NBK501892\non July 21, 2023.\nBitter orange. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on July 20, 2023. [Database\u00a0subscription].\nKoncz D, T\u00f3th B, Bahar MA, et al.\nThe safety and efficacy "
+   "text": "Background: The bitter orange tree is native to Southeast Asia. Its fruit is too sour to eat raw, but the fruit, peel, and essential oils are used in cooking, as flavorings in beer and spirits, and to add aromas to perfumes.\nBitter orange is currently promoted as a dietary supplement for weight loss, sports performance, and other uses. Bitter orange oil is used topically and in aromatherapy.\nThe f"
   }
  },
  {
@@ -1482,10 +1482,10 @@
   "score": 0.0,
   "chunk_ids": [
    "nccih-black-cohosh#005",
-   "nccih-black-cohosh#012",
+   "nccih-black-cohosh#002",
    "nccih-feverfew#011",
    "nci-pdq-black-cohosh-pdq#009",
-   "nccih-asian-ginseng#007"
+   "nccih-peppermint-oil#013"
   ],
   "best": {
    "score": 0.0,
@@ -1768,8 +1768,8 @@
   "score": 0.0,
   "chunk_ids": [
    "hc-nhpid-probio#002",
-   "nci-pdq-dietary-interactions-pdq#027",
    "nccih-cranberry#012",
+   "nci-pdq-dietary-interactions-pdq#027",
    "nci-pdq-prostate-supplements-pdq#174",
    "nccih-echinacea#012"
   ],
@@ -2277,7 +2277,7 @@
    "nci-pdq-curcumin-pdq#038",
    "nccih-acai#004",
    "nci-pdq-dietary-interactions-pdq#025",
-   "nccih-st-johns-wort#014"
+   "nccih-ephedra#011"
   ],
   "best": {
    "score": 0.2,

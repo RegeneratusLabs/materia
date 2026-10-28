@@ -7,7 +7,7 @@
  "date": "2025-02-01",
  "revised": "2025-02-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-08-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/aloe-vera",
  "identifier": {
   "type": "web",
@@ -143,19 +143,6 @@
   },
   {
    "chunk_id": "nccih-aloe-vera#009",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Aloe Vera"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-aloe-vera#010",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -168,7 +155,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-aloe-vera#011",
+   "chunk_id": "nccih-aloe-vera#010",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -181,7 +168,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-aloe-vera#012",
+   "chunk_id": "nccih-aloe-vera#011",
    "text": "National Institute of Environmental Health Sciences (NIEHS): NIEHS supports research to understand the effects of the environment on human health and is part of NIH.\nP.O. Box 12233, MD K3-16\nResearch Triangle Park, NC 27709-2233\nPhone Number:\n919-541-3345\nWebsite:\nhttps://www.niehs.nih.gov/\nEmail:\nwebcenter@niehs.nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -194,7 +181,7 @@
    "words": 45
   },
   {
-   "chunk_id": "nccih-aloe-vera#013",
+   "chunk_id": "nccih-aloe-vera#012",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -205,34 +192,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-aloe-vera#014",
-   "text": "Key References: Al-Maweri SA, Ashraf S, Lingam AS, et al.\nAloe vera in treatment of oral submucous fibrosis: a systematic review and meta-analysis\n.\nJournal of Oral Pathology & Medicine\n. 2019;48(2):99-107.\nAloe. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on July 18, 2023. [Database subscription].\nGuo X, Mei N.\nAloe vera: a review of toxicity and adverse clinical effects\n.\nJournal of Environmental Science and Health, Part C: Environmental Carcinogenesis & Ecotoxicology Reviews\n. 2016;34(2):77-96.\nInternational Agency for Research on Cancer (IARC) Working Group on the Evaluation of Carcinogenic Risks to Humans.\nSome Drugs and Herbal Products\n.\nIARC Monographs on the Evaluation of Carcinogenic Risks to Humans, No. 108\n. Lyon, France: IARC; 2016. Accessed at\nncbi.nlm.nih.gov/books/NBK350406/\non December 21, 2023.\nKim S-T, Pressman P, Clemens R, et al.\nThe absence of genotoxicity of aloe vera beverages: a review of the literature\n.\nFood and Chemical Toxicology\n. 2023;174:113628.\nLong V.\nAloe vera in dermatology—the plant of immortality\n.\nJAMA Dermatology.\n2016;152(12):1364.\nMahboub M, Aghazadeh Attari AM, Sheikhalipour Z, et al.\nA comparative study of the impacts of aloe vera gel and silver sulfadiazine cream 1% on healing, itching and pain of burn wounds: a randomized clinical trial\n.\nJournal of Caring Sciences\n. 2021;11(3):132-138.\nPressman P, Clemens R, Hayes AW.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "cancer"
-   ],
-   "entities": [
-    "Aloe Vera"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 212
-  },
-  {
-   "chunk_id": "nccih-aloe-vera#015",
-   "text": "Key References: Aloe vera at the frontier of glycobiology and integrative medicine: health implications of an ancient plant\n.\nSAGE Open Medicine\n. 2019;7:2050312119875921.\nRodriguez S, Dentali S, Powell D. Aloe vera. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements.\n2nd ed. New York, NY: Informa Healthcare; 2010:7-14.\nSharma S, Alfonso AR, Gordon AJ, et al.\nSecond-degree burns and aloe vera: a meta-analysis and systematic review\n.\nAdvances in Skin and Wound Care\n. 2022;35(11):1-9.\nZhong H, Li X, Zhang W, et al.\nEfficacy of a new non-drug acne therapy: aloe vera gel combined with ultrasound and soft mask for the treatment of mild to severe facial acne\n.\nFrontiers in Medicine\n. 2021;8:662640.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Aloe Vera"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 193
   }
  ]
 }

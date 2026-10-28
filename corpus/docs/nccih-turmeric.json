@@ -4,10 +4,10 @@
  "tier": "compendium",
  "title": "Turmeric",
  "title_extra": null,
- "date": "2025-04-01",
- "revised": "2025-04-01",
+ "date": "2024-06-01",
+ "revised": "2024-06-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-10-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/turmeric",
  "identifier": {
   "type": "web",
@@ -117,19 +117,6 @@
   },
   {
    "chunk_id": "nccih-turmeric#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Turmeric"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-turmeric#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -142,7 +129,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-turmeric#009",
+   "chunk_id": "nccih-turmeric#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -155,7 +142,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-turmeric#010",
+   "chunk_id": "nccih-turmeric#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -166,74 +153,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-turmeric#011",
-   "text": "Key References: Akaberi M, Sahebkar A, Emami SA.\nTurmeric and curcumin: from traditional to modern medicine\n.\nAdvances in Experimental Medicine and Biology\n. 2021;1291:15-39.\nEbrahimzadeh A, Mohseni S, Safargar M, et al.\nCurcumin effects on glycaemic indices, lipid profile, blood pressure, inflammatory markers and anthropometric measurements of non-alcoholic fatty liver disease patients: a systematic review and meta-analysis of randomized clinical trials\n.\nComplementary Therapies in Medicine\n. 2024;80:103025.\nFeng J, Li Z, Tian L, et al.\nEfficacy and safety of curcuminoids alone in alleviating pain and dysfunction for knee osteoarthritis: a systematic review and meta-analysis of randomized controlled trials\n.\nBMC Complementary Medicine and Therapies\n. 2022;22(1):276.\nGutsche LC, Dörfler J, Hübner J.\nCurcumin as a complementary treatment in oncological therapy: a systematic review\n.\nEuropean Journal of Clinical Pharmacology\n. 2025;81(1):1-33.\nHalegoua-DeMarzio D, Navarro V, Ahmad J, et al.\nLiver injury associated with turmeric—a growing problem: ten cases from the Drug-Induced Liver Injury Network [DILIN]\n.\nThe American Journal of Medicine\n. 2023;136(2):200-206.\nHidayat R, Parlindungan F, Nisa JI, et al.\nEfficacy of\nCurcuma longa\nin relieving pain symptoms of knee osteoarthritis patients: a systematic review and meta-analysis of clinical trials\n.\nJournal of Rheumatic Diseases\n. 2025;32(1):17-29.\nHsiao A-F, Lien Y-C, Tzeng I-S, et al.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "liver",
-    "sedation",
-    "hypertension",
-    "cancer",
-    "traditional"
-   ],
-   "entities": [
-    "Turmeric"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 208
-  },
-  {
-   "chunk_id": "nccih-turmeric#012",
-   "text": "Key References: The efficacy of high- and low-dose curcumin in knee osteoarthritis: a systematic review and meta-analysis\n.\nComplementary Therapies in Medicine\n. 2021;63:102775.\nJamali N, Adib-Hajbaghery M, Soleimani A.\nThe effect of curcumin ointment on knee pain in older adults with osteoarthritis: a randomized placebo trial\n.\nBMC Complementary Medicine and Therapies\n. 2020;20(1):305.\nKia SJ, Basirat M, Saedi HS, et al.\nEffects of nanomicelle curcumin capsules on prevention and treatment of oral mucositis in patients under chemotherapy with or without head and neck radiotherapy: a randomized clinical trial\n.\nBMC Complementary Medicine and Therapies\n. 2021;21(1):232.\nLikhitsup A, Chen VL, Fontana RJ.\nEstimated exposure to 6 potentially hepatotoxic botanicals in US adults\n.\nJAMA Network Open\n. 2024;7(8):e2425822.\nLukkunaprasit T, Tansawet A, Boonmanunt S, et al.\nAn updated meta-analysis on effects of curcumin on metabolic dysfunction-associated fatty liver disease based on available evidence from Iran and Thailand\n.\nScientific Reports\n. 2023;13(1):5824.\nMalik A, Malik M.\nEffects of curcumin in patients with non-alcoholic fatty liver disease: a systematic review and meta-analysis\n.\nCanadian Liver Journal\n. 2024;7(2):299-315.\nMolani-Gol R, Dehghani A, Rafraf M.\nEffects of curcumin/turmeric supplementation on the liver enzymes, lipid profiles, glycemic index, and anthropometric indices in non-alcoholic fatty liver patients: an umbrella meta-analysis\n.\nPhytotherapy Research\n. 2024;38(2):539-555.\nNgu MH, Norhayati MN, Rosnani Z, et al.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "liver",
-    "sedation",
-    "cancer"
-   ],
-   "entities": [
-    "Turmeric"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 221
-  },
-  {
-   "chunk_id": "nccih-turmeric#013",
-   "text": "Key References: Curcumin as adjuvant treatment in patients with non-alcoholic fatty liver (NAFLD) disease: a systematic review and meta-analysis\n.\nComplementary Therapies in Medicine\n. 2022;68:102843.\nRamezani V, Ghadirian S, Shabani M, et al.\nEfficacy of curcumin for amelioration of radiotherapy-induced oral mucositis: a preliminary randomized controlled clinical trial\n.\nBMC Cancer.\n2023;23(1):354.\nShah S, Rath H, Sharma G, et al.\nEffectiveness of curcumin mouthwash on radiation-induced oral mucositis among head and neck cancer patients: a triple-blind, pilot randomised controlled trial\n.\nIndian Journal of Dental Research\n. 2020;31(5):718-727.\nSorkin BC, Kuszak AJ, Bloss G, et al.\nImproving natural product research translation: from source to clinical trial\n.\nFASEB Journal.\n2020;34(1):41-65.\nTurmeric. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury [Internet]. National Institute of Diabetes and Digestive Kidney Diseases. Updated June 1, 2024. Accessed at\nncbi.nlm.nih.gov/books/NBK548561\non January 2, 2025.\nTurmeric. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on November 13, 2024. [Database subscription].\nWu C-F, Wu H-J, Shih C-L, et al.\nEfficacy of turmeric in the treatment of oral mucositis in patients with head and neck cancer after radiotherapy: a systematic review and meta-analysis\n.\nFrontiers in Pharmacology\n. 2024;15:1363202.\nZeng L, Yang T, Yang K, et al.\nEfficacy and safety of curcumin and\nCurcuma longa\nextract in the treatment of arthritis: a systematic review and meta-analysis of randomized controlled trial",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "liver",
-    "diabetes",
-    "sedation",
-    "cancer",
-    "renal"
-   ],
-   "entities": [
-    "Turmeric"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 222
-  },
-  {
-   "chunk_id": "nccih-turmeric#014",
-   "text": "Key References: .\nFrontiers in Immunology\n. 2022;13:891822.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Turmeric"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 81
   }
  ]
 }

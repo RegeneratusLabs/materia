@@ -4,10 +4,10 @@
  "tier": "compendium",
  "title": "Green Tea",
  "title_extra": null,
- "date": "2025-02-01",
- "revised": "2025-02-01",
+ "date": "2024-05-15",
+ "revised": "2024-05-15",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-08-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/green-tea",
  "identifier": {
   "type": "web",
@@ -129,19 +129,6 @@
   },
   {
    "chunk_id": "nccih-green-tea#008",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Green Tea"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-green-tea#009",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -154,7 +141,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-green-tea#010",
+   "chunk_id": "nccih-green-tea#009",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -167,7 +154,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-green-tea#011",
+   "chunk_id": "nccih-green-tea#010",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -178,39 +165,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-green-tea#012",
-   "text": "Key References: American College of Obstetricians and Gynecologists. Moderate caffeine consumption during pregnancy. ACOG Committee Opinion No. 462, August 2010. Reaffirmed 2020. Accessed at\nacog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy\non May 21, 2024.\nBrody H.\nTea\n.\nNature.\n2019;566(7742):S1.\nClarke JD, Judson SM, Tian D-D, et al.\nCo-consuming green tea with raloxifene decreases raloxifene systemic exposure in healthy adult participants\n.\nClinical and Translational Science.\n2023;16(10):1779-1790.\nDeka A, Vita JA.\nTea and cardiovascular disease\n.\nPharmacological Research\n. 2011;64(2):136-145.\nFilippini T, Malavolti M, Borrelli F, et al.\nGreen tea\n(Camellia sinensis)\nfor the prevention of cancer\n.\nCochrane Database of Systematic Reviews\n. 2020;(3):CD005004. Accessed at\ncochranelibrary.com\non April 22, 2024.\nGreen tea. Drugs and Lactation Database. (LactMed). National Institute of Child Health and Human Development. Updated May 15, 2024. Accessed at\nncbi.nlm.nih.gov/books/NBK501847\non May 31, 2024.\nGreen tea. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury [Internet]. National Institute of Diabetes and Digestive and Kidney Diseases. Updated November 20, 2020. Accessed at\nncbi.nlm.nih.gov/books/NBK547925\non April 22, 2024.\nGreen tea. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on April 22, 2024. [Database subscription].\nHoofnagle JH, Bonkovsky HL, Phillips EJ, et al.\nHLA-B*35:01 and green tea-induced liver injury\n.\nHepatology.\n2021;73(6):2484-2493.\nOffice of Dietary Supplements. Dietary supplements for weight loss: fact sheet for health professionals. Accessed at\nods.od.nih.gov/factsheets/WeightLoss-HealthProfessional\non May 6, 2024.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "pregnancy",
-    "children",
-    "liver",
-    "diabetes",
-    "cancer",
-    "renal"
-   ],
-   "entities": [
-    "Green Tea"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 217
-  },
-  {
-   "chunk_id": "nccih-green-tea#013",
-   "text": "Key References: U.S. Department of Agriculture and U.S. Department of Health and Human Services. Dietary Guidelines for Americans, 2020–2025. 9th Edition. Accessed at\ndietaryguidelines.gov\non May 21, 2024.\nWang Z-M, Zhao D, Wang H, et al.\nGreen tea consumption and the risk of coronary heart disease: a systematic review and meta-analysis of cohort studies\n.\nNutrition, Metabolism, and Cardiovascular Diseases: NMCD\n. 2023;33(4):715-723.\nXu R, Yang K, Li S, et al.\nEffect of green tea consumption on blood lipids: a systematic review and meta-analysis of randomized controlled trials\n.\nNutrition Journal.\n2020;19(1):48.\nYang X, Dai H, Deng R, et al.\nAssociation between tea consumption and prevention of coronary artery disease: a systematic review and dose-response meta-analysis\n.\nFrontiers in Nutrition.\n2022;9:1021405.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Green Tea"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 194
   }
  ]
 }

@@ -7,7 +7,7 @@
  "date": "2025-01-01",
  "revised": "2025-01-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-07-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/peppermint-oil",
  "identifier": {
   "type": "web",
@@ -127,19 +127,6 @@
   },
   {
    "chunk_id": "nccih-peppermint-oil#008",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Peppermint Oil"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-peppermint-oil#009",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -152,7 +139,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-peppermint-oil#010",
+   "chunk_id": "nccih-peppermint-oil#009",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -165,7 +152,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-peppermint-oil#011",
+   "chunk_id": "nccih-peppermint-oil#010",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -176,37 +163,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-peppermint-oil#012",
-   "text": "Key References: Ahn JH, Kim M, Kim RW.\nEffects of aromatherapy on nausea and vomiting in patients with cancer: a systematic review and meta-analysis of randomized controlled trials\n.\nComplementary Therapies in Clinical Practice\n. 2024;55:101838.\nChumpitazi BP, Kearns GL, Shulman RJ.\nReview article: the physiological effects and safety of peppermint oil and its efficacy in irritable bowel syndrome and other functional disorders\n.\nAlimentary Pharmacology & Therapeutics\n. 2018;47(6):738-752.\nde Groot A, Schmidt E.\nEssential oils, Part V: peppermint oil, lavender oil, and lemongrass oil\n.\nDermatitis.\n2016;27(6):325-332.\nIngrosso MR, Ianiro G, Nee J, et al.\nSystematic review and meta-analysis: efficacy of peppermint oil in irritable bowel syndrome\n.\nAlimentary Pharmacology & Therapeutics\n. 2022;56(6):932-941.\nLacy BE, Pimentel M, Brenner DM, et al.\nACG clinical guideline: management of irritable bowel syndrome\n.\nAmerican Journal of Gastroenterology\n. 2021;116(1):17-44.\nMadisch A, Frieling T, Zimmermann A, et al.\nMenthacarin, a proprietary peppermint oil and caraway oil combination, improves multiple complaints in patients with functional gastrointestinal disorders: a systematic review and meta-analysis\n.\nDigestive Diseases (Basel, Switzerland)\n. 2023;41(3):522-532.\nMalone M, Tsai G.\nThe evidence for herbal and botanical remedies, Part 1\n.\nJournal of Family Practice\n. 2018;67(1):10-16.\nMcKay DL, Blumberg JB.\nA review of the bioactivity and potential health benefits of peppermint tea (\nMentha piperita L.)\n.\nPhytotherapy Research\n. 2006;20(8):619-633.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "cancer"
-   ],
-   "entities": [
-    "Peppermint Oil"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 222
-  },
-  {
-   "chunk_id": "nccih-peppermint-oil#013",
-   "text": "Key References: Peppermint. In: Blumenthal M, Goldberg A, Brinckmann J, eds.\nHerbal Medicine: Expanded Commission E Monographs\n. Newton, MA: Integrative Medicine Communications; 2000:297-303.\nPeppermint. Drugs and Lactation Database. (LactMed). National Institute of Child Health and Human Development. Updated January 2025. Accessed at\nhttps://www.ncbi.nlm.nih.gov/books/NBK501851/\non January 24, 2025.\nPeppermint. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on December 20, 2024. [Database subscription].\nScarpellini E, Broeders B, Schol J, et al.\nThe use of peppermint oil in gastroenterology\n.\nCurrent Pharmaceutical Design\n. 2023;29(8):576-583.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nMay 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "pregnancy",
-    "children"
-   ],
-   "entities": [
-    "Peppermint Oil"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 155
   }
  ]
 }

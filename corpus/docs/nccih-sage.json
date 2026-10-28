@@ -4,10 +4,10 @@
  "tier": "compendium",
  "title": "Sage",
  "title_extra": null,
- "date": "2025-04-01",
- "revised": "2025-04-01",
+ "date": "2024-08-15",
+ "revised": "2024-08-15",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-10-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/sage",
  "identifier": {
   "type": "web",
@@ -112,19 +112,6 @@
   },
   {
    "chunk_id": "nccih-sage#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Sage"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-sage#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -137,7 +124,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-sage#009",
+   "chunk_id": "nccih-sage#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -150,7 +137,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-sage#010",
+   "chunk_id": "nccih-sage#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -161,36 +148,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-sage#011",
-   "text": "Key References: Abdollahi A, Adelibahram F, Ghassab-Abdollahi N, et al.\nThe effect of\nSalvia officinalis\non blood glycemic indexes and blood lipid profile in diabetic patients: a systematic review and meta-analysis\n.\nJournal of Complementary and Integrative Medicine\n. 2022;20(3):521-529.\nAhmad S, Ahmed SB, Khan A, et al.\nNatural remedies for Alzheimer’s disease: a systematic review of randomized controlled trials\n.\nMetabolic Brain Disease\n. 2023;38(1):17-44.\nKianbakht S, Abasi B, Perham M, et al.\nAntihyperlipidemic effects of\nSalvia officinalis\nL. leaf extract in patients with hyperlipidemia: a randomized double-blind placebo-controlled clinical trial\n.\nPhytotherapy Research.\n2011;25(12):1849-1853.\nMoradi M, Ghavami V, Niazi A, et al.\nThe effect of\nSalvia officinalis\non hot flashes in postmenopausal women: a systematic review and meta-analysis\n.\nInternational Journal of Community Based Nursing and Midwifery.\n2023;11(3):169-178.\nSage. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on October 16, 2024. [Database subscription].\nSage. Drugs and Lactation Database. (LactMed). [Internet]. National Institute of Child Health and Human Development. Updated August 15, 2024. Accessed at\nncbi.nlm.nih.gov/books/NBK501816\non October 16, 2024.\nScholey AB, Tildesley NTJ, Ballard CG, et al.\nAn extract of\nSalvia\n(sage) with anticholinesterase properties improves memory and attention in healthy older volunteers\n.\nPsychopharmacology\n. 2008;198(1):127-139.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "pregnancy",
-    "children",
-    "diabetes"
-   ],
-   "entities": [
-    "Sage"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 211
-  },
-  {
-   "chunk_id": "nccih-sage#012",
-   "text": "Key References: NCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Sage"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 61
   }
  ]
 }

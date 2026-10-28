@@ -7,7 +7,7 @@
  "date": "2025-02-01",
  "revised": "2025-02-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-08-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/flaxseed-and-flaxseed-oil",
  "identifier": {
   "type": "web",
@@ -114,19 +114,6 @@
   },
   {
    "chunk_id": "nccih-flaxseed-and-flaxseed-oil#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Flaxseed and Flaxseed Oil"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-flaxseed-and-flaxseed-oil#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -139,7 +126,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-flaxseed-and-flaxseed-oil#009",
+   "chunk_id": "nccih-flaxseed-and-flaxseed-oil#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -152,7 +139,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-flaxseed-and-flaxseed-oil#010",
+   "chunk_id": "nccih-flaxseed-and-flaxseed-oil#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -163,35 +150,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-flaxseed-and-flaxseed-oil#011",
-   "text": "Key References: Bongartz U, Hochmann U, Grube B, et al.\nFlaxseed mucilage (IQP-LU-104) reduces body weight in overweight and moderately obese individuals in a 12-week, three-arm, double-blind, randomized, and placebo-controlled clinical study\n.\nObesity Facts.\n2022;15(3):395-404.\nFlaxseed. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on March 10, 2024. [Database subscription].\nFlaxseed oil. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on March 10, 2024. [Database subscription].\nJamilian\nM, Tabassi Z, Reiner Z, et al.\nThe effects of n-3 fatty acids from flaxseed oil on genetic and metabolic profiles in patients with gestational diabetes mellitus: a randomised, double-blind, placebo-controlled trial\n.\nBritish Journal of Nutrition.\n2020;123(7):792-799.\nOffice of Dietary Supplements. Omega-3 fatty acids. Fact Sheet for Consumers. Accessed at\nods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer\non November 8, 2023.\nThompson LU, Mason JK. Flaxseed. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements\n. 2nd ed. New York, NY: Informa Healthcare; 2010:274-287.\nToulabi T, Yarahmadi M, Goudarzi F, et al.\nEffects of flaxseed on blood pressure, body mass index, and total cholesterol in hypertensive patients: a randomized controlled clinical trial\n.\nExplore (NY).\n2022;18(4):438-445.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "diabetes",
-    "hypertension"
-   ],
-   "entities": [
-    "Flaxseed and Flaxseed Oil"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 194
-  },
-  {
-   "chunk_id": "nccih-flaxseed-and-flaxseed-oil#012",
-   "text": "Key References: NCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Flaxseed and Flaxseed Oil"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 61
   }
  ]
 }

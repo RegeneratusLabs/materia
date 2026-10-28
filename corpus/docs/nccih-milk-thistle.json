@@ -4,10 +4,10 @@
  "tier": "compendium",
  "title": "Milk Thistle",
  "title_extra": null,
- "date": "2025-02-01",
- "revised": "2025-02-01",
+ "date": "2024-07-15",
+ "revised": "2024-07-15",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-08-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/milk-thistle",
  "identifier": {
   "type": "web",
@@ -116,19 +116,6 @@
   },
   {
    "chunk_id": "nccih-milk-thistle#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Milk Thistle"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-milk-thistle#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -141,7 +128,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-milk-thistle#009",
+   "chunk_id": "nccih-milk-thistle#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -154,7 +141,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-milk-thistle#010",
+   "chunk_id": "nccih-milk-thistle#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -165,38 +152,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-milk-thistle#011",
-   "text": "Key References: Abenavoli L, Izzo AA, Milić N, et al.\nMilk thistle\n(Silybum marianum)\n: a concise overview of its chemistry, pharmacological, and nutraceutical uses in liver diseases\n.\nPhytotherapy Research\n. 2018;32(11):2202-2213.\nEmadi SA, Rahbardar MG, Mehri S, et al.\nA review of therapeutic potentials of milk thistle (\nSilybum marianum\nL.) and its main constituent, silymarin, on cancer, and their related patents\n.\nIranian Journal of Basic Medical Sciences.\n2022;25(10):1166-1176.\nFenclova M, Novakova A, Viktorova J, et al.\nPoor chemical and microbiological quality of the commercial milk thistle-based dietary supplements may account for their reported unsatisfactory and non-reproducible clinical outcomes\n.\nScientific Reports.\n2019;9(1):11118.\nFried MW, Navarro VJ, Afdhal N, et al.\nEffect of silymarin (milk thistle) on liver disease in patients with chronic hepatitis C unsuccessfully treated with interferon therapy: a randomized controlled trial\n.\nJAMA.\n2012;308(3):274-282.\nMilk thistle. Drugs and Lactation Database. (LactMed). National Institute of Child Health and Human Development. Updated July 15, 2024. Accessed at\nncbi.nlm.nih.gov/books/NBK501771\non August 14, 2024.\nMilk Thistle. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on June 24, 2024. [Database subscription].\nNavarro VJ, Belle SH, D’Amato M, et al.\nSilymarin in non-cirrhotics with non-alcoholic steatohepatitis: a randomized, double-blind, placebo controlled trial\n.\nPLoS ONE.\n2019;14(9):e0221683 (published correction appears in\nPLoS ONE\n. 2019;15(10):e0223915).\nPickova D, Ostry V, Toman J, et al.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "pregnancy",
-    "children",
-    "liver",
-    "sedation",
-    "cancer"
-   ],
-   "entities": [
-    "Milk Thistle"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 220
-  },
-  {
-   "chunk_id": "nccih-milk-thistle#012",
-   "text": "Key References: Presence of mycotoxins in milk thistle\n(Silybum marianum)\nfood supplements: a review\n.\nToxins (Basel).\n2020;12(12):782.\nSoleimani V, Delghandi PS, Moallem SA, et al.\nSafety and toxicity of silymarin, the major constituent of milk thistle extract: an updated review\n.\nPhytotherapy Research.\n2019;33(6):1627-1638.\nXiao F, Gao F, Zhou S, et al.\nThe therapeutic effects of silymarin for patients with glucose/lipid metabolic dysfunction: a meta-analysis\n.\nMedicine (Baltimore).\n2020;99(40):e22249.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Milk Thistle"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 143
   }
  ]
 }

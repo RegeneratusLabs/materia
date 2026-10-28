@@ -10,7 +10,12 @@ requires-python = ">=3.12"
 dependencies = [
   "pymupdf>=2.0",
   "pillow>=10",
+  "beautifulsoup4>=4.12",
+  "pyyaml>=6",
 ]
+
+[project.scripts]
+materia = "materia.cli:main"
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]

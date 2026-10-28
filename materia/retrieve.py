@@ -176,6 +176,7 @@ class Retriever:
         ).fetchall()
 
         want = expected_sections(question)
+        q_ents = [e.lower() for e in find_entities(question, self.lex)]
         candidates: list[dict] = []
         per_doc: dict[str, int] = {}
         for row in rows:
@@ -217,7 +218,9 @@ class Retriever:
         # re-rank: BM25 is negative (lower is better); section fit is a real signal on
         # monographs, where a contraindication and a dose sentence share vocabulary.
         for c in candidates:
-            c["score"] = -c["bm25"] + (0.6 if c["section"] in want else 0.0)
+            chunk_ents = " ".join(c.get("entities") or []).lower()
+            entity_bonus = 0.8 if any(e in chunk_ents for e in q_ents) else 0.0
+            c["score"] = -c["bm25"] + (0.6 if c["section"] in want else 0.0) + entity_bonus
         candidates.sort(key=lambda c: c["score"], reverse=True)
         chosen: list[dict] = []
         used: dict[str, int] = {}

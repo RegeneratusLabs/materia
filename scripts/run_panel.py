@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -34,11 +35,16 @@ def make_retriever(args):
         sys.exit(f"retrieval condition needs materia.retrieve ({e})")
     from materia.corpus.index import open_index
 
-    conn = open_index(args.index)
-    r = Retriever(conn, k=args.k)
+    # SQLite connections are thread-bound; one per worker thread.
+    local = threading.local()
+
+    def _retriever() -> "Retriever":
+        if not hasattr(local, "retriever"):
+            local.retriever = Retriever(open_index(args.index), k=args.k)
+        return local.retriever
 
     def retrieve(q: str) -> list[dict]:
-        return r.search(q)
+        return _retriever().search(q)
 
     return retrieve
 
@@ -58,6 +64,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--ctx", type=int, default=config.REASON_CTX)
     ap.add_argument("--no-guard", action="store_true", help="skip RSS restart between batches")
     ap.add_argument("--dry-run", action="store_true", help="print the first prompt and exit")
+    ap.add_argument("--no-think", action="store_true", help="disable thinking (direct answer)")
+    ap.add_argument("--evidence-words", type=int, default=100)
     args = ap.parse_args(argv)
 
     items = json.load(open(args.panel))
@@ -95,7 +103,7 @@ def main(argv: list[str] | None = None) -> int:
     def work(item: dict) -> None:
         chunks = retrieve(item["q"]) if retrieve else []
         prompt = (
-            build_prompt_retrieval(item, chunks, config.RULE_BUDGET)
+            build_prompt_retrieval(item, chunks, config.RULE_BUDGET, args.evidence_words)
             if retrieve
             else build_prompt(item, config.RULE_BUDGET)
         )
@@ -103,6 +111,7 @@ def main(argv: list[str] | None = None) -> int:
             [{"role": "user", "content": prompt}],
             port=args.port,
             max_tokens=args.max_tokens,
+            enable_thinking=not args.no_think,
             timeout=1800,
         )
         record = {
@@ -116,7 +125,7 @@ def main(argv: list[str] | None = None) -> int:
             "reason": r["reasoning"][:800],
             "finish": r["finish"],
             "ctok": r["ctok"],
-            "condition": args.condition,
+            "condition": args.condition + ("/nothink" if args.no_think else "/think"),
             "max_tokens": args.max_tokens,
             "ctx": args.ctx,
             "model_gguf": str(config.REASON_GGUF),
@@ -129,9 +138,8 @@ def main(argv: list[str] | None = None) -> int:
     for i in range(0, len(items), BATCH):
         batch = items[i : i + BATCH]
         if i and not args.no_guard:
-            if llm.guard_rss(args.port):
-                print(f"[guard] RSS over limit; restarted server before batch {i}", flush=True)
-                llm.ensure_reason(ctx=args.ctx)
+            if llm.guard_rss(args.port, ctx=args.ctx, parallel=args.workers):
+                print(f"[guard] RSS over limit; restarted server at ctx={args.ctx}", flush=True)
         with ThreadPoolExecutor(max_workers=args.workers) as ex:
             list(ex.map(work, batch))
         print(f"  {min(i + BATCH, len(items))}/{len(items)}", flush=True)

@@ -7,7 +7,7 @@
  "date": "2024-11-01",
  "revised": "2024-11-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-05-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/european-mistletoe",
  "identifier": {
   "type": "web",
@@ -115,19 +115,6 @@
   },
   {
    "chunk_id": "nccih-european-mistletoe#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "European Mistletoe"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-european-mistletoe#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -140,7 +127,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-european-mistletoe#009",
+   "chunk_id": "nccih-european-mistletoe#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -153,7 +140,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-european-mistletoe#010",
+   "chunk_id": "nccih-european-mistletoe#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -164,21 +151,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-european-mistletoe#011",
-   "text": "Key References: European mistletoe. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on October 13, 2023. [Database subscription].\nMansky PJ, Wallerstedt DB, Sannes TS, et al.\nNCCAM/NCI Phase I study of mistletoe extract and gemcitabine in patients with advanced solid tumors\n.\nEvidence-Based Complementary and Alternative Medicine.\n2013;2013:964592.\nNational Cancer Institute. Mistletoe extracts (PDQ\n®\n)–patient version. Accessed at\ncancer.gov/about-cancer/treatment/cam/patient/mistletoe-pdq\non October 1, 2023.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nNovember 2024",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "cancer"
-   ],
-   "entities": [
-    "European Mistletoe"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 135
   }
  ]
 }

@@ -8,9 +8,9 @@
 | Metric | Value |
 |---|---|
 | Documents | **301** |
-| Chunks | 3,686 |
-| Words | 465,610 |
-| Chunks per document (mean) | 12.2 |
+| Chunks | 3,527 |
+| Words | 447,085 |
+| Chunks per document (mean) | 11.7 |
 | Licence-clear (redistributable) | **301 / 301** |
 | Publication dates | 2016-04-11 → 2026-09-25 |
 
@@ -20,8 +20,8 @@
 | NCCIH (NIH) | 56 | compendium | us | US federal, public domain | HTML |
 | NCI PDQ | 23 | primary | us | US federal, public domain | HTML |
 
-Section mix: dosage 679 · safety 691 · efficacy 538 · diagnostic 103 · other 1,675 chunks.
-Assertion mix: dose 679 · safety 691 · efficacy 538 · diagnostic 103 · other 1,675.
+Section mix: other 1,384 · dosage 679 · indications 412 · adverse effects 340 · methodology 233 · cautions 227 · evidence 126 · contraindications 109 · interactions 15 · pharmacology 2.
+Assertion mix: other 1,619 · safety 691 · dose 679 · efficacy 538.
 
 ## Coverage against the 104-item panel
 

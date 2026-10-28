@@ -7,7 +7,7 @@
  "date": "2023-09-01",
  "revised": "2023-09-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2024-03-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/white-mulberry-leaf",
  "identifier": {
   "type": "web",
@@ -115,19 +115,6 @@
   },
   {
    "chunk_id": "nccih-white-mulberry-leaf#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "White Mulberry Leaf"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-white-mulberry-leaf#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -140,7 +127,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-white-mulberry-leaf#009",
+   "chunk_id": "nccih-white-mulberry-leaf#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -153,7 +140,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-white-mulberry-leaf#010",
+   "chunk_id": "nccih-white-mulberry-leaf#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -164,34 +151,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-white-mulberry-leaf#011",
-   "text": "Key References: Hao J-Y, Wan Y, Yao X-H, et al.\nEffect of different planting areas on the chemical compositions and hypoglycemic and antioxidant activities of mulberry leaf extracts in Southern China\n.\nPLoS One.\n2018;13(6):e0198072.\nPanek-Krzyśko A, Stompor-Gorący M.\nThe pro-health benefits of morusin administration—an update review\n.\nNutrients\n. 2021;13(9):3043.\nRodrigues EL, Marcelino G, Silva GT, et al.\nNutraceutical and medicinal potential of the\nMorus\nspecies in metabolic dysfunctions\n.\nInternational Journal of Molecular Sciences\n. 2019;20(2):301.\nSánchez-Salcedo EM, Amorós A, Hernández F, et al. Phytochemical properties of white\n(Morus alba)\nand black\n(Morus nigra)\nmulberry leaves, a new food supplement.\nJournal of Food and Nutrition Research\n. 2017;5(4):253-261.\nTághizadeh M, Mohammad Zadeh A, Asemi Z, et al.\nMorus alba\nleaf extract affects metabolic profiles, biomarkers inflammation and oxidative stress in patients with type 2 diabetes mellitus: a double-blind clinical trial\n.\nClinical Nutrition ESPEN\n. 2022;49:68-73.\nThaipitakwong T, Numhom S, Aramwit P.\nMulberry leaves and their potential effects against cardiometabolic risks: a review of chemical compositions, biological properties and clinical efficacy\n.\nPharmaceutical Biology\n. 2018; 56(1):109-118.\nWhite Mulberry. Natural Medicines website. Accessed at naturalmedicines.therapeuticresearch.com on November 2, 2022. [Database subscription].\nYuan Q, Zhao L.\nThe mulberry (\nMorus alba\nL.) fruit—a review of characteristic components and health benefits\n.\nJournal of Agricultural and Food Chemistry.\n2017;65(48):10,383-10,394.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "diabetes"
-   ],
-   "entities": [
-    "White Mulberry Leaf"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 219
-  },
-  {
-   "chunk_id": "nccih-white-mulberry-leaf#012",
-   "text": "Key References: Zhang R, Zhang Q, Zhu S, et al.\nMulberry leaf (\nMorus alba\nL.): a review of its potential influences in mechanisms of action on metabolic diseases\n.\nPharmacological Research\n. 2022;175:106029.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nSeptember 2023",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "White Mulberry Leaf"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 107
   }
  ]
 }

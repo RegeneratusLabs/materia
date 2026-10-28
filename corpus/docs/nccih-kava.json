@@ -4,10 +4,10 @@
  "tier": "compendium",
  "title": "Kava",
  "title_extra": null,
- "date": "2025-04-01",
- "revised": "2025-04-01",
+ "date": "2018-04-10",
+ "revised": "2018-04-10",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-10-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/kava",
  "identifier": {
   "type": "web",
@@ -126,19 +126,6 @@
   },
   {
    "chunk_id": "nccih-kava#008",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Kava"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-kava#009",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -151,7 +138,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-kava#010",
+   "chunk_id": "nccih-kava#009",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -164,7 +151,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-kava#011",
+   "chunk_id": "nccih-kava#010",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -175,41 +162,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-kava#012",
-   "text": "Key References: Ballotin VR, Bigarella LG, Brandão ABM, et al.\nHerb-induced liver injury: systematic review and meta-analysis\n.\nWorld Journal of Clinical Cases.\n2021;9(20):5490-5513.\nBian T, Corral P, Wang Y, et al.\nKava as a clinical nutrient: promises and challenges\n.\nNutrients.\n2020;12(10):3044.\nFood and Agriculture Organization of the United Nations/World Health Organization. Kava: a review of the safety of traditional and recreational beverage consumption. Technical report. 2016. Accessed at\nopenknowledge.fao.org/items/ddb51a21-1451-4b4f-9c29-eaab9af1131b\non May 31, 2024.\nKava kava. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury [Internet]. National Institute of Diabetes and Digestive and Kidney Diseases. Updated April 10, 2018. Accessed at\nncbi.nlm.nih.gov/books/NBK548637\non May 30, 2024.\nKava. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on April 24, 2024. [Database subscription].\nKuchta K, Schmidt M, Nahrstedt A.\nGerman kava ban lifted by court: the alleged hepatotoxicity of kava\n(Piper methysticum)\nas a case of ill-defined herbal drug identity, lacking quality control, and misguided regulatory politics\n.\nPlanta Medica.\n2015;81(18):1647-1653.\nMamallapalli J, Kanumuri SRR, Corral P, et al.\nCharacterization of different forms of kava\n(Piper methysticum)\nproducts by UPLC-MS/MS\n.\nPlanta Medica.\n2022;88(14):1348-1349.\nSarris J, Byrne GJ, Bousman CA, et al.\nKava for generalised anxiety disorder: a 16-week double-blind, randomised, placebo-controlled study\n.\nAustralian & New Zealand Journal of Psychiatry.\n2020;54(3):288-297.\nSoares RB, Dinis-Oliveira RJ, Oliveira NG.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "liver",
-    "diabetes",
-    "renal",
-    "traditional"
-   ],
-   "entities": [
-    "Kava"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 215
-  },
-  {
-   "chunk_id": "nccih-kava#013",
-   "text": "Key References: An updated review on the psychoactive, toxic and anticancer properties of kava\n.\nJournal of Clinical Medicine.\n2022;11(14):4039.\nTeschke R, Schulze J.\nRisk of kava hepatotoxicity and the FDA consumer advisory\n.\nJAMA.\n2010;304(19):2174-2175.\nTeschke R, Sarris J, Schweitzer I.\nKava hepatotoxicity in traditional and modern use: the presumed Pacific kava paradox hypothesis revisited\n.\nBritish Journal of Clinical Pharmacology.\n2012;73(2):170-174.\nU.S. Food and Drug Administration. Memorandum. Review of the published literature pertaining to the safety of kava for use in conventional foods. August 11, 2020. Accessed at\nwww.fda.gov/media/169556/download\non May 31, 2024.\nVerma K, Singh D, Srivastava A.\nThe impact of complementary and alternative medicine in insomnia: a systematic review\n.\nCureus.\n2022;14(8):e28425.\nWhite CM.\nThe pharmacology, pharmacokinetics, efficacy, and adverse events associated with kava\n.\nJournal of Clinical Pharmacology.\n2018;58(11):1396-1405.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "liver",
-    "cancer",
-    "traditional"
-   ],
-   "entities": [
-    "Kava"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 207
   }
  ]
 }

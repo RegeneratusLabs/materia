@@ -118,7 +118,9 @@ def make_doc(
         "date": date_,
         "revised": date_,
         "retrieved_at": retrieved_at,
-        "next_review_due": review_due(date_, tier) if date_ else "",
+        # Review clock runs from when WE fetched it, not when the publisher wrote it:
+        # a 2016 guideline downloaded today is not "overdue", it is due in 12 months.
+        "next_review_due": review_due(retrieved_at, tier) if retrieved_at else "",
         "url": url,
         "identifier": identifier,
         "jurisdiction": jurisdiction,

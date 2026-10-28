@@ -7,7 +7,7 @@
  "date": "2024-11-01",
  "revised": "2024-11-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-05-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/cinnamon",
  "identifier": {
   "type": "web",
@@ -131,19 +131,6 @@
   },
   {
    "chunk_id": "nccih-cinnamon#008",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Cinnamon"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-cinnamon#009",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -156,7 +143,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-cinnamon#010",
+   "chunk_id": "nccih-cinnamon#009",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -169,7 +156,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-cinnamon#011",
+   "chunk_id": "nccih-cinnamon#010",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -180,35 +167,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-cinnamon#012",
-   "text": "Key References: Bosmia AN, Leon KJ.\nLung injury and the cinnamon challenge: college students should beware this Internet dare\n.\nJournal of Injury & Violence Research.\n2015;7(1):41-42.\nCassia cinnamon. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on August 23, 2023. [Database subscription].\nCeylon cinnamon. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on August 23, 2023. [Database subscription].\nGrant-Alfieri A, Schaechter J, Lipshultz SE.\nIngesting and aspiring dry cinnamon by children and adolescents: the “cinnamon challenge.”\nPediatrics.\n2013;131(5):833-835.\nHajimonfarednejad\nM, Ostovar M, Raee MJ, et al.\nCinnamon: a systematic review of adverse events\n.\nClinical Nutrition.\n2019;38(2):594-602.\nMousavi SM, Rahmani J, Kord-Varkaneh H, et al.\nCinnamon supplementation positively affects obesity: a systematic review and dose-response meta-analysis of randomized controlled trials\n.\nClinical Nutrition.\n2020;39(1):123-133.\nNamazi N, Khodamoradi K, Khamechi SP, et al.\nThe impact of cinnamon on anthropometric indices and glycemic status in patients with type 2 diabetes: a systematic review and meta-analysis of clinical trials\n.\nComplementary Therapies in Medicine\n. 2019;43:92-101.\nOketch-Rabah HA, Marles RJ, Brinckmann JA.\nCinnamon and cassia nomenclature confusion: a challenge to the applicability of clinical data\n.\nClinical Pharmacology and Therapeutics.\n2018;104(3):435-445.\nPaine MF.\nNatural products: experimental approaches to elucidate disposition mechanisms and predict pharmacokinetic drug interactions\n.\nDrug Metabolism and Disposition\n. 2020;48(10):956-962.\nSteels\nE, Steels E, Deshpande P, et al.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "children",
-    "diabetes"
-   ],
-   "entities": [
-    "Cinnamon"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 215
-  },
-  {
-   "chunk_id": "nccih-cinnamon#013",
-   "text": "Key References: A randomized, double-blind placebo-controlled study of intranasal standardized cinnamon bark extract for allergic rhinitis\n.\nComplementary Therapies in Medicine.\n2019;47(102198).\nYazdanpanah Z, Azadi-Yazdi M, Hooshmandi H, et al.\nEffects of cinnamon supplementation on body weight composition in adults: a systematic review and meta-analysis of controlled clinical trials\n.\nPsychotherapy Research.\n2020;34(3):448-463.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nNovember 2024",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Cinnamon"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 126
   }
  ]
 }

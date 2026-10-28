@@ -7,7 +7,7 @@
  "date": "2025-05-01",
  "revised": "2025-05-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-11-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/yohimbe",
  "identifier": {
   "type": "web",
@@ -125,19 +125,6 @@
   },
   {
    "chunk_id": "nccih-yohimbe#008",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Yohimbe"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-yohimbe#009",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -150,7 +137,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-yohimbe#010",
+   "chunk_id": "nccih-yohimbe#009",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -163,7 +150,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-yohimbe#011",
+   "chunk_id": "nccih-yohimbe#010",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -174,19 +161,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-yohimbe#012",
-   "text": "Key References: Betz JM. Yohimbe. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements.\n2nd ed. New York, NY: Informa Healthcare; 2010:861-868.\nBrown AC.\nHeart toxicity related to herbs and dietary supplements: online table of case reports. Part 4 of 5\n.\nJournal of Dietary Supplements\n. 2018;15(4):516-555.\nCohen PA, Wang Y-H, Maller G, et al.\nPharmaceutical quantities of yohimbine found in dietary supplements in the USA\n.\nDrug Testing and Analysis.\n2016;8(3-4):357-369.\nKearney T, Tu N, Haller C.\nAdverse drug events associated with yohimbine-containing products: a retrospective review of the California Poison Control System reported cases\n.\nAnnals of Pharmacotherapy.\n2010;44(6):1022-1029.\nNowacka A, Śniegocka M, Śniegocki M, et al.\nMultifaced nature of yohimbine—a promising therapeutic potential or a risk?\nInternational Journal of Molecular Sciences\n. 2024;25(23):12856.\nYohimbe. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on January 3, 2025. [Database subscription].\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nMay 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Yohimbe"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 218
   }
  ]
 }

@@ -7,7 +7,7 @@
  "date": "2021-02-01",
  "revised": "2021-02-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2021-08-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/chamomile",
  "identifier": {
   "type": "web",
@@ -133,19 +133,6 @@
   },
   {
    "chunk_id": "nccih-chamomile#008",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Chamomile"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-chamomile#009",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -158,7 +145,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-chamomile#010",
+   "chunk_id": "nccih-chamomile#009",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -171,7 +158,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-chamomile#011",
+   "chunk_id": "nccih-chamomile#010",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -182,40 +169,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-chamomile#012",
-   "text": "Key References: Amsterdam JD, Li QS, Xie SX, et al.\nPutative antidepressant effect of chamomile (\nMatricaria chamomilla\nL.) oral extract in subjects with comorbid generalized anxiety disorder and depression\n.\nJournal of Alternative and Complementary Medicine\n. 2020;26(9):813-819.\nChamomile. Drugs and Lactation Database (LactMed). National Institute of Child Health and Human Development. Updated February 2021. Accessed at\nncbi.nlm.nih.gov/books/NBK501808\non February 13, 2024.\nChamomile. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury [Internet]. National Institute of Diabetes and Digestive and Kidney Diseases. Updated May 24, 2022. Accessed at\nncbi.nlm.nih.gov/books/NBK548163\non September 22, 2023.\nColombo D, Lunardon L, Bellia G.\nCyclosporine and herbal supplement interactions\n.\nJournal of Toxicology.\n2014;2014:145325.\nDai Y-L, Li Y, Wang Q, et al.\nChamomile: a review of its traditional uses, chemical constituents, pharmacological activities and quality control studies\n.\nMolecules\n. 2022;28(1):133.\nGerman chamomile. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on August 8, 2023. [Database subscription].\nHieu TH, Dibas M, Surya Dila KA, et al.\nTherapeutic efficacy and safety of chamomile for state anxiety, generalized anxiety disorder, insomnia, and sleep quality: a systematic review and meta-analysis of randomized trials and quasi-randomized trials\n.\nPhytotherapy Research\n. 2019;33(6):1604-1615.\nZick SM, Wright BD, Sen A, et al.\nPreliminary examination of the efficacy and safety of a standardized chamomile extract for chronic primary insomnia: a randomized placebo-controlled pilot study\n.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "pregnancy",
-    "children",
-    "liver",
-    "diabetes",
-    "immunosuppression",
-    "renal",
-    "traditional"
-   ],
-   "entities": [
-    "Chamomile"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 222
-  },
-  {
-   "chunk_id": "nccih-chamomile#013",
-   "text": "Key References: BMC Complementary and Alternative Medicine\n. 2011;11:78.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nNovember 2024",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Chamomile"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 82
   }
  ]
 }

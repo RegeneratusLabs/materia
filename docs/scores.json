@@ -129,6 +129,21 @@
    "answered": 104,
    "mean_reasoning_tokens": 229,
    "hit_token_cap": 6
+  },
+  {
+   "condition": "v2 panel (104), 60-word budget, Q8_0, max_tokens 768 (clean baseline)",
+   "file": "results/v2_budget_768.jsonl",
+   "n": 104,
+   "correct": 102,
+   "pct": 98.1,
+   "ci95": [
+    93.3,
+    99.5
+   ],
+   "answered": 102,
+   "hit_token_cap": 2,
+   "mean_reasoning_tokens": 194.0,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition closed --max-tokens 768 --out results/v2_budget_768.jsonl"
   }
  ]
 }

@@ -7,7 +7,7 @@
  "date": "2024-11-01",
  "revised": "2024-11-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-05-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/acai",
  "identifier": {
   "type": "web",
@@ -109,19 +109,6 @@
   },
   {
    "chunk_id": "nccih-acai#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Acai"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-acai#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -134,7 +121,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-acai#009",
+   "chunk_id": "nccih-acai#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -147,7 +134,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-acai#010",
+   "chunk_id": "nccih-acai#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -158,37 +145,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-acai#011",
-   "text": "Key References: Acai. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on July 18, 2023. [Database subscription].\nBenatrehina PA, Pan L, Naman CB, et al.\nUsage, biological activity, and safety of selected botanical dietary supplements consumed in the United States\n.\nJournal of Traditional and Complementary Medicine\n. 2018;8(2):267-277.\nde Almeida Magalhães TSS, de Oliveira Macedo PC, Converti A, et al.\nThe use of\nEuterpe oleracea\nMart. as a new perspective for disease treatment and prevention\n.\nBiomolecules\n. 2020;10(6):813.\nde Liz S, Cardoso AL, Copetti CLK, et al.\nAçaí (\nEuterpe oleracea\nMart.) and juçara (\nEuterpe edulis\nMart.) juices improved HDL-c levels and antioxidant defense of healthy adults in a 4-week randomized cross-over study\n.\nClinical Nutrition\n. 2020;39(12):3629-3636.\nFederal Trade Commission. FTC Permanently Stops Fake News Website Operator that Allegedly Deceived Consumers about Acai Berry Weight-Loss Products. Federal Trade Commission website. Accessed at\nwww.ftc.gov/news-events/news/press-releases/2013/02/ftc-permanently-stops-fake-news-website-operator-allegedly-deceived-consumers-about-acai-berry\non July 21, 2023.\nKessler ER, Su L-J, Gao D, et al.\nPhase II trial of acai juice product in biochemically recurrent prostate cancer\n.\nIntegrative Cancer Therapeutics\n. 2018;17(4):1103-1108.\nLaurindo LF, Barbalho SM, Araújo AC, et al.\nAçaí (\nEuterpe oleracea\nMart.) in health and disease: a critical review\n.\nNutrients\n. 2023;15(4):989.\nPala D, Barbosa PO, Silva CT, et al.\nAçai (\nEuterpe oleracea",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "cancer",
-    "traditional"
-   ],
-   "entities": [
-    "Acai"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 211
-  },
-  {
-   "chunk_id": "nccih-acai#012",
-   "text": "Key References: Mart.) dietary intake affects plasma lipids, apolipoproteins, cholesteryl ester transfer to high-density lipoprotein and redox metabolism: a prospective study in women\n.\nClinical Nutrition\n. 2018;37(2):618-623.\nSchreckinger ME, Lotton J, Lila MA, et al.\nBerries from South America: a comprehensive review on chemistry, health potential, and commercialization\n.\nJournal of Medicinal Food.\n2010;13(2):233-246.\nTerrazas SIBM, Galan BSM, De Carvalho FG, et al.\nAçai pulp supplementation as a nutritional strategy to prevent oxidative damage, improve oxidative status, and modulate blood lactate of male cyclists\n.\nEuropean Journal of Nutrition\n. 2020;59(7):2985-2995.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nNovember 2024",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "pregnancy"
-   ],
-   "entities": [
-    "Acai"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 165
   }
  ]
 }

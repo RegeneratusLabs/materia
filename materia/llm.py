@@ -250,11 +250,21 @@ def load_phase(phase: str, *, ctx: int | None = None, parallel: int | None = Non
         raise ValueError(f"unknown phase: {phase}")
 
 
-def guard_rss(port: int = config.REASON_PORT, limit_mb: float | None = None) -> bool:
-    """Restart the server if it has leaked past the limit. Returns True if restarted."""
+def guard_rss(
+    port: int = config.REASON_PORT,
+    limit_mb: float | None = None,
+    *,
+    ctx: int | None = None,
+    parallel: int | None = None,
+) -> bool:
+    """Restart the server if it has leaked past the limit. Returns True if restarted.
+
+    ctx/parallel must be passed through: a guard restart that silently falls back to the
+    default 4096 context would truncate every retrieval prompt after it.
+    """
     limit = limit_mb or config.RSS_LIMIT_MB
     if server_rss_mb(port) > limit:
-        restart_reason()
+        restart_reason(ctx=ctx, parallel=parallel)
         return True
     return False
 

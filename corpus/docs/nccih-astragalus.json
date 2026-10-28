@@ -7,7 +7,7 @@
  "date": "2025-05-01",
  "revised": "2025-05-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-11-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/astragalus",
  "identifier": {
   "type": "web",
@@ -116,19 +116,6 @@
   },
   {
    "chunk_id": "nccih-astragalus#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Astragalus"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-astragalus#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -141,7 +128,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-astragalus#009",
+   "chunk_id": "nccih-astragalus#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -154,7 +141,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-astragalus#010",
+   "chunk_id": "nccih-astragalus#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -165,21 +152,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-astragalus#011",
-   "text": "Key References: Astragalus. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on April 24, 2024. [Databasesubscription].\nHong K-F, Liu P-Y, Zhang W, et al.\nThe efficacy and safety of astragalus as an adjuvant treatment for type 2 diabetes mellitus: a systematic review and meta-analysis\n.\nJournal of Integrative and Complementary Medicine\n. 2024;30(1):11-24.\nWang D, Wang L, Zhang M, et al.\nAstragalus membranaceus formula for moderate-high risk idiopathic membranous nephropathy: a meta-analysis\n.\nMedicine (Baltimore)\n. 2023;102(9):e32918.\nZhang X, Qu X, Zou Y.\nThe effect of astragalus on humoral and cellular immune response: a systematic review and meta-analysis of human studies\n.\nComplementary Medicine Research\n. 2023;30(6):535-543.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nMay 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "diabetes"
-   ],
-   "entities": [
-    "Astragalus"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 178
   }
  ]
 }

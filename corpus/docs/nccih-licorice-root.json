@@ -7,7 +7,7 @@
  "date": "2025-04-01",
  "revised": "2025-04-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-10-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/licorice-root",
  "identifier": {
   "type": "web",
@@ -116,19 +116,6 @@
   },
   {
    "chunk_id": "nccih-licorice-root#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Licorice Root"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-licorice-root#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -141,7 +128,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-licorice-root#009",
+   "chunk_id": "nccih-licorice-root#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -154,7 +141,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-licorice-root#010",
+   "chunk_id": "nccih-licorice-root#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -165,51 +152,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-licorice-root#011",
-   "text": "Key References: Akbari N, Asadimehr N, Kiani Z.\nThe effects of licorice containing diphenhydramine solution on recurrent aphthous stomatitis: a double-blind, randomized clinical trial\n.\nComplementary Therapies in Medicine\n. 2020;50:102401.\nAmeri A, Farashahinejad M, Davoodian P, et al.\nEfficacy and safety of licorice\n(Glycyrrhiza glabra)\nin moderately ill patients with COVID-19: a randomized controlled trial\n.\nInflammopharmacology\n. 2023;31(6):3037-3045.\nArmanini D, Fiore C, Bielenberg J, et al. Licorice. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements.\n2nd ed. New York, NY: Informa Healthcare; 2010:479-486.\nGeijerstam PA, Joelsson A, Rådholm K, et al.\nA low dose of daily licorice intake affects renin, aldosterone, and home blood pressure in a randomized crossover trial\n.\nThe American Journal of Clinical Nutrition\n. 2024;119(3):682-691.\nKim Y-R, Nam S-H.\nComparison of halitosis according to herbal mouthwash containing\nGlycyrrhiza uralensis\nextract and saline mouthwash: a randomized, double-blind, placebo-controlled study\n.\nInternational Journal of Dental Hygiene\n. 2024;22(3):614-625.\nKuriyama A, Maeda H.\nTopical application of licorice for prevention of postoperative sore throat in adults: a systematic review and meta-analysis.\nJournal of Clinical Anesthesia.\n2019;54:25-32.\nLicorice. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on July 1, 2024. [Database subscription].\nLiu H-L, Hsu P-Y, Chung Y-C, et al.\nEffective licorice gargle juice for aphthous ulcer pain relief: a randomized double-blind placebo-controlled trial\n.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "surgery",
-    "hypertension"
-   ],
-   "entities": [
-    "Licorice Root"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 220
-  },
-  {
-   "chunk_id": "nccih-licorice-root#012",
-   "text": "Key References: Pakistan Journal of Pharmaceutical Sciences.\n2022;35(5):1321-1326.\nLiu H, Tan L, Fu G, et al.\nEfficacy of topical intervention for recurrent aphthous stomatitis: a network meta-analysis\n.\nMedicina\n. 2022;58(6):771.\nNazari S, Rameshrad M, Hosseinzadeh H.\nToxicological effects of\nGlycyrrhiza glabra\n(licorice): a review.\nPhytotherapy Research.\n2017;31(11):1635-1650.\nPenninkilampi R, Eslick EM, Eslick GD.\nThe association between consistent licorice ingestion, hypertension and hypokalaemia: a systematic review and meta-analysis\n.\nJournal of Human Hypertension.\n2017;31(11):699-707.\nSingh NP, Makkar JK, Cappellani RB, et al.\nEfficacy of topical agents for prevention of postoperative sore throat after single lumen tracheal intubation: a Bayesian network meta-analysis\n.\nCanadian Journal of Anesthesia\n. 2020;67(11):1624-1642.\nWang G, Qi Y, Wu L, et al.\nComparative efficacy of 6 topical pharmacological agents for preventive interventions of postoperative sore throat after tracheal intubation: a systematic review and network meta-analysis\n.\nAnesthesia & Analgesia\n. 2021;133(1):58-67.\nZabihi M, Hatefi B, Ardakani ME, et al.\nImpact of licorice root on the burn healing process: a double-blinded randomized controlled clinical trial\n.\nComplementary Therapies in Medicine\n. 2023;73:102941.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "surgery",
-    "hypertension"
-   ],
-   "entities": [
-    "Licorice Root"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 189
-  },
-  {
-   "chunk_id": "nccih-licorice-root#013",
-   "text": "Key References: NCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Licorice Root"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 61
   }
  ]
 }

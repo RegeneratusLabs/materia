@@ -1,5 +1,7 @@
 pymupdf>=2.0
 pillow>=10
+beautifulsoup4>=4.12
+pyyaml>=6
 
 [dev]
 pytest>=8

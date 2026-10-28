@@ -7,7 +7,7 @@
  "date": "2024-11-01",
  "revised": "2024-11-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-05-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/ephedra",
  "identifier": {
   "type": "web",
@@ -110,19 +110,6 @@
   },
   {
    "chunk_id": "nccih-ephedra#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Ephedra"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-ephedra#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -135,7 +122,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-ephedra#009",
+   "chunk_id": "nccih-ephedra#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -148,7 +135,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-ephedra#010",
+   "chunk_id": "nccih-ephedra#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -159,21 +146,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-ephedra#011",
-   "text": "Key References: Ephedra. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on September 27, 2023.\nMaunder A, Bessell E, Lauche R, et al.\nEffectiveness of herbal medicines for weight loss: a systematic review and meta-analysis of randomized controlled trials\n.\nDiabetes, Obesity and Metabolism.\n2020;22(6):891-903.\nShekelle PG, Hardy ML, Morton SC, et al.\nEfficacy and safety of ephedra and ephedrine for weight loss and athletic performance: a meta-analysis\n.\nJAMA.\n2003;289(12):1537-1545.\nThurn AL, Betz JM. Ephedra. In: Coates P, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements\n. 2nd ed. New York, NY: Informa Healthcare; 2010:250-255.\nU.S. Food and Drug Administration.\nFinal rule declaring dietary supplements containing ephedrine alkaloids adulterated because they present an unreasonable risk\n.\nFederal Register\n. 2004;69(28):6788-6854.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nNovember 2024",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "diabetes"
-   ],
-   "entities": [
-    "Ephedra"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 195
   }
  ]
 }

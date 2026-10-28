@@ -32,7 +32,14 @@ def evidence_header(i: int, c: dict) -> str:
     return " · ".join(p for p in parts if p)
 
 
-def build_prompt_retrieval(item: dict, chunks: list[dict], rule: str = RULE_BUDGET) -> str:
+def _trim(text: str, words: int = 100) -> str:
+    parts = text.split()
+    return " ".join(parts[:words]) + (" …" if len(parts) > words else "")
+
+
+def build_prompt_retrieval(
+    item: dict, chunks: list[dict], rule: str = RULE_BUDGET, evidence_words: int = 100
+) -> str:
     """Evidence blocks are labelled; citing an S-id is mandatory for a clinical claim."""
     lines = [
         rule,
@@ -43,9 +50,13 @@ def build_prompt_retrieval(item: dict, chunks: list[dict], rule: str = RULE_BUDG
         "EVIDENCE",
     ]
     for i, c in enumerate(chunks, start=1):
-        lines += [evidence_header(i, c), c.get("text", "").strip(), ""]
+        lines += [evidence_header(i, c), _trim(c.get("text", "").strip(), evidence_words), ""]
     lines += ["QUESTION", item["q"], ""]
     for k in sorted(item["o"]):
         lines.append(f"{k}) {item['o'][k]}")
-    lines += ["", "Answer with: ANSWER: <letter> and SOURCE: <S-ids or NONE>."]
+    lines += [
+        "",
+        "Reply with exactly one line: ANSWER: <letter>. SOURCE: <S-ids or NONE>.",
+        "Example: ANSWER: C. SOURCE: S2",
+    ]
     return "\n".join(lines)

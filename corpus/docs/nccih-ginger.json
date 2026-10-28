@@ -7,7 +7,7 @@
  "date": "2025-02-01",
  "revised": "2025-02-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-08-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/ginger",
  "identifier": {
   "type": "web",
@@ -114,19 +114,6 @@
   },
   {
    "chunk_id": "nccih-ginger#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Ginger"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-ginger#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -139,7 +126,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-ginger#009",
+   "chunk_id": "nccih-ginger#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -152,7 +139,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-ginger#010",
+   "chunk_id": "nccih-ginger#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -163,35 +150,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-ginger#011",
-   "text": "Key References: Araya-Quintanilla F, Gutiérrez-Espinoza H, Muñoz-Yanez MJ, et al.\nEffectiveness of ginger on pain and function in knee osteoarthritis: a PRISMA systematic review and meta-analysis\n.\nPain Physician.\n2020;23(2):E151-E161.\nChoi J, Lee J, Kim K, et al.\nEffects of ginger intake on chemotherapy-induced nausea and vomiting: a systematic review of randomized clinical trials\n.\nNutrients.\n2022;14(23):4982.\nGinger. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on December 7, 2023. [Database subscription].\nHu Y, Amoah AA, Zhang H, et al.\nEffect of ginger in the treatment of nausea and vomiting compared with vitamin B6 and placebo during pregnancy: a meta-analysis\n.\nJournal of Maternal-Fetal & Neonatal Medicine.\n2022;35(1):187-196.\nNassif MS, Costa ICP, Ribeiro PM, et al.\nIntegrative and complementary practices to control nausea and vomiting in pregnant women: a systematic review\n.\nRevista da Escola de Enfermagen da USP.\n2022;56:e20210515.\nNegi R, Sharma SK, Gaur R, et al.\nEfficacy of ginger in the treatment of primary dysmenorrhea: a systematic review and meta-analysis\n.\nCureus.\n2021;13(3):e13743.\nShaukat MN, Nazir A, Fallico B.\nGinger bioactives: a comprehensive review of health benefits and potential food applications\n.\nAntioxidants (Basel).\n2023;12(11):2015.\nTóth B, Lantos T, Hegyi P, et al.\nGinger\n(Zingiber officinale):\nan alternative for the prevention of postoperative nausea and vomiting. A meta-analysis\n.\nPhytomedicine.\n2018;50:8-18.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "pregnancy",
-    "cancer"
-   ],
-   "entities": [
-    "Ginger"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 211
-  },
-  {
-   "chunk_id": "nccih-ginger#012",
-   "text": "Key References: This publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Ginger"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 75
   }
  ]
 }

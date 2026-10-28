@@ -4,10 +4,10 @@
  "tier": "compendium",
  "title": "Garcinia Cambogia",
  "title_extra": null,
- "date": "2025-02-01",
- "revised": "2025-02-01",
+ "date": "2019-02-13",
+ "revised": "2019-02-13",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-08-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/garcinia-cambogia",
  "identifier": {
   "type": "web",
@@ -113,19 +113,6 @@
   },
   {
    "chunk_id": "nccih-garcinia-cambogia#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Garcinia Cambogia"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-garcinia-cambogia#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -138,7 +125,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-garcinia-cambogia#009",
+   "chunk_id": "nccih-garcinia-cambogia#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -151,7 +138,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-garcinia-cambogia#010",
+   "chunk_id": "nccih-garcinia-cambogia#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -162,38 +149,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-garcinia-cambogia#011",
-   "text": "Key References: Ballotin VR, Bigarella LG, de Mello Brandão AB, et al.\nHerb-induced liver injury: systematic review and meta-analysis\n.\nWorld Journal of Clinical Cases.\n2021;9(20):5490-5513.\nCrescioli G, Lombardi N, Bettiol A, et al.\nAcute liver injury following garcinia cambogia weight-loss supplementation: case series and literature review\n.\nInternal and Emergency Medicine.\n2018;13(6):857-872.\nFerreira V, Mathieu A, Soucy G, et al.\nAcute severe liver injury related to long-term garcinia cambogia intake\n.\nACG Case Reports Journal\n. 2020;7(8):e00429.\nGarcinia. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on November 3, 2023. [Database subscription].\nGarcinia cambogia. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury [Internet]. National Institute of Diabetes and Digestive and Kidney Diseases. Updated February 13, 2019. Accessed at\nncbi.nlm.nih.gov/books/NBK548087\non December 11, 2023.\nGolzarand M, Omidian M, Toolabi K.\nEffect of garcinia cambogia supplement on obesity indices: a systematic review and dose-response meta-analysis\n.\nComplementary Therapies in Medicine.\n2020;52:102451.\nGreenway F. Garcinia. In: Coates PM, Betz JM, Blackman MR, et al., eds.\nEncyclopedia of Dietary Supplements.\n2nd ed. New York, NY: Informa Healthcare; 2010:307-313.\nMaunder A, Bessell E, Lauche R, et al.\nEffectiveness of herbal medicines for weight loss: a systematic review and meta-analysis of randomized controlled trials\n.\nDiabetes, Obesity & Metabolism.\n2020;22(6):891-903.\nMena-García A, Bellaizac-Riascos AJ, Rada-Mendoza M, et al.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "liver",
-    "diabetes",
-    "renal"
-   ],
-   "entities": [
-    "Garcinia Cambogia"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 212
-  },
-  {
-   "chunk_id": "nccih-garcinia-cambogia#012",
-   "text": "Key References: Quality evaluation of dietary supplements for weight loss based on garcinia cambogia\n.\nNutrients.\n2022;14(15):3077.\nOffice of Dietary Supplements.\nDietary supplements for weight loss: fact sheet for health professionals. Accessed at\nods.od.nih.gov/factsheets/WeightLoss-HealthProfessional\non December 11, 2023.\nYousaf MN, Chaudhary FS, Hodanazari SM, et al.\nHepatoxicity associated with garcinia cambogia: a case report\n.\nWorld Journal of Hepatology\n. 2019;11(11):735-742.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "liver"
-   ],
-   "entities": [
-    "Garcinia Cambogia"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 134
   }
  ]
 }

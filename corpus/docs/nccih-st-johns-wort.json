@@ -7,7 +7,7 @@
  "date": "2025-05-01",
  "revised": "2025-05-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-11-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/st-johns-wort",
  "identifier": {
   "type": "web",
@@ -142,19 +142,6 @@
   },
   {
    "chunk_id": "nccih-st-johns-wort#009",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "St. John’s Wort"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-st-johns-wort#010",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -167,7 +154,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-st-johns-wort#011",
+   "chunk_id": "nccih-st-johns-wort#010",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -180,7 +167,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-st-johns-wort#012",
+   "chunk_id": "nccih-st-johns-wort#011",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -191,50 +178,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-st-johns-wort#013",
-   "text": "Key References: Abrishami MH, Noras MR, Soltanifar A, et al.\nClinical evidence for the effectiveness of herbal medicines in the treatment of an obsessive-compulsive disorder: a review study\n.\nCurrent Drug Discovery Technologies.\n2022;19(5):e160622206086.\nApaydin EA, Maher AR, Shanman R, et al.\nA systematic review of St. John’s wort for major depressive disorder\n.\nSystematic Reviews\n. 2016;5(1):148.\nChan W-JJ, Adiwidjaja J, McLachlan AJ, et al.\nInteractions between natural products and cancer treatments: underlying mechanisms and clinical importance\n.\nCancer Chemotherapy and Pharmacology.\n2023; 91(2):103-119.\nCzigle S, Nagy M, Mladěnka P, et al.\nPharmacokinetic and pharmacodynamic herb-drug interactions—part I. Herbal medicines of the central nervous system\n.\nPeerJ.\n2023;11:e16149.\nEatemadnia A, Ansari S, Abedi P, et al.\nThe effect of\nHypericum perforatum\non postmenopausal symptoms and depression: a randomized controlled trial\n.\nComplementary Therapies in Medicine.\n2019;45:109-113.\nFarasati Far B, Gouranmohit G, Naimi-Jamal MR, et al.\nThe potential role of\nHypericum perforatum\nin wound healing: a literature review on the phytochemicals, pharmacological approaches, and mechanistic perspectives\n.\nPhytotherapy Research.\n2024;38(7):3271-3295.\nLiu Y-R, Jiang Y-L, Huang R-Q, et al.\nHypericum perforatum\nL. preparations for menopause: a meta-analysis of efficacy and safety\n.\nClimacteric.\n2014;17(4):325-335.\nNg QX, Venkatanarayanan N, Ho CYX.\nClinical use of\nHypericum perforatum\n(St John’s wort) in depression: a meta-analysis\n.\nJournal of Affective Disorders\n. 2017;210:211-221.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "cancer"
-   ],
-   "entities": [
-    "St. John’s Wort"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 218
-  },
-  {
-   "chunk_id": "nccih-st-johns-wort#014",
-   "text": "Key References: Nicolussi S, Drewe J, Butterweck V, et al.\nClinical relevance of St. John’s wort drug interactions revisited\n.\nBritish Journal of Pharmacology\n. 2020;177(6):1212-1226.\nNobakht SZ, Akaberi M, Mohammadpour AH, et al.\nHypericum perforatum\n: traditional uses, clinical trials, and drug interactions\n.\nIranian Journal of Basic Medical Sciences.\n2022;25(9):1045-1058.\nParsons A, Ingram J, Inglis J, et al.\nA proof of concept randomised placebo controlled factorial trial to examine the efficacy of St John’s wort for smoking cessation and chromium to prevent weight gain on smoking cessation\n.\nDrug and Alcohol Dependence.\n2009;102(1-3):116-122.\nSoleymani S, Bahramsoltani R, Rahimi R, et al.\nClinical risks of St John’s wort\n(Hypericum perforatum)\nco-administration\n.\nExpert Opinion on Drug Metabolism & Toxicology.\n2017;13(10):1047-1062.\nSood A, Ebbert JO, Prasad K, et al.\nA randomized clinical trial of St. John’s wort for smoking cessation\n.\nJournal of Alternative and Complementary Medicine.\n2010;16(7):761-767.\nSt. John’s wort. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on November 15, 2024. [Database subscription].\nZhao X, Zhang H, Wu Y, et al.\nThe efficacy and safety of St. John’s wort extract in depression therapy compared to SSRIs in adults: a meta-analysis of randomized clinical trials\n.\nAdvances in Clinical and Experimental Medicine.\n2023;32(2):151-161.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "sedation",
-    "traditional"
-   ],
-   "entities": [
-    "St. John’s Wort"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 216
-  },
-  {
-   "chunk_id": "nccih-st-johns-wort#015",
-   "text": "Key References: NCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nMay 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "St. John’s Wort"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 61
   }
  ]
 }

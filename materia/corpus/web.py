@@ -56,6 +56,13 @@ SOURCES: dict[str, dict] = {
     },
 }
 
+# headings that are not clinical content at all
+SKIP_HEADINGS = re.compile(
+    r"^(key )?references?\b|references cited|for more information|where to find|"
+    r"share this|related topics|acknowledg|disclaimer|about us",
+    re.I,
+)
+
 # heading regex -> (section, assertion_type)
 HEADING_MAP: list[tuple[str, str, str]] = [
     (r"contraindicat|who should not|do not use", "contraindications", "safety"),
@@ -65,7 +72,7 @@ HEADING_MAP: list[tuple[str, str, str]] = [
     (r"caution|warning", "cautions", "safety"),
     (r"dos(e|age)|how much|supplement form|prepar", "dosage", "dose"),
     (r"monitor", "monitoring", "monitoring"),
-    (r"red flag|when to (see|seek|contact)|refer", "red_flags", "diagnostic"),
+    (r"red flag|when to (see|seek|contact)|referral\b", "red_flags", "diagnostic"),
     (r"how (it|does it) work|mechanism|pharmacolog|what (it|is) it", "pharmacology", "other"),
     (r"evidence|research|clinical trial|effective|benefit|study", "evidence", "efficacy"),
     (r"use|indication|purpose|treatment", "indications", "efficacy"),
@@ -86,7 +93,9 @@ def fetch(url: str, *, retries: int = 3, timeout: float = 45.0) -> bytes:
     raise RuntimeError(f"fetch failed: {url}: {last}")
 
 
-def classify(heading: str) -> tuple[str, str]:
+def classify(heading: str) -> tuple[str, str] | None:
+    if SKIP_HEADINGS.search(heading):
+        return None
     low = heading.lower()
     for pattern, section, assertion in HEADING_MAP:
         if re.search(pattern, low):
@@ -156,7 +165,10 @@ def build_doc(html: str, url: str, cfg: dict, retrieved_at: str) -> dict:
 
     chunks = []
     for heading, body in page["sections"]:
-        section, assertion = classify(heading)
+        mapped = classify(heading)
+        if mapped is None:
+            continue
+        section, assertion = mapped
         for piece in split_paragraphs(body):
             text = f"{heading}: {piece}" if heading else piece
             if len(text.split()) < 8:

@@ -7,7 +7,7 @@
  "date": "2025-02-01",
  "revised": "2025-02-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-08-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/grape-seed-extract",
  "identifier": {
   "type": "web",
@@ -114,19 +114,6 @@
   },
   {
    "chunk_id": "nccih-grape-seed-extract#007",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Grape Seed Extract"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-grape-seed-extract#008",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -139,7 +126,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-grape-seed-extract#009",
+   "chunk_id": "nccih-grape-seed-extract#008",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -152,7 +139,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-grape-seed-extract#010",
+   "chunk_id": "nccih-grape-seed-extract#009",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -163,35 +150,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-grape-seed-extract#011",
-   "text": "Key References: Anjom-Shoae J, Milajerdi A, Larijani B, et al.\nEffects of grape seed extract on dyslipidaemia: a systematic review and dose-response meta-analysis of randomised controlled trials\n.\nBritish Journal of Nutrition.\n2020;124(2):121-134.\nFoshati S, Nouripour F, Sadeghi E, et al.\nThe effect of grape\n(Vitis vinifera)\nseed extract supplementation on flow-mediated dilation, blood pressure, and heart rate: a systematic review and meta-analysis of controlled trials with duration- and dose-response analysis\n.\nPharmacological Research.\n2022;175:105905.\nGarcía-Manríquez N, Lozano C, Muñoz A, et al.\nAnticaries properties of natural berries: systematic literature review\n.\nNutrition Reviews.\n2024;82(3):302-317.\nGrape. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on January 19, 2024. [Database subscription].\nGupta M, Dey S, Marbaniang D, et al.\nGrape seed extract: having a potential health benefits\n.\nJournal of Food Science and Technology\n. 2020;57(4):1205-1215.\nMancini M, Cerny MEV, Cardoso NS, et al.\nGrape seed components as protectors of inflammation, DNA damage, and cancer\n.\nCurrent Nutrition Reports.\n2023;12:141-150.\nSochorova L, Prusova B, Cebova M, et al.\nHealth effects of grape seed and skin extracts and their influence on biochemical markers\n.\nMolecules.\n2020;25(22):5311.\nThis publication is not copyrighted and is in the public domain. Duplication is encouraged.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "hypertension",
-    "cancer"
-   ],
-   "entities": [
-    "Grape Seed Extract"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 196
-  },
-  {
-   "chunk_id": "nccih-grape-seed-extract#012",
-   "text": "Key References: NCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nFebruary 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Grape Seed Extract"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 61
   }
  ]
 }

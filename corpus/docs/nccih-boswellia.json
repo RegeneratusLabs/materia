@@ -7,7 +7,7 @@
  "date": "2025-04-01",
  "revised": "2025-04-01",
  "retrieved_at": "2026-10-28",
- "next_review_due": "2025-10-01",
+ "next_review_due": "2027-04-28",
  "url": "https://www.nccih.nih.gov/health/boswellia",
  "identifier": {
   "type": "web",
@@ -127,19 +127,6 @@
   },
   {
    "chunk_id": "nccih-boswellia#008",
-   "text": "For More Information: Using Dietary Supplements Wisely\nKnow the Science: How Medications and Supplements Can Interact\nKnow the Science: How To Make Sense of a Scientific Journal Article",
-   "section": "other",
-   "assertion_type": "other",
-   "topics": [],
-   "entities": [
-    "Boswellia"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 28
-  },
-  {
-   "chunk_id": "nccih-boswellia#009",
    "text": "NCCIH Clearinghouse: The NCCIH Clearinghouse provides information on NCCIH and complementary and integrative health approaches, including publications and searches of Federal databases of scientific and medical literature. The Clearinghouse does not provide medical advice, treatment recommendations, or referrals to practitioners.\nToll-free in the U.S.:\n1-888-644-6226\nTelecommunications relay service (TRS):\n7-1-1\nWebsite:\nhttps://www.nccih.nih.gov\nEmail:\ninfo@nccih.nih.gov\n(link sends email)",
    "section": "indications",
    "assertion_type": "efficacy",
@@ -152,7 +139,7 @@
    "words": 57
   },
   {
-   "chunk_id": "nccih-boswellia#010",
+   "chunk_id": "nccih-boswellia#009",
    "text": "PubMed®: A service of the National Library of Medicine, PubMed® contains publication information and (in most cases) brief summaries of articles from scientific and medical journals. For guidance from NCCIH on using PubMed, see\nHow To Find Information About Complementary Health Practices on PubMed\n.\nWebsite:\nhttps://pubmed.ncbi.nlm.nih.gov/",
    "section": "other",
    "assertion_type": "other",
@@ -165,7 +152,7 @@
    "words": 47
   },
   {
-   "chunk_id": "nccih-boswellia#011",
+   "chunk_id": "nccih-boswellia#010",
    "text": "Office of Dietary Supplements (ODS), National Institutes of Health (NIH): ODS seeks to strengthen knowledge and understanding of dietary supplements by evaluating scientific information, supporting research, sharing research results, and educating the public. Its resources include publications (such as\nDietary Supplements: What You Need To Know\n) and fact sheets on a variety of specific supplement ingredients and products (such as vitamin D and multivitamin/mineral supplements).\nWebsite:\nhttps://ods.od.nih.gov\nEmail:\nods@nih.gov\n(link sends email)",
    "section": "other",
    "assertion_type": "other",
@@ -176,35 +163,6 @@
    "analytes": [],
    "page": null,
    "words": 73
-  },
-  {
-   "chunk_id": "nccih-boswellia#012",
-   "text": "Key References: Bannuru RR, Osani MC, Al-Eid F, et al.\nEfficacy of curcumin and boswellia for knee osteoarthritis: systematic review and meta-analysis\n.\nSeminars in Arthritis and Rheumatism\n. 2018;48(3):416-429.\nBoswellia serrata. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on April 2, 2024. [Database subscription].\nClark CE, Arnold E, Lasserson TJ, et al.\nHerbal interventions for chronic asthma in adults and children: a systematic review and meta-analysis\n.\nPrimary Care Respiratory Journal\n. 2010;19(4):307-314.\nDubey V, Kheni D, Sureja V.\nEfficacy evaluation of standardized\nBoswellia serrata\nextract (Aflapin\nⓇ\n) in osteoarthritis: a systematic review and sub-group meta-analysis study\n.\nExplore\n(NY).\n2024;20(5):102983.\nEfferth T, Oesch F.\nAnti-inflammatory and anti-cancer activities of frankincense: targets, treatments and toxicities\n.\nSeminars in Cancer Biology\n. 2022;80:39-57.\nFrankincense. NatMed Pro website. Accessed at naturalmedicines.therapeuticresearch.com on April 2, 2024. [Database subscription].\nKirste S, Treier M, Wehrle SJ, et al.\nBoswellia\nserrata\nacts on cerebral edema in patients irradiated for brain tumors: a prospective, randomized, placebo-controlled, double-blind pilot trial\n.\nCancer\n. 2011;117(16):3788-3795.\nLiu X, Machado GC, Eyles JP, et al.\nDietary supplements for treating osteoarthritis: a systematic review and meta-analysis\n.\nBritish Journal of Sports Medicine\n. 2018;52(3):167-175.\nSiddiqui MZ.\nBoswellia serrata,\na potential anti-inflammatory agent: an overview\n.\nIndian Journal of Pharmaceutical Sciences\n. 2011;73(3):255-61.",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [
-    "children",
-    "cancer"
-   ],
-   "entities": [
-    "Boswellia"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 211
-  },
-  {
-   "chunk_id": "nccih-boswellia#013",
-   "text": "Key References: This publication is not copyrighted and is in the public domain. Duplication is encouraged.\nNCCIH has provided this material for your information. It is not intended to substitute for the medical expertise and advice of your health care provider(s). We encourage you to discuss any decisions about treatment or care with your health care provider. The mention of any product, service, or therapy is not an endorsement by NCCIH.\nLast Updated:\nApril 2025",
-   "section": "red_flags",
-   "assertion_type": "diagnostic",
-   "topics": [],
-   "entities": [
-    "Boswellia"
-   ],
-   "analytes": [],
-   "page": null,
-   "words": 75
   }
  ]
 }
