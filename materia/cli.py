@@ -19,7 +19,7 @@ from pathlib import Path
 
 from . import calc, config, extract, llm, ocr, parse, symptom
 from .corpus.index import open_index, stats as corpus_stats
-from .prompt import build_prompt_retrieval
+from .prompt import build_freeform, build_prompt_retrieval
 from .retrieve import Retriever, grounded_chunks, group_conflicts
 
 
@@ -75,27 +75,31 @@ def cmd_ask(args: argparse.Namespace) -> int:
     r = _retriever(args.index)
     chunks = r.search(args.question)
     grounded = grounded_chunks(chunks, args.question)
-    if not chunks:
-        print("NO_EVIDENCE — nothing in the corpus matched.")
-        return 0
-    if not grounded:
-        print("[memory mode] No corpus document covers this question. The answer below is from "
-              "model knowledge, not a source — verify before use.\n")
-    item = {"q": args.question, "o": {}}
-    prompt = build_prompt_retrieval(item, chunks, config.RULE_BUDGET, evidence_words=120)
     llm.ensure_reason(ctx=8192, parallel=2)
-    out = llm.chat([{"role": "user", "content": prompt}], max_tokens=160, enable_thinking=False)
+
+    if grounded:
+        prompt = build_freeform(args.question, grounded, evidence_words=90)
+        out = llm.chat([{"role": "user", "content": prompt}], max_tokens=220, enable_thinking=False)
+        text = out["text"].strip()
+        print(text or "(no answer)")
+        print("\nEVIDENCE")
+        for i, c in enumerate(grounded, start=1):
+            print(f"[S{i}] {c['chunk_id']} · {c['source']} · {c['tier']} · {c['jurisdiction']} · "
+                  f"{c['date']} · {c['section']}")
+            print(f"     {c['text'][:240]}…")
+        conflicts = group_conflicts(grounded)
+        if conflicts:
+            print("\nCONFLICTING SOURCES (shown, not resolved)")
+            for cf in conflicts:
+                print(f"  {cf['entity']} / {cf['assertion_type']}: " + ", ".join(
+                    f"{s['source']} {s['date']}" for s in cf["sources"]))
+        return 0
+
+    print("[memory mode] No corpus document covers this question. The answer is from model "
+          "knowledge, not a source — verify before use.\n")
+    prompt = build_freeform(args.question)
+    out = llm.chat([{"role": "user", "content": prompt}], max_tokens=220, enable_thinking=False)
     print(out["text"].strip() or "(no answer)")
-    print("\nEVIDENCE")
-    for i, c in enumerate(chunks, start=1):
-        print(f"[S{i}] {c['chunk_id']} · {c['source']} · {c['tier']} · {c['jurisdiction']} · {c['date']} · {c['section']}")
-        print(f"     {c['text'][:220]}…")
-    conflicts = group_conflicts(chunks)
-    if conflicts:
-        print("\nCONFLICTING SOURCES (shown, not resolved)")
-        for cf in conflicts:
-            print(f"  {cf['entity']} / {cf['assertion_type']}: " + ", ".join(
-                f"{s['source']} {s['date']}" for s in cf["sources"]))
     return 0
 
 

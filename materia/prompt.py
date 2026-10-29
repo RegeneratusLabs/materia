@@ -60,3 +60,21 @@ def build_prompt_retrieval(
         "Example: ANSWER: C. SOURCE: S2",
     ]
     return "\n".join(lines)
+
+
+def build_freeform(question: str, chunks: list[dict] | None = None, *, evidence_words: int = 90) -> str:
+    """Free-text answer prompt. Evidence mode cites; memory mode says it has no source."""
+    if chunks:
+        head = (
+            "Answer the question in at most 60 words. Every clinical claim must cite the evidence "
+            "it came from as [S<n>]. If the evidence does not answer it, reply exactly NO_EVIDENCE."
+        )
+        return "\n".join([head, "", "EVIDENCE"]) + "\n" + "\n".join(
+            f"[S{i}] {evidence_header(i, c)}\n{_trim(c.get('text', ''), evidence_words)}"
+            for i, c in enumerate(chunks, start=1)
+        ) + f"\n\nQUESTION\n{question}\n\nANSWER (<=60 words, cite [S<n]>):"
+    head = (
+        "Answer the question in at most 60 words. No sources are available for this question, so "
+        "do not cite anything; state the answer plainly."
+    )
+    return f"{head}\n\nQUESTION\n{question}\n\nANSWER:"

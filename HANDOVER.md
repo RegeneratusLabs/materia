@@ -394,6 +394,51 @@ tests, a 301-document corpus with manifest and freshness check, and four gate re
 justify it — Gate 0 found none); public naming. The 301-document corpus is a proof of concept with 29.8%
 lexical grounding of the panel, and it is Canada-heavy for monographs.
 
+## 12. 2026-10-29 — corpus growth, retrieval rewrite, and the coverage lesson
+
+**Corpus: 330 documents / 3,794 chunks**, still 100% licence-clear and dated. Additions: 21 EMA herbal
+monographs (harvested from the sitemap: 164 pages, 131 URLs, 129 s) and 8 CC-BY primary papers from
+Europe PMC (18 targeted queries; 16 accepted, 8 then rejected by hand as off-topic and recorded in
+`corpus/rejected.json`). Jurisdictions now ca 222 / us 79 / eu 21 / international 8.
+
+**Retrieval was rewritten, not tuned.** Entity matching now normalises punctuation (so "St. John's Wort"
+matches "st johns wort"), candidates are restricted to the question's entity documents, claim-type chunks
+from those documents are injected directly, and safety intent outranks dose intent. Effect: the
+St John's wort × contraceptive question now returns the oral contraindication first instead of the herb's
+name and a topical dosage chunk.
+
+**The important negative result.** Mechanical coverage — entity document + claim type + question-term
+overlap — is 19.2% of the panel. I audited all 20 covered items by hand: **6 supported, 5 clearly
+unsupported, 9 unverifiable** (`data/panel_coverage_audit.json`). Coverage is not support; a fish-oil
+*indications* chunk was "covering" a warfarin-bleeding question.
+
+Routing on that signal made things worse:
+
+| Condition | n | Result |
+|---|---|---|
+| Closed-book, no thinking | 104 | 90/104 = 86.5% [78.7, 91.8] |
+| **Lab-only retrieval** | 104 | **93/104 = 89.4% [82.0, 94.0]** |
+| Coverage-routed | 104 | 87/104 = 83.7% [75.4, 89.5] |
+
+On the 17 items the router sent to evidence, closed-book scored 16/17 and routed 13/17 — **evidence fixed
+zero and broke three**. On herb questions this model's memory is better than this corpus.
+
+**Symptom workflow improved materially.** Pre-screening vetoed interventions out of the model's context
+(rather than censoring them afterwards) removed every vetoed recommendation: the full 30-vignette gate now
+runs **24/24 contract-clean with zero violations** (red flags 8/8, emergencies 6/6, vetoes 2/2). The sheet
+is capped at three options and a lexical verifier (`materia/verify.py`) checks claim support and doses,
+including unit and comma normalisation. The verifier flags 17 of 24 sheets, which is a review queue rather
+than a pass/fail — its threshold needs calibration against practitioner labels.
+
+**What is still missing.** Referral corpus (NICE CKS geo-blocks non-UK traffic), lab reference intervals
+(SA Pathology terms unconfirmed), and the single-herb monographs the EMA sitemap did not contain
+(hypericum, panax, withania, piper, cimicifuga, rhodiola). Until those exist, herb retrieval cannot beat a
+98.1% closed-book prior and should not ship.
+
+**Next, in order.** (1) reranker and higher-quality herb corpus before any further herb retrieval attempt;
+(2) verify-then-fallback for prose only — an MCQ answer is a letter and has no claim to verify;
+(3) a real lab report pair from Josh; (4) practitioner-written vignettes to replace the synthetic ones.
+
 ## Josh's context
 
 - Vibe coder, pragmatic, high velocity. Runs parallel subagent swarms on large tasks. Hates CSS-guessing.

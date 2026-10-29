@@ -74,3 +74,31 @@ re-run against practitioner-written vignettes.
 .venv/bin/python scripts/gate4.py --no-think --max-tokens 700
 .venv/bin/python -m pytest tests/test_symptom.py
 ```
+
+---
+
+## Gate 4 v2 — 2026-10-29: pre-screening, option cap, verifier
+
+Three changes since the first run: vetoed interventions are removed **from the model's context** before
+generation (`screen_chunks`), the sheet is capped at three options, and a lexical verifier checks every
+option line against its cited chunk.
+
+| Check | v1 (2026-10-28) | v2 (2026-10-29) |
+|---|---|---|
+| Red flags | 8/8 | **8/8** |
+| Emergencies stopped | 6/6 | **6/6** |
+| Expected vetoes identified | 2/2 | **2/2** |
+| Vetoed intervention offered by the model | 4/4 cases | **0/4** |
+| Contract violations (citation, dose, diagnosis, veto) | 11 | **0** |
+| Sheets contract-clean | 17/24 (stored) / 21/24 (rescored) | **24/24** |
+| Verifier flags (new check) | — | **17 claim lines across 10 sheets** |
+| Wall clock | 24.1 min | 23.0 min |
+
+The two things that mattered: **pre-screening beats post-filtering** (the model cannot recommend what it
+never sees) and **the contract is now enforced end to end** — every option line cited, no dose outside the
+evidence, no diagnosis language, no vetoed option.
+
+**The verifier is not yet trustworthy as a pass/fail.** It flags 17 of 24 sheets on lexical overlap, and
+spot-checking shows a mix: some are genuine paraphrase (the claim is supported but shares few words), some
+are thin support. It should be treated as a review queue, with a calibrated threshold after a
+practitioner-labelled sample, not as a gate. That is the next piece of work on this surface.

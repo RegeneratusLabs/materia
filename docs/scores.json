@@ -256,6 +256,19 @@
     "delta_points": -2.8,
     "grounded_subset": "16/17 closed -> 13/17 routed"
    }
+  },
+  {
+   "condition": "Symptom sheet v2 (Gate 4), 30 vignettes, no thinking, pre-screened",
+   "file": "results/gate4.json",
+   "n": 30,
+   "generated_sheets": 24,
+   "red_flag_matches": "8/8",
+   "emergency_stops": "6/6",
+   "safety_vetoes": "2/2",
+   "contract_violations": 0,
+   "contract_clean": 24,
+   "verifier_flags": 17,
+   "notes": "pre-screened context; vetoed interventions removed before generation; 3-option cap; verifier flags are a review queue, not a gate"
   }
  ]
 }
