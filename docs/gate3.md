@@ -224,3 +224,24 @@ gap, but herb–safety still loses more than lab gains.
 So the ordering is stable across three independent runs: **lab-only 94 > closed 90 > full retrieval 89**.
 Gating by category remains the correct configuration until the herb corpus can beat the prior.
 Artifact: `results/gate3_retrieval_v2.json`.
+
+## Experiment 7 — model-based reranker: rejected (2026-10-29)
+
+A pointwise reranker (`materia/rerank.py`) scored each of 8 candidates with the local model — "does this
+passage help answer the question? YES/NO", thinking off, one token, disk-cached — then kept the top 3.
+Measured against a matched control on the same corpus and code:
+
+| Condition | n | Score | Time |
+|---|---|---|---|
+| Lab-only retrieval, no reranker | 104 | **94/104 = 90.4% [83.2, 94.7]** | 5.4 min |
+| Lab-only retrieval, model reranker | 104 | 93/104 = 89.4% [82.0, 94.0] | 8.3 min |
+
+**Rejected: it costs one item and 50% more wall clock.** The likely reason is that a 2B model's yes/no
+judgement over a 70-word passage is barely better than the retrieval ordering it is second-guessing, and
+its errors are not symmetric — dropping a good chunk costs an answer, keeping a bad one usually does not.
+
+The useful reranking turned out to be deterministic and cheap: entity-document restriction, claim-type
+injection, section priors and the boilerplate filter. Those are kept; the model pass is not. `rerank.py`
+stays in the tree with this result recorded so it is not re-invented.
+
+Artifacts: `results/panel_hybrid_v3.jsonl` (control), `results/panel_hybrid_rerank2.jsonl`.

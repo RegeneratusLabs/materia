@@ -323,6 +323,36 @@
     "mcnemar_p": 1.0
    },
    "notes": "lab +4, herb-safety -4; gating by category still correct"
+  },
+  {
+   "condition": "v2 panel (104), lab-only retrieval, MedlinePlus lab corpus",
+   "file": "results/panel_hybrid_v3.jsonl",
+   "n": 104,
+   "correct": 94,
+   "pct": 90.4,
+   "ci95": [
+    83.2,
+    94.7
+   ],
+   "answered": 104,
+   "mean_reasoning_tokens": 5.0,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition hybrid --no-think --max-tokens 64 --k 3 --evidence-words 60 --out results/panel_hybrid_v3.jsonl",
+   "note": "control"
+  },
+  {
+   "condition": "v2 panel (104), lab-only + model reranker",
+   "file": "results/panel_hybrid_rerank2.jsonl",
+   "n": 104,
+   "correct": 93,
+   "pct": 89.4,
+   "ci95": [
+    82.0,
+    94.0
+   ],
+   "answered": 104,
+   "mean_reasoning_tokens": 5.0,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition hybrid --no-think --max-tokens 64 --k 3 --rerank --rerank-fetch 8 --evidence-words 60 --out results/panel_hybrid_rerank2.jsonl",
+   "note": "rejected"
   }
  ]
 }
