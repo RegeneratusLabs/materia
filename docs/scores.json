@@ -426,6 +426,30 @@
     }
    },
    "note": "two of four flips were template artefacts; with the no-reference branch made identical to the closed prompt the defensible figure is 101/104 = 97.1%. Not significant vs closed."
+  },
+  {
+   "condition": "v2 panel (104), shipped shape: closed-book herbs + hint lab, thinking",
+   "file": "results/panel_labhint_final.jsonl",
+   "n": 104,
+   "correct": 102,
+   "pct": 98.1,
+   "ci95": [
+    93.3,
+    99.5
+   ],
+   "answered": 104,
+   "hit_token_cap": 1,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition lab-hint --max-tokens 768 --out results/panel_labhint_final.jsonl",
+   "paired_vs_closed": {
+    "fixed": [
+     "L09"
+    ],
+    "broke": [
+     "E23"
+    ],
+    "note": "E23 flip is run-to-run noise (~1 item in 104)"
+   },
+   "lab": "29/30 vs 28/30 closed"
   }
  ]
 }

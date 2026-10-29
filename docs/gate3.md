@@ -358,3 +358,24 @@ rather than hidden.
 The shipped configuration should be: **closed-book for herb questions, hint with reference for lab
 questions** (lab is where evidence measurably helps: 20/30 → 24/30). That combined run is the next
 experiment; it is not yet measured as a whole, so it is not claimed.
+
+## Experiment 10 — the shipped shape: closed for herbs, hint for lab (2026-10-29)
+
+| Condition | n | Score | Answered | Capped | Lab |
+|---|---|---|---|---|---|
+| Closed-book, thinking | 104 | 102/104 = 98.1% | 102 | 2 (L09, L24) | 28/30 |
+| **Lab-hint (closed + reference only on lab)** | 104 | **102/104 = 98.1% [93.3, 99.5]** | **104** | 1 (L24) | **29/30** |
+
+Lab-hint fixes L09 (a capped lab item now answered correctly with its reference), leaves L24 capped, and
+carries a reference for every covered lab item. Non-lab items use the byte-identical closed prompt.
+
+**One caveat that changes how all of these numbers should be read: E23 flipped between runs with an
+identical prompt.** The closed and lab-hint runs send the same bytes for herb items, and llama.cpp produced
+a different answer — batch/slot scheduling makes greedy decoding not perfectly reproducible at `-np 2`.
+The observed run-to-run noise is **~1 item in 104**. Differences smaller than that (closed 102 vs hint 100
+vs lab-hint 102) are therefore inside measurement noise, and no ranking between them should be claimed
+beyond "they are equivalent on this panel".
+
+What is *not* noise: answered 104 vs 102 (two blanks removed), lab 29/30 vs 28/30, and the presence of a
+cited reference for 44 items. On equal accuracy, the shipped shape is the one that answers everything and
+can show its source. Artifact: `results/panel_labhint_final.jsonl`.

@@ -7,9 +7,9 @@ this file must move with it.
 
 | Situation | Behaviour | Evidence |
 |---|---|---|
-| Lab question (analyte detected) and a covering document exists | One reference sentence in the prompt, thinking on, 768 cap; answer returned with the reference and an attribution label | Lab-only retrieval 20/30 → 24/30 (no-think); hint mode costs ~1 item overall vs closed (p = 0.63). The combined lab-hint run is measured in `docs/gate3.md` |
+| Lab question (analyte detected) and a covering document exists | One reference sentence in the prompt, thinking on, 768 cap; answer returned with the reference and an attribution label | **Lab-hint: 102/104, 104/104 answered, lab 29/30** (closed: 102/104, 102 answered, lab 28/30) |
 | Lab question, no covering document | Exact closed-book prompt; answer labelled `memory` | Uncovered items are identical to closed-book by construction (10/10 verified) |
-| Herb / nutrient / referral question | **Closed-book.** No evidence is injected | Full retrieval −3.8 pts, coverage-routed −2.8 pts; herb coverage is ~25–46% and only ~50% precise |
+| Herb / nutrient / referral question | **Closed-book.** No evidence is injected (byte-identical prompt) | Full retrieval −3.8 pts, coverage-routed −2.8 pts; herb coverage is ~25–46% and only ~50% precise |
 | No reference at all | Answer labelled `memory`, no citation shown | Never fabricate a source (AGENTS.md #6) |
 
 Two rules that are not negotiable in code:
@@ -67,3 +67,5 @@ False `memory` labels are acceptable. False `grounded` labels are not. Measured:
 - Attribution is lexical, not entailment; its threshold has been calibrated against stored sheets and one
   hand audit, not practitioner labels.
 - Nothing here has been reviewed by a practitioner.
+- **Measurement noise is ~1 item in 104** at `-np 2` (one herb item flipped between two runs with identical
+  prompts). Treat any difference below 2 items as noise; use `-np 1` and repeat runs before claiming one.
