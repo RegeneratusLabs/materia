@@ -81,3 +81,23 @@ def test_conflict_surfaces_two_sources():
     conflicts = group_conflicts(chunks)
     assert conflicts and conflicts[0]["entity"] == "kava"
     assert len(conflicts[0]["sources"]) == 2
+
+
+def test_boilerplate_filtered_from_results(tmp_path):
+    docs = [_doc("ema-sjw", entities=["St John's wort"])]
+    # add a boilerplate chunk to the same document
+    import json
+    d = docs[0]
+    from materia.corpus.schema import make_chunk
+    d["chunks"].append(make_chunk(f"{d['doc_id']}#004",
+        "NCCIH Clearinghouse: provides information on NCCIH and complementary approaches. "
+        "This publication is not copyrighted and is in the public domain.",
+        "other", "other", entities=["St John's wort"]))
+    (tmp_path / "docs").mkdir()
+    (tmp_path / "docs" / "ema-sjw.json").write_text(json.dumps(d))
+    build_index(tmp_path / "docs", tmp_path / "index.sqlite")
+    conn = sqlite3.connect(tmp_path / "index.sqlite"); conn.row_factory = sqlite3.Row
+    r = Retriever(conn, k=6, per_doc=3)
+    hits = r.search("NCCIH clearinghouse information St John's wort")
+    assert hits
+    assert all("Clearinghouse" not in h["text"] for h in hits)

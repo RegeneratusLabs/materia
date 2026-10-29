@@ -102,3 +102,23 @@ evidence, no diagnosis language, no vetoed option.
 spot-checking shows a mix: some are genuine paraphrase (the claim is supported but shares few words), some
 are thin support. It should be treated as a review queue, with a calibrated threshold after a
 practitioner-labelled sample, not as a gate. That is the next piece of work on this surface.
+
+## Verifier calibration — 2026-10-29
+
+The verifier flags were reviewed rather than tuned blindly:
+
+- **Light stemming** so "hepatotoxic" and "hepatotoxicity" match.
+- **At least two shared content terms** before a line can count as supported. A single shared token is
+  usually the herb's own name or the organisation's name, and that scored 25% under the first version.
+- **Threshold 0.2** on the fraction of the claim's content terms present in the cited chunk.
+- **Dose check runs separately** (units and comma spellings normalised).
+
+`drop_unsupported()` now removes option lines whose cited chunk does not carry them, and inserts a truthful
+"(N claimed option(s) removed…)" note. Replayed on the 24 stored sheets from the v2 run: **10/24 sheets
+affected, 14 lines removed.** The removed lines were checked by hand and are real mis-citations — e.g.
+"Peppermint oil — NCCIH notes peppermint oil is used for gastrointestinal ailments [S1]" cited the NCCIH
+clearinghouse boilerplate, and "Green tea extract — possible hepatotoxicity [S1]" cited an EGCG dosing
+table. Supported lines (acupuncture for cancer fatigue, saw palmetto liver injury) survived.
+
+A separate boilerplate filter now keeps chunks like the clearinghouse blurb out of retrieval entirely, so
+the model is not tempted to cite them in the first place.

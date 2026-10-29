@@ -167,3 +167,28 @@ What this changes:
 3. **Corpus quality, not quantity.** The herb branch needs the EU monographs that were missing from the
    sitemap (hypericum, panax, withania, piper, cimicifuga, rhodiola) and a reranker, before another
    retrieval gate.
+
+---
+
+## Experiment 5 — evidence + deliberation, isolated (2026-10-29)
+
+Yesterday's readings showed that retrieval with thinking never produced answers. Two controls were run on
+the same 20 items (H01–H20) to find out whether the evidence or the citation obligation was the trigger.
+
+| Condition | Score (n=20) | Capped |
+|---|---|---|
+| Closed-book, thinking | **20/20** | 0 |
+| Closed-book, no thinking | **20/20** | 0 |
+| Evidence (3 chunks, 40 words) + thinking + cite | **4/20** | 14 |
+| Evidence (3 chunks, 40 words) + thinking, no cite | **11/20** | 11 |
+
+The results are unambiguous: **with reasoning enabled, the presence of evidence in the context is itself
+the failure**, not the citation instruction. The model fills its budget deliberating over passages and
+never emits an answer. Dropping the citation requirement halves the damage but does not fix it.
+
+Design consequence, now settled rather than suspected: **any evidence-in-prompt path must run with thinking
+disabled.** Deliberation is for closed-book answering and for short prompts where the model has a chance to
+finish. This is why every retrieval number in this project is a no-think number, and why they must be
+compared to a no-think closed-book baseline (86.5%), never to the 98.1% thinking baseline.
+
+Artifacts: `results/tmp/ret_thinking_lean20.jsonl`, `results/tmp/ret_thinking_nocite20.jsonl`.

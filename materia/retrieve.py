@@ -293,6 +293,8 @@ class Retriever:
                 continue
             if jurisdiction and m["jurisdiction"] not in (jurisdiction, "international"):
                 continue
+            if is_boilerplate(m["text"]):
+                continue
             in_entity = m["doc_id"] in ent_docs
             section_hit = m["section"] in want
             # entity documents first, then claim-type fit, then BM25
@@ -382,6 +384,20 @@ class Retriever:
 
 
 CLINICAL_ASSERTIONS = {"safety", "dose", "efficacy", "monitoring", "diagnostic"}
+
+# Boilerplate that survives BM25 on every question about a source. Retrieving it as
+# evidence is worse than retrieving nothing: it looks authoritative and says nothing.
+BOILERPLATE = re.compile(
+    r"clearinghouse|this publication is not copyrighted|all rights reserved|"
+    r"for more information, contact|national center for complementary|"
+    r"subscribe to (our|the) newsletter|last updated:|page last reviewed|"
+    r"references cited|key references",
+    re.I,
+)
+
+
+def is_boilerplate(text: str) -> bool:
+    return bool(BOILERPLATE.search(text or ""))
 
 
 STOP_TERMS = set(
