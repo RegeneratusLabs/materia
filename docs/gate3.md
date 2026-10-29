@@ -124,3 +124,46 @@ nine genuinely absent questions abstained.
 
 Artifact: `results/gate3_abstention.json`. This is the strongest behavioural result of the day: the model
 does not guess when the evidence is missing, which is the one failure the product cannot survive.
+
+---
+
+## Experiment 4 — coverage-gated routing (2026-10-29)
+
+Corpus grew to 330 documents (EMA 21, CC-BY 16 after curation), retrieval was rewritten (normalised
+entity matching, entity documents first, claim-type chunks injected, safety intent beating dose intent),
+and `grounded_chunks()` became the single coverage definition: entity document **and** claim type
+**and** at least one non-generic question term in the chunk.
+
+**Coverage: 20/104 = 19.2%** (herb–drug 42%, herb–safety 25%, lab 0%, referral 0%).
+
+I audited every covered item by hand (`data/panel_coverage_audit.json`): **6 supported, 5 clearly
+unsupported, 9 unverifiable from the snippet.** A fish-oil *indications* chunk was labelled as covering a
+warfarin-bleeding question; a licorice *dosage* chunk as covering a mineralocorticoid question. Mechanical
+coverage is a routing hint, not evidence of support — precision is around 50% at best.
+
+Routing on that signal:
+
+| Condition | n | Score | Δ vs closed | Fixed | Broke | p |
+|---|---|---|---|---|---|---|
+| Closed-book, no thinking | 104 | 90/104 = 86.5% [78.7, 91.8] | — | — | — | — |
+| Category-gated (lab only) | 104 | 93/104 = 89.4% [82.0, 94.0] | +2.9 | 5 | 2 | 0.45 |
+| **Coverage-routed** | 104 | **87/104 = 83.7% [75.4, 89.5]** | **−2.8** | 0 | 3 | — |
+
+The decomposition is the whole story. On the **17 items the router sent to evidence**, closed-book scored
+**16/17** and routed scored **13/17** — evidence fixed **zero** and broke **three** (E07 yohimbe, E26
+ginkgo, H11 ashwagandha). On the 87 memory-routed items the two conditions are identical by construction.
+
+**Conclusion: on herb questions, this model's memory is better than this corpus.** Injection cannot help
+while the evidence is weaker than the prior, and coverage flags are not accurate enough to route on. The
+lab-only hybrid remains the best configuration (93/104), because lab questions benefit and herb questions
+are left alone.
+
+What this changes:
+
+1. **Retrieval stays lab-only** in any shipped path until the herb corpus can beat a 98.1% prior.
+2. **The route must be decided after seeing the answer**, not before: generate, verify the claim against
+   the chunk, and fall back to a labelled memory answer when verification fails (`materia/verify.py`).
+   That is the next experiment, not coverage gating.
+3. **Corpus quality, not quantity.** The herb branch needs the EU monographs that were missing from the
+   sitemap (hypericum, panax, withania, piper, cimicifuga, rhodiola) and a reranker, before another
+   retrieval gate.

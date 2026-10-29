@@ -1,0 +1,20 @@
+{
+ "condition": "routed",
+ "file": "results/panel_routed_nothink.jsonl",
+ "n": 104,
+ "correct": 87,
+ "pct": 83.7,
+ "ci95": [
+  75.4,
+  89.5
+ ],
+ "answered": 104,
+ "hit_token_cap": 0,
+ "mean_ctok": 3.0,
+ "max_tokens": 64,
+ "ctx": 4096,
+ "model_gguf": "/home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf",
+ "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition routed --no-think --max-tokens 64 --k 3 --evidence-words 50 --out results/panel_routed_nothink.jsonl",
+ "started": "2026-10-29T02:46:27+00:00",
+ "minutes": 3.9
+}
