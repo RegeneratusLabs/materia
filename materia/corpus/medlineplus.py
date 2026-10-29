@@ -51,6 +51,18 @@ ARTICLES: dict[str, tuple[str, list[str]]] = {
     "003477": ("Calcium blood test", ["calcium"]),
     "003487": ("Magnesium blood test", ["magnesium"]),
     "007813": ("Total cholesterol", ["cholesterol"]),
+    "007810": ("HDL test", ["hdl", "cholesterol"]),
+    "007811": ("LDL test", ["ldl", "cholesterol"]),
+    "007812": ("Lipid profile test", ["cholesterol", "ldl", "hdl", "triglycerides"]),
+    "003493": ("Triglyceride level", ["triglycerides"]),
+    "003480": ("Albumin blood (serum) test", ["albumin", "liver"]),
+    "003479": ("Bilirubin blood test", ["bilirubin", "liver"]),
+    "003484": ("Potassium test", ["potassium"]),
+    "003481": ("Sodium blood test", ["sodium"]),
+    "003476": ("Uric acid - blood", ["uric acid"]),
+    "000354": ("Folate deficiency", ["folate"]),
+    "002405": ("Vitamin D", ["vitamin d"]),
+    "000315": ("Magnesium deficiency", ["magnesium"]),
 }
 
 SECTION_MAP: list[tuple[str, str, str]] = [

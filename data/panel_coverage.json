@@ -3,6 +3,7 @@
   "id": "H01",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -25,6 +26,7 @@
   "id": "H02",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -47,6 +49,7 @@
   "id": "H03",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -69,6 +72,7 @@
   "id": "H04",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -91,6 +95,7 @@
   "id": "H05",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -107,6 +112,7 @@
   "id": "H06",
   "cat": "herb-safety",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "dosage"
   ],
@@ -125,6 +131,7 @@
   "id": "H07",
   "cat": "nutrient-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [],
   "best": null,
   "top": [
@@ -141,6 +148,7 @@
   "id": "H08",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -163,6 +171,7 @@
   "id": "H09",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [],
   "best": null,
   "top": [
@@ -179,6 +188,7 @@
   "id": "H10",
   "cat": "nutrient-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -201,6 +211,7 @@
   "id": "H11",
   "cat": "herb-safety",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "hc-nhpid-ashwagandha2#005",
   "top": [
@@ -217,6 +228,7 @@
   "id": "H12",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -239,6 +251,7 @@
   "id": "H13",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -252,8 +265,8 @@
    "nccih-asian-ginseng#007",
    "nccih-asian-ginseng#006",
    "hc-nhpid-ginseng-panax2#007",
-   "epmc-41764614#003",
-   "medlineplus-sym-003072#002"
+   "hc-nhpid-tcm#010",
+   "epmc-41764614#003"
   ],
   "entity_docs_found": 4
  },
@@ -261,6 +274,7 @@
   "id": "H14",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -283,6 +297,7 @@
   "id": "H15",
   "cat": "herb-safety",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "nccih-aloe-vera#006",
   "top": [
@@ -299,6 +314,7 @@
   "id": "H16",
   "cat": "nutrient-drug",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "dosage"
   ],
@@ -317,6 +333,7 @@
   "id": "H17",
   "cat": "nutrient-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -328,8 +345,8 @@
   "top": [
    "hc-nhpid-workout-supplements-entrainement#020",
    "ema-ginkgo-biloba-l-folium#003",
-   "ema-ginkgo-biloba-l-folium#006",
    "hc-nhpid-vitamin-d-hd#009",
+   "ema-ginkgo-biloba-l-folium#006",
    "nccih-ephedra#005",
    "ema-allium-sativum-l-bulbus#005"
   ],
@@ -339,6 +356,7 @@
   "id": "H18",
   "cat": "nutrient-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -361,6 +379,7 @@
   "id": "H19",
   "cat": "nutrient-lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -380,6 +399,7 @@
   "id": "H20",
   "cat": "nutrient-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "medlineplus-003488#006",
   "top": [
@@ -396,6 +416,7 @@
   "id": "H21",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [],
   "best": null,
   "top": [
@@ -412,6 +433,7 @@
   "id": "H22",
   "cat": "herb-safety",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -434,6 +456,7 @@
   "id": "H23",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "nccih-ephedra#005",
   "top": [
@@ -450,6 +473,7 @@
   "id": "H24",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -472,6 +496,7 @@
   "id": "H25",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -488,6 +513,7 @@
   "id": "L01",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -507,6 +533,7 @@
   "id": "L02",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -526,6 +553,7 @@
   "id": "L03",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -545,6 +573,7 @@
   "id": "L04",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -564,6 +593,7 @@
   "id": "L05",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -573,9 +603,9 @@
    "medlineplus-003705#006",
    "medlineplus-003705#005",
    "medlineplus-003687#005",
+   "medlineplus-003476#005",
    "epmc-42647256#001",
-   "medlineplus-003489#006",
-   "epmc-42647256#002"
+   "medlineplus-003489#006"
   ],
   "entity_docs_found": 0
  },
@@ -583,18 +613,19 @@
   "id": "L06",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
   "best": "epmc-42647256#001",
   "top": [
+   "medlineplus-003476#005",
    "medlineplus-003705#006",
    "epmc-42647256#001",
    "epmc-42689097#002",
    "epmc-42647256#002",
-   "medlineplus-003477#006",
-   "medlineplus-003489#006"
+   "medlineplus-003477#006"
   ],
   "entity_docs_found": 0
  },
@@ -602,6 +633,7 @@
   "id": "L07",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -621,6 +653,7 @@
   "id": "L08",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -642,19 +675,20 @@
  {
   "id": "L09",
   "cat": "lab",
-  "covered": false,
+  "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-007810#006",
   "top": [
-   "medlineplus-007813#005",
-   "medlineplus-003477#005",
-   "medlineplus-003487#005",
-   "medlineplus-007813#006",
-   "medlineplus-003517#006",
-   "epmc-42689097#002"
+   "medlineplus-007812#005",
+   "medlineplus-007810#006",
+   "medlineplus-007810#005",
+   "medlineplus-003493#005",
+   "medlineplus-007812#006",
+   "medlineplus-003493#006"
   ],
   "entity_docs_found": 0
  },
@@ -662,6 +696,7 @@
   "id": "L10",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -681,6 +716,7 @@
   "id": "L11",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "dosage"
   ],
@@ -699,6 +735,7 @@
   "id": "L12",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -718,6 +755,7 @@
   "id": "L13",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -740,6 +778,7 @@
   "id": "L14",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -748,10 +787,10 @@
   "top": [
    "medlineplus-003684#005",
    "medlineplus-003684#006",
+   "medlineplus-003476#005",
    "medlineplus-003517#005",
    "medlineplus-003517#006",
-   "medlineplus-003490#006",
-   "medlineplus-003489#006"
+   "medlineplus-003481#006"
   ],
   "entity_docs_found": 0
  },
@@ -759,6 +798,7 @@
   "id": "L15",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [],
   "best": null,
   "top": [
@@ -774,19 +814,20 @@
  {
   "id": "S01",
   "cat": "safety",
-  "covered": true,
+  "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": "epmc-42647256#001",
+  "best": null,
   "top": [
    "hc-nhpid-fish-oil-huile-poisson#005",
    "hc-nhpid-fish-oil-huile-poisson#003",
-   "medlineplus-007813#006",
-   "epmc-42647256#001",
-   "hc-nhpid-multiple-joint-health2#008",
-   "hc-nhpid-cod-liver-oil#004"
+   "medlineplus-003493#006",
+   "medlineplus-003493#005",
+   "medlineplus-007810#006",
+   "medlineplus-007811#006"
   ],
   "entity_docs_found": 2
  },
@@ -794,15 +835,16 @@
   "id": "S02",
   "cat": "safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
    "nccih-peppermint-oil#002",
+   "medlineplus-003481#007",
    "nci-pdq-acupuncture-pdq#060",
    "nccih-st-johns-wort#005",
    "nccih-garcinia-cambogia#005",
-   "nci-pdq-mistletoe-pdq#067",
-   "nci-pdq-aromatherapy-pdq#004"
+   "nci-pdq-mistletoe-pdq#067"
   ],
   "entity_docs_found": 0
  },
@@ -810,6 +852,7 @@
   "id": "S03",
   "cat": "safety",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "medlineplus-sym-003088#003",
   "top": [
@@ -826,6 +869,7 @@
   "id": "S04",
   "cat": "safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -848,6 +892,7 @@
   "id": "S05",
   "cat": "safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -870,6 +915,7 @@
   "id": "S06",
   "cat": "safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -892,6 +938,7 @@
   "id": "E01",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -914,6 +961,7 @@
   "id": "E02",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -936,6 +984,7 @@
   "id": "E03",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -958,6 +1007,7 @@
   "id": "E04",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "nccih-echinacea#005",
   "top": [
@@ -974,6 +1024,7 @@
   "id": "E05",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -996,6 +1047,7 @@
   "id": "E06",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1018,6 +1070,7 @@
   "id": "E07",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "nccih-yohimbe#005",
   "top": [
@@ -1034,6 +1087,7 @@
   "id": "E08",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1056,6 +1110,7 @@
   "id": "E09",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1078,6 +1133,7 @@
   "id": "E10",
   "cat": "herb-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "medlineplus-003488#006",
   "top": [
@@ -1094,6 +1150,7 @@
   "id": "E11",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1110,18 +1167,19 @@
   "id": "E12",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
   "best": null,
   "top": [
+   "medlineplus-007810#006",
    "medlineplus-003684#006",
    "medlineplus-003640#006",
    "medlineplus-003642#006",
    "medlineplus-003687#006",
-   "medlineplus-003475#006",
-   "medlineplus-003642#007"
+   "medlineplus-003475#006"
   ],
   "entity_docs_found": 0
  },
@@ -1129,6 +1187,7 @@
   "id": "E13",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1151,6 +1210,7 @@
   "id": "E14",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1173,6 +1233,7 @@
   "id": "E15",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1195,6 +1256,7 @@
   "id": "E16",
   "cat": "herb-drug",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1217,6 +1279,7 @@
   "id": "E17",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1225,7 +1288,7 @@
    "nccih-ephedra#002",
    "nci-pdq-mushrooms-pdq#001",
    "nccih-cinnamon#003",
-   "nci-pdq-mushrooms-pdq#023"
+   "nccih-ephedra#005"
   ],
   "entity_docs_found": 0
  },
@@ -1233,6 +1296,7 @@
   "id": "E18",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1255,6 +1319,7 @@
   "id": "E19",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1277,6 +1342,7 @@
   "id": "E20",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1293,6 +1359,7 @@
   "id": "E21",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1315,6 +1382,7 @@
   "id": "E22",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1337,6 +1405,7 @@
   "id": "E23",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1359,6 +1428,7 @@
   "id": "E24",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1375,6 +1445,7 @@
   "id": "E25",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1397,6 +1468,7 @@
   "id": "E26",
   "cat": "herb-safety",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1419,6 +1491,7 @@
   "id": "E27",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "dosage"
   ],
@@ -1437,6 +1510,7 @@
   "id": "E28",
   "cat": "herb-safety",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1453,6 +1527,7 @@
   "id": "E29",
   "cat": "nutrient-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1475,6 +1550,7 @@
   "id": "E30",
   "cat": "nutrient-drug",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1491,6 +1567,7 @@
   "id": "E31",
   "cat": "nutrient-drug",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "dosage"
   ],
@@ -1509,6 +1586,7 @@
   "id": "E32",
   "cat": "nutrient-drug",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1525,6 +1603,7 @@
   "id": "E33",
   "cat": "nutrient-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -1544,6 +1623,7 @@
   "id": "E34",
   "cat": "nutrient-drug",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "epmc-42689097#002",
   "top": [
@@ -1560,6 +1640,7 @@
   "id": "E35",
   "cat": "nutrient-drug",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1576,6 +1657,7 @@
   "id": "L16",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -1587,7 +1669,7 @@
    "medlineplus-003517#005",
    "medlineplus-003705#006",
    "medlineplus-007813#005",
-   "medlineplus-003458#005"
+   "medlineplus-003484#005"
   ],
   "entity_docs_found": 0
  },
@@ -1595,6 +1677,7 @@
   "id": "L17",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": true,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1611,6 +1694,7 @@
   "id": "L18",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -1630,6 +1714,7 @@
   "id": "L19",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1652,6 +1737,7 @@
   "id": "L20",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1668,6 +1754,7 @@
   "id": "L21",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1684,6 +1771,7 @@
   "id": "L22",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1700,6 +1788,7 @@
   "id": "L23",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -1708,10 +1797,10 @@
   "top": [
    "medlineplus-003487#005",
    "medlineplus-003487#006",
+   "medlineplus-007810#005",
+   "medlineplus-003493#005",
    "medlineplus-007813#005",
-   "medlineplus-003477#005",
-   "medlineplus-003477#006",
-   "medlineplus-003488#006"
+   "medlineplus-003477#005"
   ],
   "entity_docs_found": 2
  },
@@ -1719,6 +1808,7 @@
   "id": "L24",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1735,6 +1825,7 @@
   "id": "L25",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -1754,6 +1845,7 @@
   "id": "L26",
   "cat": "lab",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1770,18 +1862,19 @@
   "id": "L27",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": "medlineplus-003473#005",
+  "best": "medlineplus-003479#005",
   "top": [
+   "medlineplus-003479#005",
+   "medlineplus-003479#006",
    "medlineplus-003473#005",
    "medlineplus-003684#005",
    "medlineplus-003473#006",
-   "medlineplus-003517#005",
-   "medlineplus-003477#005",
-   "medlineplus-003705#005"
+   "medlineplus-003517#005"
   ],
   "entity_docs_found": 0
  },
@@ -1789,6 +1882,7 @@
   "id": "L28",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -1799,8 +1893,8 @@
    "medlineplus-003458#006",
    "medlineplus-003684#005",
    "medlineplus-003517#005",
-   "medlineplus-003477#005",
-   "medlineplus-003705#005"
+   "medlineplus-003481#005",
+   "medlineplus-003479#005"
   ],
   "entity_docs_found": 0
  },
@@ -1808,6 +1902,7 @@
   "id": "L29",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -1816,10 +1911,10 @@
   "top": [
    "medlineplus-007813#005",
    "medlineplus-007813#006",
-   "medlineplus-003477#005",
-   "medlineplus-003487#005",
-   "medlineplus-003356#006",
-   "medlineplus-003489#006"
+   "medlineplus-007812#005",
+   "medlineplus-007811#005",
+   "medlineplus-007811#006",
+   "medlineplus-007810#005"
   ],
   "entity_docs_found": 2
  },
@@ -1827,6 +1922,7 @@
   "id": "L30",
   "cat": "lab",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -1846,6 +1942,7 @@
   "id": "R01",
   "cat": "referral",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1862,6 +1959,7 @@
   "id": "R02",
   "cat": "referral",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "medlineplus-sym-003088#001",
   "top": [
@@ -1878,6 +1976,7 @@
   "id": "R03",
   "cat": "referral",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [],
   "best": "medlineplus-sym-003088#001",
   "top": [
@@ -1894,6 +1993,7 @@
   "id": "R04",
   "cat": "referral",
   "covered": true,
+  "entity_anchored": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
@@ -1913,6 +2013,7 @@
   "id": "R05",
   "cat": "referral",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
@@ -1929,15 +2030,16 @@
   "id": "R06",
   "cat": "referral",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
    "hc-nhpid-chitosan2#002",
    "nci-pdq-gerson-pdq#005",
+   "medlineplus-003484#006",
    "hc-nhpid-conj-linoleic-acid#002",
-   "nci-pdq-prostate-supplements-pdq#009",
-   "hc-nhpid-greencoffeebean-ext-fevescafevert2#002",
-   "hc-nhpid-irvingia-gabonensis#002"
+   "medlineplus-003493#006",
+   "medlineplus-007810#006"
   ],
   "entity_docs_found": 0
  },
@@ -1945,15 +2047,16 @@
   "id": "R07",
   "cat": "referral",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [],
   "best": null,
   "top": [
+   "medlineplus-003481#007",
    "nci-pdq-acupuncture-pdq#060",
    "nccih-garcinia-cambogia#005",
    "nci-pdq-pc-spes-pdq#016",
    "epmc-42812739#004",
-   "nccih-st-johns-wort#005",
-   "nci-pdq-pc-spes-pdq#018"
+   "nccih-st-johns-wort#005"
   ],
   "entity_docs_found": 0
  },
@@ -1961,18 +2064,19 @@
   "id": "R08",
   "cat": "referral",
   "covered": false,
+  "entity_anchored": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
   "best": null,
   "top": [
+   "medlineplus-003480#006",
    "medlineplus-003487#006",
-   "medlineplus-003356#005",
-   "medlineplus-007813#005",
-   "medlineplus-003705#005",
-   "medlineplus-003458#005",
-   "medlineplus-003475#006"
+   "medlineplus-003484#005",
+   "medlineplus-003481#006",
+   "medlineplus-003476#004",
+   "medlineplus-003356#005"
   ],
   "entity_docs_found": 0
  }

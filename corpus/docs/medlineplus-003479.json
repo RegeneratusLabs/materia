@@ -1,0 +1,129 @@
+{
+ "doc_id": "medlineplus-003479",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Bilirubin blood test",
+ "title_extra": null,
+ "date": "2025-02-13",
+ "revised": "2025-02-13",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003479.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003479.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:1bd399cb76bf45a2eab9799678d064e81dd7022c3dc3c4fa1500186cf8e1bea8",
+ "entities": [
+  "Bilirubin blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003479#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "bilirubin",
+    "liver"
+   ],
+   "entities": [
+    "Bilirubin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003479#002",
+   "text": "How to Prepare for the Test: Your health care provider may instruct you to not eat or drink or to stop taking medicines that affect the test.\nMany medicines may change the bilirubin level in your blood. Make sure your provider knows which medicines you are taking.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "bilirubin",
+    "liver"
+   ],
+   "entities": [
+    "Bilirubin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "medlineplus-003479#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "bilirubin",
+    "liver"
+   ],
+   "entities": [
+    "Bilirubin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003479#004",
+   "text": "Why the Test is Performed: A small amount of older red blood cells is replaced by new blood cells every day. Bilirubin is left in the blood after these older blood cells are removed. The liver helps break down bilirubin so that it can be removed from the body in the stool.\nA level of bilirubin in the blood of 2.0 mg/dL can create\njaundice\n. Jaundice is a yellow color in the skin, mucus membranes, or eyes.\nJaundice is the most common reason to check bilirubin level. The test will likely be ordered when:\nThe provider is concerned about a newborn's jaundice (most newborns have some jaundice)\nJaundice develops in older infants, children, and adults\nA bilirubin test is also ordered when the provider suspects a person has liver or gallbladder problems.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "bilirubin",
+    "liver",
+    "children"
+   ],
+   "entities": [
+    "Bilirubin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 133
+  },
+  {
+   "chunk_id": "medlineplus-003479#005",
+   "text": "Normal Results: It is normal to have some bilirubin in the blood. A normal level is:\nDirect (also called conjugated) bilirubin: less than 0.3 mg/dL (less than 5.1 µmol/L)\nTotal bilirubin: 0.1 to 1.2 mg/dL (1.71 to 20.5 µmol/L)\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or may test different samples. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "bilirubin",
+    "liver"
+   ],
+   "entities": [
+    "Bilirubin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 70
+  },
+  {
+   "chunk_id": "medlineplus-003479#006",
+   "text": "What Abnormal Results Mean: In newborns, bilirubin level is higher for the first few days of life. Your child's provider must consider the following when deciding whether your baby's bilirubin level is too high:\nHow fast the level has been rising\nWhether the baby was born early\nThe baby's age\nJaundice can also occur when more red blood cells than normal are broken down. This can be caused by:\nA blood disorder called\nerythroblastosis fetalis\nA red blood cell disorder called\nhemolytic anemia\nTransfusion reaction\nin which red blood cells that were given in a transfusion are destroyed by the person's immune system\nThe following liver problems may also cause jaundice or a high bilirubin level:\nScarring of the liver (\ncirrhosis\n)\nSwollen and inflamed liver (\nhepatitis\n)\nOther liver disease\nDisorder in which bilirubin is not processed normally by the liver (for example,\nGilbert disease\n)\nThe following problems with gallbladder or bile ducts may cause higher bilirubin levels:\nAbnormal narrowing of the common bile duct (\nbiliary stricture\n)\nCancer of the pancreas\nor gallbladder\nGallstones",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "bilirubin",
+    "liver",
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Bilirubin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 180
+  }
+ ]
+}

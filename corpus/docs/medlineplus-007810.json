@@ -1,0 +1,130 @@
+{
+ "doc_id": "medlineplus-007810",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "HDL test",
+ "title_extra": null,
+ "date": "2026-08-07",
+ "revised": "2026-08-07",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/007810.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/007810.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:6df3f081547e3b0ad8b46a7e880f313f4c6a910653ab4bc1d80e7ffd0aae7104",
+ "entities": [
+  "HDL test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-007810#001",
+   "text": "How the Test is Performed: A blood sample is needed. Most of the time,\nblood is drawn from a vein\nlocated on the inside of the elbow or the back of the hand.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "hdl",
+    "cholesterol"
+   ],
+   "entities": [
+    "HDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "medlineplus-007810#002",
+   "text": "How to Prepare for the Test: Ideally, you should not eat for 9 to 12 hours before the test. But the test can be done if you have eaten.\nAlcohol and some medicines can interfere with blood test results.\nMake sure your health care provider knows what medicines you take, including over-the-counter medicines and supplements.\nYour provider will tell you if you need to stop taking any medicines before you have this test.\nDo not stop or change your medicines without talking to your provider first.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "hdl",
+    "cholesterol",
+    "sedation"
+   ],
+   "entities": [
+    "HDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 86
+  },
+  {
+   "chunk_id": "medlineplus-007810#003",
+   "text": "How the Test will Feel: You may feel slight pain or a sting when the needle is inserted. You may also feel some throbbing at the site after the blood is drawn.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "hdl",
+    "cholesterol"
+   ],
+   "entities": [
+    "HDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "medlineplus-007810#004",
+   "text": "Why the Test is Performed: HDL cholesterol is usually measured together with other blood fats. Often it is done to help determine your risk of developing heart disease.\nHigh HDL helps lower your risk for:\nHeart disease\nHeart attack\nStroke",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "hdl",
+    "cholesterol"
+   ],
+   "entities": [
+    "HDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "medlineplus-007810#005",
+   "text": "Normal Results: You want your HDL cholesterol to be high (unless it is due to a condition described below). Optimal values are 60 mg/dL or 1.55 millimoles per liter (mmol/L) or above.\nAt risk:\nMen - Less than 40 mg/dL (1.04 mmol/L)\nWomen - Less than 50 mg/dL (1.29 mmol/L)\nNormal value ranges may vary slightly among different laboratories. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "hdl",
+    "cholesterol"
+   ],
+   "entities": [
+    "HDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 71
+  },
+  {
+   "chunk_id": "medlineplus-007810#006",
+   "text": "What Abnormal Results Mean: Low HDL cholesterol levels may be due to:\nEating a diet high in saturated fats or a diet high in carbohydrates and low in fat\nLack of physical activity\nBeing overweight\nor\nhaving obesity\nMetabolic syndrome\nDiabetes\nA disorder passed down through families in which there are high amounts of cholesterol and triglycerides in the blood (\nfamilial combined hyperlipidemia\n)\nSide effect of certain medicines\nOverall, the treatment of low HDL focuses on increased exercise and changes in the diet.\nAn elevated HDL is anything over 80 mg/dL (2.0 mmol/L). This can be a result of:\nA genetic variation that causes the body to produce too much HDL\nOveractive thyroid (\nhyperthyroidism\n)\nDrinking too much alcohol",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "hdl",
+    "cholesterol",
+    "thyroid",
+    "diabetes",
+    "sedation"
+   ],
+   "entities": [
+    "HDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 122
+  }
+ ]
+}

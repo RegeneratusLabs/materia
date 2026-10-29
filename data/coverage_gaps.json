@@ -1,0 +1,589 @@
+[
+ {
+  "id": "H03",
+  "cat": "herb-safety",
+  "question": "Which herbal product is associated with a well-documented risk of hepatotoxicity, leading to restrictions in several countries?",
+  "entities": [
+   "fish oil"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H04",
+  "cat": "herb-safety",
+  "question": "Comfrey (Symphytum officinale) taken internally is dangerous chiefly because it contains:",
+  "entities": [
+   "comfrey"
+  ],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H05",
+  "cat": "herb-drug",
+  "question": "Grapefruit juice increases plasma concentrations of many drugs because it:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H07",
+  "cat": "nutrient-drug",
+  "question": "A patient on levothyroxine takes calcium carbonate and ferrous sulfate with the tablet. What is the best advice?",
+  "entities": [
+   "iron"
+  ],
+  "entity_docs_retrieved": 4,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H08",
+  "cat": "herb-drug",
+  "question": "A patient on sertraline asks about 5-HTP for low mood. The principal risk is:",
+  "entities": [
+   "5-HTP"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H09",
+  "cat": "herb-drug",
+  "question": "Berberine is best avoided or used cautiously with statins and ciclosporin because it:",
+  "entities": [
+   "berberine"
+  ],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H10",
+  "cat": "nutrient-drug",
+  "question": "A patient stabilised on warfarin begins a green smoothie containing large amounts of spinach and kale daily. The expected effect is:",
+  "entities": [
+   "nac"
+  ],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H12",
+  "cat": "herb-drug",
+  "question": "Valerian taken with a benzodiazepine at bedtime is a concern because of:",
+  "entities": [
+   "Valerian"
+  ],
+  "entity_docs_retrieved": 5,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H14",
+  "cat": "herb-safety",
+  "question": "Which product is most associated with hepatotoxicity when used as a concentrated high-dose supplement?",
+  "entities": [
+   "fish oil"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H16",
+  "cat": "nutrient-drug",
+  "question": "High-dose vitamin B6 (pyridoxine) taken long term can cause:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H17",
+  "cat": "nutrient-safety",
+  "question": "High-dose vitamin A supplementation is contraindicated in pregnancy because of:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H18",
+  "cat": "nutrient-drug",
+  "question": "A patient on an ACE inhibitor and spironolactone adds a potassium supplement. The main risk is:",
+  "entities": [
+   "iron"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H21",
+  "cat": "herb-drug",
+  "question": "Melatonin should be used cautiously with fluvoxamine because fluvoxamine:",
+  "entities": [
+   "melatonin"
+  ],
+  "entity_docs_retrieved": 4,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H24",
+  "cat": "herb-drug",
+  "question": "Turmeric/curcumin taken in high doses with warfarin or antiplatelets raises concern because of:",
+  "entities": [
+   "Turmeric",
+   "turmeric"
+  ],
+  "entity_docs_retrieved": 4,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "H25",
+  "cat": "herb-safety",
+  "question": "A patient with progressive systemic disease or an autoimmune condition is traditionally advised to avoid:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "L08",
+  "cat": "lab",
+  "question": "HbA1c of 6.0% (42 mmol/mol) in a non-pregnant adult corresponds to:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "L11",
+  "cat": "lab",
+  "question": "hs-CRP of 3.4 mg/L in an otherwise well adult is best interpreted as:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "L13",
+  "cat": "lab",
+  "question": "A patient has low serum copper with normal ceruloplasmin. The safest interpretation is:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "L15",
+  "cat": "lab",
+  "question": "A patient's 25-hydroxyvitamin D is 38 nmol/L. This is best described as:",
+  "entities": [
+   "VITAMIN D (>1,000 - 2,500 IU)",
+   "vitamin d"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "S01",
+  "cat": "safety",
+  "question": "A patient on warfarin asks about high-dose fish oil for triglycerides. What is the appropriate response?",
+  "entities": [
+   "FISH OIL"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "S02",
+  "cat": "safety",
+  "question": "Which triad is characteristic of serotonin syndrome?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "S04",
+  "cat": "safety",
+  "question": "Which is the most appropriate first-line herbal option discussed for nausea of pregnancy, and its key caveat?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "S05",
+  "cat": "safety",
+  "question": "A patient with heart failure, hypertension and reduced ejection fraction asks about a 'natural diuretic'. The key risk to screen for is:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "S06",
+  "cat": "safety",
+  "question": "Anticoagulant and antiplatelet polypharmacy with supplements most commonly causes which adverse event?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E01",
+  "cat": "herb-drug",
+  "question": "A transplant recipient on tacrolimus asks about St John's Wort for low mood. The principal risk is:",
+  "entities": [
+   "st john's wort"
+  ],
+  "entity_docs_retrieved": 4,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E05",
+  "cat": "herb-drug",
+  "question": "Fenugreek taken with warfarin and sulfonylureas raises concern because it may:",
+  "entities": [
+   "Fenugreek"
+  ],
+  "entity_docs_retrieved": 4,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E09",
+  "cat": "herb-drug",
+  "question": "Passionflower taken with benzodiazepines or sedating antihistamines is a concern because of:",
+  "entities": [
+   "Passionflower"
+  ],
+  "entity_docs_retrieved": 4,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E11",
+  "cat": "herb-drug",
+  "question": "Calcium supplements taken at the same time as ciprofloxacin cause:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E12",
+  "cat": "herb-drug",
+  "question": "Zinc supplementation over months at high dose can cause:",
+  "entities": [
+   "zinc"
+  ],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E13",
+  "cat": "herb-drug",
+  "question": "Niacin at gram doses combined with a statin raises concern for:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E14",
+  "cat": "herb-drug",
+  "question": "Simvastatin taken with grapefruit juice is a concern because grapefruit:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E15",
+  "cat": "herb-drug",
+  "question": "Dandelion leaf, a mild diuretic, is a particular concern in a patient taking:",
+  "entities": [
+   "Dandelion"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E16",
+  "cat": "herb-drug",
+  "question": "Uva ursi (bearberry) should not be used long term or in pregnancy because it contains:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E17",
+  "cat": "herb-safety",
+  "question": "Aristolochia species are banned as medicines in many countries because aristolochic acid causes:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E18",
+  "cat": "herb-safety",
+  "question": "Which herb is associated with hepatotoxicity and was withdrawn from several markets in the 1990s?",
+  "entities": [
+   "fish oil"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E19",
+  "cat": "herb-safety",
+  "question": "Chaparral (Larrea tridentata) is associated with which adverse effect?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E20",
+  "cat": "herb-safety",
+  "question": "Senna used continuously for many years can cause:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E21",
+  "cat": "herb-safety",
+  "question": "Pennyroyal (Mentha pulegium) oil is dangerous chiefly because it:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E22",
+  "cat": "herb-safety",
+  "question": "Blue cohosh taken in late pregnancy has been associated with:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E23",
+  "cat": "herb-safety",
+  "question": "Star anise products have been adulterated with Japanese star anise, which is a concern because it contains:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E24",
+  "cat": "herb-safety",
+  "question": "Sassafras was removed from use as a food additive because it contains:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E25",
+  "cat": "herb-safety",
+  "question": "Dong quai combined with anticoagulants raises concern chiefly because of:",
+  "entities": [
+   "dong quai"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "entity document exists but no chunk with the right claim type and terms",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E27",
+  "cat": "herb-safety",
+  "question": "Lobelia (Indian tobacco) in high doses causes:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E28",
+  "cat": "herb-safety",
+  "question": "Coltsfoot (Tussilago farfara) is restricted in some jurisdictions because it contains:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E30",
+  "cat": "nutrient-drug",
+  "question": "Long-term proton pump inhibitor use is associated with which nutrient deficiency?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E31",
+  "cat": "nutrient-drug",
+  "question": "Levodopa given without carbidopa is less effective if the patient also takes high-dose:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E32",
+  "cat": "nutrient-drug",
+  "question": "Calcium supplements reduce the absorption of which osteoporosis drug if taken together?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "E35",
+  "cat": "nutrient-drug",
+  "question": "Zinc supplements reduce the absorption of which antibiotic class?",
+  "entities": [
+   "zinc"
+  ],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "EMA monograph for the herb, or Health Canada if absent"
+ },
+ {
+  "id": "L17",
+  "cat": "lab",
+  "question": "A serum 25-hydroxyvitamin D of 38 nmol/L is best classified using common Australian thresholds as:",
+  "entities": [
+   "VITAMIN D (>1,000 - 2,500 IU)",
+   "vitamin d"
+  ],
+  "entity_docs_retrieved": 2,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "L19",
+  "cat": "lab",
+  "question": "An HbA1c of 44 mmol/mol (6.2%) in a non-pregnant adult corresponds to:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "L20",
+  "cat": "lab",
+  "question": "A fasting plasma glucose of 7.4 mmol/L on two occasions is:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "L21",
+  "cat": "lab",
+  "question": "Transferrin saturation of 55% in a man should prompt investigation for:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "L22",
+  "cat": "lab",
+  "question": "A homocysteine of 18 umol/L is best interpreted as:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "L24",
+  "cat": "lab",
+  "question": "An early-morning serum cortisol of 120 nmol/L is:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "L26",
+  "cat": "lab",
+  "question": "An eGFR of 42 mL/min/1.73m2 corresponds to which CKD stage?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "lab analyte not covered by a test document",
+  "fix": "MedlinePlus lab article for the analyte, or a CC-BY reference-interval study"
+ },
+ {
+  "id": "R01",
+  "cat": "referral",
+  "question": "Which presentation most clearly requires urgent medical referral rather than supplement management?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "NICE CKS / NHS referral guidance (currently geo-blocked)"
+ },
+ {
+  "id": "R05",
+  "cat": "referral",
+  "question": "Which symptom in a patient with reflux being managed with herbs mandates investigation?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "NICE CKS / NHS referral guidance (currently geo-blocked)"
+ },
+ {
+  "id": "R06",
+  "cat": "referral",
+  "question": "A patient on a very low-calorie diet presents with palpitations and syncope. The appropriate action is:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "NICE CKS / NHS referral guidance (currently geo-blocked)"
+ },
+ {
+  "id": "R07",
+  "cat": "referral",
+  "question": "Suspected serotonin syndrome after adding a supplement to an SSRI is characterised by:",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "NICE CKS / NHS referral guidance (currently geo-blocked)"
+ },
+ {
+  "id": "R08",
+  "cat": "referral",
+  "question": "Which laboratory result in a patient taking a herbal weight-loss product should trigger immediate cessation and assessment?",
+  "entities": [],
+  "entity_docs_retrieved": 0,
+  "reason": "no corpus document about this entity",
+  "fix": "NICE CKS / NHS referral guidance (currently geo-blocked)"
+ }
+]

@@ -1,0 +1,125 @@
+{
+ "doc_id": "medlineplus-003484",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Potassium test",
+ "title_extra": null,
+ "date": "2025-05-19",
+ "revised": "2025-05-19",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003484.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003484.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:8d60761f4779127ff7e8578d1e19d05b0c9f7706d09a3c57f9c5343d7c3838ef",
+ "entities": [
+  "Potassium test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003484#001",
+   "text": "How the Test is Performed: A blood sample is needed. Most of the time, blood is\ndrawn from a vein\nlocated on the inside of the elbow or the back of the hand.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "potassium"
+   ],
+   "entities": [
+    "Potassium test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "medlineplus-003484#002",
+   "text": "How to Prepare for the Test: Many medicines can interfere with blood test results.\nYour health care provider will tell you if you need to stop taking any medicines before you have this test.\nDO NOT stop or change your medicines without talking to your provider first.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "potassium"
+   ],
+   "entities": [
+    "Potassium test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "medlineplus-003484#003",
+   "text": "How the Test will Feel: You may feel slight pain or a sting when the needle is inserted. You may also feel some throbbing at the site after the blood is drawn.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "potassium"
+   ],
+   "entities": [
+    "Potassium test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "medlineplus-003484#004",
+   "text": "Why the Test is Performed: This test is a part of a basic or comprehensive metabolic panel.\nYou may have this test to diagnose or monitor kidney disease. The most common cause of a high blood potassium level is kidney disease.\nPotassium is important to heart function.\nYour provider may order this test if you have signs of high blood pressure or heart problems.\nSmall changes in potassium levels can have a big effect on the activity of nerves and muscles, especially the heart.\nLow levels of potassium can lead to an irregular heartbeat or other electrical malfunction of the heart.\nHigh levels cause decreased heart muscle activity.\nEither situation can lead to life-threatening heart problems.\nIt may also be done if your provider suspects\nmetabolic acidosis\n(for example, caused by uncontrolled diabetes) or\nalkalosis\n(for example, caused by excess vomiting).\nSometimes, the potassium test may be done in people who are having an attack of\nparalysis\n.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "potassium",
+    "diabetes",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "Potassium test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 158
+  },
+  {
+   "chunk_id": "medlineplus-003484#005",
+   "text": "Normal Results: The normal range is 3.7 to 5.2 milliequivalents per liter (mEq/L) 3.70 to 5.20 millimoles per liter (millimol/L).\nNormal value ranges may vary slightly among different laboratories. Talk to your provider about the meaning of your specific test results.\nThe examples above show the common measurements for results for these tests. Some laboratories use different measurements or may test different specimens.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "potassium"
+   ],
+   "entities": [
+    "Potassium test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "medlineplus-003484#006",
+   "text": "What Abnormal Results Mean: High levels of potassium (\nhyperkalemia\n) may be due to:\nAddison disease\n(rare)\nBlood transfusion\nCertain medicines, including angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), the potassium-sparing diuretics spironolactone, amiloride and triamterene, and beta adrenergic blockers\nCrushed tissue injury\nHyperkalemic periodic paralysis\nHypoaldosteronism (very rare)\nKidney insufficiency or failure\nMetabolic or\nrespiratory acidosis\nRed blood cell destruction\nToo much potassium in your diet\nLow levels of potassium (\nhypokalemia\n) may be due to:\nAcute or chronic diarrhea\nCushing syndrome\n(rare)\nDiuretics such as hydrochlorothiazide, furosemide, torsemide, and indapamide\nHyperaldosteronism\nHypokalemic periodic paralysis\nNot enough potassium in the diet\nRenal artery stenosis\nRenal tubular acidosis\n(rare)\nVomiting",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "potassium",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "Potassium test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 114
+  }
+ ]
+}

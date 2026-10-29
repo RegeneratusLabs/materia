@@ -110,3 +110,35 @@ cholesterol) and **19 symptom pages** with "When to Contact a Medical Profession
 - **Accuracy did not move**: lab-only retrieval stayed at 94/104. The model already knew these items; the
   corpus now makes them citable rather than better answered. Coverage is not the binding constraint on
   accuracy — it is the binding constraint on *citation*.
+
+## Coverage has two denominators (2026-10-29, round 6)
+
+Reporting a single coverage number was misleading. Two populations behave differently:
+
+| Population | n | Covered | Rate |
+|---|---|---|---|
+| All panel items | 104 | 44 | 42.3% |
+| **Questions that name a herb or nutrient** | 56 | 34 | **60.7%** |
+| Lab questions | 30 | 19 | 63.3% |
+
+The remaining 48 items **do not name an entity at all** — "which of these is a red flag", "which
+supplement interacts with…", or an analyte alone. Entity-based coverage cannot apply to them, and they are
+answered closed-book, where they score 100% (73/73 of the non-lab panel).
+
+`scripts/coverage_gaps.py` → `data/coverage_gaps.json` classifies every uncovered item:
+
+| Reason | n | What it means |
+|---|---|---|
+| No entity detected in the question | 34 | out of scope for entity retrieval, not a corpus gap |
+| Entity document exists, no chunk of the right claim type/terms | 15 | **retrieval precision**, not acquisition |
+| Lab analyte not covered by a test document | 11 | missing lab articles for those analytes |
+
+Only **two** items are genuine missing-document gaps (comfrey, berberine). Everything else is either out of
+scope by design or a precision problem. That is the honest end state of Phase 2: coverage of the questions
+retrieval is built for is 60.7%, the residual is mostly precision, and chasing 100% across a denominator
+that includes non-entity questions would be measuring the wrong thing.
+
+Corpus is now **376 documents / 4,005 chunks** after adding 9 more lab analytes (albumin, bilirubin, HDL,
+LDL, lipid profile, triglycerides, potassium, sodium, uric acid). Three attempted articles were skipped by
+the parser (folate deficiency, vitamin D, magnesium deficiency) because they carry no mappable
+normal/abnormal results sections — recorded as skipped rather than forced in.

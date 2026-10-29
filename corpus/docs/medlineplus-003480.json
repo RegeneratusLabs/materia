@@ -1,0 +1,130 @@
+{
+ "doc_id": "medlineplus-003480",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Albumin blood (serum) test",
+ "title_extra": null,
+ "date": "2025-02-13",
+ "revised": "2025-02-13",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003480.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003480.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:9926407ced675c52929c58e96bee439143b272ec4da8d6990097680115c8679d",
+ "entities": [
+  "Albumin blood (serum) test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003480#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "albumin",
+    "liver"
+   ],
+   "entities": [
+    "Albumin blood (serum) test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003480#002",
+   "text": "How to Prepare for the Test: Your health care provider may tell you to temporarily stop taking certain medicines that can affect the test. Medicines that can increase albumin levels include:\nAnabolic steroids\nAndrogens\nGrowth hormone\nInsulin\nDo not stop taking any of your medicines without talking to your provider first.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "albumin",
+    "liver",
+    "diabetes"
+   ],
+   "entities": [
+    "Albumin blood (serum) test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 51
+  },
+  {
+   "chunk_id": "medlineplus-003480#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "albumin",
+    "liver"
+   ],
+   "entities": [
+    "Albumin blood (serum) test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003480#004",
+   "text": "Why the Test is Performed: Albumin helps move many small molecules through the blood, including bilirubin, calcium, progesterone, and some medicines. It plays an important role in keeping the fluid in the blood from leaking into the tissues.\nThis test can help determine if you have\nliver disease\nor kidney disease, or if your body is not absorbing enough\nprotein\n.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "albumin",
+    "liver",
+    "renal"
+   ],
+   "entities": [
+    "Albumin blood (serum) test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  },
+  {
+   "chunk_id": "medlineplus-003480#005",
+   "text": "Normal Results: The normal range is 3.4 to 5.4 g/dL (34 to 54 g/L).\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or test different samples. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "albumin",
+    "liver"
+   ],
+   "entities": [
+    "Albumin blood (serum) test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 44
+  },
+  {
+   "chunk_id": "medlineplus-003480#006",
+   "text": "What Abnormal Results Mean: Lower-than-normal level of serum albumin may be a sign of:\nKidney diseases\nLiver disease (for example,\nhepatitis\nor\ncirrhosis\nthat may cause\nascites\n[fluid buildup in the abdomen])\nDecreased blood albumin may occur when your body does not get or absorb enough nutrients, such as with:\nAfter weight-loss surgery\nCeliac disease\n(damage of the lining of the small intestine due to eating gluten)\nCrohn disease\n(inflammation of the digestive tract)\nLow-protein diets\nWhipple disease\n(condition that prevents the small intestine from allowing nutrients to pass into the rest of the body)\nIncreased blood albumin may be due to:\nDehydration\nHigh protein diet\nHaving a tourniquet on for a long time when giving a blood sample\nDrinking too much water (water intoxication) may also cause abnormal albumin results.\nOther conditions for which the test may be performed:\nBurns (widespread)\nWilson disease\n(condition in which there is too much copper in the body)",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "albumin",
+    "liver",
+    "surgery",
+    "renal"
+   ],
+   "entities": [
+    "Albumin blood (serum) test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 155
+  }
+ ]
+}

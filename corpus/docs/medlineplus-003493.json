@@ -1,0 +1,125 @@
+{
+ "doc_id": "medlineplus-003493",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Triglyceride level",
+ "title_extra": null,
+ "date": "2024-07-14",
+ "revised": "2024-07-14",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003493.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003493.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:7889e126c1beb1ecc3e1bc66a10e983e35b9949b4cda035e5e35429bc6d3ef4e",
+ "entities": [
+  "Triglyceride level"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003493#001",
+   "text": "How the Test is Performed: A blood sample is needed. Most of the time, blood is\ndrawn from a vein\nlocated on the inside of the elbow or the back of the hand.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "triglycerides"
+   ],
+   "entities": [
+    "Triglyceride level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "medlineplus-003493#002",
+   "text": "How to Prepare for the Test: You should not eat for 8 to 12 hours before the test.\nAlcohol and some medicines can interfere with blood test results.\nMake sure your health care provider knows what medicines you take, including non-prescription medicines, drugs and supplements.\nYour provider will tell you if you need to stop taking any medicines before you have this test.\nDo not stop or change your medicines without talking to your provider first.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "triglycerides",
+    "sedation"
+   ],
+   "entities": [
+    "Triglyceride level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 76
+  },
+  {
+   "chunk_id": "medlineplus-003493#003",
+   "text": "How the Test will Feel: You may feel slight pain or a sting when the needle is inserted. You may also feel some throbbing at the site after the blood is drawn.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "triglycerides"
+   ],
+   "entities": [
+    "Triglyceride level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "medlineplus-003493#004",
+   "text": "Why the Test is Performed: Triglycerides are usually measured together with other blood fats. Often it is done to help determine your risk of developing heart disease. A high triglyceride level may lead to\natherosclerosis\n, which increases your risk for heart attack and stroke.\nA very high triglyceride level may also cause inflammation of your pancreas (called pancreatitis).",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "triglycerides"
+   ],
+   "entities": [
+    "Triglyceride level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 59
+  },
+  {
+   "chunk_id": "medlineplus-003493#005",
+   "text": "Normal Results: Results may indicate:\nNormal: Less than 150 mg/dL (1.69 mmol/L)\nBorderline high: 150 to 199 mg/dL (1.69 to 2.25 mmol/L)\nHigh: 200 to 499 mg/dL (2.26 to 5.64 mmol/L)\nVery high: 500 mg/dL or above (5.65 mmol/L)\nNormal value ranges may vary slightly among different labs. Talk to your provider about the meaning of your specific test results.\nThe examples above show the common measurements for results for these tests. Some labs use different measurements or may test different specimens.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "triglycerides"
+   ],
+   "entities": [
+    "Triglyceride level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "medlineplus-003493#006",
+   "text": "What Abnormal Results Mean: High triglyceride levels may be due to:\nCirrhosis\nor liver damage\nDiet low in\nprotein\nand high in\ncarbohydrates\nUnderactive thyroid\nNephrotic syndrome\n(a kidney disorder)\nOther medicines, such as female hormones\nPoorly controlled\ndiabetes\nDisorder passed down through families in which there are high amounts of cholesterol and triglycerides in the blood\nOverall, the treatment of elevated triglyceride levels focuses on increased exercise and changes in the diet. Medicines to lower triglyceride levels may be used to prevent pancreatitis for levels above 500 mg/dL.\nLow triglyceride levels may be due to:\nLow fat diet\nHyperthyroidism\n(overactive thyroid)\nMalabsorption\nsyndrome (conditions in which the small intestine does not absorb fats well)\nMalnutrition",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "triglycerides",
+    "liver",
+    "thyroid",
+    "diabetes",
+    "renal"
+   ],
+   "entities": [
+    "Triglyceride level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 116
+  }
+ ]
+}

@@ -444,6 +444,14 @@ terms); replayed on the 24 stored sheets it removed 14 genuinely mis-cited lines
 drop-and-verify pipeline is 8/8 contract-clean with zero unsupported claims remaining. A boilerplate filter
 keeps chunks like the NCCIH clearinghouse blurb out of retrieval entirely.
 
+**Round 6 addition — the coverage denominator.** Coverage is **44/104 = 42.3%** across all items but
+**34/56 = 60.7%** across the questions that actually name a herb or nutrient (lab: 19/30). The other 48
+items name no entity ("which of these is a red flag") and are answered closed-book, where the non-lab panel
+scores 73/73. Gap analysis (`data/coverage_gaps.json`): 34 uncovered items have no entity to retrieve,
+15 have the entity document but not the right claim chunk (**precision, not acquisition**), 11 are lab
+analytes without a test document, and only **2 are genuinely missing herbs** (comfrey, berberine). Chasing
+100% across a denominator that includes non-entity questions would be measuring the wrong thing.
+
 **Round 3 addition — hint mode.** Evidence as a full `EVIDENCE` block plus deliberation was fatal
 (Experiment 5). Evidence as **one reference sentence inside the question** is not: the full panel composes
 to **100/104 = 96.2%** on the first full run; after making the no-reference branch identical to the closed

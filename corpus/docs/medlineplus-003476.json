@@ -1,0 +1,115 @@
+{
+ "doc_id": "medlineplus-003476",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Uric acid  - blood",
+ "title_extra": null,
+ "date": "2025-04-01",
+ "revised": "2025-04-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003476.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003476.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:88863de6862c48cb54d30d36ecb29bb68fea649f433c18a45414e35370db188a",
+ "entities": [
+  "Uric acid - blood"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003476#001",
+   "text": "How the Test is Performed: A blood sample is needed. Most of the time, blood is\ndrawn from a vein\nlocated on the inside of the elbow or the back of the hand.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "uric acid"
+   ],
+   "entities": [
+    "Uric acid - blood"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "medlineplus-003476#002",
+   "text": "How to Prepare for the Test: You should not eat or drink anything for 4 hours before the test unless told otherwise.\nMany medicines can interfere with blood test results.\nYour health care provider will tell you if you need to stop taking any medicines before you have this test.\nDO NOT stop or change your medicines without talking to your provider first.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "uric acid"
+   ],
+   "entities": [
+    "Uric acid - blood"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "medlineplus-003476#003",
+   "text": "Why the Test is Performed: This test is done to see if you have a high level of uric acid in your blood. High levels of uric acid can sometimes cause\ngout\nor kidney disease.\nYou may have this test if you have had or are about to have certain types of chemotherapy. Rapid destruction of cancerous cells or weight loss, which may occur with such treatments, can rapidly increase the amount of uric acid in your blood.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "uric acid",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Uric acid - blood"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 78
+  },
+  {
+   "chunk_id": "medlineplus-003476#004",
+   "text": "Normal Results: Normal values are 3.0 to 7.1 milligrams per deciliter (mg/dL) for women and 4.0 to 8.6 mg/dL for men.\nFor patients being treated for gout, the goal uric acid is either less than 6 mg/dL or 5 mg/dL based on clinical factors.\nNormal value ranges may vary slightly among different laboratories. Talk to your provider about the meaning of your specific test results.\nThe example above shows the common measurement range for results for these tests. Some laboratories use different measurements or may test different specimens.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "uric acid"
+   ],
+   "entities": [
+    "Uric acid - blood"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 88
+  },
+  {
+   "chunk_id": "medlineplus-003476#005",
+   "text": "What Abnormal Results Mean: Greater-than-normal levels of uric acid (hyperuricemia) may be due to:\nAcidosis\nAlcohol (ethanol) consumption\nChemotherapy-related side effects\nDehydration\nDiabetic ketoacidosis\nExcessive exercise\nFructose consumption\nHyperparathyroidism\nHypothyroidism\nLactic acidosis\nLead poisoning\nLeukemia\nMedicines such as cyclosporine, diuretics, nicotinic acid, salicylates (low dose), tacrolimus\nMedullary cystic kidney disease\nObesity\nPolycythemia vera\nPsoriasis\nPurine-rich diet\nRenal failure\nToxemia of pregnancy\nVitamin B12 deficiency\nLower-than-normal levels of uric acid may be due to:\nFanconi syndrome\nHereditary diseases of metabolism\nHIV infection\nLow purine diet\nMedicines such as atorvastatin, captopril, enalapril, fenofibrate, losartan, probenecid, and trimethoprim-sulfamethoxazole\nSyndrome of inappropriate antidiuretic hormone (SIADH) secretion\nOther reasons this test may be performed include:\nChronic kidney disease\nGout\nInjury of the kidney and ureter\nKidney stones\n(nephrolithiasis)",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "uric acid",
+    "pregnancy",
+    "thyroid",
+    "diabetes",
+    "sedation",
+    "hypertension",
+    "immunosuppression",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Uric acid - blood"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 123
+  }
+ ]
+}

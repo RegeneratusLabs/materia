@@ -1,0 +1,144 @@
+{
+ "doc_id": "medlineplus-003481",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Sodium blood test",
+ "title_extra": null,
+ "date": "2025-11-06",
+ "revised": "2025-11-06",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003481.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003481.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:19b51a3eaa05090d63226405a7605ca325c9400fa9fe594abbb95a6d00962041",
+ "entities": [
+  "Sodium blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003481#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "sodium"
+   ],
+   "entities": [
+    "Sodium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003481#002",
+   "text": "How to Prepare for the Test: Your health care provider may tell you to temporarily stop taking medicines that may affect the test. These include:\nAntibiotics\nAntidepressants\nSome high blood pressure medicines\nLithium\nNonsteroidal anti-inflammatory drugs (NSAIDs)\nWater pills (diuretics)\nDo not stop taking any medicine without talking to your provider.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "sodium",
+    "hypertension"
+   ],
+   "entities": [
+    "Sodium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 51
+  },
+  {
+   "chunk_id": "medlineplus-003481#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or slight bruising. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "sodium"
+   ],
+   "entities": [
+    "Sodium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "medlineplus-003481#004",
+   "text": "Why the Test is Performed: Sodium is a substance that the body needs to work properly. Sodium is found in most foods. The most common form of sodium is sodium chloride, which is table salt.\nThis test is usually done as part of an\nelectrolyte or basic metabolic panel blood test\n.\nYour blood sodium level represents a balance between the sodium and water in the food and drinks you consume and the amount in your urine. A small amount is lost through stool and sweat.\nMany things can affect this balance. Your provider may order this test if you:\nHave had a recent injury, surgery, or serious illness\nConsume usually large or small amounts of salt or fluid\nReceive intravenous (IV) fluids\nTake diuretics (water pills) or certain other medicines, including the steroid hormones such as hydrocortisone",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "sodium",
+    "surgery",
+    "hypertension"
+   ],
+   "entities": [
+    "Sodium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 138
+  },
+  {
+   "chunk_id": "medlineplus-003481#005",
+   "text": "Normal Results: The normal range for blood sodium levels is 135 to 145 milliequivalents per liter (mEq/L).\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or test different samples. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "sodium"
+   ],
+   "entities": [
+    "Sodium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "medlineplus-003481#006",
+   "text": "What Abnormal Results Mean: An abnormal blood sodium level can be due to many different conditions.\nHigher than normal blood sodium level is called hypernatremia. It may be due to:\nAdrenal gland problems such as\nCushing syndrome\nor\nhyperaldosteronism\nDiabetes insipidus\n(disorder in which the kidneys are not able to conserve water)\nIncreased fluid loss due to excessive sweating, diarrhea, or burns\nToo much salt or sodium bicarbonate in the diet\nUse of certain medicines, including corticosteroids, laxatives, lithium, and medicines such as ibuprofen or naproxen\nInadequate fluid intake, as is sometimes seen in people who are unable to recognize their thirst because of cognitive impairment or are unable to drink enough to keep up with their thirst because of difficulties accessing fluids\nLower than normal blood sodium level is called hyponatremia. It may be due to:\nAdrenal glands not making enough of their hormones (\nAddison disease\n)\nBuildup in urine of waste product from fat breakdown (ketonuria)\nHigh blood sugar level (hyperglycemia)\nHigh blood triglyceride lever (hypertriglyceridemia)\nIncrease in total body water seen in those with heart failure, certain kidney diseases, or cirrhosis of the liver\nIncreased fluid loss from body, vomiting, or diarrhea\nSyndrome of inappropriate antidiuretic hormone secretion",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "sodium",
+    "liver",
+    "diabetes",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "Sodium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 202
+  },
+  {
+   "chunk_id": "medlineplus-003481#007",
+   "text": "What Abnormal Results Mean: (antidiuretic hormone is released in abnormal amounts or from an abnormal place in the body), causing the body to retain too much water\nToo much of the hormone vasopressin\nUnderactive thyroid gland (hypothyroidism)\nUse of medicines such as diuretics (water pills), morphine, and selective serotonin reuptake inhibitor (SSRI) antidepressants",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "sodium",
+    "thyroid",
+    "hypertension"
+   ],
+   "entities": [
+    "Sodium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 53
+  }
+ ]
+}

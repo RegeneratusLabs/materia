@@ -1,0 +1,140 @@
+{
+ "doc_id": "medlineplus-007812",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Lipid profile test",
+ "title_extra": null,
+ "date": "2026-08-07",
+ "revised": "2026-08-07",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/007812.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/007812.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:9a4707bfb629737061ff8344e3448053d6c8d114cb160644838715c31d2663e9",
+ "entities": [
+  "Lipid profile test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-007812#001",
+   "text": "How the Test is Performed: A blood sample is needed. Most of the time,\nblood is drawn from a vein\nlocated on the inside of the elbow or the back of the hand.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "cholesterol",
+    "ldl",
+    "hdl",
+    "triglycerides"
+   ],
+   "entities": [
+    "Lipid profile test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "medlineplus-007812#002",
+   "text": "How to Prepare for the Test: You should not eat for 9 to 12 hours before the test. If you don't fast, only values for total cholesterol and HDL may be useful.\nAlcohol and some medicines can interfere with blood test results.\nMake sure your health care provider knows what medicines you take, including over-the-counter medicines and supplements.\nYour provider will tell you if you need to stop taking any medicines before you have this test.\nDo not stop or change your medicines without talking to your provider first.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "cholesterol",
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "sedation"
+   ],
+   "entities": [
+    "Lipid profile test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 89
+  },
+  {
+   "chunk_id": "medlineplus-007812#003",
+   "text": "How the Test will Feel: You may feel slight pain or a sting when the needle is inserted. You may also feel some throbbing at the site after the blood is drawn.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "cholesterol",
+    "ldl",
+    "hdl",
+    "triglycerides"
+   ],
+   "entities": [
+    "Lipid profile test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "medlineplus-007812#004",
+   "text": "Why the Test is Performed: A lipid profile test helps you and your provider understand your risk for heart disease.\nYou also may have this test to see how well you are responding to medicines to help lower your cholesterol.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "cholesterol",
+    "ldl",
+    "hdl",
+    "triglycerides"
+   ],
+   "entities": [
+    "Lipid profile test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "medlineplus-007812#005",
+   "text": "Normal Results: The most common ideal results for these levels are:\nTotal cholesterol below 200 milligrams per deciliter (mg/dL) or 5.18 millimoles per liter (mmol/L). Lower numbers are better.\nHDL levels greater than 60 mg/dL (1.55 mmol/L), are desired, though even higher is better unless it is due to a medical illness.\nLDL generally below 100 mg/dL (2.59 mmol/L). For people at high risk, who have diabetes, or who have other risk factors, it should be below 70 mg/dL (1.81mmol/L). For people who have had a heart attack or stroke, it should be below 55 mg/dL (1.42 mmol/L).\nVLDL 2 to 30 mg/dL (0.05 to 0.78 mmol/L).\nTriglycerides below 150 mg/dL (3.88 mmol/L) for adults and lower than 90 mg/dL (2.33 mmol/L) for 10 to 19 year olds.\nNormal value ranges may vary slightly among different laboratories. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "cholesterol",
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "diabetes"
+   ],
+   "entities": [
+    "Lipid profile test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 149
+  },
+  {
+   "chunk_id": "medlineplus-007812#006",
+   "text": "What Abnormal Results Mean: If your lipid profile testing is abnormal, your provider may recommend lifestyle changes, cholesterol-lowering medicine, or continued monitoring of your blood lipid levels.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "cholesterol",
+    "ldl",
+    "hdl",
+    "triglycerides"
+   ],
+   "entities": [
+    "Lipid profile test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  }
+ ]
+}

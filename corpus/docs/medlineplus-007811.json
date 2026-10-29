@@ -1,0 +1,134 @@
+{
+ "doc_id": "medlineplus-007811",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "LDL test",
+ "title_extra": null,
+ "date": "2026-08-07",
+ "revised": "2026-08-07",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/007811.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/007811.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:396978363582916ea60c32da94299e5cc7a7acdef42957d6ccb2ee9012562d2e",
+ "entities": [
+  "LDL test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-007811#001",
+   "text": "How the Test is Performed: A blood sample is needed. Most of the time,\nblood is drawn from a vein\nlocated on the inside of the elbow or the back of the hand.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ldl",
+    "cholesterol"
+   ],
+   "entities": [
+    "LDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "medlineplus-007811#002",
+   "text": "How to Prepare for the Test: You should not eat for 9 to 12 hours before the test.\nAlcohol and some medicines can interfere with blood test results.\nMake sure your health care provider knows what medicines you take, including over-the-counter medicines and supplements.\nYour provider will tell you if you need to stop taking any medicines before you have this test.\nDo not stop or change your medicines without talking to your provider first.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ldl",
+    "cholesterol",
+    "sedation"
+   ],
+   "entities": [
+    "LDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 75
+  },
+  {
+   "chunk_id": "medlineplus-007811#003",
+   "text": "How the Test will Feel: You may feel slight pain or a sting when the needle is inserted. You may also feel some throbbing at the site after the blood is drawn.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ldl",
+    "cholesterol"
+   ],
+   "entities": [
+    "LDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "medlineplus-007811#004",
+   "text": "Why the Test is Performed: LDL cholesterol is usually measured together with other blood fats. Often it is done to help determine your risk of developing heart disease.\nHigh LDL increases your risk for:\nHeart disease\nPeripheral artery disease\nHeart attack\nStroke",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ldl",
+    "cholesterol"
+   ],
+   "entities": [
+    "LDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 42
+  },
+  {
+   "chunk_id": "medlineplus-007811#005",
+   "text": "Normal Results: You want your LDL to be low. In general, lower is better.\nYour LDL goal is based on your risk for heart disease and whether you have health conditions that increase your risk:\nLDL under 100 mg/dL if you are borderline or moderate risk and do not have diabetes or heart disease (primary prevention)\nLDL under 70 mg/dL if you are at high risk, have diabetes, or have other risk factors (primary prevention)\nLDL under 55 mg/dL if you have had a heart attack or stroke (secondary prevention)\nYour provider will help you understand your long-term risk for heart disease and what your LDL goal should be.\nGeneral targets for children are less than 110 mg/dL (2.85 mmol/L) (lower numbers are better).\nIf your LDL is high and you have certain health risks, your provider will often recommend medicine to lower your LDL cholesterol level.\nNormal value ranges may vary slightly among different laboratories. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ldl",
+    "cholesterol",
+    "children",
+    "diabetes"
+   ],
+   "entities": [
+    "LDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 168
+  },
+  {
+   "chunk_id": "medlineplus-007811#006",
+   "text": "What Abnormal Results Mean: A higher-than-normal LDL may be due to:\nEating a diet high in saturated fats\nLack of physical activity\nBeing overweight\nor\nhaving obesity\nDiabetes\nMetabolic syndrome\nCertain medicines\nUnderactive thyroid gland (\nhypothyroid\n)\nDisorder passed down through families in which there are high amounts of cholesterol and triglycerides in the blood (\nfamilial combined hyperlipidemia\n)\nKidney or liver disease\nIf your LDL level is high, your provider may recommend changes in your\nlifestyle\nsuch as:\nEating a healthy diet\nLosing weight (if you are overweight or have obesity)\nGetting regular exercise\nQuitting smoking\nAvoiding alcohol\nYou may also need\nmedicine to lower your LDL levels\nif you have diabetes or are at risk of heart disease. While taking medicines to lower your LDL level, you should continue the lifestyle changes.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ldl",
+    "cholesterol",
+    "liver",
+    "thyroid",
+    "diabetes",
+    "sedation",
+    "renal"
+   ],
+   "entities": [
+    "LDL test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 136
+  }
+ ]
+}

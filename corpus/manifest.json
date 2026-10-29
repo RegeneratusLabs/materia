@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-29",
- "documents": 367,
- "chunks": 3951,
- "redistributable": 367,
+ "documents": 376,
+ "chunks": 4005,
+ "redistributable": 376,
  "review_due": 0,
  "entries": [
   {
@@ -5894,6 +5894,29 @@
    "chunks": 6
   },
   {
+   "doc_id": "medlineplus-003476",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Uric acid  - blood",
+   "url": "https://medlineplus.gov/ency/article/003476.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003476.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-04-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:88863de6862c48cb54d30d36ecb29bb68fea649f433c18a45414e35370db188a",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 5
+  },
+  {
    "doc_id": "medlineplus-003477",
    "source": "MedlinePlus (NLM)",
    "tier": "compendium",
@@ -5909,6 +5932,98 @@
    "retrieved_at": "2026-10-29",
    "next_review_due": "2027-04-29",
    "checksum": "sha256:703c5b85a4133bfd7ae3e580d6fd3d7a7b178b1d039ec0c8971c7dfaae33f2f4",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003479",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Bilirubin blood test",
+   "url": "https://medlineplus.gov/ency/article/003479.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003479.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-02-13",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:1bd399cb76bf45a2eab9799678d064e81dd7022c3dc3c4fa1500186cf8e1bea8",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003480",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Albumin blood (serum) test",
+   "url": "https://medlineplus.gov/ency/article/003480.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003480.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-02-13",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:9926407ced675c52929c58e96bee439143b272ec4da8d6990097680115c8679d",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003481",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Sodium blood test",
+   "url": "https://medlineplus.gov/ency/article/003481.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003481.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-11-06",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:19b51a3eaa05090d63226405a7605ca325c9400fa9fe594abbb95a6d00962041",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 7
+  },
+  {
+   "doc_id": "medlineplus-003484",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Potassium test",
+   "url": "https://medlineplus.gov/ency/article/003484.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003484.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-05-19",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:8d60761f4779127ff7e8578d1e19d05b0c9f7706d09a3c57f9c5343d7c3838ef",
    "licence": {
     "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
     "redistributable": true,
@@ -6001,6 +6116,29 @@
    "retrieved_at": "2026-10-29",
    "next_review_due": "2027-04-29",
    "checksum": "sha256:662deb5df103f00f5284ed2f509d9c9295498fc36ba8bf46306d29f694325de0",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003493",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Triglyceride level",
+   "url": "https://medlineplus.gov/ency/article/003493.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003493.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2024-07-14",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:7889e126c1beb1ecc3e1bc66a10e983e35b9949b4cda035e5e35429bc6d3ef4e",
    "licence": {
     "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
     "redistributable": true,
@@ -6162,6 +6300,75 @@
    "retrieved_at": "2026-10-29",
    "next_review_due": "2027-04-29",
    "checksum": "sha256:ce2c1c3c492868b13c9fba6c577ef800ce21d5d44af5f8a7e297d49b06a8d9ae",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-007810",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "HDL test",
+   "url": "https://medlineplus.gov/ency/article/007810.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/007810.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-08-07",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:6df3f081547e3b0ad8b46a7e880f313f4c6a910653ab4bc1d80e7ffd0aae7104",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-007811",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "LDL test",
+   "url": "https://medlineplus.gov/ency/article/007811.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/007811.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-08-07",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:396978363582916ea60c32da94299e5cc7a7acdef42957d6ccb2ee9012562d2e",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-007812",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Lipid profile test",
+   "url": "https://medlineplus.gov/ency/article/007812.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/007812.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-08-07",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:9a4707bfb629737061ff8344e3448053d6c8d114cb160644838715c31d2663e9",
    "licence": {
     "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
     "redistributable": true,

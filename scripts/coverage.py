@@ -13,7 +13,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from materia import config
 from materia.corpus.index import open_index
-from materia.retrieve import Retriever, expected_sections, grounded_chunks
+from materia.retrieve import Retriever, expected_sections, find_entities, grounded_chunks
 
 items = json.loads((config.DATA_DIR / "herbal_set_104.json").read_text())
 conn = open_index(config.CORPUS_DIR / "index.sqlite")
@@ -27,6 +27,7 @@ for it in items:
     covered = bool(typed)
     rows.append({
         "id": it["id"], "cat": it["cat"], "covered": covered,
+        "entity_anchored": bool(find_entities(it["q"], r.lex)),
         "want_sections": sorted(want),
         "best": typed[0]["chunk_id"] if typed else None,
         "top": [c["chunk_id"] for c in hits],
@@ -41,7 +42,10 @@ for row in rows:
     by[row["cat"]][1] += 1
     by[row["cat"]][0] += row["covered"]
 k = sum(x["covered"] for x in rows)
-print(f"coverage: {k}/{len(rows)} = {100*k/len(rows):.1f}%")
+anchored = [x for x in rows if x["entity_anchored"]]
+ak = sum(1 for x in anchored if x["covered"])
+print(f"coverage: {k}/{len(rows)} = {100*k/len(rows):.1f}%  |  entity-anchored: {ak}/{len(anchored)} = "
+      f"{100*ak/max(1,len(anchored)):.1f}%")
 for c, v in sorted(by.items(), key=lambda kv: -kv[1][1]):
     print(f"  {c:16s} {v[0]:2d}/{v[1]:2d} = {100*v[0]/v[1]:5.1f}%")
 print("uncovered:", [x["id"] for x in rows if not x["covered"]])
