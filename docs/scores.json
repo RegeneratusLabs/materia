@@ -382,21 +382,25 @@
    "condition": "v2 panel (104), hint mode (1-sentence reference), thinking, cap-completed",
    "file": "results/panel_hint_think.jsonl (300) + results/tmp/hint_capped_768.jsonl (14 re-runs)",
    "n": 104,
-   "correct": 102,
-   "pct": 98.1,
+   "correct": 100,
+   "pct": 96.2,
    "ci95": [
-    93.3,
-    99.5
+    90.4,
+    98.5
    ],
    "answered": 104,
    "hit_token_cap": 0,
-   "method": "composed: 92/104 answered within 300 tokens (14 capped); those 14 re-run at 768 gave 10 correct",
+   "method": "composed: 92/104 at 300-token cap (of which 2 were capped but answered); the 12 truly unanswered capped items re-run at 768 gave 10 correct",
    "validation": "natural-stop outputs identical at 300 and 768 cap on the 5 overlapping items",
    "attribution": {
     "grounded": 9,
     "grounded_correct": 9,
     "memory": 95,
     "memory_correct": 83
+   },
+   "covered_vs_uncovered": {
+    "covered": "44/44 both conditions",
+    "uncovered": "hint 56/60 vs closed 58/60"
    }
   }
  ]

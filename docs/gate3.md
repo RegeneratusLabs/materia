@@ -303,8 +303,16 @@ The clean full-panel run at 768 is the artifact to quote; anything reconstructed
 The full 300-token run left 14 items capped. Those 14 were re-run at 768 (the cap the closed-book
 baseline uses): all 14 answered, 10 correct.
 
-The composed hint@768 score is therefore **102/104 = 98.1% [93.3, 99.5]** — identical to closed-book with
-thinking, which is exactly what matters here: adding a one-sentence reference does not cost accuracy.
+The composed hint@768 score is therefore **100/104 = 96.2% [90.4, 98.5]** — two items below closed-book
+with thinking (102/104). The earlier 102 figure in this document was arithmetic error: two of the fourteen
+capped items had already emitted an answer before the cap, so replacing them does not add two correct
+answers on top of the run's 92.
+
+It matters where the two were lost: **on the 44 covered items hint and closed-book both score 44/44; on the
+60 uncovered items hint scores 56/60 against closed-book's 58/60.** An uncovered item is still shown a
+reference in this implementation (the top retrieved chunk, not a grounded one), and twice that reference
+pulled the answer off a correct prior. The fix is obvious — show no reference when coverage fails — and is
+being validated now.
 
 This composition is sound rather than optimistic: with greedy decoding, an item that stopped naturally
 (`finish: stop`) produces the same tokens regardless of the cap. Checked empirically on the five items
