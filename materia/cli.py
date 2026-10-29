@@ -17,7 +17,7 @@ import json
 import sys
 from pathlib import Path
 
-from . import calc, config, extract, llm, ocr, parse, symptom
+from . import calc, config, extract, llm, ocr, parse, symptom, verify
 from .corpus.index import open_index, stats as corpus_stats
 from .prompt import build_freeform, build_prompt_retrieval
 from .retrieve import Retriever, grounded_chunks, group_conflicts
@@ -142,6 +142,7 @@ def cmd_symptom(args: argparse.Namespace) -> int:
     out = llm.chat([{"role": "user", "content": prompt}], max_tokens=args.max_tokens, timeout=1200)
     sheet = symptom.limit_options(out["text"], 3)
     sheet, removed = symptom.enforce_vetoes(sheet, findings)
+    sheet, dropped = verify.drop_unsupported(sheet, screened, threshold=0.2)
     issues = symptom.contract_check(sheet, chunks, findings)
     print("\n" + sheet.strip())
     if removed:

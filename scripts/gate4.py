@@ -82,6 +82,7 @@ def main(argv: list[str] | None = None) -> int:
         )
         sheet = symptom.limit_options(r["text"], 3)
         sheet, removed = symptom.enforce_vetoes(sheet, findings)
+        sheet, dropped = verify.drop_unsupported(sheet, screened, threshold=0.2)
         issues = symptom.contract_check(sheet, chunks, findings)
         checked = verify.verify_options_block(sheet, screened)
         for line in checked["lines"]:
@@ -107,6 +108,7 @@ def main(argv: list[str] | None = None) -> int:
                 "sheet": sheet,
                 "raw_sheet": r["text"],
                 "vetoed_removed": removed,
+                "claims_dropped": dropped,
                 "finish": r["finish"],
                 "ctok": r["ctok"],
                 "model_called": True,

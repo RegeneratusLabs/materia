@@ -20,7 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from materia import config, llm  # noqa: E402
 from materia.parse import parse_letter, parse_sources  # noqa: E402
-from materia.prompt import build_prompt, build_prompt_retrieval  # noqa: E402
+from materia.prompt import build_prompt, build_prompt_evidence_nocite, build_prompt_retrieval  # noqa: E402
 from materia.stats import wilson_str  # noqa: E402
 
 BATCH = 20
@@ -65,6 +65,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--no-guard", action="store_true", help="skip RSS restart between batches")
     ap.add_argument("--dry-run", action="store_true", help="print the first prompt and exit")
     ap.add_argument("--no-think", action="store_true", help="disable thinking (direct answer)")
+    ap.add_argument("--no-cite", action="store_true", help="evidence without asking the model to cite")
     ap.add_argument("--evidence-words", type=int, default=100)
     ap.add_argument("--hybrid-cats", default="lab,nutrient-lab",
                     help="categories that get retrieval in --condition hybrid")
@@ -117,11 +118,12 @@ def main(argv: list[str] | None = None) -> int:
     def work(item: dict) -> None:
         chunks = retrieve(item["q"]) if retrieve else []
         use = use_retrieval(item, chunks)
-        prompt = (
-            build_prompt_retrieval(item, chunks, config.RULE_BUDGET, args.evidence_words)
-            if use
-            else build_prompt(item, config.RULE_BUDGET)
-        )
+        if use and args.no_cite:
+            prompt = build_prompt_evidence_nocite(item, chunks, config.RULE_BUDGET, args.evidence_words)
+        elif use:
+            prompt = build_prompt_retrieval(item, chunks, config.RULE_BUDGET, args.evidence_words)
+        else:
+            prompt = build_prompt(item, config.RULE_BUDGET)
         r = llm.chat(
             [{"role": "user", "content": prompt}],
             port=args.port,

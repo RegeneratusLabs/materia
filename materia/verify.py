@@ -24,8 +24,15 @@ UNIT_CANON = {"milligram": "mg", "milligrams": "mg", "gram": "g", "grams": "g",
               "millilitre": "ml", "milliliter": "ml", "millilitres": "ml", "milliliters": "ml"}
 
 
+def _stem(t: str) -> str:
+    for suf in ("ations", "ation", "ities", "ity", "ous", "ics", "ic", "al", "ing", "ed", "es", "s"):
+        if len(t) - len(suf) >= 4 and t.endswith(suf):
+            return t[: -len(suf)]
+    return t
+
+
 def content_tokens(text: str) -> set[str]:
-    return {t for t in re.split(r"\W+", text.lower()) if len(t) > 3 and t not in STOP}
+    return {_stem(t) for t in re.split(r"\W+", text.lower()) if len(t) > 3 and t not in STOP}
 
 
 def split_claims(text: str) -> list[str]:
@@ -79,7 +86,12 @@ def claim_support(claim: str, evidence: str, *, threshold: float = 0.35) -> floa
     if not ct:
         return 0.0
     et = content_tokens(evidence)
-    return len(ct & et) / len(ct)
+    shared = ct & et
+    # One shared token is almost always the organisation or the herb's own name; it is
+    # not support. Require at least two independent content terms.
+    if len(shared) < 2:
+        return 0.0
+    return len(shared) / len(ct)
 
 
 def verify_line(line: str, chunks_by_index: dict[int, dict]) -> dict:
@@ -115,7 +127,7 @@ def verify_options_block(sheet: str, chunks: list[dict]) -> dict:
         text = line.strip()
         if not text or re.match(r"^[-*]?\s*$", text):
             continue
-        if re.search(r"excluded by the safety screen|no evidence found", text, re.I):
+        if re.search(r"excluded by the safety screen|no evidence found|claimed option\(s\) removed", text, re.I):
             continue
         results.append({"line": text, **verify_line(text, by_index)})
     return {
@@ -123,3 +135,46 @@ def verify_options_block(sheet: str, chunks: list[dict]) -> dict:
         "supported": sum(1 for r in results if r["supported"]),
         "total": len(results),
     }
+
+
+def drop_unsupported(sheet: str, chunks: list[dict], *, threshold: float = 0.2) -> tuple[str, list[dict]]:
+    """Remove option lines whose cited evidence does not support them.
+
+    The sheet is only allowed to say what its own citations carry. Removed lines are
+    returned so the caller can count them and show a truthful 'claims removed' note.
+    """
+    by_index = {i: c for i, c in enumerate(chunks, start=1)}
+    out: list[str] = []
+    removed: list[dict] = []
+    in_options = False
+    for line in sheet.splitlines():
+        stripped = line.strip()
+        if stripped.upper().startswith("OPTIONS"):
+            in_options = True
+            out.append(line)
+            continue
+        if in_options and re.match(r"^[A-Z][A-Z ]{4,}$", stripped):
+            in_options = False
+        is_option = bool(re.match(r"^\s*(?:[-*]|\d+[.)])\s", line))
+        if in_options and is_option and not re.search(
+            r"excluded by the safety screen|no evidence found", stripped, re.I
+        ):
+            cited = [int(x) for x in re.findall(r"\[S(\d+)\]", stripped)]
+            evidence = " ".join(by_index.get(i, {}).get("text", "") for i in cited)
+            if cited and evidence:
+                score = claim_support(stripped, evidence)
+                doses_ok = all(dose_supported(d, evidence) for d in extract_doses(stripped))
+                if score < threshold or not doses_ok:
+                    removed.append({"line": stripped, "score": round(score, 3),
+                                    "dose_ok": doses_ok, "cited": cited})
+                    continue
+            elif not cited:
+                removed.append({"line": stripped, "score": 0.0, "dose_ok": True, "cited": []})
+                continue
+        out.append(line)
+    if removed:
+        for i, line in enumerate(out):
+            if line.strip().upper().startswith("OPTIONS"):
+                out.insert(i + 1, f"- ({len(removed)} claimed option(s) removed: not supported by the cited evidence)")
+                break
+    return "\n".join(out), removed

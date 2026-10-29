@@ -237,7 +237,7 @@ def vetoed(findings: list[dict]) -> set[str]:
 
 
 SENTINEL = re.compile(r"no evidence found in the corpus", re.I)
-EXCLUDED = re.compile(r"excluded by the safety screen", re.I)
+EXCLUDED = re.compile(r"excluded by the safety screen|claimed option\(s\) removed", re.I)
 
 
 def enforce_vetoes(sheet: str, findings: list[dict]) -> tuple[str, list[str]]:

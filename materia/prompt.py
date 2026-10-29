@@ -78,3 +78,21 @@ def build_freeform(question: str, chunks: list[dict] | None = None, *, evidence_
         "do not cite anything; state the answer plainly."
     )
     return f"{head}\n\nQUESTION\n{question}\n\nANSWER:"
+
+
+def build_prompt_evidence_nocite(item: dict, chunks: list[dict], rule: str = RULE_BUDGET,
+                                 evidence_words: int = 80) -> str:
+    """Evidence in the prompt, but no citation obligation.
+
+    Isolates whether the spiral is caused by the evidence or by asking the model to both
+    reason and attribute at once. Citations are then attached by the system, not claimed
+    by the model.
+    """
+    lines = [rule, "", "Use the evidence below if it is relevant.", "", "EVIDENCE"]
+    for i, c in enumerate(chunks, start=1):
+        lines += [f"[S{i}] {evidence_header(i, c)}", _trim(c.get("text", ""), evidence_words), ""]
+    lines += ["QUESTION", item["q"], ""]
+    for k in sorted(item["o"]):
+        lines.append(f"{k}) {item['o'][k]}")
+    lines += ["", "Answer:"]
+    return "\n".join(lines)

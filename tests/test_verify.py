@@ -40,3 +40,21 @@ def test_verify_options_block_counts():
     chunks = [{"text": "Ginkgo may increase bleeding risk in anticoagulated patients."}]
     out = verify.verify_options_block(sheet, chunks)
     assert out["total"] == 2 and out["supported"] == 1
+
+
+def test_drop_unsupported_removes_miscited_claim():
+    sheet = (
+        "OPTIONS\n"
+        "- Peppermint oil — NCCIH notes peppermint oil for GI ailments [S1]\n"
+        "- Acupuncture — improved fatigue in cancer patients [S2]\n"
+        "SAFETY SCREEN\nnone\n"
+    )
+    chunks = [
+        {"text": "NCCIH Clearinghouse provides information on NCCIH and complementary approaches."},
+        {"text": "Several RCTs studied acupuncture in reducing cancer-related fatigue."},
+    ]
+    out, removed = verify.drop_unsupported(sheet, chunks, threshold=0.2)
+    assert len(removed) == 1 and "Peppermint" in removed[0]["line"]
+    assert "Peppermint" not in out
+    assert "Acupuncture" in out
+    assert "claimed option" in out.lower()
