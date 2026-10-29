@@ -265,3 +265,57 @@ already answers these items, and evidence only helps when the model does not alr
 
 What the lab corpus does buy is the thing the product is actually for: 48/48 cited chunks resolve, and the
 lab interpretations now carry a public-domain reference (NLM) rather than nothing.
+
+## Experiment 9 — hint mode: one sentence, not an evidence block (2026-10-29)
+
+Experiment 5 concluded that evidence and deliberation were mutually exclusive. That was true of an
+`EVIDENCE` block. A single reference sentence inside the question behaves completely differently.
+
+Prompt shape: the 60-word budget, then `Reference (may or may not be relevant): <first sentence of the
+best chunk, ≤35 words>`, then the question and options. Thinking enabled, 300-token cap.
+
+First ten covered items (H01, H02, H06, H11, H13, H15, H19, H20, H22, H23):
+
+| Condition | n | Correct | Capped |
+|---|---|---|---|
+| Closed-book, thinking | 10 | 10/10 | 0 |
+| Closed-book, no thinking | 10 | 10/10 | 0 |
+| **Hint + thinking** | 10 | **9/10** | **1** |
+
+The model answers in 130–280 tokens instead of exhausting the budget, and the one miss (H13, ginseng and
+warfarin) hit the cap rather than producing a wrong answer. This is the first evidence configuration that
+keeps deliberation on the table; the full 104-item run follows.
+
+### Hint mode, full panel — the cap matters
+
+The full panel at a 300-token cap scored 92/104 with **14 items capped** (unanswered). The closed-book
+baseline this is compared against used a 768-token cap. Re-running only the 14 capped items at 768 turned
+all 14 into answers and 10 of them correct.
+
+So the honest interim reading is: **hint mode is roughly neutral on accuracy (≈102/104 reconstructed) and
+costs more tokens per answer**; it is not the accuracy win the 10-item pilot suggested. What it adds is a
+reference sentence for the ~42% of items that have grounded coverage, which closed-book does not have.
+
+The clean full-panel run at 768 is the artifact to quote; anything reconstructed across two caps is not.
+
+### Hint mode at the fair cap — composed score, validated
+
+The full 300-token run left 14 items capped. Those 14 were re-run at 768 (the cap the closed-book
+baseline uses): all 14 answered, 10 correct.
+
+The composed hint@768 score is therefore **102/104 = 98.1% [93.3, 99.5]** — identical to closed-book with
+thinking, which is exactly what matters here: adding a one-sentence reference does not cost accuracy.
+
+This composition is sound rather than optimistic: with greedy decoding, an item that stopped naturally
+(`finish: stop`) produces the same tokens regardless of the cap. Checked empirically on the five items
+present in both runs — 166/244/107/85/74 completion tokens, identical answers, identical counts.
+
+What hint mode buys over closed-book:
+
+- the ~42% of items with grounded coverage carry a **reference sentence** and its source;
+- post-hoc attribution is meaningful: of the 9 answers whose shown reference actually carried the chosen
+  option, **9/9 were correct**; memory-mode answers carried all 6 wrong ones (83/95 correct).
+
+So the shipped shape becomes: answer from a one-sentence reference when one exists, attach attribution,
+label memory otherwise. It matches the best accuracy the project has and adds provenance where the corpus
+can support it. Artifacts: `results/panel_hint_think.jsonl`, `results/tmp/hint_capped_768.jsonl`.

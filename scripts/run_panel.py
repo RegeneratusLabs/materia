@@ -20,7 +20,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from materia import config, llm  # noqa: E402
 from materia.parse import parse_letter, parse_sources  # noqa: E402
-from materia.prompt import build_prompt, build_prompt_evidence_nocite, build_prompt_retrieval  # noqa: E402
+from materia.prompt import (  # noqa: E402
+    build_prompt, build_prompt_evidence_nocite, build_prompt_hint, build_prompt_retrieval,
+)
 from materia.stats import wilson_str  # noqa: E402
 
 BATCH = 20
@@ -52,7 +54,7 @@ def make_retriever(args):
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--panel", default=str(config.DATA_DIR / "herbal_set_104.json"))
-    ap.add_argument("--condition", choices=["closed", "retrieval", "hybrid", "routed"], default="closed")
+    ap.add_argument("--condition", choices=["closed", "retrieval", "hybrid", "routed", "hint"], default="closed")
     ap.add_argument("--out", default=None)
     ap.add_argument("--max-tokens", type=int, default=768)
     ap.add_argument("--workers", type=int, default=2)
@@ -66,6 +68,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="print the first prompt and exit")
     ap.add_argument("--no-think", action="store_true", help="disable thinking (direct answer)")
     ap.add_argument("--no-cite", action="store_true", help="evidence without asking the model to cite")
+    ap.add_argument("--smart-hint", action="store_true", help="pick the best-matching sentence for the hint")
     ap.add_argument("--evidence-words", type=int, default=100)
     ap.add_argument("--rerank", action="store_true", help="pointwise model reranking of candidates")
     ap.add_argument("--rerank-fetch", type=int, default=8)
@@ -126,7 +129,12 @@ def main(argv: list[str] | None = None) -> int:
         use = use_retrieval(item, chunks)
         if use and reranker is not None:
             chunks = reranker.rank(item["q"], chunks, top_k=args.k)
-        if use and args.no_cite:
+        if args.condition == "hint":
+            from materia.retrieve import grounded_chunks
+            g = grounded_chunks(chunks, item["q"]) if chunks else []
+            hint_chunk = g[0] if g else (chunks[0] if chunks else None)
+            prompt = build_prompt_hint(item, hint_chunk, config.RULE_BUDGET, smart=args.smart_hint)
+        elif use and args.no_cite:
             prompt = build_prompt_evidence_nocite(item, chunks, config.RULE_BUDGET, args.evidence_words)
         elif use:
             prompt = build_prompt_retrieval(item, chunks, config.RULE_BUDGET, args.evidence_words)

@@ -7,6 +7,8 @@ score (HANDOVER §4).
 """
 from __future__ import annotations
 
+import re
+
 from .config import RULE_BUDGET
 
 
@@ -92,6 +94,47 @@ def build_prompt_evidence_nocite(item: dict, chunks: list[dict], rule: str = RUL
     for i, c in enumerate(chunks, start=1):
         lines += [f"[S{i}] {evidence_header(i, c)}", _trim(c.get("text", ""), evidence_words), ""]
     lines += ["QUESTION", item["q"], ""]
+    for k in sorted(item["o"]):
+        lines.append(f"{k}) {item['o'][k]}")
+    lines += ["", "Answer:"]
+    return "\n".join(lines)
+
+
+def _tokens(text: str) -> set[str]:
+    return {t for t in re.split(r"\W+", text.lower()) if len(t) > 3}
+
+
+def best_sentence(text: str, question: str) -> str:
+    """Pick the sentence in the chunk that best matches the question.
+
+    The first sentence of a monograph chunk is often the heading or the herb's name; the
+    sentence that carries the claim is usually further in.
+    """
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
+    if not sentences:
+        return text
+    q = _tokens(question)
+    best = max(sentences, key=lambda s: len(q & _tokens(s)))
+    return best
+
+
+def build_prompt_hint(item: dict, chunk: dict | None, rule: str = RULE_BUDGET,
+                      words: int = 35, smart: bool = False) -> str:
+    """Evidence as one short reference line inside the question, not as a reading block.
+
+    The failure documented in docs/gate3.md is that an EVIDENCE section turns a multiple-choice
+    question into a reading-comprehension task the model cannot finish. A single sentence may
+    be usable without that collapse, and it keeps deliberation on the table.
+    """
+    hint = ""
+    if chunk:
+        text = re.sub(r"\s+", " ", chunk.get("text", "")).strip()
+        hint = best_sentence(text, item["q"]) if smart else text.split(".")[0]
+        hint = " ".join(hint.split()[:words])
+    lines = [rule, ""]
+    if hint:
+        lines += [f"Reference (may or may not be relevant): {hint}", ""]
+    lines += [item["q"], ""]
     for k in sorted(item["o"]):
         lines.append(f"{k}) {item['o'][k]}")
     lines += ["", "Answer:"]

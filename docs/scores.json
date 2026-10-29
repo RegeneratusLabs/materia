@@ -377,6 +377,27 @@
     "overall_pct": 42.3,
     "lab_pct": 60.0
    }
+  },
+  {
+   "condition": "v2 panel (104), hint mode (1-sentence reference), thinking, cap-completed",
+   "file": "results/panel_hint_think.jsonl (300) + results/tmp/hint_capped_768.jsonl (14 re-runs)",
+   "n": 104,
+   "correct": 102,
+   "pct": 98.1,
+   "ci95": [
+    93.3,
+    99.5
+   ],
+   "answered": 104,
+   "hit_token_cap": 0,
+   "method": "composed: 92/104 answered within 300 tokens (14 capped); those 14 re-run at 768 gave 10 correct",
+   "validation": "natural-stop outputs identical at 300 and 768 cap on the 5 overlapping items",
+   "attribution": {
+    "grounded": 9,
+    "grounded_correct": 9,
+    "memory": 95,
+    "memory_correct": 83
+   }
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-29T05:07:31+00:00",
- "git_sha": "9210177",
+ "generated_at": "2026-10-29T05:37:10+00:00",
+ "git_sha": "e83a234",
  "corpus": {
   "manifest_generated": "2026-10-29",
   "documents": 367,
@@ -9,7 +9,7 @@
   "index_bytes": 11546624,
   "index_mtime": "2026-10-29T05:01:33+00:00"
  },
- "prompt_sha256": "sha256:62db183660280e6c3a6184f2c5a11936d47ff8d9c74af4dc45356b358471a5eb",
+ "prompt_sha256": "sha256:644457629b8365971028978b8dc99d00a103b461cbdb35e8fd53fed4bdd75e45",
  "rules_sha256": "sha256:0c7b1985e6dbd8dd4950479a520b44db5810b36a7d513919ef8e0ff0ca387715",
  "model": {
   "reason_gguf": "/home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf",
