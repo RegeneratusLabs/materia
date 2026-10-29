@@ -384,13 +384,42 @@ class Retriever:
 CLINICAL_ASSERTIONS = {"safety", "dose", "efficacy", "monitoring", "diagnostic"}
 
 
+STOP_TERMS = set(
+    "what which patient patients taking takes taken asks about does most likely main concern "
+    "risk risks because chief appropriate response concern concerned with from that this these "
+    "those produce produces result results effect effects caused cause daily product products "
+    "treatment treatments symptom symptoms health herbal supplement supplements medication "
+    "medications therapy blood levels level high low increase increase increased decrease "
+    "decreased reduce reduced recommend recommended".split()
+)
+
+
+def _terms(text: str) -> set[str]:
+    return {t for t in re.split(r"\W+", text.lower())
+            if len(t) > 4 and t not in STOP_TERMS}
+
+
 def grounded_chunks(chunks: list[dict], question: str) -> list[dict]:
-    """Chunks that pass the coverage test for this question: entity document + claim type."""
+    """Chunks that plausibly cover the question.
+
+    Entity document + claim type is not enough on its own: a fish-oil cautions chunk is the
+    right entity and the right claim type for a kava hepatotoxicity question only by
+    accident. So the chunk must also share at least two content terms with the question,
+    ignoring the entity's own names (which always match).
+    """
     want = expected_sections(question)
-    return [
-        c for c in chunks
-        if c.get("in_entity_doc") and (c["section"] in want or c["assertion_type"] in CLINICAL_ASSERTIONS)
-    ]
+    q_terms = _terms(question)
+    out = []
+    for c in chunks:
+        if not c.get("in_entity_doc"):
+            continue
+        if not (c["section"] in want or c["assertion_type"] in CLINICAL_ASSERTIONS):
+            continue
+        entity_terms = _terms(" ".join(c.get("entities") or []) + " " + c.get("title", ""))
+        overlap = (q_terms - entity_terms) & _terms(c["text"])
+        if len(overlap) >= 1:
+            out.append(c)
+    return out
 
 
 def group_conflicts(chunks: list[dict]) -> list[dict]:

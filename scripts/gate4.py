@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from materia import config, llm, symptom  # noqa: E402
+from materia import config, llm, symptom, verify  # noqa: E402
 from materia.corpus.index import open_index  # noqa: E402
 from materia.retrieve import Retriever, group_conflicts  # noqa: E402
 
@@ -81,6 +81,10 @@ def main(argv: list[str] | None = None) -> int:
         )
         sheet, removed = symptom.enforce_vetoes(r["text"], findings)
         issues = symptom.contract_check(sheet, chunks, findings)
+        checked = verify.verify_options_block(sheet, chunks)
+        for line in checked["lines"]:
+            if not line["supported"]:
+                issues.append(f"unsupported claim: {line['line'][:70]} ({line['reason']})")
         records.append(
             {
                 "id": v["id"],
@@ -95,6 +99,7 @@ def main(argv: list[str] | None = None) -> int:
                     {"chunk_id": c["chunk_id"], "text": c["text"][:600]} for c in chunks
                 ],
                 "contract_issues": issues,
+                "verified": {"supported": checked["supported"], "total": checked["total"]},
                 "conflicts": group_conflicts(chunks),
                 "sheet": sheet,
                 "raw_sheet": r["text"],

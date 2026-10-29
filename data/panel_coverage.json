@@ -46,7 +46,7 @@
  {
   "id": "H03",
   "cat": "herb-safety",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -54,7 +54,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "hc-nhpid-fish-oil-huile-poisson#007",
+  "best": null,
   "top": [
    "hc-nhpid-fish-oil-huile-poisson#007",
    "hc-nhpid-fish-oil-huile-poisson#005",
@@ -140,7 +140,7 @@
  {
   "id": "H08",
   "cat": "herb-drug",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -148,7 +148,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "hc-nhpid-5htp#006",
+  "best": null,
   "top": [
    "hc-nhpid-5htp#006",
    "hc-nhpid-5htp#007",
@@ -216,7 +216,7 @@
  {
   "id": "H12",
   "cat": "herb-drug",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -224,7 +224,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "ema-valeriana-officinalis-l-aetheroleum#003",
+  "best": null,
   "top": [
    "ema-valeriana-officinalis-l-aetheroleum#003",
    "ema-valeriana-officinalis-l-aetheroleum#004",
@@ -246,7 +246,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "hc-nhpid-ginseng-panax2#008",
+  "best": "nccih-asian-ginseng#006",
   "top": [
    "hc-nhpid-ginseng-panax2#008",
    "nccih-asian-ginseng#007",
@@ -260,7 +260,7 @@
  {
   "id": "H14",
   "cat": "herb-safety",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -268,7 +268,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "hc-nhpid-fish-oil-huile-poisson#007",
+  "best": null,
   "top": [
    "hc-nhpid-fish-oil-huile-poisson#007",
    "hc-nhpid-fish-oil-huile-poisson#005",
@@ -395,9 +395,9 @@
  {
   "id": "H21",
   "cat": "herb-drug",
-  "covered": true,
+  "covered": false,
   "want_sections": [],
-  "best": "hc-nhpid-melatonin-oral2#004",
+  "best": null,
   "top": [
    "hc-nhpid-melatonin-oral2#004",
    "hc-nhpid-melatonin-sublinguale2#004",
@@ -457,7 +457,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "hc-nhpid-turmeric-oral-curcuma-orale#007",
+  "best": "nccih-turmeric#005",
   "top": [
    "hc-nhpid-turmeric-oral-curcuma-orale#007",
    "hc-nhpid-turmeric-topical2#006",
@@ -745,9 +745,9 @@
  {
   "id": "L15",
   "cat": "lab",
-  "covered": true,
+  "covered": false,
   "want_sections": [],
-  "best": "hc-nhpid-vitamin-d-hd#004",
+  "best": null,
   "top": [
    "hc-nhpid-vitamin-d-hd#004",
    "hc-nhpid-vitamin-d-hd#002",
@@ -769,7 +769,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "hc-nhpid-fish-oil-huile-poisson#007",
+  "best": "hc-nhpid-fish-oil-huile-poisson#003",
   "top": [
    "hc-nhpid-fish-oil-huile-poisson#007",
    "hc-nhpid-fish-oil-huile-poisson#003",
@@ -881,7 +881,7 @@
  {
   "id": "E01",
   "cat": "herb-drug",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -889,7 +889,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "nccih-st-johns-wort#005",
+  "best": null,
   "top": [
    "nccih-st-johns-wort#005",
    "nccih-st-johns-wort#006",
@@ -933,7 +933,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "hc-nhpid-cranberry-canneberge2#006",
+  "best": "nccih-cranberry#006",
   "top": [
    "hc-nhpid-cranberry-canneberge2#006",
    "nccih-cranberry#006",
@@ -963,7 +963,7 @@
  {
   "id": "E05",
   "cat": "herb-drug",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -971,7 +971,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "nccih-fenugreek#005",
+  "best": null,
   "top": [
    "nccih-fenugreek#005",
    "hc-nhpid-fenugreek-topical2#006",
@@ -1045,7 +1045,7 @@
  {
   "id": "E09",
   "cat": "herb-drug",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1053,7 +1053,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "nccih-passionflower#005",
+  "best": null,
   "top": [
    "nccih-passionflower#005",
    "hc-nhpid-passionflower-passiflore#006",
@@ -1067,9 +1067,9 @@
  {
   "id": "E10",
   "cat": "herb-drug",
-  "covered": true,
+  "covered": false,
   "want_sections": [],
-  "best": "nccih-green-tea#005",
+  "best": null,
   "top": [
    "nccih-green-tea#005",
    "nccih-green-tea#002",
@@ -1161,7 +1161,7 @@
  {
   "id": "E15",
   "cat": "herb-drug",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1169,7 +1169,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "nccih-dandelion#005",
+  "best": null,
   "top": [
    "nccih-dandelion#005",
    "nccih-dandelion#001",
@@ -1221,7 +1221,7 @@
  {
   "id": "E18",
   "cat": "herb-safety",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1229,7 +1229,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "hc-nhpid-fish-oil-huile-poisson#007",
+  "best": null,
   "top": [
    "hc-nhpid-fish-oil-huile-poisson#007",
    "hc-nhpid-fish-oil-huile-poisson#005",
@@ -1363,7 +1363,7 @@
  {
   "id": "E25",
   "cat": "herb-safety",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -1371,7 +1371,7 @@
    "interactions",
    "red_flags"
   ],
-  "best": "hc-nhpid-angelica-sinensis2#006",
+  "best": null,
   "top": [
    "hc-nhpid-angelica-sinensis2#006",
    "hc-nhpid-angelica-sinensis2#007",
@@ -1582,9 +1582,9 @@
  {
   "id": "L17",
   "cat": "lab",
-  "covered": true,
+  "covered": false,
   "want_sections": [],
-  "best": "hc-nhpid-vitamin-d-hd#004",
+  "best": null,
   "top": [
    "hc-nhpid-vitamin-d-hd#004",
    "hc-nhpid-vitamin-d-hd#002",

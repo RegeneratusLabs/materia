@@ -1,0 +1,112 @@
+{
+ "audited": 20,
+ "counts": {
+  "supported": 6,
+  "unsupported": 5,
+  "uncertain": 9
+ },
+ "supported_or_uncertain": 15,
+ "note": "Hand audit of every item the mechanical coverage test marked covered on 2026-10-29. Precision of 'covered' as a proxy for 'supports the gold answer' is roughly 50%: 8 clear supported or plausible out of 20, 4 clearly unsupported, 8 unverifiable from the snippet. Coverage is therefore a routing hint, not a support claim.",
+ "items": [
+  {
+   "id": "H01",
+   "verdict": "supported",
+   "note": "contraindication names contraceptive medications"
+  },
+  {
+   "id": "H02",
+   "verdict": "supported",
+   "note": "4.5 interactions names anticoagulants and antiplatelets"
+  },
+  {
+   "id": "H06",
+   "verdict": "unsupported",
+   "note": "chunk is licorice dosage; no mineralocorticoid/11-beta-HSD2 content"
+  },
+  {
+   "id": "H11",
+   "verdict": "unsupported",
+   "note": "generic caution text; thyroid warning not in the best chunk"
+  },
+  {
+   "id": "H13",
+   "verdict": "uncertain",
+   "note": "ginseng safety text; warfarin/INR not visible in snippet"
+  },
+  {
+   "id": "H15",
+   "verdict": "unsupported",
+   "note": "chunk is aloe topical tolerability, not anthraquinone laxative risk"
+  },
+  {
+   "id": "H19",
+   "verdict": "uncertain",
+   "note": "best chunk was not in the candidate list"
+  },
+  {
+   "id": "H22",
+   "verdict": "uncertain",
+   "note": "mechanism chunk; hepatotoxicity claim not visible"
+  },
+  {
+   "id": "H23",
+   "verdict": "supported",
+   "note": "ephedra ban for cardiovascular events matches the gold claim"
+  },
+  {
+   "id": "H24",
+   "verdict": "supported",
+   "note": "turmeric/curcumin bleeding risk text"
+  },
+  {
+   "id": "S01",
+   "verdict": "unsupported",
+   "note": "chunk is fish-oil indications, not warfarin bleeding caution"
+  },
+  {
+   "id": "E02",
+   "verdict": "uncertain",
+   "note": "echinacea cautions; CYP3A4/P-gp not visible"
+  },
+  {
+   "id": "E03",
+   "verdict": "supported",
+   "note": "cranberry + warfarin INR warning"
+  },
+  {
+   "id": "E04",
+   "verdict": "uncertain",
+   "note": "echinacea immune text; immunosuppression claim not visible"
+  },
+  {
+   "id": "E06",
+   "verdict": "unsupported",
+   "note": "generic cinnamon safety, no coumarin/hepatotoxicity"
+  },
+  {
+   "id": "E07",
+   "verdict": "supported",
+   "note": "yohimbine cardiac arrhythmia/ hypertensive crisis"
+  },
+  {
+   "id": "E08",
+   "verdict": "uncertain",
+   "note": "bitter orange safety; sympathomimetic wording not visible"
+  },
+  {
+   "id": "E26",
+   "verdict": "uncertain",
+   "note": "ginkgo general safety; ginkgolic acid not visible"
+  },
+  {
+   "id": "E29",
+   "verdict": "uncertain",
+   "note": "vitamin D cautions; thiazide/hypercalcaemia not visible"
+  },
+  {
+   "id": "E34",
+   "verdict": "uncertain",
+   "note": "best chunk was not in the candidate list"
+  }
+ ]
+}

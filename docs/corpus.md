@@ -7,18 +7,20 @@
 
 | Metric | Value |
 |---|---|
-| Documents | **301** |
-| Chunks | 3,527 |
-| Words | 447,085 |
-| Chunks per document (mean) | 11.7 |
-| Licence-clear (redistributable) | **301 / 301** |
-| Publication dates | 2016-04-11 → 2026-09-25 |
+| Documents | **330** |
+| Chunks | 3,794 |
+| Words | 463,842 |
+| Chunks per document (mean) | 11.5 |
+| Licence-clear (redistributable) | **330 / 330** |
+| Publication dates | 2006-07-13 → 2026-09-25 |
 
 | Source | Docs | Tier | Jurisdiction | Licence | Access |
 |---|---|---|---|---|---|
 | Health Canada NNHPD | 222 | regulatory | ca | OGL-Canada | HTML, 182 single + 40 multi-ingredient |
 | NCCIH (NIH) | 56 | compendium | us | US federal, public domain | HTML |
 | NCI PDQ | 23 | primary | us | US federal, public domain | HTML |
+| EMA (HMPC) | 21 | regulatory | eu | EMA reuse, attribution | PDF, harvested from the sitemap |
+| Europe PMC CC-BY | 8 | primary | international | CC BY | REST API, licence-filtered |
 
 Section mix: other 1,384 · dosage 679 · indications 412 · adverse effects 340 · methodology 233 · cautions 227 · evidence 126 · contraindications 109 · interactions 15 · pharmacology 2.
 Assertion mix: other 1,619 · safety 691 · dose 679 · efficacy 538.
@@ -74,3 +76,20 @@ refresh job is **not yet written** — it is scheduled work, listed as such rath
 Raw source files are not committed (`corpus/raw/` is gitignored); the parsed documents are, because both
 licences permit redistribution with attribution. Health Canada content is attributed by `source` and `url`
 on every document; NCI and NCCIH likewise.
+
+
+## Update 2026-10-29 — EMA and CC-BY additions, coverage measured
+
+- **EMA**: 131 monograph URLs harvested from the sitemap (164 pages, 129 s, 4 workers), of which 21
+  concern panel herbs (ginkgo, echinacea, valerian, saw palmetto, milk thistle, garlic, lavender,
+  passionflower, lemon balm, chamomile, green tea, frankincense/boswellia, feverfew, curcuma).
+  Their monographs use the fixed numbered structure (4.1 indications … 4.8 undesirable effects), so
+  chunks carry real claim types. Hypericum, panax, withania and piper were **not found** in the sitemap
+  document set — the sitemap is not a complete inventory, and a targeted per-herb crawl is still needed.
+- **Europe PMC CC-BY**: 18 targeted queries, 16 accepted, then 8 rejected by hand as off-topic
+  (recorded in `corpus/rejected.json`). 8 shipped. Abstracts only, `tier: primary`,
+  `date_precision: year` because only the publication year is available.
+- **Coverage** (`scripts/coverage.py` → `data/panel_coverage.json`): **34/104 = 32.7%** of panel items
+  have a retrieved chunk from the question's entity document carrying the right claim type.
+  By category: herb–drug 73.1%, herb–safety 45.0%, nutrient–drug 16.7%, lab 6.7%, referral 0%.
+  Coverage is not support — a stratified sample is audited separately.

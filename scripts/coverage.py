@@ -13,7 +13,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from materia import config
 from materia.corpus.index import open_index
-from materia.retrieve import Retriever, expected_sections
+from materia.retrieve import Retriever, expected_sections, grounded_chunks
 
 items = json.loads((config.DATA_DIR / "herbal_set_104.json").read_text())
 conn = open_index(config.CORPUS_DIR / "index.sqlite")
@@ -23,16 +23,14 @@ rows = []
 for it in items:
     want = expected_sections(it["q"])
     hits = r.search(it["q"])
-    entity_hits = [c for c in hits if c["in_entity_doc"]]
-    clinical = {"safety", "dose", "efficacy", "monitoring", "diagnostic"}
-    typed = [c for c in entity_hits if c["section"] in want or c["assertion_type"] in clinical]
+    typed = grounded_chunks(hits, it["q"])
     covered = bool(typed)
     rows.append({
         "id": it["id"], "cat": it["cat"], "covered": covered,
         "want_sections": sorted(want),
-        "best": typed[0]["chunk_id"] if typed else (entity_hits[0]["chunk_id"] if entity_hits else None),
+        "best": typed[0]["chunk_id"] if typed else None,
         "top": [c["chunk_id"] for c in hits],
-        "entity_docs_found": len(entity_hits),
+        "entity_docs_found": sum(1 for c in hits if c["in_entity_doc"]),
     })
 
 out = config.DATA_DIR / "panel_coverage.json"

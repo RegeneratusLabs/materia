@@ -20,7 +20,7 @@ from pathlib import Path
 from . import calc, config, extract, llm, ocr, parse, symptom
 from .corpus.index import open_index, stats as corpus_stats
 from .prompt import build_prompt_retrieval
-from .retrieve import Retriever, group_conflicts
+from .retrieve import Retriever, grounded_chunks, group_conflicts
 
 
 def _retriever(index: str | None = None) -> Retriever:
@@ -74,9 +74,13 @@ def cmd_ingest(args: argparse.Namespace) -> int:
 def cmd_ask(args: argparse.Namespace) -> int:
     r = _retriever(args.index)
     chunks = r.search(args.question)
+    grounded = grounded_chunks(chunks, args.question)
     if not chunks:
         print("NO_EVIDENCE — nothing in the corpus matched.")
         return 0
+    if not grounded:
+        print("[memory mode] No corpus document covers this question. The answer below is from "
+              "model knowledge, not a source — verify before use.\n")
     item = {"q": args.question, "o": {}}
     prompt = build_prompt_retrieval(item, chunks, config.RULE_BUDGET, evidence_words=120)
     llm.ensure_reason(ctx=8192, parallel=2)
