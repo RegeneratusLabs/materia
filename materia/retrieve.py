@@ -52,6 +52,15 @@ SYNONYMS: dict[str, list[str]] = {
     "ginger": ["zingiber officinale", "zingiberis rhizoma"],
     "boswellia": ["frankincense", "boswellia serrata"],
     "maca": ["lepidium meyenii"],
+    "dong quai": ["angelica sinensis", "angelicae sinensis radix"],
+    "comfrey": ["symphytum officinale", "symphyti radix"],
+    "reishi": ["ganoderma lucidum"],
+    "cordyceps": ["cordyceps sinensis", "ophiocordyceps"],
+    "berberine": ["berberis", "berberidis cortex", "coptis"],
+    "holy basil": ["ocimum tenuiflorum", "ocimum sanctum", "tulsi"],
+    "probiotics": ["lactobacillus", "bifidobacterium"],
+    "sam-e": ["s-adenosylmethionine", "s adenosyl methionine"],
+    "dhea": ["dehydroepiandrosterone"],
 }
 
 # Query-side expansion for terms practitioners use and monographs do not.
@@ -71,10 +80,12 @@ TOPIC_ALIASES: dict[str, list[str]] = {
 }
 
 SECTION_FOR_QUESTION: list[tuple[str, set[str]]] = [
-    (r"risk|safe|contraindicat|adverse|toxicit|hepatotox|interact|bleed|pregnan|lactat|side effect",
+    # safety intent first: a "bleeding risk with high-dose X" question is a safety question
+    (r"risk|safe|contraindicat|adverse|toxicit|hepatotox|interact|bleed|coagul|anticoag|"
+     r"warfarin|inr|pregnan|lactat|side effect|concern|consequence|danger|harm",
      {"contraindications", "cautions", "adverse_effects", "interactions", "red_flags"}),
-    (r"dose|dosage|how much|mg\b|amount|regimen", {"dosage"}),
-    (r"effective|evidence|benefit|improv|help|treat|work", {"indications", "evidence", "pharmacology"}),
+    (r"dose|dosage|how much|\bmg\b|amount|regimen", {"dosage"}),
+    (r"effective|evidence|benefit|improv|help|treat|work|indication", {"indications", "evidence", "pharmacology"}),
     (r"lab|ferritin|tsh|b12|folate|reference|range|interval", {"reference_interval", "monitoring"}),
 ]
 
@@ -151,6 +162,14 @@ def _fts_query(text: str, entities: list[str]) -> str:
 
 
 class Retriever:
+    """BM25 retrieval with an entity-first candidate set and a section prior.
+
+    Why this exists: plain BM25 on a herb question returns the herb's *name* chunk and
+    whatever else shares vocabulary. A clinician asking "is St John's wort safe with
+    warfarin" needs the contraindication/interaction chunk, not the taxonomy. So: resolve
+    the entity, restrict candidates to that herb's documents, then rank by claim type.
+    """
+
     def __init__(self, conn: sqlite3.Connection, *, k: int = 6, per_doc: int = 2,
                  require_jurisdiction: bool = False):
         self.conn = conn
@@ -159,8 +178,94 @@ class Retriever:
         self.lex = build_lexicon(conn)
         self.require_jurisdiction = require_jurisdiction
 
-    def search(self, question: str, jurisdiction: str | None = None) -> list[dict]:
+    # -- internals ---------------------------------------------------------
+    @staticmethod
+    def _norm(text: str) -> str:
+        return re.sub(r"[^a-z0-9 ]+", " ", (text or "").lower()).replace("  ", " ").strip()
+
+    def _load_doc_entities(self) -> dict[str, str]:
+        if getattr(self, "_doc_entity_cache", None) is None:
+            cache: dict[str, str] = {}
+            for row in self.conn.execute("SELECT doc_id, entities FROM docs"):
+                try:
+                    ents = json.loads(row["entities"] or "[]")
+                except json.JSONDecodeError:
+                    ents = []
+                cache[row["doc_id"]] = self._norm(" ".join(ents))
+            self._doc_entity_cache = cache
+        return self._doc_entity_cache
+
+    def _entity_docs(self, entities: list[str]) -> set[str]:
+        """Match on normalised text so "St. John's Wort" and "st johns wort" agree."""
+        if not entities:
+            return set()
+        cache = self._load_doc_entities()
+        tokens: set[str] = set()
+        for e in entities:
+            base = re.sub(r"\s*\([^)]*\)", "", e)
+            tokens.add(self._norm(base))
+            m = re.search(r"\(([^)]+)\)", e)
+            if m:
+                tokens.add(self._norm(m.group(1)))
+            if len(base.split()) > 2:
+                tokens.add(self._norm(" ".join(base.split()[:2])))
+        tokens = {t for t in tokens if len(t) >= 4}
+        if not tokens:
+            return set()
+        out: set[str] = set()
+        for doc_id, text in cache.items():
+            if any(t in text for t in tokens):
+                out.add(doc_id)
+        return out
+
+    def _section_chunks(self, doc_ids: set[str], sections: set[str], limit: int = 24) -> list[dict]:
+        """Chunks of the right claim type from the entity's own documents.
+
+        BM25 alone misses these when the question's vocabulary matches a dosage sentence
+        better than a contraindication; the clinician still needs the contraindication.
+        """
+        if not doc_ids or not sections:
+            return []
+        docs = list(doc_ids)[:20]
+        marks = ",".join("?" for _ in docs)
+        secs = list(sections)
+        smarks = ",".join("?" for _ in secs)
+        rows = self.conn.execute(
+            f"""
+            SELECT c.chunk_id, c.doc_id, c.text, c.section, c.assertion_type, c.topics,
+                   c.entities, d.source, d.tier, d.jurisdiction, d.date, d.title, d.url,
+                   d.identifier_value
+            FROM chunks c JOIN docs d ON d.doc_id = c.doc_id
+            WHERE c.doc_id IN ({marks}) AND c.section IN ({smarks})
+            LIMIT ?
+            """,
+            docs + secs + [limit],
+        ).fetchall()
+        return [dict(r) for r in rows]
+
+    def _meta(self, chunk_ids: list[str]) -> dict[str, dict]:
+        if not chunk_ids:
+            return {}
+        marks = ",".join("?" for _ in chunk_ids)
+        rows = self.conn.execute(
+            f"""
+            SELECT c.chunk_id, c.doc_id, c.text, c.section, c.assertion_type, c.topics,
+                   c.entities, d.source, d.tier, d.jurisdiction, d.date, d.title, d.url,
+                   d.identifier_value
+            FROM chunks c JOIN docs d ON d.doc_id = c.doc_id
+            WHERE c.chunk_id IN ({marks})
+            """,
+            chunk_ids,
+        ).fetchall()
+        return {r["chunk_id"]: dict(r) for r in rows}
+
+    # -- search ------------------------------------------------------------
+    def search(self, question: str, jurisdiction: str | None = None,
+               entity_first: bool = True) -> list[dict]:
         entities = find_entities(question, self.lex)
+        low = question.lower()
+        alias_terms = {a for a in self.lex if len(a) >= 4 and a in low}
+        match_terms = list(dict.fromkeys(entities + sorted(alias_terms)))
         query = _fts_query(question, entities)
         if not query:
             return []
@@ -170,69 +275,122 @@ class Retriever:
             FROM chunks_fts f
             WHERE chunks_fts MATCH ?
             ORDER BY score
-            LIMIT 80
+            LIMIT 240
             """,
             (query,),
         ).fetchall()
+        if not rows:
+            return []
 
+        meta = self._meta([r["chunk_id"] for r in rows])
         want = expected_sections(question)
-        q_ents = [e.lower() for e in find_entities(question, self.lex)]
+        ent_docs = self._entity_docs(match_terms) if entity_first else set()
+
         candidates: list[dict] = []
-        per_doc: dict[str, int] = {}
         for row in rows:
-            meta = self.conn.execute(
-                """
-                SELECT c.chunk_id, c.doc_id, c.text, c.section, c.assertion_type, c.topics,
-                       d.source, d.tier, d.jurisdiction, d.date, d.title, d.url, d.identifier_value
-                FROM chunks c JOIN docs d ON d.doc_id = c.doc_id
-                WHERE c.chunk_id = ?
-                """,
-                (row["chunk_id"],),
-            ).fetchone()
-            if meta is None:
+            m = meta.get(row["chunk_id"])
+            if not m:
                 continue
-            if jurisdiction and meta["jurisdiction"] not in (jurisdiction, "international"):
+            if jurisdiction and m["jurisdiction"] not in (jurisdiction, "international"):
                 continue
-            n = per_doc.get(meta["doc_id"], 0)
-            if n >= self.per_doc:
-                continue
-            per_doc[meta["doc_id"]] = n + 1
+            in_entity = m["doc_id"] in ent_docs
+            section_hit = m["section"] in want
+            # entity documents first, then claim-type fit, then BM25
+            score = (
+                (1.0 if in_entity else 0.0)
+                + (0.6 if section_hit else 0.0)
+                - row["score"] / 50.0
+            )
             candidates.append(
                 {
-                    "chunk_id": meta["chunk_id"],
-                    "doc_id": meta["doc_id"],
-                    "text": meta["text"],
-                    "section": meta["section"],
-                    "assertion_type": meta["assertion_type"],
-                    "topics": json.loads(meta["topics"] or "[]"),
-                    "source": meta["source"],
-                    "tier": meta["tier"],
-                    "jurisdiction": meta["jurisdiction"],
-                    "date": meta["date"],
-                    "title": meta["title"],
-                    "url": meta["url"],
-                    "identifier": meta["identifier_value"],
+                    "chunk_id": m["chunk_id"],
+                    "doc_id": m["doc_id"],
+                    "text": m["text"],
+                    "section": m["section"],
+                    "assertion_type": m["assertion_type"],
+                    "topics": json.loads(m["topics"] or "[]"),
+                    "entities": json.loads(m["entities"] or "[]"),
+                    "source": m["source"],
+                    "tier": m["tier"],
+                    "jurisdiction": m["jurisdiction"],
+                    "date": m["date"],
+                    "title": m["title"],
+                    "url": m["url"],
+                    "identifier": m["identifier_value"],
                     "bm25": round(row["score"], 3),
+                    "in_entity_doc": in_entity,
+                    "score": round(score, 3),
                 }
             )
-        # re-rank: BM25 is negative (lower is better); section fit is a real signal on
-        # monographs, where a contraindication and a dose sentence share vocabulary.
-        for c in candidates:
-            chunk_ents = " ".join(c.get("entities") or []).lower()
-            entity_bonus = 0.8 if any(e in chunk_ents for e in q_ents) else 0.0
-            c["score"] = -c["bm25"] + (0.6 if c["section"] in want else 0.0) + entity_bonus
+
+        # claim-type chunks from the entity's own documents always get a look-in
+        if ent_docs and want:
+            seen = {c["chunk_id"] for c in candidates}
+            for m in self._section_chunks(ent_docs, want):
+                if m["chunk_id"] in seen:
+                    continue
+                candidates.append(
+                    {
+                        "chunk_id": m["chunk_id"],
+                        "doc_id": m["doc_id"],
+                        "text": m["text"],
+                        "section": m["section"],
+                        "assertion_type": m["assertion_type"],
+                        "topics": json.loads(m["topics"] or "[]"),
+                        "entities": json.loads(m["entities"] or "[]"),
+                        "source": m["source"],
+                        "tier": m["tier"],
+                        "jurisdiction": m["jurisdiction"],
+                        "date": m["date"],
+                        "title": m["title"],
+                        "url": m["url"],
+                        "identifier": m["identifier_value"],
+                        "bm25": 0.0,
+                        "in_entity_doc": True,
+                        "score": 2.0,
+                    }
+                )
+
+        if not candidates:
+            return []
         candidates.sort(key=lambda c: c["score"], reverse=True)
+
         chosen: list[dict] = []
         used: dict[str, int] = {}
+        covered: set[str] = set()
+        # pass 1: one chunk per expected section from an entity document, best first
         for c in candidates:
-            n = used.get(c["doc_id"], 0)
-            if n >= self.per_doc:
+            if c["section"] not in want or c["section"] in covered:
                 continue
-            used[c["doc_id"]] = n + 1
+            if used.get(c["doc_id"], 0) >= self.per_doc:
+                continue
             chosen.append(c)
+            used[c["doc_id"]] = used.get(c["doc_id"], 0) + 1
+            covered.add(c["section"])
+        # pass 2: fill by score, respecting the per-document cap
+        for c in candidates:
             if len(chosen) >= self.k:
                 break
-        return chosen
+            if c in chosen:
+                continue
+            if used.get(c["doc_id"], 0) >= self.per_doc:
+                continue
+            chosen.append(c)
+            used[c["doc_id"]] = used.get(c["doc_id"], 0) + 1
+        chosen.sort(key=lambda c: c["score"], reverse=True)
+        return chosen[: self.k]
+
+
+CLINICAL_ASSERTIONS = {"safety", "dose", "efficacy", "monitoring", "diagnostic"}
+
+
+def grounded_chunks(chunks: list[dict], question: str) -> list[dict]:
+    """Chunks that pass the coverage test for this question: entity document + claim type."""
+    want = expected_sections(question)
+    return [
+        c for c in chunks
+        if c.get("in_entity_doc") and (c["section"] in want or c["assertion_type"] in CLINICAL_ASSERTIONS)
+    ]
 
 
 def group_conflicts(chunks: list[dict]) -> list[dict]:

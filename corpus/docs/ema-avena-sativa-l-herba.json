@@ -1,0 +1,198 @@
+{
+ "doc_id": "ema-avena-sativa-l-herba",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "avena sativa l herba",
+ "title_extra": null,
+ "date": "2008-09-04",
+ "revised": "2008-09-04",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-avena-sativa-l-herba_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-avena-sativa-l-herba_en.pdf"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:0321598b113a903a5272b6cba27ac76928f3699328cfa775806baa378ae4a3e3",
+ "entities": [
+  "avena sativa l herba"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nTraditional herbal medicinal product for relief of\nmild symptoms of mental stress and to aid sleep.\nThe product is a traditional herbal medicinal\nproduct\nfor\nuse\nin\nspecified\nindications\nexclusively based upon long-standing use.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 41
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#002",
+   "text": "4.2 Posology and method of administration: Well-established use\nTraditional use\nPosology\nAdolescents over 12 years of age, adults, elderly\nHerbal preparations\nSingle dose\nComminuted herbal substance: 3 g for the\npreparation of an infusion.\nLiquid extract (1:4-6 ethanol 15-50% v/v): up to\n5 ml up to 3 times daily\nLiquid extract (1:4-6 water ): up to 5 ml up to\n3 times daily\nOther preparations corresponding to the daily\ndose of 3 g dried herb.\nExpressed juice from the fresh herb: 10 ml\n3-4 times daily.\nThe use is not recommended in children under\n12 years of age (see section 4.4 ‘Special warnings\nand precautions for use’).\nDuration of use\nIf the symptoms persist during the use of the\nmedicinal product, a doctor or a qualified health\ncare practitioner should be consulted.\nMethod of administration\nOral use.\n© EMEA 2008\n3/5",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 141
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nThe use is not recommended in children under\n12 years of age due to the lack of adequate data.\nCaution is advised when used in patients with\ncoeliac disease because data on the protein\ncontent are not available.\nFor liquid extracts containing ethanol, the\nappropriate labelling for ethanol, taken from the\n‘Guideline on excipients in the label and package\nleaflet of medicinal products for human use’,\nmust be included.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 80
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of interaction: Well-established use\nTraditional use\nNone reported.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#006",
+   "text": "4.6 Pregnancy and lactation: Well-established use\nTraditional use\nSafety during pregnancy and lactation has not\nbeen established.\nIn the absence of sufficient data, the use during\npregnancy and lactation is not recommended.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nMay impair ability to drive and use machines.\nAffected patients should not drive or operate\nmachinery.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nNone known.\nIf adverse reactions occur, a doctor or a qualified\nhealth care practitioner should be consulted.\n© EMEA 2008\n4/5\n© EMEA 2008\n5/5",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-herba#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

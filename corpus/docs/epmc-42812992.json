@@ -1,0 +1,76 @@
+{
+ "doc_id": "epmc-42812992",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Effect of Herbal Extracts on Antituberculosis Drug-Induced Hepatotoxicity: A Systematic Review.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42812992",
+ "identifier": {
+  "type": "pmid",
+  "value": "42812992"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:be990594de0395b974c9d8d8be246d2fd42eeb0804e62042124e73d70f69395d",
+ "entities": [
+  "Effect of Herbal Extracts on Antituberculosis Drug-Induced Hepatotoxicity: A Sys"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42812992#001",
+   "text": "Background Tuberculosis (TB) remains a major global health challenge. While effective, first-line antitubercular drugs such as isoniazid and rifampicin often cause hepatotoxicity, limiting treatment safety. Herbal extracts with antioxidant and hepatoprotective properties may help mitigate this liver damage. This systematic review evaluates the protective effects of plant extracts against antitubercular drug-induced hepatotoxicity, aiming to inform potential adjuvant strategies. Methods Following PRISMA-P guidelines, PubMed, Scopus, and Google Scholar were searched for \"in vivo studies assessing plant extracts against hepatotoxicity caused by anti-TB drugs.\" Two independent reviewers screened and extracted data. Study quality was evaluated using SYRCLE's risk of bias tool. Results Sixty-eight in vivo studies were included.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "Effect of Herbal Extracts on Antituberculosis Drug-Induced Hepatotoxicity: A Sys"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 106
+  },
+  {
+   "chunk_id": "epmc-42812992#002",
+   "text": "Overall, plant extracts demonstrated variable hepatoprotective efficacy, with some showing significant improvement in certain species- Luffa acutangula L. , Lawsonia inermis L., and Cucumis trigonus Roxb. showed the highest reduction in serum liver enzymes: aspartate aminotransferase (AST), alanine transaminase (ALT), alkaline phosphatase (ALP) in U/L, and total bilirubin (TBil) and antioxidant parameters glutathione (GSH), catalase (CAT), and superoxide dismutase (SOD), suggesting hepatoprotective potential. Conclusion Medicinal plants demonstrate variable hepatoprotective effects in animal models of anti-TB drug-induced liver injury, though their mechanisms of oxidative stress remain unclear. Among them, the extracts from Luffa acutangula L., Lawsonia inermis L., and Cucumis trigonus Roxb. showed promising hepatoprotective effects.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "Effect of Herbal Extracts on Antituberculosis Drug-Induced Hepatotoxicity: A Sys"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "epmc-42812992#003",
+   "text": "These effects are likely associated with antioxidant and cytoprotective mechanisms. However, further well-designed preclinical and clinical research are required to establish their dosage, safety, and efficacy before integration into TB therapy. Trial Registration: PROSPERO: CRD42024563060.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "Effect of Herbal Extracts on Antituberculosis Drug-Induced Hepatotoxicity: A Sys"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 35
+  }
+ ],
+ "date_precision": "year"
+}

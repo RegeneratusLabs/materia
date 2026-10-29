@@ -1,0 +1,201 @@
+{
+ "doc_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "camellia sinensis l kuntze non fermentatum folium",
+ "title_extra": null,
+ "date": "2013-11-12",
+ "revised": "2013-11-12",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-camellia-sinensis-l-kuntze-non-fermentatum-folium_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/283630/2012"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:6679693db4ec30cbf56b1a37e56021456a0d66f68f7e21e80a419d86d616d550",
+ "entities": [
+  "camellia sinensis l kuntze non fermentatum folium"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nTraditional herbal medicinal product for relief of\nfatigue and sensation of weakness.\n1\nThe declaration of the active substance(s) for an individual finished product should be in accordance with relevant herbal\nquality guidance.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#002",
+   "text": "4.2 Posology and method of administration3: Well-established use\nTraditional use\nPosology\nAdults and elderly\na) Herbal tea\n1.8 – 2.2 g of whole or comminuted herbal\nsubstance in 100 – 150 ml of boiling water as a\nherbal infusion, 3 – 5 times daily.\nb) powdered herbal substance\nSingle dose:\n390 mg, 3 times daily (up to 5 times if necessary)\nThe use in children and adolescents under\n18 years of age is not recommended (see section\n4.4 ‘Special warnings and precautions for use’.\nDuration of use\nIf the symptoms persist longer than 1 week\nduring the use of the medicinal product, a doctor\nor a qualified health care practitioner should be\nconsulted.\nMethod of administration\nOral use.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance(s).\nGastric and duodenal ulcers, cardiovascular\ndisorders such as hypertension and arrhythmia,\nhyperthyroidism.\n3 For guidance on herbal substance/herbal preparation administered as herbal tea or as infusion/decoction/macerate\npreparation, please refer to the HMPC ‘Glossary on herbal teas’ (EMA/HMPC/5829/2010 Rev.1).\nCommunity herbal monograph on Camellia sinensis (L.) Kuntze, non fermentatum folium\nEMA/HMPC/283630/2012\nPage 4/5",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "thyroid",
+    "hypertension",
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nThe use in children and adolescents under\n18 years of age has not been established due to\nlack of adequate data.\nNot recommended before bedtime as it may cause\nsleep disturbances.\nIf symptoms worsen during the use of the\nmedicinal products a doctor or a qualified health\npractitioner should be consulted.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 62
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nCaffeine containing preparations reduce actions of\nsedative substances and increase side effects\ncaused by sympathomimetic drugs.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "sedation",
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#006",
+   "text": "4.6 Fertility, pregnancy and lactation: Well-established use\nTraditional use\nNo fertility data available.\nSafety during pregnancy and lactation has not\nbeen established. In the absence of sufficient\ndata, the use during pregnancy and lactation is\nnot recommended.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nNo studies on the effect on the ability to drive and\nuse machines have been performed.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nNone known.\nIf adverse reactions occur, a doctor or a qualified\nhealth care practitioner should be consulted.\nCommunity herbal monograph on Camellia sinensis (L.) Kuntze, non fermentatum folium\nEMA/HMPC/283630/2012\nPage 5/5",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nOverdose (quantities corresponding to more than\n300 mg caffeine or 5 cups of tea as a beverage)\ncan lead to restlessness, tremor, and elevated\nreflex excitability. The first signs of poisoning are\nvomiting and abdominal spasm.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 42
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.\nCaffeine crosses the placenta and is distributed in\nbreast milk.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "camellia sinensis l kuntze non fermentatum folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 28
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "doc_id": "ema-chamaemelum-nobile-l-all-flos",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "chamaemelum nobile l all flos",
+ "title_extra": null,
+ "date": "2011-11-22",
+ "revised": "2011-11-22",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-chamaemelum-nobile-l-all-flos_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/560734/2010"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:02de282746959d4865d7626f35c9c9929bece8ba3dd4cb99b5048abfde254a5d",
+ "entities": [
+  "chamaemelum nobile l all flos"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nTraditional herbal medicinal product for the\nsymptomatic treatment of mild, spasmodic gastro-",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#002",
+   "text": "4.2 Posology and method of administration3: Well-established use\nTraditional use\nPosology\nAdolescents, adults and elderly\nHerbal tea: 1-4 g of the herbal substance or\ncomminuted herbal substance in 100-150 ml of\nboiling water as a herbal infusion 3 times daily\nbetween the meals.\nLiquid extract: 1-4 ml 3 times daily.\nThe use in children under 12 years of age is not\nrecommended (see section 4.4 ‘Special warnings\nand precautions for use’).\nDuration of use\nIf the symptoms persist longer than 2 weeks\nduring the use of the medicinal product, a doctor\nor a qualified health care practitioner should be\nconsulted.\nMethod of administration\nOral use.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance and to\nother plants of the Asteraceae (Compositae)\nfamily.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nThe use in children under 12 years of age has not\n3 For guidance on herbal substance/herbal preparation administered as herbal tea or as infusion/decoction/macerate\npreparation, please refer to the HMPC ‘Glossary on herbal teas’ (EMA/HMPC/5829/2010 Rev.1).\nCommunity herbal monograph on Chamaemelum nobile (L.) All., flos\nEMA/HMPC/560734/2010\nPage 4/5\nWell-established use\nTraditional use\nbeen established due to lack of adequate data.\nIf the symptoms worsen during the use of the\nmedicinal product, a doctor or a qualified health\ncare practitioner should be consulted.\nFor extracts containing ethanol, the appropriate\nlabelling for ethanol, taken from the ‘Guideline on\nexcipients in the label and package leaflet of\nmedicinal products for human use’, must be\nincluded.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 124
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nNone reported.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#006",
+   "text": "4.6 Fertility, pregnancy and lactation: Well-established use\nTraditional use\nSafety during pregnancy and lactation has not\nbeen established. In the absence of sufficient\ndata, the use during pregnancy and lactation is\nnot recommended.\nNo fertility data available.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nNo studies on the effect on the ability to drive and\nuse machines have been performed.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nNone reported.\nIf adverse reactions occur, a doctor or a qualified\nhealth care practitioner should be consulted.\nCommunity herbal monograph on Chamaemelum nobile (L.) All., flos\nEMA/HMPC/560734/2010\nPage 5/5",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "ema-chamaemelum-nobile-l-all-flos#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "chamaemelum nobile l all flos"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

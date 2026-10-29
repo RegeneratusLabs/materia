@@ -1,0 +1,200 @@
+{
+ "doc_id": "ema-echinacea-purpurea-l-moench-herba-recens",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "European Union herbal monograph on Echinacea",
+ "title_extra": null,
+ "date": "2015-11-24",
+ "revised": "2015-11-24",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-echinacea-purpurea-l-moench-herba-recens_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/48704/2014"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:89b058e95d3f3ed56475dfa3da9f33ab96c97cba08202902f4830b6de2f936a0",
+ "entities": [
+  "Union herbal monograph"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nHerbal medicinal product for the short-term\nprevention and treatment of common cold.\nTraditional herbal medicinal product for\ntreatment of small superficial wounds.\nThe product is a traditional herbal medicinal\n2 The declaration of the active substance(s) for an individual finished product should be in accordance with relevant herbal\nquality guidance.\n3 Detailed specifications for the herbal substance shall be given by references to bibliographic sources in absence of a\nmonograph in the European Pharmacopoeia, a national pharmacopoeia or national codex currently used officially in a\nMember State.\nEuropean Union herbal monograph on Echinacea purpurea (L.) Moench, herba recens\nEMA/HMPC/48704/2014\nPage 4/7\nWell-established use\nTraditional use\nproduct for use in the specified indication\nexclusively based upon long-standing use.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 124
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#002",
+   "text": "4.2 Posology and method of administration: Well-established use\nTraditional use\nPosology\nAdolescents, adults and elderly\nSingle dose: 1.5-4.5 ml expressed juice\nDaily dose: 6-9 ml expressed juice.\nDoses of dried expressed juice should correspond\nto the posologies of the expressed juice.\nThe use in children under 12 year of age is not\nrecommended (see section 4.4 ‘Special warnings\nand precautions for use’).\nDuration of use\nFor prevention and treatment, do not use the\nmedicinal product for more than 10 days.\nFor treatment, start the therapy at first signs of\ncommon cold.\nIf the symptoms persist for more than 10 days, a\ndoctor or a pharmacist should be consulted.\nMethod of administration\nOral use\nPosology\nAdolescents, adults and elderly\n10 to 20 g /100 g of expressed juice or\nequivalent amount of dried expressed juice.\nSmall amount of ointment is applied on the\naffected area 2-3 times a day.\nThe use in children under 12 years of age is not\nrecommended (see 4.4. ‘Special warnings and\nprecautions for use').\nDuration of use\nNot to be used for more than 1 week.\nIf the symptoms persist during the use of the\nmedicinal product, a doctor or a qualified health\ncare practitioner should be consulted.\nMethod of administration\nCutaneous use",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 207
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance and to\nother plants of the Asteraceae (Compositae)\nfamily.\nHypersensitivity to the active substance and to\nother plants of the Asteraceae (Compositae)\nfamily.\nEuropean Union herbal monograph on Echinacea purpurea (L.) Moench, herba recens\nEMA/HMPC/48704/2014\nPage 5/7",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nThe use is not recommended in cases of\nprogressive systemic disorders, autoimmune\ndiseases, immunodeficiencies,\nimmunosuppression and diseases of the white\nblood cell system\nIf the symptoms worsen or high fever occurs\nduring the use of the product, a doctor or a\npharmacist should be consulted.\nThere is a possible risk of severe hypersensitivity\nreactions in atopic patients. Atopic patients\nshould consult their doctor before using\nEchinacea.\nThe use is not recommended in children below\n12 years of age due to insufficient data.\nFor preparations containing ethanol the\nappropriate labelling for ethanol, taken from the\n‘Guideline on excipients in the label and package\nleaflet of medicinal products for human use’,\nmust be included.\nIf signs of skin infection are observed, medical\nadvice should be sought.\nThe use in children below 12 years of age is not\nrecommended because a safe use has not been\nsufficiently documented.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "immunosuppression",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 156
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nNone reported.\nNone reported.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#006",
+   "text": "4.6 Fertility, pregnancy and lactation: Well-established use\nTraditional use\nLimited data (several hundreds of exposed\npregnancies) indicate no adverse effects of\nEchinacea on pregnancy or on the health of the\nfoetus/newborn child. No other relevant\nepidemiological data are available.\nIn the absence of sufficient data, the use in\npregnancy and lactation is not recommended\nunless advised by a doctor.\nNo fertility data available.\nThere are no data on use during pregnancy or\nlactation.\nProducts containing Echinacea should not be\napplied to the breast of breastfeeding women.\nNo fertility data available.\nEuropean Union herbal monograph on Echinacea purpurea (L.) Moench, herba recens\nEMA/HMPC/48704/2014\nPage 6/7",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nNo studies on the effects on the ability to drive\nand use machines have been performed.\nNo studies on the effects on the ability to drive\nand use machines have been performed.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nHypersensitive reactions in the form of rash,\nurticaria, itching, swelling of the face may occur.\nCases of severe hypersensitivity reactions, such\nas Stevens-Johnson Syndrome, angioedema of\nthe skin, Quincke oedema, bronchospasm with\nairway obstruction, asthma and anaphylactic\nshock have been reported. The frequency is not\nknown.\nEchinacea can trigger allergic reactions in atopic\npatients.\nAssociation with autoimmune diseases cannot be\nexcluded.\nIf other adverse reactions not mentioned above\noccur, a doctor or a pharmacist should be\nconsulted.\nHypersensitive reactions (local rash, contact\ndermatitis, eczema and angioedema of the lips)\nmay occur. The frequency is not known.\nIf other adverse reactions not mentioned above\noccur, a doctor or a qualified health care\npractitioner should be consulted.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 122
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.\nNo case of overdose has been reported.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nPharmacotherapeutic group: Other cold\npreparations\nProposed ATC code: R05X\nThe mechanism of action is not known.\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.\nEuropean Union herbal monograph on Echinacea purpurea (L.) Moench, herba recens\nEMA/HMPC/48704/2014\nPage 7/7",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "ema-echinacea-purpurea-l-moench-herba-recens#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNo data available.\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  }
+ ]
+}

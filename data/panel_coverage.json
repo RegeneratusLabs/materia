@@ -1,0 +1,1952 @@
+[
+ {
+  "id": "H01",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-stjohnswort-millepertuis-oral2#007",
+  "top": [
+   "hc-nhpid-stjohnswort-millepertuis-oral2#007",
+   "hc-nhpid-stjohnswort-millepertuis-topical#008",
+   "hc-nhpid-stjohnswort-millepertuis-topical#007",
+   "hc-nhpid-stjohnswort-millepertuis-oral2#008",
+   "nccih-st-johns-wort#005",
+   "epmc-41764614#003"
+  ],
+  "entity_docs_found": 5
+ },
+ {
+  "id": "H02",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "ema-ginkgo-biloba-l-folium#005",
+  "top": [
+   "ema-ginkgo-biloba-l-folium#005",
+   "ema-ginkgo-biloba-l-folium#004",
+   "nccih-ginkgo#006",
+   "hc-nhpid-ginkgo-biloba2#006",
+   "hc-nhpid-ginkgo-biloba2#005",
+   "nccih-ginkgo#001"
+  ],
+  "entity_docs_found": 6
+ },
+ {
+  "id": "H03",
+  "cat": "herb-safety",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-fish-oil-huile-poisson#007",
+  "top": [
+   "hc-nhpid-fish-oil-huile-poisson#007",
+   "hc-nhpid-fish-oil-huile-poisson#005",
+   "epmc-42812739#003",
+   "nci-pdq-prostate-supplements-pdq#046",
+   "nci-pdq-dietary-interactions-pdq#035",
+   "ema-valeriana-officinalis-l-radix#006"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "H04",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-cartilage-pdq#055",
+   "nccih-soy#005",
+   "epmc-42812739#002",
+   "nci-pdq-vitamin-c-pdq#040",
+   "nci-pdq-curcumin-pdq#051",
+   "hc-nhpid-oligotherapy2#006"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "H05",
+  "cat": "herb-drug",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-dietary-interactions-pdq#023",
+   "nci-pdq-dietary-interactions-pdq#034",
+   "nci-pdq-prostate-supplements-pdq#069",
+   "ema-allium-sativum-l-bulbus#005",
+   "ema-ginkgo-biloba-l-folium#005",
+   "nci-pdq-prostate-supplements-pdq#035"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "H06",
+  "cat": "herb-safety",
+  "covered": true,
+  "want_sections": [
+   "dosage"
+  ],
+  "best": "hc-nhpid-licorice-reglisse2#003",
+  "top": [
+   "hc-nhpid-licorice-reglisse2#003",
+   "nccih-licorice-root#005",
+   "nccih-licorice-root#003",
+   "hc-nhpid-deg-lic-reg-buccal-buccale2#003",
+   "hc-nhpid-licorice-reglisse2#004",
+   "hc-nhpid-deg-lic-reg-buccal-buccale2#004"
+  ],
+  "entity_docs_found": 6
+ },
+ {
+  "id": "H07",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-hydrazine-sulfate-pdq#031",
+   "nci-pdq-prostate-supplements-pdq#014",
+   "hc-nhpid-oligotherapy2#004",
+   "hc-nhpid-vitamin-d-hd#005",
+   "nci-pdq-hydrazine-sulfate-pdq#008",
+   "hc-nhpid-multiple-joint-health2#013"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "H08",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-5htp#006",
+  "top": [
+   "hc-nhpid-5htp#006",
+   "hc-nhpid-5htp#007",
+   "hc-nhpid-diindolylmethane#005",
+   "hc-nhpid-indole3carbinol#005",
+   "epmc-42633317#001",
+   "hc-nhpid-fonc-cognitive-func#022"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "H09",
+  "cat": "herb-drug",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nccih-goldenseal#004",
+   "nci-pdq-prostate-supplements-pdq#192",
+   "nccih-ashwagandha#005",
+   "ema-allium-sativum-l-bulbus#004",
+   "nci-pdq-prostate-supplements-pdq#130",
+   "nccih-astragalus#005"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "H10",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "nccih-cranberry#006",
+   "nccih-bitter-orange#005",
+   "nccih-licorice-root#005",
+   "ema-lavandula-angustifolia-miller-aetheroleum#004",
+   "hc-nhpid-acne#006",
+   "epmc-42787405#003"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "H11",
+  "cat": "herb-safety",
+  "covered": true,
+  "want_sections": [],
+  "best": "hc-nhpid-ashwagandha2#005",
+  "top": [
+   "nccih-ashwagandha#001",
+   "hc-nhpid-ashwagandha2#005",
+   "hc-nhpid-ashwagandha2#003",
+   "hc-nhpid-fish-oil-huile-poisson#005",
+   "hc-nhpid-fish-oil-huile-poisson#007",
+   "nccih-ashwagandha#002"
+  ],
+  "entity_docs_found": 6
+ },
+ {
+  "id": "H12",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "ema-valeriana-officinalis-l-aetheroleum#003",
+  "top": [
+   "ema-valeriana-officinalis-l-aetheroleum#003",
+   "ema-valeriana-officinalis-l-aetheroleum#004",
+   "ema-valeriana-officinalis-l-radix#008",
+   "ema-valeriana-officinalis-l-radix#006",
+   "nccih-valerian#005",
+   "hc-nhpid-valerian2#005"
+  ],
+  "entity_docs_found": 6
+ },
+ {
+  "id": "H13",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-ginseng-panax2#008",
+  "top": [
+   "hc-nhpid-ginseng-panax2#008",
+   "nccih-asian-ginseng#007",
+   "nccih-asian-ginseng#006",
+   "hc-nhpid-ginseng-panax2#007",
+   "hc-nhpid-tcm#010",
+   "epmc-41764614#003"
+  ],
+  "entity_docs_found": 4
+ },
+ {
+  "id": "H14",
+  "cat": "herb-safety",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-fish-oil-huile-poisson#007",
+  "top": [
+   "hc-nhpid-fish-oil-huile-poisson#007",
+   "hc-nhpid-fish-oil-huile-poisson#005",
+   "epmc-42812739#003",
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-dietary-interactions-pdq#035",
+   "hc-nhpid-tcm#008"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "H15",
+  "cat": "herb-safety",
+  "covered": true,
+  "want_sections": [],
+  "best": "nccih-aloe-vera#006",
+  "top": [
+   "nccih-aloe-vera#006",
+   "nccih-aloe-vera#007",
+   "hc-nhpid-aloe-oral-orale2#004",
+   "hc-nhpid-aloe-gel#003",
+   "hc-nhpid-aloe-topical-topique2#004",
+   "hc-nhpid-aloe-gel#004"
+  ],
+  "entity_docs_found": 6
+ },
+ {
+  "id": "H16",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [
+   "dosage"
+  ],
+  "best": null,
+  "top": [
+   "ema-serenoa-repens-w-bartram-small-fructus#002",
+   "hc-nhpid-workout-supplements-entrainement#011",
+   "hc-nhpid-multiple-oil#003",
+   "hc-nhpid-antiox#058",
+   "hc-nhpid-antiox#057",
+   "hc-nhpid-multiple-joint-health2#013"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "H17",
+  "cat": "nutrient-safety",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-workout-supplements-entrainement#020",
+   "ema-ginkgo-biloba-l-folium#003",
+   "ema-ginkgo-biloba-l-folium#006",
+   "hc-nhpid-vitamin-d-hd#009",
+   "nccih-ephedra#005",
+   "ema-allium-sativum-l-bulbus#005"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "H18",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42633317#002",
+   "nci-pdq-coenzyme-q10-pdq#035",
+   "hc-nhpid-whey-prod-lactoserum2#006",
+   "hc-nhpid-calcium-potassium2#007",
+   "hc-nhpid-workout-supplements-entrainement#020",
+   "hc-nhpid-fonc-cognitive-func#020"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "H19",
+  "cat": "nutrient-lab",
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": "epmc-42689097#002",
+  "top": [
+   "epmc-42689097#002",
+   "epmc-42689097#001",
+   "epmc-42783810#001",
+   "epmc-42783810#002",
+   "epmc-42647256#001",
+   "epmc-42647256#002"
+  ],
+  "entity_docs_found": 4
+ },
+ {
+  "id": "H20",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-dietary-interactions-pdq#027",
+   "nci-pdq-prostate-supplements-pdq#174",
+   "nci-pdq-prostate-supplements-pdq#070",
+   "hc-nhpid-chlorella-vulgaris2#002",
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "epmc-42633317#002"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "H21",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [],
+  "best": "hc-nhpid-melatonin-oral2#004",
+  "top": [
+   "hc-nhpid-melatonin-oral2#004",
+   "hc-nhpid-melatonin-sublinguale2#004",
+   "hc-nhpid-melatonin-oral2#007",
+   "hc-nhpid-melatonin-sublinguale2#007",
+   "ema-allium-sativum-l-bulbus#005",
+   "nccih-kava#006"
+  ],
+  "entity_docs_found": 4
+ },
+ {
+  "id": "H22",
+  "cat": "herb-safety",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "nci-pdq-black-cohosh-pdq#011",
+  "top": [
+   "nci-pdq-black-cohosh-pdq#011",
+   "nccih-black-cohosh#005",
+   "nccih-black-cohosh#006",
+   "nci-pdq-black-cohosh-pdq#030",
+   "hc-nhpid-black-cohosh-actee-noire2#005",
+   "hc-nhpid-black-cohosh-actee-noire2#006"
+  ],
+  "entity_docs_found": 6
+ },
+ {
+  "id": "H23",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [],
+  "best": "nccih-ephedra#005",
+  "top": [
+   "nccih-ephedra#005",
+   "nccih-ephedra#002",
+   "hc-nhpid-ephedra2#004",
+   "hc-nhpid-ephedra2#002",
+   "nccih-yohimbe#005",
+   "nccih-bitter-orange#002"
+  ],
+  "entity_docs_found": 4
+ },
+ {
+  "id": "H24",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-turmeric-oral-curcuma-orale#007",
+  "top": [
+   "hc-nhpid-turmeric-oral-curcuma-orale#007",
+   "hc-nhpid-turmeric-topical2#006",
+   "nci-pdq-curcumin-pdq#051",
+   "nccih-turmeric#005",
+   "hc-nhpid-turmeric-topical2#007",
+   "ema-ginkgo-biloba-l-folium#005"
+  ],
+  "entity_docs_found": 5
+ },
+ {
+  "id": "H25",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nccih-astragalus#005",
+   "ema-echinacea-purpurea-l-moench-herba-recens#004",
+   "nccih-ashwagandha#005",
+   "nccih-thunder-god-vine#002",
+   "nccih-cats-claw#005",
+   "nci-pdq-714-x-pdq#004"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L01",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-aromatherapy-pdq#006",
+   "nccih-saw-palmetto#002",
+   "nccih-green-tea#006",
+   "nci-pdq-prostate-supplements-pdq#003",
+   "nci-pdq-ndv-pdq#057",
+   "hc-nhpid-workout-supplements-entrainement#008"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L02",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-curcumin-pdq#012",
+   "hc-nhpid-propolis-oral-orale2#002",
+   "hc-nhpid-cayenne-oral-orale2#002",
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "nci-pdq-pc-spes-pdq#037",
+   "nci-pdq-prostate-supplements-pdq#082"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L03",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-gerson-pdq#005",
+   "nci-pdq-aromatherapy-pdq#006",
+   "nci-pdq-mistletoe-pdq#048",
+   "epmc-42633317#002",
+   "hc-nhpid-oligotherapy2#002"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L04",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "dosage"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-oligotherapy2#002",
+   "hc-nhpid-ginkgo-biloba2#004",
+   "hc-nhpid-carrot2#003",
+   "hc-nhpid-oligotherapy2#004",
+   "nccih-cinnamon#003",
+   "hc-nhpid-betaine2#003"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L05",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42647256#001",
+   "epmc-42647256#002",
+   "epmc-42689097#002",
+   "epmc-42689097#001",
+   "epmc-42783810#002",
+   "epmc-42783810#001"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L06",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-gerson-pdq#021",
+   "nccih-hoodia#005",
+   "epmc-42783810#002",
+   "nci-pdq-prostate-supplements-pdq#117",
+   "nccih-bitter-orange#005",
+   "nci-pdq-acupuncture-pdq#084"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L07",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "epmc-42633317#001",
+   "epmc-42633317#002",
+   "nci-pdq-milk-thistle-pdq#038",
+   "epmc-42647256#001",
+   "epmc-42689097#002",
+   "nci-pdq-prostate-supplements-pdq#178"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L08",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-pygeum#005",
+   "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#009",
+   "hc-nhpid-saw-palmetto-sabal2#006",
+   "hc-nhpid-grape-seed-extract#004",
+   "hc-nhpid-vitamin-d-hd#007",
+   "nci-pdq-black-cohosh-pdq#030"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L09",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nccih-grape-seed-extract#004",
+   "nccih-green-tea#004",
+   "hc-nhpid-fish-oil-huile-poisson#003",
+   "nccih-flaxseed-and-flaxseed-oil#004",
+   "nci-pdq-prostate-supplements-pdq#036",
+   "nci-pdq-prostate-supplements-pdq#208"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L10",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-prostate-supplements-pdq#239",
+   "nci-pdq-milk-thistle-pdq#040",
+   "nci-pdq-acupuncture-pdq#040",
+   "nccih-turmeric#004",
+   "hc-nhpid-multiple-joint-health2#005"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L11",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "dosage"
+  ],
+  "best": null,
+  "top": [
+   "nccih-cinnamon#003",
+   "ema-matricaria-recutita-l-flos-first-version#002",
+   "ema-matricaria-recutita-l-flos-first-version#003",
+   "ema-ginkgo-biloba-l-folium#002",
+   "ema-serenoa-repens-w-bartram-small-fructus#002",
+   "ema-tanacetum-parthenium-l-schulz-bip-herba#002"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L12",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "epmc-42812992#002",
+   "nci-pdq-milk-thistle-pdq#036",
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-milk-thistle-pdq#035",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-curcumin-pdq#020"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L13",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42633317#001",
+   "hc-nhpid-vitamin-d-hd#008",
+   "nci-pdq-prostate-supplements-pdq#136",
+   "nci-pdq-prostate-supplements-pdq#085",
+   "hc-nhpid-oligotherapy2#006",
+   "epmc-42787405#003"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L14",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-cancell-pdq#006",
+   "nci-pdq-cancell-pdq#007",
+   "nccih-green-tea#006",
+   "nci-pdq-gonzalez-pdq#010",
+   "nci-pdq-acupuncture-pdq#006",
+   "nccih-saw-palmetto#002"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L15",
+  "cat": "lab",
+  "covered": true,
+  "want_sections": [],
+  "best": "hc-nhpid-vitamin-d-hd#004",
+  "top": [
+   "hc-nhpid-vitamin-d-hd#004",
+   "hc-nhpid-vitamin-d-hd#002",
+   "hc-nhpid-antiox#057",
+   "hc-nhpid-fonc-cognitive-func#008",
+   "hc-nhpid-carrot2#004",
+   "hc-nhpid-multiple-joint-health2#010"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "S01",
+  "cat": "safety",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-fish-oil-huile-poisson#007",
+  "top": [
+   "hc-nhpid-fish-oil-huile-poisson#007",
+   "hc-nhpid-fish-oil-huile-poisson#003",
+   "epmc-42783810#002",
+   "nci-pdq-coenzyme-q10-pdq#034",
+   "hc-nhpid-multiple-joint-health2#016",
+   "ema-ginkgo-biloba-l-folium#005"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "S02",
+  "cat": "safety",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nccih-peppermint-oil#002",
+   "nci-pdq-acupuncture-pdq#060",
+   "nccih-st-johns-wort#005",
+   "nccih-garcinia-cambogia#005",
+   "nci-pdq-mistletoe-pdq#067",
+   "nci-pdq-aromatherapy-pdq#004"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "S03",
+  "cat": "safety",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nccih-turmeric#005",
+   "hc-nhpid-multiple-joint-health2#016",
+   "hc-nhpid-greentea-thevert2#006",
+   "hc-nhpid-tamar-malabar2#005",
+   "hc-nhpid-calcium-potassium2#006",
+   "nccih-acai#002"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "S04",
+  "cat": "safety",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "ema-echinacea-purpurea-l-moench-herba-recens#006",
+   "ema-ginkgo-biloba-l-folium#006",
+   "nccih-elderberry#005",
+   "ema-allium-sativum-l-bulbus#006",
+   "ema-ginkgo-biloba-l-folium#003",
+   "epmc-41764614#001"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "S05",
+  "cat": "safety",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42812739#002",
+   "nci-pdq-coenzyme-q10-pdq#034",
+   "hc-nhpid-tcm#008",
+   "hc-nhpid-cascara-sagrada2#007",
+   "hc-nhpid-aloe-oral-orale2#006",
+   "epmc-41764614#001"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "S06",
+  "cat": "safety",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42787405#001",
+   "nccih-dandelion#005",
+   "ema-serenoa-repens-w-bartram-small-fructus#005",
+   "nccih-ginkgo#006",
+   "nccih-cranberry#006",
+   "ema-ginkgo-biloba-l-folium#004"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E01",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "nccih-st-johns-wort#005",
+  "top": [
+   "nccih-st-johns-wort#005",
+   "nccih-st-johns-wort#006",
+   "hc-nhpid-stjohnswort-millepertuis-topical#008",
+   "hc-nhpid-stjohnswort-millepertuis-oral2#006",
+   "hc-nhpid-stjohnswort-millepertuis-topical#007",
+   "nci-pdq-dietary-interactions-pdq#036"
+  ],
+  "entity_docs_found": 5
+ },
+ {
+  "id": "E02",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-garlic-ail#006",
+  "top": [
+   "hc-nhpid-garlic-ail#006",
+   "nccih-garlic#005",
+   "hc-nhpid-garlic-ail#007",
+   "nccih-garlic#004",
+   "ema-allium-sativum-l-bulbus#005",
+   "ema-allium-sativum-l-bulbus#003"
+  ],
+  "entity_docs_found": 4
+ },
+ {
+  "id": "E03",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-cranberry-canneberge2#006",
+  "top": [
+   "hc-nhpid-cranberry-canneberge2#006",
+   "nccih-cranberry#006",
+   "hc-nhpid-cranberry-dried-canneberge-deshydrate2#006",
+   "nccih-cranberry#005",
+   "hc-nhpid-cranberry-canneberge2#004",
+   "ema-ginkgo-biloba-l-folium#005"
+  ],
+  "entity_docs_found": 5
+ },
+ {
+  "id": "E04",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [],
+  "best": "nccih-echinacea#005",
+  "top": [
+   "nccih-echinacea#005",
+   "nccih-echinacea#006",
+   "ema-echinacea-angustifolia-dc-radix#004",
+   "hc-nhpid-echinacea-angustifolia2#005",
+   "hc-nhpid-echinacea-pallida2#007",
+   "hc-nhpid-echinacea-purpurea2#009"
+  ],
+  "entity_docs_found": 6
+ },
+ {
+  "id": "E05",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "nccih-fenugreek#005",
+  "top": [
+   "nccih-fenugreek#005",
+   "hc-nhpid-fenugreek-topical2#006",
+   "hc-nhpid-fenugreek-oral2#005",
+   "nccih-fenugreek#002",
+   "hc-nhpid-fenugreek-topical2#002",
+   "ema-ginkgo-biloba-l-folium#005"
+  ],
+  "entity_docs_found": 5
+ },
+ {
+  "id": "E06",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "nccih-cinnamon#005",
+  "top": [
+   "nccih-cinnamon#005",
+   "nccih-cinnamon#006",
+   "hc-nhpid-cinnamomum-verum#007",
+   "hc-nhpid-cinnamomum-verum#006",
+   "nccih-peppermint-oil#006",
+   "ema-allium-sativum-l-bulbus#005"
+  ],
+  "entity_docs_found": 4
+ },
+ {
+  "id": "E07",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [],
+  "best": "nccih-yohimbe#005",
+  "top": [
+   "nccih-yohimbe#005",
+   "nccih-yohimbe#001",
+   "nci-pdq-acupuncture-pdq#098",
+   "nci-pdq-acupuncture-pdq#106",
+   "nccih-ashwagandha#005",
+   "nccih-astragalus#005"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "E08",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "nccih-bitter-orange#005",
+  "top": [
+   "nccih-bitter-orange#005",
+   "nccih-bitter-orange#006",
+   "ema-allium-sativum-l-bulbus#005",
+   "nci-pdq-prostate-supplements-pdq#045",
+   "hc-nhpid-conj-linoleic-acid#006",
+   "hc-nhpid-chitosan2#006"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "E09",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "nccih-passionflower#005",
+  "top": [
+   "nccih-passionflower#005",
+   "hc-nhpid-passionflower-passiflore#006",
+   "hc-nhpid-passionflower-passiflore#007",
+   "nccih-passionflower#002",
+   "nccih-kava#005",
+   "ema-allium-sativum-l-bulbus#005"
+  ],
+  "entity_docs_found": 4
+ },
+ {
+  "id": "E10",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [],
+  "best": "nccih-green-tea#005",
+  "top": [
+   "nccih-green-tea#005",
+   "nccih-green-tea#002",
+   "hc-nhpid-greentea-thevert2#006",
+   "hc-nhpid-greentea-thevert2#003",
+   "nci-pdq-dietary-interactions-pdq#027",
+   "nci-pdq-dietary-interactions-pdq#032"
+  ],
+  "entity_docs_found": 4
+ },
+ {
+  "id": "E11",
+  "cat": "herb-drug",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-prostate-supplements-pdq#019",
+   "nci-pdq-prostate-supplements-pdq#015",
+   "hc-nhpid-rhodiol2#002",
+   "hc-nhpid-multiple-joint-health2#013",
+   "nci-pdq-coenzyme-q10-pdq#033",
+   "nci-pdq-dietary-interactions-pdq#009"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E12",
+  "cat": "herb-drug",
+  "covered": false,
+  "want_sections": [
+   "dosage"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-skin-peau#004",
+   "hc-nhpid-vitamin-d-hd#006",
+   "hc-nhpid-vitamin-d-hd#004",
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "nccih-asian-ginseng#003",
+   "hc-nhpid-whey-prod-lactoserum2#003"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E13",
+  "cat": "herb-drug",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-prostate-supplements-pdq#205",
+   "nci-pdq-coenzyme-q10-pdq#033",
+   "nci-pdq-black-cohosh-pdq#030",
+   "nccih-st-johns-wort#005",
+   "nccih-hoodia#005",
+   "hc-nhpid-vitamin-d-hd#007"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E14",
+  "cat": "herb-drug",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-dietary-interactions-pdq#037",
+   "nccih-pomegranate#005",
+   "nci-pdq-dietary-interactions-pdq#033",
+   "nci-pdq-coenzyme-q10-pdq#033",
+   "hc-nhpid-antiox#066",
+   "hc-nhpid-stinging-nettle-juice2#007"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E15",
+  "cat": "herb-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "nccih-dandelion#005",
+  "top": [
+   "nccih-dandelion#005",
+   "nccih-dandelion#001",
+   "nci-pdq-black-cohosh-pdq#014",
+   "hc-nhpid-feuille-olea-europaea-leaf2#008",
+   "hc-nhpid-tcm#008",
+   "ema-ginkgo-biloba-l-folium#005"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "E16",
+  "cat": "herb-drug",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-arctostaphylos-uva-ursi2#007",
+   "nccih-peppermint-oil#006",
+   "nccih-valerian#005",
+   "ema-echinacea-purpurea-l-moench-herba-recens#006",
+   "nccih-ashwagandha#005",
+   "hc-nhpid-arctostaphylos-uva-ursi2#006"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E17",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nccih-yohimbe#005",
+   "nci-pdq-dietary-interactions-pdq#007",
+   "nccih-ephedra#002",
+   "nci-pdq-mushrooms-pdq#001",
+   "nccih-cinnamon#003",
+   "nccih-ephedra#005"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E18",
+  "cat": "herb-safety",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-fish-oil-huile-poisson#007",
+  "top": [
+   "hc-nhpid-fish-oil-huile-poisson#007",
+   "hc-nhpid-fish-oil-huile-poisson#005",
+   "epmc-42812739#003",
+   "nci-pdq-prostate-supplements-pdq#046",
+   "epmc-42812739#005",
+   "nci-pdq-dietary-interactions-pdq#035"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "E19",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-ndv-pdq#100",
+   "nci-pdq-gonzalez-pdq#023",
+   "nci-pdq-aromatherapy-pdq#046",
+   "epmc-42812739#001",
+   "hc-nhpid-oral-rehydration-sol#007",
+   "epmc-42783810#001"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E20",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "hc-nhpid-senna-sene#003",
+   "nci-pdq-hydrazine-sulfate-pdq#006",
+   "hc-nhpid-hops-houblon#007",
+   "nci-pdq-gerson-pdq#013",
+   "hc-nhpid-senna-sene#009",
+   "hc-nhpid-tcm#010"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E21",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-pennyroyal2#005",
+   "hc-nhpid-pennyroyal2#004",
+   "hc-nhpid-aromatherap2#021",
+   "hc-nhpid-peppermint-menthepoivree#006",
+   "hc-nhpid-peppermint-menthepoivree#005",
+   "ema-allium-sativum-l-bulbus#005"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E22",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "nccih-black-cohosh#005",
+   "ema-valeriana-officinalis-l-radix#009",
+   "ema-avena-sativa-l-herba#006",
+   "ema-matricaria-recutita-l-flos-first-version#015",
+   "ema-ginkgo-biloba-l-folium#003",
+   "nci-pdq-black-cohosh-pdq#030"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E23",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "nci-pdq-curcumin-pdq#051",
+   "nci-pdq-prostate-supplements-pdq#043",
+   "nci-pdq-black-cohosh-pdq#013",
+   "ema-avena-sativa-l-herba#004",
+   "hc-nhpid-oligotherapy2#006",
+   "ema-allium-sativum-l-bulbus#005"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E24",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-curcumin-pdq#005",
+   "nci-pdq-suns-soup-pdq#004",
+   "nccih-horse-chestnut#005",
+   "nccih-aloe-vera#002",
+   "hc-nhpid-cor-call2#002",
+   "nci-pdq-prostate-supplements-pdq#025"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E25",
+  "cat": "herb-safety",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-angelica-sinensis2#006",
+  "top": [
+   "hc-nhpid-angelica-sinensis2#006",
+   "hc-nhpid-angelica-sinensis2#007",
+   "ema-serenoa-repens-w-bartram-small-fructus#005",
+   "epmc-42787405#001",
+   "ema-ginkgo-biloba-l-folium#005",
+   "ema-allium-sativum-l-bulbus#004"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "E26",
+  "cat": "herb-safety",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "nccih-ginkgo#006",
+  "top": [
+   "nccih-ginkgo#006",
+   "ema-ginkgo-biloba-l-folium#005",
+   "ema-ginkgo-biloba-l-folium#004",
+   "hc-nhpid-ginkgo-biloba2#006",
+   "hc-nhpid-ginkgo-biloba2#005",
+   "nccih-ginkgo#002"
+  ],
+  "entity_docs_found": 6
+ },
+ {
+  "id": "E27",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [
+   "dosage"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-multiple-oil#007",
+   "hc-nhpid-tcm#003",
+   "hc-nhpid-workout-supplements-entrainement#011",
+   "hc-nhpid-multiple-oil#004",
+   "nccih-grape-seed-extract#003",
+   "nccih-fenugreek#003"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E28",
+  "cat": "herb-safety",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nccih-yohimbe#005",
+   "nccih-butterbur#001",
+   "nccih-noni#005",
+   "nccih-pomegranate#005",
+   "nccih-horse-chestnut#005",
+   "nccih-sage#005"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E29",
+  "cat": "nutrient-drug",
+  "covered": true,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": "hc-nhpid-vitamin-d-hd#007",
+  "top": [
+   "hc-nhpid-vitamin-d-hd#007",
+   "hc-nhpid-vitamin-d-hd#009",
+   "nci-pdq-milk-thistle-pdq#049",
+   "nci-pdq-prostate-supplements-pdq#195",
+   "nci-pdq-vitamin-c-pdq#038",
+   "nci-pdq-vitamin-c-pdq#040"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "E30",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-vitamin-c-pdq#003",
+   "hc-nhpid-chitosan2#002",
+   "hc-nhpid-greentea-thevert2#002",
+   "nci-pdq-acupuncture-pdq#060",
+   "nci-pdq-dietary-interactions-pdq#005",
+   "nci-pdq-dietary-interactions-pdq#006"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E31",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [
+   "dosage"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-homeopathy2#005",
+   "hc-nhpid-multiple-joint-health2#013",
+   "nccih-garcinia-cambogia#003",
+   "hc-nhpid-antiox#055",
+   "hc-nhpid-tcm#003",
+   "hc-nhpid-workout-supplements-entrainement#011"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E32",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-prostate-supplements-pdq#174",
+   "hc-nhpid-multiple-joint-health2#009",
+   "hc-nhpid-vitamin-d-hd#002",
+   "epmc-42689097#002",
+   "nccih-green-tea#005",
+   "nci-pdq-prostate-supplements-pdq#195"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E33",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [
+   "dosage"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-chlorella-vulgaris2#004",
+   "hc-nhpid-workout-supplements-entrainement#011",
+   "hc-nhpid-multiple-joint-health2#013",
+   "hc-nhpid-oligotherapy2#002",
+   "hc-nhpid-vitamin-d-hd#004",
+   "hc-nhpid-oligotherapy2#004"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "E34",
+  "cat": "nutrient-drug",
+  "covered": true,
+  "want_sections": [],
+  "best": "epmc-42689097#002",
+  "top": [
+   "epmc-42689097#002",
+   "epmc-42783810#001",
+   "epmc-42783810#002",
+   "epmc-42689097#001",
+   "nccih-thunder-god-vine#002",
+   "nccih-evening-primrose-oil#002"
+  ],
+  "entity_docs_found": 4
+ },
+ {
+  "id": "E35",
+  "cat": "nutrient-drug",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "hc-nhpid-probio#002",
+   "nci-pdq-dietary-interactions-pdq#027",
+   "nci-pdq-prostate-supplements-pdq#174",
+   "nci-pdq-dietary-interactions-pdq#009",
+   "nci-pdq-prostate-supplements-pdq#070",
+   "hc-nhpid-vitamin-d-hd#008"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L16",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42647256#002",
+   "epmc-42647256#001",
+   "epmc-42689097#002",
+   "epmc-42689097#001",
+   "nci-pdq-prostate-supplements-pdq#039",
+   "nci-pdq-coenzyme-q10-pdq#020"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L17",
+  "cat": "lab",
+  "covered": true,
+  "want_sections": [],
+  "best": "hc-nhpid-vitamin-d-hd#004",
+  "top": [
+   "hc-nhpid-vitamin-d-hd#004",
+   "hc-nhpid-vitamin-d-hd#002",
+   "hc-nhpid-fish-oil-huile-poisson#006",
+   "nci-pdq-prostate-supplements-pdq#183",
+   "hc-nhpid-antiox#057",
+   "nci-pdq-prostate-supplements-pdq#203"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "L18",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42647256#001",
+   "epmc-42647256#002",
+   "epmc-42689097#001",
+   "epmc-42689097#002",
+   "epmc-42783810#001",
+   "nci-pdq-gerson-pdq#006"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L19",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "adverse_effects",
+   "cautions",
+   "contraindications",
+   "interactions",
+   "red_flags"
+  ],
+  "best": null,
+  "top": [
+   "hc-nhpid-pygeum#005",
+   "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#009",
+   "hc-nhpid-saw-palmetto-sabal2#006",
+   "hc-nhpid-grape-seed-extract#004",
+   "hc-nhpid-vitamin-d-hd#007",
+   "nci-pdq-black-cohosh-pdq#030"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L20",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-prostate-supplements-pdq#036",
+   "nccih-flaxseed-and-flaxseed-oil#004",
+   "nccih-asian-ginseng#004",
+   "nccih-astragalus#004",
+   "nci-pdq-prostate-supplements-pdq#035",
+   "nccih-acai#005"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L21",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-prostate-supplements-pdq#239",
+   "nci-pdq-prostate-supplements-pdq#121",
+   "nci-pdq-aromatherapy-pdq#006",
+   "epmc-42812739#002",
+   "nccih-bilberry#002",
+   "nci-pdq-laetrile-pdq#024"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L22",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "epmc-42783810#002",
+   "nccih-cinnamon#003",
+   "epmc-42787405#003",
+   "nci-pdq-antineoplastons-pdq#042",
+   "epmc-42633317#002",
+   "nccih-bitter-orange#004"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L23",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42647256#001",
+   "epmc-42689097#002",
+   "epmc-42689097#001",
+   "epmc-42647256#002",
+   "nci-pdq-prostate-supplements-pdq#063",
+   "nci-pdq-prostate-supplements-pdq#039"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L24",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-prostate-supplements-pdq#183",
+   "nci-pdq-curcumin-pdq#018",
+   "nci-pdq-prostate-supplements-pdq#076",
+   "nci-pdq-cartilage-pdq#048",
+   "hc-nhpid-serrapeptase2#003",
+   "nci-pdq-coenzyme-q10-pdq#009"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L25",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "epmc-42633317#001",
+   "epmc-42633317#002",
+   "nci-pdq-milk-thistle-pdq#038",
+   "nci-pdq-ndv-pdq#105",
+   "nci-pdq-antineoplastons-pdq#039",
+   "nci-pdq-antineoplastons-pdq#015"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L26",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-acupuncture-pdq#039",
+   "hc-nhpid-creatine-mono#003",
+   "hc-nhpid-fonc-cognitive-func#012",
+   "nci-pdq-vitamin-c-pdq#025",
+   "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#009",
+   "nci-pdq-prostate-supplements-pdq#151"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L27",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "epmc-42812992#002",
+   "nci-pdq-milk-thistle-pdq#032",
+   "epmc-42812739#002",
+   "nci-pdq-essiac-pdq#007",
+   "nci-pdq-milk-thistle-pdq#035",
+   "nci-pdq-laetrile-pdq#020"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L28",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-essiac-pdq#007",
+   "epmc-42812992#002",
+   "nci-pdq-laetrile-pdq#020",
+   "nci-pdq-milk-thistle-pdq#036",
+   "nci-pdq-antineoplastons-pdq#003",
+   "nci-pdq-laetrile-pdq#010"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L29",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "hc-nhpid-irvingia-gabonensis#002",
+   "hc-nhpid-free-plant-sterols-vegetaux#002",
+   "hc-nhpid-plant-stanol-esters#003",
+   "hc-nhpid-plant-sterol-esters#003",
+   "nccih-green-tea#004",
+   "hc-nhpid-chitosan2#002"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "L30",
+  "cat": "lab",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42647256#001",
+   "epmc-42647256#002",
+   "epmc-42689097#001",
+   "epmc-42689097#002",
+   "epmc-42783810#001",
+   "nci-pdq-gerson-pdq#006"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "R01",
+  "cat": "referral",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "hc-nhpid-antiox#055",
+   "nci-pdq-milk-thistle-pdq#005",
+   "nccih-bitter-orange#004",
+   "nccih-pomegranate#003",
+   "nci-pdq-mushrooms-pdq#002",
+   "nci-pdq-prostate-supplements-pdq#025"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "R02",
+  "cat": "referral",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "hc-nhpid-horseradish-raifort2#005",
+   "nci-pdq-mistletoe-pdq#092",
+   "nci-pdq-prostate-supplements-pdq#117",
+   "nci-pdq-acupuncture-pdq#062",
+   "nccih-ashwagandha#005",
+   "nccih-asian-ginseng#004"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "R03",
+  "cat": "referral",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-antineoplastons-pdq#054",
+   "nci-pdq-antineoplastons-pdq#036",
+   "nci-pdq-aromatherapy-pdq#012",
+   "nci-pdq-acupuncture-pdq#003",
+   "nci-pdq-coenzyme-q10-pdq#025",
+   "nci-pdq-acupuncture-pdq#013"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "R04",
+  "cat": "referral",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "epmc-42633317#001",
+   "nci-pdq-milk-thistle-pdq#038",
+   "epmc-42633317#002",
+   "hc-nhpid-cod-liver-oil#003",
+   "nci-pdq-prostate-supplements-pdq#045",
+   "nci-pdq-prostate-supplements-pdq#239"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "R05",
+  "cat": "referral",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nccih-peppermint-oil#004",
+   "nci-pdq-black-cohosh-pdq#028",
+   "hc-nhpid-peppermint-menthepoivree#005",
+   "hc-nhpid-horseradish-raifort2#005",
+   "nccih-turmeric#005",
+   "hc-nhpid-peppermint-menthepoivree#006"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "R06",
+  "cat": "referral",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-gerson-pdq#005",
+   "hc-nhpid-chitosan2#002",
+   "hc-nhpid-conj-linoleic-acid#002",
+   "nci-pdq-prostate-supplements-pdq#009",
+   "hc-nhpid-greencoffeebean-ext-fevescafevert2#002",
+   "nci-pdq-prostate-supplements-pdq#012"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "R07",
+  "cat": "referral",
+  "covered": false,
+  "want_sections": [],
+  "best": null,
+  "top": [
+   "nci-pdq-acupuncture-pdq#060",
+   "nccih-garcinia-cambogia#005",
+   "nci-pdq-pc-spes-pdq#016",
+   "epmc-42812739#004",
+   "nccih-st-johns-wort#005",
+   "nci-pdq-pc-spes-pdq#018"
+  ],
+  "entity_docs_found": 0
+ },
+ {
+  "id": "R08",
+  "cat": "referral",
+  "covered": false,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": null,
+  "top": [
+   "epmc-42647256#002",
+   "nccih-ephedra#004",
+   "nci-pdq-curcumin-pdq#038",
+   "nccih-acai#004",
+   "nci-pdq-dietary-interactions-pdq#025",
+   "nccih-cinnamon#004"
+  ],
+  "entity_docs_found": 0
+ }
+]

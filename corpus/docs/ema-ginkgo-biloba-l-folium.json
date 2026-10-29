@@ -1,0 +1,218 @@
+{
+ "doc_id": "ema-ginkgo-biloba-l-folium",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "European Union herbal monograph on Ginkgo biloba L.,",
+ "title_extra": null,
+ "date": "2015-01-28",
+ "revised": "2015-01-28",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-ginkgo-biloba-l-folium_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/321097/2012"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:c9a638ea0a54d8cb04800aa5af939386bd2153721acb16fe3971e118036fd95d",
+ "entities": [
+  "Union herbal monograph",
+  "Ginkgo biloba"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nHerbal medicinal product for the improvement of\n(age-associated) cognitive impairment and of\nquality of life in mild dementia.\nTraditional herbal medicinal product for the relief\nof heaviness of legs and the sensation of cold\nhands and feet associated with minor circulatory\ndisorders, after serious conditions have been\nexcluded by a medical doctor.\n1 The declaration of the active substance(s) for an individual finished product should be in accordance with relevant herbal\nquality guidance",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 80
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#002",
+   "text": "4.2 Posology and method of administration: Well-established use\nTraditional use\nPosology\nAdults and elderly\nSingle dose: 120-240 mg\nDaily dose: 240 mg\nThere is no relevant indication for children and\nadolescents.\nDuration of use\nTreatment should last for at least 8 weeks.\nIf there is no symptomatic improvement after\n3 months, or if pathological symptoms should\nintensify, the doctor should check whether\ncontinuation of treatment is still justified.\nMethod of administration\nOral use.\nPosology\nAdults and elderly\nSingle dose: 250-360 mg\nDaily dose: 750 mg\nThe use in children and adolescents under\n18 years of age is not recommended (see section\n4.4 ‘Special warnings and precautions for use’).\nDuration of use\nIf the symptoms persist for more than 2 weeks, a\ndoctor or a qualified health care practitioner\nshould be consulted.\nMethod of administration\nOral use.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 136
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance.\nPregnancy (see section 4.6. ‘Fertility, pregnancy\nand lactation’).\nHypersensitivity to the active substance.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nIf the symptoms worsen during the use of the\nmedicinal product, a doctor or a pharmacist\nshould be consulted.\nIn patients with a pathologically increased\nbleeding tendency (haemorrhagic diathesis) and\nconcomitant anticoagulant and antiplatelet\ntreatment, the medicinal product should only be\nused after consultation with a doctor.\nThe use in children and adolescents under\n18 years of age has not been established due to\nlack of adequate data.\nIf the symptoms worsen during the use of the\nmedicinal product, a doctor or a qualified\nhealthcare professional should be consulted.\nEuropean Union herbal monograph on Ginkgo biloba L., folium\nEMA/HMPC/321097/2012\nPage 4/8\nWell-established use\nTraditional use\nPreparations containing Ginkgo might increase\nsusceptibility to bleeding, the medicinal product\nshould be discontinued as a precaution 3 to 4\ndays prior to surgery.\nIn patients with epilepsy, onset of further seizures\n– promoted by intake of Ginkgo preparations –\ncannot be excluded.\nConcomitant use of Ginkgo biloba containing\nproducts and efavirenz is not recommended (see\nsection 4.5).",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "anticoagulant",
+    "surgery",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 174
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nIf the medicinal product is taken concomitantly\nwith anticoagulants (e.g. phenprocoumon and\nwarfarin) or antiplatelet drugs (e.g. clopidogrel,\nacetylsalicylic acid and other non-steroidal anti-\ninflammatory drugs), their effect may be\ninfluenced.\nAvailable studies with warfarin do not indicate that\nthere is an interaction between warfarin and G.\nbiloba products, but adequate monitoring is\nadvised when starting, when changing G. biloba\ndose, when ending G. biloba intake or if changing\nproduct.\nAn interaction study with talinolol indicates that G.\nbiloba may inhibit P-glycoprotein at the intestinal\nlevel. This may give rise to increased exposure of\ndrugs markedly affected by P-glycoprotein in the\nintestine such as dabigatran etexilate. Caution is\nadvised if combining G. biloba and dabigatran.\nOne interaction study has indicated that the Cmax\nof nifedipine may be increased by G biloba. In\nsome individuals, increases by up to 100% were\nobserved resulting in dizziness and increased\nseverity of hot flushes.\nConcomitant use of G. biloba preparations and\nefavirenz is not recommended; plasma\nconcentrations of efavirenz may be decreased\nbecause of induction of CYP3A4 (see also section\n4.4).\nGinkgo leaf may increase the effects of\nanticoagulants such as coumarin derivatives.\nEuropean Union herbal monograph on Ginkgo biloba L., folium\nEMA/HMPC/321097/2012\nPage 5/8",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#006",
+   "text": "4.6 Fertility, pregnancy and lactation: Well-established use\nTraditional use\nPregnancy\nG. biloba extracts may impair the ability of\nplatelets to aggregate. The tendency for bleeding\nmay be increased. Animal studies are insufficient\nwith respect to reproductive toxicity (see section\n5.3).\nThe use is contraindicated in pregnancy (see\nsection 4.3)\nLactation\nIt is unknown whether G. biloba metabolites are\nexcreted in human milk. A risk to the\nnewborns/infants cannot be excluded.\nIn the absence of sufficient data, the use during\nlactation is not recommended.\nFertility\nNo specific studies with G. biloba in humans have\nbeen conducted to evaluate effects on fertility. In\na study in female mice effects on fertility were\nseen (see section 5.3).\nSafety during pregnancy and lactation has not\nbeen established. In the absence of sufficient\ndata, the use during pregnancy and lactation is\nnot recommended.\nNo fertility data.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "children",
+    "anticoagulant",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 141
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nNo adequate studies on the effect on the ability to\ndrive and use machines have been performed.\nNo adequate studies on the effect on the ability to\ndrive and use machines have been performed.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nBlood and lymphatic system disorders\nBleeding of individual organs has been reported\n(eye, nose, cerebral and gastrointestinal\nhaemorrhage). The frequency is not known.\nNervous system disorders\nVery common: headache\nCommon: dizziness\nGastrointestinal disorders\nCommon: diarrhoea, abdominal pain, nausea,\nvomiting\nGastrointestinal disorders, headaches and allergic\nreactions have been reported. The frequency is\nnot known.\nIf other adverse reactions not mentioned above\noccur, a doctor or a qualified health care\npractitioner should be consulted.\nEuropean Union herbal monograph on Ginkgo biloba L., folium\nEMA/HMPC/321097/2012\nPage 6/8\nWell-established use\nTraditional use\nImmune system disorders\nHypersensitivity reactions (allergic shock) may\noccur. The frequency is not known.\nSkin and subcutaneous tissue disorders\nAllergic skin reactions (erythema, oedema, itching\nand rash) may also occur. The frequencies are not\nknown.\nIf other adverse reactions not mentioned above\noccur, a doctor or a pharmacist should be\nconsulted.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 146
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.\nNo case of overdose has been reported.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nPharmacotherapeutic group: Other anti-dementia\ndrugs\nATC code: N06DX02\nThe exact mechanism is not known.\nHuman pharmacological data show increased EEG\nvigilance in geriatric subjects, reduction in blood\nviscosity and improved cerebral perfusion in\nspecific areas in healthy men (60-70 years) and\nreduction in platelet aggregation. Additionally,\nvasodilating effects on forearm blood vessels\ncausing increased regional blood flow are shown.\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "anticoagulant",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 77
+  },
+  {
+   "chunk_id": "ema-ginkgo-biloba-l-folium#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nFollowing oral administration (as solution) of\n120 mg of the Ginkgo extract, the mean absolute\nbioavailability has been shown in humans for the\nterpene lactones ginkgolide A (80%), ginkgolide B\n(88%) and bilobalide (79%). Peak plasma\nconcentrations of terpene lactones were in the\nrange of 16-22 ng/ml for ginkgolide A, 8-10 ng/ml\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.\nEuropean Union herbal monograph on Ginkgo biloba L., folium\nEMA/HMPC/321097/2012\nPage 7/8\nWell-established use\nTraditional use\nfor ginkgolide B and 27-54 ng/ml of bilobalide\nwhen given as tablets. The corresponding half-\nlives of ginkgolide A and B and bilobalide were 3-\n4, 4-6 and 2-3 hours, respectively. 120 mg G.\nbiloba extract given as solution peak plasma\nconcentrations were 25-33 ng/ml, 9-17 ng/ml and\n19-35 ng/ml for ginkgolide A, B and bilobalide,\nrespectively. The related half-life for ginkgolide A\nwas 5 hours, for ginkoglide B 9-11 hours and for\nbilobalide 3-4 hours.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Ginkgo biloba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 162
+  }
+ ]
+}

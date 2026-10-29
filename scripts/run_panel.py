@@ -52,7 +52,7 @@ def make_retriever(args):
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--panel", default=str(config.DATA_DIR / "herbal_set_104.json"))
-    ap.add_argument("--condition", choices=["closed", "retrieval", "hybrid"], default="closed")
+    ap.add_argument("--condition", choices=["closed", "retrieval", "hybrid", "routed"], default="closed")
     ap.add_argument("--out", default=None)
     ap.add_argument("--max-tokens", type=int, default=768)
     ap.add_argument("--workers", type=int, default=2)
@@ -104,14 +104,19 @@ def main(argv: list[str] | None = None) -> int:
 
     hybrid_cats = {c.strip() for c in args.hybrid_cats.split(",") if c.strip()}
 
-    def use_retrieval(item: dict) -> bool:
+    def use_retrieval(item: dict, chunks: list[dict]) -> bool:
         if retrieve is None:
             return False
-        return args.condition != "hybrid" or item["cat"] in hybrid_cats
+        if args.condition == "hybrid":
+            return item["cat"] in hybrid_cats
+        if args.condition == "routed":
+            from materia.retrieve import grounded_chunks
+            return bool(grounded_chunks(chunks, item["q"]))
+        return True
 
     def work(item: dict) -> None:
-        use = use_retrieval(item)
-        chunks = retrieve(item["q"]) if use else []
+        chunks = retrieve(item["q"]) if retrieve else []
+        use = use_retrieval(item, chunks)
         prompt = (
             build_prompt_retrieval(item, chunks, config.RULE_BUDGET, args.evidence_words)
             if use
@@ -135,8 +140,8 @@ def main(argv: list[str] | None = None) -> int:
             "reason": r["reasoning"][:800],
             "finish": r["finish"],
             "ctok": r["ctok"],
-            "condition": args.condition + ("/nothink" if args.no_think else "/think")
-            + ("/hybrid" if args.condition == "hybrid" else ""),
+            "condition": args.condition + ("/nothink" if args.no_think else "/think"),
+            "route": ("grounded" if use else "memory") if args.condition == "routed" else None,
             "max_tokens": args.max_tokens,
             "ctx": args.ctx,
             "model_gguf": str(config.REASON_GGUF),

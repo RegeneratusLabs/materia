@@ -1,0 +1,61 @@
+{
+ "doc_id": "epmc-42647256",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Refining MMA Screening in the Dutch Newborn Screening Program: Lessons from Vitamin B12 Deficiency and Genetic Cases.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42647256",
+ "identifier": {
+  "type": "pmid",
+  "value": "42647256"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:5ad0deadeed9f0124686eb5da0d91013ac2d660df73678945be7f73380847a4a",
+ "entities": [
+  "Refining MMA Screening in the Dutch Newborn Screening Program: Lessons from Vita"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42647256#001",
+   "text": "Since October 2019, screening for methylmalonic acidemia (MMA) has been implemented in the Dutch Newborn Screening (NBS) program. Since implementation, most referrals for MMA have been the result of (maternal) vitamin B12 deficiency. Although vitamin B12 deficiency is an important condition and early detection can confer health benefits, its identification was not the original objective of the screening. We therefore examined whether genetic forms of MMA can be distinguished from acquired forms. Early distinction between these forms is essential for guiding clinical management, informing prognosis, and enabling appropriate genetic counseling.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "b12"
+   ],
+   "entities": [
+    "Refining MMA Screening in the Dutch Newborn Screening Program: Lessons from Vita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 90
+  },
+  {
+   "chunk_id": "epmc-42647256#002",
+   "text": "Specifically, we tested whether the use of Collaborative Laboratory Integrated Reports (CLIR) to complement NBS results improved specificity of the test for genetic MMAs. We found that with the use of CLIR, genetic conditions including methylmalonyl-CoA mutase (mut) deficiency and cobalamin (cbl) A, B, C and D deficiency can be partially differentiated from acquired causes. This results in a significant reduction in the number of second-tier tests required. However, this approach may also exclude certain other genetic causes. Based on all findings, we provide considerations and implications for MMA screening that may inform decision-makers in (other) NBS programs.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "b12"
+   ],
+   "entities": [
+    "Refining MMA Screening in the Dutch Newborn Screening Program: Lessons from Vita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 98
+  }
+ ],
+ "date_precision": "year"
+}

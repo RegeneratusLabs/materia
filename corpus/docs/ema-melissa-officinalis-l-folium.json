@@ -1,0 +1,198 @@
+{
+ "doc_id": "ema-melissa-officinalis-l-folium",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "melissa officinalis l folium",
+ "title_extra": null,
+ "date": "2013-05-14",
+ "revised": "2013-05-14",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-melissa-officinalis-l-folium_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/196745/2012"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:082be7d035cacca8f551adbaa8362facb7e66079336ca6c525e88dd1b9d2f6f0",
+ "entities": [
+  "melissa officinalis l folium"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nIndication 1)\nTraditional herbal medicinal product for relief of\nmild symptoms of mental stress and to aid sleep.\nIndication 2)\nTraditional herbal medicinal product for\nsymptomatic treatment of mild gastrointestinal\ncomplaints including bloating and flatulence.\nThe product is a traditional herbal medicinal\nproduct for use in specified indications exclusively\nbased upon long-standing use.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 60
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#002",
+   "text": "4.2 Posology and method of administration3: Well-established use\nTraditional use\nPosology\nIndications 1) and 2)\nAdolescents over 12 years of age, adults and\nelderly\nSingle dose\na) Herbal tea: 1.5-4.5 g of the comminuted herbal\nsubstance in 150 ml of boiling water as a herbal\ninfusion, 1-3 times daily.\nb) Powdered herbal substance: 0.19-0.55 g,\n2-3 times daily.\nc) Liquid extract: 2-4 ml, 1-3 times daily.\nd) Tincture: 2-6 ml, 1-3 times daily.\ne) Dried water or ethanol (45-53% V/V) extracts\nin doses corresponding to the posologies for tea,\nliquid extract and tincture above.\nThe use in children under 12 years of age is not\nrecommended (see section 4.4. ‘Special warnings\nand precautions for use’).\nDuration of use\nIf the symptoms persist longer than 2 weeks\n3 For guidance on herbal substance/herbal preparation administered as herbal tea or as infusion/decoction/macerate\npreparation, please refer to the HMPC ‘Glossary on herbal teas’ (EMA/HMPC/5829/2010 Rev.1).\nCommunity herbal monograph on Melissa officinalis L., folium\nEMA/HMPC/196745/2012\nPage 4/7\nWell-established use\nTraditional use\nduring the use of the medicinal product, a doctor\nor a qualified health care practitioner should be\nconsulted.\nMethod of administration\nOral use.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 190
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nIndication 1) and 2)\nThe use in children under 12 years of age has not\nbeen established due to lack of adequate data.\nIf the symptoms worsen during the use of the\nmedicinal product, a doctor or a qualified health\ncare practitioner should be consulted.\nFor tinctures and liquid extracts containing\nethanol, the appropriate labelling for ethanol,\ntaken from the ‘Guideline on excipients in the\nlabel and package leaflet of medicinal products for\nhuman use’, must be included.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 89
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nNo data available.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#006",
+   "text": "4.6 Fertility, pregnancy and lactation: Well-established use\nTraditional use\nSafety during pregnancy and lactation has not\nbeen established. In the absence of sufficient\ndata, the use during pregnancy and lactation is\nnot recommended.\nNo fertility data available.\nCommunity herbal monograph on Melissa officinalis L., folium\nEMA/HMPC/196745/2012\nPage 5/7",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nMay impair ability to drive and use machines.\nAffected patients should not drive or operate\nmachinery.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nNone known.\nIf adverse reactions occur, a doctor or a qualified\nhealth care practitioner should be consulted.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "ema-melissa-officinalis-l-folium#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "melissa officinalis l folium"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

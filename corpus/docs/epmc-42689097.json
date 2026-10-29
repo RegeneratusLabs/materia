@@ -1,0 +1,61 @@
+{
+ "doc_id": "epmc-42689097",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Folate in autism neurodevelopment.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42689097",
+ "identifier": {
+  "type": "pmid",
+  "value": "42689097"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:281f24e9ac8dd50ba413612a550819c70f61c3849d4a5e2800bee48468b32fb3",
+ "entities": [
+  "Folate in autism neurodevelopment."
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42689097#001",
+   "text": "Folate (vitamin B9) and vitamin B12 are essential micronutrients for cell growth, DNA synthesis, methylation, and one-carbon metabolism, with particular relevance to early development. This review begins with an overview of vitamins essential to development, with emphasis on folate and B12, followed by a detailed examination of folate sources, chemical forms, absorption, bioavailability, and genetic influences on folate metabolism and transport. We then address neurodevelopmental disorders, focusing on autism spectrum disorder (ASD), and synthesize evidence on folate's role in brain formation during pregnancy, maternal folate deficiency as a contributor to autism risk, and critical periods during which folate status may most strongly influence neurodevelopmental outcomes.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "folate"
+   ],
+   "entities": [
+    "Folate in autism neurodevelopment."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "epmc-42689097#002",
+   "text": "We focus specifically on clinical trial evidence: detection of folate deficiency or insufficiency in ASD children and treatment with leucovorin (folinic acid), as well as detection of folate deficiency risk in pregnancy, particularly through screening for folate receptor alpha autoantibodies (FRAA), and treatment with calcium folinate. Recent randomized and placebo-controlled trials suggest that reduced folate forms may offer benefits over folic acid in selected populations, including ASD children and FRAA-positive pregnancies, though larger confirmatory studies are needed. Taken together, this review highlights folate and B12 status as modifiable, biomarker-guided targets for supplementation strategies across the developmental life course, from preconception through childhood.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "folate"
+   ],
+   "entities": [
+    "Folate in autism neurodevelopment."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  }
+ ],
+ "date_precision": "year"
+}

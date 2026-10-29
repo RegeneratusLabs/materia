@@ -1,0 +1,91 @@
+{
+ "doc_id": "epmc-41764614",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Herbal Medicines and Drugs Interactions: Cytochrome P450 Responsibility.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/41764614",
+ "identifier": {
+  "type": "pmid",
+  "value": "41764614"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:9e88d1a09c714c0eb457512891c5222d5dc1d842e1ce1232026149baea8c2b13",
+ "entities": [
+  "Herbal Medicines and Drugs Interactions: Cytochrome P450 Responsibility."
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-41764614#001",
+   "text": "Despite the global prevalence of herbal medicine use and the common perception of their safety, substantial evidence indicates a significant potential for clinically relevant herb-drug interactions that may affect the pharmacokinetics and pharmacodynamics of co-administered pharmaceuticals. This critical issue poses a considerable threat to patient safety and the effectiveness of conventional treatments, primarily through modulation of the cytochrome P450 (CYP450) enzyme system, a key metabolic pathway for many drugs. This research aims to elucidate how herbal remedies affect CYP450 enzyme activity, thereby influencing drug pharmacokinetics.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "Herbal Medicines and Drugs Interactions: Cytochrome P450 Responsibility."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 85
+  },
+  {
+   "chunk_id": "epmc-41764614#002",
+   "text": "Our methodology involves a comprehensive critical evaluation of existing scientific data from in silico, in vitro, and in vivo studies, clinical trials, and meta-analyses to identify specific herbal medicines with significant effects on CYP450. The investigation outlines their mechanisms of action, distinguishing between enzyme induction, which can diminish drug efficacy, and inhibition, which may lead to increased drug concentrations and toxicity. It was highlighted that certain medicinal plants and their bioactive compounds may act as inducers or inhibitors across major isoforms, including CYP1A2, CYP2C9, CYP2D6, and CYP3A4.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "Herbal Medicines and Drugs Interactions: Cytochrome P450 Responsibility."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 87
+  },
+  {
+   "chunk_id": "epmc-41764614#003",
+   "text": "Comprehensive data were compiled for ten plant species with the most extensive scientific information regarding their effects on CYP450, namely St John's wort (Hypericum perforatum L.), Echinacea (Echinacea purpurea (L.) Moench), Ginkgo (Ginkgo biloba L.), Danshen (Salvia miltiorrhiza Bunge), Garlic (Allium sativum L.), Ginger (Zingiber officinale Roscoe), Milk thistle (Silybum marianum L. Gaertn.), Black cohosh (Actaea racemosa L.), Ginseng (Panax ginseng C.A. Mey), and Liquorice (Glycyrrhiza glabra L.). Ultimately, this study underscores the vital role of the CYP450 system in mediating these interactions and advocates for increased awareness among healthcare professionals and patients.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "Herbal Medicines and Drugs Interactions: Cytochrome P450 Responsibility."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "epmc-41764614#004",
+   "text": "Looking ahead, conducting robust, standardised clinical trials, developing predictive interaction models, and performing comprehensive analyses of herbal constituents are crucial to ensuring safe and effective pharmacotherapy involving herbal medicines.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "Herbal Medicines and Drugs Interactions: Cytochrome P450 Responsibility."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  }
+ ],
+ "date_precision": "year"
+}

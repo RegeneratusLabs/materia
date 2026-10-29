@@ -1,0 +1,211 @@
+{
+ "doc_id": "ema-serenoa-repens-w-bartram-small-fructus",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "European Union herbal monograph on Serenoa repens",
+ "title_extra": null,
+ "date": "2015-11-24",
+ "revised": "2015-11-24",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-serenoa-repens-w-bartram-small-fructus_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/280079/2013"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:1d9827c8ebe4f65d4ea30a8e57a0dd31ac1c3910be7626f150774c98bdf4a3be",
+ "entities": [
+  "Union herbal monograph",
+  "Serenoa repens"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nHerbal medicinal product for the symptomatic\ntreatment of benign prostatic hyperplasia.\nTraditional medicinal product for the relief of lower\nurinary tract symptoms related to benign prostatic\nhyperplasia, after serious conditions have been\nexcluded by a doctor.\nThe product is a traditional herbal medicinal\n1 The declaration of the active substance(s) for an individual finished product should be in accordance with relevant herbal\nquality guidance.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 71
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#002",
+   "text": "4.2 Posology and method of administration: Well-established use\nTraditional use\nPosology\nAdults and elderly\na) 320 mg once daily or 160 mg 2 times daily.\nThere is no relevant indication for women,\nchildren and adolescents.\nDuration of use\nLong-term use is possible (see section 4.4 ‘Special\nwarnings and precautions for use’).\nIf the symptoms persist during the use of the\nmedicinal product, a doctor or a pharmacist\nshould be consulted.\nMethod of administration\nOral use.\nPosology\nAdults and elderly\na) 320 mg once daily.\nThere is no relevant indication for women,\nchildren and adolescents.\nDuration of use\nLong-term use is possible (see section 4.4 ‘Special\nwarnings and precautions for use’).\nIf the symptoms persist during the use of the\nmedicinal product, a doctor or a qualified health\ncare practitioner should be consulted.\nMethod of administration\nOral use.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 137
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance.\nHypersensitivity to the active substance.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nIf complaints worsen or if symptoms such as\nfever, spasms or blood in the urine, painful\nurination, or urinary retention occur during the\nuse of the medicinal product, a doctor or a\npharmacist should be consulted.\nIf complaints worsen or if symptoms such as\nfever, spasms or blood in the urine, painful\nurination, or urinary retention occur during the\nuse of the medicinal product, a doctor or a\nqualified healthcare practitioner should be\nconsulted.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 85
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nA few cases of suspected interactions with\nwarfarin have been reported. Increased INR-\nA few cases of suspected interactions with\nwarfarin have been reported. Increased INR-\nEuropean Union herbal monograph on Serenoa repens (W. Bartram) Small, fructus\nEMA/HMPC/280079/2013\nPage 3/5\nWell-established use\nTraditional use\nvalues have been described.\nvalues have been described.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 67
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#006",
+   "text": "4.6 Fertility, pregnancy and lactation: Well-established use\nTraditional use\nPregnancy and lactation: not relevant\nNo fertility data available.\nPregnancy and lactation: not relevant\nNo fertility data available.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nNo studies on the effect on the ability to drive and\nuse machines have been performed.\nNo studies on the effect on the ability to drive and\nuse machines have been performed.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nGastro-intestinal disorders\nCommon: abdominal pain\nUncommon: nausea\nHepatobiliary disorders\nUncommon: increase of transaminases or gamma-\nglutamyltransferases\nSkin and subcutaneous tissue disorders\nUncommon: skin rash\nEndocrine disorders\nUncommon: reversible gynecomastia\nNervous system disorders\nCommon: headache\nIf other adverse reactions not mentioned above\noccur, a doctor or a pharmacist should be\nconsulted.\nGastro-intestinal complaints\nUncommon: nausea, vomiting, diarrhoea,\nabdominal pain (especially when taken on an\nempty stomach).\nImmune system disorders\nAllergic or hypersensitivity reactions may occur.\nThe frequency is not known.\nNervous system disorders\nHeadache may occur. The frequency is not known.\nIf other adverse reactions occur, a doctor or a\nqualified health care practitioner should be\nconsulted.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "liver",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 113
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.\nNo case of overdose has been reported.\nEuropean Union herbal monograph on Serenoa repens (W. Bartram) Small, fructus\nEMA/HMPC/280079/2013\nPage 4/5",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nPharmacotherapeutic group: benign prostatic\nhyperplasia.\nThe mechanism of action is not known.\nProposed ATC code: G04CX02\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "ema-serenoa-repens-w-bartram-small-fructus#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNo data available.\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Serenoa repens"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 21
+  }
+ ]
+}

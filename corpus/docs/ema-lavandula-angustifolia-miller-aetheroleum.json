@@ -1,0 +1,198 @@
+{
+ "doc_id": "ema-lavandula-angustifolia-miller-aetheroleum",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "lavandula angustifolia miller aetheroleum",
+ "title_extra": null,
+ "date": "2012-03-27",
+ "revised": "2012-03-27",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-lavandula-angustifolia-miller-aetheroleum_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/143181/2010"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:149cdc06003e11ba64de90d30793af29ed99017c079bf810c872e5bfa4761929",
+ "entities": [
+  "lavandula angustifolia miller aetheroleum"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nTraditional herbal medicinal product for relief of\nmild symptoms of mental stress and exhaustion\nand to aid sleep.\nThe product is a traditional herbal medicinal\nproduct for use in the specified indication",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#002",
+   "text": "4.2 Posology and method of administration: Well-established use\nTraditional use\nPosology\nAdolescents, adults and elderly\n\nOral use\nDaily dose3: 20–80 mg\n\nUse as bath additive\n1 to 3 g per full bath once daily\nThe use in children under 12 years of age is not\nrecommended (see section 4.4 ‘Special warnings\nand precautions for use’).\nDuration of use\nIf the symptoms persist during the use of the\nmedicinal product, a doctor or a qualified health\ncare practitioner should be consulted.\nMethod of administration\nOral use.\nUse as bath additive: recommended temperature\nof bath: 35–38 °C during 10-20 minutes.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 100
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance(s).\nFull baths are contraindicated in cases of open\nwounds, large skin injuries, acute skin diseases,\nhigh fever, severe infections, severe circulatory\ndisturbances and cardiac insufficiency.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nThe use in children under 12 years of age has not\nbeen established due to lack of adequate data.\n3 It is expected that for the finished product, the amount will be expressed in a number of drops. As this number depends\nupon the droplet counter and the oil itself, it is up to the applicant to convert the weight in a number of drops.\nCommunity herbal monograph on Lavandula angustifolia Miller, aetheroleum\nEMA/HMPC/143181/2010\nPage 4/5\nWell-established use\nTraditional use\nIf the symptoms worsen during the use of the\nmedicinal product, a doctor or a qualified health\ncare practitioner should be consulted.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 113
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nNone reported.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#006",
+   "text": "4.6 Fertility, Pregnancy and lactation: Well-established use\nTraditional use\nSafety during pregnancy and lactation has not\nbeen established. In the absence of sufficient\ndata, the use during pregnancy and lactation is\nnot recommended.\nNo fertility data available.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nMay impair ability to drive and use machines.\nAffected patients should not drive or operate\nmachinery.\nNo studies on the effect on the ability to drive and\nuse machines have been performed.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nNone known.\nIf adverse reactions occur, a doctor or a qualified\nhealth care practitioner should be consulted.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.\nCommunity herbal monograph on Lavandula angustifolia Miller, aetheroleum\nEMA/HMPC/143181/2010\nPage 5/5",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "ema-lavandula-angustifolia-miller-aetheroleum#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "lavandula angustifolia miller aetheroleum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

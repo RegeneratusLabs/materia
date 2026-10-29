@@ -1,0 +1,61 @@
+{
+ "doc_id": "epmc-42633317",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Micronutrient Networks in Nutritional Anemia: A Narrative Review Beyond Pathophysiology, Diagnosis, and Management of Iron Deficiency.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42633317",
+ "identifier": {
+  "type": "pmid",
+  "value": "42633317"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:3a59fb81bf0c7c726fc9455b6d73463e6f97c62fd8f53a7751210a8509c45c92",
+ "entities": [
+  "Micronutrient Networks in Nutritional Anemia: A Narrative Review Beyond Pathophy"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42633317#001",
+   "text": "Nutritional anemia remains one of the most persistent global health disorders, affecting populations across all age groups, particularly women, children, and individuals from low- and middle-income countries. Although iron deficiency has traditionally been considered the principal cause of nutritional anemia, emerging data indicate that anemia frequently results from intricate interactions among multi-micronutrient deficiencies, including folate, vitamin B12, vitamin A, zinc, copper, selenium, and antioxidant vitamins. Micronutrients regulate erythropoiesis, iron homeostasis, DNA synthesis, oxidative balance, and red blood cell survival. Recent advances in nutritional and molecular research indicate that micronutrient deficiencies frequently occur in combinations rather than as isolated abnormalities.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "zinc"
+   ],
+   "entities": [
+    "Micronutrient Networks in Nutritional Anemia: A Narrative Review Beyond Pathophy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "epmc-42633317#002",
+   "text": "Instead, synergistic and antagonistic interactions among micronutrients may influence disease severity and treatment response, and diagnostic interpretation. Furthermore, inflammation, gut dysbiosis, infections, dietary inhibitors, and genetic variability further complicate micronutrient metabolism and iron utilization. This review critically examines the combined role of micronutrients in the pathophysiology of nutritional anemia, with emphasis on erythropoietic regulation, iron metabolism, oxidative stress, and micronutrient cross-talk. The review also discusses current diagnostic challenges, emerging biomarkers, personalized nutrition approaches, and public health strategies aimed at improving anemia management. All the evidence converges toward a shift from an iron-centric approach to a broader multi-micronutrient framework for the management of nutritional anemia.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "zinc"
+   ],
+   "entities": [
+    "Micronutrient Networks in Nutritional Anemia: A Narrative Review Beyond Pathophy"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  }
+ ],
+ "date_precision": "year"
+}

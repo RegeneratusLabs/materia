@@ -1,0 +1,61 @@
+{
+ "doc_id": "epmc-42783810",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Folate: An Emerging Target in Type 2 Diabetes Mellitus and Its Complications.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42783810",
+ "identifier": {
+  "type": "pmid",
+  "value": "42783810"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:864e8579516f551516fab9b4acda9e6a5337f87dd87e400516dec29b6c93002d",
+ "entities": [
+  "Folate: An Emerging Target in Type 2 Diabetes Mellitus and Its Complications."
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42783810#001",
+   "text": "Folate, which is also known as folic acid, vitamin B9, is a key coenzyme in one-carbon metabolism (OCM) and participates in nucleic acid synthesis, methylation, and redox regulation. In recent years, numerous studies have demonstrated its close association with type 2 diabetes mellitus (T2DM), gestational diabetes mellitus (GDM), and diabetic complications. Serum folate levels are decreased in patients with T2DM, which is associated with increased urinary excretion and metformin-mediated inhibition of folate absorption. The onset of GDM is characterized by a folate dose-dependent imbalance characteristic, high folate combined with vitamin B12 deficiency significantly increases the risk of GDM. Maternal folate status can also modulate offspring insulin sensitivity through epigenetic modifications.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "b12"
+   ],
+   "entities": [
+    "Folate: An Emerging Target in Type 2 Diabetes Mellitus and Its Complications."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "epmc-42783810#002",
+   "text": "The mechanisms by which folate regulates diabetes mainly include lowering homocysteine (Hcy) concentrations, suppressing oxidative stress and inflammatory responses, modulating OCM, and mediating DNA methylation modifications. Cumulative evidence-based data indicate that appropriate folic acid supplementation can improve insulin resistance, restore vascular endothelial function, reduce the risk of cardiovascular diseases (CVDs), diabetic peripheral neuropathy, retinopathy, cognitive impairment, and other complications, and alleviate damage induced by high glucose. This review systematically summarizes the roles and molecular mechanisms of folate in diabetes and its complications, highlighting folate as a potential intervention target for diabetes.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "b12"
+   ],
+   "entities": [
+    "Folate: An Emerging Target in Type 2 Diabetes Mellitus and Its Complications."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 91
+  }
+ ],
+ "date_precision": "year"
+}

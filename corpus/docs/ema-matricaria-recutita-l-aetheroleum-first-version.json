@@ -1,0 +1,210 @@
+{
+ "doc_id": "ema-matricaria-recutita-l-aetheroleum-first-version",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "European Union herbal monograph on Matricaria recutita",
+ "title_extra": null,
+ "date": "2015-07-07",
+ "revised": "2015-07-07",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-matricaria-recutita-l-aetheroleum-first-version_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/278814/2010"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:fc45af19f09a6aaa999ee0ae01163c7abdb67d7ebf7662af8d715227f30c7e6f",
+ "entities": [
+  "Union herbal monograph",
+  "Matricaria recutita"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nTraditional herbal medicinal product used for\nadjuvant therapy of irritations of skin and\nmucosae in the anal and genital region, after\nserious conditions have been excluded by a\nmedical doctor.\nThe product is a traditional herbal medicinal\n1 The declaration of the active substance(s) for an individual finished product should be in accordance with relevant herbal\nquality guidance.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 65
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#002",
+   "text": "4.2 Posology and method of administration: Well-established use\nTraditional use\nPosology\nAdolescents, adults and elderly\nSingle dose\nUse as bath additive: 0.5 – 1 mg per litre\nFull bath: approximately 100 litre\nPartial bath: 20 – 50 litre\nAverage daily dose\nFull bath: one bath per day or every other day\nPartial bath: one or two times per day\nThe use in children under 12 years of age is not\nrecommended (see section 4.4 ‘Special warnings\nand precautions for use’).\nDuration of use\nDuration of bath: 10 – 20 minutes\nIf the symptoms persist longer than one week\nduring the use of the medicinal product, a doctor\nor a qualified health care practitioner should be\nconsulted.\nMethod of administration\nCutaneous use.\nUse as bath additive. Recommended temperature\nof bath: 35 – 38 °C",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 133
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance and to\nother plants of the Asteraceae (Compositae)\nfamily.\nFull baths are contraindicated in cases of open\nwounds, large skin injuries, acute skin diseases,\nhigh fever, severe infections, severe circulatory\ndisturbances and cardiac insufficency.\nEuropean Union herbal monograph on Matricaria recutita L., aetheroleum\nEMA/HMPC/278814/2010\nPage 4/5\nWell-established use\nTraditional use\nPartial baths are contraindicated in cases of open\nwounds, large skin injuries, acute skin diseases,\nhigh fever and severe infections.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 81
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nThe use in children under 12 years of age has not\nbeen established due to lack of adequate data.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 30
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nNone reported.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#006",
+   "text": "4.6 Fertility, pregnancy and lactation: Well-established use\nTraditional use\nSafety during pregnancy and lactation has not\nbeen established. In the absence of sufficient\ndata, the use during pregnancy and lactation is\nnot recommended.\nNo fertility data available.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nNo studies on the effect on the ability to drive\nand use machines have been performed.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nHypersensitivity reactions including severe\nallergic reaction (dyspnoea, Quincke’s disease,\nvascular collapse, anaphylactic shock) following\nmucosal contact with liquid chamomile\npreparations have been reported. The frequency\nis not known.\nIf other adverse reactions not mentioned above\nEuropean Union herbal monograph on Matricaria recutita L., aetheroleum\nEMA/HMPC/278814/2010\nPage 5/5\nWell-established use\nTraditional use\noccur, a doctor or a qualified health care\npractitioner should be consulted.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 70
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "ema-matricaria-recutita-l-aetheroleum-first-version#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Matricaria recutita"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

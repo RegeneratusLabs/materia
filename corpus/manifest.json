@@ -1,10 +1,677 @@
 {
- "generated": "2026-10-28",
- "documents": 301,
- "chunks": 3686,
- "redistributable": 301,
+ "generated": "2026-10-29",
+ "documents": 330,
+ "chunks": 3794,
+ "redistributable": 330,
  "review_due": 0,
  "entries": [
+  {
+   "doc_id": "ema-allium-sativum-l-bulbus",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "European Union herbal monograph on Allium sativum L.,",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-allium-sativum-l-bulbus_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/7685/2013"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2017-07-18",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:05f30df4f6487c78da66ab2746e0544e15031751125d3b7de5471f1fcd59ef51",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-avena-sativa-l-fructus",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "avena sativa l fructus",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-avena-sativa-l-fructus_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-avena-sativa-l-fructus_en.pdf"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2008-09-04",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:17942f6f2227b234632c6b5f0bde13f6b28b9c992b8c1252a311f382a648c2ce",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-avena-sativa-l-herba",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "avena sativa l herba",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-avena-sativa-l-herba_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-avena-sativa-l-herba_en.pdf"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2008-09-04",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:0321598b113a903a5272b6cba27ac76928f3699328cfa775806baa378ae4a3e3",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "camellia sinensis l kuntze non fermentatum folium",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-camellia-sinensis-l-kuntze-non-fermentatum-folium_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/283630/2012"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2013-11-12",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:6679693db4ec30cbf56b1a37e56021456a0d66f68f7e21e80a419d86d616d550",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-chamaemelum-nobile-l-all-flos",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "chamaemelum nobile l all flos",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-chamaemelum-nobile-l-all-flos_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/560734/2010"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2011-11-22",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:02de282746959d4865d7626f35c9c9929bece8ba3dd4cb99b5048abfde254a5d",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-commiphora-molmol-engler-gummi-resina",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "commiphora molmol engler gummi resina",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-commiphora-molmol-engler-gummi-resina_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/96911/2010"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2011-07-12",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:78311f66a0f71a211e61b6a1ab53efcef819aff12534ea9bfdba7db5d0270463",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-curcuma-xanthorrhiza-roxb-c-xanthorrhiza-d-dietrich-rhizoma",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "curcuma xanthorrhiza roxb c xanthorrhiza d dietrich rhizoma",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-curcuma-xanthorrhiza-roxb-c-xanthorrhiza-d-dietrich-rhizoma_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/604600/2012"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2014-01-28",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:736671b9da3bdd50057b57f194289a294216fbddeb0eceb8048a6c1adffc736b",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-echinacea-angustifolia-dc-radix",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "echinacea angustifolia dc radix",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-echinacea-angustifolia-dc-radix_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/688216/2008"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2012-03-27",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:388bb0f61b501fbba9952241723e547157265e1747f77c4f96cf52508904ef80",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-echinacea-purpurea-l-moench-herba-recens",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "European Union herbal monograph on Echinacea",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-echinacea-purpurea-l-moench-herba-recens_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/48704/2014"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2015-11-24",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:89b058e95d3f3ed56475dfa3da9f33ab96c97cba08202902f4830b6de2f936a0",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-ginkgo-biloba-l-folium",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "European Union herbal monograph on Ginkgo biloba L.,",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-ginkgo-biloba-l-folium_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/321097/2012"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2015-01-28",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:c9a638ea0a54d8cb04800aa5af939386bd2153721acb16fe3971e118036fd95d",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-lavandula-angustifolia-miller-aetheroleum",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "lavandula angustifolia miller aetheroleum",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-lavandula-angustifolia-miller-aetheroleum_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/143181/2010"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2012-03-27",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:149cdc06003e11ba64de90d30793af29ed99017c079bf810c872e5bfa4761929",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-lavandula-angustifolia-p-mill-flos",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "lavandula angustifolia p mill flos",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-lavandula-angustifolia-p-mill-flos_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/734125/2010"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2012-03-27",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:24fc44f118f40c4c638040e47f777b0ba4a755ad1faf700cff504f782053b1ad",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-matricaria-recutita-l-aetheroleum-first-version",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "European Union herbal monograph on Matricaria recutita",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-matricaria-recutita-l-aetheroleum-first-version_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/278814/2010"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2015-07-07",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:fc45af19f09a6aaa999ee0ae01163c7abdb67d7ebf7662af8d715227f30c7e6f",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-matricaria-recutita-l-flos-first-version",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "European Union herbal monograph on Matricaria recutita",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-matricaria-recutita-l-flos-first-version_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/55843/2011"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2015-07-07",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:cdc63d61626f49a639c3a5ec2e768a8fa46933b5393e8fa2c9cb0518e10b0ffb",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 20
+  },
+  {
+   "doc_id": "ema-melissa-officinalis-l-folium",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "melissa officinalis l folium",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-melissa-officinalis-l-folium_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/196745/2012"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2013-05-14",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:082be7d035cacca8f551adbaa8362facb7e66079336ca6c525e88dd1b9d2f6f0",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-passiflora-incarnata-l-herba",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "passiflora incarnata l herba",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-passiflora-incarnata-l-herba_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/669740/2013"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2014-03-25",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:7b333e0bf306b67440e9e56474580b812ba18169c74020c95cbd2424a4cd90d6",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-serenoa-repens-w-bartram-small-fructus",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "European Union herbal monograph on Serenoa repens",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-serenoa-repens-w-bartram-small-fructus_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/280079/2013"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2015-11-24",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:1d9827c8ebe4f65d4ea30a8e57a0dd31ac1c3910be7626f150774c98bdf4a3be",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-silybum-marianum-l-gaertn-fructus",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "European Union herbal monograph on Silybum marianum",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-silybum-marianum-l-gaertn-fructus_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/294187/2013"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2018-06-05",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:afeb326dfda9fa0cb5d3f661dff6b7e0bd1a235957885d9b7528edd7ef95ca92",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 12
+  },
+  {
+   "doc_id": "ema-tanacetum-parthenium-l-schulz-bip-herba",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "tanacetum parthenium l schulz bip herba",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-tanacetum-parthenium-l-schulz-bip-herba_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/587578/2009"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2010-11-25",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:21b1c9c3e823f1307c15029584c7166dcd08c3fa70257ff2b648612f2335617a",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-valeriana-officinalis-l-aetheroleum",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "European Union herbal monograph on Valeriana officinalis",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-valeriana-officinalis-l-aetheroleum_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/278053/2015"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2006-07-13",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:50df519b59df5e5083bc5c865e3d803593046ccc008c4ff767d54bd4d2eaa349",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 11
+  },
+  {
+   "doc_id": "ema-valeriana-officinalis-l-radix",
+   "source": "EMA (HMPC)",
+   "tier": "regulatory",
+   "title": "European Union herbal monograph on Valeriana officinalis",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-valeriana-officinalis-l-radix_en.pdf",
+   "identifier": {
+    "type": "ema",
+    "value": "EMA/HMPC/150848/2015"
+   },
+   "jurisdiction": "eu",
+   "language": "en",
+   "revised": "2016-02-02",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-10-29",
+   "checksum": "sha256:a69cc050171e07c01a2b77afdbecc34990e7dfba161bbfc194405fe1119596cb",
+   "licence": {
+    "name": "EMA legal notice \u2014 reproduction authorised with acknowledgement",
+    "redistributable": true,
+    "evidence_url": "https://www.ema.europa.eu/en/legal-notice"
+   },
+   "chunks": 14
+  },
+  {
+   "doc_id": "epmc-41764614",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "Herbal Medicines and Drugs Interactions: Cytochrome P450 Responsibility.",
+   "url": "https://europepmc.org/article/MED/41764614",
+   "identifier": {
+    "type": "pmid",
+    "value": "41764614"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:9e88d1a09c714c0eb457512891c5222d5dc1d842e1ce1232026149baea8c2b13",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 4
+  },
+  {
+   "doc_id": "epmc-42633317",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "Micronutrient Networks in Nutritional Anemia: A Narrative Review Beyond Pathophysiology, Diagnosis, and Management of Iron Deficiency.",
+   "url": "https://europepmc.org/article/MED/42633317",
+   "identifier": {
+    "type": "pmid",
+    "value": "42633317"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:3a59fb81bf0c7c726fc9455b6d73463e6f97c62fd8f53a7751210a8509c45c92",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "epmc-42647256",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "Refining MMA Screening in the Dutch Newborn Screening Program: Lessons from Vitamin B12 Deficiency and Genetic Cases.",
+   "url": "https://europepmc.org/article/MED/42647256",
+   "identifier": {
+    "type": "pmid",
+    "value": "42647256"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:5ad0deadeed9f0124686eb5da0d91013ac2d660df73678945be7f73380847a4a",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "epmc-42689097",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "Folate in autism neurodevelopment.",
+   "url": "https://europepmc.org/article/MED/42689097",
+   "identifier": {
+    "type": "pmid",
+    "value": "42689097"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:281f24e9ac8dd50ba413612a550819c70f61c3849d4a5e2800bee48468b32fb3",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "epmc-42783810",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "Folate: An Emerging Target in Type 2 Diabetes Mellitus and Its Complications.",
+   "url": "https://europepmc.org/article/MED/42783810",
+   "identifier": {
+    "type": "pmid",
+    "value": "42783810"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:864e8579516f551516fab9b4acda9e6a5337f87dd87e400516dec29b6c93002d",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "epmc-42787405",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "Haemorrhagic event reporting with concomitant gemcitabine and warfarin: a VigiBase disproportionality analysis.",
+   "url": "https://europepmc.org/article/MED/42787405",
+   "identifier": {
+    "type": "pmid",
+    "value": "42787405"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:55c3853567c0241133bbc35933472e2a4faed3f25fbb590450502cc317d4e72e",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 3
+  },
+  {
+   "doc_id": "epmc-42812739",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "A Case of Drug-Induced Liver Injury Associated With Saw Palmetto.",
+   "url": "https://europepmc.org/article/MED/42812739",
+   "identifier": {
+    "type": "pmid",
+    "value": "42812739"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:2f1cd486aac4ad38d73ad3c1031e195cf1f8d638dac565666365911a1faf4aa1",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 5
+  },
+  {
+   "doc_id": "epmc-42812992",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "Effect of Herbal Extracts on Antituberculosis Drug-Induced Hepatotoxicity: A Systematic Review.",
+   "url": "https://europepmc.org/article/MED/42812992",
+   "identifier": {
+    "type": "pmid",
+    "value": "42812992"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:be990594de0395b974c9d8d8be246d2fd42eeb0804e62042124e73d70f69395d",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 3
+  },
   {
    "doc_id": "hc-nhpid-5htp",
    "source": "Health Canada NNHPD",
@@ -5132,7 +5799,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-aloe-vera",
@@ -5155,7 +5822,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 15
+   "chunks": 12
   },
   {
    "doc_id": "nccih-ashwagandha",
@@ -5178,7 +5845,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-asian-ginseng",
@@ -5201,7 +5868,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 14
+   "chunks": 11
   },
   {
    "doc_id": "nccih-astragalus",
@@ -5224,7 +5891,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-bilberry",
@@ -5247,7 +5914,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-bitter-orange",
@@ -5270,7 +5937,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-black-cohosh",
@@ -5284,7 +5951,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2024-11-01",
+   "revised": "2021-05-17",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:8b4eb8ff14da22b1e028ed65e26139dd3c3ad1b76f3e833630452b46cfb81ed5",
@@ -5293,7 +5960,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-boswellia",
@@ -5316,7 +5983,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-bromelain",
@@ -5339,7 +6006,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-butterbur",
@@ -5353,7 +6020,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2024-11-01",
+   "revised": "2019-02-18",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:843b6c311dd110a320fc12a551bedb7065e89f3d338b3ef43e15dd18b0066972",
@@ -5362,7 +6029,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-cats-claw",
@@ -5385,7 +6052,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-chamomile",
@@ -5408,7 +6075,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-chasteberry",
@@ -5422,7 +6089,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-04-01",
+   "revised": "2024-05-15",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:10452d19eaad7337f4e5ed5dbee2797b32b0acccd16635bd014aca0dac21f600",
@@ -5431,7 +6098,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 9
   },
   {
    "doc_id": "nccih-cinnamon",
@@ -5454,7 +6121,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-cranberry",
@@ -5477,7 +6144,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-dandelion",
@@ -5500,7 +6167,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-echinacea",
@@ -5523,7 +6190,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-elderberry",
@@ -5546,7 +6213,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-ephedra",
@@ -5569,7 +6236,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-european-mistletoe",
@@ -5592,7 +6259,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-evening-primrose-oil",
@@ -5615,7 +6282,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-fenugreek",
@@ -5638,7 +6305,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-feverfew",
@@ -5661,7 +6328,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-flaxseed-and-flaxseed-oil",
@@ -5684,7 +6351,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-garcinia-cambogia",
@@ -5698,7 +6365,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-02-01",
+   "revised": "2019-02-13",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:a0d43be7ace88d93863a69e4097ba8d11566dfa3ee2a79ce55cce1f0b4a589d3",
@@ -5707,7 +6374,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-garlic",
@@ -5730,7 +6397,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-ginger",
@@ -5753,7 +6420,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-ginkgo",
@@ -5776,7 +6443,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-goldenseal",
@@ -5799,7 +6466,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-grape-seed-extract",
@@ -5822,7 +6489,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-green-tea",
@@ -5836,7 +6503,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-02-01",
+   "revised": "2024-05-15",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:e23fcb1f9f8712176a9d7c46cca2f27a5f658df6ef12655bb62c9d265875d960",
@@ -5845,7 +6512,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-hawthorn",
@@ -5859,7 +6526,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-04-01",
+   "revised": "2021-02-15",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:4fd18548fa6221bc2638efcc8bb54fa9a524399d43adae9a07c27a653f8d9b57",
@@ -5868,7 +6535,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-hoodia",
@@ -5882,7 +6549,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-04-01",
+   "revised": "2018-03-28",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:fc6b22e1d96cf3f2a858c7e40e347f7d0e214871f350e98c6e962ef08dbae8ea",
@@ -5891,7 +6558,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-horse-chestnut",
@@ -5914,7 +6581,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-kava",
@@ -5928,7 +6595,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-04-01",
+   "revised": "2018-04-10",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:4658527be34807437197ec4efd172896c1025e90ab4a7d296e7277373d11c5f6",
@@ -5937,7 +6604,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-lavender",
@@ -5960,7 +6627,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 9
   },
   {
    "doc_id": "nccih-licorice-root",
@@ -5983,7 +6650,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 9
   },
   {
    "doc_id": "nccih-milk-thistle",
@@ -5997,7 +6664,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-02-01",
+   "revised": "2024-07-15",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:6e8ae58b4e53cde199059c85bc790d48f4fc8c79539a6856f0660ae3431bc98d",
@@ -6006,7 +6673,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-mugwort",
@@ -6029,7 +6696,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-noni",
@@ -6052,7 +6719,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-passionflower",
@@ -6075,7 +6742,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-peppermint-oil",
@@ -6098,7 +6765,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 13
+   "chunks": 10
   },
   {
    "doc_id": "nccih-pomegranate",
@@ -6121,7 +6788,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-red-clover",
@@ -6144,7 +6811,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 11
+   "chunks": 9
   },
   {
    "doc_id": "nccih-rhodiola",
@@ -6167,7 +6834,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-sage",
@@ -6181,7 +6848,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-04-01",
+   "revised": "2024-08-15",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:6f0cbcc1b7ca51018bde041f5524bb4a094b8b269677e2e1bbdc215f730c8490",
@@ -6190,7 +6857,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-saw-palmetto",
@@ -6213,7 +6880,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-soy",
@@ -6236,7 +6903,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-st-johns-wort",
@@ -6259,7 +6926,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 15
+   "chunks": 11
   },
   {
    "doc_id": "nccih-tea-tree-oil",
@@ -6282,7 +6949,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-thunder-god-vine",
@@ -6305,7 +6972,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 14
+   "chunks": 10
   },
   {
    "doc_id": "nccih-turmeric",
@@ -6319,7 +6986,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-04-01",
+   "revised": "2024-06-01",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:2e2a105a9221c0c8ca6babf7e12f67185f6fb6ce82a4235dea9fe0107e84407d",
@@ -6328,7 +6995,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 14
+   "chunks": 9
   },
   {
    "doc_id": "nccih-valerian",
@@ -6342,7 +7009,7 @@
    },
    "jurisdiction": "us",
    "language": "en",
-   "revised": "2025-05-01",
+   "revised": "2020-04-05",
    "retrieved_at": "2026-10-28",
    "next_review_due": "2027-04-28",
    "checksum": "sha256:1b52b468539f8dff4faca5c26bd2e06347d075904121a999fc5d2c4782c1a76e",
@@ -6351,7 +7018,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-white-mulberry-leaf",
@@ -6374,7 +7041,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 9
   },
   {
    "doc_id": "nccih-yohimbe",
@@ -6397,7 +7064,7 @@
     "redistributable": true,
     "evidence_url": "https://www.nih.gov/web-policies-notices"
    },
-   "chunks": 12
+   "chunks": 10
   },
   {
    "doc_id": "nci-pdq-714-x-pdq",

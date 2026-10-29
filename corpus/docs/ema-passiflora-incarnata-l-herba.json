@@ -1,0 +1,198 @@
+{
+ "doc_id": "ema-passiflora-incarnata-l-herba",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "passiflora incarnata l herba",
+ "title_extra": null,
+ "date": "2014-03-25",
+ "revised": "2014-03-25",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-passiflora-incarnata-l-herba_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/669740/2013"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:7b333e0bf306b67440e9e56474580b812ba18169c74020c95cbd2424a4cd90d6",
+ "entities": [
+  "passiflora incarnata l herba"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nTraditional herbal medicinal product for relief of\nmild symptoms of mental stress and to aid sleep.\nThe product is a traditional herbal medicinal\nproduct for use in the specified indication\nexclusively based upon long-standing use.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 42
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#002",
+   "text": "4.2 Posology and method of administration3: Well-established use\nTraditional use\nPosology\nAdolescents, adults and elderly\nSingle dose\nii) Herbal preparations\na) Herbal tea: 1-2 g of the comminuted\nherbal substance in 150 ml of boiling\nwater as a herbal infusion, 1-4 times daily\nb) Powdered herbal substance:\n0.5-2g, 1-4 times daily\nc) Liquid extract: 2-4 ml, up to 4 times daily\nd) Liquid extract: 2 ml, up to 3 times daily\ne) Liquid extract: 1 ml, 3-5 times daily\nf)\nLiquid extract: 0.5-2 ml, up to 4 times\ndaily\ng) Liquid extract: 2 ml up to 3 times daily\n3 For guidance on herbal substance/herbal preparation administered as herbal tea or as infusion/decoction/macerate\npreparation, please refer to the HMPC ‘Glossary on herbal teas’ (EMA/HMPC/5829/2010 Rev.1).\nCommunity herbal monograph on Passiflora incarnata L., herba\nEMA/HMPC/669740/2013\nPage 4/7\nWell-established use\nTraditional use\nh) Liquid extract: 0.3-0.4 ml,\nadults 3-5 times daily;\nadolescents 3 times daily\nDoses of dried extracts corresponding to the\nposologies of tea and liquid extracts above.\nThe use in children under 12 years of age is not\nrecommended (see section 4.4 ‘Special warnings\nand precautions for use’).\nDuration of use\nIf the symptoms persist longer than 2 weeks\nduring the use of the medicinal product, a doctor\nor a qualified health care practitioner should be\nconsulted.\nMethod of administration\nOral use.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 222
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nThe use in children under 12 years of age has not\nbeen established due to lack of adequate data.\nIf the symptoms worsen during the use of the\nmedicinal product, a doctor or a qualified health\ncare practitioner should be consulted.\nFor liquid extracts containing ethanol, the\nappropriate labelling for ethanol, taken from the\n‘Guideline on excipients in the label and package\nleaflet of medicinal products for human use’, must\nbe included.\nCommunity herbal monograph on Passiflora incarnata L., herba\nEMA/HMPC/669740/2013\nPage 5/7",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nNone reported.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#006",
+   "text": "4.6 Fertility, pregnancy and lactation: Well-established use\nTraditional use\nSafety during pregnancy and lactation has not\nbeen established. In the absence of sufficient\ndata, the use during pregnancy and lactation is\nnot recommended.\nNo fertility data available.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nMay impair ability to drive and use machines.\nAffected patients should not drive or operate\nmachinery.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nNone known.\nIf adverse reactions occur, a doctor or a qualified\nhealth care practitioner should be consulted.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 24
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.\nCommunity herbal monograph on Passiflora incarnata L., herba\nEMA/HMPC/669740/2013\nPage 6/7",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "ema-passiflora-incarnata-l-herba#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "passiflora incarnata l herba"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

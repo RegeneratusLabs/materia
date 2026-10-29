@@ -1,0 +1,225 @@
+{
+ "doc_id": "ema-silybum-marianum-l-gaertn-fructus",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "European Union herbal monograph on Silybum marianum",
+ "title_extra": null,
+ "date": "2018-06-05",
+ "revised": "2018-06-05",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-silybum-marianum-l-gaertn-fructus_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "EMA/HMPC/294187/2013"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:afeb326dfda9fa0cb5d3f661dff6b7e0bd1a235957885d9b7528edd7ef95ca92",
+ "entities": [
+  "Union herbal monograph",
+  "Silybum marianum"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nTraditional herbal medicinal product for the\nsymptomatic relief of digestive disorders,\nsensation of fullness and indigestion and to\nsupport the liver function, after serious\nconditions have been excluded by a medical\ndoctor.\nThe product is a traditional herbal medicinal\nproduct for use in the specified indication\nexclusively based upon long-standing use.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "liver",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 58
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#002",
+   "text": "4.2 Posology and method of administration3: Well-established use\nTraditional use\nPosology\nAdults and elderly\na) Comminuted herbal substance for herbal tea\nSingle dose: 3-5 g in 100 ml of boiling water, 2-\n3 times daily, before meals\nb) Powdered herbal substance\nSingle dose: 300 mg–600 mg, 2-3 times daily\nDaily dose: up to 1800 mg, before meals\nc) Dry extract (DER 20-70:1), extraction solvent\nacetone\nSingle dose: 82-239 mg, 2-3 times daily\nDaily dose: up to 478 mg, before meals\nd) Dry extract (DER 30-40:1), extraction solvent\nethanol 96% (V/V)\nSingle dose: 200 mg\nDaily dose: 200 mg\n3 For guidance on herbal substance/herbal preparation administered as herbal tea or as infusion/decoction/macerate\npreparation, please refer to the HMPC ‘Glossary on herbal teas’ (EMA/HMPC/5829/2010 Rev.1).\nEuropean Union herbal monograph on Silybum marianum (L.) Gaertn., fructus\nEMA/HMPC/294187/2013\nPage 5/7\nWell-established use\nTraditional use\ne) Dry extract (DER 20-35:1), extraction solvent\nethyl acetate\nSingle dose: 162.5-250 mg, 3-4 times daily\nf) Dry extract (DER 26-45:1), extraction solvent\nethyl acetate\nSingle dose: 123-208.3 mg, 3-4 times daily\ng) Dry extract (DER 36-44:1), extraction solvent\nethyl acetate\nSingle dose: 173.0-186.7 mg, 3 times daily\nh) Dry extract (DER 20-34:1), extraction solvent\nmethanol 90% (V/V)\nSingle dose: 70 mg, 3 times daily\ni) Soft extract\nSingle dose: 392 mg 2 times daily\nThe use in children and adolescents under 18",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 224
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#003",
+   "text": "4.2 Posology and method of administration3: years of age is not recommended (see section\n4.4 ‘Special warnings and precautions for use’)\nDuration of use\nIf the symptoms persist longer than 2 weeks\nduring the use of the medicinal product, a doctor\nor a qualified health care practitioner should be\nconsulted.\nMethod of administration\nOral use",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 55
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#004",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance and to\nplants of the Asteraceae (Compositae) family.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#005",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nThe use in children and adolescents under 18\nyears of age has not been established due to lack\nof adequate data.\nIf the symptoms worsen during the use of the\nmedicinal product, a doctor or a qualified health\ncare practitioner should be consulted. If icterus\nor a change in colour of urine or stool appears,\nEuropean Union herbal monograph on Silybum marianum (L.) Gaertn., fructus\nEMA/HMPC/294187/2013\nPage 6/7\nWell-established use\nTraditional use\nthe medical doctor should be consulted\nimmediately.\nFor tinctures and extracts containing ethanol, the\nappropriate labelling for ethanol, taken from the\n‘Guideline on excipients in the label and package\nleaflet of medicinal products for human use’,\nmust be included.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 122
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#006",
+   "text": "4.5 Interactions with other medicinal products and other forms of: interaction\nWell-established use\nTraditional use\nNone reported",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#007",
+   "text": "4.6 Fertility, pregnancy and lactation: Well-established use\nTraditional use\nSafety during pregnancy and lactation has not\nbeen established. In the absence of sufficient\ndata, the use during pregnancy and lactation is\nnot recommended.\nNo fertility data available.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#008",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nNo studies on the effect on the ability to drive\nand use machines have been performed.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#009",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nMild gastrointestinal symptoms such as dry\nmouth, nausea, upset stomach, gastric irritation\nand diarrhoea may occur; headache; allergic\nreactions (dermatitis, urticaria, skin rash,\npruritus, anaphylaxis, asthma) may occur. The\nfrequency is not known.\nIf other adverse reactions not mentioned above\noccur, a doctor or a qualified health care\npractitioner should be consulted.\nEuropean Union herbal monograph on Silybum marianum (L.) Gaertn., fructus\nEMA/HMPC/294187/2013\nPage 7/7",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 72
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#010",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#011",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "ema-silybum-marianum-l-gaertn-fructus#012",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "Union herbal monograph",
+    "Silybum marianum"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  }
+ ]
+}

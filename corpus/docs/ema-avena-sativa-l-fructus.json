@@ -1,0 +1,197 @@
+{
+ "doc_id": "ema-avena-sativa-l-fructus",
+ "source": "EMA (HMPC)",
+ "tier": "regulatory",
+ "title": "avena sativa l fructus",
+ "title_extra": null,
+ "date": "2008-09-04",
+ "revised": "2008-09-04",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-10-29",
+ "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-avena-sativa-l-fructus_en.pdf",
+ "identifier": {
+  "type": "ema",
+  "value": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-avena-sativa-l-fructus_en.pdf"
+ },
+ "jurisdiction": "eu",
+ "language": "en",
+ "licence": {
+  "name": "EMA legal notice — reproduction authorised with acknowledgement",
+  "redistributable": true,
+  "evidence_url": "https://www.ema.europa.eu/en/legal-notice",
+  "note": "Commercial and non-commercial reuse permitted with EMA acknowledged in each copy. Third-party content excluded."
+ },
+ "checksum": "sha256:17942f6f2227b234632c6b5f0bde13f6b28b9c992b8c1252a311f382a648c2ce",
+ "entities": [
+  "avena sativa l fructus"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#001",
+   "text": "4.1 Therapeutic indications: Well-established use\nTraditional use\nTraditional herbal medicinal product for the\nsymptomatic treatment of minor inflammations of\nthe skin (such as sunburn) and as an aid in healing\nof minor wounds.\nThe product is a traditional herbal medicinal\nproduct\nfor\nuse\nin\nspecified\nindications\nexclusively based upon long-standing use.\n1 The declaration of the active substance(s) for an individual finished product should be in accordance with\nrelevant herbal quality guidance.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 72
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#002",
+   "text": "4.2 Posology and method of administration: Well-established use\nTraditional use\nPosology\nA) For a bath of 150 to 200 litres: 60 g oat flour;\nfor children 50% of this dose is used.\nB) Colloidal extracts of flour are used in\nconcentrations up to 20 – 30%, mixed with\nvehiculum.\nC) Liquid paraffin with 5% oatmeal. There is no\nrestriction in age.\nDuration of use\nIf the symptoms persist after 1 week during the\nuse of the medicinal product, a doctor or a\nqualified health care practitioner should be\nconsulted.\nMethod of administration\nCutaneous use.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "children",
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#003",
+   "text": "4.3 Contraindications: Well-established use\nTraditional use\nHypersensitivity to the active substance.",
+   "section": "contraindications",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#004",
+   "text": "4.4 Special warnings and precautions for use: Well-established use\nTraditional use\nNot applicable.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#005",
+   "text": "4.5 Interactions with other medicinal products and other forms of interaction: Well-established use\nTraditional use\nNone reported.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#006",
+   "text": "4.6 Pregnancy and lactation: Well-established use\nTraditional use\nThere are no data on use during pregnancy or\nlactation. No concern has arisen about any\nmalformation in humans.\n© EMEA 2008\n3/5",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "pregnancy",
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#007",
+   "text": "4.7 Effects on ability to drive and use machines: Well-established use\nTraditional use\nNo data available.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#008",
+   "text": "4.8 Undesirable effects: Well-established use\nTraditional use\nSkin reactions may occur in atopic patients and in\npatients with contact dermatitis.\nThe frequency is not known.\nIf other adverse reactions occur not mentioned\nabove, a doctor or a qualified health care\npractitioner should be consulted.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 44
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#009",
+   "text": "4.9 Overdose: Well-established use\nTraditional use\nNo case of overdose has been reported.",
+   "section": "adverse_effects",
+   "assertion_type": "safety",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#010",
+   "text": "5.1 Pharmacodynamic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  },
+  {
+   "chunk_id": "ema-avena-sativa-l-fructus#011",
+   "text": "5.2 Pharmacokinetic properties: Well-established use\nTraditional use\nNot required as per Article 16c(1)(a)(iii) of\nDirective 2001/83/EC as amended.",
+   "section": "pharmacology",
+   "assertion_type": "other",
+   "topics": [
+    "traditional"
+   ],
+   "entities": [
+    "avena sativa l fructus"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 18
+  }
+ ]
+}

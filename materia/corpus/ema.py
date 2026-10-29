@@ -112,7 +112,7 @@ def classify(heading: str) -> tuple[str, str] | None:
     return None
 
 
-def parse_monograph(text: str, url: str, pages: int, *, retrieved_at: str) -> dict:
+def parse_monograph(text: str, url: str, pages: int, *, retrieved_at: str, raw: bytes) -> dict:
     slug = slug_from_url(url)
     doc_id = f"ema-{slug}"
 
@@ -200,7 +200,7 @@ def build(
         try:
             raw = fetch(url)
             text, pages = parse_pdf(raw)
-            doc = parse_monograph(text, url, pages, retrieved_at=retrieved_at)
+            doc = parse_monograph(text, url, pages, retrieved_at=retrieved_at, raw=raw)
         except Exception as e:
             failed.append({"url": url, "error": str(e)})
             print(f"[{n}/{len(targets)}] FAIL {url.rsplit('/', 1)[-1]}: {e}", flush=True)

@@ -1,0 +1,106 @@
+{
+ "doc_id": "epmc-42812739",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "A Case of Drug-Induced Liver Injury Associated With Saw Palmetto.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42812739",
+ "identifier": {
+  "type": "pmid",
+  "value": "42812739"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:2f1cd486aac4ad38d73ad3c1031e195cf1f8d638dac565666365911a1faf4aa1",
+ "entities": [
+  "A Case of Drug-Induced Liver Injury Associated With Saw Palmetto."
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42812739#001",
+   "text": "Saw palmetto (SP) is a widely used herbal supplement for benign prostatic hyperplasia (BPH) and is generally considered safe. However, rare cases of SP-associated drug-induced liver injury (DILI) have been reported. We describe a case of cholestatic hepatitis attributed to SP, highlighting the diagnostic challenges associated with herbal supplement use and polypharmacy. A 70-year-old male with a history of BPH, hypertension, chronic obstructive pulmonary disease, atrial fibrillation, and cholecystectomy presented with one month of jaundice, pruritus, and pale stools. Physical examination demonstrated scleral icterus without abdominal tenderness.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "A Case of Drug-Induced Liver Injury Associated With Saw Palmetto."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 87
+  },
+  {
+   "chunk_id": "epmc-42812739#002",
+   "text": "Laboratory evaluation revealed an alkaline phosphatase level of 215 U/L, total bilirubin of 7.3 mg/dL (direct bilirubin = 5.0 mg/dL), alanine aminotransferase of 305 U/L, aspartate aminotransferase of 133 U/L, and an international normalized ratio of 3.8 while receiving warfarin therapy for atrial fibrillation. Viral hepatitis serologies were negative. Right upper quadrant ultrasonography demonstrated mild biliary ductal prominence, and magnetic resonance cholangiopancreatography excluded biliary obstruction. Liver injury was initially attributed to congestive hepatopathy because of newly reduced left ventricular ejection fraction (34%-40%). However, the patient remained clinically euvolemic, liver biochemistries failed to improve, and progressive hyperbilirubinemia prompted further evaluation.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "A Case of Drug-Induced Liver Injury Associated With Saw Palmetto."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "epmc-42812739#003",
+   "text": "A detailed medication history revealed over-the-counter SP use for approximately four months, discontinued two months before presentation, and a recent one-week course of trimethoprim-sulfamethoxazole for a urinary tract infection. Transjugular liver biopsy with measurement of the hepatic venous pressure gradient (6 mmHg) demonstrated cholestatic hepatitis with portal and lobular inflammation, eosinophilic infiltration, and bile duct proliferation, consistent with DILI. Right and left heart catheterization demonstrated normal filling pressures and the absence of obstructive coronary artery disease, making congestive hepatopathy unlikely. Warfarin was reversed with vitamin K and transitioned to apixaban because of concern for potential hepatotoxicity.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "A Case of Drug-Induced Liver Injury Associated With Saw Palmetto."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 96
+  },
+  {
+   "chunk_id": "epmc-42812739#004",
+   "text": "The patient was treated with ursodiol and cholestyramine, resulting in gradual improvement in liver enzymes and bilirubin, and was discharged with close hepatology and cardiology follow-up. This case highlights SP as a rare but important suspected cause of cholestatic DILI. Although causality cannot be definitively established because of concomitant exposure to other drugs, SP was considered the most likely implicated agent based on the temporal relationship with exposure, exclusion of alternative etiologies, compatible histopathologic findings, and clinical improvement after its discontinuation. Clinicians should routinely inquire about over-the-counter and herbal supplement use when evaluating unexplained liver injury.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "A Case of Drug-Induced Liver Injury Associated With Saw Palmetto."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 96
+  },
+  {
+   "chunk_id": "epmc-42812739#005",
+   "text": "Increased awareness, comprehensive medication reconciliation, and improved regulation of dietary supplements may facilitate earlier recognition and reduce preventable hepatotoxicity.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "A Case of Drug-Induced Liver Injury Associated With Saw Palmetto."
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  }
+ ],
+ "date_precision": "year"
+}
