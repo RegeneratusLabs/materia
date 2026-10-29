@@ -89,6 +89,22 @@ SECTION_FOR_QUESTION: list[tuple[str, set[str]]] = [
     (r"lab|ferritin|tsh|b12|folate|reference|range|interval", {"reference_interval", "monitoring"}),
 ]
 
+ANALYTES = {
+    "tsh", "t3", "t4", "ft3", "ft4", "b12", "folate", "ferritin", "iron", "transferrin",
+    "ggt", "alt", "ast", "alp", "crp", "esr", "creatinine", "calcium", "magnesium", "zinc",
+    "hba1c", "homocysteine", "cholesterol", "ldl", "hdl", "triglycerides", "haemoglobin",
+}
+LAB_WORDS = re.compile(r"raised|elevated|low|high|normal|level|value|range|deficien|result", re.I)
+
+
+def is_lab_question(question: str) -> bool:
+    low = question.lower()
+    hits = [a for a in ANALYTES if re.search(rf"\b{a}\b", low)]
+    if len(hits) >= 2:
+        return True
+    return bool(hits) and bool(LAB_WORDS.search(question))
+
+
 STOP = set(
     "a an the of and or in on for with to from by is are was were be been being this that these those "
     "what which who whom how why when where does do did can could should would may might will patient "
@@ -142,6 +158,8 @@ def _expand(text: str) -> list[str]:
 
 
 def expected_sections(question: str) -> set[str]:
+    if is_lab_question(question):
+        return {"reference_interval", "monitoring"}
     for pattern, sections in SECTION_FOR_QUESTION:
         if re.search(pattern, question, re.I):
             return sections
@@ -410,6 +428,12 @@ STOP_TERMS = set(
 )
 
 
+def _terms_short(text: str) -> set[str]:
+    """Lab analytes are short: TSH, T3, T4, B12, ALT, AST, GGT, CRP, ESR."""
+    return {t for t in re.split(r"\W+", text.lower())
+            if len(t) > 2 and t not in STOP_TERMS}
+
+
 def _terms(text: str) -> set[str]:
     return {t for t in re.split(r"\W+", text.lower())
             if len(t) > 4 and t not in STOP_TERMS}
@@ -425,12 +449,27 @@ def grounded_chunks(chunks: list[dict], question: str) -> list[dict]:
     """
     want = expected_sections(question)
     q_terms = _terms(question)
+    lab_intent = bool({"reference_interval", "monitoring"} & want)
+    if lab_intent:
+        q_terms = _terms_short(question)
     out = []
     for c in chunks:
-        if not c.get("in_entity_doc"):
+        if lab_intent:
+            # Lab questions are about an analyte, not a herb; the document entity is a test
+            # name and will not match. The gate is: right claim type AND the analyte named
+            # in the question appears in the test document's title.
+            if not (c["section"] in want or c["assertion_type"] == "diagnostic"):
+                continue
+            doc_terms = _terms_short(" ".join(c.get("entities") or []) + " " + c.get("title", ""))
+            if not (q_terms & doc_terms):
+                continue
+            out.append(c)
             continue
-        if not (c["section"] in want or c["assertion_type"] in CLINICAL_ASSERTIONS):
-            continue
+        else:
+            if not c.get("in_entity_doc"):
+                continue
+            if not (c["section"] in want or c["assertion_type"] in CLINICAL_ASSERTIONS):
+                continue
         entity_terms = _terms(" ".join(c.get("entities") or []) + " " + c.get("title", ""))
         overlap = (q_terms - entity_terms) & _terms(c["text"])
         if len(overlap) >= 1:

@@ -1,0 +1,126 @@
+{
+ "doc_id": "medlineplus-003487",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Magnesium blood test",
+ "title_extra": null,
+ "date": "2025-02-13",
+ "revised": "2025-02-13",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003487.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003487.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:eb1e464aad8d7d3f7dc57f029044e93810fbb4c803c9d61959b936e74c55621b",
+ "entities": [
+  "Magnesium blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003487#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003487#002",
+   "text": "How to Prepare for the Test: No special preparation is needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "medlineplus-003487#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel slight pain. Others feel a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "medlineplus-003487#004",
+   "text": "Why the Test is Performed: This test is done when your health care provider suspects you have an abnormal level of magnesium in your blood.\nOnly a small amount of the body's total amount of magnesium is found in the blood. About one half of the body's magnesium is found in bone. The other half is found inside cells of body tissues and organs.\nMagnesium is needed for many chemical processes in the body. It helps maintain normal muscle and nerve function and helps keep bones strong. Magnesium is also needed for the heart to function normally and to help regulate blood pressure. Magnesium also helps the body regulate blood sugar levels and helps support the body's defense (immune) system.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "magnesium",
+    "hypertension"
+   ],
+   "entities": [
+    "Magnesium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "medlineplus-003487#005",
+   "text": "Normal Results: The normal range for blood magnesium level is 1.7 to 2.2 mg/dL (0.70 to 0.91 mmol/L).\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or test different samples. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "medlineplus-003487#006",
+   "text": "What Abnormal Results Mean: A high blood magnesium level may be due to:\nAdrenal insufficiency (the glands are not producing enough hormones)\nDiabetic ketoacidosis\n, a life-threatening problem in people with diabetes\nLithium use\nLoss of kidney function (\nacute\nor\nchronic renal failure\n)\nLoss of body fluids (\ndehydration\n)\nMilk alkali syndrome\n(a condition in which there is a high level of calcium in the body)\nA low blood magnesium level may be due to:\nAlcohol use disorder\nDiabetes that is uncontrolled\nDiarrhea\nthat is chronic\nToo much production of the hormone aldosterone by the adrenal gland (hyperaldosteronism)\nHyperaldosteronism (adrenal gland produces too much of the hormone aldosterone)\nHigh blood calcium level (\nhypercalcemia\n)\nKidney disease\nMedicines, such as proton pump inhibitors for acid reflux, diuretics (water pills), aminoglycoside antibiotics, amphotericin, cisplatin, calcineurin inhibitors\nInflammation of the pancreas (pancreatitis)\nHigh blood pressure and protein in the urine in a pregnant woman (\npreeclampsia\n)\nInflammation of the lining of the large intestine and rectum (\nulcerative colitis\n)",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "magnesium",
+    "pregnancy",
+    "diabetes",
+    "sedation",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "Magnesium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 172
+  }
+ ]
+}

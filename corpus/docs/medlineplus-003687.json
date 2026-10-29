@@ -1,0 +1,128 @@
+{
+ "doc_id": "medlineplus-003687",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "T3 test",
+ "title_extra": null,
+ "date": "2026-01-25",
+ "revised": "2026-01-25",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003687.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003687.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:f9bb4e42ad10ab884a613a4f17e801e8d4da4afd9bbebf8699b811f6f9dc9091",
+ "entities": [
+  "T3 test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003687#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "thyroid",
+    "t3"
+   ],
+   "entities": [
+    "T3 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003687#002",
+   "text": "How to Prepare for the Test: Your health care provider will tell you if you need to stop taking any medicines before the test that may affect your test result. Do not stop taking any medicine without first talking to your provider.\nMedicines that can increase T3 measurements include:\nBirth control pills\nEstrogens\nMethadone\nCertain herbal remedies\nMedicines that can decrease T3 measurements include:\nAmiodarone\nAnabolic steroids\nAndrogens\nAntithyroid medicines (for example, propylthiouracil and methimazole)\nLithium\nPhenytoin\nPropranolol",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "thyroid",
+    "t3"
+   ],
+   "entities": [
+    "T3 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 78
+  },
+  {
+   "chunk_id": "medlineplus-003687#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "thyroid",
+    "t3"
+   ],
+   "entities": [
+    "T3 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003687#004",
+   "text": "Why the Test is Performed: This test is done to check your thyroid function. Thyroid function depends on the action of T3 and other hormones, including\nthyroid-stimulating hormone\n(TSH) and\nT4\n.\nSometimes it can be useful to measure both T3 and T4 when evaluating thyroid function.\nThe total T3 test measures the T3 that is both attached to proteins and floating free in the blood.\nThe free T3 test measures only the T3 that is floating free in the blood. The tests for free T3 are generally less accurate than for total T3.\nYour provider may recommend this test if you have signs of a thyroid disorder, including:\nThe pituitary gland does not produce normal amounts of some or all of its hormone (\nhypopituitarism\n)\nOveractive thyroid gland (\nhyperthyroidism\n)\nUnderactive thyroid gland (\nhypothyroidism\n)\nTaking medicines for hypothyroidism",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "thyroid",
+    "t3"
+   ],
+   "entities": [
+    "T3 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 143
+  },
+  {
+   "chunk_id": "medlineplus-003687#005",
+   "text": "Normal Results: The range for normal values are:\nTotal T3 -- 78 to 158 nanograms per deciliter (ng/dL), or 1.2 to 2.4 nanomoles per liter (nmol/L)\nFree T3 -- 210 to 440 picograms per deciliter (pg/dL), or 3.2 to 6.8 picomoles per liter (pmol/L)\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or test different specimens. Talk to your provider about the meaning of your specific test results.\nNormal values are age specific for people less than age 20. Check with your provider about your specific results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "thyroid",
+    "t3"
+   ],
+   "entities": [
+    "T3 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "medlineplus-003687#006",
+   "text": "What Abnormal Results Mean: A higher-than-normal level of T3 may be a sign of:\nOveractive thyroid gland (for example,\nGraves disease\n)\nT3 thyrotoxicosis (rare)\nToxic nodular goiter\nTaking thyroid medicines or certain supplements (common)\nLiver disease\nA high level of T3 may occur in pregnancy (especially with morning sickness at the end of the first trimester) or with the use of birth control pills or estrogen.\nA lower-than-normal level may be due to:\nSevere short-term or some long-term illnesses\nThyroiditis (swelling or inflammation of the thyroid gland --\nHashimoto disease\nis the most common type)\nStarvation\nUnderactive thyroid gland\nSelenium deficiency causes a decrease in the conversion of T4 to T3, but it is not clear that this results in lower than normal T3 levels in people.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "thyroid",
+    "t3",
+    "pregnancy",
+    "liver"
+   ],
+   "entities": [
+    "T3 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 128
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "doc_id": "medlineplus-003642",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "CBC blood test",
+ "title_extra": null,
+ "date": "2024-10-14",
+ "revised": "2024-10-14",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003642.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003642.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:639280c9ea2a318bafd2551c5330967515509b098a5e083ce78ffd594863d558",
+ "entities": [
+  "CBC blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003642#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "haemoglobin",
+    "anaemia"
+   ],
+   "entities": [
+    "CBC blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003642#002",
+   "text": "How to Prepare for the Test: There is no special preparation needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "haemoglobin",
+    "anaemia"
+   ],
+   "entities": [
+    "CBC blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 12
+  },
+  {
+   "chunk_id": "medlineplus-003642#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, you may feel moderate pain. Some people feel only a prick or stinging. Afterward there may be some throbbing or slight bruising. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "haemoglobin",
+    "anaemia"
+   ],
+   "entities": [
+    "CBC blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003642#004",
+   "text": "Why the Test is Performed: A CBC is a commonly performed lab test. It can be used to detect or monitor many different health conditions. Your health care provider may order this test:\nIf you are having symptoms, such as fatigue, weight loss, fever or other signs of an infection, weakness, bruising, bleeding, or any signs of cancer\nWhen you are receiving treatments (medicines or radiation) that may change your blood count results\nTo monitor a long-term (chronic) health problem that may change your blood count results, such as chronic kidney disease",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "haemoglobin",
+    "anaemia",
+    "anticoagulant",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "CBC blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "medlineplus-003642#005",
+   "text": "Normal Results: Blood counts may vary with altitude. In general, normal results are:\nRBC count:\nMale: 4.6 to 6.2 million cells/mcL\nFemale: 4.2 to 5.4 million cells/mcL\nWBC count:\n4,500 to 11,000 cells/mcL\nHematocrit:\nMale: 40% to 55%\nFemale: 36% to 48%\nHemoglobin:\nMale: 13 to 18 gm/dL\nFemale: 12 to 16 gm/dL\nRed blood cell indices:\nMCV: 80 to 100 femtoliter\nMCH: 27 to 32 pg/cell\nMCHC: 32 to 36 gm/dL\nPlatelet count:\n150,000 to 400,000/dL\nThe examples above are common measurements for results of these tests. Normal value ranges may vary slightly among different laboratories. Some labs use different measurements or test different samples. Talk to your doctor about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "haemoglobin",
+    "anaemia",
+    "anticoagulant"
+   ],
+   "entities": [
+    "CBC blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "medlineplus-003642#006",
+   "text": "What Abnormal Results Mean: High RBC, hemoglobin, or hematocrit may be due to:\nA lack of enough water and fluids, such as from severe diarrhea, excessive sweating, or water pills used to treat high blood pressure\nKidney disease with high\nerythropoietin\nproduction\nLow oxygen level in the blood for a long time, most often due to heart or lung disease, chronic carbon monoxide exposure, or living at a high altitude\nPolycythemia vera\nSmoking\nUse of testosterone\nLow RBC, hemoglobin, or hematocrit is a sign of anemia, which can result from:\nBlood loss\n(either sudden, or from problems such as heavy menstrual periods over a long time)\nBone marrow failure (for example, from radiation, infection, or tumor)\nBreakdown of red blood cells (\nhemolysis\n)\nCancer and cancer treatment\nCertain long-term (chronic) medical conditions, such as chronic kidney disease, ulcerative colitis, or rheumatoid arthritis\nIron deficiency\nLeukemia\nLong-term infections such as\nhepatitis\nPoor diet and nutrition, causing too little iron,\nfolate\n,\nvitamin B12\n, or\nvitamin B6\nMultiple myeloma\nA lower than normal white blood cell count is called leukopenia. A decreased WBC count may be due to:\nAlcohol overuse and liver damage\nAutoimmune diseases (such as\nsystemic lupus erythematosus\n)\nBone marrow failure (for example, due to infection, tumor, radiation, or fibrosis)\nChemotherapy medicines used to treat cancer",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "haemoglobin",
+    "anaemia",
+    "liver",
+    "sedation",
+    "hypertension",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "CBC blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "medlineplus-003642#007",
+   "text": "What Abnormal Results Mean: Disease of the liver or spleen\nEnlarged spleen\nInfections caused by viruses, such as infectious mononucleosis or AIDS\nMedicines\nA high WBC count is called leukocytosis. It can result from:\nCertain medicines, such as corticosteroids\nInfections\nDiseases such as lupus,\nrheumatoid arthritis\n, or\nallergy\nLeukemia\nSevere emotional or physical stress\nTissue damage (such as from burns or a heart attack)\nA high platelet count may be due to:\nBleeding\nDiseases such as cancer or blood disease\nIron deficiency\nProblems with the bone marrow\nA low platelet count may be due to:\nDisorders in which platelets are destroyed\nPregnancy\nEnlarged spleen\nBone marrow failure (for example, due to infection, tumor, radiation, or fibrosis)\nChemotherapy medicines used to treat cancer",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "haemoglobin",
+    "anaemia",
+    "pregnancy",
+    "liver",
+    "anticoagulant",
+    "cancer"
+   ],
+   "entities": [
+    "CBC blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 123
+  }
+ ]
+}

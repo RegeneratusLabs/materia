@@ -1,0 +1,129 @@
+{
+ "doc_id": "medlineplus-003475",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Creatinine blood test",
+ "title_extra": null,
+ "date": "2025-07-13",
+ "revised": "2025-07-13",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003475.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003475.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:9a42a9059d35826181ea6aa9190fc84f44ea20e5ad0540ba3921aa73cdbdb5c5",
+ "entities": [
+  "Creatinine blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003475#001",
+   "text": "How the Test is Performed: A\nblood sample is needed\n.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "creatinine",
+    "renal"
+   ],
+   "entities": [
+    "Creatinine blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "medlineplus-003475#002",
+   "text": "How to Prepare for the Test: Your health care provider may tell you to temporarily stop taking certain medicines that can affect the test. These medicines include:\nCimetidine, famotidine, and ranitidine\nCertain antibiotics, such as cefoxitin and trimethoprim\nTell your provider about all the medicines you take.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "creatinine",
+    "renal"
+   ],
+   "entities": [
+    "Creatinine blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "medlineplus-003475#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging sensation. Afterward, there may be some throbbing or slight bruising. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "creatinine",
+    "renal"
+   ],
+   "entities": [
+    "Creatinine blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003475#004",
+   "text": "Why the Test is Performed: Creatinine is a chemical waste product of creatine. Creatine is a chemical made by the body and is used to supply energy mainly to muscles.\nThis test is done to see how well your kidneys work. Creatinine is removed from the body entirely by the kidneys. If kidney function is not normal, the creatinine level in your blood will increase. This is because less creatinine is excreted through your urine.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "creatinine",
+    "renal"
+   ],
+   "entities": [
+    "Creatinine blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 75
+  },
+  {
+   "chunk_id": "medlineplus-003475#005",
+   "text": "Normal Results: A normal result is 0.7 to 1.3 mg/dL (62 to 115 µmol/L) for men and 0.5 to 0.95 mg/dL (44 to 84 µmol/L) for women.\nWomen often have a lower blood creatinine level than men. This is because women often have less muscle mass than men. The creatinine level varies based on a person's size and muscle mass.\nThe examples above are common measurements for results of these tests. Normal value ranges may vary slightly among different laboratories. Some labs use different measurements or test different samples. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "creatinine",
+    "renal"
+   ],
+   "entities": [
+    "Creatinine blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 101
+  },
+  {
+   "chunk_id": "medlineplus-003475#006",
+   "text": "What Abnormal Results Mean: A higher than normal creatinine level may be due to:\nBlocked urinary tract\nKidney problems, such as kidney damage or failure, infection, or reduced blood flow\nLoss of body fluid (\ndehydration\n)\nMuscle problems, such as breakdown of muscle fibers (\nrhabdomyolysis\n)\nProblems during pregnancy, such as seizures caused by\neclampsia\nor high blood pressure caused by\npreeclampsia\nA lower than normal creatinine level may be due to:\nConditions involving the muscles and nerves that lead to decreased muscle mass\nMalnutrition\nThere are many other conditions for which the test may be ordered, such as high blood pressure, diabetes, or medicine overdose. Your provider will tell you more if needed.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "creatinine",
+    "renal",
+    "pregnancy",
+    "diabetes",
+    "hypertension"
+   ],
+   "entities": [
+    "Creatinine blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 116
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "doc_id": "medlineplus-003473",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Alanine transaminase (ALT) blood test",
+ "title_extra": null,
+ "date": "2025-01-01",
+ "revised": "2025-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003473.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003473.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:daae19c9f0445df41ca34c6cb5bab68aa49cf65f0fc1cda623852df6d8f0598f",
+ "entities": [
+  "Alanine transaminase (ALT) blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003473#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "alt",
+    "liver"
+   ],
+   "entities": [
+    "Alanine transaminase (ALT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003473#002",
+   "text": "How to Prepare for the Test: No special preparation is needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "alt",
+    "liver"
+   ],
+   "entities": [
+    "Alanine transaminase (ALT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "medlineplus-003473#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "alt",
+    "liver"
+   ],
+   "entities": [
+    "Alanine transaminase (ALT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003473#004",
+   "text": "Why the Test is Performed: ALT is an enzyme found in a high level in the liver. An enzyme is a protein that causes a specific chemical change in the body.\nInjury to the liver results in release of ALT into the blood.\nThis test is mainly done along with other tests (such as\nAST\n,\nALP\n, and\nbilirubin\n) to diagnose and monitor\nliver disease\n.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "alt",
+    "liver"
+   ],
+   "entities": [
+    "Alanine transaminase (ALT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "medlineplus-003473#005",
+   "text": "Normal Results: The normal range is 4 to 36 U/L (0.07 to 0.60 µkat/L).\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or may test different samples. Talk to your health care provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "alt",
+    "liver"
+   ],
+   "entities": [
+    "Alanine transaminase (ALT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "medlineplus-003473#006",
+   "text": "What Abnormal Results Mean: An increased ALT level is often a sign of liver disease. Liver disease is even more likely when the levels of substances checked by other\nliver blood tests\nhave also increased.\nAn increased ALT level may be due to any of the following:\nScarring of the liver (\ncirrhosis\n)\nDeath of liver tissue\nSwollen and inflamed liver (\nhepatitis\n)\nToo much iron in the body (\nhemochromatosis\n)\nToo much fat in the liver (fatty liver)\nLack of blood flow to the liver (\nliver ischemia\n)\nLiver tumor or cancer\nUse of medicines and drugs that are toxic to the liver (such as alcohol or acetaminophen)\nMononucleosis\n(\"mono\")\nSwollen and inflamed pancreas (pancreatitis)",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "alt",
+    "liver",
+    "sedation",
+    "cancer"
+   ],
+   "entities": [
+    "Alanine transaminase (ALT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 120
+  }
+ ]
+}

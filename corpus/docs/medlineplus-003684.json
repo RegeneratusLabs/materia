@@ -1,0 +1,130 @@
+{
+ "doc_id": "medlineplus-003684",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "TSH test",
+ "title_extra": null,
+ "date": "2026-01-25",
+ "revised": "2026-01-25",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003684.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003684.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:4f196dc2488ce5ad6f35f845592ea2b582ae9639d1ef28807d750fff45ff07dd",
+ "entities": [
+  "TSH test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003684#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed. Other thyroid tests that may be done at the same time include:\nT3 test\n(free or total)\nT4 test\n(free or total)\nAnti-TPO\n(antibodies against thyroid peroxidase)",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "thyroid",
+    "tsh"
+   ],
+   "entities": [
+    "TSH test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 37
+  },
+  {
+   "chunk_id": "medlineplus-003684#002",
+   "text": "How to Prepare for the Test: There is no preparation needed for this test. Ask your health care provider about any medicines you are taking that may affect the test results. Do not stop taking any medicines without first asking your provider.\nMedicines you may need to stop for a short time include:\nAmiodarone\nDopamine\nLithium\nPotassium iodide\nPrednisone or other glucocorticoid medicines\nThe vitamin biotin (B7) can affect the results of the TSH test. If you take biotin, talk to your provider before you have any thyroid function tests.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "thyroid",
+    "tsh"
+   ],
+   "entities": [
+    "TSH test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 90
+  },
+  {
+   "chunk_id": "medlineplus-003684#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "thyroid",
+    "tsh"
+   ],
+   "entities": [
+    "TSH test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003684#004",
+   "text": "Why the Test is Performed: Your provider will order this test if you have symptoms or signs of an\noveractive\nor\nunderactive\nthyroid gland. It is also used to monitor treatment of these conditions.\nYour provider may also check your TSH level if you are planning to get pregnant.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "thyroid",
+    "tsh",
+    "pregnancy"
+   ],
+   "entities": [
+    "TSH test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 49
+  },
+  {
+   "chunk_id": "medlineplus-003684#005",
+   "text": "Normal Results: Normal values range from 0.4 to 4.8 microunits per milliliter (µU/mL).\nTSH values can vary during the day. It is best to have the test early in the morning. Experts do not fully agree on what the upper number should be when diagnosing thyroid disorders. Some labs will use a higher normal range limit for older people (even as high as 7 µU/mL).\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or test different samples. Talk to your provider about the meaning of your specific test results.\nIf you are being treated for a thyroid disorder, your TSH level will likely be kept between 0.4 and 4.8 µU/mL, except when:\nA pituitary disorder is the cause of the thyroid problem. A low TSH may be expected.\nYou have a history of certain types of thyroid cancer. A TSH value below the normal range may be best to prevent the thyroid cancer from coming back.\nA woman is pregnant. The normal range for TSH is different for women who are pregnant. Your provider may suggest that you take thyroid hormone, even if your TSH is in the normal range.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "thyroid",
+    "tsh",
+    "pregnancy",
+    "cancer"
+   ],
+   "entities": [
+    "TSH test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 196
+  },
+  {
+   "chunk_id": "medlineplus-003684#006",
+   "text": "What Abnormal Results Mean: A higher-than-normal TSH level is most often due to an underactive thyroid gland (hypothyroidism). There are many causes of this problem such as Hashimoto disease (thyroiditis).\nA lower-than-normal level may be due to an overactive thyroid gland, which can be caused by:\nGraves disease\nToxic nodular goiter\nor multinodular goiter\nToo much iodine in the body (due to receiving iodine contrast used during imaging tests, such as\nCT scan\n)\nTaking too much thyroid hormone medicine or prescribed natural or over-the-counter supplements that contain thyroid hormone\nUse of certain medicines may also cause a lower-than-normal TSH level. These include glucocorticoids/steroids, dopamine, certain chemotherapy medicines, and opioid painkillers such as morphine.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "thyroid",
+    "tsh",
+    "cancer"
+   ],
+   "entities": [
+    "TSH test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 114
+  }
+ ]
+}

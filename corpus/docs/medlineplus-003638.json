@@ -1,0 +1,133 @@
+{
+ "doc_id": "medlineplus-003638",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "ESR",
+ "title_extra": null,
+ "date": "2025-07-01",
+ "revised": "2025-07-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003638.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003638.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:f5107d67110c38da88aa24d6371a62fa3458be1e86d75ddd9c2020af9e61c7f1",
+ "entities": [
+  "ESR"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003638#001",
+   "text": "How the Test is Performed: A blood sample is needed. Most of the time, blood is\ndrawn from a vein\nlocated on the inside of the elbow or the back of the hand. The blood sample is sent to a lab.\nThe test measures how fast red blood cells (called erythrocytes) fall to the bottom of a tall, thin tube.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "crp",
+    "inflammation"
+   ],
+   "entities": [
+    "ESR"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 60
+  },
+  {
+   "chunk_id": "medlineplus-003638#002",
+   "text": "How to Prepare for the Test: There are no special steps needed to prepare for this test.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "crp",
+    "inflammation"
+   ],
+   "entities": [
+    "ESR"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "medlineplus-003638#003",
+   "text": "How the Test will Feel: You may feel slight pain or a sting when the needle is inserted. You may also feel some throbbing at the site after the blood is drawn.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "crp",
+    "inflammation"
+   ],
+   "entities": [
+    "ESR"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "medlineplus-003638#004",
+   "text": "Why the Test is Performed: Reasons why a \"sed rate\" may be done include:\nUnexplained fevers\nCertain types of joint pain or arthritis\nMuscle symptoms\nHeadache\nOther vague symptoms that cannot be explained\nThis test may also be used to monitor whether an illness is responding to treatment.\nIt is not used to diagnose a specific disorder.\nHowever, the test is useful for detecting and monitoring:\nAutoimmune disorders\nBone infections\nCertain forms of arthritis\nInflammatory diseases",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "crp",
+    "inflammation"
+   ],
+   "entities": [
+    "ESR"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 76
+  },
+  {
+   "chunk_id": "medlineplus-003638#005",
+   "text": "Normal Results: For adults (Westergren method):\nMen under 50 years old: less than 15 mm/hr\nMen over 50 years old: less than 20 mm/hr\nWomen under 50 years old: less than 20 mm/hr\nWomen over 50 years old: less than 30 mm/hr\nFor children (Westergren method):\nNewborn: 0 to 2 mm/hr\nNewborn to puberty: 3 to 13 mm/hr\nNote: mm/hr = millimeters per hour\nNormal value ranges may vary slightly among different labs. Talk to your health care provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "crp",
+    "inflammation",
+    "children"
+   ],
+   "entities": [
+    "ESR"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 87
+  },
+  {
+   "chunk_id": "medlineplus-003638#006",
+   "text": "What Abnormal Results Mean: An abnormal ESR may help with a diagnosis, but it does not prove that you have a certain condition. Other tests are almost always needed.\nAn increased ESR rate may occur in people with:\nAnemia\nCancers such as lymphoma or\nmultiple myeloma\nKidney disease\nPregnancy\nThyroid disease\nThe immune system helps protect the body against harmful substances. An\nautoimmune disorder\nis when the immune system mistakenly attacks and destroys healthy body tissue. ESR is often higher than normal in people with an autoimmune disorder.\nCommon autoimmune disorders include:\nLupus\nPolymyalgia rheumatica\nRheumatoid arthritis in adults\nor\nchildren\nVery high ESR levels occur with less common autoimmune or other disorders, including:\nAllergic vasculitis\nGiant cell arteritis\nHyperfibrinogenemia (increased\nfibrinogen\nlevels in the blood)\nMacroglobulinemia - primary\nNecrotizing vasculitis\nAn increased ESR rate may be due to some infections, including:\nBodywide (systemic) infection\nBone infections\nInfection of the heart or heart valves\nRheumatic fever\nSevere skin infections, such as\nerysipelas\nTuberculosis\nLower-than-normal levels occur with:\nCongestive heart failure\nHyperviscosity\nHypofibrinogenemia\n(decreased fibrinogen levels)\nLeukemia\nLow plasma protein (due to liver or kidney disease)\nPolycythemia\nSickle cell anemia",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "crp",
+    "inflammation",
+    "pregnancy",
+    "children",
+    "liver",
+    "thyroid",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "ESR"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 189
+  }
+ ]
+}

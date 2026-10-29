@@ -1,0 +1,130 @@
+{
+ "doc_id": "medlineplus-003490",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Ferritin blood test",
+ "title_extra": null,
+ "date": "2026-01-10",
+ "revised": "2026-01-10",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003490.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003490.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:662deb5df103f00f5284ed2f509d9c9295498fc36ba8bf46306d29f694325de0",
+ "entities": [
+  "Ferritin blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003490#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ferritin",
+    "iron"
+   ],
+   "entities": [
+    "Ferritin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003490#002",
+   "text": "How to Prepare for the Test: Your health care provider may tell you not to eat anything (to fast) for 12 hours before the test. You may also be told to have the test done in the morning.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ferritin",
+    "iron"
+   ],
+   "entities": [
+    "Ferritin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "medlineplus-003490#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ferritin",
+    "iron"
+   ],
+   "entities": [
+    "Ferritin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003490#004",
+   "text": "Why the Test is Performed: The amount of ferritin in the blood (serum ferritin level) correlates with the amount of iron stored in your body. Iron is needed to make healthy red blood cells. These cells carry oxygen to body tissues.\nYour provider may recommend this test if you have signs or symptoms of\nanemia\ndue to low iron. Anemia is a condition in which the body does not have enough healthy red blood cells.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ferritin",
+    "iron"
+   ],
+   "entities": [
+    "Ferritin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 75
+  },
+  {
+   "chunk_id": "medlineplus-003490#005",
+   "text": "Normal Results: The normal value ranges for blood ferritin are:\nMale: 30 to 400 nanograms per milliliter (ng/mL)\nFemale: 13 to 150 ng/mL\nThe lower the ferritin level, even within the normal range, the more likely it is that the person does not have enough iron stored in their body.\nThe number ranges above are common measurements for results of these tests. Normal value ranges may vary slightly among different laboratories. Some labs use different measurements or test different samples. Talk to your provider about the meaning of your specific results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ferritin",
+    "iron"
+   ],
+   "entities": [
+    "Ferritin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 91
+  },
+  {
+   "chunk_id": "medlineplus-003490#006",
+   "text": "What Abnormal Results Mean: A higher-than-normal ferritin level may be due to:\nLiver disease due to excessive alcohol use\nor inflammation\nAn\nautoimmune disorder\n, such as\nrheumatoid arthritis\nFrequent transfusion of red blood cells\nOveractive thyroid gland\nToo much iron in the body (\nhemochromatosis\n)\nA lower-than-normal level of ferritin occurs if you have anemia caused by low iron levels in the body. This type of anemia may be due to:\nA diet too low in iron\nHeavy bleeding from an injury\nHeavy menstrual bleeding\nPoor absorption of iron from food, medicines, or vitamins\nBleeding in the esophagus, stomach, or intestines",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ferritin",
+    "iron",
+    "liver",
+    "anticoagulant",
+    "thyroid",
+    "sedation"
+   ],
+   "entities": [
+    "Ferritin blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 103
+  }
+ ]
+}

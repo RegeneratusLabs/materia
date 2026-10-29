@@ -1,0 +1,130 @@
+{
+ "doc_id": "medlineplus-003488",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Serum iron test",
+ "title_extra": null,
+ "date": "2026-01-10",
+ "revised": "2026-01-10",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003488.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003488.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:dba178a84f6af6725a175b22948baeae1a6eea17386186b174e390d2d26b144c",
+ "entities": [
+  "Serum iron test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003488#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "iron",
+    "ferritin"
+   ],
+   "entities": [
+    "Serum iron test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003488#002",
+   "text": "How to Prepare for the Test: The serum iron level can change, depending on how recently you ingested iron. Your health care provider will likely have you do this test in the morning or after fasting.\nCertain medicines may affect the results of this test. Your provider will tell you if you need to stop taking any medicines. Do not stop any medicine before talking to your provider.\nMedicines that can affect the test result include:\nAntibiotics\nBirth control pills and estrogens\nBlood pressure medicines\nCholesterol medicines\nDeferoxamine (removes excess iron from the body)\nGout\nmedicines\nTestosterone",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "iron",
+    "ferritin",
+    "hypertension"
+   ],
+   "entities": [
+    "Serum iron test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 97
+  },
+  {
+   "chunk_id": "medlineplus-003488#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "iron",
+    "ferritin"
+   ],
+   "entities": [
+    "Serum iron test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003488#004",
+   "text": "Why the Test is Performed: Your provider may recommend this test if you have:\nSigns of\nlow iron\n(iron deficiency)\nSigns of too much iron\nAnemia caused by a chronic disease",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "iron",
+    "ferritin"
+   ],
+   "entities": [
+    "Serum iron test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "medlineplus-003488#005",
+   "text": "Normal Results: Normal value range is:\nIron: Males: 59 to 158 mcg/dL (10.6 to 28.3 micromol/L); Females: 37 to 145 mcg/dL (6.6 to 25.9 micromol/L)\nTotal iron binding capacity\n(TIBC): Males: 171 to 505 mcg/dL (30.6 to 90.3 micromol/L); Females: 149 to 492 mcg/dL (26.7 to 88.0 micromol/L)\nIron saturation: Males: 20% to 50%; Females: 15% to 45%\nThe numbers above are common measurements for results of these tests. Normal value ranges may vary slightly among different laboratories. Some labs use different measurements or test different samples. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "iron",
+    "ferritin"
+   ],
+   "entities": [
+    "Serum iron test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "medlineplus-003488#006",
+   "text": "What Abnormal Results Mean: A higher-than-normal iron level may be a sign of:\nToo much iron in the body (\nhemochromatosis\n)\nAnemia due to red blood cells being destroyed too quickly (\nhemolytic anemia\n)\nLiver tissue death\nInflammation of the liver (\nhepatitis\n)\nIron poisoning\nFrequent blood transfusions\nA lower-than-normal iron level may be a sign of:\nLong-term digestive tract bleeding\nHeavy menstrual bleeding\nIntestinal conditions that cause poor absorption of iron\nNot enough iron in the diet\nPregnancy",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "iron",
+    "ferritin",
+    "pregnancy",
+    "liver",
+    "anticoagulant"
+   ],
+   "entities": [
+    "Serum iron test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 82
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "doc_id": "medlineplus-003705",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Vitamin B12 level",
+ "title_extra": null,
+ "date": "2026-01-10",
+ "revised": "2026-01-10",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003705.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003705.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:ce2c1c3c492868b13c9fba6c577ef800ce21d5d44af5f8a7e297d49b06a8d9ae",
+ "entities": [
+  "Vitamin B12 level"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003705#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "b12",
+    "folate"
+   ],
+   "entities": [
+    "Vitamin B12 level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003705#002",
+   "text": "How to Prepare for the Test: You should not eat or drink for about 6 to 8 hours before the test.\nCertain medicines may affect the results of this test. Your health care provider will tell you if you need to stop taking any medicines. Do not stop any medicine before talking to your provider.\nMedicines that can affect the test result include:\nColchicine\nH2 receptor blocking agents\nMetformin\nNeomycin\nPara-aminosalicylic acid\nPhenytoin\nProton pump inhibitors",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "b12",
+    "folate"
+   ],
+   "entities": [
+    "Vitamin B12 level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 76
+  },
+  {
+   "chunk_id": "medlineplus-003705#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "b12",
+    "folate"
+   ],
+   "entities": [
+    "Vitamin B12 level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003705#004",
+   "text": "Why the Test is Performed: This test is most often done when other blood tests suggest a condition called megaloblastic anemia.\nPernicious anemia\ncauses a form of megaloblastic anemia caused by vitamin B12 deficiency due to poor vitamin B12 absorption. This can occur when the stomach makes less of the substance (called intrinsic factor) the body needs to efficiently absorb vitamin B12.\nYour provider may also recommend a vitamin B12 test if you have certain nervous system symptoms. A low level of B12 can cause numbness or tingling in the arms and legs, weakness, and loss of balance.\nOther conditions for which the test may be done include:\nSevere confusion (\ndelirium\n)\nLoss of brain cognitive function (\ndementia\n)\nNerve abnormalities, such as\nperipheral neuropathy",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "b12",
+    "folate"
+   ],
+   "entities": [
+    "Vitamin B12 level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 127
+  },
+  {
+   "chunk_id": "medlineplus-003705#005",
+   "text": "Normal Results: Normal values are 299 to 1054 picograms per milliliter (pg/mL), or 219 to 773 picomoles per liter (pmol/L).\nNormal value ranges may vary slightly among different laboratories. Some labs use different measurements or may test different samples. Talk to your provider about what your specific test results mean.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "b12",
+    "folate"
+   ],
+   "entities": [
+    "Vitamin B12 level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 50
+  },
+  {
+   "chunk_id": "medlineplus-003705#006",
+   "text": "What Abnormal Results Mean: Values of less than 299 pg/mL (219 pmol/L) are a possible sign of a vitamin B12 deficiency. People with this degree of deficiency are likely to have or develop symptoms.\nDeficiency should be confirmed by checking the level of a substance in the blood called methylmalonic acid. A high level indicates a true B12 deficiency.\nCauses of vitamin B12 deficiency include:\nNot enough vitamin B12 in diet (rare, except with a strict vegetarian diet)\nDiseases that cause\nmalabsorption\n(for example,\nceliac disease\nand\nCrohn disease\n)\nLack of\nintrinsic factor\n, a protein that helps the intestine absorb vitamin B12 efficiently\nAbove normal body heat production (for example, with\nhyperthyroidism\n)\nPregnancy\nAn increased vitamin B12 level is uncommon. Usually, excess vitamin B12 is removed in the urine.\nConditions that can increase B12 level include:\nLiver disease (such as\ncirrhosis\nor\nhepatitis\n)\nMyeloproliferative disorders (for example,\npolycythemia vera\nand\nchronic myelogenous leukemia\n)",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "b12",
+    "folate",
+    "pregnancy",
+    "liver",
+    "thyroid"
+   ],
+   "entities": [
+    "Vitamin B12 level"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 158
+  }
+ ]
+}

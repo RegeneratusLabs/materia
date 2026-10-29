@@ -1,0 +1,132 @@
+{
+ "doc_id": "medlineplus-003458",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Gamma-glutamyl transferase (GGT) blood test",
+ "title_extra": null,
+ "date": "2025-01-01",
+ "revised": "2025-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003458.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003458.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:e3c7a67e19faff88637d3df9e0844cd81ae210eacebad605c40f5c99addb0eef",
+ "entities": [
+  "Gamma-glutamyl transferase (GGT) blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003458#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ggt",
+    "liver"
+   ],
+   "entities": [
+    "Gamma-glutamyl transferase (GGT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003458#002",
+   "text": "How to Prepare for the Test: Your health care provider may tell you to stop taking medicines that can affect the test.\nMedicines that can increase GGT level include:\nAcetaminophen\nAlcohol\nCarbamazepine\nPhenytoin\nPhenobarbital\nMedicines that can decrease GGT level include:\nBirth control pills\nClofibrate",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ggt",
+    "liver",
+    "sedation"
+   ],
+   "entities": [
+    "Gamma-glutamyl transferase (GGT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "medlineplus-003458#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ggt",
+    "liver"
+   ],
+   "entities": [
+    "Gamma-glutamyl transferase (GGT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003458#004",
+   "text": "Why the Test is Performed: GGT is an enzyme found in high levels in the liver, kidney, pancreas, heart, and brain. It is also found in lesser amount in other tissues. An enzyme is a protein that causes a specific chemical change in the body.\nThis test is used to detect diseases of the liver or\nbile\nducts. It is also done with other tests (such as the\nALT\n,\nAST\n,\nALP\n, and\nbilirubin\ntests) to tell the difference between liver or bile duct disorders and bone disease.\nIt may also be done to screen for, or monitor, alcohol use.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ggt",
+    "liver",
+    "sedation",
+    "renal"
+   ],
+   "entities": [
+    "Gamma-glutamyl transferase (GGT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "medlineplus-003458#005",
+   "text": "Normal Results: The normal range for adults is 5 to 40 units per liter (U/L) or 0.08 to 0.67 micro-kat/liter (µkat/L).\nNormal value ranges may vary slightly among different laboratories. Some labs use different measurements or may test different specimens. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ggt",
+    "liver"
+   ],
+   "entities": [
+    "Gamma-glutamyl transferase (GGT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 52
+  },
+  {
+   "chunk_id": "medlineplus-003458#006",
+   "text": "What Abnormal Results Mean: An increased GGT level may be due to any of the following:\nAlcohol use\nDiabetes\nFlow of bile from the liver is blocked (\ncholestasis\n)\nHeart failure\nLack of blood flow to the liver (liver ischemia)\nLiver tissue death\nLiver cancer or tumor\nLung disease\nPancreas disease\nScarring of the liver (\ncirrhosis\n)\nSwollen and inflamed liver (\nhepatitis\n)\nUse of medicines and drugs that are toxic to the liver, especially alcohol use",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ggt",
+    "liver",
+    "diabetes",
+    "sedation",
+    "cancer"
+   ],
+   "entities": [
+    "Gamma-glutamyl transferase (GGT) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 80
+  }
+ ]
+}

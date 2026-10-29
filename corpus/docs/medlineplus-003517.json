@@ -1,0 +1,133 @@
+{
+ "doc_id": "medlineplus-003517",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Free T4 test",
+ "title_extra": null,
+ "date": "2026-01-25",
+ "revised": "2026-01-25",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003517.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003517.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:d815bdc27094f5b265b446ea699329419aefc8573d4f58c9cacd0266db330069",
+ "entities": [
+  "Free T4 test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003517#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "thyroid",
+    "ft4"
+   ],
+   "entities": [
+    "Free T4 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003517#002",
+   "text": "How to Prepare for the Test: Your health care provider will tell you if you need to stop taking any medicines that may affect the test result. In general, test results are not affected by other medicines you may be taking. However, certain supplements including biotin (vitamin B7) can affect the results. Tell your provider if you are taking biotin.\nPregnancy and some diseases, including kidney and liver disease, can also affect the results of this test.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "thyroid",
+    "ft4",
+    "pregnancy",
+    "liver",
+    "renal"
+   ],
+   "entities": [
+    "Free T4 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 77
+  },
+  {
+   "chunk_id": "medlineplus-003517#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "thyroid",
+    "ft4"
+   ],
+   "entities": [
+    "Free T4 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003517#004",
+   "text": "Why the Test is Performed: Your provider may recommend this test if you have signs of a thyroid disorder, including:\nAbnormal findings of other thyroid blood tests, such as\nTSH\nor\nT3\nSymptoms of an\noveractive thyroid\nSymptoms of an\nunderactive thyroid\nHypopituitarism -- when the pituitary gland does not produce enough of its hormones, including the hormone which stimulates the thyroid\nLump or nodule\nin the thyroid\nEnlarged or irregular thyroid gland\nProblems becoming pregnant\nThis test is also used to monitor people who are being treated for thyroid problems.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "thyroid",
+    "ft4",
+    "pregnancy"
+   ],
+   "entities": [
+    "Free T4 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 91
+  },
+  {
+   "chunk_id": "medlineplus-003517#005",
+   "text": "Normal Results: A typical normal range is 0.8 to 1.9 nanograms per deciliter (ng/dL), or 10.3 to 24.5 picomoles per liter (pmol/L).\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or may test different specimens. Talk to your provider about the meaning of your specific test results.\nThe normal range is based on a large population and is not necessarily normal for an individual. You may have symptoms of hyperthyroidism or hypothyroidism even though your free T4 is in the normal range. The TSH test may help determine if your symptoms are related to thyroid disease. Talk to your provider about your symptoms.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "thyroid",
+    "ft4"
+   ],
+   "entities": [
+    "Free T4 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "medlineplus-003517#006",
+   "text": "What Abnormal Results Mean: To fully understand results of the free T4 test, results of other thyroid blood tests, such as TSH or T3, may be needed.\nTest results may also be affected by pregnancy, estrogen level, liver problems, more severe body-wide illnesses, and inherited changes in a protein that binds T4.\nA higher than normal level of T4 may be due to conditions that involve an overactive thyroid, including:\nGraves disease\nTaking too much thyroid hormone medicine\nThyroiditis\nToxic goiter\nor toxic thyroid nodules\nSome tumors of the testes or ovaries (rare)\nGetting medical imaging tests with contrast dye that contains iodine (rare, and only if there is a problem with the thyroid)\nEating a lot of foods that contain iodine (very rare, and only if there is a problem with the thyroid)\nA lower than normal level of T4 may be due to:\nHypothyroidism (including Hashimoto disease and other disorders involving an underactive thyroid)\nSevere acute illness\nMalnutrition\nor fasting\nUse of certain medicines",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "thyroid",
+    "ft4",
+    "pregnancy",
+    "liver",
+    "cancer"
+   ],
+   "entities": [
+    "Free T4 test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 166
+  }
+ ]
+}

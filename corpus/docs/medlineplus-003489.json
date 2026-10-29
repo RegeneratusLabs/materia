@@ -1,0 +1,134 @@
+{
+ "doc_id": "medlineplus-003489",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Total iron binding capacity",
+ "title_extra": null,
+ "date": "2026-01-10",
+ "revised": "2026-01-10",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003489.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003489.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:a55ea3436e8ef848ade287cb13f55d8c121eeae1a41e441eb9b5d0bcd4dbdde3",
+ "entities": [
+  "Total iron binding capacity"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003489#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "iron",
+    "transferrin",
+    "ferritin"
+   ],
+   "entities": [
+    "Total iron binding capacity"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003489#002",
+   "text": "How to Prepare for the Test: You should not eat or drink for 8 hours before the test.\nCertain medicines may affect the result of this test. Your provider will tell you if you need to stop taking any medicines. Do not stop any medicine before talking to your provider.\nMedicines that can affect the test result include:\nAdrenocorticotropic hormone\n(ACTH)\nBirth control pills\nFluorides",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "iron",
+    "transferrin",
+    "ferritin"
+   ],
+   "entities": [
+    "Total iron binding capacity"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 65
+  },
+  {
+   "chunk_id": "medlineplus-003489#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "iron",
+    "transferrin",
+    "ferritin"
+   ],
+   "entities": [
+    "Total iron binding capacity"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003489#004",
+   "text": "Why the Test is Performed: Your provider may recommend this test if:\nYou have signs or symptoms of\nanemia\ndue to low iron\nOther lab tests suggest you have anemia due to low iron levels",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "iron",
+    "transferrin",
+    "ferritin"
+   ],
+   "entities": [
+    "Total iron binding capacity"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 35
+  },
+  {
+   "chunk_id": "medlineplus-003489#005",
+   "text": "Normal Results: Normal value range is:\nIron: Males: 59 to 158 mcg/dL (10.6 to 28.3 micromol/L); Females: 37 to 145 mcg/dL (6.6 to 25.9 micromol/L)\nTotal iron binding capacity (TIBC): Males: 171 to 505 mcg/dL (30.6 to 90.3 micromol/L); Females: 149 to 492 mcg/dL (26.7 to 88.0 micromol/L)\nIron saturation: Males: 20% to 50%; Females: 15% to 45%\nThe numbers above are common measurements for results of these tests. Normal value ranges may vary slightly among different laboratories. Some labs use different measurements or test different samples. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "iron",
+    "transferrin",
+    "ferritin"
+   ],
+   "entities": [
+    "Total iron binding capacity"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "medlineplus-003489#006",
+   "text": "What Abnormal Results Mean: TIBC is usually higher than normal when the body's iron supplies are low. This can occur with:\nIron deficiency anemia\nPregnancy (late)\nLower-than-normal TIBC may mean:\nAnemia due to red blood cells being destroyed too quickly (\nhemolytic anemia\n)\nLower-than-normal level of protein in the blood (hypoproteinemia)\nInflammation\nLiver disease, such as\ncirrhosis\nMalnutrition\nDecrease in red blood cells due to the intestines not properly absorbing vitamin B12 (\npernicious anemia\n)\nSickle cell anemia",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "iron",
+    "transferrin",
+    "ferritin",
+    "pregnancy",
+    "liver"
+   ],
+   "entities": [
+    "Total iron binding capacity"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 80
+  }
+ ]
+}

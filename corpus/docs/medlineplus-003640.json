@@ -1,0 +1,132 @@
+{
+ "doc_id": "medlineplus-003640",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "A1C test",
+ "title_extra": null,
+ "date": "2026-05-18",
+ "revised": "2026-05-18",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003640.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003640.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:c15743a0bfd027c12bc0266e8985245f76d67443705761d0bd829eeca1597da7",
+ "entities": [
+  "A1C test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003640#001",
+   "text": "How the Test is Performed: A blood sample is needed. Two methods are available:\nBlood drawn from a vein. This is done at a lab.\nFinger stick. This can be done in your health care provider's office. Or, you may be prescribed a kit that you can use at home. Results by finger stick may differ slightly from blood drawn from a vein, but in most cases can also be used to monitor your treatment.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "hba1c",
+    "glucose"
+   ],
+   "entities": [
+    "A1C test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 75
+  },
+  {
+   "chunk_id": "medlineplus-003640#002",
+   "text": "How to Prepare for the Test: No special preparation is needed. The food you have recently eaten does not affect the A1C test, so you do not need to fast to prepare for this blood test.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "hba1c",
+    "glucose"
+   ],
+   "entities": [
+    "A1C test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "medlineplus-003640#003",
+   "text": "How the Test will Feel: With a finger stick, you may feel slight pain.\nWith blood drawn from a vein, you may feel a slight pinch or some stinging when the needle is inserted. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "hba1c",
+    "glucose"
+   ],
+   "entities": [
+    "A1C test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "medlineplus-003640#004",
+   "text": "Why the Test is Performed: Your provider may order this test if you have\ndiabetes\n. It shows how well you are controlling your diabetes.\nThe test may also be used to screen for diabetes.\nAsk your provider how often you should have your A1C level tested. Usually, for people with diabetes, testing every 3 or 6 months is recommended.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "hba1c",
+    "glucose",
+    "diabetes"
+   ],
+   "entities": [
+    "A1C test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 60
+  },
+  {
+   "chunk_id": "medlineplus-003640#005",
+   "text": "Normal Results: The following are the results when A1C is being used to diagnose diabetes:\nNormal (no diabetes): Less than 5.7%\nPre-diabetes: 5.7% to 6.4%\nDiabetes: 6.5% or higher\nTwo abnormal A1C test results at two different times are required for a diagnosis of diabetes. If you have diabetes, you and your provider will discuss the ideal range for you, which may vary based on your age. For many people, the goal is to keep the level below 7%.\nThe test result may be incorrect in people with\nanemia\n, kidney disease, liver disease, or certain blood disorders (\nthalassemia\n), or after a blood transfusion. Talk to your provider if you have any of these conditions. Certain medicines can also result in a false A1C level.\nThe examples above are common measurements for results of these tests. Normal value ranges may vary slightly among different labs. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "hba1c",
+    "glucose",
+    "liver",
+    "diabetes",
+    "renal"
+   ],
+   "entities": [
+    "A1C test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 159
+  },
+  {
+   "chunk_id": "medlineplus-003640#006",
+   "text": "What Abnormal Results Mean: An abnormal result means that you have had a high blood sugar level over a period of weeks to months.\nIf your A1C is 6.5% or higher and you do not already have diabetes, you may be diagnosed with diabetes.\nIf your level is above 7% and you have diabetes, it often means that your blood sugar is not as well controlled as would be ideal. You and your provider should determine your target A1C.\nMany labs now use the A1C to calculate an\nestimated average glucose (eAG)\n. This estimate may be different from the average blood sugars you are recording from your glucose meter or continuous glucose monitor. Talk to your provider about what this means. The actual blood sugar readings are usually more reliable than the estimated average glucose based on the A1C.\nThe higher your A1C, the higher the risk that you will develop problems such as:\nEye disease\nHeart disease\nKidney disease\nNerve damage\nStroke\nIf your A1C stays high, talk to your provider about\nhow best to manage your blood sugar\n.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "hba1c",
+    "glucose",
+    "diabetes",
+    "renal"
+   ],
+   "entities": [
+    "A1C test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 182
+  }
+ ]
+}

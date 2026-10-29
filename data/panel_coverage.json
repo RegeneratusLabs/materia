@@ -128,14 +128,14 @@
   "want_sections": [],
   "best": null,
   "top": [
-   "nci-pdq-hydrazine-sulfate-pdq#031",
-   "nci-pdq-prostate-supplements-pdq#014",
-   "hc-nhpid-oligotherapy2#004",
-   "hc-nhpid-vitamin-d-hd#005",
-   "nci-pdq-hydrazine-sulfate-pdq#008",
-   "hc-nhpid-multiple-joint-health2#013"
+   "medlineplus-003488#002",
+   "medlineplus-003489#002",
+   "medlineplus-003488#006",
+   "medlineplus-003489#004",
+   "medlineplus-003477#002",
+   "nci-pdq-hydrazine-sulfate-pdq#031"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 4
  },
  {
   "id": "H08",
@@ -348,14 +348,14 @@
   ],
   "best": null,
   "top": [
-   "epmc-42633317#002",
+   "medlineplus-003488#006",
+   "medlineplus-003488#004",
    "nci-pdq-coenzyme-q10-pdq#035",
+   "epmc-42633317#002",
    "hc-nhpid-whey-prod-lactoserum2#006",
-   "hc-nhpid-calcium-potassium2#007",
-   "hc-nhpid-workout-supplements-entrainement#020",
    "hc-nhpid-fonc-cognitive-func#020"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 2
  },
  {
   "id": "H19",
@@ -365,32 +365,32 @@
    "monitoring",
    "reference_interval"
   ],
-  "best": "epmc-42689097#002",
+  "best": "medlineplus-003705#006",
   "top": [
    "epmc-42689097#002",
+   "medlineplus-003705#006",
    "epmc-42689097#001",
+   "medlineplus-003705#005",
    "epmc-42783810#001",
-   "epmc-42783810#002",
-   "epmc-42647256#001",
-   "epmc-42647256#002"
+   "epmc-42783810#002"
   ],
-  "entity_docs_found": 4
+  "entity_docs_found": 6
  },
  {
   "id": "H20",
   "cat": "nutrient-drug",
-  "covered": false,
+  "covered": true,
   "want_sections": [],
-  "best": null,
+  "best": "medlineplus-003488#006",
   "top": [
-   "nci-pdq-dietary-interactions-pdq#027",
-   "nci-pdq-prostate-supplements-pdq#174",
-   "nci-pdq-prostate-supplements-pdq#070",
-   "hc-nhpid-chlorella-vulgaris2#002",
-   "hc-nhpid-chlorella-vulgaris2#004",
-   "epmc-42633317#002"
+   "medlineplus-003488#006",
+   "medlineplus-003488#004",
+   "medlineplus-003489#004",
+   "medlineplus-003489#005",
+   "medlineplus-003490#006",
+   "nci-pdq-dietary-interactions-pdq#027"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 4
  },
  {
   "id": "H21",
@@ -476,139 +476,146 @@
   "best": null,
   "top": [
    "nccih-astragalus#005",
+   "medlineplus-003638#006",
    "ema-echinacea-purpurea-l-moench-herba-recens#004",
    "nccih-ashwagandha#005",
    "nccih-thunder-god-vine#002",
-   "nccih-cats-claw#005",
-   "nci-pdq-714-x-pdq#004"
+   "medlineplus-003642#006"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "L01",
   "cat": "lab",
-  "covered": false,
+  "covered": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-003517#005",
   "top": [
-   "nci-pdq-aromatherapy-pdq#006",
-   "nccih-saw-palmetto#002",
-   "nccih-green-tea#006",
-   "nci-pdq-prostate-supplements-pdq#003",
-   "nci-pdq-ndv-pdq#057",
-   "hc-nhpid-workout-supplements-entrainement#008"
+   "medlineplus-003517#005",
+   "medlineplus-003687#005",
+   "medlineplus-003517#006",
+   "medlineplus-003684#005",
+   "medlineplus-003705#005",
+   "medlineplus-003684#006"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "L02",
   "cat": "lab",
-  "covered": false,
+  "covered": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-003517#005",
   "top": [
-   "nci-pdq-curcumin-pdq#012",
-   "hc-nhpid-propolis-oral-orale2#002",
-   "hc-nhpid-cayenne-oral-orale2#002",
-   "hc-nhpid-chlorella-vulgaris2#004",
-   "nci-pdq-pc-spes-pdq#037",
-   "nci-pdq-prostate-supplements-pdq#082"
+   "medlineplus-003517#005",
+   "medlineplus-003684#005",
+   "medlineplus-003490#005",
+   "medlineplus-003517#006",
+   "medlineplus-003684#006",
+   "medlineplus-003687#005"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "L03",
   "cat": "lab",
-  "covered": false,
+  "covered": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-003490#006",
   "top": [
-   "nci-pdq-milk-thistle-pdq#038",
-   "nci-pdq-gerson-pdq#005",
-   "nci-pdq-aromatherapy-pdq#006",
-   "nci-pdq-mistletoe-pdq#048",
-   "epmc-42633317#002",
-   "hc-nhpid-oligotherapy2#002"
+   "medlineplus-003489#005",
+   "medlineplus-003489#006",
+   "medlineplus-003488#005",
+   "medlineplus-003490#006",
+   "medlineplus-003490#005",
+   "medlineplus-003488#006"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 6
  },
  {
   "id": "L04",
   "cat": "lab",
-  "covered": false,
-  "want_sections": [
-   "dosage"
-  ],
-  "best": null,
-  "top": [
-   "hc-nhpid-oligotherapy2#002",
-   "hc-nhpid-ginkgo-biloba2#004",
-   "hc-nhpid-carrot2#003",
-   "hc-nhpid-oligotherapy2#004",
-   "nccih-cinnamon#003",
-   "hc-nhpid-betaine2#003"
-  ],
-  "entity_docs_found": 0
- },
- {
-  "id": "L05",
-  "cat": "lab",
-  "covered": false,
+  "covered": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-003490#006",
   "top": [
+   "medlineplus-003490#006",
+   "medlineplus-003488#006",
+   "medlineplus-003489#006",
+   "medlineplus-003490#005",
+   "medlineplus-003488#005",
+   "medlineplus-003489#005"
+  ],
+  "entity_docs_found": 6
+ },
+ {
+  "id": "L05",
+  "cat": "lab",
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": "medlineplus-003705#006",
+  "top": [
+   "medlineplus-003705#006",
+   "medlineplus-003705#005",
+   "medlineplus-003687#005",
    "epmc-42647256#001",
-   "epmc-42647256#002",
-   "epmc-42689097#002",
-   "epmc-42689097#001",
-   "epmc-42783810#002",
-   "epmc-42783810#001"
+   "medlineplus-003489#006",
+   "epmc-42647256#002"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "L06",
   "cat": "lab",
-  "covered": false,
-  "want_sections": [],
-  "best": null,
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": "epmc-42647256#001",
   "top": [
-   "nci-pdq-gerson-pdq#021",
-   "nccih-hoodia#005",
-   "epmc-42783810#002",
-   "nci-pdq-prostate-supplements-pdq#117",
-   "nccih-bitter-orange#005",
-   "nci-pdq-acupuncture-pdq#084"
+   "medlineplus-003705#006",
+   "epmc-42647256#001",
+   "epmc-42689097#002",
+   "epmc-42647256#002",
+   "medlineplus-003477#006",
+   "medlineplus-003489#006"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "L07",
   "cat": "lab",
-  "covered": false,
-  "want_sections": [],
-  "best": null,
-  "top": [
-   "epmc-42633317#001",
-   "epmc-42633317#002",
-   "nci-pdq-milk-thistle-pdq#038",
-   "epmc-42647256#001",
-   "epmc-42689097#002",
-   "nci-pdq-prostate-supplements-pdq#178"
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
   ],
-  "entity_docs_found": 0
+  "best": "medlineplus-003489#006",
+  "top": [
+   "medlineplus-003489#006",
+   "medlineplus-003488#006",
+   "medlineplus-003489#005",
+   "medlineplus-003488#005",
+   "medlineplus-003490#006",
+   "medlineplus-003642#007"
+  ],
+  "entity_docs_found": 4
  },
  {
   "id": "L08",
@@ -636,36 +643,39 @@
   "id": "L09",
   "cat": "lab",
   "covered": false,
-  "want_sections": [],
-  "best": null,
-  "top": [
-   "nccih-grape-seed-extract#004",
-   "nccih-green-tea#004",
-   "hc-nhpid-fish-oil-huile-poisson#003",
-   "nccih-flaxseed-and-flaxseed-oil#004",
-   "nci-pdq-prostate-supplements-pdq#036",
-   "nci-pdq-prostate-supplements-pdq#208"
-  ],
-  "entity_docs_found": 0
- },
- {
-  "id": "L10",
-  "cat": "lab",
-  "covered": false,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
   "best": null,
   "top": [
-   "nci-pdq-milk-thistle-pdq#038",
-   "nci-pdq-prostate-supplements-pdq#239",
-   "nci-pdq-milk-thistle-pdq#040",
-   "nci-pdq-acupuncture-pdq#040",
-   "nccih-turmeric#004",
-   "hc-nhpid-multiple-joint-health2#005"
+   "medlineplus-007813#005",
+   "medlineplus-003477#005",
+   "medlineplus-003487#005",
+   "medlineplus-007813#006",
+   "medlineplus-003517#006",
+   "epmc-42689097#002"
   ],
   "entity_docs_found": 0
+ },
+ {
+  "id": "L10",
+  "cat": "lab",
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": "medlineplus-003490#006",
+  "top": [
+   "medlineplus-003489#005",
+   "medlineplus-003488#005",
+   "medlineplus-003489#006",
+   "medlineplus-003490#006",
+   "medlineplus-003490#005",
+   "medlineplus-003488#006"
+  ],
+  "entity_docs_found": 6
  },
  {
   "id": "L11",
@@ -688,16 +698,19 @@
  {
   "id": "L12",
   "cat": "lab",
-  "covered": false,
-  "want_sections": [],
-  "best": null,
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": "medlineplus-003458#005",
   "top": [
-   "epmc-42812992#002",
-   "nci-pdq-milk-thistle-pdq#036",
-   "nci-pdq-essiac-pdq#007",
-   "nci-pdq-milk-thistle-pdq#035",
-   "nci-pdq-laetrile-pdq#020",
-   "nci-pdq-curcumin-pdq#020"
+   "medlineplus-003458#005",
+   "medlineplus-003473#005",
+   "medlineplus-003458#006",
+   "medlineplus-003684#005",
+   "medlineplus-003473#006",
+   "medlineplus-003517#005"
   ],
   "entity_docs_found": 0
  },
@@ -726,19 +739,19 @@
  {
   "id": "L14",
   "cat": "lab",
-  "covered": false,
+  "covered": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-003684#005",
   "top": [
-   "nci-pdq-cancell-pdq#006",
-   "nci-pdq-cancell-pdq#007",
-   "nccih-green-tea#006",
-   "nci-pdq-gonzalez-pdq#010",
-   "nci-pdq-acupuncture-pdq#006",
-   "nccih-saw-palmetto#002"
+   "medlineplus-003684#005",
+   "medlineplus-003684#006",
+   "medlineplus-003517#006",
+   "medlineplus-003517#005",
+   "medlineplus-003490#006",
+   "medlineplus-003489#006"
   ],
   "entity_docs_found": 0
  },
@@ -763,20 +776,17 @@
   "cat": "safety",
   "covered": true,
   "want_sections": [
-   "adverse_effects",
-   "cautions",
-   "contraindications",
-   "interactions",
-   "red_flags"
+   "monitoring",
+   "reference_interval"
   ],
-  "best": "hc-nhpid-fish-oil-huile-poisson#003",
+  "best": "epmc-42647256#001",
   "top": [
-   "hc-nhpid-fish-oil-huile-poisson#007",
+   "hc-nhpid-fish-oil-huile-poisson#005",
    "hc-nhpid-fish-oil-huile-poisson#003",
-   "epmc-42783810#002",
-   "nci-pdq-coenzyme-q10-pdq#034",
-   "hc-nhpid-multiple-joint-health2#016",
-   "ema-ginkgo-biloba-l-folium#005"
+   "medlineplus-007813#006",
+   "epmc-42647256#001",
+   "hc-nhpid-multiple-joint-health2#008",
+   "hc-nhpid-cod-liver-oil#004"
   ],
   "entity_docs_found": 2
  },
@@ -826,8 +836,8 @@
   "best": null,
   "top": [
    "ema-echinacea-purpurea-l-moench-herba-recens#006",
-   "ema-ginkgo-biloba-l-folium#006",
    "nccih-elderberry#005",
+   "ema-ginkgo-biloba-l-folium#006",
    "ema-allium-sativum-l-bulbus#006",
    "ema-ginkgo-biloba-l-folium#003",
    "epmc-41764614#001"
@@ -1067,18 +1077,18 @@
  {
   "id": "E10",
   "cat": "herb-drug",
-  "covered": false,
+  "covered": true,
   "want_sections": [],
-  "best": null,
+  "best": "medlineplus-003488#006",
   "top": [
-   "nccih-green-tea#005",
    "nccih-green-tea#002",
-   "hc-nhpid-greentea-thevert2#006",
+   "nccih-green-tea#004",
+   "medlineplus-003488#006",
    "hc-nhpid-greentea-thevert2#003",
-   "nci-pdq-dietary-interactions-pdq#027",
-   "nci-pdq-dietary-interactions-pdq#032"
+   "hc-nhpid-greentea-thevert2#004",
+   "medlineplus-003488#004"
   ],
-  "entity_docs_found": 4
+  "entity_docs_found": 6
  },
  {
   "id": "E11",
@@ -1088,11 +1098,11 @@
   "best": null,
   "top": [
    "nci-pdq-prostate-supplements-pdq#019",
+   "medlineplus-003477#006",
    "nci-pdq-prostate-supplements-pdq#015",
+   "medlineplus-003477#004",
    "hc-nhpid-rhodiol2#002",
-   "hc-nhpid-multiple-joint-health2#013",
-   "nci-pdq-coenzyme-q10-pdq#033",
-   "nci-pdq-dietary-interactions-pdq#009"
+   "hc-nhpid-multiple-joint-health2#013"
   ],
   "entity_docs_found": 0
  },
@@ -1101,16 +1111,17 @@
   "cat": "herb-drug",
   "covered": false,
   "want_sections": [
-   "dosage"
+   "monitoring",
+   "reference_interval"
   ],
   "best": null,
   "top": [
-   "hc-nhpid-skin-peau#004",
-   "hc-nhpid-vitamin-d-hd#006",
-   "hc-nhpid-vitamin-d-hd#004",
-   "hc-nhpid-chlorella-vulgaris2#004",
-   "nccih-asian-ginseng#003",
-   "hc-nhpid-whey-prod-lactoserum2#003"
+   "medlineplus-003684#006",
+   "medlineplus-003640#006",
+   "medlineplus-003642#006",
+   "medlineplus-003687#006",
+   "medlineplus-003475#006",
+   "medlineplus-003642#007"
   ],
   "entity_docs_found": 0
  },
@@ -1174,9 +1185,9 @@
    "nccih-dandelion#005",
    "nccih-dandelion#001",
    "nci-pdq-black-cohosh-pdq#014",
+   "hc-nhpid-feuille-olea-europaea-leaf2#009",
    "hc-nhpid-feuille-olea-europaea-leaf2#008",
-   "hc-nhpid-tcm#008",
-   "ema-ginkgo-biloba-l-folium#005"
+   "hc-nhpid-tcm#008"
   ],
   "entity_docs_found": 2
  },
@@ -1336,8 +1347,8 @@
   "best": null,
   "top": [
    "nci-pdq-curcumin-pdq#051",
-   "nci-pdq-prostate-supplements-pdq#043",
    "nci-pdq-black-cohosh-pdq#013",
+   "nci-pdq-prostate-supplements-pdq#043",
    "ema-avena-sativa-l-herba#004",
    "hc-nhpid-oligotherapy2#006",
    "ema-allium-sativum-l-bulbus#005"
@@ -1416,8 +1427,8 @@
    "hc-nhpid-multiple-oil#007",
    "hc-nhpid-tcm#003",
    "hc-nhpid-workout-supplements-entrainement#011",
-   "hc-nhpid-multiple-oil#004",
    "nccih-grape-seed-extract#003",
+   "hc-nhpid-multiple-oil#004",
    "nccih-fenugreek#003"
   ],
   "entity_docs_found": 0
@@ -1467,12 +1478,12 @@
   "want_sections": [],
   "best": null,
   "top": [
+   "medlineplus-003705#002",
+   "medlineplus-003487#006",
+   "medlineplus-003477#006",
    "nci-pdq-vitamin-c-pdq#003",
-   "hc-nhpid-chitosan2#002",
-   "hc-nhpid-greentea-thevert2#002",
-   "nci-pdq-acupuncture-pdq#060",
-   "nci-pdq-dietary-interactions-pdq#005",
-   "nci-pdq-dietary-interactions-pdq#006"
+   "medlineplus-003642#006",
+   "medlineplus-003687#006"
   ],
   "entity_docs_found": 0
  },
@@ -1490,7 +1501,7 @@
    "nccih-garcinia-cambogia#003",
    "hc-nhpid-antiox#055",
    "hc-nhpid-tcm#003",
-   "hc-nhpid-workout-supplements-entrainement#011"
+   "hc-nhpid-psyillium#005"
   ],
   "entity_docs_found": 0
  },
@@ -1505,28 +1516,29 @@
    "hc-nhpid-multiple-joint-health2#009",
    "hc-nhpid-vitamin-d-hd#002",
    "epmc-42689097#002",
-   "nccih-green-tea#005",
-   "nci-pdq-prostate-supplements-pdq#195"
+   "nci-pdq-prostate-supplements-pdq#195",
+   "hc-nhpid-multiple-joint-health2#010"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "E33",
   "cat": "nutrient-drug",
-  "covered": false,
+  "covered": true,
   "want_sections": [
-   "dosage"
+   "monitoring",
+   "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-003489#006",
   "top": [
-   "hc-nhpid-chlorella-vulgaris2#004",
-   "hc-nhpid-workout-supplements-entrainement#011",
-   "hc-nhpid-multiple-joint-health2#013",
-   "hc-nhpid-oligotherapy2#002",
-   "hc-nhpid-vitamin-d-hd#004",
-   "hc-nhpid-oligotherapy2#004"
+   "medlineplus-003489#006",
+   "medlineplus-003488#006",
+   "medlineplus-003488#005",
+   "medlineplus-003489#005",
+   "medlineplus-003642#006",
+   "medlineplus-003490#006"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 4
  },
  {
   "id": "E34",
@@ -1555,7 +1567,7 @@
    "nci-pdq-dietary-interactions-pdq#027",
    "nci-pdq-prostate-supplements-pdq#174",
    "nci-pdq-dietary-interactions-pdq#009",
-   "nci-pdq-prostate-supplements-pdq#070",
+   "nci-pdq-prostate-supplements-pdq#028",
    "hc-nhpid-vitamin-d-hd#008"
   ],
   "entity_docs_found": 0
@@ -1563,19 +1575,19 @@
  {
   "id": "L16",
   "cat": "lab",
-  "covered": false,
+  "covered": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-003517#005",
   "top": [
-   "epmc-42647256#002",
-   "epmc-42647256#001",
-   "epmc-42689097#002",
-   "epmc-42689097#001",
-   "nci-pdq-prostate-supplements-pdq#039",
-   "nci-pdq-coenzyme-q10-pdq#020"
+   "medlineplus-003705#005",
+   "medlineplus-003687#005",
+   "medlineplus-003517#005",
+   "medlineplus-003705#006",
+   "medlineplus-007813#005",
+   "medlineplus-003458#005"
   ],
   "entity_docs_found": 0
  },
@@ -1591,28 +1603,28 @@
    "hc-nhpid-fish-oil-huile-poisson#006",
    "nci-pdq-prostate-supplements-pdq#183",
    "hc-nhpid-antiox#057",
-   "nci-pdq-prostate-supplements-pdq#203"
+   "hc-nhpid-carrot2#004"
   ],
   "entity_docs_found": 2
  },
  {
   "id": "L18",
   "cat": "lab",
-  "covered": false,
+  "covered": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-003705#006",
   "top": [
+   "medlineplus-003705#006",
+   "medlineplus-003705#005",
    "epmc-42647256#001",
    "epmc-42647256#002",
    "epmc-42689097#001",
-   "epmc-42689097#002",
-   "epmc-42783810#001",
-   "nci-pdq-gerson-pdq#006"
+   "medlineplus-003489#006"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 2
  },
  {
   "id": "L19",
@@ -1644,11 +1656,11 @@
   "best": null,
   "top": [
    "nci-pdq-prostate-supplements-pdq#036",
+   "medlineplus-003640#002",
    "nccih-flaxseed-and-flaxseed-oil#004",
    "nccih-asian-ginseng#004",
    "nccih-astragalus#004",
-   "nci-pdq-prostate-supplements-pdq#035",
-   "nccih-acai#005"
+   "nci-pdq-prostate-supplements-pdq#035"
   ],
   "entity_docs_found": 0
  },
@@ -1659,12 +1671,12 @@
   "want_sections": [],
   "best": null,
   "top": [
+   "medlineplus-003489#005",
    "nci-pdq-prostate-supplements-pdq#239",
    "nci-pdq-prostate-supplements-pdq#121",
    "nci-pdq-aromatherapy-pdq#006",
-   "epmc-42812739#002",
-   "nccih-bilberry#002",
-   "nci-pdq-laetrile-pdq#024"
+   "medlineplus-003489#001",
+   "epmc-42812739#002"
   ],
   "entity_docs_found": 0
  },
@@ -1687,21 +1699,21 @@
  {
   "id": "L23",
   "cat": "lab",
-  "covered": false,
+  "covered": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-003487#005",
   "top": [
-   "epmc-42647256#001",
-   "epmc-42689097#002",
-   "epmc-42689097#001",
-   "epmc-42647256#002",
-   "nci-pdq-prostate-supplements-pdq#063",
-   "nci-pdq-prostate-supplements-pdq#039"
+   "medlineplus-003487#005",
+   "medlineplus-003487#006",
+   "medlineplus-007813#005",
+   "medlineplus-003477#005",
+   "medlineplus-003477#006",
+   "medlineplus-003488#006"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 2
  },
  {
   "id": "L24",
@@ -1710,30 +1722,33 @@
   "want_sections": [],
   "best": null,
   "top": [
+   "medlineplus-003488#002",
    "nci-pdq-prostate-supplements-pdq#183",
-   "nci-pdq-curcumin-pdq#018",
    "nci-pdq-prostate-supplements-pdq#076",
-   "nci-pdq-cartilage-pdq#048",
-   "hc-nhpid-serrapeptase2#003",
-   "nci-pdq-coenzyme-q10-pdq#009"
+   "medlineplus-003684#005",
+   "nci-pdq-curcumin-pdq#018",
+   "medlineplus-003490#002"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "L25",
   "cat": "lab",
-  "covered": false,
-  "want_sections": [],
-  "best": null,
-  "top": [
-   "epmc-42633317#001",
-   "epmc-42633317#002",
-   "nci-pdq-milk-thistle-pdq#038",
-   "nci-pdq-ndv-pdq#105",
-   "nci-pdq-antineoplastons-pdq#039",
-   "nci-pdq-antineoplastons-pdq#015"
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
   ],
-  "entity_docs_found": 0
+  "best": "medlineplus-003489#006",
+  "top": [
+   "medlineplus-003489#006",
+   "medlineplus-003488#006",
+   "medlineplus-003489#005",
+   "medlineplus-003488#005",
+   "medlineplus-003642#006",
+   "medlineplus-003490#006"
+  ],
+  "entity_docs_found": 4
  },
  {
   "id": "L26",
@@ -1754,69 +1769,78 @@
  {
   "id": "L27",
   "cat": "lab",
-  "covered": false,
-  "want_sections": [],
-  "best": null,
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": "medlineplus-003473#005",
   "top": [
-   "epmc-42812992#002",
-   "nci-pdq-milk-thistle-pdq#032",
-   "epmc-42812739#002",
-   "nci-pdq-essiac-pdq#007",
-   "nci-pdq-milk-thistle-pdq#035",
-   "nci-pdq-laetrile-pdq#020"
+   "medlineplus-003473#005",
+   "medlineplus-003684#005",
+   "medlineplus-003473#006",
+   "medlineplus-003517#005",
+   "medlineplus-003477#005",
+   "medlineplus-003705#005"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "L28",
   "cat": "lab",
-  "covered": false,
-  "want_sections": [],
-  "best": null,
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": "medlineplus-003458#005",
   "top": [
-   "nci-pdq-essiac-pdq#007",
-   "epmc-42812992#002",
-   "nci-pdq-laetrile-pdq#020",
-   "nci-pdq-milk-thistle-pdq#036",
-   "nci-pdq-antineoplastons-pdq#003",
-   "nci-pdq-laetrile-pdq#010"
+   "medlineplus-003458#005",
+   "medlineplus-003458#006",
+   "medlineplus-003684#005",
+   "medlineplus-003517#005",
+   "medlineplus-003477#005",
+   "medlineplus-003705#005"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "L29",
   "cat": "lab",
-  "covered": false,
-  "want_sections": [],
-  "best": null,
-  "top": [
-   "hc-nhpid-irvingia-gabonensis#002",
-   "hc-nhpid-free-plant-sterols-vegetaux#002",
-   "hc-nhpid-plant-stanol-esters#003",
-   "hc-nhpid-plant-sterol-esters#003",
-   "nccih-green-tea#004",
-   "hc-nhpid-chitosan2#002"
-  ],
-  "entity_docs_found": 0
- },
- {
-  "id": "L30",
-  "cat": "lab",
-  "covered": false,
+  "covered": true,
   "want_sections": [
    "monitoring",
    "reference_interval"
   ],
-  "best": null,
+  "best": "medlineplus-007813#005",
   "top": [
+   "medlineplus-007813#005",
+   "medlineplus-007813#006",
+   "medlineplus-003477#005",
+   "medlineplus-003487#005",
+   "medlineplus-003356#006",
+   "medlineplus-003489#006"
+  ],
+  "entity_docs_found": 2
+ },
+ {
+  "id": "L30",
+  "cat": "lab",
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
+  ],
+  "best": "medlineplus-003705#006",
+  "top": [
+   "medlineplus-003705#006",
+   "medlineplus-003705#005",
    "epmc-42647256#001",
    "epmc-42647256#002",
    "epmc-42689097#001",
-   "epmc-42689097#002",
-   "epmc-42783810#001",
-   "nci-pdq-gerson-pdq#006"
+   "medlineplus-003489#006"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 2
  },
  {
   "id": "R01",
@@ -1841,12 +1865,12 @@
   "want_sections": [],
   "best": null,
   "top": [
-   "hc-nhpid-horseradish-raifort2#005",
-   "nci-pdq-mistletoe-pdq#092",
-   "nci-pdq-prostate-supplements-pdq#117",
-   "nci-pdq-acupuncture-pdq#062",
-   "nccih-ashwagandha#005",
-   "nccih-asian-ginseng#004"
+   "medlineplus-003517#006",
+   "medlineplus-003517#004",
+   "medlineplus-003687#004",
+   "medlineplus-003684#006",
+   "medlineplus-003684#005",
+   "medlineplus-003477#002"
   ],
   "entity_docs_found": 0
  },
@@ -1869,18 +1893,21 @@
  {
   "id": "R04",
   "cat": "referral",
-  "covered": false,
-  "want_sections": [],
-  "best": null,
-  "top": [
-   "epmc-42633317#001",
-   "nci-pdq-milk-thistle-pdq#038",
-   "epmc-42633317#002",
-   "hc-nhpid-cod-liver-oil#003",
-   "nci-pdq-prostate-supplements-pdq#045",
-   "nci-pdq-prostate-supplements-pdq#239"
+  "covered": true,
+  "want_sections": [
+   "monitoring",
+   "reference_interval"
   ],
-  "entity_docs_found": 0
+  "best": "medlineplus-003489#006",
+  "top": [
+   "medlineplus-003489#006",
+   "medlineplus-003488#006",
+   "medlineplus-003489#005",
+   "medlineplus-003488#005",
+   "medlineplus-003490#006",
+   "medlineplus-003642#006"
+  ],
+  "entity_docs_found": 4
  },
  {
   "id": "R05",
@@ -1894,7 +1921,7 @@
    "hc-nhpid-peppermint-menthepoivree#005",
    "hc-nhpid-horseradish-raifort2#005",
    "nccih-turmeric#005",
-   "hc-nhpid-peppermint-menthepoivree#006"
+   "nci-pdq-acupuncture-pdq#072"
   ],
   "entity_docs_found": 0
  },
@@ -1910,7 +1937,7 @@
    "hc-nhpid-conj-linoleic-acid#002",
    "nci-pdq-prostate-supplements-pdq#009",
    "hc-nhpid-greencoffeebean-ext-fevescafevert2#002",
-   "nci-pdq-prostate-supplements-pdq#012"
+   "hc-nhpid-irvingia-gabonensis#002"
   ],
   "entity_docs_found": 0
  },
@@ -1940,12 +1967,12 @@
   ],
   "best": null,
   "top": [
-   "epmc-42647256#002",
-   "nccih-ephedra#004",
-   "nci-pdq-curcumin-pdq#038",
-   "nccih-acai#004",
-   "nci-pdq-dietary-interactions-pdq#025",
-   "nccih-cinnamon#004"
+   "medlineplus-003487#006",
+   "medlineplus-003356#005",
+   "medlineplus-007813#005",
+   "medlineplus-003705#005",
+   "medlineplus-003475#006",
+   "medlineplus-003458#005"
   ],
   "entity_docs_found": 0
  }

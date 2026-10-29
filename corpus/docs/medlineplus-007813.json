@@ -1,0 +1,127 @@
+{
+ "doc_id": "medlineplus-007813",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Total cholesterol",
+ "title_extra": null,
+ "date": "2026-08-07",
+ "revised": "2026-08-07",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/007813.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/007813.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:abd8a443e3c0f0300c9a8d6d4efc2311788ec6d695006737038dd1973ed52150",
+ "entities": [
+  "Total cholesterol"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-007813#001",
+   "text": "How the Test is Performed: A blood sample is needed. Most of the time,\nblood is drawn from a vein\nlocated on the inside of the elbow or the back of the hand.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "cholesterol"
+   ],
+   "entities": [
+    "Total cholesterol"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "medlineplus-007813#002",
+   "text": "How to Prepare for the Test: Ideally, you should not eat for 9 to 12 hours before the test. But the test can be done if you have eaten.\nAlcohol and some medicines can interfere with blood test results.\nMake sure your health care provider knows what medicines you take, including over-the-counter medicines and supplements.\nYour provider will tell you if you need to stop taking any medicines before you have this test.\nDo not stop or change your medicines without talking to your provider first.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "cholesterol",
+    "sedation"
+   ],
+   "entities": [
+    "Total cholesterol"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 86
+  },
+  {
+   "chunk_id": "medlineplus-007813#003",
+   "text": "How the Test will Feel: You may feel slight pain or a sting when the needle is inserted. You may also feel some throbbing at the site after the blood is drawn.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "cholesterol"
+   ],
+   "entities": [
+    "Total cholesterol"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "medlineplus-007813#004",
+   "text": "Why the Test is Performed: Total cholesterol is usually measured together with other blood fats as part of a lipid profile. It is done to help determine your risk of developing heart disease.\nA high total cholesterol level may lead to\natherosclerosis\n. This increases your risk for\nheart attack\nand\nstroke\n.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "cholesterol"
+   ],
+   "entities": [
+    "Total cholesterol"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 53
+  },
+  {
+   "chunk_id": "medlineplus-007813#005",
+   "text": "Normal Results: A total cholesterol of less than 200 mg/dL (5.18 mmol/L) is considered best (lower numbers are better).\nNormal value ranges may vary slightly among different laboratories. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "cholesterol"
+   ],
+   "entities": [
+    "Total cholesterol"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 40
+  },
+  {
+   "chunk_id": "medlineplus-007813#006",
+   "text": "What Abnormal Results Mean: A\nhigh total cholesterol level\nmay be due to:\nEating a diet high in saturated fats\nLack of physical activity\nStress\nDrinking too much alcohol\nBeing overweight\nor\nhaving obesity\nDiabetes\nMetabolic syndrome\nDisorder passed down through families in which there are high amounts of cholesterol and triglycerides in the blood (\nfamilial combined hyperlipidemia\n)\nSide effect of certain medicines\nUnderactive thyroid (\nhypothyroidism\n)\nKidney or liver disease\nIf your total cholesterol is high, your provider may recommend changes in your\nlifestyle\nsuch as:\nEating a healthy diet\nLosing weight (if you are overweight or have obesity)\nGetting regular exercise\nQuitting smoking\nAvoiding alcohol\nYou may also need\nmedicine to lower your cholesterol level\nif you have diabetes or are at risk of heart disease. While taking medicines to lower your cholesterol level, you should continue the lifestyle changes.\nA low total cholesterol level is usually considered desirable. But, it may be due to serious medical conditions too, in which case it is undesirable:\nRare genetic disorder that runs in families\nOveractive thyroid (\nhyperthyroidism\n)\nSevere liver disease\nMalabsorption\nsyndrome (conditions in which the small intestine does not absorb fats well)\nMalnutrition\nCancer",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "cholesterol",
+    "liver",
+    "thyroid",
+    "diabetes",
+    "sedation",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Total cholesterol"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 200
+  }
+ ]
+}

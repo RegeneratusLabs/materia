@@ -1,0 +1,122 @@
+{
+ "doc_id": "medlineplus-003356",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "C-reactive protein",
+ "title_extra": null,
+ "date": "2025-01-28",
+ "revised": "2025-01-28",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003356.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003356.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:a2d5116f188213323f3110f2022a02da8bc870778af986fde4ab324880e235ff",
+ "entities": [
+  "C-reactive protein"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003356#001",
+   "text": "How the Test is Performed: A blood sample is needed. This is most often taken from a vein. The procedure is called a\nvenipuncture\n.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "crp"
+   ],
+   "entities": [
+    "C-reactive protein"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  },
+  {
+   "chunk_id": "medlineplus-003356#002",
+   "text": "How to Prepare for the Test: No special steps are needed to prepare for this test.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "crp"
+   ],
+   "entities": [
+    "C-reactive protein"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "medlineplus-003356#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others may feel only a prick or stinging sensation. Afterward, there may be some throbbing.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "crp"
+   ],
+   "entities": [
+    "C-reactive protein"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 33
+  },
+  {
+   "chunk_id": "medlineplus-003356#004",
+   "text": "Why the Test is Performed: The CRP test is a general test to check for inflammation in the body. It is not a specific test. This means it can reveal that you have inflammation somewhere in your body, but it cannot pinpoint the exact location or reason. The CRP test is often done with the\nESR\n(erythrocyte or sedimentation rate) test which also looks for inflammation.\nYou may have this test to:\nCheck for flare-ups of inflammatory diseases such as\nrheumatoid arthritis\n,\nlupus\n, or vasculitis.\nDetermine if an anti-inflammatory medicine is working to treat a disease or condition.\nA more sensitive CRP test, called a high-sensitivity C-reactive protein (hs-CRP) assay, is available to determine a person's risk for heart disease.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "crp"
+   ],
+   "entities": [
+    "C-reactive protein"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 122
+  },
+  {
+   "chunk_id": "medlineplus-003356#005",
+   "text": "Normal Results: Normal CRP values vary from lab to lab. The levels often increase slightly with age, female sex and in African Americans. The majority of healthy adults have levels less than 0.3 mg/dL.\nHowever, a low CRP level does not always mean that there is no inflammation present. Levels of CRP may not be increased in people with rheumatoid arthritis and lupus. The reason for this is unknown.\nNote: Normal value ranges may vary slightly among different laboratories. Talk to your health care provider about the meaning of your specific test results.\nThe examples above show the common measurements for results for these tests. Some laboratories use different measurements or may test different specimens.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "crp"
+   ],
+   "entities": [
+    "C-reactive protein"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "medlineplus-003356#006",
+   "text": "What Abnormal Results Mean: It is unclear if a minor rise of 0.3 to 1 mg/dL in CRP levels is a cause for concern. The hs-CRP is more precise and may be used to further understand these results.\nCRP levels from 1 mg/dL to 10 mg/dL are thought to be a moderate increase.\nCRP Levels greater than 10 mg/dL are considered a marked increase.\nA positive test means you have inflammation in the body. The cause of a high CRP cannot always be determined. Some include:\nCancer\nHeart attack\nInfection\nInflammatory bowel disease\n(IBD)\nRheumatoid arthritis, lupus, and related diseases\nRheumatic fever\nAccording to the American Heart Association, results of the hs-CRP can be interpreted as follows:\nYou are at low risk of developing cardiovascular disease if your hs-CRP level is lower than 1.0 mg/L.\nYou are at average risk of developing cardiovascular disease if your levels are from 1.0 mg/L to 3.0 mg/L.\nYou are at high risk for cardiovascular disease if your hs-CRP level is higher than 3.0 mg/L.\nNote: Positive CRP results also occur during the last half of pregnancy or with the use of birth control pills (oral contraceptives).",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "crp",
+    "pregnancy",
+    "cancer"
+   ],
+   "entities": [
+    "C-reactive protein"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 193
+  }
+ ]
+}

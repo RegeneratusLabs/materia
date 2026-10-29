@@ -67,6 +67,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--no-think", action="store_true", help="disable thinking (direct answer)")
     ap.add_argument("--no-cite", action="store_true", help="evidence without asking the model to cite")
     ap.add_argument("--evidence-words", type=int, default=100)
+    ap.add_argument("--rerank", action="store_true", help="pointwise model reranking of candidates")
+    ap.add_argument("--rerank-fetch", type=int, default=8)
     ap.add_argument("--hybrid-cats", default="lab,nutrient-lab",
                     help="categories that get retrieval in --condition hybrid")
     args = ap.parse_args(argv)
@@ -104,6 +106,10 @@ def main(argv: list[str] | None = None) -> int:
     fh = open(out, "w")
 
     hybrid_cats = {c.strip() for c in args.hybrid_cats.split(",") if c.strip()}
+    reranker = None
+    if args.rerank:
+        from materia.rerank import Reranker
+        reranker = Reranker()
 
     def use_retrieval(item: dict, chunks: list[dict]) -> bool:
         if retrieve is None:
@@ -118,6 +124,8 @@ def main(argv: list[str] | None = None) -> int:
     def work(item: dict) -> None:
         chunks = retrieve(item["q"]) if retrieve else []
         use = use_retrieval(item, chunks)
+        if use and reranker is not None:
+            chunks = reranker.rank(item["q"], chunks, top_k=args.k)
         if use and args.no_cite:
             prompt = build_prompt_evidence_nocite(item, chunks, config.RULE_BUDGET, args.evidence_words)
         elif use:
@@ -163,6 +171,8 @@ def main(argv: list[str] | None = None) -> int:
         print(f"  {min(i + BATCH, len(items))}/{len(items)}", flush=True)
 
     fh.close()
+    if reranker is not None:
+        reranker.save()
     recs = [json.loads(line) for line in open(out) if line.strip()]
     correct = sum(1 for r in recs if r["got"] == r["gold"])
     answered = sum(1 for r in recs if r["got"])

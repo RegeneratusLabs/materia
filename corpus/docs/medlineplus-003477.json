@@ -1,0 +1,130 @@
+{
+ "doc_id": "medlineplus-003477",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Calcium blood test",
+ "title_extra": null,
+ "date": "2025-11-06",
+ "revised": "2025-11-06",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003477.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003477.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:703c5b85a4133bfd7ae3e580d6fd3d7a7b178b1d039ec0c8971c7dfaae33f2f4",
+ "entities": [
+  "Calcium blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003477#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "calcium"
+   ],
+   "entities": [
+    "Calcium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003477#002",
+   "text": "How to Prepare for the Test: Your health care provider may tell you to temporarily stop taking certain medicines that can affect the test. These medicines may include:\nCalcium salts (may be found in nutritional supplements or antacids)\nLithium\nThiazide diuretics (water pills)\nLevothyroxine\nVitamin D\nDrinking too much milk (2 or more quarts or 2 liters a day or a large amount of other dairy products) or taking too much vitamin D as a dietary supplement can also increase blood calcium levels.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "calcium",
+    "thyroid",
+    "hypertension"
+   ],
+   "entities": [
+    "Calcium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 83
+  },
+  {
+   "chunk_id": "medlineplus-003477#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or slight bruising. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "calcium"
+   ],
+   "entities": [
+    "Calcium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  },
+  {
+   "chunk_id": "medlineplus-003477#004",
+   "text": "Why the Test is Performed: All cells need calcium in order to work. Calcium helps build strong bones and teeth. It is important for heart function, and helps with muscle contraction, nerve signaling, and blood clotting.\nYour provider may order this test if you have signs or symptoms of:\nCertain bone diseases\nCertain cancers, such as multiple myeloma, or a\ncancer of the breast\n,\nlung\n, neck, and\nkidney\nChronic kidney disease\nChronic liver disease\nDisorders of the parathyroid glands (hormone made by these glands controls calcium and vitamin D levels in the blood)\nDisorders that affect how your intestines absorb nutrients (intestinal malabsorption)\nHigh vitamin D blood level\nOveractive thyroid gland (\nhyperthyroidism\n) or taking too much thyroid hormone medicine\nYour provider may also order this test if you have been on bed rest for a long time.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "calcium",
+    "liver",
+    "thyroid",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Calcium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 141
+  },
+  {
+   "chunk_id": "medlineplus-003477#005",
+   "text": "Normal Results: Normal values range from 8.8 to 10.3 mg/dL (2.20 and 2.58 mmol/L).\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or may test different specimens. Talk to your provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "calcium"
+   ],
+   "entities": [
+    "Calcium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 45
+  },
+  {
+   "chunk_id": "medlineplus-003477#006",
+   "text": "What Abnormal Results Mean: A higher than normal level may be due to a number of health conditions. Common causes include:\nBeing on bed rest for a long time.\nConsuming too much calcium or vitamin D.\nHyperparathyroidism\n(parathyroid glands make too much of their hormone; sometimes associated with a low vitamin D level).\nInfections that cause granulomas such as tuberculosis and certain fungal and mycobacterial infections.\nMultiple myeloma\n, T cell lymphoma and certain other cancers.\nMetastatic bone tumor\n(bone cancer that has spread).\nOveractive thyroid gland (hyperthyroidism) or too much thyroid hormone replacement medicine.\nPaget disease\n. Abnormal bone destruction and regrowth, causing deformity of the affected bones.\nSarcoidosis\n. Lymph nodes, lungs, liver, eyes, skin, or other tissues become swollen or inflamed.\nTumors producing a parathyroid hormone-like substance.\nUse of certain medicines such as lithium, tamoxifen, and thiazides.\nA lower than normal level may be due to:\nDisorders that affect absorption of nutrients from the intestines (intestinal malabsorption)\nHypoparathyroidism\n(parathyroid glands do not make enough of their hormone)\nKidney insufficiency or failure\nLow blood level of albumin\nLiver disease\nMagnesium deficiency\nPancreatitis\nVitamin D deficiency",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "calcium",
+    "liver",
+    "thyroid",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Calcium blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 187
+  }
+ ]
+}

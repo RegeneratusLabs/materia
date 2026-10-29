@@ -1,0 +1,130 @@
+{
+ "doc_id": "medlineplus-003472",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Aspartate aminotransferase (AST) blood test",
+ "title_extra": null,
+ "date": "2025-01-01",
+ "revised": "2025-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003472.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003472.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:eb2d6e9168f3534299aaddd277c45460e893f4ba641ea6f71461f889d2930f9b",
+ "entities": [
+  "Aspartate aminotransferase (AST) blood test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003472#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ast",
+    "liver"
+   ],
+   "entities": [
+    "Aspartate aminotransferase (AST) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003472#002",
+   "text": "How to Prepare for the Test: No special preparation is needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ast",
+    "liver"
+   ],
+   "entities": [
+    "Aspartate aminotransferase (AST) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 11
+  },
+  {
+   "chunk_id": "medlineplus-003472#003",
+   "text": "How the Test will Feel: When the needle is inserted to draw blood, some people feel moderate pain. Others feel only a prick or stinging. Afterward, there may be some throbbing or a slight bruise. This soon goes away.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "ast",
+    "liver"
+   ],
+   "entities": [
+    "Aspartate aminotransferase (AST) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 39
+  },
+  {
+   "chunk_id": "medlineplus-003472#004",
+   "text": "Why the Test is Performed: AST is an enzyme found in high levels in the liver, heart, and muscles. It is also found in lesser amounts in other tissues. An enzyme is a protein that causes a specific chemical change in the body.\nInjury to the liver results in release of AST into the blood.\nThis test is mainly done along with other tests (such as\nALT\n,\nALP\n, and\nbilirubin\n) to diagnose and monitor\nliver disease\n.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ast",
+    "liver"
+   ],
+   "entities": [
+    "Aspartate aminotransferase (AST) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 80
+  },
+  {
+   "chunk_id": "medlineplus-003472#005",
+   "text": "Normal Results: The normal range is 8 to 33 U/L (0.13 to 0.55 µkat/L).\nNormal value ranges may vary slightly among different labs. Some labs use different measurements or may test different samples. Talk to your health care provider about the meaning of your specific test results.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ast",
+    "liver"
+   ],
+   "entities": [
+    "Aspartate aminotransferase (AST) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 47
+  },
+  {
+   "chunk_id": "medlineplus-003472#006",
+   "text": "What Abnormal Results Mean: An increased AST level is often a sign of liver disease. Liver disease is even more likely when the levels of substances checked by other liver blood tests have also increased.\nAn increased AST level may be due to any of the following:\nScarring of the liver (\ncirrhosis\n)\nDeath of liver tissue\nHeart attack\nToo much iron in the body (\nhemochromatosis\n)\nSwollen and inflamed liver (\nhepatitis\n)\nLack of blood flow to the liver (\nliver ischemia\n)\nLiver cancer\nor tumor\nUse of medicines and drugs that are toxic to the liver, especially alcohol or acetaminophen use\nMononucleosis\n(mono)\nMuscle disease or trauma\nSwollen and inflamed pancreas (\npancreatitis\n)\nAST level may also increase after:\nBurns (deep)\nHeart procedures\nSeizures\nSurgery\nPregnancy and exercise may also cause an increased AST level.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "ast",
+    "liver",
+    "pregnancy",
+    "surgery",
+    "sedation",
+    "cancer"
+   ],
+   "entities": [
+    "Aspartate aminotransferase (AST) blood test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 142
+  }
+ ]
+}

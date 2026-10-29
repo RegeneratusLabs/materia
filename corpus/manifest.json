@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-29",
- "documents": 330,
- "chunks": 3794,
- "redistributable": 330,
+ "documents": 348,
+ "chunks": 3903,
+ "redistributable": 348,
  "review_due": 0,
  "entries": [
   {
@@ -5777,6 +5777,420 @@
     "evidence_url": "https://open.canada.ca/en/open-government-licence-canada"
    },
    "chunks": 22
+  },
+  {
+   "doc_id": "medlineplus-003356",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "C-reactive protein",
+   "url": "https://medlineplus.gov/ency/article/003356.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003356.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-01-28",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:a2d5116f188213323f3110f2022a02da8bc870778af986fde4ab324880e235ff",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003458",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Gamma-glutamyl transferase (GGT) blood test",
+   "url": "https://medlineplus.gov/ency/article/003458.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003458.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:e3c7a67e19faff88637d3df9e0844cd81ae210eacebad605c40f5c99addb0eef",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003472",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Aspartate aminotransferase (AST) blood test",
+   "url": "https://medlineplus.gov/ency/article/003472.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003472.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:eb2d6e9168f3534299aaddd277c45460e893f4ba641ea6f71461f889d2930f9b",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003473",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Alanine transaminase (ALT) blood test",
+   "url": "https://medlineplus.gov/ency/article/003473.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003473.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:daae19c9f0445df41ca34c6cb5bab68aa49cf65f0fc1cda623852df6d8f0598f",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003475",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Creatinine blood test",
+   "url": "https://medlineplus.gov/ency/article/003475.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003475.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-07-13",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:9a42a9059d35826181ea6aa9190fc84f44ea20e5ad0540ba3921aa73cdbdb5c5",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003477",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Calcium blood test",
+   "url": "https://medlineplus.gov/ency/article/003477.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003477.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-11-06",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:703c5b85a4133bfd7ae3e580d6fd3d7a7b178b1d039ec0c8971c7dfaae33f2f4",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003487",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Magnesium blood test",
+   "url": "https://medlineplus.gov/ency/article/003487.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003487.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-02-13",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:eb1e464aad8d7d3f7dc57f029044e93810fbb4c803c9d61959b936e74c55621b",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003488",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Serum iron test",
+   "url": "https://medlineplus.gov/ency/article/003488.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003488.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-10",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:dba178a84f6af6725a175b22948baeae1a6eea17386186b174e390d2d26b144c",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003489",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Total iron binding capacity",
+   "url": "https://medlineplus.gov/ency/article/003489.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003489.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-10",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:a55ea3436e8ef848ade287cb13f55d8c121eeae1a41e441eb9b5d0bcd4dbdde3",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003490",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Ferritin blood test",
+   "url": "https://medlineplus.gov/ency/article/003490.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003490.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-10",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:662deb5df103f00f5284ed2f509d9c9295498fc36ba8bf46306d29f694325de0",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003517",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Free T4 test",
+   "url": "https://medlineplus.gov/ency/article/003517.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003517.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-25",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:d815bdc27094f5b265b446ea699329419aefc8573d4f58c9cacd0266db330069",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003638",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "ESR",
+   "url": "https://medlineplus.gov/ency/article/003638.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003638.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-07-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:f5107d67110c38da88aa24d6371a62fa3458be1e86d75ddd9c2020af9e61c7f1",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003640",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "A1C test",
+   "url": "https://medlineplus.gov/ency/article/003640.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003640.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-05-18",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:c15743a0bfd027c12bc0266e8985245f76d67443705761d0bd829eeca1597da7",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003642",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "CBC blood test",
+   "url": "https://medlineplus.gov/ency/article/003642.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003642.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2024-10-14",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:639280c9ea2a318bafd2551c5330967515509b098a5e083ce78ffd594863d558",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 7
+  },
+  {
+   "doc_id": "medlineplus-003684",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "TSH test",
+   "url": "https://medlineplus.gov/ency/article/003684.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003684.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-25",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:4f196dc2488ce5ad6f35f845592ea2b582ae9639d1ef28807d750fff45ff07dd",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003687",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "T3 test",
+   "url": "https://medlineplus.gov/ency/article/003687.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003687.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-25",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:f9bb4e42ad10ab884a613a4f17e801e8d4da4afd9bbebf8699b811f6f9dc9091",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003705",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Vitamin B12 level",
+   "url": "https://medlineplus.gov/ency/article/003705.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003705.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-10",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:ce2c1c3c492868b13c9fba6c577ef800ce21d5d44af5f8a7e297d49b06a8d9ae",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-007813",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Total cholesterol",
+   "url": "https://medlineplus.gov/ency/article/007813.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/007813.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-08-07",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:abd8a443e3c0f0300c9a8d6d4efc2311788ec6d695006737038dd1973ed52150",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
   },
   {
    "doc_id": "nccih-acai",
