@@ -1,0 +1,64 @@
+{
+ "doc_id": "epmc-42859409",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Synergistic effects of combined exposure to hydroquinone and nitrofurantoin in T24 bladder cells: an &lt;i&gt;in vitro&lt;/i&gt; toxicology study with implications for risk assessment.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42859409",
+ "identifier": {
+  "type": "pmid",
+  "value": "42859409"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:1bd13d30e8aba49fabb7c6f157771099a317ec55b9d3a0ce4fd16eb876f9c50c",
+ "entities": [
+  "uva ursi",
+  "Synergistic effects of combined exposure to hydroquinone and nitrofurantoin in T"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42859409#001",
+   "text": "Hydroquinone, the main active component of bearberry [ Arctostaphylos uva-ursi (L.) Spreng.], is sometimes used together with the antibiotic nitrofurantoin to treat urinary tract infections. The aim of this in vitro study was to test the hypothesis that co-exposure to hydroquinone and nitrofurantoin would result in greater cytotoxic, oxidative, and genotoxic effects than exposure to either compound alone. To do that, we assessed single and combined toxic effects of two- and eight-hour exposure to both compounds in T24 human bladder carcinoma cells due to their stability and retention of key signalling pathways involved in oxidative stress, DNA repair, and apoptosis.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "uva ursi",
+    "Synergistic effects of combined exposure to hydroquinone and nitrofurantoin in T"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 100
+  },
+  {
+   "chunk_id": "epmc-42859409#002",
+   "text": "Cytotoxicity and oxidative stress were assessed with the neutral red and 2',7'-dichlorodihydrofluorescein diacetate assays and genotoxicity with the cytokinesis-block micronucleus cytome assay. Proteomic changes were examined using tandem mass tag labelling followed by mass spectrometry. Combined exposure to hydroquinone and nitrofurantoin produced a synergistic increase in cytotoxic and genotoxic effects compared to single-compound treatments, including reduced nuclear division index and activation of pathways related to oxidative stress, DNA damage, and proteotoxic stress. These findings highlight the importance of evaluating interactions between plant-derived hydroquinone and nitrofurantoin in risk assessment of combined exposure during therapy.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "liver"
+   ],
+   "entities": [
+    "uva ursi",
+    "Synergistic effects of combined exposure to hydroquinone and nitrofurantoin in T"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 93
+  }
+ ],
+ "date_precision": "year"
+}

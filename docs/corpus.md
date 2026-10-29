@@ -165,3 +165,23 @@ questions that *do* name their subject now retrieve better material.
 
 **All panel numbers quoted before this fix were produced with the buggy matcher.** The shipped configuration
 is being re-run under the fixed code so the quoted figure matches the implementation.
+
+## Round 9 — targeted acquisition and two retrieval fixes
+
+- **26 targeted Europe PMC queries** aimed at the 33 uncovered subject questions (comfrey, berberine,
+  aristolochia, pennyroyal, chaparral, lobelia, sassafras, star anise, blue cohosh, and the interaction
+  pairs). Europe PMC rate-limited 36 calls with 503s; retry with exponential backoff and an existing-document
+  skip fixed it.
+- **11 of the resulting papers were rejected and recorded** (`corpus/rejected.json`) — a warfarin
+  teratogenicity paper mis-tagged as vitamin A, a pharmacist survey tagged fenugreek, computational docking
+  tagged calcium, single case reports too narrow. Nine kept.
+- **Entity hints**: papers are tagged with the herb their query targeted, otherwise a review's title would
+  never match a herb question.
+- **Stemming in the coverage overlap test** ("statins" vs "statin") added two more grounded items.
+- **Result: subject coverage 20/53 → 22/53 = 41.5%**; overall 44.2%; corpus 377 documents / 4,012 chunks.
+
+Still missing and named honestly: comfrey, pennyroyal, chaparral, lobelia, coltsfoot, sassafras, star anise
+and blue cohosh have no usable open document. These are the classic toxicology herbs; the sources that
+cover them properly (MSK About Herbs, WHO, textbooks) are not redistributable, and the CC-BY literature
+returns clinical case reports rather than monograph-grade summaries. That is a source-availability limit,
+not an effort limit.

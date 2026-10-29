@@ -1,0 +1,96 @@
+{
+ "doc_id": "epmc-42653808",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Berberine-Drug Interactions: Mechanisms, Clinical Relevance and Risk Stratification-A Narrative Review.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42653808",
+ "identifier": {
+  "type": "pmid",
+  "value": "42653808"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:84d1f900ce259fea85ea00acc1a2c12ac078d2cd896ae53e4fe2855701c3e34d",
+ "entities": [
+  "berberine",
+  "Berberine-Drug Interactions: Mechanisms, Clinical Relevance and Risk Stratificat"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42653808#001",
+   "text": "Background: Berberine, an isoquinoline alkaloid present in Berberis spp., Coptis chinensis and Hydrastis canadensis , is among the most widely consumed metabolic-health supplements, popularized as \"nature's Ozempic\". Concurrent, often undisclosed use with prescription drugs is common in older adults, yet berberine is far from inert. Objective: To synthesize the evidence on berberine as a perpetrator of supplement-drug interactions, propose a four-axis mechanistic taxonomy, with product quality treated separately as a modifier of exposure rather than as a mechanism, and derive a clinically actionable risk-stratification framework. Methods: Structured narrative review, prepared per the SANRA quality criteria; PubMed/MEDLINE, Scopus, Web of Science and Embase were searched up to May 2026.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "berberine",
+    "Berberine-Drug Interactions: Mechanisms, Clinical Relevance and Risk Stratificat"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 108
+  },
+  {
+   "chunk_id": "epmc-42653808#002",
+   "text": "Results: Despite very low systemic exposure (oral bioavailability 0.68% in rats; low ng/mL plasma concentrations in humans), high luminal, enterocytic and hepatic concentrations generate interaction liability, documented in humans for a few pairs and mechanistic for most, along four mechanistic axes: inhibition, and transcriptional induction, of CYP3A4, with CYP2D6/CYP2C9 inhibition that is quasi-irreversible through a metabolite-intermediate complex; transporter modulation (P-glycoprotein, OCT1/OCT2, and MATE1); pharmacodynamic additivity (hypoglycemia, hypotension, and QT prolongation); and microbiome- and gut-barrier-mediated effects, the last of these being a candidate axis rather than a demonstrated one. Product-quality variability is treated separately, as a modifier of exposure.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "berberine",
+    "Berberine-Drug Interactions: Mechanisms, Clinical Relevance and Risk Stratificat"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "epmc-42653808#003",
+   "text": "The clinical anchor is increased cyclosporine exposure in renal-transplant recipients (AUC +34.5%; trough 29.3% above control). These elements are integrated into a three-tier risk-stratification framework that combines perpetrator potency, victim-drug vulnerability, and patient vulnerability, with each tier being linked to a defined pharmacy action. Conclusions: In patients on multiple medications, and particularly when berberine is co-administered with drugs of narrow therapeutic index, it should be managed as an active pharmacological perpetrator rather than as an inert supplement. Unstandardized product quality and an unsettled European regulatory framework, under which national limits differ by more than an order of magnitude, further widen the uncertainty around the dose actually delivered.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "berberine",
+    "Berberine-Drug Interactions: Mechanisms, Clinical Relevance and Risk Stratificat"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "epmc-42653808#004",
+   "text": "Berberine use should therefore be elicited routinely at medication reconciliation and stratified by mechanism, by victim-drug vulnerability, and by patient risk, with particular attention to metabolic self-medication in the GLP-1 era.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "berberine",
+    "Berberine-Drug Interactions: Mechanisms, Clinical Relevance and Risk Stratificat"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  }
+ ],
+ "date_precision": "year"
+}

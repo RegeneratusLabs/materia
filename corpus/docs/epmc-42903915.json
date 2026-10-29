@@ -1,0 +1,106 @@
+{
+ "doc_id": "epmc-42903915",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Vitamin B6 Doses on United States Dietary Supplement Labels Relative to the Tolerable Upper Intake Level: A Census of the National Institutes of Health Dietary Supplement Label Database.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42903915",
+ "identifier": {
+  "type": "pmid",
+  "value": "42903915"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:2af6d71a3bc0a9a5b6d3bd4021cb167d9e96a2c0ad6e0517161cfa917da79524",
+ "entities": [
+  "Vitamin B6 Doses on United States Dietary Supplement Labels Relative to the Tole"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42903915#001",
+   "text": "Background High intakes of vitamin B6 can cause peripheral neuropathy. The United States (US) tolerable upper intake level (UL) for adults is 100 mg/day, and several other jurisdictions now apply far lower limits. No study has measured where US supplement labels sit against the US UL.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "Vitamin B6 Doses on United States Dietary Supplement Labels Relative to the Tole"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 46
+  },
+  {
+   "chunk_id": "epmc-42903915#002",
+   "text": "Methodology This census retrieved every label flagged on the market in the National Institutes of Health Dietary Supplement Label Database (DSLD) on October 4, 2026 (plus eight labels found by an additional search spelling on October 13, 2026) that listed vitamin B6 under any spelling, merged the separate records that DSLD keeps when one product has a different package size, label image or alternate version into a single product, computed the maximum daily dose from each label's own directions, and compared it with the UL for adults or for the stated age band and with the lower thresholds of 12 and 50 mg/day used elsewhere.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "Vitamin B6 Doses on United States Dietary Supplement Labels Relative to the Tole"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "epmc-42903915#003",
+   "text": "Every product at or above a US limit was verified against its raw record. Proportions carry Wilson 95% confidence intervals (CIs). Results Of 16951 labels, 15091 stated a vitamin B6 amount, forming 11913 products (11367 adult). The median maximum directed dose of adult products was 10 mg/day (interquartile range 2.2 to 25 mg/day). Overall, 575 of 11367 adult products (5.1%; 95% CI 4.7% to 5.5%) directed 100 mg/day or more, 167 (1.5%) more than 100 mg/day, and 10 at least 500 mg/day, with the highest being 1000 mg/day as the compound weight of a pyridoxine salt. Of these 575, 323 (56.2%) were not sold as vitamin B6 or B-complex products.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "Vitamin B6 Doses on United States Dietary Supplement Labels Relative to the Tole"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "epmc-42903915#004",
+   "text": "In addition, 4399 adult products (38.7%) exceeded 12 mg/day and 1034 (9.1%) exceeded 50 mg/day. Label directions on 22 products gave a stated child or teen age a dose above the UL for that age, up to 250 mg/day for ages 4 and older (UL 40 mg/day). Verification excluded 12 inconsistent DSLD records and corrected 21 mis-encoded serving records. Conclusions One in 20 adult vitamin B6 supplements on the US market directs at least the UL daily, mostly in products not sold as vitamin B6, and single tablets reach five times the limit; nearly two in five exceed the European limit of 12 mg/day.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "Vitamin B6 Doses on United States Dietary Supplement Labels Relative to the Tole"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "epmc-42903915#005",
+   "text": "The findings support a neuropathy warning on high-dose labels, a reassessment of the 1998 UL, and attention to vitamin B6 content when neuropathy is evaluated.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "sedation"
+   ],
+   "entities": [
+    "Vitamin B6 Doses on United States Dietary Supplement Labels Relative to the Tole"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 25
+  }
+ ],
+ "date_precision": "year"
+}

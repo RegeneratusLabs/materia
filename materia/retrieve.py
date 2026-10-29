@@ -435,14 +435,21 @@ STOP_TERMS = set(
 )
 
 
+def _stem(t: str) -> str:
+    for suf in ("ations", "ation", "ities", "ity", "ies", "ous", "ics", "ic", "al", "ing", "ed", "es", "s"):
+        if len(t) - len(suf) >= 4 and t.endswith(suf):
+            return t[: -len(suf)]
+    return t
+
+
 def _terms_short(text: str) -> set[str]:
     """Lab analytes are short: TSH, T3, T4, B12, ALT, AST, GGT, CRP, ESR."""
-    return {t for t in re.split(r"\W+", text.lower())
+    return {_stem(t) for t in re.split(r"\W+", text.lower())
             if len(t) > 2 and t not in STOP_TERMS}
 
 
 def _terms(text: str) -> set[str]:
-    return {t for t in re.split(r"\W+", text.lower())
+    return {_stem(t) for t in re.split(r"\W+", text.lower())
             if len(t) > 4 and t not in STOP_TERMS}
 
 

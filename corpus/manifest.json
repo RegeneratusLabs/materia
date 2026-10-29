@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-29",
- "documents": 376,
- "chunks": 4005,
- "redistributable": 376,
+ "documents": 377,
+ "chunks": 4012,
+ "redistributable": 377,
  "review_due": 0,
  "entries": [
   {
@@ -558,67 +558,44 @@
    "chunks": 2
   },
   {
-   "doc_id": "epmc-42689097",
+   "doc_id": "epmc-42653808",
    "source": "Europe PMC (CC-BY)",
    "tier": "primary",
-   "title": "Folate in autism neurodevelopment.",
-   "url": "https://europepmc.org/article/MED/42689097",
+   "title": "Berberine-Drug Interactions: Mechanisms, Clinical Relevance and Risk Stratification-A Narrative Review.",
+   "url": "https://europepmc.org/article/MED/42653808",
    "identifier": {
     "type": "pmid",
-    "value": "42689097"
+    "value": "42653808"
    },
    "jurisdiction": "international",
    "language": "en",
    "revised": "2026-01-01",
    "retrieved_at": "2026-10-29",
    "next_review_due": "2036-10-29",
-   "checksum": "sha256:281f24e9ac8dd50ba413612a550819c70f61c3849d4a5e2800bee48468b32fb3",
+   "checksum": "sha256:84d1f900ce259fea85ea00acc1a2c12ac078d2cd896ae53e4fe2855701c3e34d",
    "licence": {
     "name": "CC BY (Europe PMC open-access subset)",
     "redistributable": true,
     "evidence_url": "https://europepmc.org/RestfulWebService"
    },
-   "chunks": 2
+   "chunks": 4
   },
   {
-   "doc_id": "epmc-42783810",
+   "doc_id": "epmc-42706579",
    "source": "Europe PMC (CC-BY)",
    "tier": "primary",
-   "title": "Folate: An Emerging Target in Type 2 Diabetes Mellitus and Its Complications.",
-   "url": "https://europepmc.org/article/MED/42783810",
+   "title": "Severe rise in tacrolimus levels following blood orange and grapefruit juice intake in a kidney transplant recipient: a case report.",
+   "url": "https://europepmc.org/article/MED/42706579",
    "identifier": {
     "type": "pmid",
-    "value": "42783810"
+    "value": "42706579"
    },
    "jurisdiction": "international",
    "language": "en",
    "revised": "2026-01-01",
    "retrieved_at": "2026-10-29",
    "next_review_due": "2036-10-29",
-   "checksum": "sha256:864e8579516f551516fab9b4acda9e6a5337f87dd87e400516dec29b6c93002d",
-   "licence": {
-    "name": "CC BY (Europe PMC open-access subset)",
-    "redistributable": true,
-    "evidence_url": "https://europepmc.org/RestfulWebService"
-   },
-   "chunks": 2
-  },
-  {
-   "doc_id": "epmc-42787405",
-   "source": "Europe PMC (CC-BY)",
-   "tier": "primary",
-   "title": "Haemorrhagic event reporting with concomitant gemcitabine and warfarin: a VigiBase disproportionality analysis.",
-   "url": "https://europepmc.org/article/MED/42787405",
-   "identifier": {
-    "type": "pmid",
-    "value": "42787405"
-   },
-   "jurisdiction": "international",
-   "language": "en",
-   "revised": "2026-01-01",
-   "retrieved_at": "2026-10-29",
-   "next_review_due": "2036-10-29",
-   "checksum": "sha256:55c3853567c0241133bbc35933472e2a4faed3f25fbb590450502cc317d4e72e",
+   "checksum": "sha256:230b6ef30d6d1e89c34d90cdbcb3e5a26912febfd7e47b03549e185001b65ab1",
    "licence": {
     "name": "CC BY (Europe PMC open-access subset)",
     "redistributable": true,
@@ -671,6 +648,52 @@
     "evidence_url": "https://europepmc.org/RestfulWebService"
    },
    "chunks": 3
+  },
+  {
+   "doc_id": "epmc-42859409",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "Synergistic effects of combined exposure to hydroquinone and nitrofurantoin in T24 bladder cells: an &lt;i&gt;in vitro&lt;/i&gt; toxicology study with implications for risk assessment.",
+   "url": "https://europepmc.org/article/MED/42859409",
+   "identifier": {
+    "type": "pmid",
+    "value": "42859409"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:1bd13d30e8aba49fabb7c6f157771099a317ec55b9d3a0ce4fd16eb876f9c50c",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "epmc-42903915",
+   "source": "Europe PMC (CC-BY)",
+   "tier": "primary",
+   "title": "Vitamin B6 Doses on United States Dietary Supplement Labels Relative to the Tolerable Upper Intake Level: A Census of the National Institutes of Health Dietary Supplement Label Database.",
+   "url": "https://europepmc.org/article/MED/42903915",
+   "identifier": {
+    "type": "pmid",
+    "value": "42903915"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2036-10-29",
+   "checksum": "sha256:2af6d71a3bc0a9a5b6d3bd4021cb167d9e96a2c0ad6e0517161cfa917da79524",
+   "licence": {
+    "name": "CC BY (Europe PMC open-access subset)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 5
   },
   {
    "doc_id": "hc-nhpid-5htp",

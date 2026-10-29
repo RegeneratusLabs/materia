@@ -44,6 +44,62 @@ QUERIES: dict[str, tuple[str, str, str]] = {
     "zinc absorption interactions": ("interactions", "safety", "zinc"),
     "red flags serious illness primary care referral": ("red_flags", "diagnostic", "referral"),
     "unexplained weight loss investigation primary care": ("red_flags", "diagnostic", "referral"),
+    # Round 9: targeted at the 33 uncovered subject questions.
+    "pyrrolizidine alkaloids comfrey hepatotoxicity": ("cautions", "safety", "liver"),
+    "aristolochic acid nephropathy": ("cautions", "safety", "renal"),
+    "pennyroyal pulegone hepatotoxicity": ("cautions", "safety", "liver"),
+    "chaparral Larrea tridentata hepatotoxicity": ("cautions", "safety", "liver"),
+    "blue cohosh toxicity pregnancy": ("cautions", "safety", "pregnancy"),
+    "Japanese star anise adulteration toxicity": ("cautions", "safety", "children"),
+    "sassafras safrole carcinogenicity": ("cautions", "safety", "cancer"),
+    "lobelia alkaloid toxicity": ("cautions", "safety", "sedation"),
+    "coltsfoot pyrrolizidine alkaloids": ("cautions", "safety", "liver"),
+    "uva ursi hydroquinone toxicity": ("cautions", "safety", "liver"),
+    "berberine CYP3A4 drug interaction": ("interactions", "safety", "anticoagulant"),
+    "grapefruit juice intestinal CYP3A4": ("interactions", "safety", "anticoagulant"),
+    "5-HTP serotonin syndrome": ("interactions", "safety", "sedation"),
+    "melatonin fluvoxamine CYP1A2 interaction": ("interactions", "safety", "sedation"),
+    "fenugreek warfarin interaction": ("interactions", "safety", "anticoagulant"),
+    "calcium ciprofloxacin absorption interaction": ("interactions", "safety", "calcium"),
+    "zinc antibiotic absorption interaction": ("interactions", "safety", "zinc"),
+    "niacin statin myopathy": ("interactions", "safety", "liver"),
+    "vitamin B6 pyridoxine neuropathy": ("cautions", "safety", "sedation"),
+    "vitamin A teratogenicity pregnancy": ("cautions", "safety", "pregnancy"),
+    "potassium ACE inhibitor hyperkalemia": ("interactions", "safety", "renal"),
+    "fish oil warfarin bleeding risk": ("interactions", "safety", "anticoagulant"),
+    "curcumin turmeric warfarin interaction": ("interactions", "safety", "anticoagulant"),
+    "St John's wort tacrolimus interaction": ("interactions", "safety", "immunosuppression"),
+    "valerian benzodiazepine interaction": ("interactions", "safety", "sedation"),
+    "dong quai warfarin interaction": ("interactions", "safety", "anticoagulant"),
+}
+
+ENTITY_HINTS = {
+    "pyrrolizidine alkaloids comfrey hepatotoxicity": "comfrey",
+    "aristolochic acid nephropathy": "aristolochia",
+    "pennyroyal pulegone hepatotoxicity": "pennyroyal",
+    "chaparral Larrea tridentata hepatotoxicity": "chaparral",
+    "blue cohosh toxicity pregnancy": "blue cohosh",
+    "Japanese star anise adulteration toxicity": "star anise",
+    "sassafras safrole carcinogenicity": "sassafras",
+    "lobelia alkaloid toxicity": "lobelia",
+    "coltsfoot pyrrolizidine alkaloids": "coltsfoot",
+    "uva ursi hydroquinone toxicity": "uva ursi",
+    "berberine CYP3A4 drug interaction": "berberine",
+    "grapefruit juice intestinal CYP3A4": "grapefruit",
+    "5-HTP serotonin syndrome": "5-HTP",
+    "melatonin fluvoxamine CYP1A2 interaction": "melatonin",
+    "fenugreek warfarin interaction": "fenugreek",
+    "calcium ciprofloxacin absorption interaction": "calcium",
+    "zinc antibiotic absorption interaction": "zinc",
+    "niacin statin myopathy": "niacin",
+    "vitamin B6 pyridoxine neuropathy": "vitamin B6",
+    "vitamin A teratogenicity pregnancy": "vitamin A",
+    "potassium ACE inhibitor hyperkalemia": "potassium",
+    "fish oil warfarin bleeding risk": "fish oil",
+    "curcumin turmeric warfarin interaction": "turmeric",
+    "St John's wort tacrolimus interaction": "st john's wort",
+    "valerian benzodiazepine interaction": "valerian",
+    "dong quai warfarin interaction": "dong quai",
 }
 
 LICENCE = {
@@ -54,15 +110,22 @@ LICENCE = {
 }
 
 
-def fetch(query: str, page_size: int = 2) -> list[dict]:
+def fetch(query: str, page_size: int = 2, attempts: int = 5) -> list[dict]:
     q = f'({query}) AND OPEN_ACCESS:y AND LICENSE:"cc by"'
     params = urllib.parse.urlencode({
         "query": q, "format": "json", "pageSize": page_size, "resultType": "core",
     })
-    req = urllib.request.Request(f"{API}?{params}", headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        data = json.loads(r.read())
-    return data.get("resultList", {}).get("result", [])
+    last: Exception | None = None
+    for i in range(attempts):
+        try:
+            req = urllib.request.Request(f"{API}?{params}", headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=90) as r:
+                data = json.loads(r.read())
+            return data.get("resultList", {}).get("result", [])
+        except Exception as e:
+            last = e
+            time.sleep(5 * (2**i))  # 5, 10, 20, 40, 80s
+    raise RuntimeError(f"Europe PMC failed after {attempts} attempts: {last}")
 
 
 def split_sentences(text: str, target: int = 110) -> list[str]:
@@ -96,7 +159,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=str(config.CORPUS_DIR / "docs"))
     ap.add_argument("--per-query", type=int, default=2)
-    ap.add_argument("--sleep", type=float, default=0.5)
+    ap.add_argument("--sleep", type=float, default=2.5)
     args = ap.parse_args()
 
     retrieved_at = date.today().isoformat()
@@ -130,7 +193,10 @@ def main() -> int:
                 skipped.append({"pmid": pmid, "reason": "no publication year"})
                 continue
             doc_id = f"epmc-{pmid}" if pmid else "epmc-" + re.sub(r"\W+", "-", doi.lower())
-            entities = [r.get("title", "")[:80]] if r.get("title") else []
+            if (Path(args.out) / f"{doc_id}.json").exists():
+                continue
+            hint = ENTITY_HINTS.get(query)
+            entities = ([hint] if hint else []) + ([r.get("title", "")[:80]] if r.get("title") else [])
             chunks = []
             for piece in split_sentences(abstract):
                 if len(piece.split()) < 12:

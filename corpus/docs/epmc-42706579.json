@@ -1,0 +1,80 @@
+{
+ "doc_id": "epmc-42706579",
+ "source": "Europe PMC (CC-BY)",
+ "tier": "primary",
+ "title": "Severe rise in tacrolimus levels following blood orange and grapefruit juice intake in a kidney transplant recipient: a case report.",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2036-10-29",
+ "url": "https://europepmc.org/article/MED/42706579",
+ "identifier": {
+  "type": "pmid",
+  "value": "42706579"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY (Europe PMC open-access subset)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Filtered at query time to OPEN_ACCESS:y and LICENSE:\"cc by\"."
+ },
+ "checksum": "sha256:230b6ef30d6d1e89c34d90cdbcb3e5a26912febfd7e47b03549e185001b65ab1",
+ "entities": [
+  "grapefruit",
+  "Severe rise in tacrolimus levels following blood orange and grapefruit juice int"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "epmc-42706579#001",
+   "text": "Background Tacrolimus is a cornerstone immunosuppressant in kidney transplantation with a narrow therapeutic index and high interindividual pharmacokinetic variability, largely determined by CYP3A4, CYP3A5, and P-glycoprotein activity. Grapefruit juice is a known intestinal CYP3A4 inhibitor capable of increasing tacrolimus exposure, whereas blood orange juice has not been documented to exert such effects. Case presentation A 33-year-old male kidney transplant recipient of Somali origin had persistently low tacrolimus trough levels, averaging about 4.5 µg/L, despite increased dosing.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "grapefruit",
+    "Severe rise in tacrolimus levels following blood orange and grapefruit juice int"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 76
+  },
+  {
+   "chunk_id": "epmc-42706579#002",
+   "text": "On postoperative day 5 (POD 5), the patient consumed approximately one liter of blood orange juice followed later the same evening by a clinically supervised 250 mL dose of grapefruit juice intended to enhance tacrolimus exposure. The following morning, his tacrolimus concentration had risen sharply sixfold to 30 µg/L, far above the increase typically associated with grapefruit juice alone. Kidney biopsy at that time showed eosinophilic infiltration, consistent with a drug-related inflammatory reaction. Tacrolimus therapy was temporarily stopped, then gradually reintroduced. His condition stabilized, and he was discharged on POD 12.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "grapefruit",
+    "Severe rise in tacrolimus levels following blood orange and grapefruit juice int"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 91
+  },
+  {
+   "chunk_id": "epmc-42706579#003",
+   "text": "Conclusions The pronounced increase in tacrolimus exposure following sequential ingestion of blood orange and grapefruit juice suggests a potential synergistic interaction affecting tacrolimus disposition via CYP3A4, CYP3A5 and/or P-glycoprotein pathways. While causality remains unconfirmed, this case emphasizes the value of thorough dietary history in transplant care and supports further research on blood orange juice as a possible modulator of tacrolimus pharmacokinetics.",
+   "section": "interactions",
+   "assertion_type": "safety",
+   "topics": [
+    "anticoagulant"
+   ],
+   "entities": [
+    "grapefruit",
+    "Severe rise in tacrolimus levels following blood orange and grapefruit juice int"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 61
+  }
+ ],
+ "date_precision": "year"
+}
