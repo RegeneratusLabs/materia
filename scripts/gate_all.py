@@ -111,8 +111,11 @@ def main() -> int:
         "## What is not 100%",
         "",
         "- clinical correctness is never claimed; the guarantees are provenance, refusal and the code rules",
-        "- referral and lab-interval corpus branches are empty (NICE geo-blocked, OLS sources licence-pending)",
+        "- referral branch is thin (3/8 covered via MedlinePlus symptom pages; NICE CKS is geo-blocked)",
+        "- lab branch is partial (19/30 covered via MedlinePlus test pages; no numeric intervals for every analyte)",
         "- herb retrieval is not shipped: the closed-book prior beats the corpus on herb questions",
+        "- 48 panel items name no entity, so entity coverage cannot apply to them (closed-book 73/73)",
+        "- run-to-run noise is ~1 item in 104 at -np 2; sub-2-item differences are undefined",
         "",
     ]
     out = config.ROOT / "docs" / "gate_report.md"
