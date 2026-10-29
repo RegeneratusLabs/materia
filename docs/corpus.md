@@ -149,3 +149,19 @@ Corpus is now **376 documents / 4,005 chunks** after adding 9 more lab analytes 
 LDL, lipid profile, triglycerides, potassium, sodium, uric acid). Three attempted articles were skipped by
 the parser (folate deficiency, vitamin D, magnesium deficiency) because they carry no mappable
 normal/abnormal results sections — recorded as skipped rather than forced in.
+
+## Entity-matching bug and its effect (round 8)
+
+`find_entities` matched aliases as **substrings**, so the fish-oil alias `epa` matched inside
+"h**epa**tic" and "h**epatotoxicity**". Consequences: a fish-oil document was attributed to questions about
+liver injury, coverage was inflated, and reference selection could pick a document about the wrong substance.
+Fixed to whole-word matching with lookarounds (apostrophes and hyphens still work: "st john's wort",
+"5-htp"), with a regression test.
+
+Effect on the panel: H03 ("which herbal product is associated with hepatotoxicity") previously retrieved a
+fish-oil monograph; it now returns saw-palmetto drug-induced liver injury and liver-failure text. Coverage
+did not move (37.7%), because the spurious matches were concentrated in the 20 no-subject items — but the
+questions that *do* name their subject now retrieve better material.
+
+**All panel numbers quoted before this fix were produced with the buggy matcher.** The shipped configuration
+is being re-run under the fixed code so the quoted figure matches the implementation.

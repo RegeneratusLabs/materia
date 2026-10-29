@@ -101,3 +101,12 @@ def test_boilerplate_filtered_from_results(tmp_path):
     hits = r.search("NCCIH clearinghouse information St John's wort")
     assert hits
     assert all("Clearinghouse" not in h["text"] for h in hits)
+
+
+def test_entity_matching_is_whole_word():
+    from materia.retrieve import find_entities
+
+    lex = {"epa": "fish oil", "fish oil": "fish oil", "ginkgo": "Ginkgo"}
+    assert find_entities("hepatotoxicity and hepatic injury", lex) == []
+    assert find_entities("high-dose fish oil", lex) == ["fish oil"]
+    assert find_entities("ginkgo biloba", lex) == ["Ginkgo"]

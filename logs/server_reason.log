@@ -23252,3 +23252,8 @@
 6.17.212.459 I slot print_timing: id  0 | task 1826 |    graphs reused =       1867
 6.17.212.459 I slot print_timing: id  0 | task 1826 |   graph reallocs =          0    /     0        (same size) / (changed size)
 6.17.212.758 I slot      release: id  0 | task 1826 | stop processing: n_tokens = 1655, truncated = 0
+10.28.904.309 I srv    operator(): operator(): cleaning up before exit...
+0.00.001.078 I srv  llama_server: initializing ...
+0.00.013.593 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.014.059 W srv  server_setup: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.015.570 I srv    load_model: loading model '/home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf'

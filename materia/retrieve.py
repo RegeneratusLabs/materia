@@ -137,12 +137,19 @@ def build_lexicon(conn: sqlite3.Connection) -> dict[str, str]:
 
 
 def find_entities(text: str, lex: dict[str, str]) -> list[str]:
-    low = " " + re.sub(r"[^a-z0-9' -]", " ", text.lower()) + " "
+    """Whole-word entity matching only.
+
+    Substring matching is a trap here: the fish-oil alias "epa" matches inside "hepatic" and
+    "hepatotoxicity", which attributed a fish-oil document to questions about liver injury and
+    inflated coverage. Boundaries are enforced with lookarounds rather than \b so that
+    apostrophes and hyphens inside names ("st john's wort", "5-htp") behave.
+    """
+    low = text.lower()
     hits: list[str] = []
     for alias, canon in lex.items():
         if len(alias) < 3:
             continue
-        if f" {alias} " in low or alias in text.lower():
+        if re.search(rf"(?<![a-z0-9]){re.escape(alias)}(?![a-z0-9])", low):
             if canon not in hits:
                 hits.append(canon)
     return hits
