@@ -379,3 +379,20 @@ beyond "they are equivalent on this panel".
 What is *not* noise: answered 104 vs 102 (two blanks removed), lab 29/30 vs 28/30, and the presence of a
 cited reference for 44 items. On equal accuracy, the shipped shape is the one that answers everything and
 can show its source. Artifact: `results/panel_labhint_final.jsonl`.
+
+### Confirmation run on the enlarged corpus (same day)
+
+The shipped shape was re-run after nine more lab analytes were added (376 documents / 4,005 chunks):
+
+| Run | n | Score | Answered | Capped | Lab |
+|---|---|---|---|---|---|
+| Lab-hint, corpus 367 docs | 104 | 102/104 = 98.1% | 104 | 1 | 29/30 |
+| Lab-hint, corpus 376 docs | 104 | 101/104 = 97.1% | 103 | 2 | **29/30** |
+
+Lab is stable at 29/30 across both corpus versions and both runs. The single overall point is again
+run-to-run noise: E16 flipped on identical herb prompts, and the two lab truncations swapped which item they
+hit (L24 answered correctly this time, L10 capped instead). This is the second independent observation of
+~1-item noise at `-np 2`, and it is why `docs/config.md` tells the project to treat sub-2-item differences
+as undefined.
+
+Artifact: `results/panel_labhint_v2.jsonl`.

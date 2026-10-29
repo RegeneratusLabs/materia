@@ -450,6 +450,22 @@
     "note": "E23 flip is run-to-run noise (~1 item in 104)"
    },
    "lab": "29/30 vs 28/30 closed"
+  },
+  {
+   "condition": "v2 panel (104), shipped shape, 376-doc corpus (confirmation)",
+   "file": "results/panel_labhint_v2.jsonl",
+   "n": 104,
+   "correct": 101,
+   "pct": 97.1,
+   "ci95": [
+    91.9,
+    99.0
+   ],
+   "answered": 103,
+   "hit_token_cap": 2,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition lab-hint --max-tokens 768 --out results/panel_labhint_v2.jsonl",
+   "lab": "29/30",
+   "note": "1-point difference vs previous run is noise (herb flip + cap redistribution)"
   }
  ]
 }
