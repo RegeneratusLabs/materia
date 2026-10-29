@@ -135,7 +135,12 @@ def main(argv: list[str] | None = None) -> int:
             # No reference unless the chunk genuinely covers the question: an uncovered item
             # shown an irrelevant sentence loses correct closed-book answers (docs/gate3.md).
             hint_chunk = choose_reference(item["q"], g)
-            prompt = build_prompt_hint(item, hint_chunk, config.RULE_BUDGET, smart=args.smart_hint)
+            # No reference means the exact closed-book prompt, so the comparison isolates the
+            # effect of the reference rather than the effect of a different template.
+            prompt = (
+                build_prompt_hint(item, hint_chunk, config.RULE_BUDGET, smart=args.smart_hint)
+                if hint_chunk else build_prompt(item, config.RULE_BUDGET)
+            )
         elif use and args.no_cite:
             prompt = build_prompt_evidence_nocite(item, chunks, config.RULE_BUDGET, args.evidence_words)
         elif use:

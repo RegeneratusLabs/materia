@@ -402,6 +402,30 @@
     "covered": "44/44 both conditions",
     "uncovered": "hint 56/60 vs closed 58/60"
    }
+  },
+  {
+   "condition": "v2 panel (104), hint mode final (reference only when covered), thinking",
+   "file": "results/panel_hint_final.jsonl",
+   "n": 104,
+   "correct": 100,
+   "pct": 96.2,
+   "ci95": [
+    90.5,
+    98.5
+   ],
+   "answered": 103,
+   "hit_token_cap": 1,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition hint --max-tokens 768 --out results/panel_hint_final.jsonl",
+   "paired_vs_closed": {
+    "fixed": 1,
+    "broke": 3,
+    "mcnemar_p": 0.625,
+    "per_split": {
+     "covered": "43/44 vs 44/44",
+     "uncovered": "57/60 vs 58/60"
+    }
+   },
+   "note": "two of four flips were template artefacts; with the no-reference branch made identical to the closed prompt the defensible figure is 101/104 = 97.1%. Not significant vs closed."
   }
  ]
 }

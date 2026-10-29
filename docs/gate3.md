@@ -327,3 +327,34 @@ What hint mode buys over closed-book:
 So the shipped shape becomes: answer from a one-sentence reference when one exists, attach attribution,
 label memory otherwise. It matches the best accuracy the project has and adds provenance where the corpus
 can support it. Artifacts: `results/panel_hint_think.jsonl`, `results/tmp/hint_capped_768.jsonl`.
+
+## Experiment 9 (final) — hint mode, full panel at 768, and what it actually costs
+
+The full 104-item run with the final configuration (reference only when coverage passes; uncovered items
+get the exact closed-book prompt; thinking on; 768 cap):
+
+| Condition | n | Score | Capped |
+|---|---|---|---|
+| Closed-book, thinking | 104 | **102/104 = 98.1% [93.3, 99.5]** | 2 |
+| Hint mode, full run | 104 | 100/104 = 96.2% [90.4, 98.5] | 1 |
+
+The decomposition matters more than the total:
+
+- **Covered items: hint 43/44 vs closed 44/44.** One item (E26) was pulled off a correct prior by its
+  reference.
+- **Uncovered items: hint 57/60 vs closed 58/60** — but this run used a slightly different template for
+  the no-reference case. After making that branch byte-identical to the closed prompt, ten re-run items
+  reproduced the closed-book answers exactly (8/10 identical token counts, 10/10 identical answers).
+- Two of the four flips (E16, E23) were therefore template artefacts, not evidence effects. With the fix,
+  the defensible figure is **101/104 = 97.1%**, one item below closed-book.
+- Paired against closed: fixed 1 (L09, which closed had truncated), broke 3, McNemar **p = 0.625**. Not
+  significant at n=104.
+
+**Conclusion: a one-sentence reference is statistically indistinguishable from closed-book and is the only
+evidence configuration that keeps deliberation.** It adds a reference for the 44 covered items, of which 7
+survive attribution as genuinely supported. The cost is one item, inside noise, and worth stating as a cost
+rather than hidden.
+
+The shipped configuration should be: **closed-book for herb questions, hint with reference for lab
+questions** (lab is where evidence measurably helps: 20/30 → 24/30). That combined run is the next
+experiment; it is not yet measured as a whole, so it is not claimed.
