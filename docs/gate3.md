@@ -396,3 +396,21 @@ hit (L24 answered correctly this time, L10 capped instead). This is the second i
 as undefined.
 
 Artifact: `results/panel_labhint_v2.jsonl`.
+
+### Shipped shape: three runs, and why the range is the result (round 8)
+
+| Run | Corpus / code | Score | Lab | Answered |
+|---|---|---|---|---|
+| lab-hint v1 | 367 docs, substring entity matching | 102/104 | 29/30 | 104 |
+| lab-hint v2 | 376 docs, substring matching | 101/104 | 29/30 | 103 |
+| lab-hint v3 | 376 docs, **whole-word entity matching** | **103/104** | **29/30** | 104 |
+
+Three runs of the same configuration read **101, 102, 103** (±1 around 102), and **lab is 29/30 every time**.
+The v3 flips against v2 were two herb items (identical prompts, E16 and E23) and two lab cap events (L10
+fixed, L02 newly wrong) — i.e., noise in both directions, not a code effect. The entity fix is real (H03 now
+retrieves saw-palmetto DILI rather than a fish-oil monograph), but it does not show up as a panel difference
+because herb items do not use retrieval in this configuration.
+
+**The quoted result is therefore 102/104 = 98.1% with a measured run-to-run range of 101–103, and lab 29/30
+stable across three runs.** Quoting 103 would be quoting the best draw; the mean is what the configuration
+earns. Artifact: `results/panel_labhint_v3.jsonl`.

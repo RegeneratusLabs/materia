@@ -1,0 +1,20 @@
+{
+ "condition": "lab-hint",
+ "file": "results/panel_labhint_v3.jsonl",
+ "n": 104,
+ "correct": 103,
+ "pct": 99.0,
+ "ci95": [
+  94.8,
+  99.8
+ ],
+ "answered": 104,
+ "hit_token_cap": 2,
+ "mean_ctok": 194.0,
+ "max_tokens": 768,
+ "ctx": 4096,
+ "model_gguf": "/home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf",
+ "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition lab-hint --max-tokens 768 --out results/panel_labhint_v3.jsonl",
+ "started": "2026-10-29T07:41:47+00:00",
+ "minutes": 20.1
+}
