@@ -133,9 +133,11 @@ def cmd_symptom(args: argparse.Namespace) -> int:
         print("  No safety findings for the stated context.")
 
     llm.ensure_reason(ctx=8192, parallel=2)
-    prompt = symptom.build_prompt(args.text, chunks, findings, red, intake)
+    screened = symptom.screen_chunks(chunks, findings)
+    prompt = symptom.build_prompt(args.text, screened, findings, red, intake)
     out = llm.chat([{"role": "user", "content": prompt}], max_tokens=args.max_tokens, timeout=1200)
-    sheet, removed = symptom.enforce_vetoes(out["text"], findings)
+    sheet = symptom.limit_options(out["text"], 3)
+    sheet, removed = symptom.enforce_vetoes(sheet, findings)
     issues = symptom.contract_check(sheet, chunks, findings)
     print("\n" + sheet.strip())
     if removed:

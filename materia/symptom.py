@@ -354,6 +354,42 @@ Hard rules: every line in OPTIONS must carry [S<n>]. Never invent a dose or a ci
 """
 
 
+def screen_chunks(chunks: list[dict], findings: list[dict]) -> list[dict]:
+    """Remove evidence about a vetoed intervention before the model ever sees it.
+
+    Pre-screening beats post-filtering: the model cannot recommend what is not in its
+    context, and the sheet reads as coherent rather than censored.
+    """
+    vetoed = {f["intervention"].lower() for f in findings if f["severity"] == "veto"}
+    if not vetoed:
+        return chunks
+    kept = []
+    for c in chunks:
+        text = c.get("text", "").lower()
+        if any(v in text for v in vetoed):
+            continue
+        kept.append(c)
+    return kept
+
+
+def limit_options(sheet: str, max_options: int = 3) -> str:
+    """Keep at most N option lines under OPTIONS; drop the rest deterministically."""
+    out, in_options, seen = [], False, 0
+    for line in sheet.splitlines():
+        if line.strip().upper().startswith("OPTIONS"):
+            in_options = True
+            out.append(line)
+            continue
+        if in_options and re.match(r"^[A-Z][A-Z ]{4,}$", line.strip()):
+            in_options = False
+        if in_options and re.match(r"^\s*(?:[-*]|\d+[.)])\s", line):
+            seen += 1
+            if seen > max_options:
+                continue
+        out.append(line)
+    return "\n".join(out)
+
+
 def evidence_block(chunks: list[dict]) -> str:
     lines = ["EVIDENCE"]
     for i, c in enumerate(chunks, start=1):

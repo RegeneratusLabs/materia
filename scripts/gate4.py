@@ -72,16 +72,18 @@ def main(argv: list[str] | None = None) -> int:
         chunks = retriever.search(v["text"])
         interventions = symptom.candidate_interventions(v["text"], chunks, retriever.lex)
         findings = symptom.safety_screen(intake, interventions, conn, rules["safety"])
-        prompt = symptom.build_prompt(v["text"], chunks, findings, red_hits, intake)
+        screened = symptom.screen_chunks(chunks, findings)
+        prompt = symptom.build_prompt(v["text"], screened, findings, red_hits, intake)
         r = llm.chat(
             [{"role": "user", "content": prompt}],
             max_tokens=args.max_tokens,
             enable_thinking=not args.no_think,
             timeout=1200,
         )
-        sheet, removed = symptom.enforce_vetoes(r["text"], findings)
+        sheet = symptom.limit_options(r["text"], 3)
+        sheet, removed = symptom.enforce_vetoes(sheet, findings)
         issues = symptom.contract_check(sheet, chunks, findings)
-        checked = verify.verify_options_block(sheet, chunks)
+        checked = verify.verify_options_block(sheet, screened)
         for line in checked["lines"]:
             if not line["supported"]:
                 issues.append(f"unsupported claim: {line['line'][:70]} ({line['reason']})")
@@ -95,8 +97,9 @@ def main(argv: list[str] | None = None) -> int:
                 "interventions": interventions,
                 "findings": findings,
                 "retrieved": [c["chunk_id"] for c in chunks],
+                "screened": [c["chunk_id"] for c in screened],
                 "evidence": [
-                    {"chunk_id": c["chunk_id"], "text": c["text"][:600]} for c in chunks
+                    {"chunk_id": c["chunk_id"], "text": c["text"][:600]} for c in screened
                 ],
                 "contract_issues": issues,
                 "verified": {"supported": checked["supported"], "total": checked["total"]},
