@@ -12,6 +12,11 @@ this file must move with it.
 | Herb / nutrient / referral question | **Closed-book.** No evidence is injected (byte-identical prompt) | Full retrieval −3.8 pts, coverage-routed −2.8 pts; herb coverage is ~25–46% and only ~50% precise |
 | No reference at all | Answer labelled `memory`, no citation shown | Never fabricate a source (AGENTS.md #6) |
 
+The CLI (`materia ask`) shows a reference whenever attribution passes, including herb questions; the
+measured conservative default for evaluation is lab-only. The difference is within the observed noise
+(E26, one herb item, was the only casualty of extending references past lab), and it is a product choice:
+a herb answer with a checkable reference is worth one item of panel accuracy.
+
 Two rules that are not negotiable in code:
 
 - **Block evidence is never combined with thinking.** A full `EVIDENCE` block plus deliberation produced no
