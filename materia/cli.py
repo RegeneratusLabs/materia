@@ -18,8 +18,9 @@ import sys
 from pathlib import Path
 
 from . import calc, config, extract, llm, ocr, parse, symptom, verify
+from .attribute import attribute as attribute_answer
 from .corpus.index import open_index, stats as corpus_stats
-from .prompt import build_freeform, build_prompt_retrieval
+from .prompt import build_freeform, build_prompt_hint
 from .retrieve import Retriever, grounded_chunks, group_conflicts
 
 
@@ -72,34 +73,70 @@ def cmd_ingest(args: argparse.Namespace) -> int:
 
 
 def cmd_ask(args: argparse.Namespace) -> int:
+    """Answer a free-text question.
+
+    Uses hint mode: one reference sentence, thinking enabled, then post-hoc attribution.
+    Block evidence plus deliberation collapses on this model (docs/gate3.md); a sentence does not.
+    """
     r = _retriever(args.index)
     chunks = r.search(args.question)
     grounded = grounded_chunks(chunks, args.question)
+    if grounded:
+        import re as _re
+
+        from .verify import content_tokens
+
+        # A named drug makes this an interaction question; prefer interaction/contraindication
+        # sections over generic safety prose that happens to repeat the herb's name.
+        drug = _re.search(
+            r"\b(warfarin|apixaban|rivaroxaban|dabigatran|clopidogrel|aspirin|sertraline|fluoxetine|"
+            r"escitalopram|citalopram|paroxetine|venlafaxine|levothyroxine|carbamazepine|valproate|"
+            r"methotrexate|cyclosporin|tacrolimus|metformin|insulin|prednisolone)\b",
+            args.question, _re.I,
+        )
+        pool = grounded
+        if drug:
+            typed = [c for c in grounded if c["section"] in ("interactions", "contraindications", "cautions")]
+            pool = typed or grounded
+        q_terms = content_tokens(args.question)
+        hint_chunk = max(pool, key=lambda c: len(q_terms & content_tokens(c["text"])))
+    else:
+        hint_chunk = chunks[0] if chunks else None
     llm.ensure_reason(ctx=8192, parallel=2)
 
-    if grounded:
-        prompt = build_freeform(args.question, grounded, evidence_words=90)
-        out = llm.chat([{"role": "user", "content": prompt}], max_tokens=220, enable_thinking=False)
-        text = out["text"].strip()
-        print(text or "(no answer)")
-        print("\nEVIDENCE")
-        for i, c in enumerate(grounded, start=1):
-            print(f"[S{i}] {c['chunk_id']} · {c['source']} · {c['tier']} · {c['jurisdiction']} · "
-                  f"{c['date']} · {c['section']}")
-            print(f"     {c['text'][:240]}…")
-        conflicts = group_conflicts(grounded)
-        if conflicts:
-            print("\nCONFLICTING SOURCES (shown, not resolved)")
-            for cf in conflicts:
-                print(f"  {cf['entity']} / {cf['assertion_type']}: " + ", ".join(
-                    f"{s['source']} {s['date']}" for s in cf["sources"]))
+    if not hint_chunk:
+        print("[memory mode] No corpus document covers this question. The answer is from model "
+              "knowledge, not a source — verify before use.\n")
+        out = llm.chat([{"role": "user", "content": build_freeform(args.question)}],
+                       max_tokens=260, enable_thinking=False)
+        _ = args
+        print(out["text"].strip() or "(no answer)")
         return 0
 
-    print("[memory mode] No corpus document covers this question. The answer is from model "
-          "knowledge, not a source — verify before use.\n")
-    prompt = build_freeform(args.question)
-    out = llm.chat([{"role": "user", "content": prompt}], max_tokens=220, enable_thinking=False)
-    print(out["text"].strip() or "(no answer)")
+    prompt = build_prompt_hint(
+        {"q": args.question, "o": {}}, hint_chunk, config.RULE_FREEFORM, smart=True
+    )
+    out = llm.chat([{"role": "user", "content": prompt}], max_tokens=420, timeout=1200)
+    answer = out["text"].strip()
+    if not answer and out.get("finish") == "length":
+        out = llm.chat([{"role": "user", "content": prompt}], max_tokens=900, timeout=1800)
+        answer = out["text"].strip()
+    if not answer:
+        print("No answer produced within the budget (the model reasoned past the cap).")
+        print(f"\nReference that was shown: {hint_chunk['chunk_id']} · {hint_chunk['source']}")
+        return 0
+    attribution = attribute_answer(answer, hint_chunk)
+
+    print(answer)
+    print()
+    if attribution["mode"] == "grounded":
+        print(f"Reference: {hint_chunk['chunk_id']} · {hint_chunk['source']} · {hint_chunk['date']} · "
+              f"{hint_chunk['section']}")
+        print(f"  {hint_chunk['text'][:300]}…")
+    else:
+        print("[memory mode] The shown reference does not carry this answer. Treat it as model "
+              "knowledge, not a cited claim — verify before use.")
+        print(f"  reference shown: {hint_chunk['chunk_id']} · {hint_chunk['source']}")
     return 0
 
 

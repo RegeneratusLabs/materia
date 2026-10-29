@@ -46,6 +46,11 @@ RULE_BUDGET = (
     "option (A, B, C or D). No explanation after the letter."
 )
 
+# Free-text answers need their own instruction: the MCQ budget asks for a letter.
+RULE_FREEFORM = (
+    "Think for at most 60 words, then answer in one or two sentences."
+)
+
 # Fixed sampling: every eval is greedy, so runs are comparable.
 TEMPERATURE = 0.0
 
