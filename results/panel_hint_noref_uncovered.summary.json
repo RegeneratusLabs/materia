@@ -1,0 +1,20 @@
+{
+ "condition": "hint",
+ "file": "results/panel_hint_noref_uncovered.jsonl",
+ "n": 60,
+ "correct": 60,
+ "pct": 100.0,
+ "ci95": [
+  94.0,
+  100.0
+ ],
+ "answered": 60,
+ "hit_token_cap": 1,
+ "mean_ctok": 188.0,
+ "max_tokens": 768,
+ "ctx": 4096,
+ "model_gguf": "/home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf",
+ "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition hint --only H03,H04,H05,H07,H08,H09,H10,H12,H14,H16,H17,H18,H21,H24,H25,L08,L09,L11,L13,L15,S02,S04,S05,S06,E01,E05,E09,E11,E12,E13,E14,E15,E16,E17,E18,E19,E20,E21,E22,E23,E24,E25,E27,E28,E30,E31,E32,E35,L17,L19,L20,L21,L22,L24,L26,R01,R05,R06,R07,R08 --max-tokens 768 --out results/panel_hint_noref_uncovered.jsonl",
+ "started": "2026-10-29T05:45:15+00:00",
+ "minutes": 11.5
+}

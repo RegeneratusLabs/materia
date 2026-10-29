@@ -21,7 +21,7 @@ from . import calc, config, extract, llm, ocr, parse, symptom, verify
 from .attribute import attribute as attribute_answer
 from .corpus.index import open_index, stats as corpus_stats
 from .prompt import build_freeform, build_prompt_hint
-from .retrieve import Retriever, grounded_chunks, group_conflicts
+from .retrieve import Retriever, choose_reference, grounded_chunks, group_conflicts
 
 
 def _retriever(index: str | None = None) -> Retriever:
@@ -81,27 +81,7 @@ def cmd_ask(args: argparse.Namespace) -> int:
     r = _retriever(args.index)
     chunks = r.search(args.question)
     grounded = grounded_chunks(chunks, args.question)
-    if grounded:
-        import re as _re
-
-        from .verify import content_tokens
-
-        # A named drug makes this an interaction question; prefer interaction/contraindication
-        # sections over generic safety prose that happens to repeat the herb's name.
-        drug = _re.search(
-            r"\b(warfarin|apixaban|rivaroxaban|dabigatran|clopidogrel|aspirin|sertraline|fluoxetine|"
-            r"escitalopram|citalopram|paroxetine|venlafaxine|levothyroxine|carbamazepine|valproate|"
-            r"methotrexate|cyclosporin|tacrolimus|metformin|insulin|prednisolone)\b",
-            args.question, _re.I,
-        )
-        pool = grounded
-        if drug:
-            typed = [c for c in grounded if c["section"] in ("interactions", "contraindications", "cautions")]
-            pool = typed or grounded
-        q_terms = content_tokens(args.question)
-        hint_chunk = max(pool, key=lambda c: len(q_terms & content_tokens(c["text"])))
-    else:
-        hint_chunk = chunks[0] if chunks else None
+    hint_chunk = choose_reference(args.question, grounded) if grounded else None
     llm.ensure_reason(ctx=8192, parallel=2)
 
     if not hint_chunk:

@@ -32,7 +32,7 @@ def make_retriever(args):
     if args.condition == "closed":
         return None
     try:
-        from materia.retrieve import Retriever
+        from materia.retrieve import Retriever, choose_reference
     except ImportError as e:  # corpus/retrieval not built yet
         sys.exit(f"retrieval condition needs materia.retrieve ({e})")
     from materia.corpus.index import open_index
@@ -130,9 +130,11 @@ def main(argv: list[str] | None = None) -> int:
         if use and reranker is not None:
             chunks = reranker.rank(item["q"], chunks, top_k=args.k)
         if args.condition == "hint":
-            from materia.retrieve import grounded_chunks
+            from materia.retrieve import choose_reference, grounded_chunks
             g = grounded_chunks(chunks, item["q"]) if chunks else []
-            hint_chunk = g[0] if g else (chunks[0] if chunks else None)
+            # No reference unless the chunk genuinely covers the question: an uncovered item
+            # shown an irrelevant sentence loses correct closed-book answers (docs/gate3.md).
+            hint_chunk = choose_reference(item["q"], g)
             prompt = build_prompt_hint(item, hint_chunk, config.RULE_BUDGET, smart=args.smart_hint)
         elif use and args.no_cite:
             prompt = build_prompt_evidence_nocite(item, chunks, config.RULE_BUDGET, args.evidence_words)

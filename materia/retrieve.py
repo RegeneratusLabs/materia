@@ -439,6 +439,27 @@ def _terms(text: str) -> set[str]:
             if len(t) > 4 and t not in STOP_TERMS}
 
 
+DRUG_RE = re.compile(
+    r"\b(warfarin|apixaban|rivaroxaban|dabigatran|clopidogrel|aspirin|sertraline|fluoxetine|"
+    r"escitalopram|citalopram|paroxetine|venlafaxine|levothyroxine|carbamazepine|valproate|"
+    r"methotrexate|cyclosporin|tacrolimus|metformin|insulin|prednisolone)\b",
+    re.I,
+)
+
+
+def choose_reference(question: str, grounded: list[dict]) -> dict | None:
+    """Pick the reference sentence's source chunk: interaction sections first for drug
+    questions, otherwise the chunk that shares the most with the question."""
+    if not grounded:
+        return None
+    pool = grounded
+    if DRUG_RE.search(question):
+        typed = [c for c in grounded if c["section"] in ("interactions", "contraindications", "cautions")]
+        pool = typed or grounded
+    q = {t for t in re.split(r"\W+", question.lower()) if len(t) > 3 and t not in STOP_TERMS}
+    return max(pool, key=lambda c: len(q & {t for t in re.split(r"\W+", c.get("text", "").lower())}))
+
+
 def grounded_chunks(chunks: list[dict], question: str) -> list[dict]:
     """Chunks that plausibly cover the question.
 
