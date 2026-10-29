@@ -54,7 +54,7 @@ def make_retriever(args):
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--panel", default=str(config.DATA_DIR / "herbal_set_104.json"))
-    ap.add_argument("--condition", choices=["closed", "retrieval", "hybrid", "routed", "hint"], default="closed")
+    ap.add_argument("--condition", choices=["closed", "retrieval", "hybrid", "routed", "hint", "lab-hint"], default="closed")
     ap.add_argument("--out", default=None)
     ap.add_argument("--max-tokens", type=int, default=768)
     ap.add_argument("--workers", type=int, default=2)
@@ -129,7 +129,15 @@ def main(argv: list[str] | None = None) -> int:
         use = use_retrieval(item, chunks)
         if use and reranker is not None:
             chunks = reranker.rank(item["q"], chunks, top_k=args.k)
-        if args.condition == "hint":
+        if args.condition == "lab-hint":
+            from materia.retrieve import choose_reference, grounded_chunks
+            g = grounded_chunks(chunks, item["q"]) if (chunks and item["cat"] in hybrid_cats) else []
+            hint_chunk = choose_reference(item["q"], g)
+            prompt = (
+                build_prompt_hint(item, hint_chunk, config.RULE_BUDGET, smart=args.smart_hint)
+                if hint_chunk else build_prompt(item, config.RULE_BUDGET)
+            )
+        elif args.condition == "hint":
             from materia.retrieve import choose_reference, grounded_chunks
             g = grounded_chunks(chunks, item["q"]) if chunks else []
             # No reference unless the chunk genuinely covers the question: an uncovered item
