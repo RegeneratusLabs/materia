@@ -446,9 +446,12 @@ keeps chunks like the NCCIH clearinghouse blurb out of retrieval entirely.
 
 **Round 3 addition — hint mode.** Evidence as a full `EVIDENCE` block plus deliberation was fatal
 (Experiment 5). Evidence as **one reference sentence inside the question** is not: the full panel composes
-to **100/104 = 96.2%**, two below closed-book: covered items are 44/44 in both conditions, and the loss is
-entirely on uncovered items that were still shown a (non-grounded) reference. The fix — no reference when
-coverage fails — is in validation, not yet reported as a result. Post-hoc attribution is meaningful: of 9 answers whose shown reference actually carried the
+to **100/104 = 96.2%** on the first full run; after making the no-reference branch identical to the closed
+prompt (two of the four flips were template artefacts) the defensible figure is **101/104 = 97.1%**, one
+item below closed-book and not significant (McNemar p = 0.625, fixed 1, broke 3). Covered items: hint 43/44
+vs closed 44/44. The reference can cost an item; it is the only evidence configuration that keeps
+deliberation, and it adds provenance for 44 items, 7 of them attribution-supported. Shipped shape to
+test next: closed-book for herbs, hint for lab, where evidence measurably helps. Post-hoc attribution is meaningful: of 9 answers whose shown reference actually carried the
 chosen option, 9/9 were correct; memory answers carried all six errors. `materia ask` now answers in hint
 mode, prefers interaction/contraindication sections when the question names a drug, and labels grounded
 versus memory. Artifacts: `results/panel_hint_think.jsonl`, `results/tmp/hint_capped_768.jsonl`.
