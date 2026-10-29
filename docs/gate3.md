@@ -213,3 +213,14 @@ construction. Citations: 38/38 in context. It is still not statistically signifi
 and it runs in 5.6 minutes rather than 35 — the leaner evidence block is most of that speed.
 
 Artifact: `results/gate3_hybrid_v2.json`, `results/panel_hybrid_v2.jsonl`.
+
+### Full retrieval with the same package
+
+For completeness, all categories retrieved with k=3/60-word evidence and the boilerplate filter:
+**89/104 = 85.6% [77.6, 91.1]**, fixed 5, broke 6, delta −1.0, p = 1.0. Lab +4, herb–safety −4,
+nutrient–drug −1. The precision package lifted full retrieval from 82.7% to 85.6% and nearly closed the
+gap, but herb–safety still loses more than lab gains.
+
+So the ordering is stable across three independent runs: **lab-only 94 > closed 90 > full retrieval 89**.
+Gating by category remains the correct configuration until the herb corpus can beat the prior.
+Artifact: `results/gate3_retrieval_v2.json`.

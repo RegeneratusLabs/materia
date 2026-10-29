@@ -302,6 +302,27 @@
     "mcnemar_p": 0.219
    },
    "notes": "entity-first + boilerplate filter + k=3/60-word evidence; lab 20->24/30, no other category changed"
+  },
+  {
+   "condition": "v2 panel (104), full retrieval + precision package, no thinking",
+   "file": "results/panel_retrieval_v2.jsonl",
+   "n": 104,
+   "correct": 89,
+   "pct": 85.6,
+   "ci95": [
+    77.6,
+    91.1
+   ],
+   "answered": 104,
+   "mean_reasoning_tokens": 11.0,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition retrieval --no-think --max-tokens 64 --k 3 --evidence-words 60 --out results/panel_retrieval_v2.jsonl",
+   "paired_vs_closed": {
+    "delta_points": -1.0,
+    "fixed": 5,
+    "broke": 6,
+    "mcnemar_p": 1.0
+   },
+   "notes": "lab +4, herb-safety -4; gating by category still correct"
   }
  ]
 }

@@ -1,0 +1,20 @@
+{
+ "condition": "retrieval",
+ "file": "results/panel_retrieval_v2.jsonl",
+ "n": 104,
+ "correct": 89,
+ "pct": 85.6,
+ "ci95": [
+  77.6,
+  91.1
+ ],
+ "answered": 104,
+ "hit_token_cap": 0,
+ "mean_ctok": 11.0,
+ "max_tokens": 64,
+ "ctx": 4096,
+ "model_gguf": "/home/josh/models/minicpm5/MiniCPM5-2B-Q8_0.gguf",
+ "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition retrieval --no-think --max-tokens 64 --k 3 --evidence-words 60 --out results/panel_retrieval_v2.jsonl",
+ "started": "2026-10-29T04:26:37+00:00",
+ "minutes": 13.6
+}
