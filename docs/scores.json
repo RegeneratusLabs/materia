@@ -281,6 +281,27 @@
    "unsupported_after_dropping": 0,
    "red_flag_matches": "2/2",
    "vetoes": "1/1"
+  },
+  {
+   "condition": "v2 panel (104), lab-only retrieval + precision package, no thinking",
+   "file": "results/panel_hybrid_v2.jsonl",
+   "n": 104,
+   "correct": 94,
+   "pct": 90.4,
+   "ci95": [
+    83.2,
+    94.7
+   ],
+   "answered": 104,
+   "mean_reasoning_tokens": 5.0,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition hybrid --no-think --max-tokens 64 --k 3 --evidence-words 60 --out results/panel_hybrid_v2.jsonl",
+   "paired_vs_closed": {
+    "delta_points": 3.8,
+    "fixed": 5,
+    "broke": 1,
+    "mcnemar_p": 0.219
+   },
+   "notes": "entity-first + boilerplate filter + k=3/60-word evidence; lab 20->24/30, no other category changed"
   }
  ]
 }

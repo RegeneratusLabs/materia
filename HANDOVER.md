@@ -435,6 +435,15 @@ than a pass/fail — its threshold needs calibration against practitioner labels
 (hypericum, panax, withania, piper, cimicifuga, rhodiola). Until those exist, herb retrieval cannot beat a
 98.1% closed-book prior and should not ship.
 
+**Two findings settled after that section was written.** First, evidence and deliberation are mutually
+exclusive on this model: on the same 20 items, closed-book scored 20/20 with or without thinking, while
+evidence plus thinking scored 4/20 (14 capped) and evidence plus thinking without a citation demand scored
+11/20 (11 capped). Any evidence path must run with thinking disabled. Second, the verifier now removes
+option lines their own citations do not support (threshold 0.2, light stemming, at least two shared content
+terms); replayed on the 24 stored sheets it removed 14 genuinely mis-cited lines, and the integrated
+drop-and-verify pipeline is 8/8 contract-clean with zero unsupported claims remaining. A boilerplate filter
+keeps chunks like the NCCIH clearinghouse blurb out of retrieval entirely.
+
 **Next, in order.** (1) reranker and higher-quality herb corpus before any further herb retrieval attempt;
 (2) verify-then-fallback for prose only — an MCQ answer is a letter and has no claim to verify;
 (3) a real lab report pair from Josh; (4) practitioner-written vignettes to replace the synthetic ones.

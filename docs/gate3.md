@@ -192,3 +192,24 @@ finish. This is why every retrieval number in this project is a no-think number,
 compared to a no-think closed-book baseline (86.5%), never to the 98.1% thinking baseline.
 
 Artifacts: `results/tmp/ret_thinking_lean20.jsonl`, `results/tmp/ret_thinking_nocite20.jsonl`.
+
+## Experiment 6 — the precision package (2026-10-29)
+
+Three fixes aimed at evidence quality rather than quantity: entity documents first (already in), a
+boilerplate filter that removes chunks like the NCCIH clearinghouse blurb, and a leaner evidence block
+(k=3, 60 words) instead of six long chunks.
+
+Lab-only retrieval, re-run with the package:
+
+| Condition | n | Score | Δ vs closed | Fixed | Broke | p |
+|---|---|---|---|---|---|---|
+| Closed-book, no thinking | 104 | 90/104 = 86.5% [78.7, 91.8] | — | — | — | — |
+| Lab-only, original settings | 104 | 93/104 = 89.4% [82.0, 94.0] | +2.9 | 5 | 2 | 0.45 |
+| **Lab-only, precision package** | 104 | **94/104 = 90.4% [83.2, 94.7]** | **+3.8** | **5** | **1** | **0.22** |
+
+This is the best panel result under any single configuration, and the first time retrieval is a net positive
+with no collateral damage: only lab items moved (20/30 → 24/30), every other category is identical by
+construction. Citations: 38/38 in context. It is still not statistically significant at n=104 (p = 0.22),
+and it runs in 5.6 minutes rather than 35 — the leaner evidence block is most of that speed.
+
+Artifact: `results/gate3_hybrid_v2.json`, `results/panel_hybrid_v2.jsonl`.
