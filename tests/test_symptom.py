@@ -87,8 +87,7 @@ def test_safety_screen_vetoes_sjw_on_ssri(conn, rules):
 
 def _sheet(options="1. Valerian root — dose 300-600 mg at night [S1]"):
     return (
-        "WHAT YOU DESCRIBED\ninsomnia, 6 weeks, mild\n\n"
-        "CHECK FIRST\nNo red flags identified from what you have described. This is not a diagnosis.\n\n"
+        "CHECK: No red flags identified from what was described. This is not a diagnosis.\n\n"
         f"OPTIONS\n{options}\n\n"
         "SAFETY SCREEN\nno vetoes\n\n"
         "MONITOR\nsleep diary\n\n"

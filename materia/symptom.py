@@ -16,8 +16,7 @@ import yaml
 RULES_DIR = Path(__file__).resolve().parent.parent / "rules"
 
 REQUIRED_SECTIONS = (
-    "WHAT YOU DESCRIBED",
-    "CHECK FIRST",
+    "CHECK:",
     "OPTIONS",
     "SAFETY SCREEN",
     "MONITOR",
@@ -321,7 +320,10 @@ def contract_check(sheet: str, chunks: list[dict], findings: list[dict]) -> list
 
 
 def _section(sheet: str, name: str) -> str:
-    m = re.search(rf"{name}[^\n]*\n(.*?)(?:\n[A-Z][A-Z ]+[^\n]*\n|$)", sheet, re.S)
+    if name.endswith(":"):  # single-line marker such as "CHECK:"
+        m = re.search(rf"^{re.escape(name)}[^\n]*$", sheet, re.M)
+        return m.group(0) if m else ""
+    m = re.search(rf"{re.escape(name)}[^\n]*\n(.*?)(?:\n[A-Z][A-Z ]+[^\n]*\n|$)", sheet, re.S)
     return m.group(1) if m else ""
 
 
@@ -330,13 +332,9 @@ def _section(sheet: str, name: str) -> str:
 SHEET_SPEC = """You are a cited evidence assistant for naturopathic and integrative practitioners.
 You produce an evidence sheet. You do not diagnose, and you do not prescribe.
 
-Reply with EXACTLY these six headings, in this order, and nothing else:
+Reply with EXACTLY this one line, then these four headings, in this order, and nothing else:
 
-WHAT YOU DESCRIBED
-one or two lines restating the presentation. No interpretation.
-
-CHECK FIRST
-state any red flags supplied under RED FLAGS. If there are none, say: "No red flags identified from what was described. This is not a diagnosis."
+CHECK: state any red flags supplied under RED FLAGS as a single line. If there are none, write "CHECK: No red flags identified from what was described. This is not a diagnosis."
 
 OPTIONS
 one line per option, formatted as:
@@ -353,6 +351,22 @@ EVIDENCE GAPS
 where sources disagree, where evidence is absent, and what is traditional-use only.
 
 Hard rules: every line in OPTIONS must carry [S<n>]. Never invent a dose or a citation. Never say "you have" a condition.
+
+Example of the exact shape (content is illustrative):
+CHECK: No red flags identified from what was described. This is not a diagnosis.
+
+OPTIONS
+- Valerian — may improve sleep onset in some trials — dose not stated [S1]
+- Magnesium — evidence is mixed — 200 mg at night was used in one trial [S2]
+
+SAFETY SCREEN
+No safety findings for the stated context.
+
+MONITOR
+Sleep diary for two weeks; return if insomnia persists or worsens.
+
+EVIDENCE GAPS
+Evidence is limited and doses vary between studies.
 """
 
 

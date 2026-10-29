@@ -139,3 +139,21 @@ lines that their own citations do not support are removed after, and what remain
 The full 30-vignette run was attempted twice and abandoned at the wall-clock cost: the reasoning server hits
 the 3.5 GB guard every few sheets, so 24 sheets take 45–60 minutes. The 24-sheet offline replay is the
 calibration evidence; the 8-vignette run is the integration evidence.
+
+## Four-section sheet (2026-10-29, round 7)
+
+The plan asked for a four-section sheet. Implemented as a single `CHECK:` line followed by `OPTIONS`,
+`SAFETY SCREEN`, `MONITOR`, `EVIDENCE GAPS` — dropping the "what you described" restatement and the
+separate "check first" heading, with red-flag escalation still decided by the deterministic gate before
+generation.
+
+**First attempt failed cleanly: 0/8 contract-clean, 17 violations.** Inspecting the sheets showed why —
+this model dropped the `OPTIONS` heading entirely and merged bullets under the `CHECK:` line, and in two
+cases omitted three of the four headings. Shorter instructions did not survive; the model needs a shape to
+copy, not a list to obey.
+
+**Adding a worked example to the spec fixed it: 8/8 contract-clean, zero violations**, and the run got
+faster (5.3 min for eight sheets versus 7.6 min for the six-section version). The lesson generalises: for a
+2B model, an example of the exact output shape is worth more than several lines of instruction.
+
+Artifact: `results/gate4_v4.json`.
