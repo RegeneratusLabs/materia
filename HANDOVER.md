@@ -451,10 +451,12 @@ contract-clean, 0 violations**, red flags 8/8, emergencies 6/6, vetoes 2/2, 18.6
 removing 27 unsupported option lines and 5 vetoed ones. For a 2B model an example beats several
 instructions.
 
-**Round 6 addition — the coverage denominator.** Coverage is **44/104 = 42.3%** across all items but
-**34/56 = 60.7%** across the questions that actually name a herb or nutrient (lab: 19/30). The other 48
-items name no entity ("which of these is a red flag") and are answered closed-book, where the non-lab panel
-scores 73/73. Gap analysis (`data/coverage_gaps.json`): 34 uncovered items have no entity to retrieve,
+**Round 8 correction — coverage is lower than reported.** Hand-labelling all 104 questions
+(`data/panel_subject_labels.json`: 53 name their subject, 31 are lab, 20 name no subject) gives coverage of
+**20/53 = 37.7%** for herb/nutrient subject questions and **20/31 = 64.5%** for lab. The earlier 60.7%
+figure was wrong: keyword entity detection attributed spurious entities to questions that name no subject.
+Twenty items name no entity at all and are answered closed-book (73/73 non-lab). The other 20
+items name no entity at all and are answered closed-book, where the non-lab panel scores 73/73. Gap analysis (`data/coverage_gaps.json`): 34 uncovered items have no entity to retrieve,
 15 have the entity document but not the right claim chunk (**precision, not acquisition**), 11 are lab
 analytes without a test document, and only **2 are genuinely missing herbs** (comfrey, berberine). Chasing
 100% across a denominator that includes non-entity questions would be measuring the wrong thing.

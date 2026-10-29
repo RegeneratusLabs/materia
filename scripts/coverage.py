@@ -34,6 +34,12 @@ for it in items:
         "entity_docs_found": sum(1 for c in hits if c["in_entity_doc"]),
     })
 
+# Hand-labelled population: which questions name the subject they are about.
+labels_path = config.DATA_DIR / "panel_subject_labels.json"
+labels = {r["id"]: r["kind"] for r in json.loads(labels_path.read_text())} if labels_path.exists() else {}
+for row in rows:
+    row["kind"] = labels.get(row["id"], "unknown")
+
 out = config.DATA_DIR / "panel_coverage.json"
 out.write_text(json.dumps(rows, indent=1) + "\n")
 from collections import Counter, defaultdict
@@ -42,10 +48,13 @@ for row in rows:
     by[row["cat"]][1] += 1
     by[row["cat"]][0] += row["covered"]
 k = sum(x["covered"] for x in rows)
-anchored = [x for x in rows if x["entity_anchored"]]
-ak = sum(1 for x in anchored if x["covered"])
-print(f"coverage: {k}/{len(rows)} = {100*k/len(rows):.1f}%  |  entity-anchored: {ak}/{len(anchored)} = "
-      f"{100*ak/max(1,len(anchored)):.1f}%")
+print(f"coverage (all items): {k}/{len(rows)} = {100*k/len(rows):.1f}%")
+for kind in ("subject", "lab", "no_subject"):
+    sel = [x for x in rows if x.get("kind") == kind]
+    if sel:
+        kk = sum(1 for x in sel if x["covered"])
+        note = "  (not a coverage population)" if kind == "no_subject" else ""
+        print(f"  {kind:11s} {kk:2d}/{len(sel):2d} = {100*kk/len(sel):5.1f}%{note}")
 for c, v in sorted(by.items(), key=lambda kv: -kv[1][1]):
     print(f"  {c:16s} {v[0]:2d}/{v[1]:2d} = {100*v[0]/v[1]:5.1f}%")
 print("uncovered:", [x["id"] for x in rows if not x["covered"]])

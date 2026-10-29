@@ -1,0 +1,168 @@
+[
+ {
+  "id": "H03",
+  "cat": "herb-safety",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "hc-nhpid-fish-oil-huile-poisson#001",
+  "section": "methodology",
+  "entities": [
+   "fish oil"
+  ]
+ },
+ {
+  "id": "H07",
+  "cat": "nutrient-drug",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "medlineplus-003488#001",
+  "section": "methodology",
+  "entities": [
+   "iron"
+  ]
+ },
+ {
+  "id": "H08",
+  "cat": "herb-drug",
+  "verdict": "retrieval miss (right chunk, not retrieved)",
+  "score": 0.4,
+  "chunk": "hc-nhpid-5htp#006",
+  "section": "cautions",
+  "entities": [
+   "5-HTP"
+  ]
+ },
+ {
+  "id": "H12",
+  "cat": "herb-drug",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "ema-valeriana-officinalis-l-aetheroleum#001",
+  "section": "indications",
+  "entities": [
+   "Valerian"
+  ]
+ },
+ {
+  "id": "H14",
+  "cat": "herb-safety",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "hc-nhpid-fish-oil-huile-poisson#001",
+  "section": "methodology",
+  "entities": [
+   "fish oil"
+  ]
+ },
+ {
+  "id": "H18",
+  "cat": "nutrient-drug",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "medlineplus-003488#001",
+  "section": "methodology",
+  "entities": [
+   "iron"
+  ]
+ },
+ {
+  "id": "H21",
+  "cat": "herb-drug",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "hc-nhpid-melatonin-oral2#001",
+  "section": "methodology",
+  "entities": [
+   "melatonin"
+  ]
+ },
+ {
+  "id": "H24",
+  "cat": "herb-drug",
+  "verdict": "section mismatch (other not in ['adverse_effects', 'cautions', 'contraindications', 'interactions', 'red_flags'])",
+  "score": 0.333,
+  "chunk": "nci-pdq-curcumin-pdq#006",
+  "section": "other",
+  "entities": [
+   "Turmeric",
+   "turmeric"
+  ]
+ },
+ {
+  "id": "S01",
+  "cat": "safety",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "hc-nhpid-fish-oil-huile-poisson#001",
+  "section": "methodology",
+  "entities": [
+   "FISH OIL"
+  ]
+ },
+ {
+  "id": "E01",
+  "cat": "herb-drug",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "hc-nhpid-stjohnswort-millepertuis-oral2#001",
+  "section": "methodology",
+  "entities": [
+   "st john's wort"
+  ]
+ },
+ {
+  "id": "E05",
+  "cat": "herb-drug",
+  "verdict": "section mismatch (other not in ['adverse_effects', 'cautions', 'contraindications', 'interactions', 'red_flags'])",
+  "score": 0.5,
+  "chunk": "nccih-fenugreek#004",
+  "section": "other",
+  "entities": [
+   "Fenugreek"
+  ]
+ },
+ {
+  "id": "E09",
+  "cat": "herb-drug",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "hc-nhpid-passionflower-passiflore#001",
+  "section": "methodology",
+  "entities": [
+   "Passionflower"
+  ]
+ },
+ {
+  "id": "E15",
+  "cat": "herb-drug",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "nccih-dandelion#001",
+  "section": "other",
+  "entities": [
+   "Dandelion"
+  ]
+ },
+ {
+  "id": "E18",
+  "cat": "herb-safety",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "hc-nhpid-fish-oil-huile-poisson#001",
+  "section": "methodology",
+  "entities": [
+   "fish oil"
+  ]
+ },
+ {
+  "id": "E25",
+  "cat": "herb-safety",
+  "verdict": "content absent",
+  "score": 0.0,
+  "chunk": "hc-nhpid-angelica-sinensis2#001",
+  "section": "methodology",
+  "entities": [
+   "dong quai"
+  ]
+ }
+]

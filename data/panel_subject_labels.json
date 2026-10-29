@@ -1,0 +1,522 @@
+[
+ {
+  "id": "H01",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H02",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H03",
+  "cat": "herb-safety",
+  "kind": "no_subject"
+ },
+ {
+  "id": "H04",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "H05",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H06",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "H07",
+  "cat": "nutrient-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H08",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H09",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H10",
+  "cat": "nutrient-drug",
+  "kind": "no_subject"
+ },
+ {
+  "id": "H11",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "H12",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H13",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H14",
+  "cat": "herb-safety",
+  "kind": "no_subject"
+ },
+ {
+  "id": "H15",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "H16",
+  "cat": "nutrient-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H17",
+  "cat": "nutrient-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "H18",
+  "cat": "nutrient-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H19",
+  "cat": "nutrient-lab",
+  "kind": "lab"
+ },
+ {
+  "id": "H20",
+  "cat": "nutrient-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H21",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H22",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "H23",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H24",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "H25",
+  "cat": "herb-safety",
+  "kind": "no_subject"
+ },
+ {
+  "id": "L01",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L02",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L03",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L04",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L05",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L06",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L07",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L08",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L09",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L10",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L11",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L12",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L13",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L14",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L15",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "S01",
+  "cat": "safety",
+  "kind": "subject"
+ },
+ {
+  "id": "S02",
+  "cat": "safety",
+  "kind": "no_subject"
+ },
+ {
+  "id": "S03",
+  "cat": "safety",
+  "kind": "no_subject"
+ },
+ {
+  "id": "S04",
+  "cat": "safety",
+  "kind": "no_subject"
+ },
+ {
+  "id": "S05",
+  "cat": "safety",
+  "kind": "no_subject"
+ },
+ {
+  "id": "S06",
+  "cat": "safety",
+  "kind": "no_subject"
+ },
+ {
+  "id": "E01",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E02",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E03",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E04",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E05",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E06",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E07",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E08",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E09",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E10",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E11",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E12",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E13",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E14",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E15",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E16",
+  "cat": "herb-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E17",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E18",
+  "cat": "herb-safety",
+  "kind": "no_subject"
+ },
+ {
+  "id": "E19",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E20",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E21",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E22",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E23",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E24",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E25",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E26",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E27",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E28",
+  "cat": "herb-safety",
+  "kind": "subject"
+ },
+ {
+  "id": "E29",
+  "cat": "nutrient-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E30",
+  "cat": "nutrient-drug",
+  "kind": "no_subject"
+ },
+ {
+  "id": "E31",
+  "cat": "nutrient-drug",
+  "kind": "no_subject"
+ },
+ {
+  "id": "E32",
+  "cat": "nutrient-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E33",
+  "cat": "nutrient-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E34",
+  "cat": "nutrient-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "E35",
+  "cat": "nutrient-drug",
+  "kind": "subject"
+ },
+ {
+  "id": "L16",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L17",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L18",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L19",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L20",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L21",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L22",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L23",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L24",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L25",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L26",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L27",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L28",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L29",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "L30",
+  "cat": "lab",
+  "kind": "lab"
+ },
+ {
+  "id": "R01",
+  "cat": "referral",
+  "kind": "no_subject"
+ },
+ {
+  "id": "R02",
+  "cat": "referral",
+  "kind": "no_subject"
+ },
+ {
+  "id": "R03",
+  "cat": "referral",
+  "kind": "no_subject"
+ },
+ {
+  "id": "R04",
+  "cat": "referral",
+  "kind": "no_subject"
+ },
+ {
+  "id": "R05",
+  "cat": "referral",
+  "kind": "no_subject"
+ },
+ {
+  "id": "R06",
+  "cat": "referral",
+  "kind": "no_subject"
+ },
+ {
+  "id": "R07",
+  "cat": "referral",
+  "kind": "no_subject"
+ },
+ {
+  "id": "R08",
+  "cat": "referral",
+  "kind": "no_subject"
+ }
+]

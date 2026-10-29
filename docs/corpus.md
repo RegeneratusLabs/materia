@@ -118,8 +118,15 @@ Reporting a single coverage number was misleading. Two populations behave differ
 | Population | n | Covered | Rate |
 |---|---|---|---|
 | All panel items | 104 | 44 | 42.3% |
-| **Questions that name a herb or nutrient** | 56 | 34 | **60.7%** |
-| Lab questions | 30 | 19 | 63.3% |
+| **Herb/nutrient questions that name their subject** | 53 | 20 | **37.7%** |
+| Lab questions | 31 | 20 | 64.5% |
+| Questions that name no subject | 20 | (4 spurious) | not a coverage population |
+
+**Correction (round 8).** The 60.7% reported earlier was wrong. It used keyword entity detection as the
+denominator, which attributed spurious entities — a question asking "which herbal product causes
+hepatotoxicity" was counted as a fish-oil question because the word appeared in it. Hand-labelling all 104
+questions (`data/panel_subject_labels.json`) gives 53 that name their subject, 31 lab, and 20 that name no
+subject at all. On the correct denominator, herb coverage is **37.7%**, not 60.7%.
 
 The remaining 48 items **do not name an entity at all** — "which of these is a red flag", "which
 supplement interacts with…", or an analyte alone. Entity-based coverage cannot apply to them, and they are

@@ -55,6 +55,12 @@ def main() -> int:
         "## Panel coverage",
         "",
         f"- covered: **{covered}/{len(coverage)} = {100 * covered / max(1, len(coverage)):.1f}%**",
+        *[
+            f"- {kind}: {sum(1 for r in coverage if r.get('kind') == kind and r.get('covered'))}"
+            f"/{sum(1 for r in coverage if r.get('kind') == kind)}"
+            for kind in ("subject", "lab", "no_subject")
+            if any(r.get("kind") == kind for r in coverage)
+        ],
         f"- audit of covered items: {audit.get('counts', {})} "
         f"(precision of 'covered' as support: roughly 50%)",
         "",
