@@ -444,6 +444,13 @@ terms); replayed on the 24 stored sheets it removed 14 genuinely mis-cited lines
 drop-and-verify pipeline is 8/8 contract-clean with zero unsupported claims remaining. A boilerplate filter
 keeps chunks like the NCCIH clearinghouse blurb out of retrieval entirely.
 
+**Round 7 addition — four-section symptom sheet.** The sheet is now a `CHECK:` line plus OPTIONS / SAFETY
+SCREEN / MONITOR / EVIDENCE GAPS. A heading-only spec produced 0/8 contract-clean (the model merged options
+into the check line); adding a worked example of the exact output shape fixed it. Full run: **24/24 sheets
+contract-clean, 0 violations**, red flags 8/8, emergencies 6/6, vetoes 2/2, 18.6 min, with the pipeline
+removing 27 unsupported option lines and 5 vetoed ones. For a 2B model an example beats several
+instructions.
+
 **Round 6 addition — the coverage denominator.** Coverage is **44/104 = 42.3%** across all items but
 **34/56 = 60.7%** across the questions that actually name a herb or nutrient (lab: 19/30). The other 48
 items name no entity ("which of these is a red flag") and are answered closed-book, where the non-lab panel

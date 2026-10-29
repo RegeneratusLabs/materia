@@ -157,3 +157,23 @@ faster (5.3 min for eight sheets versus 7.6 min for the six-section version). Th
 2B model, an example of the exact output shape is worth more than several lines of instruction.
 
 Artifact: `results/gate4_v4.json`.
+
+### Four-section sheet, full run (n=30)
+
+| Check | Six-section (v2) | Four-section (v4) |
+|---|---|---|
+| Red flags | 8/8 | **8/8** |
+| Emergencies stopped | 6/6 | **6/6** |
+| Expected vetoes identified | 2/2 | **2/2** |
+| Contract violations | 0 (only after rescoring with a fixed checker) | **0** |
+| Sheets contract-clean | 24/24 (rescored) | **24/24** |
+| Claims dropped by verifier | 14 (offline replay) | **27** |
+| Vetoed options removed by code | 4 | **5** |
+| Wall clock | 23.0 min | **18.6 min** |
+
+All 30 vignettes ran; six emergencies stopped before any model call. Every generated sheet is clean against
+the full contract (citations, doses, diagnosis language, vetoed options) *and* against the verifier, because
+unsupported lines were dropped rather than reported. The code removed 27 unsupported option lines and 5
+vetoed ones — the compliance is enforced by the pipeline, not by the model's obedience.
+
+Artifact: `results/gate4_v4_full.json`.

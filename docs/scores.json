@@ -466,6 +466,20 @@
    "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition lab-hint --max-tokens 768 --out results/panel_labhint_v2.jsonl",
    "lab": "29/30",
    "note": "1-point difference vs previous run is noise (herb flip + cap redistribution)"
+  },
+  {
+   "condition": "Symptom sheet v4 (four sections), 30 vignettes, no thinking",
+   "file": "results/gate4_v4_full.json",
+   "n": 30,
+   "generated_sheets": 24,
+   "contract_violations": 0,
+   "contract_clean": 24,
+   "claims_dropped": 27,
+   "vetoed_removed": 5,
+   "red_flag_matches": "8/8",
+   "emergency_stops": "6/6",
+   "vetoes": "2/2",
+   "minutes": 18.6
   }
  ]
 }
