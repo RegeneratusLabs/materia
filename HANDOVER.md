@@ -444,6 +444,14 @@ terms); replayed on the 24 stored sheets it removed 14 genuinely mis-cited lines
 drop-and-verify pipeline is 8/8 contract-clean with zero unsupported claims remaining. A boilerplate filter
 keeps chunks like the NCCIH clearinghouse blurb out of retrieval entirely.
 
+**Round 3 addition — hint mode.** Evidence as a full `EVIDENCE` block plus deliberation was fatal
+(Experiment 5). Evidence as **one reference sentence inside the question** is not: the full panel composes
+to **102/104 = 98.1%**, identical to closed-book, with a reference attached for the ~42% of items that have
+coverage. Post-hoc attribution is meaningful: of 9 answers whose shown reference actually carried the
+chosen option, 9/9 were correct; memory answers carried all six errors. `materia ask` now answers in hint
+mode, prefers interaction/contraindication sections when the question names a drug, and labels grounded
+versus memory. Artifacts: `results/panel_hint_think.jsonl`, `results/tmp/hint_capped_768.jsonl`.
+
 **Round 2 additions (same day, later).** 37 public-domain MedlinePlus articles: 18 lab test pages and 19
 symptom pages with red-flag sections. Lab coverage 0 → 60%, referral 1/8 → 3/8, overall 42.3%, corpus 367
 documents. Accuracy did not move (lab-only stayed 94/104): the model already knows these items, and the
