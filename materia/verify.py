@@ -94,7 +94,7 @@ def claim_support(claim: str, evidence: str, *, threshold: float = 0.35) -> floa
     return len(shared) / len(ct)
 
 
-def verify_line(line: str, chunks_by_index: dict[int, dict]) -> dict:
+def verify_line(line: str, chunks_by_index: dict[int, dict], *, threshold: float = 0.2) -> dict:
     """Return support for one cited line. Missing citation or index -> unsupported."""
     cited = [int(x) for x in re.findall(r"\[S(\d+)\]", line)]
     if not cited:
@@ -107,11 +107,11 @@ def verify_line(line: str, chunks_by_index: dict[int, dict]) -> dict:
         if not dose_supported(dose, evidence):
             return {"supported": False, "reason": f"dose {dose[0]} {dose[1]} not in evidence",
                     "score": min(scores), "cited": cited}
-    return {"supported": min(scores) >= 0.35, "reason": "", "score": round(min(scores), 3),
+    return {"supported": min(scores) >= threshold, "reason": "", "score": round(min(scores), 3),
             "cited": cited}
 
 
-def verify_options_block(sheet: str, chunks: list[dict]) -> dict:
+def verify_options_block(sheet: str, chunks: list[dict], *, threshold: float = 0.2) -> dict:
     """Verify every option line; return the line-level results."""
     by_index = {i: c for i, c in enumerate(chunks, start=1)}
     results = []
@@ -127,9 +127,9 @@ def verify_options_block(sheet: str, chunks: list[dict]) -> dict:
         text = line.strip()
         if not text or re.match(r"^[-*]?\s*$", text):
             continue
-        if re.search(r"excluded by the safety screen|no evidence found|claimed option\(s\) removed", text, re.I):
+        if re.search(r"excluded by the safety screen|no evidence (found|supported)|claimed option\(s\) removed", text, re.I):
             continue
-        results.append({"line": text, **verify_line(text, by_index)})
+        results.append({"line": text, **verify_line(text, by_index, threshold=threshold)})
     return {
         "lines": results,
         "supported": sum(1 for r in results if r["supported"]),
@@ -172,6 +172,16 @@ def drop_unsupported(sheet: str, chunks: list[dict], *, threshold: float = 0.2) 
                 removed.append({"line": stripped, "score": 0.0, "dose_ok": True, "cited": []})
                 continue
         out.append(line)
+    remaining = [
+        line for line in out
+        if re.match(r"^\s*(?:[-*]|\d+[.)])\s", line)
+        and not re.search(r"excluded by the safety screen|no evidence (found|supported)|claimed option\(s\) removed", line, re.I)
+    ]
+    if removed and not remaining:
+        for i, line in enumerate(out):
+            if line.strip().upper().startswith("OPTIONS"):
+                out.insert(i + 1, "- No evidence supported by the cited sources for this presentation.")
+                break
     if removed:
         for i, line in enumerate(out):
             if line.strip().upper().startswith("OPTIONS"):

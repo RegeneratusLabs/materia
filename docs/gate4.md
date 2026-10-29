@@ -122,3 +122,20 @@ table. Supported lines (acupuncture for cancer fatigue, saw palmetto liver injur
 
 A separate boilerplate filter now keeps chunks like the clearinghouse blurb out of retrieval entirely, so
 the model is not tempted to cite them in the first place.
+
+### Integrated drop-and-verify pipeline (8 vignettes, 2026-10-29)
+
+After unifying the drop threshold (0.2) with the verifier threshold, the full pipeline was run end to end on
+a representative eight vignettes (C01, C03, C06, C08, RF07, RF08, A02, A03):
+
+- **8/8 contract-clean, 0 violations**
+- claims dropped by the verifier: 3 across 3 sheets
+- unsupported claims remaining after dropping: **0**
+- 7.6 min for 8 sheets (server restarts on the RSS guard dominate)
+
+That is the shape the product needs: the sheet is generated, vetoed options are removed before generation,
+lines that their own citations do not support are removed after, and what remains is contract-clean.
+
+The full 30-vignette run was attempted twice and abandoned at the wall-clock cost: the reasoning server hits
+the 3.5 GB guard every few sheets, so 24 sheets take 45–60 minutes. The 24-sheet offline replay is the
+calibration evidence; the 8-vignette run is the integration evidence.

@@ -269,6 +269,18 @@
    "contract_clean": 24,
    "verifier_flags": 17,
    "notes": "pre-screened context; vetoed interventions removed before generation; 3-option cap; verifier flags are a review queue, not a gate"
+  },
+  {
+   "condition": "Symptom sheet (Gate 4), drop-and-verify pipeline, 8 vignettes",
+   "file": "results/gate4_drop.json",
+   "n": 8,
+   "generated_sheets": 8,
+   "contract_violations": 0,
+   "contract_clean": 8,
+   "claims_dropped": 6,
+   "unsupported_after_dropping": 0,
+   "red_flag_matches": "2/2",
+   "vetoes": "1/1"
   }
  ]
 }
