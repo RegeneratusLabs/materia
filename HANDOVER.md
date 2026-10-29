@@ -451,6 +451,16 @@ contract-clean, 0 violations**, red flags 8/8, emergencies 6/6, vetoes 2/2, 18.6
 removing 27 unsupported option lines and 5 vetoed ones. For a 2B model an example beats several
 instructions.
 
+**Round 9 — frozen result and remaining blockers.** The shipped shape has now been run four times:
+**102, 101, 103, 102 (mean 102/104 = 98.1%, 95% CI 93.3–99.5), lab 29/30 in all four.** Two retrieval defects
+were found and fixed this round: substring entity matching ("epa" inside "hepatotoxicity") and missing
+stemming ("statins" vs "statin"). Neither moved the panel score, which is the point — the score is the
+model's, and the fixes improve what the product can cite, not what it knows. Remaining work needs inputs an
+agent does not have: practitioner-written vignettes, and corpus sources that are either not redistributable
+(MSK About Herbs, WHO, ESCOP, Natural Medicines) or geo-blocked (NICE CKS). Eight toxicology herbs
+(comfrey, pennyroyal, chaparral, lobelia, coltsfoot, sassafras, star anise, blue cohosh) have no usable open
+document at all.
+
 **Round 8 correction — coverage is lower than reported.** Hand-labelling all 104 questions
 (`data/panel_subject_labels.json`: 53 name their subject, 31 are lab, 20 name no subject) gives coverage of
 **20/53 = 37.7%** for herb/nutrient subject questions and **20/31 = 64.5%** for lab. The earlier 60.7%

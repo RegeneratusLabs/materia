@@ -496,6 +496,22 @@
    "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition lab-hint --max-tokens 768 --out results/panel_labhint_v3.jsonl",
    "lab": "29/30",
    "note": "three runs of this configuration read 101, 102, 103; quoted result is 102 with a 101-103 range"
+  },
+  {
+   "condition": "v2 panel (104), shipped shape, frozen code (v4)",
+   "file": "results/panel_labhint_v4.jsonl",
+   "n": 104,
+   "correct": 102,
+   "pct": 98.1,
+   "ci95": [
+    93.3,
+    99.5
+   ],
+   "answered": 103,
+   "hit_token_cap": 1,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition lab-hint --max-tokens 768 --out results/panel_labhint_v4.jsonl",
+   "lab": "29/30",
+   "note": "four runs of this configuration: 102, 101, 103, 102; lab 29/30 every time"
   }
  ]
 }

@@ -414,3 +414,19 @@ because herb items do not use retrieval in this configuration.
 **The quoted result is therefore 102/104 = 98.1% with a measured run-to-run range of 101–103, and lab 29/30
 stable across three runs.** Quoting 103 would be quoting the best draw; the mean is what the configuration
 earns. Artifact: `results/panel_labhint_v3.jsonl`.
+
+### Shipped shape — four runs, frozen code (round 9)
+
+| Run | Score | Lab | Answered |
+|---|---|---|---|
+| v1 | 102/104 | 29/30 | 104 |
+| v2 | 101/104 | 29/30 | 103 |
+| v3 | 103/104 | 29/30 | 104 |
+| **v4 (frozen code, 377 docs, stemming + entity fixes)** | **102/104 = 98.1% [93.3, 99.5]** | **29/30** | 103 |
+
+Mean 102/104, range 101–103; **lab 29/30 in all four runs**. v4's two misses are E23 (herb item, identical
+prompt, the recurring noise flip) and L24 (capped). No configuration tested in nine rounds beats closed-book
+by more than noise, and none has produced a lab score other than 29/30.
+
+This is the number the project should quote: **102/104 (98.1%, 95% CI 93.3–99.5) on the author-written panel,
+with lab 29/30, and an explicit run-to-run range of ±1.** Artifact: `results/panel_labhint_v4.jsonl`.
