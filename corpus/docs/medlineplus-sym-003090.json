@@ -1,0 +1,85 @@
+{
+ "doc_id": "medlineplus-sym-003090",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Fever",
+ "title_extra": null,
+ "date": "2024-07-31",
+ "revised": "2024-07-31",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003090.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003090.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:76590e8904a77bf92664fe8d3922e4baa5ce5458bb328079eb6c21008a06d23d",
+ "entities": [
+  "Fever"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003090#001",
+   "text": "Causes: Almost any infection can cause a fever, including:\nBone infections (\nosteomyelitis\n),\nappendicitis\n, skin infections or\ncellulitis\n, and\nmeningitis\nRespiratory infections such as\ncolds\nor\nflu\n-like illnesses,\nsore throats\n(pharyngitis),\near infections\n(\notitis\n),\nsinus infections\n(\nsinusitis\n),\nmononucleosis\n,\nbronchitis\n,\npneumonia\n, and\ntuberculosis\nUrinary tract infections\nViral gastroenteritis\nand\nbacterial gastroenteritis\nChildren and adults may have a low-grade fever for 1 or 2 days after some\nimmunizations\n.\nTeething\nmay cause a slight increase in a child's temperature, but not higher than 100°F (37.8°C).\nAutoimmune or inflammatory disorders may also cause fevers. Some examples are:\nArthritis\nor connective tissue illnesses such as\nrheumatoid arthritis\nand\nsystemic lupus erythematosus\nUlcerative colitis\nand\nCrohn disease\nVasculitis\nor\nperiarteritis nodosa\nThe first symptom of a cancer may be a fever. This is particularly true of\nHodgkin disease\n,\nnon-Hodgkin lymphoma\n, and\nleukemia\n.\nOther possible causes of fever include:\nBlood clots\nor\nthrombophlebitis\nMedicines, such as some antibiotics, antihistamines, and seizure medicines",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Fever"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 170
+  },
+  {
+   "chunk_id": "medlineplus-sym-003090#002",
+   "text": "When to Contact a Medical Professional: Contact your child's provider right away if your child:\nIs 3 months or younger and has a rectal temperature of 100.4°F (38°C) or higher\nIs 3 to 12 months old and has a fever of 102.2°F (39°C) or higher\nIs 2 years or younger and has a fever that lasts longer than 24 to 48 hours\nIs older and has a fever for longer than 48 to 72 hours\nHas a fever of 105°F (40.5°C) or higher, unless it comes down readily with treatment and the person is comfortable\nHas other symptoms that suggest an illness may need to be treated, such as a sore throat,\nearache\n, or\ncough\nHas had fevers come and go for up to a week or more, even if these fevers are not very high\nHas a serious medical illness, such as a heart problem, sickle cell anemia, diabetes, or cystic fibrosis\nRecently had an immunization\nHas a new rash or bruises\nHas pain with urination\nHas a weakened immune system (because of long-term [chronic] steroid or immune suppressing therapy, a bone marrow or organ transplant, spleen removal, HIV/AIDS, or cancer treatment)\nHas recently traveled to another country\nContact your provider right away if you are an adult and you:",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children",
+    "diabetes",
+    "immunosuppression",
+    "cancer"
+   ],
+   "entities": [
+    "Fever"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 212
+  },
+  {
+   "chunk_id": "medlineplus-sym-003090#003",
+   "text": "When to Contact a Medical Professional: Have a fever of 105°F (40.6°C) or higher, unless it comes down readily with treatment and you are comfortable\nHave a fever that stays at or keeps rising above 103°F (39.4°C)\nHave a fever for longer than 48 to 72 hours\nHave had fevers come and go for up to a week or more, even if they are not very high\nHave a serious medical illness, such as a\nheart problem\n,\nsickle cell anemia\n,\ndiabetes\n,\ncystic fibrosis\n,\nCOPD\n, or other long-term (chronic) lung problems\nHave a new rash or bruises\nHave pain with urination\nHave a weakened immune system (from chronic steroid or immune suppressing therapy, a bone marrow or organ transplant, spleen removal, HIV/AIDS, or cancer treatment)\nHave recently traveled to another country\nCall 911 or the local emergency number if you or your child has a fever and:\nIs crying and cannot be calmed (children)\nCannot be awakened easily or at all\nSeems confused\nCannot walk\nHas difficulty breathing, even after the nose is cleared\nHas blue lips, tongue, or nails\nHas a very bad headache\nHas a stiff neck\nRefuses to move an arm or leg (children)\nHas a seizure",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children",
+    "diabetes",
+    "immunosuppression",
+    "cancer"
+   ],
+   "entities": [
+    "Fever"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 204
+  }
+ ]
+}

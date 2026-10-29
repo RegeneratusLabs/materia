@@ -1,0 +1,80 @@
+{
+ "doc_id": "medlineplus-sym-000505",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Urinary tract infection - children",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/000505.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/000505.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:5d1492b65f3ff4ee626442d24e5339503f8edc8f0dd6941ddb300691038ce662",
+ "entities": [
+  "Urinary tract infection - children"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-000505#001",
+   "text": "Causes: Urinary tract infections (UTIs) can occur when bacteria get into the bladder or the kidneys. Bacteria are commonly present on the skin around the anus. They can also be present near the vagina.\nSome factors make it easier for bacteria to enter or stay in the urinary tract, such as:\nVesicoureteral reflux\nin which urine flow backs up from the bladder into the ureters and kidneys.\nBrain or nervous system illnesses (such as\nmyelomeningocele\nor spinal cord injury).\nBubble baths or tight-fitting clothes (girls).\nChanges or birth defects in the structure of the urinary tract.\nNot urinating often enough during the day.\nWiping from back (near the anus) to front after going to the bathroom. In girls, this can bring bacteria to the opening where the urine comes out.\nUTIs are more common in girls. This may occur as children begin toilet training around 3 years of age. Boys who are not circumcised have a slightly higher risk of UTIs before age 1.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children",
+    "renal"
+   ],
+   "entities": [
+    "Urinary tract infection - children"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 164
+  },
+  {
+   "chunk_id": "medlineplus-sym-000505#002",
+   "text": "Symptoms: Young children with UTIs may have a fever, poor appetite, vomiting, or no symptoms at all.\nMost UTIs in children only involve the bladder. It may spread to the kidneys.\nSymptoms of a bladder infection in children include:\nBlood in the urine\nCloudy urine\nFoul or strong urine odor\nFrequent or urgent need to urinate\nGeneral ill feeling (\nmalaise\n)\nPain or burning with urination\nPressure or pain in the lower pelvis or lower back\nWetting problems after the child has been toilet trained\nSigns that the infection may have spread to the kidneys include:\nChills with shaking\nFever\nFlushed, warm, or reddened skin\nNausea and vomiting\nPain in the side (flank) or back\nSevere pain in the belly area",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children",
+    "renal"
+   ],
+   "entities": [
+    "Urinary tract infection - children"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 122
+  },
+  {
+   "chunk_id": "medlineplus-sym-000505#003",
+   "text": "When to Contact a Medical Professional: Contact your child's provider if your child's symptoms continue after treatment, or come back more than twice in 6 months or your child has:\nBack pain or\nflank pain\nBad-smelling, bloody, or discolored urine\nFever of 102.2°F (39°C) in infants for longer than 24 hours\nLow back pain or abdominal pain below the belly button\nFever that does not go away\nVery frequent urination, or need to urinate many times during the night\nVomiting",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children"
+   ],
+   "entities": [
+    "Urinary tract infection - children"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 80
+  }
+ ]
+}

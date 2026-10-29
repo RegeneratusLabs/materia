@@ -39,9 +39,9 @@
    "nccih-ginkgo#006",
    "hc-nhpid-ginkgo-biloba2#006",
    "hc-nhpid-ginkgo-biloba2#005",
-   "nccih-ginkgo#001"
+   "medlineplus-sym-003090#002"
   ],
-  "entity_docs_found": 6
+  "entity_docs_found": 5
  },
  {
   "id": "H03",
@@ -79,10 +79,10 @@
   "best": null,
   "top": [
    "nci-pdq-cartilage-pdq#055",
-   "nccih-soy#005",
    "epmc-42812739#002",
+   "nccih-soy#005",
+   "medlineplus-sym-003205#002",
    "nci-pdq-vitamin-c-pdq#040",
-   "nci-pdq-curcumin-pdq#051",
    "hc-nhpid-oligotherapy2#006"
   ],
   "entity_docs_found": 0
@@ -153,9 +153,9 @@
    "hc-nhpid-5htp#006",
    "hc-nhpid-5htp#007",
    "hc-nhpid-diindolylmethane#005",
-   "hc-nhpid-indole3carbinol#005",
    "epmc-42633317#001",
-   "hc-nhpid-fonc-cognitive-func#022"
+   "hc-nhpid-fonc-cognitive-func#022",
+   "medlineplus-sym-000505#003"
   ],
   "entity_docs_found": 2
  },
@@ -190,8 +190,8 @@
   "top": [
    "nccih-cranberry#006",
    "nccih-bitter-orange#005",
-   "nccih-licorice-root#005",
    "ema-lavandula-angustifolia-miller-aetheroleum#004",
+   "medlineplus-sym-003072#002",
    "hc-nhpid-acne#006",
    "epmc-42787405#003"
   ],
@@ -231,9 +231,9 @@
    "ema-valeriana-officinalis-l-radix#008",
    "ema-valeriana-officinalis-l-radix#006",
    "nccih-valerian#005",
-   "hc-nhpid-valerian2#005"
+   "medlineplus-sym-003090#002"
   ],
-  "entity_docs_found": 6
+  "entity_docs_found": 5
  },
  {
   "id": "H13",
@@ -252,8 +252,8 @@
    "nccih-asian-ginseng#007",
    "nccih-asian-ginseng#006",
    "hc-nhpid-ginseng-panax2#007",
-   "hc-nhpid-tcm#010",
-   "epmc-41764614#003"
+   "epmc-41764614#003",
+   "medlineplus-sym-003072#002"
   ],
   "entity_docs_found": 4
  },
@@ -423,12 +423,12 @@
   "top": [
    "nci-pdq-black-cohosh-pdq#011",
    "nccih-black-cohosh#005",
-   "nccih-black-cohosh#006",
    "nci-pdq-black-cohosh-pdq#030",
    "hc-nhpid-black-cohosh-actee-noire2#005",
-   "hc-nhpid-black-cohosh-actee-noire2#006"
+   "hc-nhpid-black-cohosh-actee-noire2#006",
+   "medlineplus-sym-007504#002"
   ],
-  "entity_docs_found": 6
+  "entity_docs_found": 5
  },
  {
   "id": "H23",
@@ -449,7 +449,7 @@
  {
   "id": "H24",
   "cat": "herb-drug",
-  "covered": true,
+  "covered": false,
   "want_sections": [
    "adverse_effects",
    "cautions",
@@ -457,16 +457,16 @@
    "interactions",
    "red_flags"
   ],
-  "best": "nccih-turmeric#005",
+  "best": null,
   "top": [
    "hc-nhpid-turmeric-oral-curcuma-orale#007",
    "hc-nhpid-turmeric-topical2#006",
    "nci-pdq-curcumin-pdq#051",
-   "nccih-turmeric#005",
    "hc-nhpid-turmeric-topical2#007",
-   "ema-ginkgo-biloba-l-folium#005"
+   "ema-ginkgo-biloba-l-folium#005",
+   "medlineplus-sym-003090#002"
   ],
-  "entity_docs_found": 5
+  "entity_docs_found": 4
  },
  {
   "id": "H25",
@@ -634,7 +634,7 @@
    "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#009",
    "hc-nhpid-saw-palmetto-sabal2#006",
    "hc-nhpid-grape-seed-extract#004",
-   "hc-nhpid-vitamin-d-hd#007",
+   "medlineplus-sym-003120#002",
    "nci-pdq-black-cohosh-pdq#030"
   ],
   "entity_docs_found": 0
@@ -732,7 +732,7 @@
    "nci-pdq-prostate-supplements-pdq#136",
    "nci-pdq-prostate-supplements-pdq#085",
    "hc-nhpid-oligotherapy2#006",
-   "epmc-42787405#003"
+   "medlineplus-sym-003200#002"
   ],
   "entity_docs_found": 0
  },
@@ -748,8 +748,8 @@
   "top": [
    "medlineplus-003684#005",
    "medlineplus-003684#006",
-   "medlineplus-003517#006",
    "medlineplus-003517#005",
+   "medlineplus-003517#006",
    "medlineplus-003490#006",
    "medlineplus-003489#006"
   ],
@@ -809,18 +809,18 @@
  {
   "id": "S03",
   "cat": "safety",
-  "covered": false,
+  "covered": true,
   "want_sections": [],
-  "best": null,
+  "best": "medlineplus-sym-003088#003",
   "top": [
+   "medlineplus-sym-003088#003",
+   "medlineplus-sym-003088#002",
+   "medlineplus-sym-003120#002",
    "nccih-turmeric#005",
    "hc-nhpid-multiple-joint-health2#016",
-   "hc-nhpid-greentea-thevert2#006",
-   "hc-nhpid-tamar-malabar2#005",
-   "hc-nhpid-calcium-potassium2#006",
-   "nccih-acai#002"
+   "hc-nhpid-greentea-thevert2#006"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 2
  },
  {
   "id": "S04",
@@ -836,11 +836,11 @@
   "best": null,
   "top": [
    "ema-echinacea-purpurea-l-moench-herba-recens#006",
-   "nccih-elderberry#005",
    "ema-ginkgo-biloba-l-folium#006",
-   "ema-allium-sativum-l-bulbus#006",
+   "nccih-elderberry#005",
    "ema-ginkgo-biloba-l-folium#003",
-   "epmc-41764614#001"
+   "epmc-41764614#001",
+   "medlineplus-sym-003024#004"
   ],
   "entity_docs_found": 0
  },
@@ -861,7 +861,7 @@
    "nci-pdq-coenzyme-q10-pdq#034",
    "hc-nhpid-tcm#008",
    "hc-nhpid-cascara-sagrada2#007",
-   "hc-nhpid-aloe-oral-orale2#006",
+   "medlineplus-sym-003072#002",
    "epmc-41764614#001"
   ],
   "entity_docs_found": 0
@@ -883,8 +883,8 @@
    "nccih-dandelion#005",
    "ema-serenoa-repens-w-bartram-small-fructus#005",
    "nccih-ginkgo#006",
-   "nccih-cranberry#006",
-   "ema-ginkgo-biloba-l-folium#004"
+   "ema-ginkgo-biloba-l-folium#004",
+   "medlineplus-sym-003092#002"
   ],
   "entity_docs_found": 0
  },
@@ -905,10 +905,10 @@
    "nccih-st-johns-wort#006",
    "hc-nhpid-stjohnswort-millepertuis-topical#008",
    "hc-nhpid-stjohnswort-millepertuis-oral2#006",
-   "hc-nhpid-stjohnswort-millepertuis-topical#007",
-   "nci-pdq-dietary-interactions-pdq#036"
+   "nci-pdq-dietary-interactions-pdq#036",
+   "medlineplus-sym-003090#003"
   ],
-  "entity_docs_found": 5
+  "entity_docs_found": 4
  },
  {
   "id": "E02",
@@ -926,11 +926,11 @@
    "hc-nhpid-garlic-ail#006",
    "nccih-garlic#005",
    "hc-nhpid-garlic-ail#007",
-   "nccih-garlic#004",
    "ema-allium-sativum-l-bulbus#005",
-   "ema-allium-sativum-l-bulbus#003"
+   "ema-allium-sativum-l-bulbus#003",
+   "medlineplus-sym-003090#002"
   ],
-  "entity_docs_found": 4
+  "entity_docs_found": 3
  },
  {
   "id": "E03",
@@ -987,10 +987,10 @@
    "hc-nhpid-fenugreek-topical2#006",
    "hc-nhpid-fenugreek-oral2#005",
    "nccih-fenugreek#002",
-   "hc-nhpid-fenugreek-topical2#002",
-   "ema-ginkgo-biloba-l-folium#005"
+   "ema-ginkgo-biloba-l-folium#005",
+   "medlineplus-sym-003090#002"
   ],
-  "entity_docs_found": 5
+  "entity_docs_found": 4
  },
  {
   "id": "E06",
@@ -1009,7 +1009,7 @@
    "nccih-cinnamon#006",
    "hc-nhpid-cinnamomum-verum#007",
    "hc-nhpid-cinnamomum-verum#006",
-   "nccih-peppermint-oil#006",
+   "medlineplus-sym-003090#002",
    "ema-allium-sativum-l-bulbus#005"
   ],
   "entity_docs_found": 4
@@ -1045,8 +1045,8 @@
   "top": [
    "nccih-bitter-orange#005",
    "nccih-bitter-orange#006",
+   "medlineplus-sym-003107#002",
    "ema-allium-sativum-l-bulbus#005",
-   "nci-pdq-prostate-supplements-pdq#045",
    "hc-nhpid-conj-linoleic-acid#006",
    "hc-nhpid-chitosan2#006"
   ],
@@ -1069,8 +1069,8 @@
    "hc-nhpid-passionflower-passiflore#006",
    "hc-nhpid-passionflower-passiflore#007",
    "nccih-passionflower#002",
-   "nccih-kava#005",
-   "ema-allium-sativum-l-bulbus#005"
+   "ema-allium-sativum-l-bulbus#005",
+   "medlineplus-sym-003088#003"
   ],
   "entity_docs_found": 4
  },
@@ -1097,12 +1097,12 @@
   "want_sections": [],
   "best": null,
   "top": [
+   "medlineplus-sym-003182#001",
    "nci-pdq-prostate-supplements-pdq#019",
    "medlineplus-003477#006",
    "nci-pdq-prostate-supplements-pdq#015",
    "medlineplus-003477#004",
-   "hc-nhpid-rhodiol2#002",
-   "hc-nhpid-multiple-joint-health2#013"
+   "medlineplus-sym-003024#002"
   ],
   "entity_docs_found": 0
  },
@@ -1209,7 +1209,7 @@
    "nccih-valerian#005",
    "ema-echinacea-purpurea-l-moench-herba-recens#006",
    "nccih-ashwagandha#005",
-   "hc-nhpid-arctostaphylos-uva-ursi2#006"
+   "medlineplus-sym-003090#002"
   ],
   "entity_docs_found": 0
  },
@@ -1225,7 +1225,7 @@
    "nccih-ephedra#002",
    "nci-pdq-mushrooms-pdq#001",
    "nccih-cinnamon#003",
-   "nccih-ephedra#005"
+   "nci-pdq-mushrooms-pdq#023"
   ],
   "entity_docs_found": 0
  },
@@ -1281,11 +1281,11 @@
   "best": null,
   "top": [
    "hc-nhpid-senna-sene#003",
+   "medlineplus-sym-003120#001",
    "nci-pdq-hydrazine-sulfate-pdq#006",
-   "hc-nhpid-hops-houblon#007",
-   "nci-pdq-gerson-pdq#013",
-   "hc-nhpid-senna-sene#009",
-   "hc-nhpid-tcm#010"
+   "medlineplus-sym-000505#003",
+   "medlineplus-sym-003029#001",
+   "medlineplus-sym-003200#001"
   ],
   "entity_docs_found": 0
  },
@@ -1306,7 +1306,7 @@
    "hc-nhpid-pennyroyal2#004",
    "hc-nhpid-aromatherap2#021",
    "hc-nhpid-peppermint-menthepoivree#006",
-   "hc-nhpid-peppermint-menthepoivree#005",
+   "medlineplus-sym-003205#002",
    "ema-allium-sativum-l-bulbus#005"
   ],
   "entity_docs_found": 0
@@ -1327,8 +1327,8 @@
    "nccih-black-cohosh#005",
    "ema-valeriana-officinalis-l-radix#009",
    "ema-avena-sativa-l-herba#006",
-   "ema-matricaria-recutita-l-flos-first-version#015",
    "ema-ginkgo-biloba-l-folium#003",
+   "medlineplus-sym-003090#003",
    "nci-pdq-black-cohosh-pdq#030"
   ],
   "entity_docs_found": 0
@@ -1388,8 +1388,8 @@
    "hc-nhpid-angelica-sinensis2#007",
    "ema-serenoa-repens-w-bartram-small-fructus#005",
    "epmc-42787405#001",
-   "ema-ginkgo-biloba-l-folium#005",
-   "ema-allium-sativum-l-bulbus#004"
+   "ema-allium-sativum-l-bulbus#004",
+   "medlineplus-sym-003092#002"
   ],
   "entity_docs_found": 2
  },
@@ -1643,7 +1643,7 @@
    "ema-camellia-sinensis-l-kuntze-non-fermentatum-folium#009",
    "hc-nhpid-saw-palmetto-sabal2#006",
    "hc-nhpid-grape-seed-extract#004",
-   "hc-nhpid-vitamin-d-hd#007",
+   "medlineplus-sym-003120#002",
    "nci-pdq-black-cohosh-pdq#030"
   ],
   "entity_docs_found": 0
@@ -1724,10 +1724,10 @@
   "top": [
    "medlineplus-003488#002",
    "nci-pdq-prostate-supplements-pdq#183",
+   "medlineplus-sym-003117#001",
    "nci-pdq-prostate-supplements-pdq#076",
    "medlineplus-003684#005",
-   "nci-pdq-curcumin-pdq#018",
-   "medlineplus-003490#002"
+   "nci-pdq-curcumin-pdq#018"
   ],
   "entity_docs_found": 0
  },
@@ -1853,42 +1853,42 @@
    "nci-pdq-milk-thistle-pdq#005",
    "nccih-bitter-orange#004",
    "nccih-pomegranate#003",
-   "nci-pdq-mushrooms-pdq#002",
-   "nci-pdq-prostate-supplements-pdq#025"
+   "medlineplus-sym-000505#002",
+   "nci-pdq-mushrooms-pdq#002"
   ],
   "entity_docs_found": 0
  },
  {
   "id": "R02",
   "cat": "referral",
-  "covered": false,
+  "covered": true,
   "want_sections": [],
-  "best": null,
+  "best": "medlineplus-sym-003088#001",
   "top": [
+   "medlineplus-sym-003088#001",
+   "medlineplus-sym-003088#003",
    "medlineplus-003517#006",
    "medlineplus-003517#004",
    "medlineplus-003687#004",
-   "medlineplus-003684#006",
-   "medlineplus-003684#005",
-   "medlineplus-003477#002"
+   "medlineplus-003684#006"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 2
  },
  {
   "id": "R03",
   "cat": "referral",
-  "covered": false,
+  "covered": true,
   "want_sections": [],
-  "best": null,
+  "best": "medlineplus-sym-003088#001",
   "top": [
+   "medlineplus-sym-003088#001",
+   "medlineplus-sym-003088#002",
    "nci-pdq-antineoplastons-pdq#054",
    "nci-pdq-antineoplastons-pdq#036",
    "nci-pdq-aromatherapy-pdq#012",
-   "nci-pdq-acupuncture-pdq#003",
-   "nci-pdq-coenzyme-q10-pdq#025",
-   "nci-pdq-acupuncture-pdq#013"
+   "nci-pdq-acupuncture-pdq#003"
   ],
-  "entity_docs_found": 0
+  "entity_docs_found": 2
  },
  {
   "id": "R04",
@@ -1918,10 +1918,10 @@
   "top": [
    "nccih-peppermint-oil#004",
    "nci-pdq-black-cohosh-pdq#028",
+   "nci-pdq-acupuncture-pdq#072",
    "hc-nhpid-peppermint-menthepoivree#005",
    "hc-nhpid-horseradish-raifort2#005",
-   "nccih-turmeric#005",
-   "nci-pdq-acupuncture-pdq#072"
+   "nci-pdq-acupuncture-pdq#119"
   ],
   "entity_docs_found": 0
  },
@@ -1932,8 +1932,8 @@
   "want_sections": [],
   "best": null,
   "top": [
-   "nci-pdq-gerson-pdq#005",
    "hc-nhpid-chitosan2#002",
+   "nci-pdq-gerson-pdq#005",
    "hc-nhpid-conj-linoleic-acid#002",
    "nci-pdq-prostate-supplements-pdq#009",
    "hc-nhpid-greencoffeebean-ext-fevescafevert2#002",
@@ -1971,8 +1971,8 @@
    "medlineplus-003356#005",
    "medlineplus-007813#005",
    "medlineplus-003705#005",
-   "medlineplus-003475#006",
-   "medlineplus-003458#005"
+   "medlineplus-003458#005",
+   "medlineplus-003475#006"
   ],
   "entity_docs_found": 0
  }

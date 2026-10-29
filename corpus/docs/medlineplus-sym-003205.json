@@ -1,0 +1,63 @@
+{
+ "doc_id": "medlineplus-sym-003205",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Confusion",
+ "title_extra": null,
+ "date": "2026-01-27",
+ "revised": "2026-01-27",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003205.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003205.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:49913c6a3011955713b4ea3822b7cf4ef6af84fbd0377da41fd4672038928b77",
+ "entities": [
+  "Confusion"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003205#001",
+   "text": "Causes: Confusion may be caused by different health problems, such as:\nAlcohol\nor drug intoxication or withdrawal\nBrain tumor\nFever\nFluid or electrolyte imbalance\nHead trauma or\nhead injury\n(\nconcussion\n)\nIllness in an older person, such as loss of brain function (\ndementia\n)\nIllness in a person with existing neurological disease, such as a stroke\nInfections\nLack of sleep (sleep deprivation)\nLow blood sugar\nLow levels of oxygen (for example, from chronic lung disorders)\nMedicines\nNutritional deficiencies, especially\nniacin\n,\nthiamine\n, or\nvitamin B12\nSeizures\nStroke\nSudden drop in body temperature (\nhypothermia\n)",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "sedation",
+    "cancer"
+   ],
+   "entities": [
+    "Confusion"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "medlineplus-sym-003205#002",
+   "text": "When to Contact a Medical Professional: Call 911 or the local emergency number if confusion has come on suddenly or there are other symptoms, such as:\nCold or clammy skin\nDizziness\nor feeling faint\nFast pulse\nFever\nHeadache\nSlow or\nrapid breathing\nUncontrolled shivering\nAlso call 911 or the local emergency number if:\nThis is the first time someone becomes confused for no reason\nConfusion has come on suddenly in someone with diabetes\nConfusion came on after a head injury\nThe person is in danger of harming themselves or others\nThe person becomes unconscious at any time\nIf you have been experiencing confusion, contact your provider for an appointment.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "diabetes"
+   ],
+   "entities": [
+    "Confusion"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 109
+  }
+ ]
+}

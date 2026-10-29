@@ -1,0 +1,81 @@
+{
+ "doc_id": "medlineplus-sym-003182",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Leg pain",
+ "title_extra": null,
+ "date": "2025-07-03",
+ "revised": "2025-07-03",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003182.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003182.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:44ca9f8055ce708bdca4d184bdfeb81181f6a4aca696ecba756de09c7305ee30",
+ "entities": [
+  "Leg pain"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003182#001",
+   "text": "Causes: Leg pain can be due to a muscle cramp (also called a\ncharley horse\n). Common causes of cramps include:\nDehydration\nor low amounts of potassium, sodium, calcium, or magnesium in the blood\nMedicines (such as diuretics and statins)\nMuscle fatigue or strain from overuse, too much exercise, or holding a muscle in the same position for a long time\nAn injury can also cause leg pain from:\nA torn or overstretched muscle (\nstrain\n)\nHairline crack in the bone (stress fracture)\nInflamed tendon (\ntendinitis\n)\nShin splints\n(pain in the front of the leg from overuse)\nOther common causes of leg pain include:\nPeripheral artery disease (PAD)\n, which causes a problem with blood flow in the legs (this type of pain, called claudication, is generally felt when exercising or walking and is relieved by rest)\nBlood clot (\ndeep vein thrombosis\n), which is sometimes from long-term bed rest but can also occur for no reason\nInfection of the bone (\nosteomyelitis\n) or skin and soft tissue (\ncellulitis\n)\nInflammation of the leg joints caused by\narthritis\nor\ngout\nNerve damage\ncommon to people with diabetes, people who consume too much alcohol, and other nerve diseases (neuropathy)\nVaricose veins\nLess common causes include:\nCancerous bone tumors (\nosteosarcoma",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "diabetes",
+    "sedation",
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Leg pain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 215
+  },
+  {
+   "chunk_id": "medlineplus-sym-003182#002",
+   "text": "Causes: , Ewing sarcoma, cancer that has spread to the bone from elsewhere in the body)\nLegg-Calve-Perthes disease\n-- poor blood flow to the hip that may stop or slow the normal growth of the leg\nNoncancerous (benign) tumors or cysts of the femur or tibia (osteoid osteoma)\nSciatic nerve pain (radiating pain down the leg) caused by a slipped disk in the back\nSlipped capital femoral epiphysis\n-- most often seen in boys and overweight children age 11 to 15",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Leg pain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 81
+  },
+  {
+   "chunk_id": "medlineplus-sym-003182#003",
+   "text": "When to Contact a Medical Professional: Contact your health care provider if:\nYour painful leg is swollen or red.\nYou have a fever.\nYour pain gets worse when you walk or exercise and improves with rest.\nYour leg is black and blue.\nYour leg is cold and pale.\nYou are taking medicines that may be causing leg pain. Do not stop taking or change any of your medicines without talking to your provider.\nSelf-care steps do not help.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Leg pain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 78
+  }
+ ]
+}

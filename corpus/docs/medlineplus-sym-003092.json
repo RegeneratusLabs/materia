@@ -1,0 +1,67 @@
+{
+ "doc_id": "medlineplus-sym-003092",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Fainting",
+ "title_extra": null,
+ "date": "2025-05-19",
+ "revised": "2025-05-19",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003092.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003092.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:90210bf12e5efc9ae396758f80eddb567965e95abeb2ca9e4854f8151571406a",
+ "entities": [
+  "Fainting"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003092#001",
+   "text": "Causes: Fainting may occur while or after you:\nCough very hard\nHave a bowel movement, especially if you are straining\nHave been standing in one place for too long\nUrinate, especially at night or after lying down for a prolonged period\nFainting can also be related to:\nEmotional distress\nFear\nSevere pain\nOther causes of fainting, some of which may be more serious, include:\nCertain medicines, including those used for anxiety,\ndepression\n, and high blood pressure. These medicines may cause a drop in blood pressure.\nDrug or alcohol use.\nHeart disease, such as abnormal heart rhythm, heart attack, or stroke.\nRapid and deep breathing (\nhyperventilation\n).\nLow blood sugar (hypoglycemia).\nSeizures\n.\nSudden drop in blood pressure, such as from bleeding or being severely\ndehydrated\n.\nStanding up suddenly from a lying position.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "anticoagulant",
+    "diabetes",
+    "sedation",
+    "hypertension"
+   ],
+   "entities": [
+    "Fainting"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 135
+  },
+  {
+   "chunk_id": "medlineplus-sym-003092#002",
+   "text": "When to Contact a Medical Professional: Call 911 or the local emergency number if the person who fainted:\nFell from a height, especially if injured or bleeding\nDoes not become alert quickly (within a couple of minutes)\nIs pregnant\nIs over age 50\nHas diabetes (check for medical identification bracelets)\nFeels chest pain, pressure, or discomfort\nHas a pounding or irregular heartbeat\nHas a loss of speech, vision problems, or is unable to move one or more limbs\nHas convulsions, a tongue injury, or a loss of bladder or bowel control\nEven if it is not an emergency situation, you should be seen by your provider if you have never fainted before, if you faint often, or if you have new symptoms with fainting. Contact your provider for an appointment as soon as possible.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "pregnancy",
+    "anticoagulant",
+    "diabetes"
+   ],
+   "entities": [
+    "Fainting"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 134
+  }
+ ]
+}

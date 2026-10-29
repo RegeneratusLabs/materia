@@ -353,6 +353,30 @@
    "mean_reasoning_tokens": 5.0,
    "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition hybrid --no-think --max-tokens 64 --k 3 --rerank --rerank-fetch 8 --evidence-words 60 --out results/panel_hybrid_rerank2.jsonl",
    "note": "rejected"
+  },
+  {
+   "condition": "v2 panel (104), lab-only retrieval, +MedlinePlus lab corpus",
+   "file": "results/panel_hybrid_v4.jsonl",
+   "n": 104,
+   "correct": 94,
+   "pct": 90.4,
+   "ci95": [
+    83.2,
+    94.7
+   ],
+   "answered": 104,
+   "mean_reasoning_tokens": 5.0,
+   "command": "/home/josh/projects/materia/.venv/bin/python scripts/run_panel.py --condition hybrid --no-think --max-tokens 64 --k 3 --evidence-words 60 --out results/panel_hybrid_v4.jsonl",
+   "paired_vs_closed": {
+    "delta_points": 3.8,
+    "fixed": 6,
+    "broke": 2,
+    "mcnemar_p": 0.289
+   },
+   "coverage": {
+    "overall_pct": 42.3,
+    "lab_pct": 60.0
+   }
   }
  ]
 }

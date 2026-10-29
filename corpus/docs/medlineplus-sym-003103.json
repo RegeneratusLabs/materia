@@ -1,0 +1,66 @@
+{
+ "doc_id": "medlineplus-sym-003103",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Swelling",
+ "title_extra": null,
+ "date": "2024-10-09",
+ "revised": "2024-10-09",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003103.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003103.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:0bb1c9bdf22e59ddea3556188c3ef73e4e01eafa275fb5245fbb81a945d16814",
+ "entities": [
+  "Swelling"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003103#001",
+   "text": "Causes: Swelling can be caused by any of the following:\nAcute glomerulonephritis\n(a kidney disease)\nBurns\n, including sunburn\nChronic kidney disease\nHeart failure\nLiver failure from\ncirrhosis\nor other liver disease\nNephrotic syndrome\n(a kidney disease)\nPoor nutrition\nPregnancy\nThyroid disease\nToo little\nalbumin\nin the blood (hypoalbuminemia)\nToo much salt or sodium\nUse of certain medicines, such as corticosteroids or medicines used to treat heart disease, high blood pressure, or diabetes",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "pregnancy",
+    "liver",
+    "thyroid",
+    "diabetes",
+    "hypertension",
+    "renal"
+   ],
+   "entities": [
+    "Swelling"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "medlineplus-sym-003103#002",
+   "text": "When to Contact a Medical Professional: If you notice any unexplained swelling, contact your provider.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Swelling"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 15
+  }
+ ]
+}

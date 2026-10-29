@@ -1,0 +1,65 @@
+{
+ "doc_id": "medlineplus-sym-007504",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Abdominal pain - children under age 12",
+ "title_extra": null,
+ "date": "2025-07-01",
+ "revised": "2025-07-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/007504.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/007504.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:3e96569ed0fd03c2578eb221a7f40410e8d0cdd7778193a802c419cb0e04cf91",
+ "entities": [
+  "Abdominal pain - children under age 12"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-007504#001",
+   "text": "Causes: Your child could have abdominal pain for many reasons. It can be hard to know what is going on when your child has abdominal pain. Most of the time, there is nothing seriously wrong. But sometimes, it can be a sign that there is something serious and your child needs medical care.\nYour child most likely is having abdominal pain from something that is not life threatening. For example, your child may have:\nAir swallowing\nAbdominal migraine\nColic\nConstipation\nGas\nFood allergy or\nintolerance\nFood poisoning\nHeartburn or acid reflux\nIngesting grass or plants\nMononucleosis\n(\"mono\")\nStomach flu\nStrep throat\nPain caused by anxiety or depression\nYour child may have something more serious if the pain does not get better in 24 hours, gets worse or gets more frequent. Abdominal pain can be a sign of:\nAccidental poisoning\nAppendicitis\nGallstones\nHernia or other\nbowel twisting, blockage, or obstruction\nInflammatory bowel disease (Crohn disease or ulcerative colitis)\nIntussusception\n, caused by part of the intestine being pulled inward into itself\nPregnancy\nSickle cell disease crisis\nStomach ulcer\nSwallowed foreign bodies, especially coins or other solid objects\nTorsion (twisting) of the ovary\nTorsion (twisting) of the testicle\nTumor or cancer\nUnusual inherited metabolic disorders (such as abnormal accumulation of protein and sugar breakdown products)\nUrinary tract infection",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "pregnancy",
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Abdominal pain - children under age 12"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 216
+  },
+  {
+   "chunk_id": "medlineplus-sym-007504#002",
+   "text": "When to Contact a Medical Professional: Contact your provider if the abdominal pain does not go away in 24 hours.\nSeek medical help right away or call your local emergency number (such as 911) if your child:\nIs a baby younger than 3 months and has diarrhea or vomiting\nIs currently being treated for cancer\nIs unable to pass stool, especially if your child is also vomiting\nIs vomiting blood or has blood in the stool (especially if the blood is maroon or a dark, tarry black color)\nHas sudden, sharp abdominal pain\nHas a rigid, hard belly\nHas had a recent injury to the abdomen\nIs having trouble breathing\nContact your provider if your child has:\nAbdominal pain that lasts 1 week or longer, even if it comes and goes.\nAbdominal pain that does not improve in 24 hours. Contact your provider if it is getting more severe and frequent, or if your child is nauseous and vomiting with it.\nA burning sensation during urination.\nDiarrhea for more than 2 days.\nVomiting for more than 12 hours.\nFever over 100.4°F (38°C).\nPoor appetite for more than 2 days.\nUnexplained weight loss.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children",
+    "cancer"
+   ],
+   "entities": [
+    "Abdominal pain - children under age 12"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 192
+  }
+ ]
+}

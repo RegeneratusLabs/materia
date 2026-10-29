@@ -1,0 +1,81 @@
+{
+ "doc_id": "medlineplus-sym-000521",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Urinary tract infection - adults",
+ "title_extra": null,
+ "date": "2024-07-23",
+ "revised": "2024-07-23",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/000521.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/000521.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:0b9c476ba708a3dc8f331d248fbf262879dcbb1542e6a9ff7975b31ab6b26aa9",
+ "entities": [
+  "Urinary tract infection - adults"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-000521#001",
+   "text": "Causes: Most UTIs are caused by bacteria that enter the urethra and then the bladder. The infection most commonly develops in the bladder, but can spread to the kidneys. Most of the time, your body can get rid of these bacteria. However, certain conditions increase the risk for having UTIs.\nWomen tend to get them more often because their urethra is shorter and closer to the anus than in men. Because of this, women are more likely to get an infection after sexual activity or when using a diaphragm for birth control. Menopause also increases the risk for a UTI.\nThe following also increase your chances of developing a UTI:\nDiabetes\nAdvanced age\nConditions that affect personal care habits (such as\nAlzheimer disease\nand\ndelirium\n)\nProblems emptying the bladder completely\nHaving a urinary catheter\nBowel incontinence\nEnlarged prostate\n,\nnarrowed urethra\n, or anything that blocks the flow of urine\nKidney stones\nStaying still (immobile) for a long period of time (for example, while you are recovering from a hip fracture)\nPregnancy\nSurgery or other procedure involving the urinary tract",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "pregnancy",
+    "surgery",
+    "diabetes",
+    "renal"
+   ],
+   "entities": [
+    "Urinary tract infection - adults"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 181
+  },
+  {
+   "chunk_id": "medlineplus-sym-000521#002",
+   "text": "Symptoms: The symptoms of a bladder infection include:\nCloudy\nor bloody urine, which may have a foul or strong odor\nLow grade fever in some people\nPain or burning with\nurination\nPressure or cramping in the lower abdomen or back\nStrong need to urinate often, even right after the bladder has been emptied\nIf the infection spreads to your kidneys, symptoms may include:\nChills\nand shaking or night sweats\nFatigue\nand a general ill feeling\nFever above 101°F (38.3°C)\nPain in the side, back, or groin\nFlushed, warm, or reddened skin\nMental changes or\nconfusion\n(in older people, these symptoms often are the only signs of a UTI)\nNausea\nand vomiting\nSevere abdominal pain (sometimes)",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "renal"
+   ],
+   "entities": [
+    "Urinary tract infection - adults"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "medlineplus-sym-000521#003",
+   "text": "When to Contact a Medical Professional: Contact your provider if you have symptoms of a UTI. Contact your provider right away if you have signs of a possible kidney infection, such as:\nBack or side pain\nChills\nFever\nVomiting\nAlso contact your provider if UTI symptoms come back shortly after you have been treated with antibiotics.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "renal"
+   ],
+   "entities": [
+    "Urinary tract infection - adults"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 56
+  }
+ ]
+}

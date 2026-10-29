@@ -1,0 +1,65 @@
+{
+ "doc_id": "medlineplus-sym-003117",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Nausea and vomiting – adults",
+ "title_extra": null,
+ "date": "2025-07-22",
+ "revised": "2025-07-22",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003117.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003117.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:7cc28d2d0eaec873a101ed095eb4de493bfcd8176965446503986a55de345228",
+ "entities": [
+  "Nausea and vomiting – adults"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003117#001",
+   "text": "Causes: Common problems that may cause nausea and vomiting include:\nFood allergies\nInfections of the stomach or bowels, such as the \"stomach flu\"\nFood poisoning\nLeaking of stomach contents (food or liquid) upward (also called\ngastroesophageal reflux\nor GERD)\nMedicines or medical treatments, such as glutides (a type of medicine used to treat diabetes or obesity), cancer\nchemotherapy\n, or radiation treatment\nMigraine headaches\nMorning sickness\nduring pregnancy\nSeasickness or motion sickness\nSevere pain, such as with kidney stones\nExcessive use of marijuana\nSlow emptying of the stomach (gastroparesis)\nNausea and vomiting may also be early warning signs of more serious medical problems, such as:\nAppendicitis\nBlockage in the intestines\nCancer or a tumor\nIngesting a medicine, drug, or poison, especially by children\nUlcers in the lining of the stomach or small intestine",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "pregnancy",
+    "children",
+    "diabetes",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Nausea and vomiting – adults"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 133
+  },
+  {
+   "chunk_id": "medlineplus-sym-003117#002",
+   "text": "When to Contact a Medical Professional: Call 911 or the local emergency number or go to an emergency room if you:\nThink the vomiting is from poisoning\nNotice blood or dark, coffee-colored material in the vomit\nContact your provider right away or seek medical care if you or another person has:\nBeen vomiting for longer than 24 hours\nBeen unable to keep any fluids down for 12 hours or more\nHeadache or stiff neck\nNot urinated for 8 or more hours\nSevere stomach or belly pain\nVomited 3 or more times in 1 day\nSigns of\ndehydration\ninclude:\nCrying without tears\nDry mouth\nIncreased thirst\nEyes that appear sunken\nSkin changes: For example, if you touch or squeeze the skin, it doesn't bounce back the way it usually does\nUrinating less often or having dark yellow urine",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Nausea and vomiting – adults"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 137
+  }
+ ]
+}

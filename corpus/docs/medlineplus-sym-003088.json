@@ -1,0 +1,83 @@
+{
+ "doc_id": "medlineplus-sym-003088",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Fatigue",
+ "title_extra": null,
+ "date": "2025-05-19",
+ "revised": "2025-05-19",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003088.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003088.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:2ae87b1275a5175c7f7e8205fc502349a9de05979f5a1dfdb6654ba8324ae34b",
+ "entities": [
+  "Fatigue"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003088#001",
+   "text": "Causes: There are many possible causes of fatigue, including:\nAnemia\n(including\niron deficiency anemia\n)\nDepression\nor\ngrief\nIron deficiency (without anemia)\nMedicines, such as sedatives or antidepressants\nPersistent pain\nSleep disorders\nsuch as\ninsomnia\n,\nobstructive sleep apnea\n, or\nnarcolepsy\nThyroid gland that is\nunderactive\nor\noveractive\nUse of alcohol or drugs, such as cocaine or narcotics, especially with regular use\nFatigue can also occur with the following illnesses:\nAddison disease\n(a disorder that occurs when the adrenal glands don't produce enough hormones)\nAnorexia\nor other eating disorders\nArthritis, mainly adult or\njuvenile rheumatoid arthritis\nAutoimmune diseases such as systemic\nlupus\nerythematosus\nCancer\nCOVID-19\nDiabetes\nFibromyalgia\nHeart failure\nInfection, especially one that takes a long time to recover from or treat, such as bacterial endocarditis (infection of the heart muscle or valves), parasitic infections,\nhepatitis\n, HIV/AIDS,\ntuberculosis\n, and\nmononucleosis\nKidney disease\nLiver disease\nMalnutrition\nCertain medicines may also cause drowsiness or fatigue, including antihistamines for allergies, blood pressure medicines, sleeping pills, steroids, and diuretics (water pills).\nChronic fatigue syndrome",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "liver",
+    "thyroid",
+    "diabetes",
+    "sedation",
+    "hypertension",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Fatigue"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 173
+  },
+  {
+   "chunk_id": "medlineplus-sym-003088#002",
+   "text": "Causes: (CFS) is a condition in which symptoms of fatigue persist for at least 6 months and do not resolve with rest. The fatigue may be worsened with physical activity or mental stress. It is diagnosed based on the presence of a specific group of symptoms and after all other possible causes of fatigue are ruled out.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Fatigue"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 57
+  },
+  {
+   "chunk_id": "medlineplus-sym-003088#003",
+   "text": "When to Contact a Medical Professional: Contact your provider right away if you have any of the following:\nConfusion or dizziness\nBlurred vision\nLittle or no urine output\nRecent swelling and weight gain\nThoughts of harming yourself or of suicide\nContact your provider for an appointment if you have any of the following:\nUnexplained weakness or fatigue, especially if you also have a fever, unintentional weight loss, or regular sweats\nConstipation, dry skin, weight gain, or you cannot tolerate cold\nWake up and fall back to sleep many times during the night\nFrequent headaches\nAre taking medicines, prescribed or non-prescribed, or using drugs that may cause fatigue or drowsiness\nFeel sad or depressed\nInsomnia",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "sedation"
+   ],
+   "entities": [
+    "Fatigue"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 114
+  }
+ ]
+}

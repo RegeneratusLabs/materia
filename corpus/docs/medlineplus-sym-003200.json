@@ -1,0 +1,69 @@
+{
+ "doc_id": "medlineplus-sym-003200",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Seizures",
+ "title_extra": null,
+ "date": "2025-04-16",
+ "revised": "2025-04-16",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003200.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003200.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:f87f59f8e03bbefae7bf3b1a72d5376c0cc69ea6cdae5dde52ad258e8247af1b",
+ "entities": [
+  "Seizures"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003200#001",
+   "text": "Causes: Seizures of all types are caused by abnormal electrical activity in the brain.\nCauses of seizures can include:\nAbnormal levels of sodium or glucose in the blood\nBrain infection, including\nmeningitis\nand\nencephalitis\nBrain injury that occurs to a baby during labor or childbirth\nBrain problems that occur before birth (congenital brain defects)\nBrain tumor\n(a rare cause)\nElectric shock\nEpilepsy\nFever\n(particularly in\nyoung children\n)\nHead injury\nHeart disease\nHeat illness (\nheat intolerance\n)\nHigh\nfever\nPhenylketonuria\n(PKU), which can cause seizures in infants\nPoisoning\nStreet drugs, such as angel dust (PCP), cocaine, and amphetamines\nStroke\nToxemia of pregnancy\nToxin buildup in the body due to liver or\nkidney failure\nVery high blood pressure (\nmalignant hypertension\n)\nVenomous bites and stings (such as a\nsnake bite\n)\nWithdrawal from\nalcohol\nor certain medicines after using it for a long time\nSometimes, no cause can be found. This is called an idiopathic seizures. They are usually seen in children and young adults, but can occur at any age. There may be a family history of epilepsy or seizures.\nIf seizures continue repeatedly after any underlying problem is treated, the condition is called epilepsy.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "pregnancy",
+    "children",
+    "liver",
+    "sedation",
+    "hypertension",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Seizures"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 197
+  },
+  {
+   "chunk_id": "medlineplus-sym-003200#002",
+   "text": "When to Contact a Medical Professional: Call 911 or the local emergency number if:\nThis is the first time the person has had a seizure\nA seizure lasts more than 2 to 5 minutes\nThe person does not awaken or have normal behavior after a seizure\nAnother seizure starts soon after a seizure ends\nThe person had a seizure in water\nThe person is pregnant, injured, or has diabetes\nThe person does not have a medical ID bracelet (instructions explaining what to do)\nThere is anything different about this seizure compared to the person's usual seizures\nReport all seizures to the person's provider. The provider may need to adjust or change the person's medicines.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "pregnancy",
+    "diabetes"
+   ],
+   "entities": [
+    "Seizures"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 114
+  }
+ ]
+}

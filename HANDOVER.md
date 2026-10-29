@@ -444,7 +444,12 @@ terms); replayed on the 24 stored sheets it removed 14 genuinely mis-cited lines
 drop-and-verify pipeline is 8/8 contract-clean with zero unsupported claims remaining. A boilerplate filter
 keeps chunks like the NCCIH clearinghouse blurb out of retrieval entirely.
 
-**Next, in order.** (1) reranker and higher-quality herb corpus before any further herb retrieval attempt;
+**Round 2 additions (same day, later).** 37 public-domain MedlinePlus articles: 18 lab test pages and 19
+symptom pages with red-flag sections. Lab coverage 0 → 60%, referral 1/8 → 3/8, overall 42.3%, corpus 367
+documents. Accuracy did not move (lab-only stayed 94/104): the model already knows these items, and the
+corpus now makes the answers citable rather than different. A model-based reranker was built and
+**rejected** on measurement — 93/104 with it versus 94/104 without, at 50% more wall clock; the deterministic
+reranking (entity-first, claim-type, section prior, boilerplate filter) is kept. **Next, in order.** (1) reranker and higher-quality herb corpus before any further herb retrieval attempt;
 (2) verify-then-fallback for prose only — an MCQ answer is a letter and has no claim to verify;
 (3) a real lab report pair from Josh; (4) practitioner-written vignettes to replace the synthetic ones.
 

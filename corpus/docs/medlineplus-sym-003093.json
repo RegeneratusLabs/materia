@@ -1,0 +1,63 @@
+{
+ "doc_id": "medlineplus-sym-003093",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Dizziness",
+ "title_extra": null,
+ "date": "2025-04-01",
+ "revised": "2025-04-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003093.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003093.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:b1ff954344573c4ccc937095b0c0e37d2fb241d587fc6e15f58e5591b163bd25",
+ "entities": [
+  "Dizziness"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003093#001",
+   "text": "Causes: Lightheadedness occurs when your brain does not get enough blood. This may occur if:\nYou have a sudden drop in blood pressure.\nYour body does not have enough water (is dehydrated) because of vomiting, diarrhea, fever, or other conditions.\nYou get up too quickly after sitting or lying down (this is more common in older people).\nLightheadedness may also occur if you have the\nflu\n,\nlow blood sugar\n, a cold, allergies, or take medicines that may lower your blood pressure.\nMore serious conditions that can lead to lightheadedness include:\nHeart problems, such as a heart attack or abnormal heart beat\nStroke\nBleeding inside the body\nShock\n(extreme drop in blood pressure)\nIf any of these serious disorders are present, you will usually also have symptoms like chest pain, a feeling of a racing heart, loss of speech, change in vision, or other symptoms.\nVertigo may be due to:\nBenign positional vertigo\n, a spinning feeling that occurs when you move your head\nLabyrinthitis\n, a viral infection of the inner ear that usually follows a cold or flu\nMeniere disease\n, a common inner ear problem that often also causes hearing loss or ringing in the ears (tinnitus)\nOther causes of lightheadedness or vertigo may include:\nUse of certain medicines\nStroke\nMultiple\nsclerosis\nSeizures\nBrain tumor",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "anticoagulant",
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Dizziness"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 219
+  },
+  {
+   "chunk_id": "medlineplus-sym-003093#002",
+   "text": "When to Contact a Medical Professional: Call your local emergency number (such as 911) or go to an emergency room if you are dizzy and have:\nA head injury\nFever over 101°F (38.3°C), headache, or very stiff neck\nSeizures\nTrouble keeping fluids down\nChest pain\nIrregular heart rate (heart is skipping beats)\nShortness of breath\nWeakness\nInability to move an arm or leg\nChange in vision or speech\nFainting and loss of alertness for more than a few minutes\nContact your health care provider if you have:\nDizziness for the first time\nNew or worsening symptoms\nDizziness after taking medicine\nHearing loss",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Dizziness"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  }
+ ]
+}

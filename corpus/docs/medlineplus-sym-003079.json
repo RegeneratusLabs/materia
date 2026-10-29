@@ -1,0 +1,94 @@
+{
+ "doc_id": "medlineplus-sym-003079",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Chest pain",
+ "title_extra": null,
+ "date": "2026-04-28",
+ "revised": "2026-04-28",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003079.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003079.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:8eca8702f8960cd403c602921bc88a8bf844f1a16a7436e2eefe8435ea792c7e",
+ "entities": [
+  "Chest pain"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003079#001",
+   "text": "Causes: Heart or blood vessel problems that can cause chest pain:\nAngina\nor a heart attack. The most common symptom is chest pain that may feel like tightness, heavy pressure, squeezing, or crushing pain. The pain may spread to the arm, shoulder, jaw, or back.\nA tear in the wall of the aorta, the large blood vessel that takes blood from the heart to the rest of the body (\naortic dissection\n) causes sudden, severe pain in the chest and upper back.\nSwelling (inflammation) in the sac that surrounds the heart (\npericarditis\n) causes pain in the center part of the chest.\nLung problems that can cause chest pain:\nA blood clot in the lung (\npulmonary embolism\n).\nCollapse of the lung (\npneumothorax\n).\nPneumonia\nmay cause a sharp chest pain that often gets worse when you take a deep breath or cough.\nSwelling of the lining around the lung (\npleurisy\n) can cause chest pain that usually feels sharp, and often gets worse when you take a deep breath or cough.\nOther causes of chest pain:\nPanic attack\n, which often occurs with fast breathing.\nInflammation where the ribs join the breast bone or sternum (\ncostochondritis\n).\nShingles",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Chest pain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 205
+  },
+  {
+   "chunk_id": "medlineplus-sym-003079#002",
+   "text": "Causes: , which causes sharp, tingling pain on one side that stretches from the chest to the back, and may cause a rash.\nStrain of the muscles and tendons between the ribs.\nChest pain can also be due to the following digestive system problems:\nSpasms or narrowing of the esophagus (the tube that carries food from the mouth to the stomach)\nGallstones\ncause pain that gets worse after a meal (most often a fatty meal).\nHeartburn or\ngastroesophageal reflux\n(GERD)\nStomach ulcer\nor gastritis: Burning pain occurs if your stomach is empty and feels better when you eat food\nIn children, most chest pain is not caused by the heart.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children"
+   ],
+   "entities": [
+    "Chest pain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "medlineplus-sym-003079#003",
+   "text": "When to Contact a Medical Professional: Call 911 or the local emergency number if:\nYou have sudden crushing, squeezing, tightening, or pressure in your chest.\nPain spreads (radiates) to your jaw, left arm, or between your shoulder blades.\nYou have nausea,\ndizziness\n, sweating, a racing heart, or\nshortness of breath\n.\nYou know you have angina and your chest discomfort is suddenly more intense, brought on by lighter activity or lasts longer than usual.\nYour angina symptoms occur while you are at rest.\nYou have sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for example, following an operation), or other lack of movement, especially if one leg is swollen or more swollen than the other (this could be a blood clot, part of which has moved to the lungs).\nYou have been diagnosed with a serious condition, such as heart attack or pulmonary embolism.\nYour risk of having a heart attack is greater if:\nYou have a family history of\nheart disease\n.\nYou smoke, use cocaine, or are overweight.\nYou have\nhigh cholesterol\n,\nhigh blood pressure\n, or\ndiabetes\n.\nYou already have heart disease.\nContact your provider if:\nYou have a fever or a cough that produces yellow-green phlegm.\nYou have chest pain that is severe and does not go away.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "surgery",
+    "diabetes",
+    "hypertension"
+   ],
+   "entities": [
+    "Chest pain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 224
+  },
+  {
+   "chunk_id": "medlineplus-sym-003079#004",
+   "text": "When to Contact a Medical Professional: You are having problems swallowing.\nChest pain lasts longer than 3 to 5 days.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Chest pain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 20
+  }
+ ]
+}

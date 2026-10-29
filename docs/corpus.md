@@ -7,11 +7,11 @@
 
 | Metric | Value |
 |---|---|
-| Documents | **330** |
-| Chunks | 3,794 |
+| Documents | **367** |
+| Chunks | 3,951 |
 | Words | 463,842 |
 | Chunks per document (mean) | 11.5 |
-| Licence-clear (redistributable) | **330 / 330** |
+| Licence-clear (redistributable) | **367 / 367** |
 | Publication dates | 2006-07-13 → 2026-09-25 |
 
 | Source | Docs | Tier | Jurisdiction | Licence | Access |
@@ -21,6 +21,8 @@
 | NCI PDQ | 23 | primary | us | US federal, public domain | HTML |
 | EMA (HMPC) | 21 | regulatory | eu | EMA reuse, attribution | PDF, harvested from the sitemap |
 | Europe PMC CC-BY | 8 | primary | international | CC BY | REST API, licence-filtered |
+| MedlinePlus lab tests | 18 | compendium | us | US federal, public domain | encyclopedia articles, Normal/Abnormal Results |
+| MedlinePlus symptoms | 19 | compendium | us | US federal, public domain | "When to Contact a Medical Professional" |
 
 Section mix: other 1,384 · dosage 679 · indications 412 · adverse effects 340 · methodology 233 · cautions 227 · evidence 126 · contraindications 109 · interactions 15 · pharmacology 2.
 Assertion mix: other 1,619 · safety 691 · dose 679 · efficacy 538.
@@ -93,3 +95,18 @@ on every document; NCI and NCCIH likewise.
   have a retrieved chunk from the question's entity document carrying the right claim type.
   By category: herb–drug 73.1%, herb–safety 45.0%, nutrient–drug 16.7%, lab 6.7%, referral 0%.
   Coverage is not support — a stratified sample is audited separately.
+
+
+## Update 2026-10-29 (later) — MedlinePlus fills the lab and referral branches
+
+37 public-domain NLM MedlinePlus encyclopedia articles: **18 lab test pages** (ferritin, serum iron,
+TIBC, B12, TSH, free T4, T3, ALT, AST, GGT, CRP, CBC, A1C, ESR, creatinine, calcium, magnesium,
+cholesterol) and **19 symptom pages** with "When to Contact a Medical Professional" sections.
+
+- **Lab coverage 0 → 60%** (18/30), referral 1/8 → 3/8, overall **42.3%**.
+- Unlike the herb branch, the lab coverage is genuinely supported: audited chunks are the normal ranges
+  and abnormal-result interpretations for the analyte in question (Free T4 0.8–1.9 ng/dL, B12 <299 pg/mL
+  as a deficiency threshold, TIBC higher in iron deficiency).
+- **Accuracy did not move**: lab-only retrieval stayed at 94/104. The model already knew these items; the
+  corpus now makes them citable rather than better answered. Coverage is not the binding constraint on
+  accuracy — it is the binding constraint on *citation*.

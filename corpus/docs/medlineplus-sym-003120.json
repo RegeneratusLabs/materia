@@ -1,0 +1,67 @@
+{
+ "doc_id": "medlineplus-sym-003120",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Abdominal pain",
+ "title_extra": null,
+ "date": "2026-01-13",
+ "revised": "2026-01-13",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003120.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003120.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:9102d60095dcea9cc4850c72ce0fc92b034ef7530ace2e3771c8c258850fbbe4",
+ "entities": [
+  "Abdominal pain"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003120#001",
+   "text": "Causes: Many different conditions can cause abdominal pain. The key is to know when you need to get medical care right away. Sometimes, you may only need to contact a health care provider if your symptoms continue.\nLess serious causes of abdominal pain include:\nConstipation\nIrritable bowel syndrome\nFood allergies or intolerance (such as\nlactose intolerance\n)\nFood poisoning\nStomach flu\nOther possible causes include:\nAppendicitis\nAbdominal aortic aneurysm\n(bulging and weakening of the major artery in the body)\nBowel blockage or obstruction\nCancer of the stomach,\ncolon\n(large bowel), and other organs\nCholecystitis\n(inflammation of the gallbladder) with or without\ngallstones\nDecreased blood supply to the intestines (\nischemic bowel\n)\nDiverticulitis\n(inflammation and infection of the colon)\nEndometriosis\nHeartburn\n,\nindigestion\n, or\ngastroesophageal reflux\n(GERD)\nHernia in which the intestine is stuck or twisted\nInflammatory bowel disease (\nCrohn disease\nor\nulcerative colitis\n)\nKidney stones\nMuscle strain\nPancreatitis\n(swelling or infection of the pancreas)\nPelvic inflammatory disease (PID)\nRuptured\novarian cyst\nSevere\nmenstrual cramps\nTubal (\nectopic\n) pregnancy\nUlcers\nUrinary tract infections\n(UTI)",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "pregnancy",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Abdominal pain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 178
+  },
+  {
+   "chunk_id": "medlineplus-sym-003120#002",
+   "text": "When to Contact a Medical Professional: Get medical help right away or call 911 or the local emergency number if you:\nAre currently being treated for cancer\nAre unable to pass stool, especially if you are also vomiting\nAre vomiting blood or have blood in your stool (especially if bright red, maroon or dark, tarry black)\nHave chest, neck, or shoulder pain\nHave sudden, sharp abdominal pain\nHave pain in, or between, your shoulder blades with nausea\nHave tenderness in your belly, or your belly is rigid and hard to the touch\nAre pregnant or could be pregnant\nHad a recent injury to your abdomen\nHave difficulty breathing\nContact your provider if you have:\nAbdominal discomfort that lasts 1 week or longer\nAbdominal pain that does not improve in 24 to 48 hours, or becomes more severe and frequent and occurs with nausea and vomiting\nBloating that persists for more than 2 days\nBurning sensation when you urinate or frequent urination\nDiarrhea for more than 5 days\nFever, over 100°F (37.7°C) for adults or 100.4°F (38°C) for children, with pain\nProlonged poor appetite\nProlonged vaginal bleeding\nUnexplained weight loss\nUnable to keep down any foods or liquids",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "pregnancy",
+    "children",
+    "anticoagulant",
+    "cancer"
+   ],
+   "entities": [
+    "Abdominal pain"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 197
+  }
+ ]
+}

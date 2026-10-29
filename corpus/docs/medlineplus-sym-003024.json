@@ -1,0 +1,95 @@
+{
+ "doc_id": "medlineplus-sym-003024",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Headache",
+ "title_extra": null,
+ "date": "2025-10-27",
+ "revised": "2025-10-27",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003024.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003024.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:fb709cc6d5268da1089fd757101d1a189c5f0b7de301146b860e2e77254a622b",
+ "entities": [
+  "Headache"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003024#001",
+   "text": "Causes: The most common type of headache is tension headache. It is likely caused by tight muscles in your shoulders, neck, scalp, and jaw. A\ntension headache\n:\nMay be related to stress,\ndepression\n, anxiety, a head injury, or holding your head and neck in an abnormal position.\nTends to be on both sides of your head. It often starts at the back of the head and spreads forward. The pain may feel dull or squeezing, like a tight band or vice. Your shoulders, neck, or jaw may feel tight or sore.\nA\nmigraine headache\ninvolves pain that is throbbing, pounding, or pulsating, and is on one side of your head. It often occurs with other symptoms, such as vision changes, sensitivity to sound or light, or nausea. With a migraine:\nThe headache may be associated with an aura. This is a group of warning symptoms that start before your headache.\nThe pain usually gets worse as you try to move around.\nMigraines may be triggered by foods, such as chocolate, certain cheeses, or monosodium glutamate (MSG). Caffeine withdrawal, lack of sleep, and alcohol may also be triggers.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "sedation"
+   ],
+   "entities": [
+    "Headache"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 189
+  },
+  {
+   "chunk_id": "medlineplus-sym-003024#002",
+   "text": "Causes: Rebound headaches are headaches that keep coming back. They often occur from overuse of pain medicines for other headaches like migraine or tension headaches. For this reason, these headaches are also called medicine overuse headaches. People who take pain medicine more than 3 days a week on a regular basis can develop this type of headache.\nOther types of headaches:\nCluster headache\nis a sharp, very painful headache that occurs daily, sometimes up to several times a day for months. It then goes away for weeks to months. In some people, the headaches never come back. The headache usually lasts less than an hour. It tends to occur at the same times every day.\nSinus headache causes pain in the front of the head and face. It is due to swelling in the sinus passages behind the cheeks, nose, and eyes. The pain is worse when you bend forward and when you first wake up in the morning.\nHeadaches may occur if you have a cold, the flu, a fever, or\npremenstrual syndrome\n.\nHeadache may infrequently be due to a disorder called\ntemporal arteritis\n. This is a swollen, inflamed artery that supplies blood to part of the head, temple, and neck area.\nIn rare cases, a headache can be a sign of something more serious, such as:",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Headache"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 220
+  },
+  {
+   "chunk_id": "medlineplus-sym-003024#003",
+   "text": "Causes: Bleeding in the area between the brain and the thin tissue that covers the brain (subarachnoid hemorrhage)\nBlood pressure that is very high (hypertension)\nBrain infection, such as\nmeningitis\n,\nencephalitis\n, or\nabscess\nBrain tumor\nBuildup of fluid inside the skull that leads to brain swelling (\nhydrocephalus\n)\nBuildup of pressure inside the skull that appears to be, but is not a tumor (\npseudotumor cerebri\n)\nCarbon monoxide poisoning\nLack of oxygen during sleep (\nsleep apnea\n)\nProblems with the blood vessels and bleeding in the brain, such as\narteriovenous malformation\n(AVM),\nbrain aneurysm\n, or\nstroke",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "anticoagulant",
+    "hypertension",
+    "cancer"
+   ],
+   "entities": [
+    "Headache"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "medlineplus-sym-003024#004",
+   "text": "When to Contact a Medical Professional: Some headaches may be a sign of a more serious illness. Seek medical help right away for any of the following:\nThis is the first headache you have ever had in your life and it interferes with your daily activities.\nYour headache comes on suddenly and is explosive or violent. This kind of headache needs medical attention right away. It may be due to a ruptured blood vessel in the brain. Call 911 or the local emergency number or go to the nearest emergency room.\nYour headache is \"the worst ever,\" even if you regularly get headaches.\nYou also have slurred speech, a change in vision, problems moving your arms or legs, loss of balance, confusion, or memory loss with your headache.\nYour headache gets worse over 24 hours.\nYou also have a fever, stiff neck,\nnausea, and vomiting\nwith your headache.\nYour headache occurs with a head injury.\nYour headache is severe and just in one eye, with redness in that eye.\nYou just started getting headaches, especially if you are older than 50.\nYour headaches are associated with vision problems, pain while chewing, or weight loss.\nYou have a history of cancer and develop a new headache.\nYour immune system is weakened by disease (such as HIV infection) or by medicines (such as\nchemotherapy\nmedicines and steroids).",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "cancer"
+   ],
+   "entities": [
+    "Headache"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 225
+  }
+ ]
+}

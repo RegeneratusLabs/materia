@@ -1,0 +1,64 @@
+{
+ "doc_id": "medlineplus-sym-003072",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Cough",
+ "title_extra": null,
+ "date": "2025-04-01",
+ "revised": "2025-04-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003072.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003072.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:f21de0512ac026c9b38caaaec0ec21e4761a2e45f899f19fe0b14cad8616df5c",
+ "entities": [
+  "Cough"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003072#001",
+   "text": "Causes: Common causes of coughing are:\nAllergies\nthat involve the nose or sinuses\nAsthma\nand\nCOPD\n(emphysema or chronic bronchitis)\nThe common cold, flu, and other viral infections\nLung infections such as\npneumonia\nor\nacute bronchitis\nSinusitis\nwith postnasal drip\nGastroesophageal reflux disease\n(GERD)\nOther causes include:\nACE inhibitors\nor less often ARB medicines used to treat\nhigh blood pressure\n, heart failure, or\nkidney diseases\nCigarette smoking or exposure to secondhand smoke (or smoking other substances like marijuana)\nLung cancer\nLung disease such as\nbronchiectasis\n,\ncystic fibrosis\n, or\ninterstitial lung disease\nSometimes no specific cause is found",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "hypertension",
+    "cancer",
+    "renal"
+   ],
+   "entities": [
+    "Cough"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 100
+  },
+  {
+   "chunk_id": "medlineplus-sym-003072#002",
+   "text": "When to Contact a Medical Professional: Call 911 or the local emergency number if you have:\nShortness of breath or difficulty breathing\nHives\nor a swollen face or throat with difficulty swallowing\nContact your provider right away if you have a cough and any of the following:\nHeart disease, swelling in your legs, or a cough that gets worse when you lie down (may be signs of\nheart failure\n)\nHave had contact with someone who has tuberculosis\nUnintentional weight loss or night sweats (could be tuberculosis)\nAn infant younger than 3 months old who has a cough\nA cough that lasts longer than 10 to 14 days\nA cough that produces blood\nFever\n(may be a sign of a bacterial infection that requires antibiotics)\nA high-pitched sound (called\nstridor\n) when breathing in\nThick, foul-smelling, yellowish-green phlegm (could be a bacterial infection)\nA violent cough that begins rapidly",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "children"
+   ],
+   "entities": [
+    "Cough"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 149
+  }
+ ]
+}

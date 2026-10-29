@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-29",
- "documents": 348,
- "chunks": 3903,
- "redistributable": 348,
+ "documents": 367,
+ "chunks": 3951,
+ "redistributable": 367,
  "review_due": 0,
  "entries": [
   {
@@ -6191,6 +6191,443 @@
     "evidence_url": "https://medlineplus.gov/copyright.html"
    },
    "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-sym-000505",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Urinary tract infection - children",
+   "url": "https://medlineplus.gov/ency/article/000505.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/000505.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:5d1492b65f3ff4ee626442d24e5339503f8edc8f0dd6941ddb300691038ce662",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 3
+  },
+  {
+   "doc_id": "medlineplus-sym-000521",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Urinary tract infection - adults",
+   "url": "https://medlineplus.gov/ency/article/000521.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/000521.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2024-07-23",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:0b9c476ba708a3dc8f331d248fbf262879dcbb1542e6a9ff7975b31ab6b26aa9",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 3
+  },
+  {
+   "doc_id": "medlineplus-sym-003024",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Headache",
+   "url": "https://medlineplus.gov/ency/article/003024.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003024.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-10-27",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:fb709cc6d5268da1089fd757101d1a189c5f0b7de301146b860e2e77254a622b",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 4
+  },
+  {
+   "doc_id": "medlineplus-sym-003029",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Vision problems",
+   "url": "https://medlineplus.gov/ency/article/003029.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003029.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2024-08-05",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:a00eb3793a87b2fcf587d50254ccac09c633cea9fc275f79f3b4ad49fd4f3df6",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 3
+  },
+  {
+   "doc_id": "medlineplus-sym-003072",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Cough",
+   "url": "https://medlineplus.gov/ency/article/003072.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003072.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-04-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:f21de0512ac026c9b38caaaec0ec21e4761a2e45f899f19fe0b14cad8616df5c",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-003079",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Chest pain",
+   "url": "https://medlineplus.gov/ency/article/003079.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003079.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-04-28",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:8eca8702f8960cd403c602921bc88a8bf844f1a16a7436e2eefe8435ea792c7e",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 4
+  },
+  {
+   "doc_id": "medlineplus-sym-003088",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Fatigue",
+   "url": "https://medlineplus.gov/ency/article/003088.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003088.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-05-19",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:2ae87b1275a5175c7f7e8205fc502349a9de05979f5a1dfdb6654ba8324ae34b",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 3
+  },
+  {
+   "doc_id": "medlineplus-sym-003090",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Fever",
+   "url": "https://medlineplus.gov/ency/article/003090.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003090.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2024-07-31",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:76590e8904a77bf92664fe8d3922e4baa5ce5458bb328079eb6c21008a06d23d",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 3
+  },
+  {
+   "doc_id": "medlineplus-sym-003092",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Fainting",
+   "url": "https://medlineplus.gov/ency/article/003092.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003092.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-05-19",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:90210bf12e5efc9ae396758f80eddb567965e95abeb2ca9e4854f8151571406a",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-003093",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Dizziness",
+   "url": "https://medlineplus.gov/ency/article/003093.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003093.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-04-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:b1ff954344573c4ccc937095b0c0e37d2fb241d587fc6e15f58e5591b163bd25",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-003103",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Swelling",
+   "url": "https://medlineplus.gov/ency/article/003103.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003103.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2024-10-09",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:0bb1c9bdf22e59ddea3556188c3ef73e4e01eafa275fb5245fbb81a945d16814",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-003107",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Weight loss - unintentional",
+   "url": "https://medlineplus.gov/ency/article/003107.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003107.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-01-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:b60cf09b8a81dc5eba96f4e1e5b33284e11efa2dab98ec84a823a3ecb7551be5",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-003117",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Nausea and vomiting \u2013 adults",
+   "url": "https://medlineplus.gov/ency/article/003117.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003117.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-07-22",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:7cc28d2d0eaec873a101ed095eb4de493bfcd8176965446503986a55de345228",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-003118",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Vomiting blood",
+   "url": "https://medlineplus.gov/ency/article/003118.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003118.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-01-24",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:5cd98f8cdd7cc47d40700d76f93270deea1d688dea0a0f13b6198f1a5d3f8c3b",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-003120",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Abdominal pain",
+   "url": "https://medlineplus.gov/ency/article/003120.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003120.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-13",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:9102d60095dcea9cc4850c72ce0fc92b034ef7530ace2e3771c8c258850fbbe4",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-003182",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Leg pain",
+   "url": "https://medlineplus.gov/ency/article/003182.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003182.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-07-03",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:44ca9f8055ce708bdca4d184bdfeb81181f6a4aca696ecba756de09c7305ee30",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 3
+  },
+  {
+   "doc_id": "medlineplus-sym-003200",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Seizures",
+   "url": "https://medlineplus.gov/ency/article/003200.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003200.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-04-16",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:f87f59f8e03bbefae7bf3b1a72d5376c0cc69ea6cdae5dde52ad258e8247af1b",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-003205",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Confusion",
+   "url": "https://medlineplus.gov/ency/article/003205.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003205.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2026-01-27",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:49913c6a3011955713b4ea3822b7cf4ef6af84fbd0377da41fd4672038928b77",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
+  },
+  {
+   "doc_id": "medlineplus-sym-007504",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Abdominal pain - children under age 12",
+   "url": "https://medlineplus.gov/ency/article/007504.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/007504.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-07-01",
+   "retrieved_at": "2026-10-29",
+   "next_review_due": "2027-04-29",
+   "checksum": "sha256:3e96569ed0fd03c2578eb221a7f40410e8d0cdd7778193a802c419cb0e04cf91",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 2
   },
   {
    "doc_id": "nccih-acai",

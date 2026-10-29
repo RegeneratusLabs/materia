@@ -1,0 +1,79 @@
+{
+ "doc_id": "medlineplus-sym-003029",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Vision problems",
+ "title_extra": null,
+ "date": "2024-08-05",
+ "revised": "2024-08-05",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003029.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003029.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:a00eb3793a87b2fcf587d50254ccac09c633cea9fc275f79f3b4ad49fd4f3df6",
+ "entities": [
+  "Vision problems"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003029#001",
+   "text": "Causes: Vision changes and problems can be caused by many different conditions. Some include:\nPresbyopia\n-- Difficulty focusing on objects that are close. This problem often becomes noticeable in your early to mid-40s and is very common.\nCataracts\n-- Cloudiness of the eye lens, causing poor nighttime vision, halos around lights, and sensitivity to glare. Cataracts are common in older people.\nGlaucoma\n-- Increased pressure in the eye, which is most often painless. Vision will be normal at first, but over time you can develop poor night vision, blind spots, and a loss of vision to either side. Some types of glaucoma can also happen suddenly, which is a medical emergency.\nDiabetic eye disease\n.\nMacular degeneration\n-- Loss of central vision, blurred vision (particularly while reading), distorted vision (straight lines will appear to be wavy), and colors that look faded. This is the most common cause of blindness in people over age 60 years.\nEye infection, inflammation, or injury.\nFloaters\n-- Tiny particles drifting inside the eye, which may be a sign of retinal detachment.\nNight blindness\n.\nRetinal detachment\n-- Symptoms include floaters, sparks, or flashes of light in your vision, or a sensation of a shade or curtain hanging across part of your visual field.\nOptic neuritis\n-- Inflammation of the optic nerve from infection or\nmultiple sclerosis",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "diabetes"
+   ],
+   "entities": [
+    "Vision problems"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 221
+  },
+  {
+   "chunk_id": "medlineplus-sym-003029#002",
+   "text": "Causes: . You may have pain when you move your eye or touch it through the eyelid.\nStroke\nor\ntransient ischemic attack\n(TIA).\nBrain tumor\n.\nBleeding into the eye.\nTemporal arteritis\n-- Inflammation of an artery in the brain that supplies blood to the optic nerve.\nMigraine headaches\n-- Spots of light, halos, or zigzag patterns that appear before the start of the headache.\nMedicines may also affect your vision.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "anticoagulant",
+    "cancer"
+   ],
+   "entities": [
+    "Vision problems"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 71
+  },
+  {
+   "chunk_id": "medlineplus-sym-003029#003",
+   "text": "When to Contact a Medical Professional: Seek emergency care from a provider who is experienced in dealing with eye emergencies if:\nYou experience partial or complete\nblindness\nin one or both eyes, even if it is only temporary.\nYou experience double vision, even if it is temporary.\nYou have a sensation of a shade being pulled over your eyes or a curtain being drawn from the side, above, or below.\nBlind spots, halos around lights, or areas of distorted vision appear suddenly.\nYou have sudden blurred vision with eye pain, particularly if the eye is also red. A red, painful eye with blurred vision is a medical emergency.\nGet a complete eye exam if you have:\nTrouble seeing objects on either side.\nDifficulty seeing at night or when reading.\nGradual loss of the sharpness of your vision.\nDifficulty telling colors apart.\nBlurred vision when trying to view objects near or far.\nDiabetes or a family history of diabetes.\nEye itching or discharge.\nVision changes that seem related to medicine. (Do not stop or change a medicine without talking to your provider.)",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "diabetes"
+   ],
+   "entities": [
+    "Vision problems"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 181
+  }
+ ]
+}

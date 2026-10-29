@@ -1,0 +1,63 @@
+{
+ "doc_id": "medlineplus-sym-003118",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Vomiting blood",
+ "title_extra": null,
+ "date": "2025-01-24",
+ "revised": "2025-01-24",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003118.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003118.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:5cd98f8cdd7cc47d40700d76f93270deea1d688dea0a0f13b6198f1a5d3f8c3b",
+ "entities": [
+  "Vomiting blood"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003118#001",
+   "text": "Causes: The upper GI (gastrointestinal) tract includes the mouth, throat, esophagus (swallowing tube), stomach and the duodenum (first part of the small intestine). Blood that is vomited may come from any of these places.\nVomiting that is very forceful or continues for a very long time may cause a tear in the small blood vessels of the throat. This may produce streaks of blood in the vomit.\nSwollen veins in the walls of the lower part of the esophagus, and sometimes the stomach, may begin to bleed. These veins (called varices) may be present in people with severe liver damage.\nRepeated vomiting and retching may cause bleeding and damage to the lower esophagus called\nMallory Weiss tears\n.\nOther causes may include:\nBleeding ulcer in the stomach, first part of the small intestine, or esophagus\nBlood clotting disorders\nDefects in the blood vessels of the GI tract\nSwelling, irritation, or inflammation of the esophagus lining (\nesophagitis\n) or the stomach lining (\ngastritis\n)\nSwallowing blood (for example, after a nosebleed)\nTumors of the mouth, throat, stomach or esophagus",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "liver",
+    "anticoagulant",
+    "cancer"
+   ],
+   "entities": [
+    "Vomiting blood"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 180
+  },
+  {
+   "chunk_id": "medlineplus-sym-003118#002",
+   "text": "When to Contact a Medical Professional: Contact your health care provider or go to the emergency room if vomiting of blood occurs. You will need to be examined right away.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Vomiting blood"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 30
+  }
+ ]
+}

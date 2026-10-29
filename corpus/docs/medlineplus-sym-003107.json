@@ -1,0 +1,63 @@
+{
+ "doc_id": "medlineplus-sym-003107",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Weight loss - unintentional",
+ "title_extra": null,
+ "date": "2025-01-01",
+ "revised": "2025-01-01",
+ "retrieved_at": "2026-10-29",
+ "next_review_due": "2027-04-29",
+ "url": "https://medlineplus.gov/ency/article/003107.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003107.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:b60cf09b8a81dc5eba96f4e1e5b33284e11efa2dab98ec84a823a3ecb7551be5",
+ "entities": [
+  "Weight loss - unintentional"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-sym-003107#001",
+   "text": "Causes: A loss of appetite may be due to:\nFeeling depressed\nCancer\n, even when other symptoms are not present\nChronic infection such as AIDS or tuberculosis\nChronic illness, such as\nCOPD\nor\nParkinson disease\nDrug use such as amphetamines and cocaine\nMedicines, including chemotherapy medicines, and thyroid medicines\nStress or anxiety\nChronic digestive system problems that decrease the amount of calories and nutrients your body absorbs, including:\nCeliac disease\nDiarrhea\nand other infections that last a long time, such as parasites\nChronic inflammation of the pancreas\nRemoval of part of the small intestine\nOveruse of laxatives\nOther causes such as:\nEating disorders, such as\nanorexia\nnervosa that have not been diagnosed yet\nDiabetes that has not been diagnosed\nOveractive thyroid gland",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral",
+    "thyroid",
+    "diabetes",
+    "cancer"
+   ],
+   "entities": [
+    "Weight loss - unintentional"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 122
+  },
+  {
+   "chunk_id": "medlineplus-sym-003107#002",
+   "text": "When to Contact a Medical Professional: Contact your provider if:\nYou or a family member\nloses more weight\nthan is considered healthy for their age and height.\nYou have lost more than 10 pounds (4.5 kilograms) or 5% of your normal body weight over 6 to 12 months or less, and you do not know the reason.\nYou have other symptoms in addition to the weight loss.",
+   "section": "red_flags",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "referral"
+   ],
+   "entities": [
+    "Weight loss - unintentional"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 67
+  }
+ ]
+}

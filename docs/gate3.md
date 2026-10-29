@@ -245,3 +245,23 @@ injection, section priors and the boilerplate filter. Those are kept; the model 
 stays in the tree with this result recorded so it is not re-invented.
 
 Artifacts: `results/panel_hybrid_v3.jsonl` (control), `results/panel_hybrid_rerank2.jsonl`.
+
+
+## Experiment 8 — does more (good) lab corpus raise accuracy? (2026-10-29)
+
+MedlinePlus added 18 lab articles and 19 symptom articles, taking overall coverage from 34.6% to 42.3%
+and lab coverage from 43% to 60%. The lab-only condition was re-run unchanged:
+
+| Corpus | Coverage | Lab-only score | Lab items |
+|---|---|---|---|
+| Before MedlinePlus | 34.6% | 94/104 = 90.4% | 24/30 |
+| After MedlinePlus | 42.3% | 94/104 = 90.4% | 24/30 |
+
+**No accuracy change.** The failing lab items are the same ones (L01, L09, L14, L17, L26), and two of them
+(L10, L14) are cases where evidence overrode a correct closed-book answer. The audit of the new lab
+chunks shows they are relevant and correct — normal ranges and deficiency thresholds — so this is not a
+corpus-quality failure. It is the same lesson as the herb branch in a milder form: **this model's memory
+already answers these items, and evidence only helps when the model does not already know.**
+
+What the lab corpus does buy is the thing the product is actually for: 48/48 cited chunks resolve, and the
+lab interpretations now carry a public-domain reference (NLM) rather than nothing.
