@@ -1,0 +1,1122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>materia — Bench · Figtree</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/fonts/type-studies.css">
+<link rel="stylesheet" href="assets/base.css">
+<style>
+  :root {
+    --bg: #eaf1ee;
+    --surface: #fbfdfb;
+    --surface-2: #f4f9f6;
+    --ink: #1f2f28;
+    --muted: #6d8076;
+    --faint: #9caea4;
+    --line: #dbe7e0;
+    --line-strong: #c8dad0;
+    --sage: #6e9685;
+    --sage-deep: #3f6858;
+    --sage-soft: #e2efe8;
+    --clay: #b4735a;
+    --clay-soft: #f7e9e2;
+    --sky: #6f8fa8;
+    --sky-soft: #e8f0f5;
+    --gold: #b78a3f;
+    --gold-soft: #f8efd9;
+    --shadow: 0 30px 70px -42px rgba(37, 66, 53, .42), 0 2px 6px rgba(37, 66, 53, .04);
+    --radius-lg: 30px;
+    --radius-md: 18px;
+    --display: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+
+  html, body { background: var(--bg); }
+  body {
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 15px;
+    line-height: 1.5;
+    background:
+      radial-gradient(1100px 520px at 82% -12%, rgba(180, 115, 90, .10), transparent 62%),
+      radial-gradient(900px 500px at -6% 8%, rgba(111, 143, 168, .09), transparent 60%),
+      var(--bg);
+  }
+
+  .sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+  .icon { width: 16px; height: 16px; display: inline-block; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; flex: 0 0 auto; }
+
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: rgba(234, 241, 238, .86);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255, 255, 255, .55);
+  }
+  .topbar-inner {
+    max-width: 1360px;
+    margin: 0 auto;
+    height: 68px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--ink);
+    text-decoration: none;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 23px;
+    letter-spacing: -.035em;
+    line-height: 1;
+  }
+  .brand .icon { width: 19px; height: 19px; color: var(--sage); }
+  .brand small {
+    color: var(--faint);
+    font: 500 9px/1 var(--body);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    margin-left: 2px;
+  }
+  .topbar-divider { width: 1px; height: 18px; background: var(--line-strong); opacity: .7; }
+  .crumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--muted);
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .crumb b { color: var(--ink); font-weight: 500; }
+  .top-actions { margin-left: auto; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; justify-content: flex-end; }
+  .type-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 9px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .55);
+    color: var(--sage-deep);
+    font-size: 10px;
+    letter-spacing: .04em;
+  }
+  .type-chip::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--sage); }
+  .quiet-link {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 12px;
+    border: 0;
+    border-bottom: 1px solid transparent;
+    transition: color .15s ease, border-color .15s ease;
+    background: none;
+    padding: 0;
+  }
+  .quiet-link:hover { color: var(--ink); border-color: var(--line-strong); }
+  .sample-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 9px;
+    border-radius: 999px;
+    background: var(--clay-soft);
+    color: #8b523d;
+    font-size: 10px;
+    letter-spacing: .02em;
+    white-space: nowrap;
+  }
+  .sample-chip::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--clay); }
+
+  main { max-width: 1360px; margin: 0 auto; }
+
+  .hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 356px;
+    gap: 50px;
+    align-items: end;
+    padding: 44px 32px 0;
+  }
+  .hero-copy { position: relative; z-index: 1; min-width: 0; }
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--sage-deep);
+    font-size: 11.5px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .eyebrow .icon { width: 14px; height: 14px; }
+  h1 {
+    margin-top: 16px;
+    max-width: 800px;
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: clamp(42px, 4.4vw, 60px);
+    line-height: 1.02;
+    letter-spacing: -.04em;
+    text-wrap: balance;
+  }
+  .soft-highlight { color: var(--sage-deep); }
+  .lede {
+    margin-top: 18px;
+    max-width: 620px;
+    color: var(--muted);
+    font-size: 15.5px;
+    line-height: 1.6;
+  }
+  .meta-row { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 7px; }
+  .meta-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 9px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .5);
+    color: var(--muted);
+    font-size: 10.5px;
+    letter-spacing: .02em;
+    white-space: nowrap;
+  }
+  .meta-chip::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: var(--line-strong); }
+
+  .progress-card {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 19px 20px;
+    border-radius: 26px;
+    background: rgba(251, 253, 251, .82);
+    border: 1px solid rgba(255, 255, 255, .9);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(12px);
+  }
+  .ring {
+    --p: 83.33;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: conic-gradient(var(--sage) calc(var(--p) * 1%), #e1ebe5 0);
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+  }
+  .ring-inner {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: var(--surface);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+  }
+  .ring-inner b { font-family: var(--display); font-weight: 600; font-size: 26px; line-height: .9; letter-spacing: -.04em; }
+  .ring-inner span { color: var(--faint); font-size: 9px; letter-spacing: .05em; }
+  .progress-copy { min-width: 0; }
+  .progress-kicker { color: #6f8177; font-size: 9.5px; letter-spacing: .12em; text-transform: uppercase; }
+  .progress-copy h2 { margin-top: 5px; font-family: var(--display); font-weight: 600; font-size: 20px; line-height: 1.1; letter-spacing: -.025em; }
+  .progress-copy p { margin-top: 5px; color: var(--muted); font-size: 11px; line-height: 1.45; }
+  .soft-button {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 11px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--sage-deep);
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    transition: background .15s ease, color .15s ease;
+  }
+  .soft-button:hover { background: var(--sage-soft); }
+  .soft-button[hidden] { display: none; }
+  .sprig {
+    position: absolute;
+    top: 4px;
+    right: 300px;
+    width: 240px;
+    height: 260px;
+    color: var(--sage);
+    opacity: .24;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .workspace {
+    display: grid;
+    grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr);
+    gap: 24px;
+    padding: 26px 32px 54px;
+    align-items: start;
+  }
+  .report-card, .review-card {
+    background: rgba(251, 253, 251, .88);
+    border: 1px solid rgba(255, 255, 255, .9);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    min-width: 0;
+  }
+  .report-card { padding: 18px 18px 15px; }
+  .review-card { padding: 20px 20px 18px; }
+
+  .card-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 1px 3px 12px;
+  }
+  .card-kicker { color: #6f8177; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+  .card-head h2, .review-head h2, .interpret-head h2 {
+    margin-top: 4px;
+    font-family: var(--display);
+    font-weight: 600;
+    letter-spacing: -.025em;
+    line-height: 1.15;
+  }
+  .card-head h2 { font-size: 20px; }
+  .card-head .quiet-link { padding-top: 3px; font-size: 11px; white-space: nowrap; }
+  .report-frame {
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    background: #f5f0e5;
+    box-shadow: inset 0 0 0 1px rgba(31, 47, 40, .06);
+  }
+  .report-frame img { width: 100%; height: auto; display: block; }
+  .bands { position: absolute; inset: 0; pointer-events: none; }
+  .band {
+    position: absolute;
+    left: 3.4%;
+    right: 3.4%;
+    height: 2.25%;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    border: 1px solid transparent;
+    transition: background .18s ease, border-color .18s ease;
+  }
+  .band.is-selected {
+    background: rgba(180, 115, 90, .14);
+    border-color: rgba(180, 115, 90, .55);
+    box-shadow: 0 0 0 2px rgba(180, 115, 90, .08);
+  }
+  .report-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 11px 4px 0;
+    color: var(--muted);
+    font-size: 10.5px;
+  }
+  .report-foot .soft-note { display: inline-flex; align-items: center; gap: 6px; color: var(--sage-deep); white-space: nowrap; }
+  .report-foot .soft-note::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--sage); }
+  .report-help { margin: 8px 4px 2px; color: var(--faint); font-size: 10.5px; line-height: 1.45; }
+
+  .review-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 2px 2px 12px;
+  }
+  .review-head h2 { max-width: 520px; font-size: 23px; }
+  .review-sub { margin-top: 6px; color: var(--muted); font-size: 11.5px; line-height: 1.45; }
+  .review-head .quiet-link { padding-top: 4px; font-size: 11px; white-space: nowrap; }
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 2px 12px; border-bottom: 1px solid var(--line); }
+  .filter {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 10px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1;
+    transition: background .15s ease, color .15s ease, border-color .15s ease;
+  }
+  .filter b { color: var(--faint); font-weight: 500; }
+  .filter:hover { border-color: var(--line); color: var(--ink); }
+  .filter[aria-pressed="true"] { background: var(--sage-soft); color: var(--sage-deep); }
+  .filter[aria-pressed="true"] b { color: var(--sage-deep); }
+
+  .value-list { padding-top: 8px; }
+  .group-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 13px 4px 5px;
+    color: #6f8177;
+    font-size: 10.5px;
+    letter-spacing: .02em;
+  }
+  .group-label::before { content: ""; width: 5px; height: 1px; background: var(--line-strong); }
+  .group-label:first-child { margin-top: 3px; }
+
+  .value-row {
+    border: 1px solid transparent;
+    border-radius: 17px;
+    transition: background .16s ease, border-color .16s ease;
+  }
+  .value-row + .value-row { margin-top: 2px; }
+  .value-row:hover { background: rgba(244, 249, 246, .7); }
+  .value-row.is-open { background: var(--surface-2); border-color: #d9e8e0; box-shadow: 0 12px 30px -24px rgba(37, 66, 53, .3); }
+  .value-btn {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 100px 96px 122px 14px;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 12px;
+    border: 0;
+    border-radius: 17px;
+    background: transparent;
+    text-align: left;
+    color: var(--ink);
+  }
+  .value-row.is-open .value-btn { border-radius: 17px 17px 0 0; padding-bottom: 9px; }
+  .value-name { font-size: 14.5px; font-weight: 500; line-height: 1.25; min-width: 0; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+  .lab-mark {
+    display: inline-grid;
+    place-items: center;
+    width: 17px; height: 17px;
+    border-radius: 50%;
+    background: var(--gold-soft);
+    color: #8a6018;
+    font-size: 8.5px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .value-figure { font-size: 19px; font-weight: 500; letter-spacing: -.02em; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+  .value-figure small { display: inline-block; margin-left: 2px; color: #7a8c82; font-size: 9px; font-weight: 400; letter-spacing: .01em; }
+  .value-range { color: var(--muted); font-size: 10.5px; text-align: right; white-space: nowrap; }
+  .value-range small { display: block; color: #7a8c82; font-size: 8.5px; letter-spacing: .02em; }
+  .status-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 8px;
+    border-radius: 999px;
+    font-size: 9.5px;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .status-pill::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: currentColor; }
+  .status-pill--checked { background: var(--sage-soft); color: var(--sage-deep); }
+  .status-pill--ready { background: var(--sky-soft); color: #4f718b; }
+  .status-pill--review { background: var(--clay-soft); color: #8e523d; }
+  .chev { width: 13px; height: 13px; color: var(--faint); transition: transform .18s ease; }
+  .value-row.is-open .chev { transform: rotate(180deg); }
+
+  .value-detail {
+    padding: 0 16px 16px;
+  }
+  .detail-top {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 20px;
+    align-items: start;
+    padding-top: 12px;
+    border-top: 1px solid #e0ebe5;
+  }
+  .detail-kicker { color: var(--clay); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+  .detail-copy h3 { margin-top: 5px; font-family: var(--display); font-weight: 500; font-size: 22px; line-height: 1.1; letter-spacing: -.025em; }
+  .detail-copy p { margin-top: 6px; max-width: 460px; color: var(--muted); font-size: 11.5px; line-height: 1.5; }
+  .detail-figure { text-align: right; white-space: nowrap; }
+  .detail-figure b { display: block; font-family: var(--display); font-weight: 500; font-size: 32px; line-height: .95; letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+  .detail-figure span { color: var(--faint); font-size: 10px; }
+  .detail-figure p { margin-top: 6px; color: var(--muted); font-size: 10px; }
+  .checks { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 16px; margin-top: 12px; }
+  .check {
+    display: grid;
+    grid-template-columns: 15px minmax(0, 1fr);
+    gap: 6px;
+    align-items: start;
+    color: var(--muted);
+    font-size: 10.5px;
+    line-height: 1.4;
+  }
+  .check .icon { width: 13px; height: 13px; color: var(--sage); margin-top: 1px; }
+  .check.is-soft { color: #8a5a46; }
+  .check.is-soft .icon { color: var(--clay); }
+  .check b { color: var(--ink); font-weight: 500; }
+  .detail-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 13px;
+    padding-top: 11px;
+    border-top: 1px solid #e0ebe5;
+  }
+  .soft-checkbox {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    max-width: 300px;
+    color: var(--muted);
+    font-size: 10.5px;
+    line-height: 1.45;
+    cursor: pointer;
+  }
+  .soft-checkbox input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .soft-checkbox .box {
+    width: 15px; height: 15px;
+    border: 1px solid var(--line-strong);
+    border-radius: 5px;
+    background: #fff;
+    display: inline-grid;
+    place-items: center;
+    flex: 0 0 auto;
+    margin-top: 1px;
+    transition: background .15s ease, border-color .15s ease;
+  }
+  .soft-checkbox .box::after {
+    content: "";
+    width: 7px; height: 4px;
+    border-left: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff;
+    transform: rotate(-45deg) scale(.6);
+    opacity: 0;
+    transition: opacity .15s ease, transform .15s ease;
+  }
+  .soft-checkbox input:checked + .box { background: var(--sage); border-color: var(--sage); }
+  .soft-checkbox input:checked + .box::after { opacity: 1; transform: rotate(-45deg) scale(1); }
+  .soft-checkbox input:focus-visible + .box { outline: 2px solid var(--sage); outline-offset: 2px; }
+  .confirm-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 14px;
+    border: 1px solid var(--sage-deep);
+    border-radius: 999px;
+    background: var(--sage-deep);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    transition: opacity .15s ease, background .15s ease;
+  }
+  .confirm-btn:hover { background: #345647; }
+  .confirm-btn:disabled { opacity: .32; cursor: not-allowed; }
+  .checked-note { display: inline-flex; align-items: center; gap: 7px; color: var(--sage-deep); font-size: 11.5px; }
+  .checked-note .icon { width: 15px; height: 15px; }
+  .value-empty { padding: 32px 12px 36px; text-align: center; color: var(--muted); font-size: 12.5px; }
+
+  /* ---------- interpretation ---------- */
+  .interpret { padding: 38px 32px 58px; }
+  .interpret-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 1080px;
+  }
+  .interpret-head h2 { max-width: 720px; font-size: clamp(30px, 3vw, 36px); line-height: 1.06; }
+  .interpret-head p { margin-top: 10px; max-width: 680px; color: var(--muted); font-size: 14px; line-height: 1.6; }
+  .interpret-head .quiet-link { padding-top: 6px; font-size: 11px; white-space: nowrap; }
+  .interpret-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr 1fr;
+    gap: 16px;
+    margin-top: 26px;
+    align-items: stretch;
+  }
+  .note-card {
+    border-radius: 26px;
+    padding: 20px 20px 22px;
+    min-width: 0;
+    background: var(--surface);
+    box-shadow: 0 20px 50px -40px rgba(37, 66, 53, .4);
+    display: flex;
+    flex-direction: column;
+  }
+  .note-card--sage { background: #f1f8f4; }
+  .note-card--sky { background: #f0f6f9; }
+  .note-card--clay { background: #fbf4ef; }
+  .note-icon {
+    width: 34px; height: 34px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .65);
+    color: var(--sage-deep);
+  }
+  .note-card--sky .note-icon { color: #4f718b; }
+  .note-card--clay .note-icon { color: var(--clay); }
+  .note-icon .icon { width: 17px; height: 17px; }
+  .note-kicker { margin-top: 14px; color: var(--faint); font-size: 9.5px; letter-spacing: .11em; text-transform: uppercase; }
+  .note-card h3 { margin-top: 6px; font-family: var(--display); font-weight: 600; font-size: 21px; line-height: 1.12; letter-spacing: -.025em; }
+  .note-card > p { margin-top: 8px; color: var(--muted); font-size: 11.5px; line-height: 1.55; }
+  .note-list { margin-top: 14px; display: grid; gap: 8px; }
+  .note-list li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 3px 10px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(31, 47, 40, .08);
+    color: var(--ink);
+    font-size: 11.5px;
+    line-height: 1.4;
+  }
+  .note-list li:first-child { border-top: 0; padding-top: 0; }
+  .note-list li b { font-weight: 500; text-align: right; font-variant-numeric: tabular-nums; }
+  .note-list li small { grid-column: 1 / -1; color: var(--muted); font-size: 10px; line-height: 1.4; }
+  .note-list--plain { margin-top: 14px; display: grid; gap: 7px; }
+  .note-list--plain li { display: block; position: relative; padding-left: 13px; color: var(--muted); font-size: 11.5px; line-height: 1.5; border: 0; }
+  .note-list--plain li b { display: inline; text-align: left; }
+  .note-list--plain li::before { content: ""; position: absolute; top: .58em; left: 0; width: 5px; height: 1px; background: currentColor; opacity: .55; }
+  .note-list--plain b { color: var(--ink); font-weight: 500; text-align: left; }
+  .interpret-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 18px;
+    padding: 13px 15px;
+    border-radius: 16px;
+    background: rgba(251, 253, 251, .7);
+    color: var(--muted);
+    font-size: 10.5px;
+    line-height: 1.55;
+  }
+  .interpret-note .icon { width: 14px; height: 14px; color: var(--sage); margin-top: 1px; }
+  .interpret-note a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line-strong); }
+
+  .footer {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 32px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--faint);
+    font-size: 10px;
+    letter-spacing: .01em;
+  }
+  .footer .f-left { display: inline-flex; align-items: center; gap: 7px; }
+  .footer .icon { width: 13px; height: 13px; color: var(--sage); }
+
+  .toast {
+    position: fixed;
+    left: 50%;
+    bottom: 24px;
+    transform: translate(-50%, 12px);
+    z-index: 80;
+    padding: 10px 15px;
+    border-radius: 999px;
+    background: var(--ink);
+    color: #f4faf7;
+    font-size: 11.5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s ease, transform .2s ease;
+    box-shadow: 0 16px 40px -20px rgba(31, 47, 40, .5);
+  }
+  .toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
+
+  body[data-view="interpret"] .progress-card { display: none; }
+  body[data-view="interpret"] .meta-row { display: none; }
+  body[data-view="interpret"] .workspace { display: none; }
+  body[data-view="interpret"] .interpret { display: block; }
+
+  @media (max-width: 1160px) {
+    .hero { grid-template-columns: minmax(0, 1fr) 320px; gap: 28px; }
+    .workspace { grid-template-columns: 1fr; }
+    .review-card { order: -1; }
+    .report-card { max-width: 620px; }
+    .interpret-grid { grid-template-columns: 1fr 1fr; }
+    .note-card:first-child { grid-column: 1 / -1; }
+  }
+  @media (max-width: 900px) {
+    .topbar-inner { height: auto; min-height: 68px; padding: 12px 22px; flex-wrap: wrap; gap: 10px; }
+    .top-actions { margin-left: 0; width: 100%; justify-content: flex-start; }
+    .hero { grid-template-columns: 1fr; padding: 32px 22px 0; gap: 22px; }
+    .progress-card { width: 100%; max-width: 420px; }
+    .sprig { right: 8px; width: 180px; opacity: .16; }
+    .workspace, .interpret { padding-left: 22px; padding-right: 22px; }
+    .footer { padding-left: 22px; padding-right: 22px; }
+    .interpret-grid { grid-template-columns: 1fr; }
+    .note-card:first-child { grid-column: auto; }
+  }
+  @media (max-width: 700px) {
+    h1 { font-size: 40px; }
+    .topbar-divider, .crumb { display: none; }
+    .value-btn { grid-template-columns: minmax(0, 1fr) auto 13px; gap: 8px; padding: 10px; }
+    .value-range { display: none; }
+    .value-figure { text-align: right; }
+    .status-pill { grid-column: 2; justify-self: end; }
+    .value-name { grid-column: 1; }
+    .value-figure { grid-column: 2; grid-row: 1; }
+    .chev { grid-column: 3; grid-row: 1; }
+    .value-btn { grid-template-areas: "name value chev" "status status status"; grid-template-columns: minmax(0, 1fr) auto 13px; }
+    .value-name { grid-area: name; }
+    .value-figure { grid-area: value; }
+    .chev { grid-area: chev; }
+    .status-pill { grid-area: status; justify-self: start; margin-top: 4px; }
+    .detail-top { grid-template-columns: 1fr; gap: 10px; }
+    .detail-figure { text-align: left; }
+    .checks { grid-template-columns: 1fr; }
+    .detail-actions { display: block; }
+    .confirm-btn { margin-top: 10px; width: 100%; justify-content: center; }
+    .interpret-head { display: block; }
+    .interpret-head .quiet-link { display: inline-block; margin-top: 12px; }
+    .footer { flex-direction: column; align-items: flex-start; gap: 6px; }
+  }
+</style>
+</head>
+<body data-view="review">
+
+<svg class="sprite" aria-hidden="true">
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M19.5 4.5c-8.5 0-14 4.6-14 11.2 0 2 .6 3.6 1.6 4.8 1-6.2 5-10.2 11.4-11.8-5 2.4-8.2 6.2-9.7 12 6.4.2 11.2-4.2 11.2-11.2 0-1.8 0-3.6-.5-5Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.2 4.2L19 6.9"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6.5 3.5h8l3.5 3.5v13.5h-11V3.5Z"/><path d="M14.5 3.5V7H18M9 11h6M9 14.5h6M9 18h4"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M3.5 12s3.2-5.5 8.5-5.5 8.5 5.5 8.5 5.5-3.2 5.5-8.5 5.5S3.5 12 3.5 12Z"/><circle cx="12" cy="12" r="2.4"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html" aria-label="materia mockups gallery">
+      <svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg>
+      <span>materia</span>
+      <small>Bench</small>
+    </a>
+    <span class="topbar-divider" aria-hidden="true"></span>
+    <div class="crumb"><b>Lab review</b><span>·</span><span>Amino acids</span></div>
+    <div class="top-actions">
+      <span class="type-chip">Figtree</span>
+      <a class="quiet-link" href="03-bench.html">Original Bench</a>
+      <a class="quiet-link" href="index.html">All concepts</a>
+      <span class="sample-chip">Sample report</span>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">
+        <svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg>
+        <span data-title="review">Lab review · sample report</span>
+        <span data-title="interpret" hidden>Interpretation · what the lab can say</span>
+      </p>
+      <h1>
+        <span data-title="review">A closer look at<br><span class="soft-highlight">this amino acid panel.</span></span>
+        <span data-title="interpret" hidden>What this means —<br><span class="soft-highlight">and what it doesn't.</span></span>
+      </h1>
+      <p class="lede">
+        <span data-title="review">Twelve values, read from page 2 of the Genova report. Check each number against the page before you use it. Nothing here is a diagnosis.</span>
+        <span data-title="interpret" hidden>The lab's own notes are the only reference used here. No pattern rule, no diagnosis, no protocol — just what is printed, and what is missing.</span>
+      </p>
+      <div class="meta-row" aria-label="Report details">
+        <span class="meta-chip">Genova Diagnostics</span>
+        <span class="meta-chip">Collected 15 Jan 2012</span>
+        <span class="meta-chip">12 values</span>
+        <span class="meta-chip">Page 2 of 3</span>
+      </div>
+    </div>
+
+    <aside class="progress-card" id="hero-progress" aria-label="Review progress">
+      <div class="ring" id="ring" style="--p: 83.33">
+        <div class="ring-inner"><b id="ring-count">10</b><span>of 12</span></div>
+      </div>
+      <div class="progress-copy">
+        <p class="progress-kicker">Your review</p>
+        <h2 id="progress-title">Two values left.</h2>
+        <p id="progress-sub">Take your time with the last two. The rest are checked.</p>
+        <button class="soft-button" type="button" id="finish-btn">Finish the last two</button>
+      </div>
+    </aside>
+
+    <svg class="sprig" viewBox="0 0 240 260" fill="none" aria-hidden="true">
+      <path d="M44 254C66 196 94 146 160 62" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M72 208C45 197 33 176 31 151C55 154 72 168 78 190" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M92 174C121 168 139 151 146 127C120 126 101 138 92 158" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M116 137C94 119 91 97 101 75C124 86 135 106 131 128" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M143 100C169 94 184 77 190 54C164 53 146 65 138 85" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M160 62C148 45 150 30 160 20C174 31 178 45 170 58" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+    </svg>
+  </section>
+
+  <div class="workspace" id="review-workspace">
+    <section class="report-card" aria-labelledby="report-title">
+      <div class="card-head">
+        <div>
+          <p class="card-kicker">The report</p>
+          <h2 id="report-title">Page 2</h2>
+        </div>
+        <a class="quiet-link" href="assets/nutripath-p2.png" target="_blank" rel="noopener noreferrer">Open full page ↗</a>
+      </div>
+      <div class="report-frame">
+        <img src="assets/nutripath-p2.png" width="1200" height="1553" alt="Page 2 of the Genova Diagnostics bloodspot amino acids sample report, with results, quintile bars and the lab's reference intervals.">
+        <div class="bands" id="bands" aria-hidden="true"></div>
+      </div>
+      <div class="report-foot">
+        <span id="highlight-caption">Highlighted: phenylalanine</span>
+        <span class="soft-note">Two reads agree</span>
+      </div>
+      <p class="report-help">Choose a value on the right to find its line on the page.</p>
+    </section>
+
+    <section class="review-card" aria-labelledby="review-title">
+      <div class="review-head">
+        <div>
+          <p class="card-kicker">What we read</p>
+          <h2 id="review-title">Twelve values, grouped as the lab groups them.</h2>
+          <p class="review-sub">The lab's own ranges are the reference. Nothing here is interpreted for you.</p>
+        </div>
+        <button class="quiet-link" type="button" id="open-interpret">What this means →</button>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter values">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All <b>12</b></button>
+        <button class="filter" type="button" data-filter="finish" aria-pressed="false">To finish <b id="finish-count">2</b></button>
+        <button class="filter" type="button" data-filter="notes" aria-pressed="false">Lab notes <b>3</b></button>
+      </div>
+
+      <div class="value-list" id="value-list"></div>
+    </section>
+  </div>
+
+  <section class="interpret" id="interpret-view" hidden aria-labelledby="interpret-title">
+    <div class="interpret-head">
+      <div>
+        <p class="eyebrow">
+          <svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg>
+          A quiet reading
+        </p>
+        <h2 id="interpret-title">The lab's notes, in context.</h2>
+        <p>Three values carry the lab's L marker. The rest sit inside the report's ranges. This page keeps the interpretation to what the report actually says.</p>
+      </div>
+      <button class="quiet-link" type="button" id="back-values">← Back to values</button>
+    </div>
+
+    <div class="interpret-grid">
+      <article class="note-card note-card--sage">
+        <span class="note-icon"><svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg></span>
+        <p class="note-kicker">From the report</p>
+        <h3>Three values carry an L.</h3>
+        <p>The lab marks these itself. The mark is not a diagnosis and not a pattern.</p>
+        <ul class="note-list">
+          <li><span>Methionine</span><b>10</b><small>Lab range 10–33 µmol/L · at the lower limit</small></li>
+          <li><span>Tryptophan</span><b>24</b><small>Lab range 24–52 µmol/L · at the lower limit</small></li>
+          <li><span>Phenylalanine</span><b>40</b><small>Lab range 37–86 µmol/L · inside, flagged by the lab's quintile ranking</small></li>
+        </ul>
+      </article>
+
+      <article class="note-card note-card--sky">
+        <span class="note-icon"><svg class="icon" aria-hidden="true"><use href="#i-doc"></use></svg></span>
+        <p class="note-kicker">What we can say</p>
+        <h3>The lab's ranges are the reference.</h3>
+        <ul class="note-list note-list--plain">
+          <li>The values were read twice and match the page.</li>
+          <li>The tryptophan/LNAA ratio is <b>0.052</b>, inside the report's <b>0.050–0.105</b>.</li>
+          <li>No pattern rule is applied. The UI does not diagnose.</li>
+          <li>No corpus reference interval is used for these analytes.</li>
+        </ul>
+      </article>
+
+      <article class="note-card note-card--clay">
+        <span class="note-icon"><svg class="icon" aria-hidden="true"><use href="#i-eye"></use></svg></span>
+        <p class="note-kicker">What we can't say</p>
+        <h3>No diagnosis, no protocol.</h3>
+        <ul class="note-list note-list--plain">
+          <li>Age- and sex-specific ranges are not stated beyond “ages 13 and over”.</li>
+          <li>Fasting status and specimen handling are not stated.</li>
+          <li>The report is from <b>2012</b>. It is historical; confirm current values.</li>
+          <li>This is a public sample report, not a patient record.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="interpret-note">
+      <svg class="icon" aria-hidden="true"><use href="#i-doc"></use></svg>
+      <span>Source: page 2 of the public Genova Diagnostics “0013 Bloodspot Amino Acids 11 Profile” sample report. No clinical interpretation is generated. <a href="assets/nutripath-p2.png" target="_blank" rel="noopener noreferrer">Open the page ↗</a></span>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span class="f-left"><svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg> materia · Bench · Figtree study</span>
+  <span>Sample report, not a patient · no diagnosis, no protocol · no model running</span>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<noscript><p style="padding:24px">This mockup needs JavaScript for row selection and confirmation.</p></noscript>
+
+<script>window.addEventListener("error", function () { document.documentElement.setAttribute("data-mockup-error", "1"); });</script>
+<script src="assets/fixtures.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  const M = window.MATERIA;
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+  const esc = (value) => String(value == null ? "" : value)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+
+  const rows = M.lab.rows.map((row) => ({ ...row }));
+  const groups = [
+    { label: "Limiting amino acids", names: ["Lysine", "Methionine", "Tryptophan"] },
+    { label: "Branched-chain amino acids", names: ["Isoleucine", "Leucine", "Valine"] },
+    { label: "Other essential amino acids", names: ["Phenylalanine", "Histidine", "Threonine"] },
+    { label: "Conditionally essential amino acids", names: ["Arginine", "Taurine"] },
+    { label: "Ratios", names: ["Tryptophan/LNAA"] }
+  ];
+
+  let selected = rows.findIndex((row) => row.status === "review");
+  let filter = "all";
+  let toastTimer = null;
+
+  function formatValue(row) {
+    return row.unit === "ratio" ? Number(row.value).toFixed(3) : String(row.value);
+  }
+  function formatRange(row) {
+    const low = row.unit === "ratio" ? Number(row.low).toFixed(3) : String(row.low);
+    const high = row.unit === "ratio" ? Number(row.high).toFixed(3) : String(row.high);
+    return `${low}–${high}`;
+  }
+  function counts() {
+    const checked = rows.filter((row) => row.status === "confirmed").length;
+    const ready = rows.filter((row) => row.status === "ready").length;
+    const review = rows.filter((row) => row.status === "review").length;
+    return { checked, ready, review, left: rows.length - checked };
+  }
+  const statusText = { confirmed: "Checked", ready: "Ready", review: "Needs a look" };
+
+  function renderHero() {
+    const c = counts();
+    const pct = (c.checked / rows.length) * 100;
+    $("#ring").style.setProperty("--p", pct.toFixed(2));
+    $("#ring-count").textContent = String(c.checked);
+    const title = c.left === 0 ? "Everything is checked." : c.left === 1 ? "One value left." : `${c.left} values left.`;
+    $("#progress-title").textContent = title;
+    $("#progress-sub").textContent = c.left === 0
+      ? "Every number has been compared with the page. The sheet is ready to interpret."
+      : c.left === 1
+        ? "One last number. Take a moment with it."
+        : "Take your time with the last two. The rest are checked.";
+    const finish = $("#finish-btn");
+    finish.hidden = c.left === 0;
+    finish.textContent = c.left === 1 ? "Finish the last one" : "Finish the last two";
+    $("#finish-count").textContent = String(c.left);
+  }
+
+  function renderBands() {
+    $("#bands").innerHTML = rows.map((row, index) => (
+      `<div class="band${index === selected ? " is-selected" : ""}" style="top:${row.y}%"></div>`
+    )).join("");
+    const row = rows[selected];
+    if (row) $("#highlight-caption").textContent = `Highlighted: ${row.analyte}, row ${String(selected + 1).padStart(2, "0")}`;
+  }
+
+  function visibleRows() {
+    return rows.map((row, index) => ({ row, index })).filter(({ row }) => {
+      if (filter === "finish") return row.status !== "confirmed";
+      if (filter === "notes") return Boolean(row.flag);
+      return true;
+    });
+  }
+
+  function checkMarkup(soft, label, text) {
+    return `<div class="check${soft ? " is-soft" : ""}"><svg class="icon" aria-hidden="true"><use href="#i-${soft ? "eye" : "check"}"></use></svg><span><b>${esc(label)}</b> ${esc(text)}</span></div>`;
+  }
+
+  function detailMarkup(row, index) {
+    const isReview = row.status === "review";
+    const isReady = row.status === "ready";
+    const isChecked = row.status === "confirmed";
+    const flagNote = row.flag
+      ? (row.value > row.low && row.value < row.high
+          ? "The lab marks this L from its quintile ranking; the value is inside the interval."
+          : "The value sits at the lab's lower limit, and the lab marks it L.")
+      : "";
+
+    const copy = isChecked
+      ? { kicker: "Checked by you", title: "This one has been compared.", text: "The value matches the page. It is ready to use in the note." }
+      : isReady
+        ? { kicker: "Ready to check", title: "This one read cleanly.", text: "One quick comparison with the page, then it is done." }
+        : { kicker: "A closer look", title: `We read this at ${Math.round(row.conf * 100)}%.`, text: "That is below the 85% we like for numbers. Please compare it with the page before confirming." };
+
+    const checks = [
+      checkMarkup(false, "Plausible", "the value sits inside a wide physical range"),
+      checkMarkup(false, "Unit", `${row.unit} is recognised`),
+      checkMarkup(false, "Lab range", "is printed on the source page"),
+      checkMarkup(false, "Date", "collection date is present"),
+      isReview
+        ? checkMarkup(true, "Reading certainty", `${Math.round(row.conf * 100)}% · below the 85% threshold`)
+        : checkMarkup(false, "Reading certainty", `${Math.round(row.conf * 100)}%`),
+      row.flag ? checkMarkup(row.value > row.low && row.value < row.high, "Lab note", flagNote) : ""
+    ].join("");
+
+    const actions = isChecked
+      ? `<div class="detail-actions"><span class="checked-note"><svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg> Checked by you</span></div>`
+      : `<div class="detail-actions">
+          ${isReview ? `<label class="soft-checkbox"><input type="checkbox" id="compare-check"><span class="box" aria-hidden="true"></span><span>I compared this number with the report</span></label>` : '<span></span>'}
+          <button class="confirm-btn" type="button" id="confirm-value" ${isReview ? "disabled" : ""}>Looks right</button>
+        </div>`;
+
+    return `<div class="value-detail">
+      <div class="detail-top">
+        <div class="detail-copy"><p class="detail-kicker">${esc(copy.kicker)}</p><h3>${esc(copy.title)}</h3><p>${esc(copy.text)}</p></div>
+        <div class="detail-figure"><b>${esc(formatValue(row))}</b><span>${esc(row.unit)}</span><p>Lab range ${esc(formatRange(row))}</p></div>
+      </div>
+      <div class="checks">${checks}</div>
+      ${actions}
+    </div>`;
+  }
+
+  function rowMarkup(row, index) {
+    const open = index === selected;
+    return `<div class="value-row${open ? " is-open" : ""}" data-row="${index}">
+      <button class="value-btn" type="button" data-select="${index}" aria-expanded="${open}">
+        <span class="value-name">${esc(row.analyte)}${row.flag ? `<span class="lab-mark" title="Lab low flag">${esc(row.flag)}</span>` : ""}</span>
+        <span class="value-figure">${esc(formatValue(row))}<small>${esc(row.unit)}</small></span>
+        <span class="value-range">${esc(formatRange(row))}<small>range</small></span>
+        <span class="status-pill status-pill--${row.status === "confirmed" ? "checked" : row.status}">${esc(statusText[row.status])}</span>
+        <svg class="icon chev" aria-hidden="true"><use href="#i-chevron"></use></svg>
+      </button>
+      ${open ? detailMarkup(row, index) : ""}
+    </div>`;
+  }
+
+  function renderList() {
+    const visible = visibleRows();
+    if (!visible.length) {
+      $("#value-list").innerHTML = '<p class="value-empty">Every value in this view is checked. Switch back to All to see the full panel.</p>';
+    } else {
+      let html = "";
+      for (const group of groups) {
+        const inGroup = visible.filter(({ row }) => group.names.includes(row.analyte));
+        if (!inGroup.length) continue;
+        html += `<p class="group-label">${esc(group.label)}</p>`;
+        html += inGroup.map(({ row, index }) => rowMarkup(row, index)).join("");
+      }
+      const known = new Set(groups.flatMap((group) => group.names));
+      const extras = visible.filter(({ row }) => !known.has(row.analyte));
+      if (extras.length) html += extras.map(({ row, index }) => rowMarkup(row, index)).join("");
+      $("#value-list").innerHTML = html;
+    }
+
+    $$(".filter").forEach((button) => {
+      const key = button.dataset.filter;
+      const count = key === "finish" ? counts().left : key === "notes" ? rows.filter((row) => row.flag).length : rows.length;
+      const badge = button.querySelector("b");
+      if (badge) badge.textContent = String(count);
+      button.setAttribute("aria-pressed", String(filter === key));
+    });
+
+    const checkbox = $("#compare-check");
+    if (checkbox) {
+      checkbox.addEventListener("change", () => {
+        const button = $("#confirm-value");
+        if (button) button.disabled = !checkbox.checked;
+      });
+    }
+    const confirm = $("#confirm-value");
+    if (confirm) {
+      confirm.addEventListener("click", () => {
+        const row = rows[selected];
+        row.status = "confirmed";
+        const visible = visibleRows();
+        if (!visible.length) {
+          filter = "all";
+        } else if (!visible.some(({ index }) => index === selected)) {
+          selected = visible[0].index;
+        }
+        renderAll();
+        showToast(`${row.analyte} checked.`);
+      });
+    }
+  }
+
+  function renderAll() {
+    renderHero();
+    renderBands();
+    renderList();
+  }
+
+  function selectRow(index) {
+    selected = index;
+    renderAll();
+  }
+
+  function setFilter(next) {
+    filter = next;
+    const visible = visibleRows();
+    if (visible.length && !visible.some(({ index }) => index === selected)) {
+      selected = visible[0].index;
+    }
+    renderAll();
+  }
+
+  function showToast(text) {
+    const toast = $("#toast");
+    toast.textContent = text;
+    toast.classList.add("is-visible");
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove("is-visible"), 2200);
+  }
+
+  function setView(view) {
+    document.body.dataset.view = view;
+    const interpret = view === "interpret";
+    $$("[data-title]").forEach((node) => {
+      node.hidden = node.dataset.title !== view;
+    });
+    $("#hero-progress").hidden = interpret;
+    $("#review-workspace").hidden = interpret;
+    $("#interpret-view").hidden = !interpret;
+    if (interpret) $("#interpret-view").scrollIntoView({ behavior: "smooth", block: "start" });
+    else window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  document.addEventListener("click", (event) => {
+    const select = event.target.closest("[data-select]");
+    if (select) { selectRow(Number(select.dataset.select)); return; }
+    const filterButton = event.target.closest("[data-filter]");
+    if (filterButton) { setFilter(filterButton.dataset.filter); return; }
+    if (event.target.closest("#finish-btn")) {
+      filter = "finish";
+      const next = rows.findIndex((row) => row.status !== "confirmed");
+      if (next >= 0) selected = next;
+      renderAll();
+      $(".review-card").scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+    if (event.target.closest("#open-interpret")) { setView("interpret"); return; }
+    if (event.target.closest("#back-values")) { setView("review"); return; }
+  });
+
+  renderAll();
+  if (location.hash === "#interpret") setView("interpret");
+  document.documentElement.setAttribute("data-mockup-ready", "1");
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>materia — four UI directions</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/base.css">
+<style>
+  :root {
+    --paper: #f5efdf;
+    --paper-2: #fbf6e9;
+    --ink: #181818;
+    --muted: #64645a;
+    --faint: #98988b;
+    --rule: #d8ccc0;
+    --accent: #c62a16;
+    --accent-bright: #df2414;
+    --amber-bg: #f2e2bb;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --display: "Space Grotesk", system-ui, sans-serif;
+  }
+
+  html, body { background: var(--paper); }
+  body {
+    color: var(--ink);
+    background:
+      radial-gradient(circle at 78% 4%, rgba(255,255,255,.38), transparent 30%),
+      var(--paper);
+  }
+
+  .bar {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 72px;
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .brand {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 9px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: -.045em;
+    line-height: 1;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .brand .dot { align-self: center; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-bright); }
+  .brand small {
+    margin-left: 4px;
+    font: 500 8.5px/1 var(--mono);
+    letter-spacing: .17em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .bar-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: var(--muted);
+    font: 400 9px/1.4 var(--mono);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .bar-right a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--ink); padding-bottom: 2px; }
+  .bar-right a:hover { color: var(--accent); border-color: var(--accent); }
+  .mockup-badge { color: var(--muted); border: 1px solid var(--rule); background: var(--paper-2); padding: 8px 10px; }
+
+  main { max-width: 1440px; margin: 0 auto; padding: 54px 40px 70px; }
+
+  .intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 50px;
+    align-items: end;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--muted);
+    font: 500 10px/1.4 var(--mono);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+  }
+  .eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--accent-bright); }
+  h1 {
+    margin-top: 18px;
+    max-width: 980px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(44px, 5.4vw, 78px);
+    line-height: .98;
+    letter-spacing: -.05em;
+    text-wrap: balance;
+  }
+  .intro-sub {
+    margin-top: 18px;
+    max-width: 710px;
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .intro-meta {
+    text-align: right;
+    color: var(--muted);
+    font: 400 9px/1.55 var(--mono);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+  .intro-meta b {
+    display: block;
+    color: var(--ink);
+    font: 600 46px/1 var(--display);
+    letter-spacing: -.05em;
+    margin-bottom: 8px;
+  }
+
+  .recommend {
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 22px;
+    align-items: start;
+    padding: 18px 22px;
+    background: var(--ink);
+    color: var(--paper);
+    border-left: 4px solid var(--accent-bright);
+  }
+  .recommend-label {
+    padding-top: 2px;
+    color: #ff8a76;
+    font: 600 9px/1.4 var(--mono);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .recommend p { max-width: 950px; color: #e7dfcc; font-size: 13.5px; line-height: 1.55; }
+  .recommend b { color: var(--paper); font-weight: 600; }
+
+  .gallery {
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px;
+  }
+  .card {
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .card-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 17px 18px 13px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .card-num { color: var(--accent); font: 500 10px/1 var(--mono); letter-spacing: .06em; }
+  .card-mode {
+    margin-left: auto;
+    color: var(--faint);
+    font: 500 7.5px/1 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .card-title {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -.035em;
+  }
+  .card-thesis {
+    padding: 12px 18px 0;
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1.45;
+    font-weight: 500;
+  }
+  .shot {
+    display: block;
+    margin: 14px 18px 0;
+    border: 1px solid var(--rule);
+    background: #fff;
+    overflow: hidden;
+    aspect-ratio: 1.44 / 1;
+  }
+  .shot img { width: 100%; height: 100%; object-fit: cover; object-position: top left; }
+  .card-body { padding: 14px 18px 16px; display: flex; flex-direction: column; flex: 1; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    display: inline-flex;
+    padding: 4px 6px;
+    border: 1px solid var(--rule);
+    color: var(--muted);
+    font: 500 7.5px/1 var(--mono);
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .card-row {
+    display: grid;
+    grid-template-columns: 74px minmax(0, 1fr);
+    gap: 9px;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    line-height: 1.5;
+    color: var(--muted);
+  }
+  .card-row dt { color: var(--faint); font: 500 7.5px/1.5 var(--mono); letter-spacing: .09em; text-transform: uppercase; }
+  .card-row dd { margin: 0; }
+  .card-links { margin-top: auto; padding-top: 15px; display: flex; flex-wrap: wrap; gap: 9px; }
+  .card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 11px;
+    border: 1px solid var(--ink);
+    color: var(--ink);
+    text-decoration: none;
+    font: 500 8.5px/1 var(--mono);
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+  .card-link:hover { background: var(--ink); color: var(--paper); }
+  .card-link--ghost { border-color: var(--rule); color: var(--muted); }
+  .card-link--ghost:hover { border-color: var(--ink); background: transparent; color: var(--ink); }
+
+
+  .type-study {
+    margin-top: 52px;
+    padding-top: 22px;
+    border-top: 1px solid var(--ink);
+  }
+  .type-study-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 28px;
+  }
+  .type-study-head h2 {
+    margin-top: 10px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(30px, 3.2vw, 44px);
+    line-height: 1;
+    letter-spacing: -.04em;
+  }
+  .type-study-head p {
+    margin-top: 9px;
+    max-width: 700px;
+    color: var(--muted);
+    font-size: 12.5px;
+    line-height: 1.55;
+  }
+  .type-study-head .card-link { flex: 0 0 auto; margin-bottom: 2px; }
+  .type-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 18px;
+  }
+  .type-card {
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+    color: var(--ink);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .type-card:hover { border-color: var(--ink); }
+  .type-shot {
+    aspect-ratio: 1.22 / 1;
+    overflow: hidden;
+    border-bottom: 1px solid var(--rule);
+    background: #fff;
+  }
+  .type-shot img { width: 100%; height: 100%; object-fit: cover; object-position: top left; }
+  .type-body { padding: 11px 12px 13px; }
+  .type-body .tag { margin-bottom: 7px; }
+  .type-body h3 {
+    font-size: 19px;
+    line-height: 1.05;
+    letter-spacing: -.025em;
+    font-weight: 600;
+  }
+  .type-card[data-face="lora"] h3 { font-family: "Lora", Georgia, serif; }
+  .type-card[data-face="fraunces"] h3 { font-family: "Fraunces", Georgia, serif; }
+  .type-card[data-face="nunito"] h3 { font-family: "Nunito", system-ui, sans-serif; }
+  .type-card[data-face="figtree"] h3 { font-family: "Figtree", system-ui, sans-serif; }
+  .type-pair {
+    margin-top: 5px;
+    color: var(--faint);
+    font: 400 8px/1.4 var(--mono);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+  .type-desc { margin-top: 7px; color: var(--muted); font-size: 10.5px; line-height: 1.45; }
+  @media (max-width: 1050px) {
+    .type-study-head { display: block; }
+    .type-study-head .card-link { display: inline-flex; margin-top: 14px; }
+    .type-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 700px) {
+    .type-grid { grid-template-columns: 1fr; }
+  }
+
+  .compare { margin-top: 50px; }
+  .compare h2 {
+    font: 600 10px/1.4 var(--mono);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .compare table { width: 100%; margin-top: 2px; font-size: 11px; }
+  .compare th, .compare td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule);
+    text-align: left;
+    vertical-align: top;
+  }
+  .compare th {
+    color: var(--faint);
+    font: 500 7.5px/1.4 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .compare th:first-child, .compare td:first-child { padding-left: 0; }
+  .compare td { color: var(--muted); }
+  .compare td:first-child { color: var(--ink); font-weight: 500; }
+  .compare .hero { color: var(--accent); font-weight: 600; }
+  .compare .support { color: var(--muted); }
+  .compare .none { color: var(--faint); }
+
+  .notes {
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--ink);
+  }
+  .notes h2 {
+    font: 600 10px/1.4 var(--mono);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .notes p { margin-top: 10px; max-width: 620px; color: var(--muted); font-size: 12.5px; line-height: 1.6; }
+  .notes b { color: var(--ink); font-weight: 600; }
+  .notes ul { margin-top: 10px; display: grid; gap: 7px; }
+  .notes li { position: relative; padding-left: 14px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+  .notes li::before { content: ""; position: absolute; top: .6em; left: 0; width: 5px; height: 1px; background: var(--accent); }
+
+  .footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 40px 30px;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--muted);
+    font: 400 9px/1.5 var(--mono);
+    letter-spacing: .07em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 1050px) {
+    .intro { grid-template-columns: 1fr; gap: 24px; }
+    .intro-meta { text-align: left; }
+    .gallery { grid-template-columns: 1fr; }
+    .notes { grid-template-columns: 1fr; gap: 24px; }
+  }
+  @media (max-width: 700px) {
+    .bar { padding: 12px 20px; flex-wrap: wrap; }
+    main { padding: 34px 20px 52px; }
+    .intro-meta { display: none; }
+    .recommend { grid-template-columns: 1fr; gap: 8px; }
+    .compare { overflow-x: auto; }
+    .compare table { min-width: 640px; }
+    .footer { padding: 16px 20px 24px; flex-direction: column; gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="bar">
+  <a class="brand" href="index.html" aria-label="materia mockups home">
+    <span>materia</span><span class="dot" aria-hidden="true"></span>
+    <small>Four UI directions</small>
+  </a>
+  <div class="bar-right">
+    <span class="mockup-badge">Static mockups · 2026-10-30</span>
+    <a href="README.md">Read the notes</a>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <section class="intro">
+    <div>
+      <p class="eyebrow">UI directions · for review</p>
+      <h1>Four ways to make evidence visible.</h1>
+      <p class="intro-sub">Four complete directions, each shown on its strongest surface. They use real corpus quotes, the real sample lab report, and the product's hard rules: cite or label, show conflicts, stop on red flags, never hide a veto.</p>
+    </div>
+    <div class="intro-meta"><b>4</b>directions<br>2 states each<br>1 recommended path</div>
+  </section>
+
+  <div class="recommend">
+    <span class="recommend-label">Recommendation</span>
+    <p><b>Reading Room for the answer surface, Chartroom's safety rail for the case.</b> Reading Room makes the citation the interface, which is the product thesis. Chartroom contributes the permanent safety rail and the emergency stop. Bench is the obvious lab flow; Atlas is the best provenance and QA view. If only one direction is built next, build Reading Room.</p>
+  </div>
+
+  <section class="gallery" aria-label="Four UI directions">
+
+    <article class="card">
+      <div class="card-head"><span class="card-num">01</span><h2 class="card-title">Reading Room</h2><span class="card-mode">Editorial</span></div>
+      <p class="card-thesis">The answer is the interface.</p>
+      <a class="shot" href="01-reading-room.html" aria-label="Open Reading Room mockup">
+        <img src="assets/shots/01-reading-room.png" alt="Reading Room mockup: a large clinical question, an answer with inline citation chips, a safety veto strip, and a source rail with the three sources.">
+      </a>
+      <div class="card-body">
+        <div class="tags"><span class="tag">Citation-first</span><span class="tag">Conflict block</span><span class="tag">Memory mode</span></div>
+        <dl class="card-row"><dt>Best for</dt><dd>The core Ask surface and the clearest expression of the product thesis.</dd></dl>
+        <dl class="card-row"><dt>Tradeoff</dt><dd>Calm and legible, but not a dense day-to-day workspace.</dd></dl>
+        <div class="card-links">
+          <a class="card-link" href="01-reading-room.html">Open concept <span aria-hidden="true">↗</span></a>
+          <a class="card-link card-link--ghost" href="01-reading-room.html#memory">Memory state</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head"><span class="card-num">02</span><h2 class="card-title">Chartroom</h2><span class="card-mode">Clinical</span></div>
+      <p class="card-thesis">The case is the interface.</p>
+      <a class="shot" href="02-chartroom.html" aria-label="Open Chartroom mockup">
+        <img src="assets/shots/02-chartroom.png" alt="Chartroom mockup: a dark case queue, a symptom sheet with a vetoed ginkgo option, and a safety rail with the Health Canada contraindication.">
+      </a>
+      <div class="card-body">
+        <div class="tags"><span class="tag">Safety rail</span><span class="tag">Red-flag stop</span><span class="tag">Case queue</span></div>
+        <dl class="card-row"><dt>Best for</dt><dd>Day-to-day clinical work where the context and the veto must stay in view.</dd></dl>
+        <dl class="card-row"><dt>Tradeoff</dt><dd>More chrome and density; a bigger build than the answer surface alone.</dd></dl>
+        <div class="card-links">
+          <a class="card-link" href="02-chartroom.html">Open concept <span aria-hidden="true">↗</span></a>
+          <a class="card-link card-link--ghost" href="02-chartroom.html#rf01">Emergency stop</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head"><span class="card-num">03</span><h2 class="card-title">Bench</h2><span class="card-mode">Operational</span></div>
+      <p class="card-thesis">The document is the interface.</p>
+      <a class="shot" href="06-bench-figtree.html" aria-label="Open the Figtree Bench mockup">
+        <img src="assets/shots/06-bench-figtree.png" alt="Bench in Figtree: a soft lab review with a botanical accent, a progress ring, the source report, and twelve grouped values with phenylalanine open for confirmation.">
+      </a>
+      <div class="card-body">
+        <div class="tags"><span class="tag">Figtree</span><span class="tag">Soft lab review</span><span class="tag">Human confirmation</span></div>
+        <dl class="card-row"><dt>Best for</dt><dd>The lab-ingest flow, now as a calmer review rather than a clinical console.</dd></dl>
+        <dl class="card-row"><dt>Tradeoff</dt><dd>More space and fewer controls; less dense than the original Bench.</dd></dl>
+        <div class="card-links">
+          <a class="card-link" href="06-bench-figtree.html">Open concept <span aria-hidden="true">↗</span></a>
+          <a class="card-link card-link--ghost" href="06-bench-figtree.html#interpret">Interpretation</a>
+          <a class="card-link card-link--ghost" href="03-bench.html">Original Bench</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head"><span class="card-num">04</span><h2 class="card-title">Atlas</h2><span class="card-mode">Research</span></div>
+      <p class="card-thesis">The corpus is the interface.</p>
+      <a class="shot" href="04-atlas.html" aria-label="Open Atlas mockup">
+        <img src="assets/shots/04-atlas.png" alt="Atlas mockup: a dark entity graph with ginkgo and warfarin highlighted, a source comparison showing EMA, Health Canada, and NCCIH, and a safety reading.">
+      </a>
+      <div class="card-body">
+        <div class="tags"><span class="tag">Provenance</span><span class="tag">Divergence</span><span class="tag">Coverage with CI</span></div>
+        <dl class="card-row"><dt>Best for</dt><dd>Trust, corpus QA, and exploring why two sources disagree.</dd></dl>
+        <dl class="card-row"><dt>Tradeoff</dt><dd>Exploratory; it informs a consult but does not run one.</dd></dl>
+        <div class="card-links">
+          <a class="card-link" href="04-atlas.html">Open concept <span aria-hidden="true">↗</span></a>
+          <a class="card-link card-link--ghost" href="04-atlas.html#coverage">Coverage view</a>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+
+  <section class="type-study" aria-labelledby="type-study-title">
+    <div class="type-study-head">
+      <div>
+        <p class="eyebrow">Follow-up · Bench typography</p>
+        <h2 id="type-study-title">One screen, four softer type systems.</h2>
+        <p>The Bench layout, cool palette, data, and interactions stay fixed. Only the type changes, and every option is softer than the original clinical stack. The study page has a live switcher in the top bar; each option below opens that system directly. The chosen Figtree direction is developed further in <a href="06-bench-figtree.html" style="color:var(--ink);border-bottom:1px solid var(--line-strong);text-decoration:none">the soft Bench rebuild</a>.</p>
+      </div>
+      <a class="card-link" href="05-bench-type.html">Open the study <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="type-grid">
+      <a class="type-card" data-face="lora" href="05-bench-type.html?type=lora">
+        <div class="type-shot"><img src="assets/shots/05-bench-type-lora.png" alt="Bench with Lora headings, Nunito Sans body, and IBM Plex Mono values."></div>
+        <div class="type-body"><span class="tag">Soft editorial</span><h3>Lora</h3><p class="type-pair">Nunito Sans · IBM Plex Mono</p><p class="type-desc">A rounded serif with brush-like curves, over a soft humanist body. The safest softer choice.</p></div>
+      </a>
+      <a class="type-card" data-face="fraunces" href="05-bench-type.html?type=fraunces">
+        <div class="type-shot"><img src="assets/shots/05-bench-type-fraunces.png" alt="Bench with Fraunces headings, Nunito Sans body, and DM Mono values."></div>
+        <div class="type-body"><span class="tag">Warm serif</span><h3>Fraunces</h3><p class="type-pair">Nunito Sans · DM Mono</p><p class="type-desc">The warmest option: a soft, slightly wonky serif at a lighter weight, with no sharp edges.</p></div>
+      </a>
+      <a class="type-card" data-face="nunito" href="05-bench-type.html?type=nunito">
+        <div class="type-shot"><img src="assets/shots/05-bench-type-nunito.png" alt="Bench with Nunito headings and body, and DM Mono values."></div>
+        <div class="type-body"><span class="tag">Rounded</span><h3>Nunito</h3><p class="type-pair">Nunito Sans · DM Mono</p><p class="type-desc">Fully rounded terminals. Friendly and legible, but still calm enough for a lab screen.</p></div>
+      </a>
+      <a class="type-card" data-face="figtree" href="05-bench-type.html?type=figtree">
+        <div class="type-shot"><img src="assets/shots/05-bench-type-figtree.png" alt="Bench with Figtree headings and body, and JetBrains Mono values."></div>
+        <div class="type-body"><span class="tag">Clean soft</span><h3>Figtree</h3><p class="type-pair">Figtree · JetBrains Mono</p><p class="type-desc">A soft geometric sans. Modern and quiet, with none of the old clinical sharpness.</p></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="compare" aria-labelledby="compare-title">
+    <h2 id="compare-title">What each direction actually covers</h2>
+    <table>
+      <thead><tr><th scope="col">Surface</th><th scope="col">01 Reading Room</th><th scope="col">02 Chartroom</th><th scope="col">03 Bench</th><th scope="col">04 Atlas</th></tr></thead>
+      <tbody>
+        <tr><td>Cited answer</td><td class="hero">Hero</td><td class="support">Supporting</td><td class="none">—</td><td class="support">Source comparison</td></tr>
+        <tr><td>Safety screen</td><td class="support">Verdict strip</td><td class="hero">Permanent rail</td><td class="none">—</td><td class="support">Safety reading</td></tr>
+        <tr><td>Red-flag stop</td><td class="none">—</td><td class="hero">Full-screen stop</td><td class="none">—</td><td class="none">—</td></tr>
+        <tr><td>Lab intake</td><td class="none">—</td><td class="none">—</td><td class="hero">Scan + confirm</td><td class="none">—</td></tr>
+        <tr><td>Conflicts</td><td class="hero">Side by side</td><td class="support">Compare panel</td><td class="none">—</td><td class="hero">Compare + filter</td></tr>
+        <tr><td>Coverage and limits</td><td class="support">Memory state</td><td class="support">Evidence gaps</td><td class="support">Interpretation limits</td><td class="hero">Coverage with n and CI</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="notes" aria-label="What is real and what is not">
+    <div>
+      <h2>What is real here</h2>
+      <p>The clinical quotes are taken verbatim from the current corpus and checked against <b>corpus/index.sqlite</b>. The lab values and intervals come from the public Genova sample report used in the project's Gate 0 fixture. The coverage numbers come from <b>docs/gate_report.md</b>, with n and a 95% Wilson interval.</p>
+      <ul>
+        <li>The cases are synthetic design targets, not outputs of the current CLI.</li>
+        <li>Read-confidence values are illustrative, not a Jev calibration.</li>
+        <li>No model, OCR engine, database, or network request runs on any page.</li>
+        <li>The sample report is a public “Sample Report”, not patient data.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>How to assess them</h2>
+      <p>Open each concept and try the hard states: hover a citation, filter to EU, switch to memory, select the emergency case, confirm a low-confidence lab value, compare the ginkgo sources, and look at coverage.</p>
+      <p>These are design artifacts. They deliberately do not commit to a framework, a router, or a backend. The next step, after a direction is chosen, is wiring that shell to real outputs.</p>
+      <p><a href="README.md" style="color:var(--ink);border-bottom:1px solid var(--ink);text-decoration:none">Full notes and provenance</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>materia · four UI directions · 2026-10-30</span>
+  <span>Static mockups · quotes verified against the corpus · not current CLI output</span>
+</footer>
+
+<script>
+  window.addEventListener("error", function () { document.documentElement.setAttribute("data-mockup-error", "1"); });
+  document.documentElement.setAttribute("data-mockup-ready", "1");
+</script>
+</body>
+</html>

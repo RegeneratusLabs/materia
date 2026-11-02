@@ -1,0 +1,1870 @@
+{
+ "doc_id": "pmc-pmc11723399",
+ "source": "Europe PMC (CC-BY full text)",
+ "tier": "primary",
+ "title": "Nutraceuticals and Supplements in Management of Prediabetes and Diabetes",
+ "title_extra": null,
+ "date": "2024-01-01",
+ "revised": "2024-01-01",
+ "retrieved_at": "2026-10-31",
+ "next_review_due": "2036-10-31",
+ "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11723399/",
+ "identifier": {
+  "type": "doi",
+  "value": "10.3390/nu17010014"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY 4.0 (Europe PMC open-access full text)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Only articles whose JATS licence states CC BY are ingested."
+ },
+ "checksum": "sha256:7f15ba403f3c08589ee56ca67aa115f1cefa71da7f26ac3438beb3f08fcef353",
+ "entities": [
+  "berberine"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "pmc-pmc11723399#001",
+   "text": "Dysglycemia is a condition preceding diabetes mellitus. The two situations inherent in this condition are called impaired fasting glucose (IFG) and impaired glucose tolerance (IGT). If one of these situations is found in the patient, after the advice of an appropriate diet and physical activity, the addition of nutraceuticals or supplements can be considered, which can stop or delay the progression to diabetes mellitus over time. The purpose was to compile a systematic review about the use of nutraceuticals for treating diabetes and prediabetes and to offer a valuable resource for colleagues working on this crucial subject, thereby improving patient health.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 101
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#002",
+   "text": "The added value of the paper compared to other reviews is that it was written by experts appointed by five different scientific societies dealing with diabetes, nutrition, and complications.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 29
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#003",
+   "text": "1. Introduction: Dysglycemia is a condition preceding the disease diabetes mellitus. The two situations inherent in this condition are called impaired fasting glucose (IFG) and impaired glucose tolerance (IGT), and it is possible to diagnose them through the loading curve with 75 g of glucose (OGTT). If one of these situations is found in the patient, after the advice of an appropriate diet and physical activity (at least 150–300 min of moderate-intensity aerobic physical activity, weekly) [ 1 ], the addition of nutraceuticals or supplements can be considered, which can stop or delay the progression to diabetes mellitus over time [ 2 , 3 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#004",
+   "text": "1. Introduction: Dysglycemia is defined as having a fasting plasma glucose (FPG) ≥ 100 mg/dL or higher, according to the American Diabetes Association in 2021 [ 4 ], while type 2 diabetes mellitus (T2DM) is diagnosed by having two fasting plasma glucose readings of 126 mg/dL or higher, or by an occasional glucose level ≥ 200 mg/dL, along with symptoms of hyperglycemia in the preceding months.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 66
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#005",
+   "text": "1. Introduction: When the FPG levels are ≥100 mg/dL and <126 mg/dL, and there is a concern of T2DM, an OGTT should be carried out to distinguish between IFG, with levels at the end of the second hour after glucose load less than 140 mg/dL; IGT, defined as two hours after test values in a range from 140 to 199 mg/dL; and diabetes, which is defined as blood sugar levels equal to or greater than 200 mg/dL. The purpose was to compile a systematic review about the use of nutraceuticals for treating diabetes and prediabetes and to offer a valuable resource for colleagues working on this crucial subject, thereby improving patient health.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 112
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#006",
+   "text": "1. Introduction: The added value of the paper compared to other reviews is that it was written by experts appointed by five different scientific societies dealing with diabetes, nutrition, and complications.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#007",
+   "text": "2. Material and Methods: A systematic search strategy was developed to identify randomized controlled trials in both MEDLINE (National Library of Medicine, Bethesda, MD; 1996 through June 2023) and the Cochrane Register of Controlled Trials (The Cochrane Collaboration, Oxford, United Kingdom). The terms “nutraceutical”, “botanicals”, “dysglycemia”, “ascophyllum nodosum”, “fucus vesiculosus”, “banaba”, “berberine”, “cinnamomum”, “gymnemic acid”, “ilex paraguariensis”, “momordica charantia”, “morus alba”, “olea europaea”, alpha-lipoic acid, “omega-3 polyunsaturated fatty acids”, and “essential amino acids” were integrated into a randomized controlled trial-specific electronic search technique that used the Dickersin filter [ 5 ].",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 91
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#008",
+   "text": "2. Material and Methods: With the current review, we attempted to address some of the recent key research questions about the use of nutraceuticals in type 2 diabetes prevention and treatment: How might they work in conjunction with lifestyle changes? Which nutraceuticals are the most well-known for treating type 2 diabetes and prediabetes? What is the best evidence regarding their impacts and possible functions in glycemic control? What part might they play in regulating metabolism, reducing blood sugar, and enhancing insulin sensitivity?",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#009",
+   "text": "3.1. Ascophyllum nodosum (L.) and Fucus vesiculosus (L.): Ascophyllum nodosum and Fucus vesiculosus are edible marine brown seaweeds that have been consumed by coastal populations in Asia, Britain, and other nations since ancient times [ 6 ]. Due to the presence of many bioactive chemicals, such as polyphenolics, phlorotannins, and fucoidans [ 7 , 8 ], the efficacy of these nutraceuticals in treating metabolic illnesses like obesity and type 2 diabetes has recently been established [ 9 , 10 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 80
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#010",
+   "text": "3.1.1. Mechanisms of Action: In vitro studies reported the potential hypoglycemic molecular mechanisms of bioactive compounds present in Ascophyllum nodosum and Fucus vesiculosus . These molecules have the ability to lower blood sugar levels via (1) inhibition of carbohydrate digestive enzymes, α-amylase, and α-glucosidase, thus delaying and decreasing intestinal absorption of glucose; (2) inhibition of hepatic enzymes [glucose-6-phosphatase (G6Pase) and phosphoenolpyruvate carboxykinase (PEPCK)], promoting glycogen production and glucose uptake at cellular level; and (3) upregulation of adenosine monophosphate-activated protein kinase (AMPK), acetyl-CoA carboxylase (ACC), and serine/threonine kinase (AKT), resulting in an increase in the quantity of glucose transporter 4 (GLUT4) present on the cell membrane and improving glucose uptake at the cellular level [ 11 ] ( Figure 1 ).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#011",
+   "text": "3.1.2. Clinical Trials: Some human studies investigated the hypoglycemic effects of Ascophyllum nodosum and Fucus vesiculosus ( Table 1 ). One trial evaluated the effect of Ascophyllum nodosum on post-prandial plasma glucose (PPG) in 12 men who were overweight or obese and consumed breakfast consisting of 100 g of bread plus 4% supplement. Ascophyllum nodosum was found not to have an impact on PPG levels during a test meal after four hours [ 12 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 75
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#012",
+   "text": "3.1.2. Clinical Trials: Another study showed that, in 43 healthy subjects, the use of two capsules per day each containing dried Ascophyllum nodosum 900 mg and 175 μg iodine for 6 weeks had no effect on FPG, fasting plasma insulin (FPI), and homeostasis model assessment index (HOMA index) in comparison to placebo [ 13 ]. Murray et al. investigated the effects of a powdered extract from Fucus vesiculosus on PPG and post-prandial plasma insulin (PPI) in a group of 38 healthy people. Before a carbohydrate load, the patients were given either 2 g of placebo or 500 mg and 2 g of the nutraceutical, which contained 140 mg and 560 mg of polyphenols, respectively.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 114
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#013",
+   "text": "3.1.2. Clinical Trials: Two hours after consuming carbohydrates, no Fucus vesiculosus dosage changed PPG and PPI levels compared to placebo. Nonetheless, Asian participants were found to have a considerably greater insulin incremental area under the curve (iAUC) compared to non-Asian participants ( p = 0.016), indicating that ethnicity has an impact on this parameter [ 14 ]. The same authors examined the effects of Fucus vesiculosus in the form of a powdered extract on PPG and PPI in the evening in 18 subjects with normal blood pressure (BP) and who had taken 2 g of the supplement, which included 1340 mg of fucoidan and 560 mg of polyphenols, or a placebo 30 min prior to a carbohydrate-rich meal.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#014",
+   "text": "3.1.2. Clinical Trials: Three hours following supplement consumption, PPG and PPI showed no change in comparison to the placebo. Fucus vesiculosus , however, decreased females’ peak PPG ( p = 0.018) compared to placebo, indicating that sex had an impact on this result. Furthermore, Asian populations had higher PPI iAUC and peak plasma insulin concentrations than non-Asian individuals ( p = 0.07 for both), indicating the influence of ethnicity [ 11 ]. Several studies assessed the ability of Fucus vesiculosus and Ascophyllum nodosum alone and in combination with other nutraceuticals to reduce blood glucose levels.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 95
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#015",
+   "text": "3.1.2. Clinical Trials: In a 2011 study by Paradis et al., 23 healthy participants were enrolled and given a 500 mg combination of Ascophyllum nodosum and Fucus vesiculosus or placebo half an hour before consuming 50 g of carbohydrates from bread. Three hours after the test meal was consumed, the supplement was found to have no effect on the glucose response but to significantly reduce insulin iAUC ( p = 0.04) and increase the insulin sensitivity index of Cederholm and Wibell ( p < 0.05) in comparison to the placebo [ 15 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#016",
+   "text": "3.1.2. Clinical Trials: In a study conducted by De Martin et al., 50 patients who were overweight or obese were given a phytocomplex at the dose of three capsules daily, each containing 237.5 mg of Ascophyllum nodosum, 12.5 mg of Fucus vesiculosus, and 7.5 µg of chromium picolinate. The patients were followed for six months to assess the hypoglycemic effect of the combination. Fasting plasma glucose, FPI, and HOMA index were significantly reduced after 90 days ( p < 0.05 for all) and 180 days of supplementation ( p < 0.001 for FPG; p < 0.05 for FPI; p < 0.01 for HOMA index) compared to initial values [ 16 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 111
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#017",
+   "text": "3.1.2. Clinical Trials: Another trial examined how this combination of nutraceuticals affected the glycemic status of 65 dysglycemic patients who were randomly assigned to receive a placebo or three capsules of supplement daily for six months. The nutraceutical agent significantly reduced FPG, PPG, HOMA index, and glycated hemoglobin (HbA 1c ) ( p < 0.05 for all) at the end of therapy as compared to placebo [ 17 ]. In a further trial with the same design as the one mentioned above and 175 T2DM patients participating, the same authors assessed the effectiveness of the nutraceutical combination on glucose indices.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 100
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#018",
+   "text": "3.1.2. Clinical Trials: The supplement significantly decreased FPG, PPG, and HbA 1c compared to baseline ( p < 0.01 for FPG and PPG; p < 0.05 for HbA 1c ) and to placebo ( p < 0.05 for all) [ 18 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 42
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#019",
+   "text": "3.2. Banaba [(Lagerstroemia speciosa (L.) Pers]: Banaba [ Lagerstroemia speciosa (L.) Pers] is a plant found in tropical regions, including the Philippines, India, Malaysia, Southern China, and Australia. These countries use the plant as a traditional medicine for its supposed health benefits. Diabetes and kidney disease are treated in the Philippines with a tea made from the leaves. The hypoglycemic effect of banaba is linked to the abundant presence of ellagitannins and corosolic acid in its leaves [ 19 , 20 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#020",
+   "text": "3.2.1. Mechanisms of Action: As reported in studies in vivo and in vitro, the hypoglycemic effect of banaba appears to be due to different mechanisms: (1) improvement in the cellular absorption of glucose; (2) decrease in the hydrolysis of starches and sucrose; (3) inhibition of protein kinase A activity and reduction in cyclic AMP lead to an increase in fructose 2,6 diphosphate levels that in turn decreases gluconeogenesis; (4) boosting glucokinase activity to promote glycolysis; (5) improvement of insulin sensitivity by increased expression of adipose tissue peroxisome proliferator-activated receptor -γ (PPAR-γ) mRNA and liver peroxisome proliferator-activated receptor-α (PPAR-α) mRNA; and (6) inhibition of α-glucosidase activity [ 20 ] ( Figure 2 ).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 112
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#021",
+   "text": "3.2.2. Clinical Trials: The human studies that analyzed the hypoglycemic effect of banaba and its components are reported in Table 2 . Fifteen subjects with IFG were treated with 100 mg/day of a water-soluble banaba extract in the pill formulation. The supplement reduced FPG levels (16.60%). Since corosolic acid has poor aqueous solubility, ellagitannins are mostly responsible for the hypoglycemic impact, even though the extract was not standardized, and its constituents were not identified [ 21 ]. Judy et al. examined the effect of a banaba extract standardized to 1% corosolic acid on decreasing blood glucose levels in ten patients with T2DM.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#022",
+   "text": "3.2.2. Clinical Trials: Over the course of two weeks, three doses of the supplement (16, 32, and 48 mg) in either the soft-gel or hard-gel formulation were given. The highest dosage of nutraceuticals resulted in a significant reduction in FPG in both formulations at the conclusion of therapy ( p ≤ 0.002 for soft-gel form; p ≤ 0.001 for hard-gel form). Compared to the dry-powder formulation, the soft-gel ones have greater bioavailability since the decrease was highest in that formulation. Nevertheless, it is unknown if tannins and corosolic acid work alone or together to reduce FPG [ 19 ]. In another study, 12 participants with IFG were given a daily soft-gel capsule of banaba extract containing 10 mg of corosolic acid.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#023",
+   "text": "3.2.2. Clinical Trials: Fasting plasma glucose and 1h-PPG levels have been shown to drop by 12% after two weeks of administration. The investigation has not made it clear whether corosolic acid alone or in conjunction with tannins is responsible for the hypoglycemic action [ 22 ]. Five minutes prior to the OGTT, 31 participants ingested a capsule containing either a placebo or 10 mg of corosolic acid on separate occasions. There was a seven-day gap between treatments. It was observed that the supplement reduced plasma glucose levels from 60 min to 120 min, and this decrease was statistically significant at 90 min ( p < 0.05) compared to placebo.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#024",
+   "text": "3.2.2. Clinical Trials: Furthermore, the use of 99% pure corosolic acid is undoubtedly responsible for the hypoglycemic effect [ 23 ]. Choi et al. assessed the hypoglycemic effect of 300 mg/day banaba extract (BE; 0.3% corosolic acid), 2 g/day soybean leaf extract (SLE), or 2 g/day placebo during meals for 12 weeks in 45 prediabetics. Both supplements significantly decreased HbA 1c levels in a similar way ( p < 0.05 for BE and SLE), and they also showed lower baseline-adjusted final FPG levels ( p < 0.05 for BE and SLE) and HOMA-IR ( p < 0.05 for BE and SLE) compared to placebo [ 24 ]. Some studies indicated that banaba has hypoglycemic properties when combined with other nutraceuticals.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#025",
+   "text": "3.2.2. Clinical Trials: In one study, the effects of a tablet product including an aqueous banaba extract, green tea, green coffee, and Garcinia were documented. The product was given to 24 mildly diabetic participants three times a day, at a dose of three tablets. An average decrease of 13.50% in FPG levels was noted. Nevertheless, the elements accountable for the hypoglycemic impact remained unidentified [ 25 ]. Another trial found no significant differences in FPG, FPI, HOMA-IR, or HbA 1c levels between the baseline and the placebo after treating 62 IGT and mild T2DM patients with a 6 g/day combination of banaba leaf water extract, mulberry leaf water extract, and Korean red ginseng powder in equal ratios for six months.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#026",
+   "text": "3.2.2. Clinical Trials: Nonetheless, during OGTT, the treatment group showed a substantial decrease in glucose AUC ( p < 0.05) and a tendency for insulin AUC to lower, which did not achieve statistical significance compared to baseline [ 26 ]. In an 8-week trial, 40 IFG patients in primary prevention of cardiovascular disease took 250 mg of Lagerstroemia speciosa extract combined with 155 mg of berberine, 125 mg of curcumin extract, 110 mg of α-lipoic acid, 1.3 μg of chromium picolinate, and 0.15 mg of folic acid, or placebo, as pills twice a day.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#027",
+   "text": "3.2.2. Clinical Trials: Patients administered the nutraceutical combination showed a significant reduction in FPG levels ( p < 0.05) compared to baseline, as did the placebo group ( p < 0.05), whose reduction was, however, lower than that of the group taking the supplement. Furthermore, FPI and HOMA-IR were considerably reduced by the nutraceutical combination in comparison to both baseline ( p < 0.05 for both) and placebo ( p < 0.05 for both). Nevertheless, more medium- and long-term studies with a larger sample size are needed to corroborate these results [ 27 ]. Banaba’s effects in association with berberine, curcumin, inositol, and chromium picolinate have recently been demonstrated in patients with IFG or IGT who are not receiving any hypoglycemic agent.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 122
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#028",
+   "text": "3.2.2. Clinical Trials: For three months, a total of 148 participants were given one pill each day that included 200 mg of berberine, 200 mg of curcumin, 300 mg of inositol, 40 mg of banaba, and 100 mg of chromium picolinate, or a placebo. The nutraceutical combination decreased FPG, PPG, and HbA 1c levels at the end of treatment compared to baseline ( p < 0.05 for all) and to placebo ( p < 0.05 for all). There was also a reduction in HOMA-IR and an increase in FPI in comparison to baseline ( p < 0.05 for both) and to placebo ( p < 0.05 for both) after supplementation.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#029",
+   "text": "3.2.2. Clinical Trials: It is likely that the combination of berberine and the other nutraceuticals improved the glycemic indices observed in this study [ 28 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 26
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#030",
+   "text": "3.3. Berberis: China’s traditional medicine uses berberine, an isoquinoline alkaloid, primarily to treat gastrointestinal tract illnesses. The hypoglycemic properties of berberine have led to its usage in the treatment of diabetes in more recent times. Numerous plant families are found to contain this alkaloid: Annonaceae, Berberidaceae, Menispermaceae, Papaveraceae, Ranunculaceae, and Rutaceae. It is well recognized that the genus Berberis is the most widely distributed natural source of berberine among these therapeutic plants. The sections of plants that were determined to contain the highest concentration of berberine are the bark and roots, despite the fact that this compound is generally present in the stems, bark, and roots of the plants.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#031",
+   "text": "3.3. Berberis: Furthermore, the highest concentration of berberine, between 5.2 and 7.7%, is found in Coptis rhizoma and barberry [ 29 , 30 ]. The most often utilized chemical form, according to numerous clinical studies [ 31 , 32 , 33 , 34 , 35 ] is berberine hydrochloride.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 49
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#032",
+   "text": "3.3.1. Mechanisms of Action: Berberine may regulate glucose metabolism through a variety of mechanisms that comprise (1) the restoration of depleted islets, which improves pancreatic β cell function and increases insulin sensitivity; (2) the inhibition of α-amylase and α-glucosidase activity, which lowers intestinal glucose absorption; (3) the induction of glycolysis, which stimulates glucose uptake and is brought on by the inhibition of mitochondrial function, resulting in the activation of the AMPK pathway; and (4) the suppression of hepatic gluconeogenesis as a result of a reduction in the expression of gluconeogenic genes (PEPCK and G6Pase).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#033",
+   "text": "3.3.1. Mechanisms of Action: Adenosine triphosphate (ATP) depletion brought on by the liver’s inhibition of mitochondrial function is the cause of this decline ( Figure 3 ) [ 30 , 36 , 37 , 38 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#034",
+   "text": "3.3.2. Clinical Trials: Berberine was initially reported to lower blood glucose levels in 1988, when it was used to treat diarrhea in sixty T2DM patients who were not insulin-dependent [ 39 ]. Since then, berberine’s hypoglycemic effect has been the subject of other studies ( Table 3 ). Yin et al. evaluated the effects of giving 36 newly diagnosed T2DM participants 1.5 g/day of either metformin or berberine for three months. The supplement was found to significantly lower FPG, PPG, and HbA 1c ( p < 0.01 for all) compared to initial values [ 33 ]. It has also been noted that berberine and metformin have comparable effects on blood glucose levels.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 112
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#035",
+   "text": "3.3.2. Clinical Trials: In addition, the authors looked at the efficacy of berberine 1.5 g/day given to 48 diabetics with inadequately controlled glucose levels for three months, in addition to standard hypoglycemic drugs, such metformin, acarbose, sulfonylureas, or insulin. Berberine determined a significant lowering of FPG, PPG, and HbA 1c levels ( p < 0.001 for all) in comparison to baseline. The supplement also decreased FPI levels (−9.90 µU/mL, −28.10%, p < 0.01) and HOMA-IR (−6.80, −44.70%, p < 0.001) compared to initial values. Berberine improved HbA 1c to a level comparable to metformin [ 40 ], as reported by Yin et al. [ 33 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 106
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#036",
+   "text": "3.3.2. Clinical Trials: In a cohort of 116 individuals with recent-onset T2DM with dyslipidemia, berberine consumption at a dose of 1 g/day for three months was found to reduce the concentrations of FPG, PPG, and HbA 1c compared to baseline ( p < 0.0001 for all) and to placebo ( p < 0.0001 for all). There was no significant difference in HOMA-IR, FPI, or PPI values between berberine and placebo [ 34 ]. In this trial, berberine reduced HbA 1c in a manner similar to that obtained with conventional oral hypoglycemic drugs [ 41 ]. Another study enrolled 97 T2DM patients who received 1 g/day of berberine, 1.5 g/day of metformin, or 4 mg/day of rosiglitazone for 2 months.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#037",
+   "text": "3.3.2. Clinical Trials: It was shown that berberine caused a significant reduction in FPG and HbA 1c levels ( p < 0.001 for both) compared to baseline. These parameters were lowered in a similar manner with metformin ( p < 0.001 for both) and rosiglitazone administration ( p < 0.01 for FPG; p < 0.001 for HbA 1c ). Furthermore, berberine treatment raised the proportion of peripheral blood cells expressing the insulin receptor ( p < 0.01) and decreased insulin levels ( p < 0.01). The hypoglycemic action of berberine, consumed at a dose of 1 g/day for two months, was also observed in 35 subjects affected by chronic hepatitis B and hepatitis C with T2DM or IFG.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#038",
+   "text": "3.3.2. Clinical Trials: The FPG levels in T2DM ( p < 0.01 for the hepatitis B and C group) and IFG patients ( p < 0.01 for the hepatitis B and C group) were decreased in comparison to baseline in both the hepatitis B and C groups after supplementation. Furthermore, after berberine therapy, these patients’ liver enzyme levels significantly decreased [ 35 ]. According to Gu et al., 60 individuals with dyslipidemia and recently diagnosed T2DM exhibited improvements in their glycemic parameters when they took 1 g/day of berberine for 3 months.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#039",
+   "text": "3.3.2. Clinical Trials: It was found that FPG, PPG, and HbA 1c levels were decreased compared to initial values ( p < 0.001 for all) and to placebo ( p = 0.008 for FPG; p = 0.001 for PPG; p = 0.004 for HbA 1c ) following berberine consumption [ 42 ]. The hypoglycemic effect of berberine in combination with other nutraceuticals was shown in some clinical trials. In the study by Di Pierro et al., 22 T2DM patients with poor glycemic control and treated with standard hypoglycemic agents received two tablets per day each containing 500 mg of berberine and 105 mg of Silybum marianum extract.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#040",
+   "text": "3.3.2. Clinical Trials: After three months of treatment, the supplement significantly decreased HbA 1c ( p = 0.003), FPI, and HOMA-IR ( p = 0.04 for both) compared to initial values [ 43 ]. The effect of Berberis aristata with Silybum marianum compared to Berberis aristata alone was examined by the same authors in 69 patients with poorly controlled type 2 diabetes and undergoing diet and therapy with traditional oral hypoglycemic agents. Patients were administered 1 g/day of berberine alone or a combination of berberine, 1 g/day, and silymarin, 210 mg/day, as add-on therapy.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#041",
+   "text": "3.3.2. Clinical Trials: After 4 months of supplementation, both treatments were determined to result in similar reductions in FPG ( p = 0.006 for berberine plus silymarin; p = 0.007 for berberine alone) and HbA 1c ( p < 0.001 for berberine plus silymarin and berberine alone) compared to initial values; however, the nutraceutical combination resulted in a greater decrease in HbA 1c levels ( p < 0.05) compared to berberine alone [ 44 ]. A 14-month study enrolled 102 euglycemic dyslipidemic subjects that, at baseline, followed a low-calorie diet and performed physical activity for 6 months and then randomly assigned to receive an association of berberine, 1 g/day, and silymarin, 210 mg/day, or placebo for 3 months.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#042",
+   "text": "3.3.2. Clinical Trials: They received the same supplement or a placebo for 3 more months following a 2-month break. During glucagon stimulation test, in the nutraceutical group, there was an increase in FPG and C -peptide after 6 min ( p < 0.05 for both) versus time 0, while, in the placebo group, the levels of these markers at time 0 were greater than those at time 0 at baseline ( p < 0.05), at randomization ( p < 0.05), and at the end of study ( p < 0.05).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 90
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#043",
+   "text": "3.3.2. Clinical Trials: Additionally, in the placebo group, at 6 min from the glucagon injection, the supplement resulted in a lesser degree of increase in FPG and in a greater degree of increase in C-peptide at baseline ( p < 0.05 for both), at randomization ( p < 0.05 for both), and upon study completion ( p < 0.05 for both) [ 45 ]. Another study included 105 euglycemic, overweight, dyslipidemic patients who took a combination of Berberis aristata and Silybum marianum according to the design previously mentioned [ 45 ]. The supplement decreased FPI levels and HOMA-IR, thus improving insulin resistance.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#044",
+   "text": "3.3.2. Clinical Trials: More specifically, a significant decrease in both markers 3 months after randomization was observed compared to initial values ( p < 0.05 for both) and to placebo ( p < 0.05 for both). When the treatment was stopped, FPI and HOMA-IR levels increased ( p < 0.05 for both) compared to 3 months following randomization, whereas, when supplementation was resumed, these parameters decreased once more compared to wash-out ( p < 0.05 for both) and placebo ( p < 0.05 for both) [ 46 ]. A sample of 137 euglycemic, dyslipidemic subjects who are unable to tolerate large doses of statins were given a combination of berberine, 1 g/day, and Silybum marianum , 210 mg/day, or placebo.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#045",
+   "text": "3.3.2. Clinical Trials: After 6 months of supplementation, FPG, FPI, and HOMA-IR significantly decreased compared to initial values ( p < 0.05 for all) and to placebo ( p < 0.05 for all) [ 47 ]. Berberis aristata and Silybum marianum combination was also shown to improve the glycemic profile in 45 T2DM patients with hypercholesterolemia and statins intolerance who took the supplement (berberine, 1 g/day; and silymarin, 210 mg/day) alone or in combination with low-dose statins or ezetimibe. After 6 months, FPG levels were reduced by supplementation alone ( p < 0.05), and after 12 months, by all treatments ( p < 0.05 for all), compared to baseline.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#046",
+   "text": "3.3.2. Clinical Trials: After 6 months, this parameter was significantly decreased both by the nutraceutical alone and plus statins ( p < 0.05 for both) compared to the nutraceutical plus ezetimibe. All treatments reduced HbA 1c after 6 months ( p < 0.05 for all) and at the end of treatment ( p < 0.05 for nutraceutical alone and plus ezetimibe; p < 0.01 for nutraceutical plus statins) compared to initial values [ 48 ]. The effects of Berberis aristata plus Silybum marianum were also studied in 85 T1DM (type 1 diabetes mellitus) patients on insulin therapy for a minimum of three months who were also following a low-calorie diet and increasing physical activity.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 114
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#047",
+   "text": "3.3.2. Clinical Trials: It was found that after 6 months of the consumption of the nutraceutical (1 g/day of berberine with 210 mg/day of silymarin) as additional treatment, FPG and PPG were reduced compared to baseline ( p < 0.05 for both) and to placebo ( p < 0.05 for both). In contrast, HbA 1c was only decreased when compared to levels prior to supplementation ( p < 0.05).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 69
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#048",
+   "text": "3.3.2. Clinical Trials: In addition, the nutraceutical reduced total amount of insulin used ( p < 0.05 versus baseline and placebo) as well as insulin use at meals ( p < 0.05 versus baseline and placebo for breakfast; p < 0.01 versus baseline and placebo; for lunch and for dinner) and at bedtime ( p < 0.05 versus baseline and placebo) [ 49 ]. A retrospective study included 226 dyslipidemic patients naïve and intolerant to statins who were treated with a supplement, in tablet form, containing 500 mg of berberine from Berberis aristata , 105 mg of silymarin from Silybum marianum , and 10 mg of monacolins K and KA from Monascus purpureus fermented rice for 6 months.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#049",
+   "text": "3.3.2. Clinical Trials: Both the patients who were given the supplement alone and those who took the supplement as an additional treatment exhibited a decrease in HbA 1c ( p < 0.05 for supplement alone and as add-on therapy) and HOMA-IR ( p < 0.05 for supplement alone and as add-on therapy) compared to initial values; however, the supplement alone reduced the levels of these parameters to a slightly greater extent than supplementation as an adjunctive therapy [ 50 ]. The supplement administered in the study described above was examined in another two trials [ 51 , 52 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#050",
+   "text": "3.3.2. Clinical Trials: The first reported that 143 subjects at low cardiovascular risk showed a significant reduction in FPG and HOMA-IR ( p < 0.05 for both) compared to placebo, together with an increase in FPI levels compared both to baseline and placebo ( p < 0.05 for both) after 3 months of supplementation [ 51 ]. The second trial was a retrospective analysis comprising 59 patients with T2DM and dyslipidemia under treatment with a low-calorie diet, physical activity, and oral hypoglycemic drugs. In the group of 31 patients treated with one tablet/day of nutraceutical combination for 6 months, the HbA 1c values were reduced ( p < 0.05) compared to those before the supplementation [ 52 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#051",
+   "text": "3.3.2. Clinical Trials: Based on these findings, the authors conclude that the berberine present in the nutraceutical combination is probably responsible for its hypoglycemic effects. A group of 64 patients with metabolic syndrome received 500 mg of berberine, 10 mg of policosanol, and red yeast rice (monacolin K 3 mg) in tablet form daily. A significant decrease was found in FPG ( p = 0.006) compared to initial values and FPI ( p = 0.042), together with mean PPI ( p = 0.023), compared to placebo. The nutraceuticals combination also reduced HOMA-IR compared to baseline ( p = 0.019) and to placebo ( p = 0.023) [ 31 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#052",
+   "text": "3.3.2. Clinical Trials: In addition, the effects of two distinct nutraceutical combinations on glucose homeostasis were previously reported. These associations contain berberine, Lagerstroemia speciosa, curcumin, α-lipoic acid, chromium picolinate, folic acid, and berberine, banaba, curcumin, inositol, and chromium picolinate, respectively [ 27 , 28 ]. Moreover, in a randomized controlled trial in T2DM patients, a significant reduction in FPG and HbA 1c ( p < 0.01 for both) was observed only in the group treated with a nutraceutical formulation based on berberine, hesperidin, and chromium picolinate, in addition to metformin, compared with the control group [ 53 ]. nutrients-17-00014-t003_Table 3 Table 3 Overview of clinical trials on glucose-lowering activity of Berberis . First Author and Year Participants Therapy and Duration Findings Yin, J.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 123
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#053",
+   "text": "3.3.2. Clinical Trials: (2008) [ 33 ] (1) Patients with T2DM (n = 36) (2) Patients with poorly controlled T2DM (n = 48) (1) 1.5 g/day berberine or metformin (2) 1.5 g/day berberine plus hypoglycemic agents 3 months (1) FPG, PPG, and HbA 1c decrease (2) FPG, PPG, HbA 1c , FPI, and HOMA-IR decrease Zhang, Y. (2008) [ 34 ] Patients with T2DM and dyslipidemia (n = 116) 1.0 g/day 3 months FPG, PPG, and HbA 1c decrease Zhang, H.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 81
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#054",
+   "text": "3.3.2. Clinical Trials: (2010) [ 35 ] (1) T2DM patients (n = 97) (2) T2DM or IFG patients with chronic hepatitis B and C (n = 35) (1) 1.0 g/day berberine or 1.5 g/day metformin or 4 mg/day rosiglitazone (2) 1 g/day berberine 2 months (1) FPG and HbA 1c decrease Insulin levels decrease Percentage of peripheral blood lymphocytes increase (2) FPG and liver enzymes decrease Gu, Y. (2010) [ 42 ] Patients with T2DM and dyslipidemia (n = 60) 1.0 g/day 3 months FPG, PPG, and HbA 1c decrease Di Pierro, F. (2012) [ 43 ] T2DM patients (n = 22) 1 g/day berberine + 210 mg/day silymarin 3 months HBA 1c and FPI decrease Di Pierro, F.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#055",
+   "text": "3.3.2. Clinical Trials: (2013) [ 44 ] T2DM patients (n = 69) 1 g/day berberine + 210 mg/day silymarin or 1 g/day berberine 4 months FPG and HbA 1c decrease Derosa, G. (2013) [ 45 ] Patients with dyslipidemia (n = 102) 1 g/day berberine + 210 mg/day silymarin 14 months FPG and C-peptide after 6 min glucagon test increase FPG lower increase and C-peptide higher increase during glucagon test Derosa, G. (2013) [ 46 ] Patients with obesity and dyslipidemia (n = 105) 1 g/day berberine + 210 mg/day silymarin 14 months FPI and HOMA-IR decrease Derosa, G.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#056",
+   "text": "3.3.2. Clinical Trials: (2015) [ 47 ] Dyslipidemic patients (n = 137) 1 g/day berberine + 210 mg/day silymarin 6 months FPG, FPI, and HOMA index decrease Di Pierro, F. (2015) [ 48 ] Patients with T2DM and hypercholesterolemia (n = 45) 1 g/day berberine + 210 mg/day silymarin or 1 g/day berberine + 210 mg/day silymarin with low dose statins or 1 g/day berberine + 210 mg/day silymarin with ezetimibe 12 months FPG and HbA 1c decrease Derosa, G. (2016) [ 49 ] Type 1 diabetes mellitus patients (n = 85) 1 g/day berberine + 210 mg/day silymarin 6 months FPG, PPG, and HbA 1c decrease Insulin consumption decrease Di Pierro, F.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 113
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#057",
+   "text": "3.3.2. Clinical Trials: (2016) [ 50 ] Dyslipidemic patients (n = 226) 500 mg/day berberine + 105 mg/day silymarin + 10 mg/day monacolins K and KA 6 months HbA 1c and HOMA-IR decrease Derosa, G. (2017) [ 51 ] Low-cardiovascular-risk patients (n = 143) 500 mg/day berberine + 105 mg/day silymarin + 10 mg/day monacolins K and KA 3 months FPG and HOMA index decrease FPI increase Di Pierro, F. (2018) [ 52 ] Patients with T2DM and dyslipidemia (n = 59) 500 mg/day berberine + 105 mg/day silymarin + 10 mg/day monacolins K and KA 6 months HbA 1c decrease Affuso, F.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 103
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#058",
+   "text": "3.3.2. Clinical Trials: (2012) [ 31 ] Patients with metabolic syndrome (n = 64) 500 mg/day berberine + 10 mg/day policosanol + 3 mg/day monacolin K 18 weeks FPG, FPI, PPI, and HOMA-IR decrease Cicero, A.F.G. (2017) [ 27 ] IFG patients (n = 40) 310 mg/day berberine + 500 mg/day Lagerstroemia speciosa + 250 mg/day curcumin + 2.6 μg/day chromium picolinate + 0.30 mg/day folic acid + 220 mg/day α-lipoic acid 8 weeks FPG, FPI, and HOMA index decrease Derosa, G.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#059",
+   "text": "3.3.2. Clinical Trials: (2020) [ 28 ] IFG and IGT patients (n = 148) 200 mg/day berberine + 200 mg/day curcumin + 300 mg/day inositol + 40 mg/day banaba + 100 μg/day chromium picolinate 3 months FPG, PPG, HbA 1c , and HOMA-IR decrease FPI increase Sartore, G. (2021) [ 53 ] T2DM (n = 20) 250 mg/day berberine + 200 mg/day hesperidin + 200 μg/day chromium picolinate 3 months FPG and HbA 1c decrease FPG: fasting plasma glucose; FPI: fasting plasma insulin; HbA 1c : glycated hemoglobin; HOMA-IR: homeostatic model assessment of insulin resistance; IFG: impaired fasting glucose; IGT: impaired glucose tolerance; PPG: post-prandial plasma glucose; PPI: post-prandial plasma insulin; T2DM: type 2 diabetes mellitus.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#060",
+   "text": "3.4. Cinnamomum: The genus Cinnamomum belong to the Lauraceae family and includes Cinnamomum zeylanicum or Cinnamomum verum , also called Ceylon Cinnamon; and Cinnamomum cassia or Cinnamomum Aromaticum , also called Chinese Cinnamon, that are considered the main species. The latter is of lower value due to its less intense aroma and deeper color, while Ceylon Cinnamon is colored brown and has a gently scented aroma and a warm, sugary taste. Chinese Cinnamon differs from Ceylon Cinnamon also for the presence of a higher quantity of coumarin (0.8 to 10.63% for Chinese Cinnamon and approximately 2% for Ceylon Cinnamon), a substance that, if consumed in high doses, presents a risk of liver toxicity.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 113
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#061",
+   "text": "3.4. Cinnamomum: Cinnamomum , beyond its use as an additive in cooking, is used to treat some diseases, such as diabetes mellitus, mainly due to the presence of cinnamaldehyde (65–80%) and eugenol (70–95%) derived from bark and leaves, respectively. Other substances with hypoglycemic activity are phenolic compounds, including quercetin, rutin, and catechins extracted from leaves and bark of Cinnamomum [ 54 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 62
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#062",
+   "text": "3.4.1. Mechanisms of Action: Cinnamomum has been shown to increase insulin sensitivity through a number of possible biochemical pathways, such as (1) stimulation of GLUT4 location and expression; (2) rise in expression of insulin receptor (IR), insulin receptor substrate type 1 (IRS-1), and insulin receptor substrate type 2 (IRS-2) [ 55 , 56 ]; (3) promotion of the activity of AKT and PI3K (phosphatidylinositol 3-kinase) [ 55 , 56 ]; and (4) enhanced activation of PPAR-α/γ [ 57 ] ( Figure 4 ).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 83
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#063",
+   "text": "3.4.2. Clinical Trials: Clinical trials that have shown how Cinnamomum varieties affect insulin sensitivity and glucose metabolism are summarized in Table 4 . A total of 60 T2DM patients received three different doses of Cinnamomum cassia (1, 3, or 6 g) or placebo daily for 40 days, after which there was a 20-day wash-out period. It was observed that FPG values were reduced by all doses of supplement in a similar manner ( p < 0.05 for all doses) compared to initial values and by the lowest dose of nutraceutical ( p < 0.05) following the wash-out phase in relation to values prior to the ingestion of Cinnamomum cassia [ 58 ]. Mang et al.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#064",
+   "text": "3.4.2. Clinical Trials: enrolled 79 patients with T2DM in therapy with diet or hypoglycemic drugs who took Cinnamomum cassia powder 3 g/day or placebo. After 4 months of treatment, the supplement determined a significant reduction in FPG levels ( p < 0.001) compared to initial values [ 59 ]. One study, comprising 25 postmenopausal T2DM patients treated with Cinnamomum cassia 1.5 g/day or placebo for 6 weeks, showed that FPG, FPI, HbA 1c , HOMA-IR, composite index of insulin sensitivity (ISIcomp), and oral glucose insulin sensitivity (OGIS) were not modified after supplementation [ 60 ]. Another trial enrolled 15 women with polycystic ovary syndrome who consumed 1 g/day of cinnamon extract or placebo for 8 weeks.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#065",
+   "text": "3.4.2. Clinical Trials: The supplement determined a significant decrease in FPG ( p < 0.03) compared to pretreatment values. Cinnamon extract also ameliorated insulin sensitivity by increasing quantitative insulin sensitivity check index (QUICKI) ( p < 0.03) and the Matsuda insulin resistance index ( p < 0.05), as well as reducing HOMA-IR ( p < 0.03), compared to baseline [ 61 ]. A sample of three lean healthy volunteers underwent 3 OGTT were supplemented with 5 g of Cinnamomum cassia , 5 g of placebo, or 5 g of the nutraceutical ingested 12 h before the trial.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 97
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#066",
+   "text": "3.4.2. Clinical Trials: It was observed that AUC glucose was significantly decreased after OGTT with supplement ( p < 0.05) and the one with Cinnamomum cassia ingested 12 h before the study ( p < 0.05) compared to OGTT with placebo. In addition, the Matsuda insulin resistance index was elevated both following OGTT with supplement ( p < 0.05) and the one with Cinnamomum cassia ingested 12 h before the trial ( p < 0.05) compared to OGTT control [ 62 ]. In the study of Blevins et al., 60 T2DM patients received Cinnamomum cassia 1 g/day or placebo and did not exhibit any change in FPG, FPI, and HbA 1c levels after 3 months of supplementation [ 63 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#067",
+   "text": "3.4.2. Clinical Trials: A 3-month study comprising 72 adolescents with T1DM administered with cinnamon 1 g/day or placebo reported that HbA 1c , total daily use of insulin or number of hypoglycemic episodes were not significantly different when comparing supplement and placebo [ 64 ]. In the study by Solomon and Blannin, eight healthy volunteers ingested 3 g/day of powdered spice from Cinnamomum cassia for 14 days or placebo for 20 days and were subjected to OGTT on days 0, 1, 14, 16, 18, and 20. The supplement significantly reduced PPG at 30 min on day 1 and 14 ( p < 0.05) and glucose AUC at day 1 (−13.10%, p < 0.05) compared to control.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#068",
+   "text": "3.4.2. Clinical Trials: It was also observed that Cinnamomum cassia, on day 14, decreased PPI at 30 min ( p < 0.05) and insulin AUC (−27.10%, p < 0.05) compared to control, whereas it improved insulin sensitivity ( p < 0.05) compared to day 0 and to all days in the control group [ 65 ]. On the other hand, it was demonstrated that, in 109 T2DM patients administered either their usual medications alone or together with 1 g/day of Cinnamomum cassia for three months, HbA 1c values were decreased in comparison to baseline ( p < 0.001) and control ( p < 0.04) [ 66 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#069",
+   "text": "3.4.2. Clinical Trials: In a group of 14 T2DM patients treated with cinnamon 1.5 g/day or placebo for 1 month, the supplement significantly reduced FPG levels ( p < 0.05) compared to initial values [ 67 ]. Another trial reported that the administration of 2 g/day of Cinnamomum cassia powder or placebo for 3 months in 58 T2DM patients on oral hypoglycemic drugs significantly decreased FPG ( p < 0.05) compared to initial values, and HbA 1c ( p = 0.029) compared to placebo [ 68 ]. Markey et al.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 90
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#070",
+   "text": "3.4.2. Clinical Trials: showed that the consumption of a high fat meal supplemented with 3 g Cinnamomum zeylanicum powdered or placebo in 9 healthy young subjects did not significantly change PPG levels after supplementation [ 69 ]. An 8-week study enrolled 44 patients with T2DM who were given Cinnamomum zeylanicum 3 g/day of or placebo. A significant reduction in FPG and HbA 1c ( p < 0.05 for both) was found following the consumption of the supplement compared to baseline [ 70 ]. A randomized, placebo-controlled study evaluated the hypoglycemic effects of cinnamon at the dose of 3 g/day or 6 g/day for 3 months in 150 individuals with recently diagnosed T2DM.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 112
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#071",
+   "text": "3.4.2. Clinical Trials: Both supplement dosages reduced in a similar way FPG ( p < 0.001 for 3 and 6 g/day of cinnamon) and HbA 1c values (p < 0.005 for 3 g/day of cinnamon; p < 0.05 for 6 g/day of cinnamon) compared to those before taking cinnamon [ 71 ]. Another trial, performed on 66 Chinese patients with T2DM, confirmed the improvement of glucose metabolism markers after ingested different doses of cinnamon.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 74
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#072",
+   "text": "3.4.2. Clinical Trials: Following 3 months of treatment with 120 mg/day or 360 mg/day of Cinnamomum aromaticum extract or placebo, both dosages lowered FPG ( p < 0.01 for 120 and 360 mg/day of Cinnamomum aromaticum extract) and HbA 1c levels (p < 0.01 for 120 and 360 mg/day of Cinnamomum aromaticum extract) compared to initial values [ 72 ]. In contrast, two placebo-controlled studies demonstrated that consumption of Cinnamomum cassia 2 g/day for 2 months and ingestion of this supplement 12 g/day for 12 weeks did not alter FPG and HbA 1c in 70 patients with T2DM [ 73 ] as well as FPG, FPI and HbA 1c in 21 individuals with IGT [ 74 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 117
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#073",
+   "text": "3.4.2. Clinical Trials: However, a sample of 40 patients with T2DM not adequately controlled by oral hypoglycemic drugs took 1.5 g/day of a crude grind cinnamon for 3 months. The supplement significantly decreased FPG, random blood sugar (RBS), and HbA 1c ( p < 0.01 for all) by comparison to the values before to the intervention [ 75 ]. Beejmohun et al. showed that the intake of Ceylon cinnamon hydro-alcoholic extract 1 g or placebo 30 min before the test meal in 18 healthy volunteers determined a reduction in PPG ( p < 0.05) but not PPI following supplementation compared to placebo.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#074",
+   "text": "3.4.2. Clinical Trials: In addition, glucose AUC 0–120 min was lowered by 14.80% without reach statistical significance ( p = 0.15) whereas glucose AUC 0–60 min was significantly decrease ( p < 0.05) after cinnamon consumption compared to placebo [ 76 ]. A randomized clinical trial enrolled 30 nondiabetic subjects who ingested 6 g/100 mL of cinnamon tea ( Cinnamomum burmannii ) immediately after OGTT or only the latter. It was observed that the supplement significantly decreased maximum PPG concentration ( p = 0.040) and variation in maximum glucose concentration ( p = 0.029), but not iAUC glucose ( p = 0.084), compared to control [ 77 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 108
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#075",
+   "text": "3.4.2. Clinical Trials: The glucose-lowering activity of cinnamon was evaluated in two placebo-controlled studies including, respectively, 105 patients with type 2 diabetes treated with 1 g/day of this nutraceutical or blueberry for a period of 3 months [ 78 ] and 137 patients with FPG >110 mg/dL or 2h-PPG >140 mg/dL receiving 500 mg/day of aqueous extract of Cinnamomum cassia , dried by spraying for 2 months [ 79 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 70
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#076",
+   "text": "3.4.2. Clinical Trials: The supplement significantly reduced FPG ( p = 0.006), 2h-PPG ( p = 0.003), FPI ( p = 0.019), HbA 1c ( p = 0.010), and HOMA-IR ( p = 0.007) in the first study [ 78 ] and lowered FPG ( p < 0.005), 2h-PPG ( p < 0.0001), FPI ( p < 0.05), and HOMA-IR ( p < 0.005) in the second trial [ 79 ], both compared to baseline. Conversely, the administration of cinnamon 3 g/day or placebo in 44 T2DM patients did not change FPG, FPI, HbA 1c , and HOMA-IR values after 8 weeks of supplementation [ 80 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#077",
+   "text": "3.4.2. Clinical Trials: Instead, in a sample of 116 individuals with metabolic syndrome given cinnamon 3 g/day or placebo 2.5 g/day for 16 weeks the supplement decreased FPG ( p = 0.001), PPG ( p = 0.030) and HbA 1c ( p = 0.023) compared to initial values [ 81 ]. In a 12-week placebo-controlled trial, it was shown that the ingestion of cinnamon powder 1.5 g/day in 66 women with polycystic ovarian syndrome (PCOS) significantly decreased FPI ( p = 0.024) and HOMA-IR ( p = 0.014) compared to placebo [ 82 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#078",
+   "text": "3.4.2. Clinical Trials: One study included 140 T2DM patients that received, based on their baseline body mass index (BMI), 1 g/day of powdered cinnamon bark (BMI ≥ 27 and BMI < 27) or placebo (BMI ≥ 27 and BMI < 27) for a period of 3 months. It was observed that cinnamon significantly reduced FPG, HbA 1c , FPI, HOMA-IR ( p < 0.001 for all), and 2h-PPG ( p = 0.008) when comparing to baseline, and patients with BMI ≥ 27 treated with the supplement showed greater change in glycemic markers [ 83 ]. In the trial of Kizilaslan and Erdem, 41 healthy subjects were given 1 g/day, 3 g/day, and 6 g/day of cinnamon, respectively, for 40 days.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#079",
+   "text": "3.4.2. Clinical Trials: It was demonstrated that the highest dose of cinnamon significantly decreased FPG ( p = 0.035) compared to before consumption of the supplement. A significant reduction in 2h-PPG ( p = 0.028) at the dose of 1 g/day of cinnamon compared to the measurement on day 20 was also observed, as well as at the dose of 3 g/day ( p = 0.018) and 6 g/day ( p = 0.017), compared to baseline [ 84 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 79
+  },
+  {
+   "chunk_id": "pmc-pmc11723399#080",
+   "text": "3.4.2. Clinical Trials: Another study, comprising 160 T2DM patients on oral hypoglycemic agents who took Cinnamomum verum 3 g/day or placebo for 3 months, showed that the supplement reduced FPG, HbA 1c ( p = 0.001 for both), and HOMA-IR (−0.47, p = 0.006) compared to initial values [ 85 ]. A recent trial found that, in 36 T2DM patients who received OGTT immediately followed by 6 g/100 mL of aqueous cinnamon extract ( Cinnamomum burmannii ) ingestion or just OGTT, the supplement did not affect maximum glucose concentration ( p = 0.527), glucose concentration variation ( p = 0.873), or iAUC glucose ( p = 0.834) when compared to the control group [ 86 ].",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "berberine",
+    "prediabetes",
+    "diabetes",
+    "dyslipidemia"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "hba1c",
+    "glucose",
+    "ldl",
+    "triglycerides"
+   ],
+   "page": null,
+   "words": 116
+  }
+ ]
+}

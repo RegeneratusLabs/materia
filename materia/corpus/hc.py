@@ -40,18 +40,25 @@ UA = "materia-corpus/0.1 (+local research build; contact: project owner)"
 # h2 heading -> (section, assertion_type). None = do not emit chunks.
 SECTION_MAP: dict[str, tuple[str, str] | None] = {
     "date": None,
+    "table of contents": None,
     "proper name(s), common name(s), source information": None,
+    "proper names, common names and source information": None,
     "route of administration": ("methodology", "other"),
     "dosage form(s)": ("methodology", "other"),
+    "dosage forms": ("methodology", "other"),
     "use(s) or purpose(s)": ("indications", "efficacy"),
+    "uses or purposes": ("indications", "efficacy"),
     "dose(s)": ("dosage", "dose"),
+    "dose": ("dosage", "dose"),
     "duration(s) of use": ("dosage", "dose"),
+    "durations of use": ("dosage", "dose"),
     "risk information": ("cautions", "safety"),
     "non-medicinal ingredients": None,
     "storage conditions": None,
     "specifications": None,
     "references cited": None,
     "references reviewed": None,
+    "references": None,
     "version history": None,
 }
 
@@ -63,6 +70,24 @@ H3_MAP: dict[str, tuple[str, str]] = {
     "subpopulation(s)": ("dosage", "dose"),
     "quantity(ies)": ("dosage", "dose"),
     "direction(s) for use": ("dosage", "dose"),
+    # The multi-vitamin/mineral monograph is numbered and nests its dose tables under
+    # h3 headings; these are the sections that carry the actual daily dose ranges.
+    "general use or purpose statements": ("indications", "efficacy"),
+    "specific use or purpose statements": ("indications", "efficacy"),
+    "specific use or purpose statements for vitamins": ("indications", "efficacy"),
+    "specific use or purpose statements for minerals": ("indications", "efficacy"),
+    "specific use or purpose statements for other medicinal ingredients": ("indications", "efficacy"),
+    "background on dose": ("dosage", "dose"),
+    "dose information for vitamins": ("dosage", "dose"),
+    "dose information for minerals": ("dosage", "dose"),
+    "dose information for other medicinal ingredients": ("dosage", "dose"),
+    "caution(s) and warning(s)": ("cautions", "safety"),
+    "cautions and warnings": ("cautions", "safety"),
+    "contraindication(s)": ("contraindications", "safety"),
+    "contraindications": ("contraindications", "safety"),
+    "known adverse reactions": ("adverse_effects", "safety"),
+    "dose information for complementary medicinal ingredients": ("dosage", "dose"),
+    "directions for use": ("dosage", "dose"),
 }
 
 _MONTHS = {
@@ -135,6 +160,12 @@ def _parse_date(text: str) -> str | None:
     return m.group(0) if m else None
 
 
+def _heading_key(heading: str) -> str:
+    """Normalise '5.3 Dose information for vitamins' to 'dose information for vitamins'."""
+    text = re.sub(r"^\d+(?:\.\d+)*\.?\s*", "", (heading or "").strip())
+    return text.lower().rstrip(":")
+
+
 def parse_monograph(html: str, atid: str, url: str, *, retrieved_at: str) -> dict:
     title, sections = split_sections(html)
     published: str | None = None
@@ -142,7 +173,7 @@ def parse_monograph(html: str, atid: str, url: str, *, retrieved_at: str) -> dic
     body_chunks: list[tuple[str, str, str]] = []  # (text, section, assertion)
 
     for level, heading, body in sections:
-        key = heading.strip().lower().rstrip(":")
+        key = _heading_key(heading)
         if level == "h2" and key == "date":
             published = _parse_date(body)
             continue

@@ -1,0 +1,1710 @@
+{
+ "doc_id": "pmc-pmc13678706",
+ "source": "Europe PMC (CC-BY full text)",
+ "tier": "primary",
+ "title": "Beyond the Numbers: A Practical Framework for Interpreting the Full Blood Count for Foundation Doctors",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-31",
+ "next_review_due": "2036-10-31",
+ "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13678706/",
+ "identifier": {
+  "type": "doi",
+  "value": "10.7759/cureus.117989"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY 4.0 (Europe PMC open-access full text)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Only articles whose JATS licence states CC BY are ingested."
+ },
+ "checksum": "sha256:6be4767fe871b7a034a5c53024de12e52a4067269504112d83f4a77a56da4caa",
+ "entities": [
+  "full blood count"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "pmc-pmc13678706#001",
+   "text": "The full blood count (FBC) is one of the most frequently encountered investigations in clinical practice, yet interpreting an abnormal result requires more than recognising values outside a laboratory reference range. For foundation doctors and other early-career clinicians, the challenge is often determining whether an abnormality is clinically significant, whether it represents an acute or longstanding process, how abnormalities across different cell lines relate to one another, and when further investigation or escalation is required. This narrative review presents the Beyond the Numbers framework, a practical approach to FBC interpretation that integrates laboratory findings with clinical urgency, previous results, patterns across cell lines and the wider clinical context. The framework begins with assessment of the patient's clinical condition.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#002",
+   "text": "In an unwell or unstable patient, assessment, treatment or action, and escalation take priority, with investigation or verification undertaken in parallel where appropriate. In a clinically stable patient, interpretation proceeds through verification of the result, review of the trend, recognition of the pattern, consideration of the clinical context, and determination of the appropriate action. The framework is applied to common red-cell, white-cell and platelet abnormalities and to situations in which multiple cell lines are affected. Particular emphasis is placed on recognising clinically important cross-line patterns, distinguishing potentially significant patterns from isolated numerical abnormalities, identifying when an FBC may not fit the clinical picture, and recognising situations that warrant senior or haematology input.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 112
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#003",
+   "text": "The approach emphasises that patterns are prompts for further clinical reasoning rather than diagnostic equations, and that escalation does not require diagnostic certainty. Beyond the Numbers provides a cognitive scaffold for moving from recognition of an abnormal FBC to proportionate clinical action. It is intended to complement, rather than replace, clinical judgement and disease-specific national or local guidance. Its potential value lies in making FBC interpretation more explicit, structured and teachable for clinicians developing practical reasoning skills. Safe FBC interpretation requires integration of the number with the patient, the trajectory, the pattern and the clinical context.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 96
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#004",
+   "text": "The Beyond the Numbers framework provides a practical educational approach to deciding when an FBC abnormality matters, what it may represent, and what should happen next. Prospective evaluation is required to determine its effect on interpretation, decision-making and appropriate escalation. Keywords: clinical reasoning, foundation doctors, full blood count, haematological abnormalities, laboratory interpretation, medical education, pattern recognition",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 56
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#005",
+   "text": "Introduction and background: The full blood count (FBC) is one of the most frequently requested laboratory investigations in clinical practice and forms a fundamental component of patient assessment across medical and surgical specialties. It provides information on red cells, white cells, and platelets and may offer important clues to infection, inflammation, haematological disease, systemic illness, or acute clinical deterioration. For foundation doctors, interpreting FBC results is therefore a routine clinical responsibility and an important opportunity to recognise significant abnormalities, initiate appropriate investigation, and escalate care when required.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 87
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#006",
+   "text": "Introduction and background: However, the clinical value of the FBC lies not simply in identifying values outside the reference range, but in determining what those abnormalities mean for the individual patient in the context of their presentation, examination, previous results, and clinical trajectory [ 1 , 2 ]. Interpreting an abnormal FBC can nevertheless be challenging for early-career clinicians. Medical education provides a foundation in reference ranges and the pathophysiology of common haematological disorders, but translating this knowledge into real-time clinical decision-making is more complex. Clinicians must determine whether an abnormality is clinically significant, distinguish acute from chronic change, recognise patterns involving one or more cell lines, select appropriate initial investigations, and identify situations requiring urgent action or escalation.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#007",
+   "text": "Introduction and background: These decisions require clinical reasoning rather than isolated recognition of abnormal numbers. In particular, the significance of an abnormal FBC depends first on the clinical condition of the patient: an unwell patient may require immediate assessment, treatment, and escalation without delaying care to verify the laboratory result, whereas an unexpected abnormality in a clinically stable patient can be approached systematically through verification, review of previous results, pattern recognition, and interpretation in clinical context [ 1 - 4 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 81
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#008",
+   "text": "Introduction and background: Existing reviews and educational resources provide general approaches to interpreting abnormal blood counts [ 1 - 3 ], while clinical guidelines from organisations such as the British Society for Haematology (BSH) and the National Institute for Health and Care Excellence (NICE) provide evidence-based recommendations for specific disorders and clinical scenarios [ 4 , 5 ]. Building on these resources, the Beyond the Numbers framework focuses specifically on the practical transition from identifying an abnormal FBC to deciding what should happen next. It places an explicit clinical-urgency gate before laboratory interpretation and integrates verification, trend assessment, pattern recognition, clinical context and escalation within a single bedside reasoning framework.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#009",
+   "text": "Introduction and background: This educational narrative review applies the framework to common red-cell, white-cell, platelet and multiline abnormalities encountered in adult clinical practice. It is primarily situated within UK practice and foundation training, and therefore draws particularly on NICE and BSH guidance and UK clinical pathways. Although the underlying reasoning principles may be applicable more broadly, specific thresholds, investigation pathways and escalation processes should be interpreted according to relevant national and local guidance. The framework is intended to support early-career clinicians in moving from laboratory findings to proportionate clinical action rather than to replace condition-specific guidance, specialist assessment or clinical judgement. This educational narrative review was informed by an iterative, topic-based literature search using PubMed and relevant medical journals.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#010",
+   "text": "Introduction and background: Search terms included “full blood count”, “complete blood count”, “FBC”, “CBC”, “red blood cells”, “white blood cells”, “platelets”, “transfusion”, “red blood cell transfusion”, “platelet transfusion” and “foundation doctors”, alongside terms relevant to individual cell-line abnormalities. Sources were selected according to their clinical relevance to FBC interpretation, investigation, management and escalation decisions in adult practice, with particular emphasis on current UK national guidance, including NICE and BSH recommendations. References were organised using Zotero, and key findings were recorded in a literature spreadsheet to support the development of individual sections. The aim was to provide a practical educational synthesis rather than an exhaustive or systematic review.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#011",
+   "text": "Review: Beyond the numbers framework: a practical approach to interpreting the full blood count Interpretation of the FBC extends beyond recognising values outside the laboratory reference range. Although automated analysers provide rapid measurements of multiple haematological parameters, the clinical significance of these results depends on the patient's condition, previous results, the pattern of abnormalities, and the wider clinical context [ 1 , 2 ]. Contemporary approaches to FBC interpretation emphasise systematic assessment and clinical reasoning rather than reliance on isolated numerical thresholds [ 1 , 2 ]. Building on these principles, this review proposes the Beyond the Numbers Framework, a practical approach designed to support foundation doctors and other early-career clinicians in translating abnormal FBC results into appropriate clinical decisions.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#012",
+   "text": "Review: The Clinical-Urgency Gate The first question is not “How abnormal is the result?” but “Is the patient clinically unwell?” This distinction determines how the FBC should be approached. If the patient is clinically unwell or unstable, immediate clinical assessment, treatment, and escalation take priority. Investigation and verification of the FBC should occur in parallel where appropriate and should not delay time-critical management. This urgency-first principle is consistent with current guidance for the assessment and early management of potentially serious acute illness, including suspected sepsis [ 4 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 88
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#013",
+   "text": "Review: Conversely, when the patient is clinically stable, an unexpected or abnormal result can be approached systematically by verifying the result, reviewing previous results, recognising the pattern, interpreting it in context, and deciding on the appropriate next action. Clinical assessment should therefore precede interpretation of the numerical abnormality in all cases. The indication for the FBC, presenting symptoms, observations, Early Warning Score, examination findings, comorbidities, and overall clinical trajectory should be considered alongside the laboratory result. At the same time, clinicians should remain alert to potentially misleading results, including those associated with sample problems, analyser flags, or other pre-analytical and analytical issues [ 1 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#014",
+   "text": "Review: In a clinically stable patient, such findings may warrant verification before further investigation or management decisions are made. The framework can therefore be understood as two linked pathways rather than a single rigid sequence: urgent clinical assessment and action for the unwell patient; structured verification and interpretation for the clinically stable patient. For the Clinically Stable Patient: Verify the Result An unexpected FBC abnormality should first be considered in relation to the possibility of laboratory or sampling error. Verification may include reviewing the report for analyser comments or flags, checking the clinical circumstances in which the sample was obtained, and repeating the FBC when appropriate [ 1 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#015",
+   "text": "Review: Verification is particularly important when a result is unexpected, markedly discordant with previous findings, or inconsistent with the clinical picture. However, verification should not become a reason to delay treatment in a patient whose clinical condition indicates that urgent action is required [ 4 ]. Review the Trend An isolated FBC represents a single point in time and should, where possible, be considered alongside previous results. Reviewing earlier investigations can help distinguish acute change from a longstanding abnormality, identify clinically important trends, and establish whether a finding has already been investigated or represents the patient's established baseline [ 1 , 2 ]. Previous admissions, outpatient correspondence, laboratory trends, and prior specialist assessments may provide important context.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 117
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#016",
+   "text": "Review: A stable abnormality may require a different approach from a newly developing or rapidly worsening abnormality. Trend therefore adds a temporal dimension to interpretation and may be more informative than a single result considered in isolation [ 1 , 2 ]. Recognise the Affected Cell Line and Pattern Once the result has been verified and its trajectory considered, interpretation should focus on identifying the affected cell line or combination of cell lines. Abnormalities may primarily involve red cells, white cells, or platelets, or may affect more than one lineage. The relationship between parameters is often more clinically informative than any individual value.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 103
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#017",
+   "text": "Review: Haemoglobin (Hb) concentration, red-cell indices, white-cell differential counts, platelet count, and, where available, peripheral blood film findings should therefore be considered together. Patterns such as isolated microcytic anaemia, macrocytic anaemia with thrombocytopenia, neutropenia, or pancytopenia can help narrow the differential diagnosis and guide appropriate initial investigation [ 1 , 2 ]. Recognition of patterns also helps clinicians identify situations in which a broader process should be considered. Abnormalities involving multiple cell lines, for example, may suggest systemic illness, medication effects, nutritional deficiency, infection, or bone marrow pathology and should not be approached as a series of unrelated numerical abnormalities [ 1 , 2 ]. Interpret in Clinical Context Laboratory findings acquire meaning from the patient in whom they occur.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#018",
+   "text": "Review: The FBC should therefore be interpreted alongside the presenting complaint, history, examination, observations, comorbidities, medications, recent procedures or treatment, and other relevant investigations [ 1 ]. The same numerical abnormality may have very different implications depending on the clinical setting. A falling Hb after surgery, neutropenia in a patient receiving cytotoxic treatment, or thrombocytopenia in a patient with suspected sepsis requires a different clinical response from an isolated, longstanding abnormality in an otherwise well patient. Interpretation should therefore combine the laboratory pattern with the patient's clinical trajectory rather than relying on numerical thresholds alone [ 1 , 2 , 4 ]. Decide on the Appropriate Action The final purpose of interpretation is to determine what should happen next.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#019",
+   "text": "Review: Depending on the clinical context, the appropriate action may be to monitor the abnormality, repeat the FBC, request targeted investigations, review a peripheral blood film, discuss the findings with a senior clinician, seek haematology advice, or initiate urgent treatment and escalation. The urgency of action should reflect both the patient's clinical condition and the characteristics of the FBC abnormality. Abnormal laboratory values should not trigger automatic intervention simply because they fall outside a reference range, while apparently modest abnormalities should not be dismissed when they occur in an unwell patient or represent a significant change from baseline.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#020",
+   "text": "Review: The framework is therefore intended as a structured aid to clinical reasoning rather than a diagnostic algorithm or substitute for condition-specific guidance and local clinical pathways. The Beyond the Numbers Framework can be summarised in Figure 1 . Red cell abnormalities Haemoglobin and Anaemia: Why It Matters to Foundation Doctors Hb is one of the most frequently reviewed components of the FBC and is central to the assessment of patients across medical and surgical specialties. For foundation doctors, Hb results are encountered routinely during daily patient reviews, peri-operative assessment, assessment of acute deterioration, and investigation of unexplained symptoms.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#021",
+   "text": "Review: Although Hb is a single numerical value, its interpretation may influence important clinical decisions, including further investigation, monitoring, escalation, and treatment [ 1 - 3 , 6 ]. The clinical importance of Hb interpretation lies not simply in identifying whether the value is outside the laboratory reference range, but in understanding what the abnormality represents in the individual patient. Anaemia is a manifestation of an underlying process rather than a diagnosis in itself. A reduced Hb concentration may result from acute or chronic blood loss, nutritional deficiency, inflammation, renal disease, haemolysis, bone marrow dysfunction, or other systemic disease processes.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 100
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#022",
+   "text": "Review: Safe interpretation therefore requires consideration of the patient's clinical condition, the trajectory of the Hb, the pattern of the red-cell indices, and the wider clinical context [ 1 , 2 , 6 ]. This distinction is particularly important in acute and surgical practice. A postoperative fall in Hb may represent expected blood loss, ongoing haemorrhage, haemodilution, or another pathological process, while the same Hb concentration in a clinically well patient with longstanding anaemia may require a very different response. Similarly, in medical practice, newly identified anaemia may be a clue to nutritional deficiency, chronic disease, renal disease, gastrointestinal blood loss, or other underlying pathology.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#023",
+   "text": "Review: For foundation doctors, the challenge is to distinguish these clinical presentations and identify the appropriate response [ 1 , 2 , 6 ]. The following sections apply the Beyond the Numbers Framework to red-cell abnormalities, with particular emphasis on anaemia, red-cell indices, iron deficiency, erythrocytosis, and transfusion. Anaemia: Applying the Beyond the Numbers Framework in Clinical Practice A practical application of the Beyond the Numbers framework to anaemia is summarised in Table 1 . Clinical pearl: A haemoglobin result is a clinical clue, not a diagnosis. Ask: Is the patient unwell? Is the result new? What pattern does the FBC show? What does the patient need next?",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 108
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#024",
+   "text": "Review: Red Cell Indices: Turning Numbers Into Patterns The Hb concentration identifies anaemia, while the red-cell indices help describe its pattern. For foundation doctors, the most useful indices to recognise initially are the mean corpuscular volume (MCV), mean corpuscular haemoglobin (MCH), and red cell distribution width (RDW). These parameters can help direct the differential diagnosis when interpreted alongside the Hb concentration and clinical context [ 1 - 3 , 7 , 8 ]. The MCV describes the average size of red blood cells and provides a practical starting point for classifying anaemia as microcytic, normocytic, or macrocytic. The MCH reflects the average amount of Hb within an individual red cell and often follows the general pattern of the MCV.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#025",
+   "text": "Review: The RDW describes variation in red-cell size (anisocytosis) and may provide additional information when interpreted alongside the MCV [ 2 , 3 , 7 , 8 ]. For foundation doctors, these indices should be used as a pattern-recognition tool rather than a diagnosis. Common red-cell index patterns and their practical interpretation are summarised in Table 2 . The MCV should therefore be considered a direction for investigation rather than an endpoint. A microcytic pattern may suggest iron deficiency but does not establish the diagnosis. Conversely, a normal MCV does not exclude iron deficiency, particularly when mixed causes of anaemia are present. Ferritin and, where appropriate, transferrin saturation provide additional information when assessing iron status [ 9 , 10 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#026",
+   "text": "Review: In microcytic anaemia, the red blood cell count may provide an additional clue: a relatively preserved or elevated RBC count despite a low MCV can suggest thalassaemia trait, whereas a reduced RBC count may favour iron deficiency in the appropriate clinical context; neither finding is diagnostic in isolation [ 1 , 8 ]. Clinical pearl: Don't stop at the MCV. Hb ↓ → MCV → MCH/RDW → Clinical context → Targeted investigation.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#027",
+   "text": "Review: The practical question is: “What pattern does this FBC suggest, and what should I investigate next?” Raised Haemoglobin and Erythrocytosis: When to Escalate A raised Hb or haematocrit is encountered less frequently than anaemia in routine foundation practice, but an unexpected or persistent elevation should not simply be dismissed [ 1 , 6 ]. The initial approach is to consider whether the finding could represent relative erythrocytosis, for example because of reduced plasma volume, before considering causes of true erythrocytosis. Previous FBC results should be reviewed to establish whether the finding is new or persistent, and the clinical context should be considered, including smoking, respiratory disease, hypoxia, relevant medications, and other clinical features [ 1 , 6 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#028",
+   "text": "Review: Useful initial questions include determining whether the finding is new or persistent, whether reduced plasma volume could explain the result, and whether there is evidence of hypoxia or underlying respiratory disease. The clinical assessment should also consider the presence of smoking, medication use, or other relevant risk factors, as well as whether other FBC parameters are abnormal. Finally, it is important to determine whether the elevation is persistent or remains unexplained. Persistent or unexplained erythrocytosis should prompt appropriate senior review and, where indicated, specialist assessment. The purpose of this section is not to provide a detailed classification of erythrocytosis, but to ensure that foundation doctors recognise when a raised Hb requires further assessment [ 1 , 6 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#029",
+   "text": "Review: Clinical pearl: A single raised Hb may be transient; a persistent unexplained elevation deserves an explanation. Iron Deficiency Anaemia: A Common Diagnosis Not to Miss Iron-deficiency anaemia (IDA) is an important practical diagnosis for foundation doctors because it is common across medical and surgical practice and may represent either a readily treatable deficiency or a marker of underlying disease. The key clinical principle is that identifying iron deficiency is not the same as identifying its cause [ 9 , 10 ]. A low Hb with a microcytic or hypochromic pattern may raise suspicion of iron deficiency, but the diagnosis should be supported by appropriate iron studies.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#030",
+   "text": "Review: Serum ferritin is an important marker of iron stores, although interpretation may be complicated by inflammation or chronic disease. Transferrin saturation can provide complementary information when ferritin interpretation is uncertain or inflammatory conditions are present [ 9 , 10 ]. Question 1: Is iron deficiency likely? The overall haematological pattern should be considered, including Hb, MCV, MCH, ferritin, transferrin saturation when appropriate, and relevant inflammatory markers in conjunction with the clinical context. A low ferritin strongly supports iron deficiency when interpreted within an appropriate clinical context.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 87
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#031",
+   "text": "Review: However, a normal or raised ferritin concentration does not necessarily exclude iron deficiency, particularly in the presence of inflammation or chronic disease, in which ferritin levels may be influenced by the underlying inflammatory state [ 9 , 10 ]. Question 2: Why is this patient iron deficient? Once iron deficiency has been identified, the next step is to determine why it has occurred. Potential contributing factors can be broadly categorised as blood loss, reduced iron intake or absorption, and increased iron requirements. Blood loss may arise from gastrointestinal bleeding, menstrual blood loss, postoperative bleeding, or other sources of ongoing blood loss.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 102
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#032",
+   "text": "Review: Reduced iron intake or absorption may result from poor nutritional intake, gastrointestinal disorders that impair iron absorption, or previous gastrointestinal surgery. Increased iron requirements may occur during pregnancy and in other clinical situations in which iron requirements are elevated, with assessment guided by relevant clinical guidance. A comprehensive assessment should also take into account the patient’s age, sex, symptoms, comorbidities, medications, and findings from previous investigations [ 9 , 10 ]. Question 3: Does the patient need further investigation? This is where “treating the number” can become unsafe. Identifying iron deficiency should prompt consideration of its underlying cause rather than treatment alone. New IDA, particularly where gastrointestinal blood loss is possible, may require investigation for an underlying gastrointestinal cause.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#033",
+   "text": "Review: NICE guidance recommends offering quantitative faecal immunochemical testing (FIT) to adults with IDA to guide referral for suspected colorectal cancer, while ensuring that further assessment or referral is not delayed when clinical concern remains high [ 11 ]. Therefore, foundation doctors should not simply prescribe iron and close the episode without considering whether the underlying cause has been identified or whether further investigation and follow-up are required [ 9 - 11 ]. Question 4: How should iron deficiency be treated? For many patients, oral iron is the usual initial approach, provided it is appropriate and tolerated.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 97
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#034",
+   "text": "Review: Intravenous iron may be considered when oral iron is unsuitable, poorly tolerated, poorly absorbed, cannot be adhered to, or when there is insufficient time for oral therapy to be effective before surgery. Relevant guidance should be followed for the individual clinical setting [ 9 , 10 ]. Pregnancy and other specialist populations require consideration of their specific guidance rather than automatic application of a general adult pathway. Clinical pearl: Iron deficiency is a finding, not the final diagnosis. Treat the deficiency, but also ask why it occurred. For the foundation doctor, the practical sequence is: Recognise → Confirm → Find the cause → Treat → Follow up.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 108
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#035",
+   "text": "Review: The underlying cause may be considerably more clinically important than the anaemia itself [ 9 , 10 ]. Transfusion Principles: When Does the Number Matter? A low Hb is one of the most clinically important abnormalities identified on an FBC, but Hb concentration alone does not determine whether a patient should receive a red-cell transfusion. Transfusion is therefore an important practical application of the Beyond the Numbers approach: the Hb result should be interpreted alongside the patient's clinical condition, symptoms, haemodynamic status, rate of change, cause of anaemia, active bleeding, comorbidities, and relevant transfusion guidance [ 12 , 13 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 101
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#036",
+   "text": "Review: In a clinically stable adult without major haemorrhage or other circumstances requiring a different approach, current NICE guidance recommends a restrictive red-cell transfusion strategy, with a threshold around 70 g/L and a post-transfusion target of 70-90 g/L. A higher threshold may be appropriate in selected clinical circumstances, including acute coronary syndrome, according to current guidance. These thresholds should not be applied mechanically and do not replace clinical judgement or condition-specific transfusion pathways [ 12 ]. Key considerations for foundation doctors before red-cell transfusion are summarised in Table 3 . Transfusion addresses the immediate consequence of anaemia but does not necessarily treat its underlying cause.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#037",
+   "text": "Review: A patient with IDA, for example, may require investigation and iron replacement rather than repeated transfusion [ 9 , 10 , 12 ]. Safe transfusion also requires adherence to local transfusion policy, including appropriate patient identification, documentation, pre-transfusion checks, and bedside verification. Transfusion-associated circulatory overload (TACO) is an important preventable complication, particularly in patients with risk factors such as cardiac disease, renal dysfunction, fluid overload, or severe or chronic anaemia. Appropriate risk assessment, careful indication, and avoidance of unnecessary transfusion volume are therefore important components of safe practice [ 12 , 13 ]. Clinical Pearl: Do not transfuse the Hb. Assess the patient, understand why the Hb is low, decide whether transfusion is indicated, and then transfuse safely.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#038",
+   "text": "Review: A practical sequence is: Low Hb → Assess clinical urgency → Review the trend → Identify the cause → Consider whether transfusion is indicated → Apply current guidance → Assess transfusion risk → Transfuse appropriately → Reassess. Red-Cell Red Flags: When to Escalate Early senior or specialist input should be considered when an FBC abnormality is associated with haemodynamic instability, suspected significant or ongoing bleeding, a rapidly falling Hb concentration, or severe or symptomatic anaemia. Specialist input is also appropriate when anaemia is accompanied by significant white-cell or platelet abnormalities, when there is uncertainty regarding the need for urgent transfusion, or when there is persistent or marked unexplained erythrocytosis.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#039",
+   "text": "Review: Further assessment should be considered when serious underlying pathology is suspected, including marrow disease or malignancy, or when significant cardiovascular or other comorbidity may affect interpretation or management. Early senior or specialist input is also warranted when an abnormality is inconsistent with the clinical picture and cannot readily be explained. White-cell abnormalities: turning the differential into clinical context White-cell abnormalities are among the most frequently encountered findings on the FBC and are particularly relevant to foundation doctors because they may provide an early laboratory signal of infection, inflammation, physiological stress, medication effects, or, less commonly, haematological disease. However, the total white-cell count (WBC) is a signal rather than a diagnosis.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 111
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#040",
+   "text": "Review: Its clinical value lies in identifying which cell population is responsible for the abnormality, whether the finding is new or persistent, and whether the laboratory pattern fits the patient's clinical presentation [ 1 , 2 , 6 , 14 , 15 ]. For foundation doctors, the practical question is therefore not simply “Is the WBC high or low?” but “Which white-cell population is abnormal, why might it be abnormal in this patient, and does it require action?” Both leukocytosis and leukopenia may occur in infection, while reactive and malignant processes can produce overlapping laboratory patterns [ 1 , 2 , 15 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 103
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#041",
+   "text": "Review: Total White-Cell Count: The Starting Point The total WBC provides an initial indication that further assessment may be required, but it should not be interpreted in isolation. Leukocytosis has a broad differential that includes infection, inflammation, physiological stress, surgery, trauma, medication effects, and haematological malignancy. Conversely, a normal or low WBC does not exclude serious infection [ 14 , 15 ]. The degree, duration and trend of the abnormality, together with the differential count and clinical context, help determine its significance. In acute practice, a raised WBC may accompany infection but should not automatically be equated with infection or sepsis.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 101
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#042",
+   "text": "Review: NICE guidance emphasises that WBC and other inflammatory markers should not be used as standalone diagnostic tests for sepsis; clinical assessment and physiological observations remain central [ 4 ]. A particularly useful question for foundation doctors is: “Is this an expected abnormality for the patient's current illness, or is there something about the result that does not fit?” For example, a new neutrophilia in a clinically stable patient shortly after surgery may have a reactive explanation. In contrast, persistent or unexplained leukocytosis, marked abnormalities involving more than one cell line, constitutional symptoms, lymphadenopathy or splenomegaly should prompt further assessment [ 14 , 15 ]. Previous FBC results are particularly valuable.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 111
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#043",
+   "text": "Review: A longstanding abnormality with a documented explanation represents a different clinical problem from a previously normal WBC that has become substantially abnormal [ 1 , 14 , 15 ]. The Beyond the Numbers approach to an abnormal WBC is summarised in Table 4 . Practical foundation-doctor message: Do not stop at “WBC high” or “WBC low”. Read the differential, assess the patient, compare the trend and ask whether the pattern has a plausible clinical explanation. Neutrophils: Infection, Inflammation and Urgent Abnormalities Neutrophils are often the most clinically informative component of the white-cell differential in acute hospital practice.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#044",
+   "text": "Review: Neutrophilia commonly accompanies infection and inflammation, but may also occur following surgery or trauma, during physiological stress, with corticosteroid treatment and in other reactive states. Neutropenia may result from infection, medication effects, viral illness, autoimmune disease, nutritional deficiency or disorders affecting neutrophil production or survival [ 15 - 17 ]. The total WBC, absolute neutrophil count (ANC), inflammatory markers, physiological observations, clinical examination and previous results should therefore be considered together. A neutrophil abnormality is a clinical signal rather than a diagnosis [ 15 - 17 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 88
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#045",
+   "text": "Review: For neutrophilia, look for the explanation: When neutrophilia is identified, the appropriate first question is not “Which antibiotic should I prescribe?” but “Does the patient's clinical condition provide a plausible explanation for this result?” Neutrophilia shortly after surgery may represent a reactive response, whereas the same finding in a patient with fever, hypotension or focal symptoms may warrant urgent assessment for infection. Timing, symptoms, observations, the remainder of the differential count and previous FBC results are therefore important [ 14 , 15 ]. The absence of neutrophilia also does not exclude serious infection, particularly in patients who are immunocompromised or neutropenic [ 4 , 15 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#046",
+   "text": "Review: Persistent or marked neutrophilia without an adequate reactive explanation should prompt consideration of other causes, including medication effects and haematological disease. The finding becomes more concerning when persistent or unexplained, associated with abnormalities in other cell lines, or accompanied by constitutional symptoms, lymphadenopathy or splenomegaly [ 14 , 15 ]. When the number becomes urgent: Neutropenia requires particular attention because its clinical significance depends on its severity, duration and the condition of the patient. In adults, neutropenia is generally defined as an ANC below approximately 1.5 × 10⁹/L, with severe neutropenia generally below 0.5 × 10⁹/L; definitions and thresholds should be interpreted alongside the relevant clinical and laboratory guidance [ 16 , 17 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#047",
+   "text": "Review: The foundation doctor should confirm the ANC rather than relying simply on the percentage of neutrophils. The assessment should consider whether the abnormality is acute or chronic and whether it is isolated or accompanied by other abnormalities. Common acquired causes include medications, viral infection, autoimmune disease, nutritional deficiency and disorders affecting neutrophil production or survival [ 16 , 17 ]. A clinically well patient with longstanding mild isolated neutropenia requires a different approach from a patient who has developed acute severe neutropenia while febrile or clinically deteriorating [ 16 , 17 ]. For neutropenia with suspected infection, treat as an emergency: The most important safety message for foundation doctors is the combination of neutropenia and suspected infection.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#048",
+   "text": "Review: In patients receiving anticancer treatment, NICE guidance defines neutropenic sepsis using severe neutropenia together with fever or other signs and symptoms consistent with clinically significant sepsis, and recommends treating suspected neutropenic sepsis as an acute medical emergency [ 5 ]. The broader clinical principle is more important than memorising a definition: A clinically unwell neutropenic patient requires urgent assessment and escalation; do not wait for the neutrophil count to recover or for the source of infection to become obvious. Initial assessment should include appropriate clinical examination and investigations, which may include FBC, renal and liver function, CRP, lactate and blood cultures according to the clinical situation.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#049",
+   "text": "Review: Empiric antimicrobial treatment should follow the current local antimicrobial and neutropenic-sepsis guideline, taking account of patient-specific and local microbiological factors [ 5 ]. This is consistent with the wider NICE approach to suspected sepsis: patients at high risk of severe illness or death require urgent assessment and, when indicated, prompt intravenous antibiotics [ 4 , 5 ]. Key questions when interpreting an abnormal neutrophil count are summarised in Table 5 .",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 72
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#050",
+   "text": "Review: Clinical pearl: Neutrophilia asks: “What is driving this response?” Neutropenia asks: “How low is it, why is it low, and is the patient unwell?” Lymphocytes: Reactive Versus Persistent Lymphocyte abnormalities are best interpreted using the absolute lymphocyte count, clinical context and trend rather than treating a single abnormal result as a diagnosis [ 18 - 20 ]. Acute lymphocytosis is commonly reactive, particularly in the setting of infection, whereas persistent or unexplained lymphocytosis requires review of previous FBC results and consideration of chronic infection, medication effects and lymphoproliferative disorders [ 18 - 20 ]. For foundation doctors, the most useful distinction is between acute, persistent and clinically concerning abnormalities.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#051",
+   "text": "Review: Acute lymphocytosis: Consider whether there is an acute infective or inflammatory illness, particularly a viral illness [ 18 , 20 ]. Persistent lymphocytosis: Review previous FBCs and determine whether the abnormality is persistent or increasing. Consider associated lymphadenopathy, splenomegaly or unexplained systemic symptoms [ 18 - 20 ]. Lymphopenia: A low lymphocyte count is often nonspecific and may occur during acute illness or in association with infection, inflammation, medications, immunosuppression and systemic disease. It should therefore be interpreted in context rather than automatically attributed to a specific diagnosis [ 21 , 22 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#052",
+   "text": "Review: Lymphocyte abnormalities with other FBC changes: Anaemia, thrombocytopenia, abnormal neutrophils or other abnormalities may indicate a broader haematological process and should increase the threshold for senior or specialist review [ 15 , 19 ]. NICE guidance on suspected cancer should also be considered where persistent or unexplained lymphocyte abnormalities occur alongside features such as lymphadenopathy, hepatosplenomegaly, unexplained fever, recurrent infection, bruising or bleeding [ 11 ]. Clinical pearl: Do not diagnose from the lymphocyte count alone. Ask: acute or persistent? What was the previous count? What does the patient look like? Are there other abnormal cell lines or clinical features suggesting haematological disease?",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#053",
+   "text": "Review: Monocytes: Reactive Versus Persistent Monocytosis has a broad differential and may occur with infection, inflammation and other reactive conditions, as well as haematological disease. For foundation doctors, the most useful distinction is transient/reactive versus persistent and unexplained monocytosis [ 23 ]. Consider the following points. Transient or reactive monocytosis: Is there an acute infection, inflammatory condition or recent physiological stress that provides an explanation? Persistent monocytosis: What do previous FBC results show? Is the abnormality sustained? Persistent and unexplained monocytosis: Are there accompanying abnormalities such as anaemia, thrombocytopenia or abnormal neutrophils? Concerning clinical features: Is there splenomegaly, constitutional symptoms or another reason to suspect an underlying haematological disorder? Persistent monocytosis does not mean that a patient has a haematological malignancy.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#054",
+   "text": "Review: However, sustained unexplained monocytosis may be a presenting feature of disorders such as chronic myelomonocytic leukaemia (CMML) and may warrant further assessment, including blood-film review or haematology discussion according to local pathways [ 23 ]. Clinical pearl: For monocytes, persistence matters more than an isolated result. Review the trend, look at the rest of the FBC and ask whether the clinical picture provides a reactive explanation. Eosinophils: Allergy, Infection and Persistent Elevation Eosinophilia has a broad differential and is most commonly reactive. Important secondary causes include allergic disease, medication reactions, parasitic infection and inflammatory or autoimmune conditions. Less commonly, persistent eosinophilia may reflect a clonal haematological disorder [ 14 , 15 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 113
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#055",
+   "text": "Review: For foundation doctors, the practical approach is to determine whether the abnormality is persistent and whether there is an appropriate clinical explanation. The assessment should consider the presence of allergic disease or asthma, any new medications or possible drug reactions, and relevant travel or exposure history that may suggest parasitic infection. Gastrointestinal, respiratory, dermatological, or other systemic symptoms should also be assessed, together with any evidence of inflammatory or autoimmune disease. Particular attention should be given to abnormalities that persist or remain markedly elevated despite the absence of an obvious secondary cause. A history of atopy, medication exposure and travel may therefore be particularly informative.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 106
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#056",
+   "text": "Review: Persistent or marked eosinophilia deserves greater attention because eosinophil-mediated organ damage can occur and specialist assessment may be required. Current classifications generally regard an eosinophil count above 1.5 × 10⁹/L as hypereosinophilia, but numerical thresholds should be interpreted alongside the clinical picture and current guidance [ 14 , 15 ]. Clinical pearl: An eosinophil count is a clue, not a diagnosis. Ask what is driving it, whether it is persistent and whether there is evidence of organ involvement. Basophils: Confirm, Contextualise and Escalate When Persistent Basophils are the least numerous circulating white-cell population and are encountered less frequently in routine FBC interpretation than neutrophils or lymphocytes.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 107
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#057",
+   "text": "Review: An isolated abnormal basophil count is often of limited immediate clinical significance; however, persistent or unexplained basophilia can provide an important clue to underlying myeloid disease, particularly when accompanied by other abnormalities in the FBC [ 14 , 24 ]. For foundation doctors, the key is not to memorise rare causes but to recognise when the finding warrants further attention. Is the abnormality genuine?: Review the absolute basophil count, laboratory reference range and previous FBC results. An unexpected result should be interpreted cautiously and, where appropriate, confirmed [ 15 , 24 ]. Is there a clinical or reactive explanation?: Consider allergic or inflammatory conditions and other potential reactive causes.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#058",
+   "text": "Review: The remainder of the differential count, symptoms and other FBC abnormalities may provide important clues [ 24 ]. Is it persistent or unexplained?: Persistent basophilia, particularly when accompanied by marked leukocytosis, left-shifted granulopoiesis, thrombocytosis, anaemia or other abnormalities, should prompt consideration of an underlying myeloid neoplasm and appropriate haematological assessment. Basophilia is particularly associated with chronic myeloid leukaemia and other myeloproliferative neoplasms [ 14 , 24 ]. Clinical pearl: Basophilia is rarely an isolated emergency. Persistence is the signal. For a single unexpected result, confirm and review. For persistent or unexplained basophilia, review the whole FBC and clinical context. For basophilia with other haematological abnormalities, consider myeloid disease and seek appropriate advice.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 113
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#059",
+   "text": "Review: Practical considerations for abnormalities in the remaining white-cell differential are summarised in Table 6 . WBC Red Flags: When an Abnormal Differential Needs Escalation Neutropenia accompanied by fever or clinical deterioration requires urgent assessment for suspected neutropenic sepsis. Marked or rapidly changing leukocytosis, persistent unexplained white-cell abnormalities, circulating blasts or other concerning blood-film findings, and abnormalities accompanied by constitutional symptoms, lymphadenopathy or splenomegaly should prompt further assessment and consideration of senior or haematology advice. The degree of urgency depends on the patient's clinical condition and the nature of the abnormality.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 91
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#060",
+   "text": "Review: Platelet abnormalities: from platelet count to bleeding and thrombosis risk Platelets are central to primary haemostasis, and abnormalities in platelet number may present with bleeding, thrombosis, or as an incidental finding on routine blood testing. For foundation doctors, however, the platelet count should be viewed as a clinical signal rather than a diagnosis. Its significance depends on the degree of abnormality, the trend over time, the wider FBC, and, most importantly, the clinical condition of the patient [ 1 , 25 , 26 ]. Platelet Count: Is the Result Genuine and What Is the Pattern? In most adult laboratories, the usual platelet reference range is approximately 150-450 × 10⁹/L, although the laboratory-specific reference interval should be used.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#061",
+   "text": "Review: An abnormal result should prompt interpretation rather than an automatic diagnosis or intervention [ 1 , 25 , 26 ]. For a clinically stable patient with an unexpected result, the first consideration is whether the platelet count is genuine. The laboratory report should be reviewed for analyser comments or flags, the clinical circumstances in which the sample was obtained should be considered, and previous results should be checked. Repeat testing or examination of a blood film may be appropriate when the result is unexpected or inconsistent with the clinical picture. Analytical and pre-analytical factors can occasionally produce misleading platelet counts; pseudothrombocytopenia, for example, may result from platelet aggregation in the sample [ 1 , 25 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 117
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#062",
+   "text": "Review: The previous FBC also provides an important temporal dimension. A mildly abnormal but stable platelet count may have a very different significance from a rapidly falling count in a previously normal patient. Previous admissions, outpatient results and established baseline values should therefore be reviewed whenever available [ 1 , 25 ]. The platelet count should then be interpreted alongside the rest of the FBC. Concurrent anaemia, abnormalities of the WBC, or changes affecting more than one cell line may provide important clues to the underlying process. Isolated thrombocytopenia, thrombocytopenia with anaemia, and thrombocytosis accompanied by microcytosis, for example, prompt different clinical considerations [ 1 , 6 , 25 ]. Finally, the numerical abnormality must be interpreted in the patient.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#063",
+   "text": "Review: Is the patient bleeding or thrombosing? Are they acutely unwell, septic or post-operative? Is an invasive procedure planned? Have there been recent medication changes, transfusion or heparin exposure? These factors determine whether the appropriate response is observation, repeat testing, targeted investigation, treatment or escalation. Clinical pearl: The platelet count is a starting point, not a diagnosis. Its meaning comes from the result, the trend, the wider FBC and the patient in whom it occurs. Platelet Abnormalities: Applying Beyond the Numbers The application of the Beyond the Numbers framework to platelet abnormalities is summarised in Table 7 . Thrombocytopenia: Is the Patient at Risk of Bleeding, and Why Is the Count Low?",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 112
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#064",
+   "text": "Review: Thrombocytopenia is usually defined as a platelet count below 150 × 10⁹/L. The important clinical question, however, is not simply whether the count is below the reference range, but whether the patient is at risk of clinically significant bleeding and why the platelet count is low. The risk of bleeding does not increase in a simple linear relationship with the platelet count; the clinical picture, rate of change, coexisting coagulation abnormalities, medications and underlying disease all influence risk [ 1 , 25 , 26 ]. In an unwell or bleeding patient, clinical assessment takes priority over verification of the numerical result. Features of bleeding include petechiae, purpura, mucosal bleeding, haematuria, gastrointestinal bleeding and heavy vaginal bleeding.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 117
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#065",
+   "text": "Review: More serious features include significant gastrointestinal or intracranial bleeding, haemodynamic instability or rapid clinical deterioration. Severe thrombocytopenia, particularly when accompanied by active bleeding, requires urgent assessment [ 1 , 26 ]. The degree of thrombocytopenia provides useful context but should not be used as an isolated predictor of bleeding. Patients with platelet counts above approximately 50 × 10⁹/L are often asymptomatic, whereas spontaneous serious bleeding becomes increasingly concerning at very low platelet counts. A platelet count below 10 × 10⁹/L is generally considered a high-risk finding and should prompt urgent clinical assessment. These thresholds should not replace clinical judgement, particularly in patients with additional haemostatic abnormalities or active bleeding [ 1 , 26 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#066",
+   "text": "Review: Once immediate clinical concerns have been addressed, the cause of thrombocytopenia should be considered. Broad mechanisms include reduced platelet production, increased destruction or consumption, splenic sequestration, dilution and laboratory artefact. Common clinical contexts encountered by foundation doctors include acute infection or sepsis, liver disease and hypersplenism, alcohol use, medications, immune thrombocytopenia (ITP), malignancy or marrow disease, and dilution following major fluid or blood replacement [ 1 , 25 , 26 ]. The rest of the FBC and the blood film may substantially narrow the differential diagnosis. Isolated thrombocytopenia may suggest a different process from thrombocytopenia accompanied by anaemia, leukopenia, leukocytosis or abnormal cell morphology.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 105
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#067",
+   "text": "Review: A blood film is particularly important when platelet clumping is suspected or when there is concern about red-cell fragmentation. The presence of schistocytes in a patient with thrombocytopenia and evidence of haemolysis should raise concern for a thrombotic microangiopathy (TMA) and requires urgent senior assessment [ 1 , 6 , 27 ]. The trajectory is equally important. A new fall from a previously normal platelet count is more concerning than a stable, longstanding mild thrombocytopenia. The clinician should therefore review previous FBCs and ask about recent infection, surgery, hospitalisation, medication exposure and heparin exposure, as well as clinical features suggesting bleeding, thrombosis or systemic disease [ 1 , 28 ]. Particular patterns should prompt urgent consideration of alternative diagnoses.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#068",
+   "text": "Review: Thrombocytopenia accompanied by neurological or renal dysfunction, haemolysis or schistocytes, abnormal coagulation results, major bleeding, or recent heparin exposure may represent a haematological or thrombotic emergency. Importantly, heparin-induced thrombocytopenia (HIT) is a pro-thrombotic disorder, so thrombocytopenia after heparin exposure should not simply be interpreted as an increased bleeding risk [ 28 ]. For foundation doctors, the practical objective is therefore not to memorise every cause of thrombocytopenia, but to recognise the patient who is bleeding, the patient whose platelet count is changing rapidly, and the patient whose pattern suggests a potentially serious underlying process. Thrombocytopenia: What Should I Ask? When thrombocytopenia is identified, six practical questions can guide the initial bedside assessment.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 113
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#069",
+   "text": "Review: Is the patient bleeding, particularly with mucosal bleeding, petechiae, purpura or significant haemorrhage? How low is the platelet count, and is it falling rapidly or longstanding and stable? Is thrombocytopenia isolated, or are other cell lines or the blood film also abnormal? Could infection, medication or heparin exposure, liver or splenic disease, an immune process, dilution, consumption or marrow disease explain the finding [ 1 , 28 ]? Are there red flags such as haemolysis, schistocytes, renal or neurological dysfunction, abnormal coagulation, suspected HIT or clinical deterioration [ 6 ]? Does the patient require urgent senior or haematology assessment?",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 100
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#070",
+   "text": "Review: In patients with thrombocytopenia who are receiving or being considered for prophylactic or therapeutic anticoagulation, the platelet count should prompt consideration of whether anticoagulation remains appropriate, taking account of bleeding and thrombotic risks and seeking senior or specialist advice in accordance with local guidance. Clinical pearl: The platelet count tells you how many platelets are present; the bleeding phenotype, trend and clinical context tell you how worried you should be. Falling Platelet Count: When Does the Trajectory Matter? A falling platelet count can be clinically more informative than a single low value. A patient whose platelet count has remained mildly reduced for months is different from one whose count has fallen substantially over several days.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#071",
+   "text": "Review: The key questions are how much has the count fallen, over what period, and what has happened to the patient during that time? Even when the platelet count remains within the laboratory reference range, a substantial decline from the patient's previous baseline may warrant attention. A precipitous fall should prompt review of the recent clinical course, medications, procedures and potential causes of platelet consumption or destruction [ 1 , 25 ]. In hospitalised patients, falling platelet counts commonly occur in the context of acute illness, infection or sepsis, major surgery, bleeding, dilution, liver disease or medication exposure. The pattern should therefore be interpreted alongside the overall clinical trajectory rather than attributed automatically to one cause.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#072",
+   "text": "Review: The timing of the fall in relation to new medications, procedures or heparin exposure is particularly important [ 1 , 25 , 28 ]. HIT is a key diagnosis not to miss. It is an immune-mediated, highly pro-thrombotic complication of heparin exposure. The important teaching point for foundation doctors is that HIT should be considered from the pattern and timing of the platelet fall together with thrombosis risk, rather than waiting for an extremely low platelet count. A patient with suspected HIT requires prompt senior assessment and management according to the appropriate diagnostic pathway [ 28 ]. Similarly, thrombocytopenia associated with haemolysis, schistocytes, new renal or neurological dysfunction, or other evidence of microangiopathy should prompt urgent assessment for a TMA.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#073",
+   "text": "Review: Thrombocytopenia occurring with abnormal coagulation and clinical deterioration may also indicate disseminated intravascular coagulation (DIC), particularly in severe infection or other critical illness [ 6 , 27 , 29 ]. Medication history is another essential component of interpreting a falling platelet count. New or recently changed medications should be reviewed, particularly when the fall is otherwise unexplained. Drug-induced thrombocytopenia can occur through several mechanisms, and recognising the temporal relationship between drug exposure and platelet decline may be more informative than the absolute count alone [ 1 ]. The trajectory should also influence how quickly the patient is reassessed.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#074",
+   "text": "Review: A stable mild abnormality without red flags may allow planned repeat testing and outpatient investigation, whereas a rapidly declining platelet count, particularly in a hospitalised or clinically deteriorating patient, warrants more urgent assessment. Patients with moderate-to-severe thrombocytopenia of unclear cause or a continuing decline may require haematology referral. A falling platelet count does not, however, automatically indicate platelet transfusion. The decision depends on the clinical circumstances, including active bleeding, the severity and cause of thrombocytopenia, and whether an invasive procedure is planned. NICE advises that platelet transfusion decisions should take account of the clinical situation, including whether the platelet count is falling and whether there are other causes of abnormal haemostasis [ 12 ]. Thrombocytosis: Reactive or Persistent and Unexplained?",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#075",
+   "text": "Review: Thrombocytosis is generally defined as a platelet count above 450 × 10⁹/L. Many cases encountered in general clinical practice are secondary (reactive) rather than due to a primary bone-marrow disorder. Common reactive settings include acute or chronic infection and inflammation, recent surgery or tissue injury, blood loss, iron deficiency, malignancy and post-splenectomy states [ 1 , 30 , 31 ]. The key question is therefore why the platelet count is high, rather than whether the numerical abnormality itself requires treatment. A raised platelet count shortly after surgery, trauma or fracture, for example, may reflect a reactive response to tissue injury or inflammation. Timing and clinical context are important [ 30 , 31 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 114
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#076",
+   "text": "Review: Iron deficiency is an especially useful cause to consider because it is common, potentially treatable, and may coexist with other abnormalities on the FBC. A raised platelet count accompanied by microcytosis or other features suggestive of iron deficiency should therefore prompt appropriate assessment of iron status rather than being labelled simply as a nonspecific inflammatory response [ 9 , 10 , 30 ]. Medication history should still be reviewed, but anticoagulant use should not ordinarily be regarded as the cause of an isolated high platelet count. Anticoagulants are more relevant to the patient's overall bleeding and thrombotic risk and to management of the underlying condition. The next question is whether the thrombocytosis is persistent and unexplained.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 117
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#077",
+   "text": "Review: A platelet count that remains elevated after an acute illness or without an obvious reactive explanation warrants review of previous FBCs, clinical history and other blood indices. Persistent unexplained thrombocytosis may require further investigation for a clonal myeloid disorder, particularly when accompanied by other abnormal blood counts, splenomegaly, constitutional symptoms or thrombotic or vasomotor symptoms. Current BSH guidance provides a structured approach to unexplained thrombocytosis, including cases without classical JAK2, CALR or MPL mutations [ 31 ]. The absolute platelet count alone does not reliably distinguish reactive thrombocytosis from a clonal disorder. Persistence, pattern and clinical context are more informative than a single elevated result [ 30 , 31 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 111
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#078",
+   "text": "Review: Clinical pearl: A high platelet count is often a marker of what is happening elsewhere in the patient. Before looking for a rare haematological diagnosis, look for the common clinical causes. Thrombocytosis: Reactive or Persistent? When a raised platelet count is identified, the assessment should begin by considering the clinical context. Relevant factors include infection, inflammation, recent surgery, tissue injury, blood loss, iron deficiency, malignancy, or previous splenectomy. The trend should then be assessed to determine whether the thrombocytosis is transient or has persisted on previous FBCs. The overall haematological pattern should also be reviewed, including the Hb, red-cell indices, WBC, and other relevant findings. It is important to determine whether there is a convincing reactive cause for the thrombocytosis.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#079",
+   "text": "Review: If thrombocytosis is persistent or unexplained, particularly when accompanied by other blood-count abnormalities, splenomegaly, constitutional symptoms, or thrombotic or vasomotor symptoms, further investigation and haematology advice should be considered. Platelets and Thrombosis: When Does the Platelet Abnormality Matter? A high platelet count can be associated with thrombosis, but thrombocytosis should not automatically be equated with thrombosis risk. The clinical significance depends on whether the thrombocytosis is reactive or clonal and on the patient's wider thrombotic risk profile [ 30 , 31 ]. Reactive thrombocytosis is commonly seen during infection, inflammation, tissue injury and recovery from blood loss or surgery.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 100
+  },
+  {
+   "chunk_id": "pmc-pmc13678706#080",
+   "text": "Review: In these settings, the elevated platelet count is usually a marker of the underlying inflammatory or physiological process rather than an indication for platelet-directed treatment. Management should therefore focus on the underlying cause and on the patient's overall venous and arterial thromboembolism risk [ 30 ]. The situation is different in clonal thrombocytosis, particularly essential thrombocythaemia and other myeloproliferative neoplasms. Sustained thrombocytosis in these disorders is associated with both thrombotic and haemorrhagic complications, with risk influenced by factors beyond the platelet count itself [ 30 , 31 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "full blood count",
+    "anaemia"
+   ],
+   "entities": [
+    "full blood count"
+   ],
+   "analytes": [
+    "haemoglobin",
+    "mcv",
+    "platelets",
+    "ferritin"
+   ],
+   "page": null,
+   "words": 89
+  }
+ ]
+}

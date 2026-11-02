@@ -1,0 +1,124 @@
+{
+ "doc_id": "hc-nhpid-multi-vitmin-doses",
+ "source": "Health Canada NNHPD",
+ "tier": "regulatory",
+ "title": "Multi-Vitamin/Mineral Supplements — adult dose rows",
+ "title_extra": null,
+ "date": "2026-06-26",
+ "revised": "2026-06-26",
+ "retrieved_at": "2026-10-31",
+ "next_review_due": "2027-10-31",
+ "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=multi_vitmin_suppl&lang=eng",
+ "identifier": {
+  "type": "nhpid",
+  "value": "multi_vitmin_suppl"
+ },
+ "jurisdiction": "ca",
+ "language": "en",
+ "licence": {
+  "name": "Open Government Licence – Canada",
+  "redistributable": true,
+  "evidence_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "note": "Table rows extracted from the NNHPD multi-vitamin/mineral monograph; values unchanged."
+ },
+ "checksum": "sha256:57f3a22329ce48b1a2de09a44eac3baf907d3a019577a15690cf5085bb97c69e",
+ "entities": [
+  "Folate",
+  "Vitamin B12",
+  "Iron",
+  "Magnesium",
+  "Zinc"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "hc-nhpid-multi-vitmin-doses#001",
+   "text": "Table 8. Daily doses for vitamins — Adults 19 years and older: Folate 30–1,000 µg/day.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "folate",
+    "dose",
+    "adult"
+   ],
+   "entities": [
+    "Folate",
+    "multi-vitamin/mineral supplements"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 15
+  },
+  {
+   "chunk_id": "hc-nhpid-multi-vitmin-doses#002",
+   "text": "Table 8. Daily doses for vitamins — Adults 19 years and older: Vitamin B 12 0.14–1,000 µg/day.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "vitamin_b12",
+    "dose",
+    "adult"
+   ],
+   "entities": [
+    "Vitamin B 12",
+    "multi-vitamin/mineral supplements"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 17
+  },
+  {
+   "chunk_id": "hc-nhpid-multi-vitmin-doses#003",
+   "text": "Table 9. Daily doses for minerals — Adults 19 years and older: Iron 1.4–45 mg/day.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "iron",
+    "dose",
+    "adult"
+   ],
+   "entities": [
+    "Iron",
+    "multi-vitamin/mineral supplements"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 15
+  },
+  {
+   "chunk_id": "hc-nhpid-multi-vitmin-doses#004",
+   "text": "Table 9. Daily doses for minerals — Adults 19 years and older: Magnesium 20–500 mg/day.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "magnesium",
+    "dose",
+    "adult"
+   ],
+   "entities": [
+    "Magnesium",
+    "multi-vitamin/mineral supplements"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 15
+  },
+  {
+   "chunk_id": "hc-nhpid-multi-vitmin-doses#005",
+   "text": "Table 9. Daily doses for minerals — Adults 19 years and older: Zinc (non-picolinate) 0.7–50 mg/day.",
+   "section": "dosage",
+   "assertion_type": "dose",
+   "topics": [
+    "zinc",
+    "dose",
+    "adult"
+   ],
+   "entities": [
+    "Zinc (non-picolinate)",
+    "multi-vitamin/mineral supplements"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  }
+ ]
+}

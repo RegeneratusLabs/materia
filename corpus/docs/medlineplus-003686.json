@@ -1,0 +1,122 @@
+{
+ "doc_id": "medlineplus-003686",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Folic acid - test",
+ "title_extra": null,
+ "date": "2025-02-03",
+ "revised": "2025-02-03",
+ "retrieved_at": "2026-10-31",
+ "next_review_due": "2027-04-30",
+ "url": "https://medlineplus.gov/ency/article/003686.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/003686.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:d0d3f1c9cbee1a61f7e01924697aab9e15b4eee4658de95eb1d874a64f6577c0",
+ "entities": [
+  "Folic acid - test"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-003686#001",
+   "text": "How the Test is Performed: A\nblood sample\nis needed.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "folate"
+   ],
+   "entities": [
+    "Folic acid - test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 10
+  },
+  {
+   "chunk_id": "medlineplus-003686#002",
+   "text": "How to Prepare for the Test: You should not eat or drink for 6 hours before the test. Your health care provider may tell you to stop taking any medicines that may interfere with test results, including folic acid supplements.\nMedicines that can decrease folic acid measurements include:\nAlcohol\nAminosalicylic acid\nBirth control pills\nEstrogens\nTetracyclines\nAmpicillin\nChloramphenicol\nErythromycin\nMethotrexate\nPenicillin\nAminopterin\nPhenobarbital\nPhenytoin\nMedicines to treat malaria",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "folate",
+    "sedation"
+   ],
+   "entities": [
+    "Folic acid - test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 68
+  },
+  {
+   "chunk_id": "medlineplus-003686#003",
+   "text": "How the Test will Feel: You may feel slight pain or a little sting when the needle is inserted. There may be some throbbing at the site.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "folate"
+   ],
+   "entities": [
+    "Folic acid - test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 27
+  },
+  {
+   "chunk_id": "medlineplus-003686#004",
+   "text": "Why the Test is Performed: This test is done to check for\nfolic acid deficiency\n.\nFolic acid helps form red blood cells and produce DNA that stores genetic codes. Taking the right amount of folic acid before and during pregnancy helps prevent neural tube defects, such as spina bifida.\nWomen who are pregnant or planning to become pregnant should take at least 600 micrograms (mcg) of folic acid every day. It may be provided by prenatal vitamins and certain foods, such as enriched bread, flour, and cereal. Some women may need to take more if they have a history of neural tube defects in earlier pregnancies. Ask your provider how much you should take.",
+   "section": "evidence",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "folate",
+    "pregnancy"
+   ],
+   "entities": [
+    "Folic acid - test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "medlineplus-003686#005",
+   "text": "Normal Results: The normal range is 2.7 to 17.0 nanograms per milliliter (ng/mL) or 6.12 to 38.52 nanomoles per liter (nmol/L).\nNormal value ranges may vary slightly among different labs. Talk to your provider about the meaning of your test results.\nThe examples above show the common measurements for results for these tests. Some labs use different measurements or may test different specimens.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "folate"
+   ],
+   "entities": [
+    "Folic acid - test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "medlineplus-003686#006",
+   "text": "What Abnormal Results Mean: Lower-than-normal folic acid levels may indicate:\nPoor diet\nMalabsorption\nsyndrome (for example,\nceliac disease\n)\nMalnutrition\nThe test may also be done in cases of:\nAnemia\nthat may be due to folate deficiency\nMegaloblastic anemia -- a form of anemia which can be due to low folic acid or vitamin B12 levels",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "folate"
+   ],
+   "entities": [
+    "Folic acid - test"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 56
+  }
+ ]
+}

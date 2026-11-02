@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "materia"
-version = "0.1.0"
+version = "0.2.0"
 description = "Cited evidence engine for naturopathic and holistic practitioners"
 requires-python = ">=3.12"
 dependencies = [
@@ -22,6 +22,18 @@ dev = ["pytest>=8"]
 
 [tool.setuptools.packages.find]
 include = ["materia*"]
+
+[tool.setuptools.package-data]
+"materia" = ["rules/*.yaml"]
+"materia.webapp" = [
+  "static/*.html",
+  "static/*.js",
+  "static/assets/*.css",
+  "static/assets/*.json",
+  "static/assets/*.png",
+  "static/assets/fonts/*.css",
+  "static/assets/fonts/type/*.woff2",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

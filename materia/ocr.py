@@ -6,33 +6,39 @@ and reference ranges stay in their own cells instead of collapsing into one numb
 """
 from __future__ import annotations
 
+import html
 import re
 from pathlib import Path
 
 import pymupdf
 
 from . import llm
+from .extract import normalise_unit
 
 # Capture the whole tag: re.split() includes captured groups as separators, so this
 # keeps "<fcel>" (not "fcel"), which fullmatch() can then recognise.
 OTSL_TOKEN = re.compile(r"(<(?:fcel|lcel|ecel|ucel|xcel|nl)>)")
 
 
-def render_pdf(path: str | Path, out_dir: str | Path, *, dpi: int = 200) -> list[Path]:
+def render_page(path: str | Path, page_number: int, out_dir: str | Path, *, dpi: int = 200) -> Path:
+    """Render one page. A 16-page report only needs the pages that carry a table."""
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     doc = pymupdf.open(str(path))
-    pages: list[Path] = []
-    for i, page in enumerate(doc, start=1):
-        p = out / f"{Path(path).stem}-p{i}.png"
-        page.get_pixmap(dpi=dpi).save(p)
-        pages.append(p)
-    return pages
+    target = out / f"{Path(path).stem}-p{page_number}.png"
+    doc[page_number - 1].get_pixmap(dpi=dpi).save(target)
+    return target
 
 
 def pdf_text(path: str | Path) -> str:
     doc = pymupdf.open(str(path))
     return "\n".join(page.get_text() for page in doc)
+
+
+def pdf_pages(path: str | Path) -> list[str]:
+    """The text layer, page by page. A digital report's tables are already here."""
+    doc = pymupdf.open(str(path))
+    return [page.get_text() for page in doc]
 
 
 def ocr_page(image: str | Path, *, mode: str = "table", max_tokens: int = 3000) -> dict:
@@ -70,7 +76,7 @@ def parse_otsl(text: str) -> list[list[str]]:
                 row.append("")
                 pending_cell = True
             continue
-        text_part = part.strip()
+        text_part = html.unescape(part.strip())
         if pending_cell and row:
             row[-1] = (row[-1] + " " + text_part).strip() if row[-1] else text_part
             pending_cell = False
@@ -87,29 +93,109 @@ UNIT_RE = re.compile(
     re.I,
 )
 RANGE_RE = re.compile(r"^(\d+(?:\.\d+)?)\s*[-–]\s*(\d+(?:\.\d+)?)$")
-NUMBER_PREFIX = re.compile(r"^(\d{1,3})\.\s*(.+)$")
+# A numbered row ("1. Lysine") needs whitespace after the dot. Without it, a decimal
+# result such as "4.2" matched and the *value* was read as the analyte's name, which
+# is how a whole report came back as rows called "2", "5", "6".
+NUMBER_PREFIX = re.compile(r"^(\d{1,2})\.\s+(\S.*)$")
+
+CELL_RESULT = re.compile(r"^(\d{1,5}(?:\.\d+)?)\s*([HL])?$")
+CELL_LIMIT = re.compile(r"^([<>])\s*(\d{1,5}(?:\.\d+)?)\s*([HL])?$")
+CELL_RANGE_LIMIT = re.compile(r"^([<>]=?)\s*(\d{1,5}(?:\.\d+)?)$")
+
+_HEADER_WORDS = {
+    "test name", "result", "reference", "interval", "units", "unit", "range",
+    "reference interval", "comments",
+}
 
 
 def _unit_from_rows(rows: list[list[str]]) -> str | None:
+    """Page-level unit hint, for reports that print the unit once in a banner cell."""
     for row in rows[:40]:
         for cell in row:
             if "reference" in cell.lower() or "result" in cell.lower():
                 m = UNIT_RE.search(cell)
                 if m:
-                    return m.group(1)
+                    return normalise_unit(m.group(1))
     for row in rows[:40]:
         for cell in row:
             m = UNIT_RE.search(cell)
             if m:
-                return m.group(1)
+                return normalise_unit(m.group(1))
     return None
 
 
-def extract_lab_rows(rows: list[list[str]], *, unit_hint: str | None = None) -> list[dict]:
-    """Deterministic: numbered analyte → next cell is the result, last range-like cell is the interval.
+def _row_unit(cells: list[str]) -> str | None:
+    for cell in cells:
+        if UNIT_RE.fullmatch(cell.strip()):
+            return normalise_unit(cell.strip())
+    return None
 
-    Bar labels (the quintile min/max) sit in their own cells, which is why this works
-    only on OTSL rather than on flattened text.
+
+def _unnumbered_row(cells: list[str]) -> dict | None:
+    """A row from a report that does not number its analytes.
+
+    Sonic/NPAAC reports print ``Sodium | 140 | 135 - 145 | mmol/L``: the name is the
+    first cell and the fields follow in printed order. Nothing is inferred — a missing
+    result stays missing.
+    """
+    name = cells[0].strip().strip("*").strip() if cells else ""
+    if not name or len(name) > 60 or not re.search(r"[A-Za-z]", name):
+        return None
+    if name.lower() in _HEADER_WORDS or UNIT_RE.fullmatch(name):
+        return None
+
+    value = value_text = lab_flag = None
+    ref_low = ref_high = ref_text = None
+    for cell in cells[1:]:
+        text = cell.strip()
+        if not text:
+            continue
+        if value is None and value_text is None:
+            limit = CELL_LIMIT.fullmatch(text)
+            plain = CELL_RESULT.fullmatch(text)
+            if limit:
+                value_text, lab_flag = text, limit.group(3)
+                continue
+            if plain:
+                value, lab_flag = float(plain.group(1)), plain.group(2)
+                continue
+        if ref_text is None:
+            span = RANGE_RE.fullmatch(text)
+            one_sided = CELL_RANGE_LIMIT.fullmatch(text)
+            if span:
+                ref_low, ref_high = float(span.group(1)), float(span.group(2))
+                ref_text = text
+                continue
+            if one_sided:
+                op, number = one_sided.group(1), float(one_sided.group(2))
+                if op.startswith("<"):
+                    ref_high = number
+                else:
+                    ref_low = number
+                ref_text = text
+                continue
+    if value is None and value_text is None:
+        return None
+    return {
+        "analyte": name,
+        "value": value,
+        "value_text": value_text,
+        "unit": _row_unit(cells) or "",
+        "ref_low": ref_low,
+        "ref_high": ref_high,
+        "ref_text": ref_text,
+        "lab_flag": lab_flag,
+        "raw_cells": cells,
+    }
+
+
+def extract_lab_rows(rows: list[list[str]], *, unit_hint: str | None = None) -> list[dict]:
+    """Deterministic: one record per printed analyte row.
+
+    Two layouts are handled. Numbered rows ("1. Lysine | 124 | ...") carry the unit in a
+    banner row, so ``unit_hint`` fills it in. Unnumbered rows carry their own unit and
+    interval. Bar labels (the quintile min/max) sit in their own cells, which is why this
+    works only on OTSL rather than on flattened text.
     """
     unit = _unit_from_rows(rows) or unit_hint
     records: list[dict] = []
@@ -117,16 +203,22 @@ def extract_lab_rows(rows: list[list[str]], *, unit_hint: str | None = None) -> 
         cells = [c.strip() for c in row]
         idx = next((i for i, c in enumerate(cells) if NUMBER_PREFIX.match(c)), None)
         if idx is None:
+            candidate = _unnumbered_row(cells)
+            if candidate:
+                records.append(candidate)
             continue
         m = NUMBER_PREFIX.match(cells[idx])
         analyte = m.group(2).strip().rstrip("*").strip()
-        if not analyte or len(analyte) > 60:
+        if not analyte or len(analyte) > 60 or not re.search(r"[A-Za-z]", analyte):
             continue
-        # value: first numeric cell after the analyte
+        # value: first numeric cell after the analyte, keeping the lab's own marker
         value = None
+        lab_flag = None
         for c in cells[idx + 1 :]:
-            if re.fullmatch(r"-?\d+(?:\.\d+)?", c.replace(",", "")):
-                value = float(c.replace(",", ""))
+            plain = CELL_RESULT.fullmatch(c.replace(",", ""))
+            if plain:
+                value = float(plain.group(1))
+                lab_flag = plain.group(2)
                 break
         ref_text = next((c for c in reversed(cells) if RANGE_RE.match(c.replace(",", ""))), None)
         ref_low = ref_high = None
@@ -144,6 +236,7 @@ def extract_lab_rows(rows: list[list[str]], *, unit_hint: str | None = None) -> 
                 "ref_low": ref_low,
                 "ref_high": ref_high,
                 "ref_text": ref_text,
+                "lab_flag": lab_flag,
                 "raw_cells": cells,
             }
         )

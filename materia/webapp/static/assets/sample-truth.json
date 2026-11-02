@@ -1,0 +1,24 @@
+{
+  "doc": "nutripath-aminoacids.pdf",
+  "page": 2,
+  "source_url": "https://www.nutripath.com.au/wp-content/uploads/2015/07/5043-Amino-Acids-11-BloodSpot.pdf",
+  "source_note": "Genova Diagnostics '0013 Bloodspot Amino Acids 11 Profile' sample report, hosted publicly by NutriPath (AU). Real layout, SI units, watermark 'Sample Report'. Used for local Gate 0 only; not redistributed.",
+  "transcribed_by": "agent, reading the 200 dpi render of page 2",
+  "collected_at": "2012-01-15",
+  "reported_at": "2012-01-16",
+  "unit": "µmol/L",
+  "rows": [
+    {"analyte": "Lysine", "value": 124, "ref_low": 63, "ref_high": 220},
+    {"analyte": "Methionine", "value": 10, "ref_low": 10, "ref_high": 33},
+    {"analyte": "Tryptophan", "value": 24, "ref_low": 24, "ref_high": 52},
+    {"analyte": "Isoleucine", "value": 51, "ref_low": 28, "ref_high": 96},
+    {"analyte": "Leucine", "value": 126, "ref_low": 59, "ref_high": 162},
+    {"analyte": "Valine", "value": 175, "ref_low": 105, "ref_high": 266},
+    {"analyte": "Phenylalanine", "value": 40, "ref_low": 37, "ref_high": 86},
+    {"analyte": "Histidine", "value": 67, "ref_low": 22, "ref_high": 99},
+    {"analyte": "Threonine", "value": 101, "ref_low": 54, "ref_high": 169},
+    {"analyte": "Arginine", "value": 66, "ref_low": 17, "ref_high": 91},
+    {"analyte": "Taurine", "value": 165, "ref_low": 124, "ref_high": 282},
+    {"analyte": "Tryptophan/LNAA", "value": 0.052, "ref_low": 0.05, "ref_high": 0.105, "unit": "ratio"}
+  ]
+}

@@ -1,0 +1,113 @@
+{
+ "doc_id": "medlineplus-000354",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Folate deficiency",
+ "title_extra": null,
+ "date": "2025-07-09",
+ "revised": "2025-07-09",
+ "retrieved_at": "2026-10-31",
+ "next_review_due": "2027-04-30",
+ "url": "https://medlineplus.gov/ency/article/000354.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/000354.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:dd932f03ddc63bb84b9d8dd168cd3a6bca91101f08952eff397274d38acfbb8b",
+ "entities": [
+  "Folate deficiency"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-000354#001",
+   "text": "Causes: Folic acid (vitamin B9) works with vitamin B12 and vitamin C to help the body break down, use, and make new proteins. The vitamin helps form red and white blood cells. It also helps produce DNA, the building block of the human body, which carries genetic information.\nFolic acid is a water-soluble type of vitamin B. This means it is not stored in the fat tissues of the body. Leftover amounts of the vitamin leave the body through the urine.\nBecause folate is not stored in the body in large amounts, your blood levels will get low after only a few weeks of eating a diet low in folate. Folate is found primarily in legumes, leafy greens, eggs, beets, bananas, citrus fruits, and liver.\nContributors to folate deficiency include:\nDiseases in which folic acid is not well absorbed in the digestive system (such as\nceliac disease\nor\nCrohn disease\n)\nDrinking too much alcohol\nEating overcooked fruits and vegetables. Folic acid can be easily destroyed by heat.\nHemolytic anemia\nwhich results in the need for more folic acid to make red blood cells\nCertain medicines (such as phenytoin, sulfasalazine, or trimethoprim-sulfamethoxazole)\nEating a diet that does not include enough fruits and vegetables\nKidney dialysis",
+   "section": "differential",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "folate",
+    "liver",
+    "sedation",
+    "renal"
+   ],
+   "entities": [
+    "Folate deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 205
+  },
+  {
+   "chunk_id": "medlineplus-000354#002",
+   "text": "Symptoms: Folic acid deficiency may cause:\nFatigue, irritability, or diarrhea\nPoor growth\nSmooth and tender tongue",
+   "section": "differential",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "folate"
+   ],
+   "entities": [
+    "Folate deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "medlineplus-000354#003",
+   "text": "Exams and Tests: Folate deficiency can be diagnosed with a\nblood test\n. Pregnant women commonly have this blood test at prenatal checkups.",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "folate",
+    "pregnancy"
+   ],
+   "entities": [
+    "Folate deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 23
+  },
+  {
+   "chunk_id": "medlineplus-000354#004",
+   "text": "Possible Complications: Complications include:\nAnemia\n(low red blood cell count)\nLow levels of white blood cells and platelets (in severe cases)\nIn\nfolate-deficiency anemia\n, the red blood cells are abnormally large (megaloblastic).\nPregnant women need to get enough folic acid. The vitamin is important to the growth of the fetus's spinal cord and brain. Folic acid deficiency can cause severe birth defects known as\nneural tube defects\n. The Recommended Dietary Allowance (RDA) for folate during pregnancy is 600 micrograms (µg)/day.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "folate",
+    "pregnancy",
+    "anticoagulant"
+   ],
+   "entities": [
+    "Folate deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "medlineplus-000354#005",
+   "text": "Prevention: The best way to get vitamins your body needs is to eat a\nbalanced diet\n. Most people in the United States eat enough folic acid because it is plentiful in the food supply.\nFolate occurs naturally in the following foods:\nBeans and legumes\nCitrus fruits and juices\nDark green leafy vegetables such as spinach, asparagus, and broccoli\nLiver\nMushrooms\nPoultry, pork, and shellfish\nWheat bran and other whole grains\nThe recommended daily amount of folic acid for adults is 400 µg of folate daily. Women who may become pregnant should take\nfolic acid supplements\nto ensure that they get enough each day.\nSpecific recommendations\ndepend on a person's age, sex, and other factors (such as pregnancy and lactation). Many foods, such as fortified breakfast cereals, now have extra folic acid added to help prevent birth defects.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "folate",
+    "pregnancy",
+    "liver"
+   ],
+   "entities": [
+    "Folate deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 138
+  }
+ ]
+}

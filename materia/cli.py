@@ -6,6 +6,8 @@
     materia ingest samples/pages/nutripath-p2.png --truth samples/ground_truth/nutripath-p2.json
     materia ask "Is St John's wort safe with warfarin?"
     materia symptom "68 year old on warfarin, can I take ginkgo for memory?"
+    materia recommend case.json
+    materia chat case.json "Why iron?"
 
 Everything it prints is traceable: no answer without a chunk id, no number without its
 citation, and a review flag wherever a deterministic check failed.
@@ -174,6 +176,42 @@ def cmd_symptom(args: argparse.Namespace) -> int:
     return 0 if not issues else 1
 
 
+def cmd_recommend(args: argparse.Namespace) -> int:
+    from .recommend import load_case, open_corpus, recommend, render_text
+
+    rows, intake = load_case(args.input)
+    assessment = recommend(rows, intake=intake, conn=open_corpus(args.index))
+    if args.json:
+        print(json.dumps(assessment.as_dict(), indent=2, ensure_ascii=False))
+    else:
+        print(render_text(assessment))
+    return 0
+
+
+def cmd_chat(args: argparse.Namespace) -> int:
+    from .chat import answer
+    from .recommend import load_case, open_corpus, recommend
+
+    rows, intake = load_case(args.input)
+    assessment = recommend(rows, intake=intake, conn=open_corpus(args.index)).as_dict()
+    if not args.question:
+        args.question = input("Ask materia: ").strip()
+    result = answer(args.question, assessment, use_model=not args.no_model)
+    if args.json:
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+    else:
+        print(result["answer"])
+        if result.get("citations"):
+            print("\nSources: " + ", ".join(result["citations"]))
+    return 0
+
+
+def cmd_serve(args: argparse.Namespace) -> int:
+    from .webapp.server import serve
+    serve(args.host, args.port, open_browser=args.open, start_ocr=args.start_ocr)
+    return 0
+
+
 def cmd_labs(args: argparse.Namespace) -> int:
     values = json.loads(Path(args.values).read_text())
     out = {}
@@ -198,6 +236,14 @@ def main(argv: list[str] | None = None) -> int:
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     sub.add_parser("status").set_defaults(fn=cmd_status)
+
+    p = sub.add_parser("serve", help="run the local web app")
+    p.add_argument("--host", default="127.0.0.1")
+    p.add_argument("--port", type=int, default=8765)
+    p.add_argument("--open", action="store_true", help="open the browser after starting")
+    p.add_argument("--start-ocr", action="store_true",
+                   help="start the OCR model before serving (stops any reasoning server)")
+    p.set_defaults(fn=cmd_serve)
 
     p = sub.add_parser("corpus")
     p.add_argument("--index", default=str(config.CORPUS_DIR / "index.sqlite"))
@@ -229,6 +275,20 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("labs")
     p.add_argument("values", help="JSON file of lab inputs")
     p.set_defaults(fn=cmd_labs)
+
+    p = sub.add_parser("chat", help="ask a grounded question about an assessment")
+    p.add_argument("input", help="JSON file with rows and optional intake")
+    p.add_argument("question", nargs="?", default="")
+    p.add_argument("--index", default=str(config.CORPUS_DIR / "index.sqlite"))
+    p.add_argument("--no-model", action="store_true", help="deterministic answer only")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(fn=cmd_chat)
+
+    p = sub.add_parser("recommend", help="blood test rows -> cited supplement/herb options")
+    p.add_argument("input", help="JSON file with rows and optional intake")
+    p.add_argument("--index", default=str(config.CORPUS_DIR / "index.sqlite"))
+    p.add_argument("--json", action="store_true", help="machine-readable assessment")
+    p.set_defaults(fn=cmd_recommend)
 
     args = ap.parse_args(argv)
     return args.fn(args)

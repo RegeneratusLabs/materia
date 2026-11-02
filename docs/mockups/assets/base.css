@@ -1,0 +1,197 @@
+/* Shared primitives for the materia UI mockups.
+   Visual systems live in each concept page; only reset, a11y and the mockup
+   chrome are shared. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, p, figure, blockquote, dl, dd { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+img, svg { display: block; max-width: 100%; }
+table { border-collapse: collapse; width: 100%; }
+[hidden] { display: none !important; }
+
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+::selection { background: #df2414; color: #f5efdf; }
+
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 1000;
+  top: 10px;
+  left: 10px;
+  padding: 10px 14px;
+  background: #181818;
+  color: #f5efdf;
+  font: 500 12px/1 "IBM Plex Mono", monospace;
+  letter-spacing: .06em;
+  text-decoration: none;
+  transform: translateY(-160%);
+  transition: transform .15s ease;
+}
+.skip-link:focus { transform: translateY(0); }
+
+.mono {
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-ligatures: none;
+}
+
+.mockup-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font: 500 10px/1 "IBM Plex Mono", monospace;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.mockup-badge::before {
+  content: "";
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: .85;
+}
+
+dialog {
+  border: 0;
+  padding: 0;
+  max-width: min(720px, calc(100vw - 40px));
+  max-height: min(86vh, 860px);
+  background: transparent;
+  color: inherit;
+}
+dialog::backdrop {
+  background: rgba(8, 10, 9, .62);
+  backdrop-filter: blur(3px);
+}
+
+/* Shared source-drawer layout. Pages colour it with their own tokens. */
+.drawer {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 28px 30px 30px;
+  border: 1px solid var(--drawer-border, #d8ccc0);
+  background: var(--drawer-bg, #fbf6e9);
+  color: var(--drawer-ink, #181818);
+  max-height: 86vh;
+  overflow: auto;
+}
+.drawer-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.drawer-kicker {
+  font: 500 10px/1.4 "IBM Plex Mono", monospace;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  opacity: .62;
+}
+.drawer h2 {
+  margin-top: 6px;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.08;
+  letter-spacing: -.025em;
+}
+.drawer-close {
+  border: 1px solid currentColor;
+  background: transparent;
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  font: 400 17px/1 "IBM Plex Mono", monospace;
+  flex: 0 0 auto;
+}
+.drawer-quote {
+  font-size: 16px;
+  line-height: 1.62;
+  border-left: 2px solid currentColor;
+  padding-left: 18px;
+  opacity: .9;
+}
+.drawer-meta {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 7px 14px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.drawer-meta dt {
+  font: 500 10px/1.6 "IBM Plex Mono", monospace;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  opacity: .55;
+}
+.drawer-meta dd { margin: 0; overflow-wrap: anywhere; }
+.drawer-link {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border: 1px solid currentColor;
+  font: 500 11px/1 "IBM Plex Mono", monospace;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.drawer-link:hover { background: currentColor; }
+.drawer-link:hover span { color: var(--drawer-bg, #fbf6e9); }
+
+.tier {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font: 500 9.5px/1 "IBM Plex Mono", monospace;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.tier::before {
+  content: "";
+  width: 7px; height: 7px;
+  border: 1px solid currentColor;
+}
+.tier--regulatory::before { background: currentColor; }
+.tier--primary::before { background: linear-gradient(90deg, currentColor 50%, transparent 50%); }
+.tier--compendium::before { background: transparent; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  .mockup-badge, .skip-link { display: none; }
+}

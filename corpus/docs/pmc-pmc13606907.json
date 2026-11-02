@@ -1,0 +1,1870 @@
+{
+ "doc_id": "pmc-pmc13606907",
+ "source": "Europe PMC (CC-BY full text)",
+ "tier": "primary",
+ "title": "Coptidis Rhizoma for Obesity, Diabetes, and Dyslipidemia: An Integrated Meta-Analysis and In Silico Study",
+ "title_extra": null,
+ "date": "2026-01-01",
+ "revised": "2026-01-01",
+ "retrieved_at": "2026-10-31",
+ "next_review_due": "2036-10-31",
+ "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13606907/",
+ "identifier": {
+  "type": "doi",
+  "value": "10.3390/ijms27188109"
+ },
+ "jurisdiction": "international",
+ "language": "en",
+ "licence": {
+  "name": "CC BY 4.0 (Europe PMC open-access full text)",
+  "redistributable": true,
+  "evidence_url": "https://europepmc.org/RestfulWebService",
+  "note": "Only articles whose JATS licence states CC BY are ingested."
+ },
+ "checksum": "sha256:21d7451134006386d19bb47697d1c2ff6e21503b7fe4b7de7207b9dfdb1e0186",
+ "entities": [
+  "berberine"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "pmc-pmc13606907#001",
+   "text": "Obesity, diabetes, and dyslipidemia form an interconnected metabolic disease cluster driven by insulin resistance and chronic inflammation. This study evaluated the clinical efficacy and multi-target mechanisms of Coptidis Rhizoma for these metabolic disorders through an integrated systematic review, meta-analysis of randomized controlled trials (RCTs), network pharmacology, and molecular docking. Meta-analysis of 19 RCTs (n = 1718) demonstrated that Coptidis-containing formulations, primarily as adjunctive therapy, significantly improved primary clinical endpoints across all three metabolic conditions: body mass index (BMI: SMD = −0.72, 95% CI [−1.00, −0.44], p < 0.00001), glycated hemoglobin (HbA1c: SMD = −0.77, 95% CI [−1.07, −0.47], p < 0.00001), and low-density lipoprotein cholesterol (LDL-C: SMD = −1.10, 95% CI [−1.57, −0.62], p < 0.00001).",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#002",
+   "text": "Network analysis revealed shared targets enriched in lipid metabolism, inflammatory signaling, and PI3K-Akt/MAPK cascades. Molecular docking demonstrated favorable structural compatibility and predicted docking scores (ranging from −7.1 to −9.5 kcal/mol) of berberine toward key hub proteins, including PIK3CA, JAK2, MAOA, and PARP1. Consequently, Coptidis Rhizoma provides tangible clinical benefits across interconnected metabolic outcomes via the multi-target regulation of inflammatory and insulin signaling pathways. Clinically, Coptidis-containing formulations show promise as a complementary adjunct to conventional metabolic therapies, though future large-scale, standardized RCTs remain necessary to confirm long-term safety and optimize dosing regimens. Keywords: Coptidis chinensis , berberine, metabolic syndrome, type 2 diabetes mellitus, dyslipidemia, systematic review, network pharmacology, molecular docking",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#003",
+   "text": "1. Introduction: Obesity, diabetes, and dyslipidemia form an interconnected cluster of metabolic disorders that together impose a substantial burden on global healthcare systems [ 1 ]. These conditions frequently co-occur, with obesity-related complications often clustering together rather than presenting independently [ 2 , 3 ] and individuals with obesity-associated diabetes commonly show a higher burden of dyslipidemia as well, as evidenced by the fact that combined control of glycemic, blood pressure, and lipid targets is achieved in only a minority of these patients [ 4 ]. Rather than progressing as isolated clinical entities, these metabolic abnormalities interact through overlapping pathophysiological processes.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 101
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#004",
+   "text": "1. Introduction: Visceral adiposity contributes to chronic, low-grade systemic inflammation, which in turn can impair peripheral insulin signaling and disrupt systemic lipid homeostasis [ 5 ]. The resulting insulin resistance is associated with hepatic overproduction of atherogenic lipoproteins and triglycerides, along with progressive pancreatic beta-cell dysfunction and the development of type 2 diabetes [ 6 ]. Given this metabolic interplay, therapeutic strategies capable of addressing multiple metabolic abnormalities at once may hold particular value in managing these interconnected conditions [ 7 ]. Although conventional pharmacotherapies, including GLP-1 receptor agonists (GLP-1RAs), statins, and metformin, remain central to the management of obesity, diabetes, and dyslipidemia, their use is not without drawbacks.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#005",
+   "text": "1. Introduction: Treatment-specific adverse effects, tolerability concerns, and, in some settings, substantial long-term costs can all limit their use [ 8 , 9 ]. Gastrointestinal adverse effects are common with GLP-1RAs. Statin-associated muscle symptoms and metformin-related gastrointestinal intolerance have also been reported to affect treatment persistence in some patients [ 10 , 11 , 12 ]. As combination and long-term pharmacotherapy become more common, therapeutic and adjunctive strategies capable of concurrently addressing multiple metabolic abnormalities without compounding this tolerability burden have attracted increasing clinical interest. Coptidis Rhizoma (Huang Lian), the dried rhizome of Coptis chinensis Franch., has long been used in East Asian medicine, particularly for conditions described within the traditional concepts of “heat” and “dampness” [ 13 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 119
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#006",
+   "text": "1. Introduction: Experimental studies report metabolic and anti-inflammatory activities of Coptidis Rhizoma and its constituents, including effects on glucose metabolism, insulin sensitivity, lipid metabolism, and inflammatory signaling [ 14 , 15 , 16 ]. It is used both as a single herb and as a component of multi-herb formulations in traditional medical practice [ 17 ], and Coptidis-containing formulations have been clinically investigated for metabolic disorders. Despite these promising experimental findings and widespread clinical use, a rigorous, high-quality systematic evaluation synthesizing the clinical efficacy of Coptidis-containing formulations across the triad of obesity, diabetes, and dyslipidemia is still lacking.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#007",
+   "text": "1. Introduction: To address the intrinsic complexity of herbal medicines, integrating clinical evidence synthesis with network-based computational analysis has increasingly emerged as a robust methodological framework [ 18 , 19 , 20 ]. While systematic reviews and meta-analyses establish high-level clinical evidence regarding the overall therapeutic efficacy and safety of whole herbs or complex multi-herb formulations, they are inherently limited in elucidating the fine-grained, multi-target molecular pathways involved. Conversely, network pharmacology and molecular docking provide powerful systems-biology tools to map multi-component and multi-target interactions at the molecular level, generating mechanistic hypotheses that contextualize and substantiate observed clinical outcomes.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 98
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#008",
+   "text": "1. Introduction: Because modern pharmacological investigations of Coptidis Rhizoma have predominantly characterized berberine as its principal bioavailable alkaloid accounting for its primary metabolic actions [ 17 ], berberine serves as an optimal, well-defined representative constituent and molecular entry point for cross-disease network modeling. Furthermore, because herbal medicines in real-world clinical practice are frequently administered as adjunctive regimens alongside standard pharmacotherapies, evaluating both pragmatic add-on clinical trials and underlying molecular pathways provides a translational bridge from bedside efficacy to bench-level mechanism. By linking clinical trial synthesis with network pharmacology, this integrated strategy bridges the gap between macro-level clinical phenotypes and micro-level molecular mechanisms across the triad of obesity, diabetes, and dyslipidemia.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#009",
+   "text": "1. Introduction: Accordingly, this study aimed to provide a comprehensive, multi-dimensional evaluation of Coptidis-containing formulations across the interconnected cluster of obesity, type 2 diabetes mellitus, and dyslipidemia. Specifically, the first objective was to systematically evaluate the clinical efficacy and safety of Coptidis-containing formulations on anthropometric, glycemic, and lipid parameters through a systematic review and meta-analysis of randomized controlled trials (RCTs). The second objective was to elucidate the underlying multi-target molecular mechanisms of its representative alkaloid, berberine, by identifying common, interconnected disease targets and key biological pathways through network pharmacology and molecular docking analyses.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 93
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#010",
+   "text": "1. Introduction: By synthesizing macroscopic clinical evidence with microscopic systems-level pharmacology, this study establishes both a rigorous evidence base and a plausible mechanistic framework for the therapeutic application of Coptidis Rhizoma in metabolic syndrome.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 34
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#011",
+   "text": "2.1. General Description of the Included Studies: A total of 156 records were identified (China National Knowledge Infrastructure [CNKI], n = 73; PubMed, n = 83), of which 151 remained after removal of duplicates (n = 5). Following title and abstract screening, 120 studies were excluded, primarily due to non-clinical design (animal studies, n = 65), non-original formats (books, n = 17; reviews, n = 20), or ineligible methodologies (in vivo studies, n = 5; metabolomics, n = 3; network pharmacology, n = 5; case reports, n = 3; retrospective study, n = 1; pilot study, n = 1).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#012",
+   "text": "2.1. General Description of the Included Studies: Full-text reports were sought for the remaining 31 records, and all 31 reports were successfully retrieved without any loss due to inaccessible or missing full texts (n = 0). These 31 studies underwent full-text assessment, of which 12 were excluded because of combined acupuncture interventions (n = 1), inclusion of Coptidis Rhizoma in the control group (n = 1), non-oral administration (n = 2), or absence of a defined obesity diagnosis (n = 8). Nineteen RCTs met the inclusion criteria and were included in the final analysis; all were conducted in China. Study selection is summarized in Figure 1 , and detailed characteristics are presented in Table 1 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#013",
+   "text": "2.1. General Description of the Included Studies: The included trials evaluated outcomes across three domains: obesity-related indices, glycemic parameters, and lipid profiles.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 22
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#014",
+   "text": "2.2. Results of the Risk of Bias Assessment: Methodological quality assessment of the included randomized controlled trials revealed that the principal methodological concerns across studies were the lack of blinding of participants and personnel (performance bias) and incomplete reporting of allocation concealment. The detailed study-level risk of bias judgements are illustrated in Figure 2 . The certainty of evidence evaluated using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach ranged from moderate to very low across all synthesized endpoints ( Table A2 ), with risk of bias and substantial statistical heterogeneity serving as the primary downgrading factors.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 99
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#015",
+   "text": "2.2. Results of the Risk of Bias Assessment: Specifically, the certainty of evidence was graded as low for body mass index (BMI), body weight (BW), FPG (fasting plasma glucose), 2hPG (2 h postprandial glucose), glycated hemoglobin (HbA1c), total cholesterol (TC), triglycerides (TG), low-density lipoprotein cholesterol (LDL-C), and high-density lipoprotein cholesterol (HDL-C), and very low for waist circumference (WC). In contrast, homeostatic model assessment of insulin resistance (HOMA-IR) was graded as moderate certainty owing to consistent effect estimates across trials.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 79
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#016",
+   "text": "2.3.1. Efficacy on Obesity-Related Parameters: BMI was evaluated as the primary clinical outcome to assess the anti-obesity efficacy of Coptidis-containing formulations. A comprehensive pooled analysis of 16 RCTs demonstrated that Coptidis-based interventions led to a statistically significant reduction in BMI compared to the control groups, yielding a pooled standardized mean difference (SMD) of −0.72 (95% CI: [−1.00, −0.44], p < 0.00001; Table 2 , Figure 3 ).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 67
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#017",
+   "text": "2.3.1. Efficacy on Obesity-Related Parameters: Although substantial overall heterogeneity was detected (I 2 = 85%, p < 0.00001), subgroup analyses revealed high consistency and marked therapeutic benefits, particularly when Coptidis-containing formulations were combined with GLP-1 receptor agonists (3 RCTs, SMD: −0.89, 95% CI: [−1.19, −0.60], I 2 = 46%) or conventional treatments (4 RCTs, SMD: −0.82, 95% CI: [−1.20, −0.45], I 2 = 56%). In addition to BMI, other obesity-related parameters, including BW and WC, were evaluated as secondary outcomes. A total of 3 RCTs reported data on BW.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 89
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#018",
+   "text": "2.3.1. Efficacy on Obesity-Related Parameters: The pooled analysis demonstrated that Coptidis-containing formulations significantly reduced body weight compared to the control group, with an overall SMD of −0.31 (95% CI: [−0.53, −0.09], p = 0.005) and no evidence of between-study heterogeneity (I 2 = 0%, p = 0.57; Figure A1 , Table A4 ). Furthermore, 5 RCTs evaluated changes in WC. The adjunctive use of Coptidis-based interventions led to a significant decrease in WC, yielding an overall SMD of −0.78 (95% CI: [−1.33, −0.24], p = 0.005; Figure A2 , Table A5 ).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#019",
+   "text": "2.3.2. Efficacy on Glycemic Control and Insulin Sensitivity: HbA1c was designated as the primary endpoint to rigorously evaluate long-term glycemic control, as it reflects stable, cumulative glucose homeostasis. Quantitative synthesis of 14 RCTs revealed that Coptidis-containing formulations achieved a highly significant post-treatment decline in HbA1c levels relative to control therapies, with an overall pooled SMD of −0.77 (95% CI: [−1.07, −0.47], p < 0.00001; Table 3 , Figure 4 ). Notably, the adjunctive use of Coptidis with GLP1RAs demonstrated an exceptionally robust and homogenous therapeutic profile (3 RCTs, SMD: −0.34, 95% CI: [−0.56, −0.13], I 2 = 2%, p = 0.36), highlighting its clinical value as a highly dependable combination therapy. To provide a comprehensive assessment of glycemic control, FPG, 2hPG, and HOMA-IR were analyzed alongside HbA1c.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 127
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#020",
+   "text": "2.3.2. Efficacy on Glycemic Control and Insulin Sensitivity: FPG data were synthesized from 15 RCTs, showing a significant reduction in favor of the Coptidis group (overall SMD: −0.93, 95% CI: [−1.23, −0.64], p < 0.00001; Figure A3 , Table A6 ). Similarly, the pooled analysis of 16 RCTs for 2hPG revealed a marked therapeutic benefit (overall SMD: −0.92, 95% CI: [−1.18, −0.66], p < 0.00001; Figure A4 , Table A7 ). For insulin resistance, 12 RCTs reporting HOMA-IR indices were evaluated. Coptidis-containing formulations significantly ameliorated insulin resistance compared to conventional therapies alone, demonstrating a pooled SMD of −0.88 (95% CI: [−1.05, −0.70], p < 0.00001; Figure A5 , Table A8 ).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 111
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#021",
+   "text": "2.3.2. Efficacy on Glycemic Control and Insulin Sensitivity: Substantial between-study heterogeneity was noted for both FPG (I 2 = 86%) and 2hPG (I 2 = 83%), whereas HOMA-IR exhibited a relatively moderate and acceptable heterogeneity profile (I 2 = 49%, p = 0.03).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 43
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#022",
+   "text": "2.3.3. Efficacy on Lipid Profiles: LDL-C was selected as the primary outcome for the lipid domain, given its direct clinical correlation with atherosclerosis and overall cardiometabolic risk. Based on the pooled analysis of 10 RCTs, Coptidis-based interventions exerted a profound lipid-lowering efficacy, resulting in a marked and statistically significant reduction in LDL-C compared to control groups (SMD: −1.10, 95% CI: [−1.57, −0.62], p < 0.00001; Table 4 , Figure 5 ). When Coptidis was used specifically as an adjunct to metformin, the therapeutic effect was exceptionally stable and uniform across trials (2 RCTs, SMD: −0.72, 95% CI: [−1.09, −0.35], I 2 = 0%, p = 0.51).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 106
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#023",
+   "text": "2.3.3. Efficacy on Lipid Profiles: Beyond LDL-C, the clinical efficacy of Coptidis-based interventions on the broader lipid profile was verified through pooled analyses of TC, TG, and HDL-C. For TC, data from 11 RCTs were synthesized, indicating a significant post-treatment decline compared to the control groups (overall SMD: −0.73, 95% CI: [−1.09, −0.37], p < 0.0001; Figure A6 , Table A9 ). Analysis of 11 RCTs evaluating TG levels also demonstrated a significant therapeutic effect, with a pooled SMD of −1.00 (95% CI: [−1.42, −0.58], p < 0.00001; Figure A7 , Table A10 ). Lastly, 9 RCTs reported favorable changes in HDL-C levels.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 103
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#024",
+   "text": "2.3.3. Efficacy on Lipid Profiles: Coptidis-containing formulations significantly elevated HDL-C profiles, yielding a combined SMD of 0.93 (95% CI: [0.69, 1.17], p < 0.00001; Figure A8 , Table A11 ). High heterogeneity was observed in both TC (I 2 = 84%) and TG (I 2 = 88%) analyses, whilst the HDL-C subgroup data presented moderate heterogeneity (I 2 = 56%, p = 0.02).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 63
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#025",
+   "text": "2.4.1. ADME Properties of Berberine from Coptidis Rhizoma: The absorption, distribution, metabolism, and excretion (ADME) properties of berberine obtained from the TCMSP database are summarized in Table 5 . Berberine exhibited a molecular weight of 336.39, an oral bioavailability (OB) of 36.86%, a drug-likeness (DL) score of 0.78, a Caco-2 permeability of 1.24, a blood–brain barrier (BBB) permeability of 0.57, and a half-life of 6.57 h. These parameters met the standard screening criteria (OB ≥ 30%, Caco-2 permeability > −0.4, and DL ≥ 0.18).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 84
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#026",
+   "text": "2.4.2. Identifying Overlapping Genes of Berberine and Metabolic Disease-Related Genes: The results showed that berberine shared overlapping targets with all three metabolic disease categories. Specifically, 94 overlapping genes were identified between berberine and obesity-related targets, 95 overlapping genes between berberine and diabetes-related targets, and 54 overlapping genes between berberine and dyslipidemia-related targets. These overlapping genes were considered candidate targets through which berberine may exert regulatory effects on obesity-, diabetes-, and dyslipidemia-related metabolic dysfunction. The identified overlapping genes were subsequently used for protein–protein interaction (PPI) network construction, hub-gene analysis, and functional enrichment analyses, including Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) ( Figure 6 ).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 108
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#027",
+   "text": "2.4.3. Network Characteristics of Berberine-Associated Targets in Obesity, Diabetes, and Dyslipidemia: Topological analysis of the STRING-based PPI networks identified distinct hub-gene subnetworks for each disease condition ( Figure 7 a–c). Specifically, 15 hub genes were identified in the obesity network ( Figure 7 d), 12 in the diabetes network ( Figure 7 e), and 14 in the dyslipidemia network ( Figure 7 f). Among these, five targets—MAOA, PIK3CA, PARP1, EP300, and ESR1—were identified as common hub genes shared across all three disease-related subnetworks.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 83
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#028",
+   "text": "2.4.4. GO and KEGG Pathway Enrichment Analysis: GO and KEGG pathway enrichment analyses were performed to investigate the biological functions and signaling pathways associated with the overlapping targets between berberine and metabolic disease-related genes. To facilitate the molecular interconnections among the disorders and improve visual clarity, the analysis was focused on common, representative terms shared across obesity, diabetes, and dyslipidemia ( Figure 8 ). GO enrichment analysis revealed broadly consistent functional patterns across the three disease target sets ( Figure 8 a). Within the Biological Process (BP) category, G protein-coupled receptor (GPCR) signaling and response to xenobiotic stimulus were commonly enriched.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 101
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#029",
+   "text": "2.4.4. GO and KEGG Pathway Enrichment Analysis: In the Cellular Component (CC) category, plasma membrane and cytoplasm were prominently represented, whereas protein binding and ATP binding were the major Molecular Function (MF) terms shared across all three conditions. KEGG enrichment analysis revealed six representative pathways commonly enriched across obesity, diabetes, and dyslipidemia: metabolic pathways, cAMP signaling pathway, PI3K-Akt signaling pathway, non-alcoholic fatty liver disease (NAFLD), lipid and atherosclerosis, and AGE-RAGE signaling pathway in diabetic complications ( Figure 8 b).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 79
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#030",
+   "text": "2.5. Molecular Docking Analysis: Molecular docking analysis was performed to investigate the binding interactions between berberine and key target proteins identified through the network pharmacology analysis. The selected target proteins included PIK3CA, RAC1, CHRM1, HTR6, HTR7, HTR2C, GSK3B, JAK2, MAOA, PARP1, EP300, and ESR1. The molecular docking analysis generated predicted docking scores for berberine against all selected target proteins. Among the analyzed targets, the lowest docking scores were observed for PIK3CA (−9.5 kcal/mol) and JAK2 (−9.0 kcal/mol), followed by MAOA (−8.7 kcal/mol), PARP1 (−8.6 kcal/mol), GSK3B (−8.5 kcal/mol), RAC1 (−8.2 kcal/mol), EP300 (−7.9 kcal/mol), CHRM1 (−7.8 kcal/mol), HTR2C (−7.6 kcal/mol), HTR6 (−7.4 kcal/mol), and HTR7 and ESR1 (−7.1 kcal/mol each). The detailed docking scores are summarized in Table 6 and Figure 9 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 123
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#031",
+   "text": "3. Discussion: Berberine is a major bioactive alkaloid found in Coptidis chinensis and several other medicinal plants widely used in East Asian medicine. It has been extensively investigated for its metabolic effects, with previous studies reporting modest but significant improvements in obesity-related parameters and beneficial effects on glucose and lipid metabolism [ 40 , 41 , 42 ]. Coptidis Rhizoma, however, contains several other bioactive alkaloids, including coptisine, epiberberine, jatrorrhizine, and palmatine. Berberine was therefore selected not as the sole active constituent of Coptidis Rhizoma, but as a representative major alkaloid with the most extensively characterized clinical and mechanistic evidence relevant to obesity, diabetes, and dyslipidemia. Its comparatively well-established compound–target information also enabled cross-disease network pharmacology and molecular docking analyses.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#032",
+   "text": "3. Discussion: The present meta-analysis demonstrated that Coptidis-containing formulations were associated with significant improvements in obesity parameters (BMI, BW, and WC), glycemic indices (FPG, 2hPG, HbA1c, and HOMA-IR), and lipid profiles (TC, TG, LDL-C, and HDL-C). While these findings align broadly with isolated reports on berberine [ 40 , 41 , 42 ], the clinical interventions evaluated here were multicomponent herbal formulations rather than purified berberine, and most were administered as add-on regimens to standard conventional therapies. Consequently, the observed clinical benefits cannot be attributed solely to berberine and likely reflect synergistic contributions from multiple co-occurring botanical constituents. Furthermore, substantial between-study heterogeneity was observed across several pooled outcomes, reflecting differences in herbal composition, dosage regimens, treatment duration, and baseline metabolic status.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#033",
+   "text": "3. Discussion: These findings support a multidomain metabolic benefit of Coptidis-containing formulations rather than a uniform or formulation-independent class effect. Importantly, the certainty of the cumulative clinical evidence must be interpreted with prudent caution. In our GRADE assessment ( Table A2 ), the certainty of evidence for most anthropometric, glycemic, and lipid outcomes was graded as low (and very low for waist circumference), with only HOMA-IR achieving moderate certainty. This rating was primarily driven by serious risk of bias—notably the widespread absence of double-blinding and placebo controls—alongside statistical heterogeneity. This methodological limitation often reflects the inherent challenge unique to botanical medicine trials, where the distinctive taste, aroma, and appearance of multi-herb decoctions hinder the fabrication of indistinguishable placebos.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 118
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#034",
+   "text": "3. Discussion: While these trials largely represent pragmatic, real-world add-on treatment settings, the lack of blinding inevitably introduces potential performance and detection biases. Thus, these pooled estimates should be viewed as promising therapeutic signals rather than definitive proof of standalone efficacy. Our cross-disease target mapping identified 94, 95, and 54 overlapping targets for obesity, diabetes, and dyslipidemia, respectively, with MAOA, PIK3CA, PARP1, EP300, and ESR1 emerging as core hub genes across all three disease networks. Functional enrichment analysis further confirmed that key regulatory pathways were shared across the metabolic triad ( Figure 8 ).",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 94
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#035",
+   "text": "3. Discussion: The consistent enrichment of cAMP, PI3K–Akt, and calcium signaling cascades aligns with their established roles in insulin transduction, lipid metabolism, and inflammatory modulation [ 43 , 44 , 45 , 46 , 47 , 48 , 49 ]. PIK3CA was particularly prominent as both a central PPI hub and an essential kinase in the PI3K–Akt pathway. In addition, neuroactive ligand–receptor pathways (including HTR2C, HTR6, HTR7, CHRM1, and MAOA) highlight potential neuroendocrine involvement in appetite regulation and energy expenditure [ 50 , 51 , 52 , 53 , 54 , 55 , 56 ], while PARP1, EP300, and ESR1 link berberine targets to transcriptional regulation and metabolic stress responses [ 57 , 58 , 59 ].",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 117
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#036",
+   "text": "3. Discussion: Nevertheless, pathway enrichment reflects statistical associations within annotated databases and does not establish that these cascades were directly modulated in trial participants. Molecular docking simulations subsequently confirmed favorable structural binding compatibility between berberine and prioritized hub targets, notably HTR6, PIK3CA, JAK2, MAOA, and PARP1. While these computational findings support the structural plausibility of selected compound–target engagements, docking simulations cannot establish physiological binding occupancy, downstream signaling kinetics, or causal efficacy in vivo. Accordingly, the network pharmacology and docking analyses should be interpreted as mechanistic hypotheses that contextualize, rather than validate, the observed clinical trial outcomes. Taken together, this integrated approach highlights the unique translational value of the present study.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#037",
+   "text": "3. Discussion: While several systematic reviews have previously evaluated Coptidis Rhizoma or its principal alkaloid, berberine, most existing clinical evidence has focused on isolated conditions—such as type 2 diabetes [ 60 ], dyslipidemia [ 14 ], or obesity parameters [ 15 ]. However, in real-world clinical practice, these conditions frequently progress as an interconnected metabolic cluster. Assessing each condition separately overlooks the multi-systemic metabolic regulation of herbal formulations. Furthermore, while network pharmacology has previously been applied to investigate berberine in single-disease contexts, conventional in silico studies often operate in isolation without direct integration into synthesized clinical trial evidence. To overcome these limitations, the present study establishes a translational cross-disease framework.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#038",
+   "text": "3. Discussion: Clinically, our meta-analysis simultaneously evaluates the aggregated therapeutic signals of Coptidis-containing formulations across the metabolic triad. Mechanistically, rather than predicting generic compound–target interactions, we directly cross-referenced the shared clinical outcomes against berberine’s multi-target convergence across these comorbid conditions, effectively bridging macro-level clinical phenotypes with micro-level molecular mechanisms. Several limitations warrant consideration. The relative contributions of berberine versus other major alkaloids (e.g., coptisine, epiberberine, jatrorrhizine, and palmatine) and their potential pharmacokinetic interactions remain unresolved. It is also uncertain whether predicted target affinities are achieved at physiologically relevant systemic concentrations. Furthermore, the included clinical trials were conducted exclusively in China, which may restrict generalizability to diverse populations and clinical environments.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 110
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#039",
+   "text": "3. Discussion: Methodological heterogeneity among trials, the static nature of public network databases, and the predictive assumptions of docking simulations further limit definitive causal inferences. Additionally, the molecular docking analysis did not include reference standard ligands or native co-crystallized ligand redocking for comparative benchmark validation, and these computational scores should strictly be interpreted as predictive binding plausibilities rather than experimental proof of target engagement. Future research should decouple clinical and mechanistic validation. Multicenter, double-blind RCTs utilizing chemically standardized and batch-controlled Coptidis formulations are required to confirm the reproducibility and effect size across diverse ethnic cohorts.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 95
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#040",
+   "text": "3. Discussion: Mechanistically, multi-component analyses integrating the broader alkaloid profile alongside targeted experimental validations of prioritized kinase and receptor targets are warranted to delineate the holistic pharmacology of Coptidis Rhizoma.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 30
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#041",
+   "text": "4.1. Integrated Research of Meta-Analysis and In Silico Study: This study integrated a meta-analysis with in silico modeling to comprehensively evaluate the effects of Coptidis-containing herbal formulations on obesity, diabetes and dyslipidemia. First, RCTs investigating the efficacy of herbal prescriptions containing Coptidis Rhizoma for obesity, with or without metabolic comorbidities, were systematically identified to ensure an adequate evidence base. Subsequently, quantitative synthesis was performed using Review Manager (v. 5.4.1), focusing on key metabolic outcomes, including BMI, glucose-related parameters, and lipid profiles. In parallel, in silico analyses were conducted to explore the molecular mechanisms of berberine, a representative bioactive alkaloid of Coptidis Rhizoma. Among the constituents, berberine was selected as the representative compound based on its pharmacokinetic profiles and extensive literature evidence.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#042",
+   "text": "4.2. Search Strategy: The systematic review and meta-analysis were conducted in accordance with the PRISMA 2020 statement. All investigators were involved in the literature search, study selection, and data extraction processes. Eligible studies evaluating the efficacy and safety of Coptidis Rhizoma (Huanglian)-containing interventions for obesity, diabetes, and dyslipidemia were systematically identified through electronic database searches. Two major databases, PubMed and the Chinese National Knowledge Infrastructure (CNKI), were queried to retrieve relevant publications from inception through March 2026.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 77
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#043",
+   "text": "4.3.1. Study Design: Only RCTs investigating the efficacy and safety of Coptidis Rhizoma (Huanglian, 黃連)-containing interventions for obesity with or without metabolic comorbidities were considered eligible, without restrictions on language or publication date. Studies were excluded based on the following criteria: (1) non-randomized study designs; (2) lack of relevance to obesity or dyslipidemia; (3) absence of Coptidis Rhizoma as a principal component of the intervention; (4) use of non-oral routes of administration; (5) publication types such as case reports, reviews, or conference abstracts; (6) preclinical or in silico studies including animal, in vitro experiments, or stand-alone network pharmacology without clinical trial data; and (7) failure to report lipid-related outcomes or adiposity-related parameters as primary endpoints.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#044",
+   "text": "4.3.1. Study Design: Literature screening was conducted on studies published up to March 2026.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 14
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#045",
+   "text": "4.3.2. Participant Characteristics: No restrictions were applied regarding participant characteristics such as age, sex, or ethnicity. Eligible studies were required to include individuals presenting with obesity and/or dyslipidemia and diabetes as the primary clinical conditions, defined according to established diagnostic criteria. To maintain a focused assessment of metabolic outcomes, studies in which these conditions were secondary to other major diseases were generally excluded. Specifically, studies involving participants with diabetes mellitus were retained for additional analyses, given the close metabolic interplay between obesity, dyslipidemia, and diabetes.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 85
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#046",
+   "text": "4.3.3. Types of Interventions: RCTs evaluating Coptidis-containing formulations as the primary intervention in comparison with a control group were included. Eligible interventions were limited to orally administered decoction-based formulations containing Coptidis Rhizoma, with no restrictions on dosage, composition, or treatment duration. Studies employing non-oral routes of administration were excluded. Both monotherapy and adjunctive therapies (Coptidis formulations combined with conventional pharmacotherapy versus conventional pharmacotherapy alone) were eligible, provided that Coptidis-containing formulations were mainly under investigation.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 74
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#047",
+   "text": "4.3.4. Outcome Measures: The primary outcomes included obesity-related indices such as BMI, body weight and waist circumference. Glycemic parameters, including FPG, 2hPG, HbA1c, and insulin resistance indices such as the HOMA-IR, were also assessed. In addition, lipid profile parameters, including TC, TG, HDL-C, and LDL-C, were also extracted to provide a comprehensive evaluation of metabolic effects.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 56
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#048",
+   "text": "4.4. Methodological Quality Assessment: The methodological quality of the included studies was independently evaluated by multiple reviewers using the Revman program. This tool assesses potential bias across five domains: the randomization process, deviations from intended interventions, missing outcome data, measurement of outcomes, and selective reporting of results. Each study was categorized as having a low risk of bias, unclear risk, or a high risk of bias according to established criteria. Any discrepancies between reviewers were resolved through discussion and consensus, with arbitration by the corresponding author when necessary.",
+   "section": "methodology",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 88
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#049",
+   "text": "4.5. Assessment of Risk of Bias and Quality of Evidence: The certainty of evidence for each major meta-analyzed outcome was evaluated using the GRADE approach. Evidence derived from RCTs was initially considered high certainty and was downgraded, where appropriate, according to five domains: risk of bias, inconsistency, indirectness, imprecision, and publication bias. The resulting certainty of evidence was classified as high, moderate, low, or very low. The outcome-specific certainty ratings and the principal reasons for downgrading are explicitly reported in Section 2.2 of the Results.",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 85
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#050",
+   "text": "4.6. Statistical Analysis: All statistical analyses were conducted using Review Manager. Included trials were stratified according to the characteristics of the intervention and comparator groups. For continuous outcomes, pooled effect sizes were calculated with corresponding 95% CI, and SMD were applied when outcome measures were reported using different units or scales. The analyzed endpoints comprised obesity, glycemic and lipid parameters—BMI, weight, waist circumference, FPG, 2hPG, HbA1c, HOMA-IR, TC, TG, HDL-C, and LDL-C. Between-study heterogeneity was evaluated using the Cochran’s Q test and the I 2 statistic, where an I 2 > 50% indicated substantial heterogeneity. To account for potential clinical variations across the included trials—such as differences in herbal compositions, dosages, and treatment durations—a random-effects model was systematically applied for all pooled analyses.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 123
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#051",
+   "text": "4.6. Statistical Analysis: Potential small-study effects and publication bias were further explored using contour-enhanced funnel plots.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 16
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#052",
+   "text": "4.7. ADME Evaluation of Berberine: The ADME properties of berberine were evaluated using the Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform (TCMSP) to assess its pharmacokinetic suitability as a representative compound of Coptidis Rhizoma. The assessed pharmacokinetic parameters included molecular weight, OB, DL, Caco-2 permeability, BBB permeability, and half-life. Commonly used screening criteria, including OB ≥ 30%, Caco-2 permeability > −0.4, and DL ≥ 0.18, were applied to evaluate whether berberine exhibited acceptable pharmacokinetic properties for subsequent in silico analyses.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#053",
+   "text": "4.8. Prediction of Metabolic Regulatory Mechanisms of Berberine Based on Network Pharmacology: A network pharmacology analysis was performed to explore the potential molecular mechanisms of berberine in obesity-, diabetes-, and dyslipidemia-related metabolic dysfunction. Potential target genes of berberine were predicted using the SwissTargetPrediction platform. Disease-related target genes were retrieved from the GeneCards database on 8 June 2026, using the keywords “obesity,” “dyslipidemia,” and “diabetes”. Using Venny 2.1, overlapping targets between berberine-related targets and each disease-related target set were identified. The common targets between berberine and obesity, diabetes, and dyslipidemia were used for subsequent PPI network construction and functional enrichment analyses. PPI networks were constructed using the STRING database. For the initial PPI network construction and hub gene identification, the minimum required interaction score was set to a high-confidence threshold of 0.7.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 131
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#054",
+   "text": "4.8. Prediction of Metabolic Regulatory Mechanisms of Berberine Based on Network Pharmacology: The resulting PPI networks were imported into Cytoscape version 3.10.4 for visualization and topological analysis. Network centrality indices, including degree, betweenness centrality, and closeness centrality, were calculated, and hub genes were selected primarily based on degree centrality. To visualize the interactions among the selected hub genes, the top 12–15 hub genes for each disease category were resubmitted to STRING using a medium-confidence interaction score threshold of 0.4. The resulting hub-gene subnetworks were transferred to Cytoscape and visualized using a circular layout. To characterize the biological functions of the common targets, GO functional enrichment analysis was performed using DAVID Bioinformatics Resources. GO analysis included three categories: BP, CC, and MF.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 121
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#055",
+   "text": "4.8. Prediction of Metabolic Regulatory Mechanisms of Berberine Based on Network Pharmacology: For each disease category, the top five GO terms in each BP, CC, and MF category were selected based on the number of involved target proteins. KEGG pathway enrichment analysis was also performed using DAVID, and the top enriched pathways were selected primarily based on target count. GO and KEGG enrichment results were visualized as bubble plots using the ggplot2 package in RStudio (v. 2026.04.0), with the x-axis representing the number of proteins, bubble size indicating target count, and bubble color representing the p -value.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 97
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#056",
+   "text": "4.9. Molecular Docking Analysis: Based on the network pharmacology, PPI hub-gene analysis, and KEGG pathway enrichment results, molecular docking analysis was performed to further investigate the potential interactions between berberine and representative target proteins associated with obesity-, diabetes-, and dyslipidemia-related metabolic dysfunction. Target proteins were selected using a combined strategy. First, common hub proteins identified across the obesity-, diabetes-, and dyslipidemia-related PPI subnetworks were included to represent central molecular nodes shared by the three metabolic disease categories. Second, additional proteins were selected based on their recurrent occurrence across highly enriched KEGG pathways and their biological relevance to lipid metabolism, inflammatory responses, PI3K-Akt signaling, insulin signaling, and neuroactive ligand-related signaling.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 109
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#057",
+   "text": "4.9. Molecular Docking Analysis: Accordingly, the final docking targets consisted of PPI-derived common hub proteins, namely MAOA, PIK3CA, PARP1, EP300, and ESR1, and KEGG pathway-associated representative proteins, namely RAC1, CHRM1, HTR6, HTR7, HTR2C, GSK3B, and JAK2. PIK3CA was included as both a common PPI hub protein and a pathway-relevant target associated with PI3K-Akt signaling. The three-dimensional structure of berberine was obtained from the PubChem database.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 65
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#058",
+   "text": "4.9. Molecular Docking Analysis: The three-dimensional structures of the selected target proteins, including PIK3CA (PDB ID: 8EXL), RAC1 (PDB ID: 5O33), CHRM1 (PDB ID: 3BKB), HTR6 (PDB ID: 4PNR), HTR7 (PDB ID: 4KAK), HTR2C (PDB ID: 5Q1S), GSK3B (PDB ID: 3DDW), JAK2 (PDB ID: 7Q7L), MAOA (PDB ID: 2Z5X), PARP1 (PDB ID: 6NRG), EP300 (PDB ID: 5LPM), and ESR1 (PDB ID: 1X7R), were downloaded from the RCSB Protein Data Bank database. The criteria for selecting PDB entries were as follows: protein structures were restricted to Homo sapiens origin when available; structures determined by X-ray diffraction were preferentially selected; and entries with resolutions close to or below 2.0 Å and clearly identifiable ligand-binding domains were prioritized.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 115
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#059",
+   "text": "4.9. Molecular Docking Analysis: When multiple PDB structures were available for the same target, the structure with better resolution, appropriate ligand-binding information, and suitability for docking preparation was selected. Prior to molecular docking, the downloaded protein structures were prepared in PyMOL (v. 3.0.0) by removing water molecules and heteroatoms, including co-crystallized ligands, and imported into PyRx. The berberine ligand structure was prepared and energy-minimized using Open Babel. Molecular docking was conducted via AutoDock (v. 1.5.6) Vina in PyRx. For each target, search spaces were defined using grid boxes centered on the established active binding sites, with specific dimensions, center coordinates, and generated pose numbers detailed in Table A3 . The exhaustiveness parameter was set to 8.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 116
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#060",
+   "text": "4.9. Molecular Docking Analysis: Up to nine binding poses were generated per target, and the conformation with the lowest docking score (mode 0, in kcal/mol) was selected as the representative pose. While redocking validation of native co-crystallized ligands was not performed, search spaces were mapped directly to structurally characterized catalytic pockets in the respective PDB structures. Docking poses and ligand–protein interaction profiles (including hydrogen bonds and hydrophobic interactions) were visualized using PyMOL and BIOVIA Discovery Studio Visualizer.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 77
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#061",
+   "text": "5. Conclusions: In conclusion, this integrated study indicates that Coptidis-containing formulations may improve multiple metabolic outcomes related to obesity, dyslipidemia, and glucose metabolism. The meta-analysis provides clinical evidence of these effects, while the network pharmacology and molecular docking analyses offer a complementary mechanistic framework by identifying berberine-associated targets and pathways involved in lipid metabolism, insulin signaling, inflammation, and kinase-mediated signaling. Thus, the in silico findings provide biological plausibility for the metabolic effects observed in the meta-analysis rather than direct mechanistic validation. Given the heterogeneity among the included clinical studies and the predictive nature of the computational analyses, well-designed multicenter randomized controlled trials and experimental studies are required to confirm the clinical efficacy and underlying mechanisms of Coptidis Rhizoma and berberine.",
+   "section": "evidence",
+   "assertion_type": "efficacy",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 120
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#062",
+   "text": "Abbreviations: The following abbreviations are used in this manuscript:",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 9
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#063",
+   "text": "Appendix B.1. Body Weight: Two trials compared Coptidis-containing formulations plus GLP-1 RAs with GLP-1 RAs alone. A single trial compared Coptidis-containing formulations plus conventional treatment with conventional treatment alone. The corresponding results are summarized in Table A4 and Figure A1 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 41
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#064",
+   "text": "Appendix B.2. Waist Circumference: One trial evaluated the adjunctive use of Coptidis-containing formulations in combination with antidiabetic medications compared with antidiabetic medications alone. Two trials compared Coptidis-containing formulations plus GLP-1 RAs with GLP-1 RAs alone. Two trials compared Coptidis-containing formulations plus conventional treatment with conventional treatment alone. The corresponding results are summarized in Table A5 and Figure A2 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 59
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#065",
+   "text": "Appendix B.3. Fasting Plasma Glucose: Five trials evaluated the adjunctive use of Coptidis-containing formulations in combination with antidiabetic medications compared with antidiabetic medications alone. Four trials compared Coptidis-containing formulations plus GLP-1 RAs with GLP-1 RAs alone. Three trials assessed Coptidis-containing formulations combined with metformin versus metformin monotherapy, while three trials compared Coptidis-containing formulations plus conventional treatment with conventional treatment alone. The corresponding results are summarized in Table A6 and Figure A3 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 72
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#066",
+   "text": "Appendix B.4. 2 h Postprandial Glucose: Six trials evaluated the adjunctive use of Coptidis-containing formulations in combination with antidiabetic medications compared with antidiabetic medications alone. Four trials compared Coptidis-containing formulations plus GLP-1 RAs with GLP-1 RAs alone. Three trials assessed Coptidis-containing formulations combined with metformin versus metformin monotherapy, while three trials compared Coptidis-containing formulations plus conventional treatment with conventional treatment alone. The corresponding results are summarized in Table A7 and Figure A4 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 73
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#067",
+   "text": "Appendix B.5. Homeostatic Model Assessment of Insulin Resistance: Six trials evaluated the adjunctive use of Coptidis-containing formulations in combination with antidiabetic medications compared with antidiabetic medications alone. Three trials compared Coptidis-containing formulations plus GLP-1 RAs with GLP-1 RAs alone. Two trials assessed Coptidis-containing formulations combined with metformin versus metformin monotherapy, while a single trial compared Coptidis-containing formulations plus conventional treatment with conventional treatment alone. The corresponding results are summarized in Table A8 and Figure A5 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 76
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#068",
+   "text": "Appendix B.6. Total Cholesterol: Six trials evaluated the adjunctive use of Coptidis-containing formulations in combination with antidiabetic medications compared with antidiabetic medications alone. Two trials assessed Coptidis-containing formulations combined with metformin versus metformin monotherapy, while three trials compared Coptidis-containing formulations plus conventional treatment with conventional treatment alone. The corresponding results are summarized in Table A9 and Figure A6 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 59
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#069",
+   "text": "Appendix B.7. Triglycerides: Six trials evaluated the adjunctive use of Coptidis-containing formulations in combination with antidiabetic medications compared with antidiabetic medications alone. Two trials assessed Coptidis-containing formulations combined with metformin versus metformin monotherapy, while three trials compared Coptidis-containing formulations plus conventional treatment with conventional treatment alone. The corresponding results are summarized in Table A10 and Figure A7 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 58
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#070",
+   "text": "Appendix B.8. High-Density Lipoprotein Cholesterol: Four trials evaluated the adjunctive use of Coptidis-containing formulations in combination with antidiabetic medications compared with antidiabetic medications alone. Two trials assessed Coptidis-containing formulations combined with metformin versus metformin monotherapy, while three trials compared Coptidis-containing formulations plus conventional treatment with conventional treatment alone. The corresponding results are summarized in Table A11 and Figure A8 .",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 60
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#071",
+   "text": "Author Contributions: Conceptualization and methodology, C.-Y.K. and B.-C.L.; investigation, data curation, and writing—original draft preparation, C.-Y.K., Y.-J.Y., J.-H.K. and S.-H.Y.; writing—review and editing, C.-Y.K., Y.-J.Y., H.-J.K., M.-S.L. and B.-C.L.; funding acquisition and project administration, B.-C.L. All authors have read and agreed to the published version of the manuscript.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 48
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#072",
+   "text": "Conflicts of Interest: The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the results.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 36
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#073",
+   "text": "Funding Statement: This research was supported by the Korea Health Technology R&D Project through the Korea Health Industry Development Institute (KHIDI), funded by the Ministry of Health and Welfare, Republic of Korea (grant number: RS-2025-02219175).",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 35
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#074",
+   "text": "Characteristics of each experiment.: First Author | Participants | Number of Cases/Age, Years | Intervention Methods | Observation Period | Outcome Indicators Trial Group | Control Group | Trial Group | Control Group Li, 2026 [ 21 ] | Obese, diabetic | 40/52.23 ± 4.49 | 40/53.67 ± 4.82 | Huanglian Heye Formula with dulaglutide | dulaglutide | 12 weeks | BMI, FPG, 2hPG, HbA1c, HOMA-IR Zhang, 2025 [ 22 ] | obese, diabetic | 47/54.25 ± 9.17 | 47/53.48 ± 9.56 | Huanglian Heye Formula with insulin | Huanglian Heye Formula with insulin | 12 weeks | WHR, BMI, TC, TG, LDL-C, HbA1c, 2hPG, FPG, VASPIN, HOMA-B, Han, 2025 [ 23 ] | obese, hypertensive | 34/55 ± 8 | 34/54 ± 7 | Huanglian Wendan decoction with conventional treatment | conventional treatment | 8 weeks | BMI, WC, TG, TC, LDL-C, HDL-C, homocysteine.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 145
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#075",
+   "text": "Characteristics of each experiment.: sBP, dBP Jin, 2025 [ 24 ] | obese, diabetic, dyslipidemia | 30/58.76 ± 3.92 | 30/58.48 ± 3.89 | Huanglian Jiangtang Pill with metformin | metformin | 4 weeks | TG, TC, LDL-C, HDL-C, FPG, 2hPG, HbA1c Liang, 2022 [ 25 ] | obese, diabetic | 50/53.18 ± 4.32 | 53.34 ± 4.41 | Huanglian Jiedu decoction with metformin and conventional treatment | metformin with conventional treatment | 12 weeks | TC, TG, HDL-C, LDL-C, FPG, 2hPG, HbA1c, FINS, HOMA-IR, HOMA-B, Cortisol Fu, 2022 [ 26 ] | obese, diabetic | 98/51.9 ± 4.3 | 98/52.2 ± 4.7 | Huanglian Jiedu decoction with liraglutide | liraglutide | 8 weeks | BMI, BW, BFR, FPG, 2hPG, HbA1c, FINS, HOMA-IR, HOMA-B Han, 2022 [ 27 ] | obese, diabetic | 60/ 53.68 ± 10.11 | 60/ 54.12 ± 9.89 | Huanglian Heye formula with metformin | metformin | 12 weeks | BMI, WC, HC, WHR/FPG, 2hPG, HbA1c, HOMA-IR, RHI Xiao, 2022 [ 28 ] | obese, diabetic | 34/unknown | 31/unknown | Huanglian Wendan Decoction with lixisenatide and metformin | lixisenatide and metformin | 12 weeks | BMI, WC, BW, TC, TG, HDL-C, LDL-C, FPG, 1hPG, 2hPG, HbA1c, FINS, 1hINS, 2hINS, HOMA-IR Ye, 2021 [ 29 ] | obese, diabetic | 68/52.14 ± 13.91 | 68/51.45 ± 13.46 | Huanglian Qingre Tongluo Recipe with Liraglutide | liraglutide | 8 weeks | BMI, WC, FPG, 2hPG, HOMA-IR, SOD, MDA, T-AOC, Visceral fat volume, Subcutaneous fat volume Chen, 2021 [ 30 ] | obese, diabetic | 50/54.37 ± 2.56 | 49/54.41 ± 2.24 | Modified Huanglian Jiedu Decoction with metformin | metformin | 12 weeks | TC, TG, HDL-C, LDL-C, FPG, 2hPG, HbA1c, FINS, HOMA-IR An, 2021 [ 31 ] | obese, diabetic, dyslipidemia | 36/unknown | 38/unknown | Huanglian turbidity resolving prescription with metformin | metformin | 16 weeks | BMI Wei, 2021 [ 32 ] | obese, diabetic | 30/53.68 ± 5.02 | 30/55.05 ± 4.82 | Huanglian Jiedu Decoction with conventional treatment | conventional treatment | 12 weeks | BMI, FPG, 2hPG, HbA1c, FINS, C-P, HOMA-B, APN Yin 2020 [ 33 ] | obese, diabetic | 50/58.58 ± 3.28 | 50/58.69 ± 3.33 | Huanglian Jiedu Decoction with conventional treatment | conventional treatment | 3 weeks | BMI, FPG, 2hPG, HbA1c Kong, 2019 [ 34 ] | obese, diabetic | 30/50.72 ± 10.13 | 30/54.54 ± 8.22 | Huanglian Wendan decoction with conventional treatment | metformin and conventional treatment | 12 weeks | BMI, WC, BW, TG, TC, LDL-C, HDL-C, FPG, 2hPG Zhang, 2015 [ 35 ] | obese, diabetic | 30/56.71 ± 8.50 | 30/56.67 ± 7.74 | Huanglian Jiedu decoction | metformin | 12 weeks | TC, TG, LDL-C, HDL-C, FPG, 2hPG, HbA1c, CPRT, IRT, HOMA-IR, HOMA-IS Tu, 2015 [ 36 ] | obese, diabetic | 79/52.6 ± 16.3 | 79/53.5 ± 16.6 | Huanglian Jiedu decoction | metformin | 12 weeks | BMI, weight loss efficacy.",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 493
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#076",
+   "text": "Characteristics of each experiment.: FPG, 2hPG, HbA1c Ji, 2013 [ 37 ] | obese, diabetic | 30/43 ± 12 | 30/46 ± 14 | Huanglian Jiedu decoction with insulin | metformin and insulin | 12 weeks | BMI, TC, TG, LDL-C, HDL-C, FPG, 2hPG, HbA1c, HOMA-IR, HOMA-IS, time to glycemic control, insulin dose, hs-CRP, IL-6 Li, 2013 [ 38 ] | obese, diabetic | 30/58.90 ± 12.6 | 30/60.13 ± 11.5 | Huanglian Jiedu decoction | metformin | 12 weeks | BMI, TC, TG, LDL-C, HDL-C, FPG, 2hPG, HbA1c, OGTT (0,1,2,3H), CPRT, IRT, HOMA-IR, HOMA-IS, HBCI, hs-CRP, IL-6, ET-1, TXB2, PGF1A, NO Wang, 2011 [ 39 ] | obese, diabetic | 30/42 ± 16 | 30/40 ± 15 | Huanglian Jiedu decoction granules with insulin and metformin | insulin and metformin | 6 months | BMI, FPG, 2hPG, HbA1c, time to glycemic control, insulin dose, OGTT (0,1,2,3H), CPRT, IRT, HOMA-IR",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 150
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#077",
+   "text": "Meta-analysis summary of body mass index.: Std. Mean Difference | Heterogeneity Coptidis + antidiabetic vs. antidiabetic (n = 6) | −0.87 [−1.49, −0.25] | p < 0.00001, I 2 = 91% Coptidis + GLP-1 RA vs. GLP-1 RA (n = 3) | −0.89 [−1.19, −0.60] | p = 0.15, I 2 = 46% Coptidis vs. metformin (n = 3) | −0.10 [−0.33, 0.14] | p = 0.88, I 2 = 0% Coptidis + conventional vs. conventional (n = 4) | −0.82 [−1.20, −0.45] | p = 0.08, I 2 = 56% Total | −0.72 [−1.00, −0.44] | p < 0.00001, I 2 = 85%",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 104
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#078",
+   "text": "Meta-analysis summary of glycated hemoglobin.: Std. Mean Difference | Heterogeneity Coptidis + antidiabetic vs. antidiabetic (n = 6) | −0.93 [−1.50, −0.36] | p < 0.00001, I 2 = 89% Coptidis + GLP-1 RA vs. GLP-1 RA (n = 3) | −0.34 [−0.56, −0.13] | p = 0.36, I 2 = 2% Coptidis vs. metformin (n = 3) | −0.69 [−1.45, −0.07] | p = 0.0008, I 2 = 88% Coptidis + conventional vs. conventional (n = 2) | −1.09 [−2.05, −0.13] | p = 0.0001, I 2 = 86% Total | −0.77 [−1.07, −0.47] | p < 0.00001, I 2 = 85%",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 103
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#079",
+   "text": "Meta-analysis summary of low-density lipoprotein cholesterol.: Std. Mean Difference | Heterogeneity Coptidis + antidiabetic vs. antidiabetic (n = 5) | −1.20 [−2.02, −0.37] | p < 0.00001, I 2 = 93% Coptidis vs. metformin (n = 2) | −0.72 [−1.09, −0.35] | p = 0.51, I 2 = 0% Coptidis + conventional vs. conventional (n = 3) | −1.20 [−2.13, −0.26] | p < 0.0001, I 2 = 90% Total | −1.10 [−1.57, −0.62] | p < 0.00001, I 2 = 89%",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 82
+  },
+  {
+   "chunk_id": "pmc-pmc13606907#080",
+   "text": "ADME properties of berberine obtained from the TCMSP database.: Compound | MW | OB (%) | DL | Caco-2 | BBB | HL Berberine | 336.39 | 36.86 | 0.78 | 1.24 | 0.57 | 6.57",
+   "section": "other",
+   "assertion_type": "other",
+   "topics": [
+    "lipids",
+    "berberine",
+    "glucose"
+   ],
+   "entities": [
+    "berberine"
+   ],
+   "analytes": [
+    "ldl",
+    "hdl",
+    "triglycerides",
+    "glucose",
+    "hba1c"
+   ],
+   "page": null,
+   "words": 36
+  }
+ ]
+}

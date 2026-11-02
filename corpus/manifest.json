@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-29",
- "documents": 377,
- "chunks": 4012,
- "redistributable": 377,
+ "generated": "2026-10-31",
+ "documents": 400,
+ "chunks": 5143,
+ "redistributable": 400,
  "review_due": 0,
  "entries": [
   {
@@ -4169,6 +4169,52 @@
    "chunks": 6
   },
   {
+   "doc_id": "hc-nhpid-multi-vitmin-doses",
+   "source": "Health Canada NNHPD",
+   "tier": "regulatory",
+   "title": "Multi-Vitamin/Mineral Supplements \u2014 adult dose rows",
+   "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=multi_vitmin_suppl&lang=eng",
+   "identifier": {
+    "type": "nhpid",
+    "value": "multi_vitmin_suppl"
+   },
+   "jurisdiction": "ca",
+   "language": "en",
+   "revised": "2026-06-26",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2027-10-31",
+   "checksum": "sha256:57f3a22329ce48b1a2de09a44eac3baf907d3a019577a15690cf5085bb97c69e",
+   "licence": {
+    "name": "Open Government Licence \u2013 Canada",
+    "redistributable": true,
+    "evidence_url": "https://open.canada.ca/en/open-government-licence-canada"
+   },
+   "chunks": 5
+  },
+  {
+   "doc_id": "hc-nhpid-multi-vitmin-suppl",
+   "source": "Health Canada NNHPD",
+   "tier": "regulatory",
+   "title": "Multi-Vitamin/Mineral Supplements Monograph",
+   "url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=multi_vitmin_suppl&lang=eng",
+   "identifier": {
+    "type": "nhpid",
+    "value": "multi_vitmin_suppl"
+   },
+   "jurisdiction": "ca",
+   "language": "en",
+   "revised": "2026-06-26",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2027-10-31",
+   "checksum": "sha256:3f1fb7ec088136327bf61bdc0f7acd7a1f55291c5325adba3cb9bf7f80906b33",
+   "licence": {
+    "name": "Open Government Licence \u2013 Canada",
+    "redistributable": true,
+    "evidence_url": "https://open.canada.ca/en/open-government-licence-canada"
+   },
+   "chunks": 40
+  },
+  {
    "doc_id": "hc-nhpid-multiple-joint-health2",
    "source": "Health Canada NNHPD",
    "tier": "regulatory",
@@ -5802,6 +5848,75 @@
    "chunks": 22
   },
   {
+   "doc_id": "medlineplus-000315",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Magnesium deficiency",
+   "url": "https://medlineplus.gov/ency/article/000315.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/000315.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-05-19",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2027-04-30",
+   "checksum": "sha256:9e7418091b283921f7cb8aa4ef96812ae2140aef40b15b548ba51ad793f3a5c0",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 7
+  },
+  {
+   "doc_id": "medlineplus-000354",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Folate deficiency",
+   "url": "https://medlineplus.gov/ency/article/000354.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/000354.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-07-09",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2027-04-30",
+   "checksum": "sha256:dd932f03ddc63bb84b9d8dd168cd3a6bca91101f08952eff397274d38acfbb8b",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 5
+  },
+  {
+   "doc_id": "medlineplus-002405",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Vitamin D",
+   "url": "https://medlineplus.gov/ency/article/002405.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/002405.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-01-21",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2027-04-30",
+   "checksum": "sha256:eff85f65f4c727523358e9036a5b4082a3a859890e0b803d01053a1b440670fe",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
    "doc_id": "medlineplus-003356",
    "source": "MedlinePlus (NLM)",
    "tier": "compendium",
@@ -6277,6 +6392,29 @@
    "retrieved_at": "2026-10-29",
    "next_review_due": "2027-04-29",
    "checksum": "sha256:4f196dc2488ce5ad6f35f845592ea2b582ae9639d1ef28807d750fff45ff07dd",
+   "licence": {
+    "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
+    "redistributable": true,
+    "evidence_url": "https://medlineplus.gov/copyright.html"
+   },
+   "chunks": 6
+  },
+  {
+   "doc_id": "medlineplus-003686",
+   "source": "MedlinePlus (NLM)",
+   "tier": "compendium",
+   "title": "Folic acid - test",
+   "url": "https://medlineplus.gov/ency/article/003686.htm",
+   "identifier": {
+    "type": "web",
+    "value": "https://medlineplus.gov/ency/article/003686.htm"
+   },
+   "jurisdiction": "us",
+   "language": "en",
+   "revised": "2025-02-03",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2027-04-30",
+   "checksum": "sha256:d0d3f1c9cbee1a61f7e01924697aab9e15b4eee4658de95eb1d874a64f6577c0",
    "licence": {
     "name": "US federal work \u2014 public domain (NLM MedlinePlus)",
     "redistributable": true,
@@ -8675,6 +8813,397 @@
     "evidence_url": "https://www.cancer.gov/policies/copyright-reuse"
    },
    "chunks": 52
+  },
+  {
+   "doc_id": "pmc-pmc11404857",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Silymarin as an Antioxidant Therapy in Chronic Liver Diseases: A Comprehensive Review",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11404857/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.7759/cureus.67083"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2024-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:0eddeab2f772b9682c0a47d6bab1c6cc7adbdd32d5731d274a62360a263c6311",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 29
+  },
+  {
+   "doc_id": "pmc-pmc11723399",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Nutraceuticals and Supplements in Management of Prediabetes and Diabetes",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11723399/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.3390/nu17010014"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2024-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:7f15ba403f3c08589ee56ca67aa115f1cefa71da7f26ac3438beb3f08fcef353",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 80
+  },
+  {
+   "doc_id": "pmc-pmc12423746",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "A potential association between tirzepatide and hypercalcemia in the setting of chronic hydrochlorothiazide use",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12423746/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.1530/EDM-25-0067"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2025-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:6f6fdb2385d1d3d05345b7a93ae212602e5ae30c0bf4353dcf8c09f9659715a1",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 32
+  },
+  {
+   "doc_id": "pmc-pmc12564107",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Navigating the Effects of Anti-Atherosclerotic Supplements and Acknowledging Associated Bleeding Risks",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12564107/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.3390/ijms262010183"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2025-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:d18d6bcbe856991e8aaf8522adcb3f7ff15757692974a2037059a7a0be19c915",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 80
+  },
+  {
+   "doc_id": "pmc-pmc12736498",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Effects of Turmeric and Turmeric Plus Piperine Supplementation on Lipid Profiles in Adults with Cardiometabolic Risk Conditions: A Systematic Review and Meta-Analysis of Randomized Controlled Trials Following PRISMA Guidelines",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12736498/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.3390/pharmaceutics17121609"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2025-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:52b34ad91261bf34a0139540817b5ff31c2bac301c1ca43a969846d98b013338",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 60
+  },
+  {
+   "doc_id": "pmc-pmc13115040",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Critical Decision Thresholds for Urgent Physician Notification of Point-of-Care Testing Results",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13115040/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.3390/diagnostics16081139"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:52b14133793084f70d85e449e0b03e3137f4c2c59dbf3ca6af397f2e878c3fd3",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 64
+  },
+  {
+   "doc_id": "pmc-pmc13127095",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Association of Long-Term Proton Pump Inhibitor Use With Nutrient Deficiencies: A Retrospective Cross-Sectional Study",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13127095/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.7759/cureus.106137"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:984236415e01683f90c998ef30179fc87670a2d4f162d765a1056f3e8a15a429",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 47
+  },
+  {
+   "doc_id": "pmc-pmc13363889",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Expert Consensus on Optimizing the Strategy for the Prevention of Vitamin D Deficiency in Central Asia: From Scientific Evidence to Real-World Practice",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13363889/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.3390/nu18132122"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:5df8ae37b2db2d34a899dd35db673fc026d8eb8f8c441c87e7810ec3f5564d24",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 80
+  },
+  {
+   "doc_id": "pmc-pmc13391447",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Magnesium: Hype and Health Benefits",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13391447/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.1007/s13668-026-00786-w"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:e6383cba4934f1a9970fb3b5b6c86c428725a1714d585ed168276e3f20d87f4c",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 59
+  },
+  {
+   "doc_id": "pmc-pmc13401327",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Utility of Serum Homocysteine and Lipoprotein(a) in Acute Coronary Syndrome: A Cross-Sectional Study From Western India",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13401327/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.7759/cureus.111472"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:04fcb01e612661f0158275fe5b204c1f66d6223201319ef1d0998026cc6e52b3",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 32
+  },
+  {
+   "doc_id": "pmc-pmc13449291",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Iron deficiency without anemia: An underrecognized and undertreated clinical condition with special focus on colorectal cancer",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13449291/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.46989/001c.165952"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:1e1ba5176f50e4ec348b496d830e9d0fcd438d46de49513e6da7f6b081754654",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 54
+  },
+  {
+   "doc_id": "pmc-pmc13467960",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Omega-3 Polyunsaturated Fatty Acid Formulations in Cardiovascular Prevention: Balancing Clinical Efficacy, Safety, and Environmental Sustainability",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13467960/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.3390/nu18152538"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:6396aebffb8a15a3a456e44877f6e314d6700840658731221c47658544d621f2",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 80
+  },
+  {
+   "doc_id": "pmc-pmc13512597",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "A Narrative Review of Zinc Deficiency-Associated Anemia",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13512597/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.3390/hematolrep18040060"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:8e5ebf012b00ffc341da26c6e56418f7826514b5654608d81b809785a4ffcdc1",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 77
+  },
+  {
+   "doc_id": "pmc-pmc13525924",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Sex Differences in Incident Stage 3 Chronic Kidney Disease: A Narrative Review",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13525924/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.7759/cureus.113686"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:3522b2787e335fffaf7cc88137fa23278648f4880dd95551cf944a8f55609979",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 48
+  },
+  {
+   "doc_id": "pmc-pmc13606907",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Coptidis Rhizoma for Obesity, Diabetes, and Dyslipidemia: An Integrated Meta-Analysis and In Silico Study",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13606907/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.3390/ijms27188109"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:21d7451134006386d19bb47697d1c2ff6e21503b7fe4b7de7207b9dfdb1e0186",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 80
+  },
+  {
+   "doc_id": "pmc-pmc13634279",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Comparative efficacy of vitamin B12 supplementation routes in adults with replacement indication: a systematic review",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13634279/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.1016/j.eclinm.2026.104214"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:1fed8b6eaca0c90fc70e043dc23c26549b08f5e2f397707338e33d6af3be8728",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 80
+  },
+  {
+   "doc_id": "pmc-pmc13678706",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Beyond the Numbers: A Practical Framework for Interpreting the Full Blood Count for Foundation Doctors",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13678706/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.7759/cureus.117989"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-10-31",
+   "next_review_due": "2036-10-31",
+   "checksum": "sha256:6be4767fe871b7a034a5c53024de12e52a4067269504112d83f4a77a56da4caa",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 80
   }
  ]
 }

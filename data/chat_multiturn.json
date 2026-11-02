@@ -1,0 +1,291 @@
+{
+ "note": "Multi-turn grounded-chat set. Each case builds one assessment, then asks follow-up questions with the prior turns in history. Pass = required phrase present, forbidden absent, grounded, cited.",
+ "cases": [
+  {
+   "id": "iron-followup",
+   "intake": {
+    "age": 42,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 8,
+     "unit": "ng/mL",
+     "ref_low": 15,
+     "ref_high": 150
+    },
+    {
+     "analyte": "Haemoglobin",
+     "value": 105,
+     "unit": "g/L",
+     "ref_low": 120,
+     "ref_high": 160
+    }
+   ],
+   "turns": [
+    {
+     "question": "What should I take?",
+     "must_include": [
+      "iron"
+     ]
+    },
+    {
+     "question": "And the dose?",
+     "must_include": [
+      "60",
+      "120"
+     ]
+    },
+    {
+     "question": "Is that safe in pregnancy?",
+     "must_include": [
+      "pregnancy"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ldl-followup",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "LDL",
+     "value": 3.8,
+     "unit": "mmol/L",
+     "ref_low": 0,
+     "ref_high": 2.6
+    }
+   ],
+   "turns": [
+    {
+     "question": "What is the top option?",
+     "must_include": [
+      "cardiovascular"
+     ]
+    },
+    {
+     "question": "Why is it ranked first?",
+     "must_include": [
+      "rank"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b12-followup",
+   "intake": {
+    "age": 60,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Vitamin B12",
+     "value": 150,
+     "unit": "pmol/L",
+     "ref_low": 219,
+     "ref_high": 773
+    }
+   ],
+   "turns": [
+    {
+     "question": "What dose of B12?",
+     "must_include": [
+      "2 mg"
+     ]
+    },
+    {
+     "question": "What should I recheck?",
+     "must_include": [
+      "methylmalonic"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "berberine-followup",
+   "intake": {
+    "age": 55,
+    "sex": "male",
+    "medications": [
+     "warfarin"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "HbA1c",
+     "value": 5.9,
+     "unit": "%",
+     "ref_low": 4.0,
+     "ref_high": 5.6
+    }
+   ],
+   "turns": [
+    {
+     "question": "What supplement could help?",
+     "must_include": [
+      "berberine"
+     ]
+    },
+    {
+     "question": "Is it safe with warfarin?",
+     "must_include": [],
+     "must_include_any": [
+      [
+       "anticoagulant",
+       "warfarin"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "critical-potassium-followup",
+   "intake": {
+    "age": 60,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Potassium",
+     "value": 6.5,
+     "unit": "mmol/L",
+     "ref_low": 3.7,
+     "ref_high": 5.2
+    }
+   ],
+   "turns": [
+    {
+     "question": "What should I do?",
+     "must_include": [
+      "potassium"
+     ]
+    },
+    {
+     "question": "What supplement?",
+     "must_include": [
+      "supplement"
+     ],
+     "must_include_any": [
+      [
+       "withheld",
+       "does not provide",
+       "no supplement"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "magnesium-kidney-followup",
+   "intake": {
+    "age": 65,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Magnesium",
+     "value": 0.6,
+     "unit": "mmol/L",
+     "ref_low": 0.7,
+     "ref_high": 0.91
+    },
+    {
+     "analyte": "eGFR",
+     "value": 25,
+     "unit": "mL/min/1.73m2",
+     "ref_low": 90,
+     "ref_high": 200
+    }
+   ],
+   "turns": [
+    {
+     "question": "What magnesium?",
+     "must_include": [
+      "withheld"
+     ],
+     "must_include_any": [
+      [
+       "egfr",
+       "kidney"
+      ]
+     ]
+    },
+    {
+     "question": "Why was it withheld?",
+     "must_include": [
+      "withheld"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "berberine-pregnancy-followup",
+   "intake": {
+    "age": 32,
+    "sex": "female",
+    "contexts": [
+     "pregnancy"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "HbA1c",
+     "value": 5.9,
+     "unit": "%",
+     "ref_low": 4.0,
+     "ref_high": 5.6
+    }
+   ],
+   "turns": [
+    {
+     "question": "What supplement could help?",
+     "must_include": [
+      "berberine"
+     ]
+    },
+    {
+     "question": "Is it safe in pregnancy?",
+     "must_include": [
+      "berberine",
+      "pregnan"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thyroid-followup",
+   "intake": {
+    "age": 48,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "TSH",
+     "value": 8.2,
+     "unit": "mIU/L",
+     "ref_low": 0.4,
+     "ref_high": 4.8
+    }
+   ],
+   "turns": [
+    {
+     "question": "Do I need iodine?",
+     "must_include": [
+      "thyroid"
+     ]
+    },
+    {
+     "question": "What tests should I have?",
+     "must_include": [
+      "tsh",
+      "antibod"
+     ]
+    }
+   ]
+  }
+ ]
+}

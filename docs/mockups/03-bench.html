@@ -1,0 +1,1096 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>materia — Bench</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/base.css">
+<style>
+  :root {
+    --bg: #f1f3ef;
+    --panel: #ffffff;
+    --panel-2: #f8faf7;
+    --ink: #141915;
+    --muted: #5f6b62;
+    --faint: #8b978e;
+    --line: #d9dfd8;
+    --line-soft: #e8ede7;
+    --teal: #0b6b5e;
+    --teal-soft: #e5f2ef;
+    --amber: #94610e;
+    --amber-soft: #fbf0d6;
+    --red: #b32616;
+    --red-soft: #fbe9e5;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --display: "Space Grotesk", system-ui, sans-serif;
+  }
+
+  html, body { background: var(--bg); }
+  body { color: var(--ink); font-size: 13px; }
+
+  .bench-bar {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    height: 48px;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto auto;
+    align-items: center;
+    gap: 22px;
+    padding: 0 22px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(241, 243, 239, .94);
+    backdrop-filter: blur(12px);
+  }
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: -.04em;
+    line-height: 1;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .brand .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--red); align-self: center; }
+  .brand small { color: var(--faint); font: 500 8px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase; margin-left: 3px; }
+  .crumb {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--faint);
+    font: 400 10px/1.4 var(--mono);
+    letter-spacing: .04em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .crumb b { color: var(--muted); font-weight: 500; }
+  .crumb .slash { color: #b9c3ba; }
+  .bench-bar .mockup-badge { color: var(--muted); border: 1px solid var(--line); background: var(--panel); padding: 7px 9px; }
+  .bar-right { display: flex; align-items: center; gap: 10px; }
+  .sample-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 7px;
+    border: 1px solid #e3cfae;
+    background: #fbf4e6;
+    color: #7b5a1e;
+    font: 500 8px/1 var(--mono);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .sample-pill::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: #b07a1e; }
+  .bar-link {
+    color: var(--muted);
+    text-decoration: none;
+    font: 500 9px/1 var(--mono);
+    letter-spacing: .05em;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 2px;
+    white-space: nowrap;
+  }
+  .bar-link:hover { color: var(--ink); border-color: var(--ink); }
+
+  main { max-width: 1520px; margin: 0 auto; padding: 24px 22px 54px; }
+
+  .labs-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    gap: 26px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--muted);
+    font: 500 9px/1.4 var(--mono);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+  }
+  .eyebrow::before { content: ""; width: 22px; height: 1px; background: var(--red); }
+  .labs-head h1 {
+    margin-top: 10px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(34px, 3.6vw, 48px);
+    line-height: 1;
+    letter-spacing: -.04em;
+  }
+  .labs-sub {
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+    color: var(--muted);
+    font-size: 11.5px;
+  }
+  .labs-sub .dot { color: #b5c0b7; }
+  .labs-sub .mono { font-size: 10.5px; }
+  .head-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+
+  .stepper { display: flex; align-items: center; gap: 0; }
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 14px;
+    border-right: 1px solid var(--line);
+    color: var(--faint);
+    font: 500 9px/1.3 var(--mono);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .step:last-child { border-right: 0; padding-right: 0; }
+  .step-num {
+    width: 18px; height: 18px;
+    display: grid;
+    place-items: center;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    font-size: 8.5px;
+  }
+  .step.is-done { color: var(--teal); }
+  .step.is-done .step-num { background: var(--teal); border-color: var(--teal); color: #fff; }
+  .step.is-active { color: var(--ink); }
+  .step.is-active .step-num { background: var(--ink); border-color: var(--ink); color: var(--panel); }
+  .step button {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+  }
+  .step button:hover { color: var(--teal); }
+  .step small { display: block; font-size: 7.5px; color: var(--faint); letter-spacing: .04em; }
+
+  .progress-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .progress-copy { text-align: right; }
+  .progress-copy b {
+    display: block;
+    font: 600 12px/1.2 var(--mono);
+    color: var(--ink);
+  }
+  .progress-copy span { font: 400 8px/1.4 var(--mono); color: var(--faint); letter-spacing: .06em; text-transform: uppercase; }
+  .progress-track { width: 126px; height: 4px; background: #dce3db; overflow: hidden; }
+  .progress-fill { height: 100%; width: 0; background: var(--teal); transition: width .25s ease; }
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-height: 31px;
+    padding: 0 11px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--muted);
+    font: 500 8.5px/1.2 var(--mono);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  .button:hover { color: var(--ink); border-color: #a8b5aa; }
+  .button--primary { background: var(--teal); border-color: var(--teal); color: #fff; }
+  .button--primary:hover { background: #085a4f; color: #fff; }
+  .button:disabled { opacity: .38; cursor: not-allowed; }
+
+  .bench-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.03fr) minmax(0, .97fr);
+    gap: 16px;
+    padding-top: 16px;
+    align-items: start;
+  }
+
+  /* ---------- document viewer ---------- */
+  .viewer {
+    border: 1px solid var(--line);
+    background: var(--panel);
+    min-width: 0;
+  }
+  .viewer-bar {
+    min-height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 7px 11px;
+    border-bottom: 1px solid var(--line);
+    color: var(--muted);
+    font: 400 8.5px/1.4 var(--mono);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .viewer-bar .title { color: var(--ink); font-weight: 500; }
+  .viewer-bar .divider { color: var(--line); }
+  .legend { margin-left: auto; display: flex; align-items: center; gap: 11px; }
+  .legend span { display: inline-flex; align-items: center; gap: 5px; }
+  .legend i { width: 6px; height: 6px; display: block; border-radius: 50%; background: var(--teal); }
+  .legend .review { background: var(--amber); }
+  .legend .selected { background: var(--ink); }
+  .page-stage {
+    padding: 18px 18px 20px;
+    background:
+      radial-gradient(circle at 1px 1px, rgba(20,25,21,.055) 1px, transparent 0) 0 0 / 14px 14px,
+      #e9ede7;
+    display: flex;
+    justify-content: center;
+  }
+  .page-frame {
+    position: relative;
+    width: min(100%, 548px);
+    background: #fff;
+    border: 1px solid #cdd5cd;
+    box-shadow: 0 12px 30px rgba(20, 25, 21, .12);
+  }
+  .page-frame img { width: 100%; height: auto; display: block; }
+  .page-stamp {
+    position: absolute;
+    top: 8px; left: 8px;
+    z-index: 3;
+    padding: 4px 6px;
+    background: rgba(255,255,255,.92);
+    border: 1px solid #d9c7a6;
+    color: #7b5a1e;
+    font: 600 7px/1 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .bands { position: absolute; inset: 0; pointer-events: none; }
+  .row-band {
+    position: absolute;
+    left: 3.4%;
+    right: 3.4%;
+    height: 2.25%;
+    transform: translateY(-50%);
+    border: 1px solid transparent;
+    border-left: 2px solid rgba(11, 107, 94, .38);
+    background: rgba(11, 107, 94, .055);
+    transition: background .15s ease, border-color .15s ease, box-shadow .15s ease;
+  }
+  .row-band[data-status="review"] { border-left-color: rgba(148, 97, 14, .85); background: rgba(148, 97, 14, .09); }
+  .row-band[data-status="ready"] { border-left-color: rgba(11, 107, 94, .6); background: rgba(11, 107, 94, .04); }
+  .row-band.is-selected {
+    border-color: var(--teal);
+    border-left-color: var(--teal);
+    background: rgba(11, 107, 94, .15);
+    box-shadow: 0 0 0 2px rgba(11, 107, 94, .16);
+  }
+  .row-band[data-status="review"].is-selected {
+    border-color: var(--amber);
+    border-left-color: var(--amber);
+    background: rgba(148, 97, 14, .15);
+    box-shadow: 0 0 0 2px rgba(148, 97, 14, .14);
+  }
+  .viewer-foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 10px 12px;
+    border-top: 1px solid var(--line);
+    color: var(--faint);
+    font: 400 8px/1.5 var(--mono);
+    letter-spacing: .05em;
+  }
+  .viewer-foot b { color: var(--teal); font-weight: 500; }
+
+  /* ---------- review panel ---------- */
+  .review-panel {
+    border: 1px solid var(--line);
+    background: var(--panel);
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 232px);
+    min-height: 560px;
+  }
+  .review-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--line);
+  }
+  .review-head h2 {
+    font: 600 9px/1.4 var(--mono);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .review-head p {
+    margin-top: 4px;
+    color: var(--faint);
+    font-size: 10px;
+    line-height: 1.4;
+  }
+  .read-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 6px;
+    border: 1px solid #c6dcd6;
+    background: var(--teal-soft);
+    color: var(--teal);
+    font: 500 7.5px/1 var(--mono);
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .read-badge::before { content: "✓"; font-size: 9px; }
+
+  .filters {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--line);
+    background: var(--panel-2);
+    flex-wrap: wrap;
+  }
+  .filter {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid transparent;
+    background: transparent;
+    padding: 4px 6px;
+    color: var(--muted);
+    font: 500 7.5px/1 var(--mono);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .filter b { font-weight: 500; color: var(--ink); }
+  .filter:hover { border-color: var(--line); }
+  .filter[aria-pressed="true"] { background: var(--panel); border-color: var(--line); color: var(--ink); }
+  .filter .count { color: var(--faint); }
+
+  .table-scroll {
+    flex: 1 1 auto;
+    min-height: 220px;
+    overflow: auto;
+    border-bottom: 1px solid var(--line);
+  }
+  table { font-size: 11px; }
+  caption { text-align: left; }
+  thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: var(--panel-2);
+    border-bottom: 1px solid var(--line);
+    padding: 7px 8px;
+    text-align: left;
+    color: var(--faint);
+    font: 500 7px/1.2 var(--mono);
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  thead th.num, tbody td.num { text-align: right; }
+  tbody tr {
+    border-bottom: 1px solid var(--line-soft);
+    cursor: pointer;
+  }
+  tbody tr:last-child { border-bottom: 0; }
+  tbody tr:hover { background: #f6f9f5; }
+  tbody tr.is-selected { background: #edf6f2; box-shadow: inset 2px 0 0 var(--teal); }
+  tbody tr[data-status="review"] td { background: rgba(251, 240, 214, .28); }
+  tbody tr.is-selected td { background: transparent; }
+  tbody td { padding: 7px 8px; vertical-align: middle; }
+  .analyte-button {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+  .analyte-button:hover { color: var(--teal); }
+  .result-cell { font: 500 11px/1.2 var(--mono); white-space: nowrap; }
+  .result-cell small { display: block; margin-top: 2px; color: var(--faint); font-size: 7.5px; font-weight: 400; }
+  .range { font: 400 9.5px/1.2 var(--mono); color: var(--muted); white-space: nowrap; }
+  .flag {
+    display: inline-grid;
+    place-items: center;
+    width: 17px; height: 17px;
+    border: 1px solid #e3c58f;
+    background: var(--amber-soft);
+    color: var(--amber);
+    font: 600 8px/1 var(--mono);
+  }
+  .conf { font: 400 9.5px/1 var(--mono); color: var(--muted); }
+  .conf.low { color: var(--amber); font-weight: 500; }
+  .status-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 5px;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    font: 500 7px/1 var(--mono);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .status-chip::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: currentColor; }
+  .status-chip--confirmed { border-color: #c6dcd6; background: var(--teal-soft); color: var(--teal); }
+  .status-chip--ready { border-color: #c9d8cd; color: var(--muted); }
+  .status-chip--review { border-color: #e3c58f; background: var(--amber-soft); color: var(--amber); }
+
+  .detail {
+    flex: 0 0 auto;
+    background: var(--panel-2);
+    padding: 12px 14px 13px;
+    min-height: 208px;
+  }
+  .detail-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid var(--line);
+  }
+  .detail-kicker { color: var(--faint); font: 500 7.5px/1.4 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+  .detail-head h3 { margin-top: 4px; font-size: 13px; font-weight: 600; line-height: 1.2; }
+  .detail-main {
+    display: grid;
+    grid-template-columns: 128px minmax(0, 1fr);
+    gap: 14px;
+    padding-top: 10px;
+  }
+  .reading-value {
+    font: 600 28px/1 var(--mono);
+    letter-spacing: -.03em;
+  }
+  .reading-value span { font-size: 10px; font-weight: 400; color: var(--muted); letter-spacing: 0; margin-left: 3px; }
+  .reading-range { margin-top: 6px; color: var(--muted); font: 400 9px/1.5 var(--mono); }
+  .reading-range b { color: var(--ink); font-weight: 500; }
+  .reading-note { margin-top: 7px; color: var(--faint); font-size: 9.5px; line-height: 1.45; }
+  .checks { display: grid; gap: 5px; }
+  .check {
+    display: grid;
+    grid-template-columns: 12px minmax(0, 1fr);
+    gap: 6px;
+    font-size: 9.5px;
+    line-height: 1.4;
+    color: var(--muted);
+  }
+  .check .mark { color: var(--teal); font: 600 9px/1.4 var(--mono); }
+  .check.warn .mark { color: var(--amber); }
+  .check.warn { color: #735118; }
+  .check b { color: var(--ink); font-weight: 500; }
+  .detail-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+  }
+  .confirm-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    max-width: 245px;
+    color: var(--muted);
+    font-size: 9.5px;
+    line-height: 1.4;
+    cursor: pointer;
+  }
+  .confirm-check input { margin: 1px 0 0; accent-color: var(--teal); }
+  .detail-actions .button { min-height: 28px; }
+  .confirmed-note {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--teal);
+    font: 500 8.5px/1.4 var(--mono);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+  .confirmed-note::before { content: "✓"; font-size: 10px; }
+
+  /* ---------- interpretation ---------- */
+  .interp { padding-top: 18px; }
+  .interp-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .interp-head h2 {
+    margin-top: 8px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.02;
+    letter-spacing: -.035em;
+  }
+  .interp-head p {
+    margin-top: 9px;
+    max-width: 650px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.55;
+  }
+  .interp-head .button { flex: 0 0 auto; }
+
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border-left: 1px solid var(--line);
+    margin-top: 18px;
+  }
+  .metric {
+    min-width: 0;
+    padding: 13px 16px 15px;
+    border-right: 1px solid var(--line);
+    background: var(--panel);
+  }
+  .metric dt { color: var(--faint); font: 500 7.5px/1.4 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+  .metric dd { margin: 8px 0 0; font: 600 34px/1 var(--display); letter-spacing: -.04em; }
+  .metric dd small { display: block; margin-top: 5px; color: var(--muted); font: 400 9px/1.4 var(--mono); letter-spacing: .02em; }
+  .metric--amber dd { color: var(--amber); }
+  .metric--teal dd { color: var(--teal); }
+
+  .interp-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+    align-items: start;
+  }
+  .interp-card {
+    border: 1px solid var(--line);
+    background: var(--panel);
+    padding: 15px 16px 16px;
+    min-width: 0;
+  }
+  .interp-card h3 {
+    font: 600 8.5px/1.4 var(--mono);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .interp-card > p { margin-top: 8px; color: var(--muted); font-size: 11px; line-height: 1.55; }
+  .flag-list { margin-top: 10px; border-top: 1px solid var(--line-soft); }
+  .flag-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 3px 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .flag-row:last-child { border-bottom: 0; }
+  .flag-row .name { font-size: 11px; font-weight: 500; }
+  .flag-row .value { font: 500 11px/1.2 var(--mono); text-align: right; }
+  .flag-row .meta { grid-column: 1 / -1; color: var(--faint); font: 400 8.5px/1.4 var(--mono); }
+  .flag-row .meta b { color: var(--amber); font-weight: 500; }
+  .interp-list { margin-top: 10px; display: grid; gap: 7px; }
+  .interp-list li {
+    position: relative;
+    padding-left: 12px;
+    color: var(--muted);
+    font-size: 10.5px;
+    line-height: 1.5;
+  }
+  .interp-list li::before {
+    content: "";
+    position: absolute;
+    top: .55em; left: 0;
+    width: 4px; height: 4px;
+    background: var(--teal);
+  }
+  .interp-list li b { color: var(--ink); font-weight: 500; }
+  .source-note {
+    margin-top: 16px;
+    padding: 11px 13px;
+    border-left: 2px solid var(--amber);
+    background: var(--amber-soft);
+    color: #6d4d13;
+    font-size: 10.5px;
+    line-height: 1.55;
+  }
+  .source-note b { font-weight: 600; }
+
+  .footer {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 22px 22px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--faint);
+    font: 400 8px/1.5 var(--mono);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+
+  @media (max-height: 940px) {
+    .review-panel { max-height: none; }
+  }
+  @media (max-width: 1180px) {
+    .bench-grid { grid-template-columns: 1fr 1fr; }
+    .page-frame { width: min(100%, 470px); }
+    .review-panel { max-height: none; }
+    .detail-main { grid-template-columns: 112px minmax(0, 1fr); }
+    .interp-grid { grid-template-columns: 1fr 1fr; }
+    .interp-card:first-child { grid-row: span 2; }
+  }
+  @media (max-width: 900px) {
+    .bench-bar { grid-template-columns: auto 1fr auto; height: auto; min-height: 48px; padding: 8px 14px; gap: 12px; }
+    .bench-bar .mockup-badge { display: none; }
+    .bar-right .sample-pill { display: none; }
+    .crumb { grid-column: 1 / -1; grid-row: 2; }
+    main { padding: 18px 14px 40px; }
+    .labs-head { grid-template-columns: 1fr; align-items: start; }
+    .head-right { align-items: flex-start; }
+    .bench-grid { grid-template-columns: 1fr; }
+    .page-frame { width: min(100%, 500px); }
+    .review-panel { min-height: 0; }
+    .interp-grid { grid-template-columns: 1fr; }
+    .interp-card:first-child { grid-row: auto; }
+    .metrics { grid-template-columns: 1fr 1fr; }
+    .metric:nth-child(2) { border-right: 0; }
+  }
+  @media (max-width: 620px) {
+    .stepper { display: none; }
+    .labs-head h1 { font-size: 36px; }
+    .progress-box { flex-wrap: wrap; }
+    .page-stage { padding: 10px; }
+    .detail-main { grid-template-columns: 1fr; gap: 8px; }
+    .reading-value { font-size: 24px; }
+    .interp-head { display: block; }
+    .interp-head .button { margin-top: 14px; }
+    .metrics { grid-template-columns: 1fr; }
+    .metric { border-right: 0; border-bottom: 1px solid var(--line); }
+    .footer { flex-direction: column; gap: 6px; }
+  }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="bench-bar">
+  <a class="brand" href="index.html" aria-label="materia mockups index">
+    <span>materia</span><span class="dot" aria-hidden="true"></span>
+    <small>Bench</small>
+  </a>
+  <div class="crumb"><span>Labs</span><span class="slash">/</span><b>Amino Acids 11</b><span class="slash">/</span><span>Page 2</span></div>
+  <span class="mockup-badge">Concept 03 · static mockup</span>
+  <div class="bar-right">
+    <span class="sample-pill">Public sample report</span>
+    <a class="bar-link" href="05-bench-type.html">Type study ↗</a>
+    <a class="bar-link" id="original-link" href="#" target="_blank" rel="noopener noreferrer">Original PDF ↗</a>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <section class="labs-head">
+    <div>
+      <p class="eyebrow">Lab intake · human confirmation</p>
+      <h1>Amino acid panel</h1>
+      <p class="labs-sub">
+        <span>Genova Diagnostics 0013</span><span class="dot">·</span>
+        <span>12 analytes</span><span class="dot">·</span>
+        <span class="mono">Collected 2012-01-15</span><span class="dot">·</span>
+        <span>Sample report, not a patient</span>
+      </p>
+    </div>
+    <div class="head-right">
+      <ol class="stepper" aria-label="Lab workflow">
+        <li class="step is-done"><span class="step-num">✓</span><span>Read<small>complete</small></span></li>
+        <li class="step is-active" aria-current="step"><span class="step-num">2</span><span>Verify<small>human review</small></span></li>
+        <li class="step"><button type="button" data-view="interpret"><span class="step-num">3</span><span>Interpret<small>limits</small></span></button></li>
+      </ol>
+      <div class="progress-box">
+        <div class="progress-copy"><b id="progress-count">10/12</b><span>confirmed</span></div>
+        <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+        <button class="button" type="button" id="confirm-all">Confirm high-confidence</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="bench-grid" id="verify-view">
+    <section class="viewer" aria-labelledby="viewer-title">
+      <div class="viewer-bar">
+        <span class="title" id="viewer-title">Source page</span>
+        <span class="divider">/</span>
+        <span>Page 2 of 3</span>
+        <span class="divider">/</span>
+        <span>Text layer + OCR agree</span>
+        <div class="legend" aria-label="Highlight legend">
+          <span><i></i>confirmed</span>
+          <span><i class="review"></i>review</span>
+          <span><i class="selected"></i>selected</span>
+        </div>
+      </div>
+      <div class="page-stage">
+        <div class="page-frame" id="page-frame">
+          <span class="page-stamp">Sample report</span>
+          <img src="assets/nutripath-p2.png" width="1200" height="1553" alt="Page 2 of the Genova Diagnostics bloodspot amino acids sample report, showing 12 rows with results, quintile bars, and reference intervals.">
+          <div class="bands" id="bands" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="viewer-foot">
+        <span><b>12/12</b> rows mapped to the page</span>
+        <span>Click a row to highlight its source line</span>
+      </div>
+    </section>
+
+    <section class="review-panel" aria-labelledby="review-title">
+      <div class="review-head">
+        <div>
+          <h2 id="review-title">Extracted values</h2>
+          <p id="review-sub">12 rows · 1 needs review</p>
+        </div>
+        <span class="read-badge">Two reads agree</span>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter values">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All <span class="count">12</span></button>
+        <button class="filter" type="button" data-filter="review" aria-pressed="false">Needs review <span class="count">1</span></button>
+        <button class="filter" type="button" data-filter="flag" aria-pressed="false">Lab flags <span class="count">3</span></button>
+      </div>
+
+      <div class="table-scroll">
+        <table>
+          <caption class="sr-only">Extracted amino acid values with the lab's own reference intervals and read status</caption>
+          <thead>
+            <tr>
+              <th scope="col">Analyte</th>
+              <th scope="col" class="num">Result</th>
+              <th scope="col" class="num">Lab interval</th>
+              <th scope="col">Flag</th>
+              <th scope="col" class="num">Read</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody id="lab-rows"></tbody>
+        </table>
+      </div>
+
+      <div class="detail" id="detail" aria-live="polite"></div>
+    </section>
+  </div>
+
+  <section class="interp" id="interpret-view" hidden aria-labelledby="interp-title">
+    <div class="interp-head">
+      <div>
+        <p class="eyebrow">Step 3 · Interpretation limits</p>
+        <h2 id="interp-title">What this panel can and cannot say.</h2>
+        <p>The lab's flags are reported. No pattern rule is applied, because the corpus does not carry reference intervals for these analytes. Nothing here is a diagnosis.</p>
+      </div>
+      <button class="button" type="button" data-view="verify">← Back to values</button>
+    </div>
+
+    <dl class="metrics">
+      <div class="metric metric--amber"><dt>Rows carrying the lab's L flag</dt><dd>3<small>methionine, tryptophan, phenylalanine</small></dd></div>
+      <div class="metric"><dt>At the lower interval limit</dt><dd>2<small>methionine 10, tryptophan 24</small></dd></div>
+      <div class="metric"><dt>Inside interval, still flagged</dt><dd>1<small>phenylalanine 40 · lab quintile</small></dd></div>
+      <div class="metric metric--teal"><dt>Outside plausibility bounds</dt><dd>0<small>12 of 12 inside</small></dd></div>
+    </dl>
+
+    <div class="interp-grid">
+      <article class="interp-card">
+        <h3>Lab flags, quoted from the report</h3>
+        <p>The report's own L markers are shown exactly as printed. The UI does not infer a pattern.</p>
+        <div class="flag-list">
+          <div class="flag-row"><span class="name">Methionine</span><span class="value">10</span><span class="meta">Interval <b>10–33</b> µmol/L · at the lower limit</span></div>
+          <div class="flag-row"><span class="name">Tryptophan</span><span class="value">24</span><span class="meta">Interval <b>24–52</b> µmol/L · at the lower limit</span></div>
+          <div class="flag-row"><span class="name">Phenylalanine</span><span class="value">40</span><span class="meta">Interval <b>37–86</b> µmol/L · inside, flagged by the lab's quintile ranking</span></div>
+        </div>
+      </article>
+
+      <article class="interp-card">
+        <h3>What the corpus can say</h3>
+        <p>No reference-interval document for these 11 analytes is in the current corpus, and no named pattern rule applies.</p>
+        <ul class="interp-list">
+          <li>The lab's own interval is the <b>only reference used</b>.</li>
+          <li>The tryptophan/LNAA ratio <b>0.052</b> is compared with the report's <b>0.050–0.105</b>, not with a corpus threshold.</li>
+          <li>The panel is <b>not interpreted</b> as a pattern or a diagnosis.</li>
+        </ul>
+      </article>
+
+      <article class="interp-card">
+        <h3>What would change this</h3>
+        <p>These are document facts, not clinical claims.</p>
+        <ul class="interp-list">
+          <li>Collection date is present: <b>2012-01-15</b>. The report is historical; confirm current values.</li>
+          <li>Age- and sex-specific intervals are <b>not stated</b> beyond “ages 13 and over”.</li>
+          <li>Fasting status and specimen handling are <b>not stated</b>.</li>
+          <li>This is a <b>public sample report</b>, not a patient record.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="source-note"><b>Source note:</b> all numeric results and intervals come from page 2 of the public Genova Diagnostics “0013 Bloodspot Amino Acids 11 Profile” sample report. The corpus is not used for these intervals. No clinical interpretation is generated.</div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>Concept 03 · Bench · design target, not current CLI output</span>
+  <span>Lab page: public sample fixture · confidence values illustrative · no model running</span>
+</footer>
+
+<noscript><p style="padding:24px">This mockup needs JavaScript for row selection and confirmation.</p></noscript>
+
+<script>window.addEventListener("error", function () { document.documentElement.setAttribute("data-mockup-error", "1"); });</script>
+<script src="assets/fixtures.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  const M = window.MATERIA;
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+  const esc = (value) => String(value == null ? "" : value)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+
+  const rows = M.lab.rows.map((row) => ({ ...row }));
+  let selected = rows.findIndex((row) => row.status === "review");
+  let filter = "all";
+  let view = "verify";
+
+  const statusLabel = { confirmed: "Confirmed", ready: "Ready", review: "Review" };
+  const statusClass = { confirmed: "status-chip--confirmed", ready: "status-chip--ready", review: "status-chip--review" };
+
+  function formatValue(row) {
+    return row.unit === "ratio" ? Number(row.value).toFixed(3) : String(row.value);
+  }
+
+  function interval(row) {
+    const low = row.unit === "ratio" ? Number(row.low).toFixed(3) : String(row.low);
+    const high = row.unit === "ratio" ? Number(row.high).toFixed(3) : String(row.high);
+    return `${low}–${high}`;
+  }
+
+  function counts() {
+    const confirmed = rows.filter((row) => row.status === "confirmed").length;
+    const ready = rows.filter((row) => row.status === "ready").length;
+    const review = rows.filter((row) => row.status === "review").length;
+    return { confirmed, ready, review, total: rows.length };
+  }
+
+  function updateProgress() {
+    const c = counts();
+    $("#progress-count").textContent = `${c.confirmed}/${c.total}`;
+    $("#progress-fill").style.width = `${(c.confirmed / c.total) * 100}%`;
+    const confirmAll = $("#confirm-all");
+    const pending = c.ready;
+    confirmAll.disabled = pending === 0;
+    confirmAll.textContent = pending ? `Confirm ${pending} high-confidence` : (c.review ? "1 needs review" : "All confirmed");
+  }
+
+  function renderBands() {
+    $("#bands").innerHTML = rows.map((row, index) => (
+      `<div class="row-band${index === selected ? " is-selected" : ""}" data-status="${esc(row.status)}" style="top:${row.y}%"></div>`
+    )).join("");
+  }
+
+  function renderTable() {
+    const visible = rows.map((row, index) => ({ row, index })).filter(({ row }) => {
+      if (filter === "review") return row.status === "review";
+      if (filter === "flag") return Boolean(row.flag);
+      return true;
+    });
+
+    $("#lab-rows").innerHTML = visible.map(({ row, index }) => {
+      const lowRead = row.conf < 0.85;
+      return `<tr data-row="${index}" data-status="${esc(row.status)}" class="${index === selected ? "is-selected" : ""}">
+        <td><button class="analyte-button" type="button" data-select="${index}" aria-label="Select ${esc(row.analyte)}">${esc(row.analyte)}</button></td>
+        <td class="num result-cell">${esc(formatValue(row))}<small>${esc(row.unit)}</small></td>
+        <td class="num range">${esc(interval(row))}</td>
+        <td>${row.flag ? `<span class="flag" title="Lab low flag">${esc(row.flag)}</span>` : '<span class="range">—</span>'}</td>
+        <td class="num"><span class="conf ${lowRead ? "low" : ""}">${Math.round(row.conf * 100)}%</span></td>
+        <td><span class="status-chip ${statusClass[row.status]}">${esc(statusLabel[row.status])}</span></td>
+      </tr>`;
+    }).join("") || '<tr><td colspan="6" style="padding:18px 10px;color:#8b978e">No rows match this filter.</td></tr>';
+
+    $("#review-sub").textContent = `${rows.length} rows · ${counts().review} needs review`;
+    $$(".filter").forEach((button) => {
+      const key = button.dataset.filter;
+      const count = key === "review" ? counts().review : key === "flag" ? rows.filter((row) => row.flag).length : rows.length;
+      const badge = button.querySelector(".count");
+      if (badge) badge.textContent = String(count);
+      button.setAttribute("aria-pressed", String(filter === key));
+    });
+    updateProgress();
+  }
+
+  function checkMarkup(ok, label, note, warn) {
+    return `<div class="check${warn ? " warn" : ""}"><span class="mark" aria-hidden="true">${warn ? "!" : "✓"}</span><span><b>${esc(label)}</b>${note ? ` — ${esc(note)}` : ""}</span></div>`;
+  }
+
+  function renderDetail() {
+    const row = rows[selected];
+    if (!row) return;
+    const lowRead = row.conf < 0.85;
+    const atLimit = row.value === row.low || row.value === row.high;
+    const isReview = row.status === "review";
+    const isConfirmed = row.status === "confirmed";
+    const flagNote = row.flag
+      ? (row.value > row.low && row.value < row.high
+          ? "Value is inside the interval but carries the lab's L flag from its quintile ranking."
+          : "Value sits at the interval limit and carries the lab's L flag.")
+      : "";
+    const checks = [
+      checkMarkup(true, "Plausibility", "value is inside the wide physiological bound"),
+      checkMarkup(true, "Unit", `${row.unit} recognised`),
+      checkMarkup(true, "Interval", "present on the source page"),
+      checkMarkup(true, "Collection date", M.lab.doc.collected),
+      lowRead
+        ? checkMarkup(false, "Read confidence", `${Math.round(row.conf * 100)}% is below the 85% threshold for numeric fields`, true)
+        : checkMarkup(true, "Read confidence", `${Math.round(row.conf * 100)}%, above the 85% threshold`),
+      row.flag ? checkMarkup(true, "Lab flag", flagNote, row.flag && row.value > row.low) : ""
+    ].join("");
+
+    const actions = isConfirmed
+      ? `<span class="confirmed-note">Confirmed by practitioner</span><button class="button" type="button" disabled>Confirmed</button>`
+      : `<div class="detail-actions">
+          ${isReview ? `<label class="confirm-check"><input type="checkbox" id="compare-check"> I compared this value with the source page</label>` : ""}
+          <button class="button button--primary" type="button" id="confirm-value" ${isReview ? "disabled" : ""}>Confirm value</button>
+        </div>`;
+
+    $("#detail").innerHTML = `<div class="detail-head">
+        <div><p class="detail-kicker">Row ${String(selected + 1).padStart(2, "0")} of ${rows.length} · ${esc(row.analyte)}</p><h3>${esc(row.analyte)} <span class="flag" title="Lab low flag" style="display:${row.flag ? "inline-grid" : "none"}">${esc(row.flag || "")}</span></h3></div>
+        <span class="status-chip ${statusClass[row.status]}">${esc(statusLabel[row.status])}</span>
+      </div>
+      <div class="detail-main">
+        <div>
+          <div class="reading-value">${esc(formatValue(row))}<span>${esc(row.unit)}</span></div>
+          <p class="reading-range">Lab interval <b>${esc(interval(row))}</b></p>
+          <p class="reading-note">${atLimit ? "At the interval limit." : (row.value > row.low && row.value < row.high ? "Inside the lab's interval." : "Outside the lab's interval.")}</p>
+        </div>
+        <div class="checks">${checks}</div>
+      </div>
+      ${actions}`;
+
+    const checkbox = $("#compare-check");
+    if (checkbox) {
+      checkbox.addEventListener("change", () => {
+        const button = $("#confirm-value");
+        if (button) button.disabled = !checkbox.checked;
+      });
+    }
+    const button = $("#confirm-value");
+    if (button) {
+      button.addEventListener("click", () => {
+        rows[selected].status = "confirmed";
+        renderAll();
+        $("#detail").scrollIntoView({ block: "nearest" });
+      });
+    }
+  }
+
+  function renderAll() {
+    renderBands();
+    renderTable();
+    renderDetail();
+  }
+
+  function selectRow(index) {
+    selected = index;
+    renderAll();
+  }
+
+  function setFilter(next) {
+    filter = next;
+    const visible = rows.map((row, index) => ({ row, index })).filter(({ row }) => {
+      if (filter === "review") return row.status === "review";
+      if (filter === "flag") return Boolean(row.flag);
+      return true;
+    });
+    if (visible.length && !visible.some(({ index }) => index === selected)) {
+      selected = visible[0].index;
+    }
+    renderAll();
+  }
+
+  function setView(next) {
+    view = next;
+    const interpret = view === "interpret";
+    $("#verify-view").hidden = interpret;
+    $("#interpret-view").hidden = !interpret;
+    document.title = interpret ? "materia — Bench · interpretation" : "materia — Bench";
+    $$("[data-view]").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.view === view));
+    });
+    $("#confirm-all").hidden = interpret;
+    if (interpret) {
+      $(".stepper .step:nth-child(2)").classList.remove("is-active");
+      $(".stepper .step:nth-child(3)").classList.add("is-active");
+      $(".stepper .step:nth-child(3)").setAttribute("aria-current", "step");
+    } else {
+      $(".stepper .step:nth-child(2)").classList.add("is-active");
+      $(".stepper .step:nth-child(3)").classList.remove("is-active");
+      $(".stepper .step:nth-child(3)").removeAttribute("aria-current");
+    }
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  document.addEventListener("click", (event) => {
+    const select = event.target.closest("[data-select]");
+    if (select) { selectRow(Number(select.dataset.select)); return; }
+
+    const row = event.target.closest("tr[data-row]");
+    if (row && !event.target.closest("button")) { selectRow(Number(row.dataset.row)); return; }
+
+    const filterButton = event.target.closest("[data-filter]");
+    if (filterButton) { setFilter(filterButton.dataset.filter); return; }
+
+    const viewButton = event.target.closest("[data-view]");
+    if (viewButton) { setView(viewButton.dataset.view); return; }
+  });
+
+  $("#confirm-all").addEventListener("click", () => {
+    rows.forEach((row) => {
+      if (row.status === "ready") row.status = "confirmed";
+    });
+    renderAll();
+  });
+
+  $("#original-link").href = M.lab.doc.url;
+
+  const initial = location.hash.replace("#", "");
+  if (initial === "interpret") {
+    renderAll();
+    setView("interpret");
+  } else if (initial === "review") {
+    filter = "review";
+    selected = rows.findIndex((row) => row.status === "review");
+    renderAll();
+  } else {
+    renderAll();
+  }
+  document.documentElement.setAttribute("data-mockup-ready", "1");
+})();
+</script>
+</body>
+</html>

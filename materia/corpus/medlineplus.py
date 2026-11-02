@@ -60,6 +60,7 @@ ARTICLES: dict[str, tuple[str, list[str]]] = {
     "003484": ("Potassium test", ["potassium"]),
     "003481": ("Sodium blood test", ["sodium"]),
     "003476": ("Uric acid - blood", ["uric acid"]),
+    "003686": ("Folic acid - test", ["folate"]),
     "000354": ("Folate deficiency", ["folate"]),
     "002405": ("Vitamin D", ["vitamin d"]),
     "000315": ("Magnesium deficiency", ["magnesium"]),
@@ -70,6 +71,19 @@ SECTION_MAP: list[tuple[str, str, str]] = [
     (r"abnormal result", "reference_interval", "diagnostic"),
     (r"why the test", "evidence", "diagnostic"),
     (r"how the test is performed|how to prepare|how the test will feel", "methodology", "other"),
+    # Encyclopedia pages for deficiencies carry the clinical context a lab test page
+    # does not: what causes the abnormality, how it is confirmed, and what treatment
+    # looks like. They are tagged so the recommendation engine can retrieve them.
+    (r"exams and tests", "reference_interval", "diagnostic"),
+    (r"causes", "differential", "diagnostic"),
+    (r"symptoms", "differential", "diagnostic"),
+    (r"treatment", "indications", "efficacy"),
+    (r"prevention", "indications", "efficacy"),
+    (r"recommendations", "reference_interval", "diagnostic"),
+    (r"food sources", "indications", "efficacy"),
+    (r"side effects", "cautions", "safety"),
+    (r"possible complications", "cautions", "safety"),
+    (r"when to contact", "red_flags", "safety"),
 ]
 
 

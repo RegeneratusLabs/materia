@@ -1,0 +1,748 @@
+# Recommendation graph: pattern -> intervention -> cited dose, monitoring, safety.
+#
+# Every option is an edge with a source. The model does not invent options; it can explain
+# them. `dose.quote` and every number in `dose.text` must be a substring of the cited
+# chunk, or the rule is withheld (tests enforce this).
+#
+# grade: A = guideline/regulatory + consistent trials; B = regulatory + supportive trials;
+#        C = traditional/limited/conflicting evidence. The grade is shown, never hidden.
+
+recommendations:
+  - id: oral-iron-alternate-day
+    pattern: iron_deficiency
+    intervention: Oral iron
+    kind: nutrient
+    goal: Restore iron stores and improve fatigue or anaemia.
+    grade: B
+    rank_hint: 1.0
+    dose:
+      chunk: pmc-pmc13449291#030
+      quote: "60-120 mg elemental iron on alternate days"
+      text: "60–120 mg elemental iron on alternate days"
+      note: "The review describes alternate-day dosing as a strategy that may optimise absorption and tolerability."
+    evidence:
+      - pmc-pmc13449291#030
+      - pmc-pmc13449291#035
+      - medlineplus-003490#006
+    monitoring:
+      text: "Recheck ferritin and haemoglobin 8–12 weeks after starting; treat toward ferritin above 50–100 ng/mL."
+      chunk: pmc-pmc13449291#035
+    safety:
+      veto_contexts: [iron_overload]
+      flag_contexts: [pregnancy, kidney_disease, child, ppi]
+      flag_if:
+        - when: {analyte: crp, op: ">", value: 5, unit: mg/L}
+          label: "inflammation can raise ferritin; interpret with CRP"
+      avoid_if:
+        - {analyte: ferritin, op: ">", value: 300, unit: µg/L}
+      notes:
+        - text: "Gastrointestinal effects are the main barrier; lower-dose or alternate-day regimens improve tolerance."
+          chunk: pmc-pmc13449291#031
+        - text: "Chronic acid blockade can reduce the absorption of essential micronutrients, such as vitamin B12, magnesium, calcium, and iron."
+          chunk: pmc-pmc13127095#001
+        - text: "Taking iron away from tea, coffee, calcium-containing foods and antacids improves absorption."
+          chunk: pmc-pmc13449291#031
+
+  - id: oral-b12
+    pattern: b12_deficiency
+    intervention: Oral vitamin B12
+    kind: nutrient
+    goal: Correct B12 deficiency and prevent neurological progression.
+    grade: B
+    rank_hint: 1.0
+    dose:
+      chunk: pmc-pmc13634279#069
+      quote: "2 mg of oral cyanocobalamin"
+      text: "2 mg/day oral cyanocobalamin"
+      note: "The systematic review found 2 mg/day oral cyanocobalamin as effective as monthly intramuscular 1 mg; methylcobalamin is an alternative."
+    evidence:
+      - pmc-pmc13634279#069
+      - pmc-pmc13634279#076
+      - medlineplus-003705#006
+    monitoring:
+      text: "Recheck B12 and methylmalonic acid after 8–12 weeks; confirm the cause if deficiency is proven."
+      chunk: pmc-pmc13634279#069
+    safety:
+      veto_contexts: []
+      flag_contexts: [pregnancy, breastfeeding, ppi, child]
+      notes:
+        - text: "Both oral and sublingual methylcobalamin 1,500 µg/day normalised B12 in about two-thirds of participants over three months."
+          chunk: pmc-pmc13634279#076
+        - text: "Chronic acid blockade can reduce the absorption of essential micronutrients, such as vitamin B12, magnesium, calcium, and iron."
+          chunk: pmc-pmc13127095#001
+
+  - id: vitamin-d3
+    pattern: vitamin_d_insufficiency
+    intervention: Vitamin D3 (cholecalciferol)
+    kind: nutrient
+    goal: Raise 25(OH)D into the sufficient range.
+    grade: A
+    rank_hint: 1.0
+    dose:
+      chunk: hc-nhpid-vitamin-d-hd#004
+      quote: "25 µg (> 1,000 IU*)"
+      text: "1,000–2,500 IU/day (25–62.5 µg)"
+      note: "Health Canada's monograph sets 25–62.5 µg/day for adults; higher repletion doses need supervision."
+    evidence:
+      - hc-nhpid-vitamin-d-hd#004
+      - pmc-pmc13363889#048
+      - hc-nhpid-vitamin-d-hd#002
+    monitoring:
+      text: "Repeat 25(OH)D after 8–12 weeks; check calcium if the dose is high or kidney disease is present."
+      chunk: pmc-pmc13363889#048
+    safety:
+      veto_contexts: [hypercalcaemia]
+      flag_contexts: [kidney_disease, kidney_stones, pregnancy, child, thiazide]
+      flag_if:
+        - when: {analyte: egfr, op: "<", value: 60, unit: mL/min/1.73m2}
+          label: "reduced eGFR"
+      avoid_if:
+        - {analyte: calcium, op: ">", value: 2.58, unit: mmol/L}
+      notes:
+        - text: "Take with an adequate intake of calcium."
+          chunk: hc-nhpid-vitamin-d-hd#005
+        - text: "Thiazide diuretics reduce urinary calcium excretion, increasing calcium reabsorption and hypercalcemia."
+          chunk: pmc-pmc12423746#001
+
+  - id: milk-thistle
+    pattern: liver_enzyme_elevation
+    intervention: Milk thistle (silymarin)
+    kind: herb
+    goal: Support liver function while the cause of enzyme elevation is investigated.
+    grade: C
+    rank_hint: 0.6
+    dose:
+      chunk: hc-nhpid-milk-thistle-oral#004
+      quote: "140 - 600 milligrams of silymarin (calculated as silibin/silybin), per day"
+      text: "140–600 mg silymarin/day"
+      note: "Regulatory monograph dose; clinical trial evidence for liver enzymes is conflicting or limited."
+    evidence:
+      - hc-nhpid-milk-thistle-oral#004
+      - nccih-milk-thistle#004
+      - nccih-milk-thistle#005
+    monitoring:
+      text: "Repeat liver enzymes after 4–8 weeks; stop if enzymes rise or new symptoms appear."
+      chunk: medlineplus-003473#006
+    safety:
+      veto_contexts: [ragweed_allergy]
+      flag_contexts: [pregnancy, breastfeeding, anticoagulant, surgery, child]
+      flag_if:
+        - when: {analyte: inr, op: ">", value: 3.0, unit: ratio}
+          label: "raised INR"
+        - when: {analyte: platelets, ref: low}
+          label: "low platelets"
+      notes:
+        - text: "Clinical trials in liver disease have been conflicting or too limited to conclude benefit; this is not a substitute for investigating the cause."
+          chunk: nccih-milk-thistle#004
+        - text: "Milk thistle is generally well tolerated; the most common effects are bloating, nausea and gas."
+          chunk: nccih-milk-thistle#005
+
+  - id: fish-oil-triglycerides
+    pattern: high_triglycerides
+    intervention: Omega-3 fatty acids (EPA + DHA)
+    kind: nutrient
+    goal: Lower triglycerides alongside diet and exercise.
+    grade: B
+    rank_hint: 0.9
+    dose:
+      chunk: hc-nhpid-fish-oil-huile-poisson#003
+      quote: "1,000-5,000 mg EPA and DHA"
+      text: "1,000–5,000 mg EPA + DHA/day"
+      note: "Regulatory claim dose; choose a product with verified EPA and DHA content."
+    evidence:
+      - hc-nhpid-fish-oil-huile-poisson#003
+      - pmc-pmc13467960#001
+    monitoring:
+      text: "Repeat the fasting lipid panel after 8–12 weeks; review bleeding risk if on anticoagulants."
+      chunk: medlineplus-003493#006
+    safety:
+      veto_contexts: [fish_allergy, bleeding_disorder]
+      flag_contexts: [anticoagulant, antiplatelet, surgery, pregnancy, child]
+      flag_if:
+        - when: {analyte: inr, op: ">", value: 3.0, unit: ratio}
+          label: "raised INR"
+        - when: {analyte: platelets, ref: low}
+          label: "low platelets"
+      notes:
+        - text: "At pharmacological doses, high-dose purified EPA was associated with a modest but consistent increase in atrial fibrillation risk; risk stratification is needed."
+          chunk: pmc-pmc13467960#001
+        - text: "Omega-3 fatty acids may be limited by bleeding risk or drug interactions."
+          chunk: pmc-pmc12564107#001
+
+  - id: folate-oral
+    pattern: folate_deficiency
+    intervention: Folic acid
+    kind: nutrient
+    goal: Correct folate deficiency and support red-cell formation.
+    grade: B
+    rank_hint: 1.0
+    dose:
+      chunks:
+        - medlineplus-000354#005
+        - hc-nhpid-multi-vitmin-doses#001
+      quote: "400 µg of folate daily"
+      text: "400–1,000 µg/day folic acid"
+      note: "400 µg is the public-health prevention dose; 1,000 µg is the regulatory maximum for a multivitamin. Check B12 first."
+    evidence:
+      - medlineplus-000354#005
+      - hc-nhpid-multi-vitmin-doses#001
+      - medlineplus-003686#005
+      - medlineplus-003686#006
+    monitoring:
+      text: "Recheck folate and B12 after 8–12 weeks."
+      chunk: medlineplus-003686#006
+    safety:
+      veto_contexts: []
+      flag_contexts: [child]
+      notes: []
+
+  - id: magnesium-oral
+    pattern: magnesium_low
+    intervention: Oral magnesium
+    kind: nutrient
+    goal: Replete magnesium and reduce symptoms.
+    grade: B
+    rank_hint: 1.0
+    dose:
+      chunks:
+        - pmc-pmc13391447#026
+        - pmc-pmc13391447#012
+      quote: "Typical supplementation doses of elemental magnesium are 300–400 mg/day for 3 months."
+      text: "300–350 mg/day elemental magnesium"
+      note: "The review's typical range is 300–400 mg/day; the displayed range is capped at the 350 mg/day supplement upper intake."
+    evidence:
+      - pmc-pmc13391447#026
+      - pmc-pmc13391447#012
+      - hc-nhpid-multi-vitmin-doses#004
+      - medlineplus-003487#004
+      - medlineplus-003487#006
+    monitoring:
+      text: "Recheck magnesium and kidney function after 4–8 weeks; reduce the dose if diarrhea occurs."
+      chunk: medlineplus-003487#006
+    safety:
+      veto_contexts: [kidney_disease]
+      flag_contexts: [pregnancy, child, ppi]
+      flag_if:
+        - when: {analyte: egfr, op: "<", value: 60, unit: mL/min/1.73m2}
+          label: "reduced eGFR"
+      avoid_if:
+        - {analyte: egfr, op: "<", value: 30, unit: mL/min/1.73m2}
+      notes:
+        - text: "Only a small amount of the body's total amount of magnesium is found in the blood."
+          chunk: medlineplus-003487#004
+        - text: "Routine administration of these supplements in patients with renal insufficiency should be avoided to prevent hypermagnesemia."
+          chunk: pmc-pmc13391447#050
+        - text: "Chronic acid blockade can reduce the absorption of essential micronutrients, such as vitamin B12, magnesium, calcium, and iron."
+          chunk: pmc-pmc13127095#001
+
+  - id: iron-absorption
+    pattern: iron_deficiency
+    intervention: Iron absorption and tolerance
+    kind: lifestyle
+    goal: Improve absorption and reduce gastrointestinal effects.
+    grade: B
+    rank_hint: 0.8
+    evidence:
+      - pmc-pmc13449291#031
+    monitoring:
+      text: "Take iron with a small amount of food if needed; separate it from tea, coffee, calcium and antacids."
+      chunk: pmc-pmc13449291#031
+    safety:
+      veto_contexts: [iron_overload]
+      flag_contexts: []
+      avoid_if:
+        - {analyte: ferritin, op: ">", value: 300, unit: µg/L}
+      notes: []
+
+  - id: liver-investigate
+    pattern: liver_enzyme_elevation
+    intervention: Investigate the cause
+    kind: referral
+    goal: Identify the cause before attributing the enzyme rise to a supplement.
+    grade: B
+    rank_hint: 1.1
+    evidence:
+      - medlineplus-003473#006
+      - medlineplus-003472#006
+    monitoring:
+      text: "Repeat the panel in 2–4 weeks; review alcohol, medicines, viral hepatitis and metabolic risk; image the liver if persistent."
+      chunk: medlineplus-003473#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "An increased ALT level is often a sign of liver disease, especially when other liver tests are also raised."
+          chunk: medlineplus-003473#006
+
+  - id: triglyceride-lifestyle
+    pattern: high_triglycerides
+    intervention: Diet, exercise and weight
+    kind: lifestyle
+    goal: Lower triglycerides before adding a supplement.
+    grade: B
+    rank_hint: 1.05
+    evidence:
+      - medlineplus-003493#006
+    monitoring:
+      text: "Repeat the fasting lipid panel after 8–12 weeks; address alcohol, refined carbohydrate, weight and activity."
+      chunk: medlineplus-003493#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "Treatment of elevated triglyceride levels focuses on increased exercise and changes in the diet."
+          chunk: medlineplus-003493#006
+
+  - id: thyroid-review
+    pattern: thyroid_underactive
+    intervention: Thyroid function review
+    kind: referral
+    goal: Confirm persistent hypothyroidism and identify the cause before using iodine or a thyroid herb.
+    grade: B
+    rank_hint: 1.1
+    evidence:
+      - medlineplus-003684#006
+      - medlineplus-003517#006
+    monitoring:
+      text: "Repeat TSH and free T4; check thyroid peroxidase antibodies; review medicines, pregnancy and iodine intake."
+      chunk: medlineplus-003684#006
+    safety:
+      veto_contexts: []
+      flag_contexts: [pregnancy]
+      notes:
+        - text: "A higher-than-normal TSH level is most often due to an underactive thyroid gland."
+          chunk: medlineplus-003684#006
+
+  - id: dysglycaemia-review
+    pattern: dysglycaemia
+    intervention: Metabolic risk review
+    kind: referral
+    goal: Confirm dysglycaemia and address diet, activity, weight and cardiovascular risk before adding a supplement.
+    grade: B
+    rank_hint: 1.1
+    evidence:
+      - medlineplus-003640#005
+      - medlineplus-003640#006
+    monitoring:
+      text: "Repeat A1C or fasting glucose; assess blood pressure, lipids, kidney function and weight."
+      chunk: medlineplus-003640#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "An abnormal A1C result means that you have had a high blood sugar level over a period of weeks to months."
+          chunk: medlineplus-003640#006
+
+  - id: ldl-review
+    pattern: elevated_ldl
+    intervention: Cardiovascular risk review
+    kind: referral
+    goal: Assess cardiovascular risk and whether lifestyle or medication is indicated before adding a supplement.
+    grade: B
+    rank_hint: 1.1
+    evidence:
+      - medlineplus-007812#005
+      - medlineplus-007812#006
+    monitoring:
+      text: "Repeat the lipid panel; review blood pressure, smoking, diabetes, kidney function and family history."
+      chunk: medlineplus-007812#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "If your lipid profile testing is abnormal, your provider may recommend lifestyle changes, cholesterol-lowering medicine, or continued monitoring."
+          chunk: medlineplus-007812#006
+
+  - id: iron-overload-review
+    pattern: iron_overload
+    intervention: Iron overload review
+    kind: referral
+    goal: Confirm iron loading and protect against iron supplementation.
+    grade: B
+    rank_hint: 1.2
+    evidence:
+      - medlineplus-003490#006
+      - medlineplus-003488#006
+    monitoring:
+      text: "Repeat fasting ferritin and transferrin saturation; check HFE genotype and liver iron where indicated."
+      chunk: medlineplus-003490#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "Too much iron in the body (hemochromatosis) can cause a high ferritin level."
+          chunk: medlineplus-003490#006
+
+  - id: hypercalcaemia-review
+    pattern: hypercalcaemia
+    intervention: High calcium review
+    kind: referral
+    goal: Identify the cause and stop calcium or vitamin D supplements until assessed.
+    grade: B
+    rank_hint: 1.2
+    evidence:
+      - medlineplus-003477#006
+    monitoring:
+      text: "Repeat calcium; check PTH, 25(OH)D, kidney function and malignancy risk; urgent if symptoms are present."
+      chunk: medlineplus-003477#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "A higher than normal calcium level may be due to a number of health conditions, including consuming too much calcium or vitamin D, hyperparathyroidism or malignancy."
+          chunk: medlineplus-003477#006
+
+  - id: inflammation-review
+    pattern: inflammation
+    intervention: Inflammation cause review
+    kind: referral
+    goal: Identify the cause of the raised marker rather than treating the number.
+    grade: B
+    rank_hint: 1.1
+    evidence:
+      - medlineplus-003356#005
+      - medlineplus-003356#006
+    monitoring:
+      text: "Repeat CRP and look for infection, inflammation, autoimmune disease or malignancy."
+      chunk: medlineplus-003356#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "A higher than normal CRP level may be a sign of inflammation or infection."
+          chunk: medlineplus-003356#006
+
+  - id: triglyceride-urgent-review
+    pattern: high_triglycerides
+    kind: referral
+    intervention: Urgent triglyceride review
+    goal: Reduce pancreatitis risk when triglycerides are very high.
+    grade: B
+    rank_hint: 1.2
+    when:
+      - {analyte: triglycerides, op: ">", value: 5.6, unit: mmol/L}
+    evidence:
+      - medlineplus-003493#006
+    monitoring:
+      text: "Arrange urgent clinical review; repeat fasting lipids and address alcohol, diet, diabetes and medicines."
+      chunk: medlineplus-003493#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "Medicines to lower triglyceride levels may be used to prevent pancreatitis for levels above 500 mg/dL."
+          chunk: medlineplus-003493#006
+
+  - id: curcumin-ldl
+    pattern: elevated_ldl
+    intervention: Curcumin (turmeric extract)
+    kind: herb
+    goal: Support lipid lowering alongside diet, exercise and cardiovascular risk review.
+    grade: C
+    rank_hint: 0.7
+    dose:
+      chunk: hc-nhpid-curcumin-curcumine2#003
+      quote: "Not to exceed 1500 milligrams curcuminoids per day"
+      text: "1,500 mg/day curcuminoids"
+      note: "Regulatory maximum; the lipid meta-analysis used 80–1,890 mg/day across different formulations, so milligram dose is not directly comparable."
+    evidence:
+      - hc-nhpid-curcumin-curcumine2#003
+      - pmc-pmc12736498#025
+      - hc-nhpid-curcumin-curcumine2#004
+    monitoring:
+      text: "Repeat the lipid panel after 8–12 weeks; stop if liver enzymes rise or new symptoms appear."
+      chunk: hc-nhpid-curcumin-curcumine2#004
+    safety:
+      veto_contexts: []
+      flag_contexts: [pregnancy, breastfeeding, liver_disease, anticoagulant, antiplatelet, surgery, child]
+      flag_if:
+        - when: {analyte: alt, ref: high}
+          label: "raised ALT"
+        - when: {analyte: ast, ref: high}
+          label: "raised AST"
+        - when: {analyte: inr, op: ">", value: 3.0, unit: ratio}
+          label: "raised INR"
+        - when: {analyte: platelets, ref: low}
+          label: "low platelets"
+      notes:
+        - text: "Ask a health care practitioner before use if you are pregnant or breastfeeding."
+          chunk: hc-nhpid-curcumin-curcumine2#004
+        - text: "Ask a health care practitioner before use if you have a liver or biliary disorder."
+          chunk: hc-nhpid-curcumin-curcumine2#004
+        - text: "Ask a health care practitioner before use if you are taking medications including blood thinners."
+          chunk: hc-nhpid-curcumin-curcumine2#004
+
+  - id: berberine-dysglycaemia
+    pattern: dysglycaemia
+    intervention: Berberine
+    kind: herb
+    goal: Improve glycaemic control alongside the metabolic risk review.
+    grade: C
+    rank_hint: 0.75
+    dose:
+      chunk: pmc-pmc11723399#036
+      quote: "berberine consumption at a dose of 1 g/day for three months"
+      text: "1 g/day berberine"
+      note: "The review's most consistent single-agent dose is 1 g/day in recent-onset T2DM. Product quality varies; use a verified product."
+    evidence:
+      - pmc-pmc11723399#036
+      - pmc-pmc13606907#002
+      - epmc-42653808#003
+    monitoring:
+      text: "Recheck A1C or fasting glucose after 8–12 weeks; review glucose-lowering medicines and liver enzymes."
+      chunk: pmc-pmc11723399#036
+    safety:
+      veto_contexts: [pregnancy, breastfeeding]
+      flag_contexts: [liver_disease, kidney_disease, diabetes, anticoagulant, antiplatelet, immunosuppression, surgery, child]
+      flag_if:
+        - when: {analyte: egfr, op: "<", value: 60, unit: mL/min/1.73m2}
+          label: "reduced eGFR"
+        - when: {analyte: alt, ref: high}
+          label: "raised ALT"
+        - when: {analyte: ast, ref: high}
+          label: "raised AST"
+        - when: {analyte: inr, op: ">", value: 3.0, unit: ratio}
+          label: "raised INR"
+        - when: {analyte: platelets, ref: low}
+          label: "low platelets"
+      notes:
+        - text: "In patients on multiple medications, and particularly when berberine is co-administered with drugs of narrow therapeutic index, it should be managed as an active pharmacological perpetrator rather than as an inert supplement."
+          chunk: epmc-42653808#003
+        - text: "Berberine use should therefore be elicited routinely at medication reconciliation and stratified by mechanism, by victim-drug vulnerability, and by patient risk."
+          chunk: epmc-42653808#004
+        - text: "Omega-3 fatty acids, berberine, garlic, and nattokinase exert favorable metabolic and vascular effects, yet their clinical efficacy depends on formulation, dosage, and patient characteristics and may be limited by bleeding risk or drug interactions."
+          chunk: pmc-pmc12564107#001
+
+  - id: zinc-oral
+    pattern: zinc_deficiency
+    intervention: Oral zinc
+    kind: nutrient
+    goal: Replete zinc and support haemoglobin where zinc deficiency is contributing.
+    grade: C
+    rank_hint: 0.9
+    dose:
+      chunk: pmc-pmc13512597#048
+      quote: "Zinc deficiency-associated anemia is typically treated with approximately 50 mg of elemental zinc once daily"
+      text: "50 mg/day elemental zinc"
+      note: "The review's usual dose is about 50 mg elemental zinc daily; prolonged high-dose zinc needs copper monitoring."
+    evidence:
+      - pmc-pmc13512597#048
+      - pmc-pmc13512597#016
+      - pmc-pmc13512597#065
+    monitoring:
+      text: "Recheck serum zinc and haemoglobin at 3 months; monitor copper during prolonged use."
+      chunk: pmc-pmc13512597#063
+    safety:
+      veto_contexts: []
+      flag_contexts: [pregnancy, child, kidney_disease, ppi]
+      flag_if:
+        - when: {analyte: egfr, op: "<", value: 60, unit: mL/min/1.73m2}
+          label: "reduced eGFR"
+      notes:
+        - text: "Serum zinc deficiency is generally defined as <60 μg/dL."
+          chunk: pmc-pmc13512597#063
+        - text: "Copper deficiency represents an important interaction."
+          chunk: pmc-pmc13512597#016
+        - text: "These effects have been reported with chronic zinc intake of 100–300 mg/day."
+          chunk: pmc-pmc13512597#065
+
+  - id: hdl-lifestyle
+    pattern: low_hdl
+    intervention: Activity, diet and weight
+    kind: lifestyle
+    goal: Raise HDL and reduce cardiovascular risk through exercise, diet and weight change.
+    grade: B
+    rank_hint: 1.05
+    evidence:
+      - medlineplus-007810#006
+    monitoring:
+      text: "Repeat the lipid panel after 8–12 weeks; review activity, saturated fat, refined carbohydrate, weight, smoking and diabetes."
+      chunk: medlineplus-007810#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "Overall, the treatment of low HDL focuses on increased exercise and changes in the diet."
+          chunk: medlineplus-007810#006
+
+  - id: homocysteine-review
+    pattern: hyperhomocysteinaemia
+    intervention: Homocysteine cause review
+    kind: referral
+    goal: Identify the driver — B12, folate, B6, kidney function, thyroid or lifestyle — before supplementing.
+    grade: B
+    rank_hint: 0.85
+    evidence:
+      - pmc-pmc13401327#010
+    monitoring:
+      text: "Repeat homocysteine after addressing a proven deficiency; recheck B12, folate, B6 and renal function."
+      chunk: pmc-pmc13401327#010
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "Hyperhomocysteinaemia was defined as serum homocysteine >15 µmol/L."
+          chunk: pmc-pmc13401327#010
+
+  - id: vitamin-d-lifestyle
+    pattern: vitamin_d_insufficiency
+    intervention: Sun exposure and diet
+    kind: lifestyle
+    goal: Support vitamin D status through safe sun exposure and dietary sources.
+    grade: C
+    rank_hint: 0.9
+    evidence:
+      - medlineplus-002405#004
+    monitoring:
+      text: "Discuss skin-cancer risk, latitude, season and skin type; repeat 25(OH)D after 8–12 weeks."
+      chunk: medlineplus-002405#004
+    safety:
+      veto_contexts: [hypercalcaemia]
+      flag_contexts: []
+      avoid_if:
+        - {analyte: calcium, op: ">", value: 2.58, unit: mmol/L}
+      notes:
+        - text: "Some experts have suggested that a few minutes of sunlight directly on the skin of your face, arms, back, or legs (without sunscreen) every day can produce the body's requirement of vitamin D."
+          chunk: medlineplus-002405#004
+        - text: "Exposure to sunlight is a risk for skin cancer."
+          chunk: medlineplus-002405#004
+
+  - id: renal-review
+    pattern: reduced_egfr
+    intervention: Kidney function review
+    kind: referral
+    goal: Confirm persistent reduced eGFR and protect kidney function before adding supplements.
+    grade: B
+    rank_hint: 1.1
+    evidence:
+      - pmc-pmc13525924#001
+      - pmc-pmc13525924#003
+    monitoring:
+      text: "Repeat eGFR after at least 3 months; check urine albumin-to-creatinine ratio, blood pressure, diabetes and medicines."
+      chunk: pmc-pmc13525924#003
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "Most large-scale studies do not monitor the transition between CKD states over time using repeated measurements for at least three months."
+          chunk: pmc-pmc13525924#003
+
+  - id: urate-lifestyle
+    pattern: hyperuricaemia
+    intervention: Hydration, alcohol and purine review
+    kind: lifestyle
+    goal: Lower urate through hydration, reduced alcohol and purine intake, and weight change.
+    grade: B
+    rank_hint: 1.0
+    evidence:
+      - medlineplus-003476#005
+    monitoring:
+      text: "Repeat uric acid; assess gout, kidney function, alcohol, purine intake and medicines."
+      chunk: medlineplus-003476#005
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "High levels of uric acid can sometimes cause gout or kidney disease."
+          chunk: medlineplus-003476#003
+
+  - id: bilirubin-review
+    pattern: hyperbilirubinaemia
+    intervention: Bilirubin cause review
+    kind: referral
+    goal: Identify whether the rise is hepatic, cholestatic or haemolytic before supplementing.
+    grade: B
+    rank_hint: 1.1
+    evidence:
+      - medlineplus-003479#004
+      - medlineplus-003479#006
+    monitoring:
+      text: "Repeat and fractionate bilirubin; check liver enzymes, blood count/haemolysis and medicines."
+      chunk: medlineplus-003479#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "A level of bilirubin in the blood of 2.0 mg/dL can create jaundice."
+          chunk: medlineplus-003479#004
+
+  - id: albumin-review
+    pattern: hypoalbuminaemia
+    intervention: Albumin cause review
+    kind: referral
+    goal: Determine whether low albumin reflects liver, kidney, inflammation or nutrition before supplementing.
+    grade: B
+    rank_hint: 1.1
+    evidence:
+      - medlineplus-003480#004
+      - medlineplus-003480#006
+    monitoring:
+      text: "Repeat albumin; check liver enzymes, kidney function, CRP and protein intake/absorption."
+      chunk: medlineplus-003480#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "This test can help determine if you have liver disease or kidney disease, or if your body is not absorbing enough protein."
+          chunk: medlineplus-003480#004
+
+  - id: platelet-review
+    pattern: thrombocytosis
+    intervention: Platelet cause review
+    kind: referral
+    goal: Identify reactive or clonal causes of a high platelet count before supplementing.
+    grade: B
+    rank_hint: 1.1
+    evidence:
+      - pmc-pmc13678706#060
+      - pmc-pmc13678706#074
+    monitoring:
+      text: "Repeat the FBC; assess iron status, CRP, infection and malignancy; refer if persistent."
+      chunk: pmc-pmc13678706#074
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "The platelet count should be viewed as a clinical signal rather than a diagnosis."
+          chunk: pmc-pmc13678706#060
+
+  - id: thrombocytopenia-review
+    pattern: thrombocytopenia
+    intervention: Low platelet cause review
+    kind: referral
+    goal: Identify the cause and bleeding risk before supplementing.
+    grade: B
+    rank_hint: 1.15
+    evidence:
+      - pmc-pmc13678706#064
+      - pmc-pmc13678706#065
+      - pmc-pmc13678706#074
+    monitoring:
+      text: "Repeat the FBC and film; assess bleeding, medicines, heparin exposure, liver/spleen and infection."
+      chunk: pmc-pmc13678706#074
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "Severe thrombocytopenia, particularly when accompanied by active bleeding, requires urgent assessment."
+          chunk: pmc-pmc13678706#065
+
+  - id: hyperthyroid-review
+    pattern: hyperthyroidism
+    intervention: Overactive thyroid review
+    kind: referral
+    goal: Confirm overt hyperthyroidism and assess the cause before supplementing.
+    grade: B
+    rank_hint: 1.15
+    evidence:
+      - medlineplus-003517#006
+      - medlineplus-003684#006
+    monitoring:
+      text: "Repeat TSH and free T4; add T3 and thyroid antibodies where indicated; review medicines and iodine."
+      chunk: medlineplus-003517#006
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "A high free T4 result can occur with an overactive thyroid."
+          chunk: medlineplus-003517#006

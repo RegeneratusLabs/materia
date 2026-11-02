@@ -10,3 +10,16 @@ results/tmp/
 *.sqlite-wal
 *.sqlite-shm
 results/tmp/
+
+# local web-app feedback and temporary uploads
+data/app/
+build/
+
+# Build artefacts and packaging output (regenerable)
+materia.egg-info/
+.pytest_cache/
+release/*.whl
+release/*.tar.gz
+
+# Run logs and working screenshots — output, not source
+logs/

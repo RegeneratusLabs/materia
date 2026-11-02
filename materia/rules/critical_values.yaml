@@ -1,0 +1,81 @@
+# Critical laboratory values: a safety gate, not a diagnosis.
+#
+# Thresholds are the adult medians reported by hospitals in a CC-BY survey of point-of-care
+# critical-value policies (PMC13115040), shown with that citation. They are deliberately a
+# screening default: the lab's own critical-value policy wins, and the UI says so.
+#
+# When a value crosses one of these limits, supplement/herb options are withheld; referral and
+# lifestyle steps remain visible so the practitioner is not left with nothing.
+
+values:
+  - analyte: potassium
+    unit: mmol/L
+    low: 3.0
+    high: 6.0
+    newborn: {low: 3.0, high: 7.1}
+    action: "Urgent clinical assessment. Potassium at this level can cause cardiac arrhythmia."
+    citation: pmc-pmc13115040#052
+    newborn_citation: pmc-pmc13115040#053
+
+  - analyte: glucose
+    unit: mmol/L
+    low: 2.8
+    high: 25.0
+    newborn: {low: 2.5, high: 11.1}
+    action: "Urgent clinical assessment for severe hypoglycaemia or hyperglycaemia."
+    citation: pmc-pmc13115040#052
+    newborn_citation: pmc-pmc13115040#053
+
+  - analyte: sodium
+    unit: mmol/L
+    low: 126
+    high: 155
+    newborn: {low: 130, high: 150}
+    action: "Urgent clinical assessment for severe hyponatraemia or hypernatraemia."
+    citation: pmc-pmc13115040#052
+    newborn_citation: pmc-pmc13115040#053
+
+  - analyte: calcium
+    unit: mmol/L
+    low: 1.65
+    high: 3.23
+    newborn: {low: 1.75, high: 3.23}
+    action: "Urgent clinical assessment for severe hypocalcaemia or hypercalcaemia."
+    citation: pmc-pmc13115040#052
+    newborn_citation: pmc-pmc13115040#053
+
+  - analyte: haemoglobin
+    unit: g/L
+    low: 66
+    high: 189
+    newborn: {low: 100, high: 189}
+    action: "Urgent clinical assessment for severe anaemia or polycythaemia."
+    citation: pmc-pmc13115040#057
+    newborn_citation: pmc-pmc13115040#058
+
+  - analyte: triglycerides
+    unit: mmol/L
+    high: 5.65
+    action: "Urgent clinical review for severe hypertriglyceridaemia and pancreatitis risk."
+    citation: pmc-pmc13115040#052
+
+  - analyte: inr
+    unit: ratio
+    high: 5.0
+    newborn: {high: 4.0}
+    action: "Urgent clinical assessment; an INR at this level carries a serious bleeding risk."
+    citation: pmc-pmc13115040#057
+    newborn_citation: pmc-pmc13115040#058
+
+  - analyte: bicarbonate
+    unit: mmol/L
+    low: 11
+    high: 39
+    action: "Urgent clinical assessment for severe metabolic acidosis or alkalosis."
+    citation: pmc-pmc13115040#052
+
+  - analyte: platelets
+    unit: "10^9/L"
+    low: 10
+    action: "Urgent clinical assessment for severe thrombocytopenia and bleeding risk."
+    citation: pmc-pmc13678706#065

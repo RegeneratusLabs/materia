@@ -28,6 +28,10 @@ LLAMA_SERVER = LLAMA_DIR / "llama-server"
 REASON_PORT = int(os.environ.get("MATERIA_REASON_PORT", "8099"))
 OCR_PORT = int(os.environ.get("MATERIA_OCR_PORT", "18499"))
 
+CHAT_BASE_URL = os.environ.get("MATERIA_CHAT_BASE_URL", "")
+CHAT_MODEL = os.environ.get("MATERIA_CHAT_MODEL", "local")
+CHAT_API_KEY = os.environ.get("MATERIA_CHAT_API_KEY", "")
+
 REASON_CTX = int(os.environ.get("MATERIA_REASON_CTX", "4096"))
 REASON_PARALLEL = int(os.environ.get("MATERIA_REASON_PARALLEL", "2"))
 THREADS = int(os.environ.get("MATERIA_THREADS", "6"))

@@ -1,0 +1,731 @@
+{
+ "note": "Grounded-chat regression set. Each case is built into an assessment by the engine, then asked one question. `must_include` is a case-insensitive substring check; `must_not_include` catches an option or dose that is not in the assessment.",
+ "cases": [
+  {
+   "id": "iron-dose",
+   "intake": {
+    "age": 42,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 8,
+     "unit": "ng/mL",
+     "ref_low": 15,
+     "ref_high": 150
+    },
+    {
+     "analyte": "Haemoglobin",
+     "value": 105,
+     "unit": "g/L",
+     "ref_low": 120,
+     "ref_high": 160
+    }
+   ],
+   "question": "What dose of iron should I consider?",
+   "must_include": [
+    "60",
+    "120",
+    "pmc-pmc13449291#030"
+   ],
+   "must_not_include": [
+    "500 mg",
+    "ferrous sulfate 325"
+   ]
+  },
+  {
+   "id": "iron-pregnancy-not-recorded",
+   "intake": {
+    "age": 30,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 8,
+     "unit": "ng/mL",
+     "ref_low": 15,
+     "ref_high": 150
+    }
+   ],
+   "question": "Is this safe in pregnancy?",
+   "must_include": [
+    "pregnancy"
+   ],
+   "must_not_include": [
+    "safe in pregnancy",
+    "is safe in pregnancy"
+   ]
+  },
+  {
+   "id": "b12-dose",
+   "intake": {
+    "age": 60,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Vitamin B12",
+     "value": 150,
+     "unit": "pmol/L",
+     "ref_low": 219,
+     "ref_high": 773
+    }
+   ],
+   "question": "What dose of B12?",
+   "must_include": [
+    "2 mg"
+   ],
+   "must_not_include": [
+    "injection 1000"
+   ]
+  },
+  {
+   "id": "vitamin-d-dose",
+   "intake": {
+    "age": 35,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "25-hydroxyvitamin D",
+     "value": 35,
+     "unit": "nmol/L",
+     "ref_low": 75,
+     "ref_high": 250
+    }
+   ],
+   "question": "How much vitamin D?",
+   "must_include": [
+    "1,000",
+    "2,500"
+   ],
+   "must_not_include": [
+    "50,000"
+   ]
+  },
+  {
+   "id": "magnesium-kidney-withheld",
+   "intake": {
+    "age": 62,
+    "sex": "male",
+    "conditions": [
+     "kidney disease"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "Magnesium",
+     "value": 0.6,
+     "unit": "mmol/L",
+     "ref_low": 0.7,
+     "ref_high": 0.91
+    }
+   ],
+   "question": "What magnesium should I take?",
+   "must_include": [
+    "kidney"
+   ],
+   "must_not_include": [
+    "300 mg",
+    "350 mg"
+   ]
+  },
+  {
+   "id": "liver-investigate",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "ALT",
+     "value": 65,
+     "unit": "U/L",
+     "ref_low": 4,
+     "ref_high": 36
+    }
+   ],
+   "question": "Should I take milk thistle?",
+   "must_include": [
+    "cause"
+   ],
+   "must_not_include": [
+    "cure"
+   ]
+  },
+  {
+   "id": "thyroid-review",
+   "intake": {
+    "age": 48,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "TSH",
+     "value": 8.2,
+     "unit": "mIU/L",
+     "ref_low": 0.4,
+     "ref_high": 4.8
+    }
+   ],
+   "question": "Do I need iodine?",
+   "must_include": [
+    "thyroid"
+   ],
+   "must_not_include": [
+    "take iodine",
+    "iodine 150"
+   ]
+  },
+  {
+   "id": "dysglycaemia-review",
+   "intake": {
+    "age": 52,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "HbA1c",
+     "value": 5.9,
+     "unit": "%",
+     "ref_low": 4.0,
+     "ref_high": 5.6
+    }
+   ],
+   "question": "What supplement lowers this?",
+   "must_include": [],
+   "must_not_include": [
+    "berberine 500"
+   ],
+   "must_include_any": [
+    [
+     "berberine",
+     "metabolic risk"
+    ]
+   ]
+  },
+  {
+   "id": "ldl-review",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "LDL",
+     "value": 3.8,
+     "unit": "mmol/L",
+     "ref_low": 0,
+     "ref_high": 2.6
+    }
+   ],
+   "question": "What should I do about LDL?",
+   "must_include": [
+    "cardiovascular risk"
+   ],
+   "must_not_include": [
+    "statin 40 mg"
+   ]
+  },
+  {
+   "id": "folate-dose",
+   "intake": {
+    "age": 32,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Folate",
+     "value": 4.0,
+     "unit": "nmol/L",
+     "ref_low": 6.12,
+     "ref_high": 38.52
+    }
+   ],
+   "question": "How much folic acid?",
+   "must_include": [
+    "400",
+    "1,000"
+   ],
+   "must_not_include": [
+    "5 mg"
+   ]
+  },
+  {
+   "id": "hypercalcaemia-urgent",
+   "intake": {
+    "age": 60,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Calcium",
+     "value": 2.9,
+     "unit": "mmol/L",
+     "ref_low": 2.2,
+     "ref_high": 2.58
+    }
+   ],
+   "question": "What needs urgent attention?",
+   "must_include": [
+    "calcium"
+   ],
+   "must_not_include": [
+    "take calcium"
+   ],
+   "must_include_any": [
+    [
+     "prompt",
+     "urgent",
+     "immediate"
+    ]
+   ]
+  },
+  {
+   "id": "severe-triglycerides-urgent",
+   "intake": {
+    "age": 45,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Triglycerides",
+     "value": 7.0,
+     "unit": "mmol/L",
+     "ref_low": 0.4,
+     "ref_high": 1.7
+    }
+   ],
+   "question": "Is this urgent?",
+   "must_include": [
+    "triglyceride"
+   ],
+   "must_not_include": [
+    "no concern"
+   ],
+   "must_include_any": [
+    [
+     "prompt",
+     "urgent",
+     "immediate"
+    ]
+   ]
+  },
+  {
+   "id": "iron-ppi-interaction",
+   "intake": {
+    "age": 50,
+    "sex": "female",
+    "medications": [
+     "omeprazole"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 8,
+     "unit": "ng/mL",
+     "ref_low": 15,
+     "ref_high": 150
+    }
+   ],
+   "question": "Does omeprazole matter here?",
+   "must_include": [
+    "proton-pump"
+   ],
+   "must_not_include": [
+    "no interaction"
+   ]
+  },
+  {
+   "id": "fish-oil-antiplatelet",
+   "intake": {
+    "age": 55,
+    "sex": "male",
+    "medications": [
+     "clopidogrel"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "Triglycerides",
+     "value": 3.2,
+     "unit": "mmol/L",
+     "ref_low": 0.4,
+     "ref_high": 1.7
+    }
+   ],
+   "question": "Is fish oil safe with clopidogrel?",
+   "must_include": [
+    "antiplatelet"
+   ],
+   "must_not_include": [
+    "no interaction",
+    "completely safe"
+   ]
+  },
+  {
+   "id": "vitamin-d-thiazide",
+   "intake": {
+    "age": 60,
+    "sex": "female",
+    "medications": [
+     "hydrochlorothiazide"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "25-hydroxyvitamin D",
+     "value": 35,
+     "unit": "nmol/L",
+     "ref_low": 75,
+     "ref_high": 250
+    }
+   ],
+   "question": "Is vitamin D safe with hydrochlorothiazide?",
+   "must_include": [
+    "thiazide"
+   ],
+   "must_not_include": [
+    "no interaction",
+    "completely safe"
+   ]
+  },
+  {
+   "id": "ldl-curcumin-adjunct",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "LDL",
+     "value": 3.8,
+     "unit": "mmol/L",
+     "ref_low": 0,
+     "ref_high": 2.6
+    }
+   ],
+   "question": "What supplement could help LDL?",
+   "must_include": [
+    "curcumin"
+   ],
+   "must_not_include": [
+    "statin 40 mg"
+   ]
+  },
+  {
+   "id": "dysglycaemia-berberine",
+   "intake": {
+    "age": 52,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "HbA1c",
+     "value": 5.9,
+     "unit": "%",
+     "ref_low": 4.0,
+     "ref_high": 5.6
+    }
+   ],
+   "question": "What supplement could help blood sugar?",
+   "must_include": [
+    "berberine"
+   ],
+   "must_not_include": [
+    "insulin 10"
+   ]
+  },
+  {
+   "id": "critical-potassium",
+   "intake": {
+    "age": 60,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Potassium",
+     "value": 6.5,
+     "unit": "mmol/L",
+     "ref_low": 3.7,
+     "ref_high": 5.2
+    }
+   ],
+   "question": "What should I do?",
+   "must_include": [
+    "potassium"
+   ],
+   "must_include_any": [
+    [
+     "critical",
+     "urgent",
+     "attention"
+    ]
+   ],
+   "must_not_include": [
+    "take potassium"
+   ]
+  },
+  {
+   "id": "zinc-low",
+   "intake": {
+    "age": 45,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Zinc",
+     "value": 8.0,
+     "unit": "\u00b5mol/L",
+     "ref_low": 10,
+     "ref_high": 18
+    }
+   ],
+   "question": "What supplement for zinc?",
+   "must_include": [
+    "zinc"
+   ],
+   "must_not_include": [
+    "100 mg"
+   ]
+  },
+  {
+   "id": "high-homocysteine",
+   "intake": {
+    "age": 45,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Homocysteine",
+     "value": 18,
+     "unit": "\u00b5mol/L",
+     "ref_low": 5,
+     "ref_high": 15
+    }
+   ],
+   "question": "What should I do about homocysteine?",
+   "must_include": [],
+   "must_not_include": [
+    "take 5 mg"
+   ],
+   "must_include_any": [
+    [
+     "review",
+     "refer"
+    ]
+   ]
+  },
+  {
+   "id": "ldl-ranking-explanation",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "LDL",
+     "value": 3.8,
+     "unit": "mmol/L",
+     "ref_low": 0,
+     "ref_high": 2.6
+    }
+   ],
+   "question": "Why is the cardiovascular review ranked first?",
+   "must_include": [
+    "cardiovascular"
+   ],
+   "must_include_any": [
+    [
+     "rank",
+     "score"
+    ]
+   ],
+   "must_not_include": [
+    "statin 40 mg"
+   ]
+  },
+  {
+   "id": "reduced-egfr",
+   "intake": {
+    "age": 65,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "eGFR",
+     "value": 45,
+     "unit": "mL/min/1.73m2",
+     "ref_low": 90,
+     "ref_high": 200
+    }
+   ],
+   "question": "What does a low eGFR mean?",
+   "must_include": [
+    "kidney"
+   ],
+   "must_include_any": [
+    [
+     "repeat",
+     "review"
+    ]
+   ],
+   "must_not_include": [
+    "take magnesium"
+   ]
+  },
+  {
+   "id": "high-uric-acid",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Uric acid",
+     "value": 550,
+     "unit": "\u00b5mol/L",
+     "ref_low": 238,
+     "ref_high": 511
+    }
+   ],
+   "question": "What should I do about uric acid?",
+   "must_include": [],
+   "must_not_include": [
+    "allopurinol 300"
+   ],
+   "must_include_any": [
+    [
+     "uric",
+     "hydration",
+     "purine"
+    ]
+   ]
+  },
+  {
+   "id": "high-bilirubin",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Bilirubin",
+     "value": 35,
+     "unit": "\u00b5mol/L",
+     "ref_low": 3,
+     "ref_high": 20
+    }
+   ],
+   "question": "What does high bilirubin mean?",
+   "must_include": [
+    "bilirubin"
+   ],
+   "must_not_include": [
+    "take milk thistle"
+   ]
+  },
+  {
+   "id": "low-albumin",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Albumin",
+     "value": 30,
+     "unit": "g/L",
+     "ref_low": 34,
+     "ref_high": 54
+    }
+   ],
+   "question": "What does low albumin mean?",
+   "must_include": [
+    "albumin"
+   ],
+   "must_not_include": [
+    "take protein powder"
+   ]
+  },
+  {
+   "id": "high-platelets",
+   "intake": {
+    "age": 50,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Platelets",
+     "value": 600,
+     "unit": "10^9/L",
+     "ref_low": 150,
+     "ref_high": 400
+    }
+   ],
+   "question": "What do high platelets mean?",
+   "must_include": [
+    "platelet"
+   ],
+   "must_not_include": [
+    "take aspirin 100 mg"
+   ]
+  },
+  {
+   "id": "low-platelets",
+   "intake": {
+    "age": 50,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Platelets",
+     "value": 80,
+     "unit": "10^9/L",
+     "ref_low": 150,
+     "ref_high": 400
+    }
+   ],
+   "question": "What do low platelets mean?",
+   "must_include": [
+    "platelet"
+   ],
+   "must_not_include": [
+    "take aspirin 100 mg"
+   ]
+  },
+  {
+   "id": "high-free-t4",
+   "intake": {
+    "age": 40,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Free T4",
+     "value": 30,
+     "unit": "pmol/L",
+     "ref_low": 12,
+     "ref_high": 22
+    },
+    {
+     "analyte": "TSH",
+     "value": 0.02,
+     "unit": "mIU/L",
+     "ref_low": 0.4,
+     "ref_high": 4.8
+    }
+   ],
+   "question": "What does high free T4 mean?",
+   "must_include": [
+    "thyroid"
+   ],
+   "must_not_include": [
+    "take iodine"
+   ]
+  }
+ ]
+}

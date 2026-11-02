@@ -1,0 +1,140 @@
+{
+ "doc_id": "medlineplus-000315",
+ "source": "MedlinePlus (NLM)",
+ "tier": "compendium",
+ "title": "Magnesium deficiency",
+ "title_extra": null,
+ "date": "2025-05-19",
+ "revised": "2025-05-19",
+ "retrieved_at": "2026-10-31",
+ "next_review_due": "2027-04-30",
+ "url": "https://medlineplus.gov/ency/article/000315.htm",
+ "identifier": {
+  "type": "web",
+  "value": "https://medlineplus.gov/ency/article/000315.htm"
+ },
+ "jurisdiction": "us",
+ "language": "en",
+ "licence": {
+  "name": "US federal work — public domain (NLM MedlinePlus)",
+  "redistributable": true,
+  "evidence_url": "https://medlineplus.gov/copyright.html",
+  "note": "Most MedlinePlus health topic and encyclopedia content is free of copyright restrictions."
+ },
+ "checksum": "sha256:9e7418091b283921f7cb8aa4ef96812ae2140aef40b15b548ba51ad793f3a5c0",
+ "entities": [
+  "Magnesium deficiency"
+ ],
+ "chunks": [
+  {
+   "chunk_id": "medlineplus-000315#001",
+   "text": "Causes: Every organ in the body, especially the heart, muscles, and kidneys, needs the mineral magnesium. It also contributes to the makeup of teeth and bones. Magnesium is needed for many functions in the body. This includes the physical and chemical processes in the body that convert or use energy (\nmetabolism\n).\nWhen the level of magnesium in the body drops below normal, symptoms may develop due to low magnesium.\nCommon causes of low magnesium include:\nAlcohol use\nBurns that affect a large area of the body\nChronic\ndiarrhea\nExcessive urination (polyuria), such as in uncontrolled\ndiabetes\nand during recovery from\nacute kidney injury\nHyperaldosteronism\n(disorder in which the adrenal gland releases too much of the hormone aldosterone into the blood)\nKidney tubule disorders\nMalabsorption\nsyndromes, such as\nceliac disease\nand inflammatory bowel disease\nMalnutrition\nMedicines including amphotericin, antibodies targeting the epidermal growth factor (EGF) receptor, cisplatin, cyclosporine, diuretics, proton pump inhibitors, tacrolimus, and aminoglycoside antibiotics\nPancreatitis (swelling and inflammation of the pancreas)\nExcessive sweating",
+   "section": "differential",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "magnesium",
+    "diabetes",
+    "sedation",
+    "hypertension",
+    "immunosuppression",
+    "renal"
+   ],
+   "entities": [
+    "Magnesium deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 166
+  },
+  {
+   "chunk_id": "medlineplus-000315#002",
+   "text": "Symptoms: Common symptoms include:\nAbnormal eye movements (\nnystagmus\n)\nConvulsions\nFatigue\nMuscle spasms or\ncramps\nMuscle weakness\nNumbness",
+   "section": "differential",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 19
+  },
+  {
+   "chunk_id": "medlineplus-000315#003",
+   "text": "Exams and Tests: Your health care provider will do a physical exam and ask about your symptoms.\nTests that may be ordered include an\nelectrocardiogram\n(ECG).\nA\nblood test\nwill be ordered to check your magnesium level. The normal range is 1.6 to 2.6 mg/dL (0.66 to 1.07 mmol/L).\nNormal value ranges may vary slightly among different laboratories. Talk to your provider about the meaning of your specific test result.\nOther blood and urine tests that may be done include:\nCalcium blood test\nComprehensive metabolic panel\nPotassium blood test\nUrine magnesium test",
+   "section": "reference_interval",
+   "assertion_type": "diagnostic",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 92
+  },
+  {
+   "chunk_id": "medlineplus-000315#004",
+   "text": "Treatment: Treatment depends on the severity of the low magnesium problem and may include:\nFluids given through a vein (IV)\nMagnesium by mouth or through a vein\nMedicines to relieve symptoms",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 31
+  },
+  {
+   "chunk_id": "medlineplus-000315#005",
+   "text": "Possible Complications: Untreated, this condition can lead to:\nCardiac arrest\nRespiratory arrest\nDeath",
+   "section": "cautions",
+   "assertion_type": "safety",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 13
+  },
+  {
+   "chunk_id": "medlineplus-000315#006",
+   "text": "When to Contact a Medical Professional: When your body's magnesium level drops too much, it can be a life-threatening emergency. Contact your provider right away if you have symptoms of this condition.",
+   "section": "red_flags",
+   "assertion_type": "safety",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 32
+  },
+  {
+   "chunk_id": "medlineplus-000315#007",
+   "text": "Prevention: Treating the condition that is causing low magnesium can help.\nIf you play sports or do other vigorous activity, drink fluids such as sports drinks. They contain\nelectrolytes\nto keep your magnesium level in a healthy range.",
+   "section": "indications",
+   "assertion_type": "efficacy",
+   "topics": [
+    "magnesium"
+   ],
+   "entities": [
+    "Magnesium deficiency"
+   ],
+   "analytes": [],
+   "page": null,
+   "words": 38
+  }
+ ]
+}

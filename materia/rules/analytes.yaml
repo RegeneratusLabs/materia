@@ -1,0 +1,275 @@
+# Canonical analyte catalog for the clinical engine.
+#
+# The lab report's own interval always wins. This catalog is the fallback when a report
+# prints a value without a range, and the bridge that lets one rule speak about ferritin
+# whether the lab printed ug/L, µg/L or ng/mL.
+#
+# `units` maps a printed unit to a factor: value_in_canonical = value * factor.
+# `ref` is only used when the report has no interval; it is never used to overrule one.
+
+- id: ferritin
+  name: Ferritin
+  aliases: [ferritin, serum ferritin]
+  unit: µg/L
+  units: {µg/L: 1, ug/L: 1, ng/mL: 1, "ng/ml": 1}
+  ref: {female: [13, 150], male: [30, 400]}
+  ref_source: medlineplus-003490#005
+  critical: {low: 5, high: 1000}
+
+- id: transferrin_saturation
+  name: Transferrin saturation
+  aliases: [transferrin saturation, iron saturation, saturation, tsat]
+  unit: "%"
+  units: {"%": 1}
+  ref: {female: [15, 45], male: [20, 50]}
+  ref_source: medlineplus-003488#005
+  critical: {low: 5, high: 90}
+
+- id: serum_iron
+  name: Serum iron
+  aliases: [iron, serum iron]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1, "mcg/dL": 0.1791, "µg/dL": 0.1791}
+  ref: {female: [6.6, 25.9], male: [10.6, 28.3]}
+  ref_source: medlineplus-003488#005
+
+- id: tibc
+  name: TIBC
+  aliases: [tibc, total iron binding capacity]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1, "mcg/dL": 0.1791, "µg/dL": 0.1791}
+  ref: {female: [26.7, 88.0], male: [30.6, 90.3]}
+  ref_source: medlineplus-003488#005
+
+- id: haemoglobin
+  name: Haemoglobin
+  aliases: [haemoglobin, hemoglobin, hb]
+  unit: g/L
+  units: {g/L: 1, "g/dL": 10}
+  ref: {female: [120, 160], male: [130, 180]}
+  ref_source: medlineplus-003642#005
+
+- id: mcv
+  name: MCV
+  aliases: [mcv, mean corpuscular volume]
+  unit: fL
+  units: {fL: 1, fl: 1}
+  ref: {female: [80, 100], male: [80, 100]}
+  ref_source: medlineplus-003642#005
+
+- id: crp
+  name: CRP
+  aliases: [crp, c-reactive protein, hs-crp, high sensitivity crp]
+  unit: mg/L
+  units: {mg/L: 1, "mg/dL": 10}
+  ref: {female: [0, 5], male: [0, 5]}
+  ref_source: medlineplus-003356#005
+
+- id: vitamin_b12
+  name: Vitamin B12
+  aliases: [vitamin b12, b12, cobalamin, active b12]
+  unit: pmol/L
+  units: {pmol/L: 1, "pg/mL": 0.7378, "ng/L": 0.7378}
+  ref: {female: [219, 773], male: [219, 773]}
+  ref_source: medlineplus-003705#005
+  critical: {low: 80, high: 2000}
+
+- id: folate
+  name: Folate
+  aliases: [folate, folic acid, serum folate, red cell folate]
+  unit: nmol/L
+  units: {nmol/L: 1, "ng/mL": 2.266}
+  ref: {female: [6.12, 38.52], male: [6.12, 38.52]}
+  ref_source: medlineplus-003686#005
+
+- id: homocysteine
+  name: Homocysteine
+  aliases: [homocysteine, hcy]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+  ref: {female: [5, 15], male: [5, 15]}
+  ref_source: ""
+
+- id: methylmalonic_acid
+  name: Methylmalonic acid
+  aliases: [methylmalonic acid, mma]
+  unit: nmol/L
+  units: {nmol/L: 1}
+  ref: {female: [0, 270], male: [0, 270]}
+
+- id: vitamin_d
+  name: 25-hydroxyvitamin D
+  aliases: [25-hydroxyvitamin d, 25-oh vitamin d, 25(oh)d, vitamin d, 25 hydroxy vitamin d]
+  unit: nmol/L
+  units: {nmol/L: 1, "ng/mL": 2.496}
+  ref: {female: [75, 250], male: [75, 250]}
+  ref_source: pmc-pmc13363889#048
+  critical: {low: 12.5, high: 375}
+
+- id: tsh
+  name: TSH
+  aliases: [tsh, thyroid stimulating hormone]
+  unit: mIU/L
+  units: {mIU/L: 1, "µIU/mL": 1, "uIU/mL": 1}
+  ref: {female: [0.4, 4.8], male: [0.4, 4.8]}
+  ref_source: medlineplus-003684#005
+
+- id: free_t4
+  name: Free T4
+  aliases: [free t4, ft4, free thyroxine]
+  unit: pmol/L
+  units: {pmol/L: 1, "ng/dL": 12.87}
+  ref: {female: [9, 19], male: [9, 19]}
+  ref_source: medlineplus-003517#005
+
+- id: alt
+  name: ALT
+  aliases: [alt, alanine transaminase, alanine aminotransferase, sgpt]
+  unit: U/L
+  units: {U/L: 1, "IU/L": 1}
+  ref: {female: [4, 36], male: [4, 36]}
+  ref_source: medlineplus-003473#005
+
+- id: ast
+  name: AST
+  aliases: [ast, aspartate aminotransferase, sgot]
+  unit: U/L
+  units: {U/L: 1, "IU/L": 1}
+  ref: {female: [8, 33], male: [8, 33]}
+  ref_source: medlineplus-003472#005
+
+- id: ggt
+  name: GGT
+  aliases: [ggt, gamma-glutamyl transferase, gamma glutamyl transferase]
+  unit: U/L
+  units: {U/L: 1, "IU/L": 1}
+  ref: {female: [5, 40], male: [5, 40]}
+  ref_source: medlineplus-003458#005
+
+- id: platelets
+  name: Platelets
+  aliases: [platelets, platelet count]
+  unit: "10^9/L"
+  units: {"10^9/L": 1, "10*9/L": 1, "x10^9/L": 1}
+  ref: {female: [150, 400], male: [150, 400]}
+  ref_source: medlineplus-003642#005
+
+- id: uric_acid
+  name: Uric acid
+  aliases: [uric acid, serum urate, urate]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1, "mg/dL": 59.48}
+  ref: {female: [178, 422], male: [238, 511]}
+  ref_source: medlineplus-003476#004
+
+- id: inr
+  name: INR
+  aliases: [inr, international normalised ratio, international normalized ratio]
+  unit: ratio
+  units: {ratio: 1}
+  ref: {female: [0.8, 1.2], male: [0.8, 1.2]}
+  ref_source: ""
+
+- id: albumin
+  name: Albumin
+  aliases: [albumin, serum albumin]
+  unit: g/L
+  units: {g/L: 1, "g/dL": 10}
+  ref: {female: [34, 54], male: [34, 54]}
+  ref_source: medlineplus-003480#005
+
+- id: bilirubin
+  name: Bilirubin
+  aliases: [bilirubin, total bilirubin]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1, "mg/dL": 17.1}
+  ref: {female: [3, 20], male: [3, 20]}
+  ref_source: medlineplus-003479#005
+
+- id: triglycerides
+  name: Triglycerides
+  aliases: [triglycerides, triglyceride, tg]
+  unit: mmol/L
+  units: {mmol/L: 1, "mg/dL": 0.01129}
+  ref: {female: [0.4, 1.7], male: [0.4, 1.7]}
+  ref_source: medlineplus-003493#005
+
+- id: ldl
+  name: LDL cholesterol
+  aliases: [ldl, ldl cholesterol, ldl-c]
+  unit: mmol/L
+  units: {mmol/L: 1, "mg/dL": 0.02586}
+  ref: {female: [0, 2.6], male: [0, 2.6]}
+  ref_source: medlineplus-007812#005
+
+- id: hdl
+  name: HDL cholesterol
+  aliases: [hdl, hdl cholesterol, hdl-c]
+  unit: mmol/L
+  units: {mmol/L: 1, "mg/dL": 0.02586}
+  ref: {female: [1.0, 3.0], male: [1.0, 3.0]}
+  ref_source: medlineplus-007812#005
+
+- id: total_cholesterol
+  name: Total cholesterol
+  aliases: [cholesterol, total cholesterol]
+  unit: mmol/L
+  units: {mmol/L: 1, "mg/dL": 0.02586}
+  ref: {female: [0, 5.18], male: [0, 5.18]}
+  ref_source: medlineplus-007812#005
+
+- id: glucose
+  name: Glucose
+  aliases: [glucose, fasting glucose, blood glucose]
+  unit: mmol/L
+  units: {mmol/L: 1, "mg/dL": 0.0555}
+  ref: {female: [3.9, 5.5], male: [3.9, 5.5]}
+  ref_source: medlineplus-003640#005
+
+- id: hba1c
+  name: HbA1c
+  aliases: [hba1c, a1c, glycated haemoglobin, glycated hemoglobin]
+  unit: "%"
+  units: {"%": 1, "mmol/mol": 1}
+  ref: {female: [4.0, 5.6], male: [4.0, 5.6]}
+  ref_source: medlineplus-003640#005
+
+- id: calcium
+  name: Calcium
+  aliases: [calcium, total calcium, serum calcium]
+  unit: mmol/L
+  units: {mmol/L: 1, "mg/dL": 0.2495}
+  ref: {female: [2.20, 2.58], male: [2.20, 2.58]}
+  ref_source: medlineplus-003477#005
+
+- id: magnesium
+  name: Magnesium
+  aliases: [magnesium, serum magnesium]
+  unit: mmol/L
+  units: {mmol/L: 1, "mg/dL": 0.4114}
+  ref: {female: [0.66, 1.07], male: [0.66, 1.07]}
+  ref_source: medlineplus-003487#005
+
+- id: zinc
+  name: Zinc
+  aliases: [zinc, serum zinc, plasma zinc]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1, "µg/dL": 0.153, "mcg/dL": 0.153}
+  ref: {female: [10, 18], male: [10, 18]}
+  ref_source: ""
+
+- id: creatinine
+  name: Creatinine
+  aliases: [creatinine, serum creatinine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1, "mg/dL": 88.4}
+  ref: {female: [44, 84], male: [62, 115]}
+  ref_source: medlineplus-003475#005
+
+- id: egfr
+  name: eGFR
+  aliases: [egfr, estimated glomerular filtration rate]
+  unit: mL/min/1.73m2
+  units: {mL/min/1.73m2: 1}
+  ref: {female: [90, 200], male: [90, 200]}
+  ref_source: ""

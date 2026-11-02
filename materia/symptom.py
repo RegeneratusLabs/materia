@@ -13,7 +13,7 @@ from pathlib import Path
 
 import yaml
 
-RULES_DIR = Path(__file__).resolve().parent.parent / "rules"
+RULES_DIR = Path(__file__).resolve().parent / "rules"
 
 REQUIRED_SECTIONS = (
     "CHECK:",

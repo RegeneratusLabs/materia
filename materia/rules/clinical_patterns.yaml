@@ -1,0 +1,598 @@
+# Clinical patterns: deterministic, cited, and deliberately conservative.
+#
+# A pattern is a hypothesis, not a diagnosis. The engine only says "these findings fit
+# this pattern"; it never turns a lab value into a disease label without confirmation.
+#
+# Criteria language:
+#   analyte: canonical id from rules/analytes.yaml
+#   op: "<", "<=", ">", ">=", "=="
+#   value + unit: absolute threshold
+#   ref: low|high: compare with the lab's own interval (or the catalog fallback)
+#   any/all/not: boolean groups
+#
+# `supporting` and `against` add or subtract confidence. A citation must support the
+# claim it is attached to; the test suite checks that each cited chunk exists.
+
+patterns:
+  - id: iron_deficiency
+    label: Iron deficiency pattern
+    category: nutrient
+    severity: moderate
+    base_confidence: 0.62
+    when:
+      any:
+        - analyte: ferritin
+          op: "<"
+          value: 30
+          unit: µg/L
+        - all:
+            - analyte: ferritin
+              op: "<"
+              value: 50
+              unit: µg/L
+            - analyte: transferrin_saturation
+              op: "<"
+              value: 20
+              unit: "%"
+    supporting:
+      - when: {analyte: haemoglobin, ref: low}
+        weight: 0.12
+        note: "Anaemia supports iron deficiency but is not required."
+      - when: {analyte: mcv, ref: low}
+        weight: 0.08
+        note: "Microcytosis supports iron deficiency."
+      - when: {analyte: tibc, op: ">", value: 70, unit: µmol/L}
+        weight: 0.05
+        note: "A raised TIBC is consistent with iron deficiency."
+    against:
+      - when: {analyte: crp, op: ">", value: 5, unit: mg/L}
+        weight: 0.25
+        note: "Inflammation raises ferritin; the threshold may understate deficiency."
+    severity_rules:
+      - when: {analyte: haemoglobin, ref: low}
+        severity: high
+        note: "Iron deficiency with anaemia."
+    confirm:
+      - "Repeat ferritin and interpret it with CRP and the full blood count."
+      - "Look for blood loss (menstrual, gastrointestinal) before supplementing."
+      - "If ferritin is borderline, transferrin saturation and the blood count decide."
+    citations: [pmc-pmc13449291#025, medlineplus-003490#006, medlineplus-003488#006]
+
+  - id: b12_deficiency
+    label: Vitamin B12 deficiency pattern
+    category: nutrient
+    severity: moderate
+    base_confidence: 0.60
+    when:
+      any:
+        - analyte: vitamin_b12
+          op: "<"
+          value: 219
+          unit: pmol/L
+        - all:
+            - analyte: vitamin_b12
+              op: "<"
+              value: 300
+              unit: pmol/L
+            - analyte: mcv
+              ref: high
+        - analyte: methylmalonic_acid
+          op: ">"
+          value: 270
+          unit: nmol/L
+    supporting:
+      - when: {analyte: mcv, ref: high}
+        weight: 0.12
+        note: "Macrocytosis is consistent with B12 deficiency."
+      - when: {analyte: homocysteine, op: ">", value: 15, unit: µmol/L}
+        weight: 0.10
+        note: "A raised homocysteine supports B12 deficiency."
+    against:
+      - when: {analyte: creatinine, op: ">", value: 120, unit: µmol/L}
+        weight: 0.10
+        note: "Renal impairment can raise methylmalonic acid independently of B12."
+    confirm:
+      - "Confirm with methylmalonic acid (and homocysteine) before treating."
+      - "Check for pernicious anaemia and malabsorption if deficiency is confirmed."
+      - "Do not give folate alone when B12 is low or untested."
+    citations: [medlineplus-003705#006, pmc-pmc13634279#001]
+
+  - id: folate_deficiency
+    label: Folate deficiency pattern
+    category: nutrient
+    severity: moderate
+    base_confidence: 0.58
+    when:
+      any:
+        - analyte: folate
+          op: "<"
+          value: 6.12
+          unit: nmol/L
+        - all:
+            - analyte: folate
+              op: "<"
+              value: 10
+              unit: nmol/L
+            - analyte: homocysteine
+              op: ">"
+              value: 15
+              unit: µmol/L
+    supporting:
+      - when: {analyte: mcv, ref: high}
+        weight: 0.10
+        note: "Macrocytosis is consistent with folate deficiency."
+      - when: {analyte: homocysteine, op: ">", value: 15, unit: µmol/L}
+        weight: 0.10
+        note: "A raised homocysteine supports folate deficiency."
+    against: []
+    confirm:
+      - "Check B12 before treating folate; folate can mask B12 neuropathy."
+      - "Assess diet and malabsorption (coeliac disease, alcohol)."
+    citations: [medlineplus-003686#005, medlineplus-003686#006, medlineplus-000354#001]
+
+  - id: vitamin_d_insufficiency
+    label: Vitamin D insufficiency
+    category: nutrient
+    severity: moderate
+    base_confidence: 0.66
+    when:
+      any:
+        - analyte: vitamin_d
+          op: "<"
+          value: 50
+          unit: nmol/L
+    supporting: []
+    against: []
+    severity_rules:
+      - when: {analyte: vitamin_d, op: "<", value: 25, unit: nmol/L}
+        severity: high
+        note: "Severe vitamin D deficiency."
+    confirm:
+      - "Repeat 25(OH)D before high-dose treatment and check calcium if deficiency is severe."
+      - "Review sun exposure, diet, malabsorption and kidney function."
+    citations: [pmc-pmc13363889#048, hc-nhpid-vitamin-d-hd#002]
+
+  - id: liver_enzyme_elevation
+    label: Liver enzyme elevation
+    category: liver
+    severity: moderate
+    base_confidence: 0.55
+    when:
+      any:
+        - analyte: alt
+          ref: high
+        - analyte: ast
+          ref: high
+        - analyte: ggt
+          ref: high
+    supporting:
+      - when: {analyte: alt, ref: high}
+        weight: 0.05
+        note: "ALT is the more liver-specific aminotransferase."
+      - when: {analyte: ggt, ref: high}
+        weight: 0.05
+        note: "GGT supports a hepatobiliary cause."
+      - when: {analyte: bilirubin, ref: high}
+        weight: 0.10
+        note: "Raised bilirubin adds concern."
+    against: []
+    severity_rules:
+      - when: {analyte: bilirubin, ref: high}
+        severity: high
+        note: "Enzyme elevation with raised bilirubin."
+    confirm:
+      - "Repeat the panel after 2–4 weeks; a single value is not a diagnosis."
+      - "Review alcohol, medicines, supplements, viral hepatitis and metabolic risk."
+      - "Image the liver if elevation persists; do not attribute it to a supplement without evidence."
+    citations: [medlineplus-003473#006, medlineplus-003472#006, medlineplus-003458#006]
+
+  - id: high_triglycerides
+    label: Elevated triglycerides
+    category: lipid
+    severity: moderate
+    base_confidence: 0.56
+    when:
+      any:
+        - analyte: triglycerides
+          op: ">"
+          value: 1.7
+          unit: mmol/L
+    supporting:
+      - when: {analyte: hdl, ref: low}
+        weight: 0.08
+        note: "Low HDL commonly accompanies high triglycerides."
+      - when: {analyte: hba1c, op: ">", value: 5.6, unit: "%"}
+        weight: 0.08
+        note: "Dysglycaemia supports a metabolic cause."
+      - when: {analyte: glucose, op: ">", value: 5.5, unit: mmol/L}
+        weight: 0.05
+        note: "Raised fasting glucose supports a metabolic cause."
+    against: []
+    severity_rules:
+      - when: {analyte: triglycerides, op: ">", value: 5.6, unit: mmol/L}
+        severity: high
+        note: "Very high triglycerides: pancreatitis risk."
+    confirm:
+      - "Repeat fasting; check secondary causes (alcohol, thyroid, diabetes, kidney, medicines)."
+      - "ApoB and the full lipid panel give a better risk picture than triglycerides alone."
+    citations: [medlineplus-003493#005, medlineplus-003493#006, medlineplus-007812#005]
+
+  - id: magnesium_low
+    label: Low serum magnesium
+    category: nutrient
+    severity: moderate
+    base_confidence: 0.55
+    when:
+      any:
+        - analyte: magnesium
+          ref: low
+    supporting: []
+    against: []
+    severity_rules:
+      - when: {analyte: magnesium, op: "<", value: 0.50, unit: mmol/L}
+        severity: high
+        note: "Severe hypomagnesaemia."
+    confirm:
+      - "Serum magnesium reflects a small fraction of body stores; interpret with symptoms, potassium, calcium and medicines such as PPIs or diuretics."
+      - "Repeat and check kidney function before supplementing."
+    citations: [medlineplus-003487#005, medlineplus-003487#006]
+
+  - id: thyroid_underactive
+    label: Underactive thyroid pattern
+    category: thyroid
+    severity: moderate
+    base_confidence: 0.55
+    when:
+      any:
+        - analyte: tsh
+          ref: high
+        - all:
+            - analyte: tsh
+              op: ">"
+              value: 4.8
+              unit: mIU/L
+            - analyte: free_t4
+              ref: low
+    supporting: []
+    against: []
+    severity_rules:
+      - when: {analyte: free_t4, ref: low}
+        severity: high
+        note: "Low free T4 with a raised TSH."
+    confirm:
+      - "Repeat TSH and free T4 in 6–8 weeks; check thyroid peroxidase antibodies."
+      - "Review medicines, pregnancy and iodine intake before supplementing."
+    citations: [medlineplus-003684#006, medlineplus-003517#006]
+
+  - id: dysglycaemia
+    label: Dysglycaemia pattern
+    category: metabolic
+    severity: moderate
+    base_confidence: 0.58
+    when:
+      any:
+        - analyte: hba1c
+          op: ">="
+          value: 5.7
+          unit: "%"
+        - analyte: glucose
+          op: ">="
+          value: 5.6
+          unit: mmol/L
+    supporting:
+      - when: {analyte: triglycerides, op: ">", value: 1.7, unit: mmol/L}
+        weight: 0.05
+        note: "High triglycerides commonly accompany insulin resistance."
+      - when: {analyte: hdl, ref: low}
+        weight: 0.05
+        note: "Low HDL commonly accompanies insulin resistance."
+    against: []
+    severity_rules:
+      - when: {analyte: hba1c, op: ">=", value: 6.5, unit: "%"}
+        severity: high
+        note: "A1C in the diabetes range; needs clinical confirmation."
+      - when: {analyte: glucose, op: ">=", value: 7.0, unit: mmol/L}
+        severity: high
+        note: "Fasting glucose in the diabetes range; needs clinical confirmation."
+    confirm:
+      - "Repeat A1C or fasting glucose; two abnormal results are needed for a diabetes diagnosis."
+      - "Consider an oral glucose tolerance test and assess cardiovascular and kidney risk."
+    citations: [medlineplus-003640#005, medlineplus-003640#006]
+
+  - id: elevated_ldl
+    label: Elevated LDL cholesterol
+    category: lipid
+    severity: moderate
+    base_confidence: 0.55
+    when:
+      any:
+        - analyte: ldl
+          ref: high
+        - analyte: ldl
+          op: ">"
+          value: 2.6
+          unit: mmol/L
+    supporting:
+      - when: {analyte: triglycerides, op: ">", value: 1.7, unit: mmol/L}
+        weight: 0.05
+        note: "High triglycerides commonly accompany an atherogenic lipid pattern."
+      - when: {analyte: hdl, ref: low}
+        weight: 0.05
+        note: "Low HDL adds to cardiovascular risk."
+    against: []
+    confirm:
+      - "Repeat the full lipid panel; calculate non-HDL and consider ApoB."
+      - "Assess cardiovascular risk and secondary causes before treating the number."
+    citations: [medlineplus-007812#005, medlineplus-007812#006]
+
+  - id: iron_overload
+    label: Iron overload pattern
+    category: nutrient
+    severity: high
+    base_confidence: 0.62
+    when:
+      any:
+        - all:
+            - analyte: ferritin
+              op: ">"
+              value: 300
+              unit: µg/L
+            - analyte: transferrin_saturation
+              op: ">"
+              value: 50
+              unit: "%"
+        - analyte: ferritin
+          op: ">"
+          value: 1000
+          unit: µg/L
+    supporting:
+      - when: {analyte: serum_iron, op: ">", value: 30, unit: µmol/L}
+        weight: 0.08
+        note: "A raised serum iron supports iron loading."
+    against: []
+    confirm:
+      - "Repeat fasting ferritin and transferrin saturation."
+      - "Check HFE genotype and liver iron where indicated; do not supplement iron."
+    citations: [medlineplus-003490#006, medlineplus-003488#006]
+
+  - id: hypercalcaemia
+    label: High blood calcium
+    category: mineral
+    severity: high
+    base_confidence: 0.62
+    when:
+      any:
+        - analyte: calcium
+          ref: high
+        - analyte: calcium
+          op: ">"
+          value: 2.58
+          unit: mmol/L
+    supporting: []
+    against: []
+    severity_rules:
+      - when: {analyte: calcium, op: ">", value: 3.0, unit: mmol/L}
+        severity: critical
+        note: "Marked hypercalcaemia."
+    confirm:
+      - "Repeat calcium; check PTH, 25(OH)D, kidney function and malignancy risk."
+      - "Stop calcium and vitamin D supplements until the cause is assessed."
+    citations: [medlineplus-003477#006]
+
+  - id: inflammation
+    label: Raised inflammatory marker
+    category: inflammation
+    severity: moderate
+    base_confidence: 0.52
+    when:
+      any:
+        - analyte: crp
+          ref: high
+        - analyte: crp
+          op: ">"
+          value: 5
+          unit: mg/L
+    supporting: []
+    against: []
+    severity_rules:
+      - when: {analyte: crp, op: ">", value: 100, unit: mg/L}
+        severity: high
+        note: "Marked CRP elevation."
+    confirm:
+      - "Repeat CRP and look for the cause: infection, inflammation, autoimmune disease or malignancy."
+      - "Do not treat the number alone; identify the source."
+    citations: [medlineplus-003356#005, medlineplus-003356#006]
+
+  - id: zinc_deficiency
+    label: Zinc deficiency pattern
+    category: nutrient
+    severity: moderate
+    base_confidence: 0.55
+    when:
+      any:
+        - analyte: zinc
+          ref: low
+        - analyte: zinc
+          op: "<"
+          value: 9.2
+          unit: µmol/L
+    supporting: []
+    against: []
+    confirm:
+      - "Serum zinc is affected by food, time of day, inflammation and albumin; repeat under standardized conditions."
+      - "Check copper and review iron status and proton-pump inhibitor use before prolonged supplementation."
+    citations: [pmc-pmc13512597#063, pmc-pmc13512597#016]
+
+  - id: low_hdl
+    label: Low HDL cholesterol
+    category: lipid
+    severity: moderate
+    base_confidence: 0.55
+    when:
+      any:
+        - analyte: hdl
+          ref: low
+        - analyte: hdl
+          op: "<"
+          value: 1.0
+          unit: mmol/L
+    supporting:
+      - when: {analyte: triglycerides, op: ">", value: 1.7, unit: mmol/L}
+        weight: 0.05
+        note: "High triglycerides commonly accompany low HDL."
+    against: []
+    confirm:
+      - "Repeat the lipid panel; assess metabolic syndrome, activity, weight, smoking and diabetes."
+      - "Low HDL is usually addressed through lifestyle and cardiovascular risk review, not a supplement."
+    citations: [medlineplus-007810#005, medlineplus-007810#006]
+
+  - id: hyperhomocysteinaemia
+    label: High homocysteine
+    category: metabolic
+    severity: moderate
+    base_confidence: 0.58
+    when:
+      any:
+        - analyte: homocysteine
+          op: ">"
+          value: 15
+          unit: µmol/L
+    supporting: []
+    against: []
+    confirm:
+      - "Check B12, folate, B6, kidney function, thyroid, smoking, alcohol and medicines."
+      - "Do not supplement blindly; treat a proven deficiency and reassess."
+    citations: [pmc-pmc13401327#010]
+
+  - id: reduced_egfr
+    label: Reduced kidney filtration
+    category: renal
+    severity: moderate
+    base_confidence: 0.60
+    when:
+      any:
+        - analyte: egfr
+          op: "<"
+          value: 60
+          unit: mL/min/1.73m2
+    supporting: []
+    against: []
+    confirm:
+      - "Repeat eGFR after at least 3 months; a single value can be acute or transient."
+      - "Check urine albumin-to-creatinine ratio and review medicines, blood pressure and diabetes."
+    citations: [pmc-pmc13525924#001, pmc-pmc13525924#003]
+
+  - id: hyperuricaemia
+    label: High uric acid
+    category: metabolic
+    severity: moderate
+    base_confidence: 0.55
+    when:
+      any:
+        - analyte: uric_acid
+          ref: high
+    supporting: []
+    against: []
+    confirm:
+      - "Repeat uric acid; assess gout, kidney function, alcohol, purine intake and medicines."
+      - "A single high value is not a diagnosis of gout."
+    citations: [medlineplus-003476#003, medlineplus-003476#005]
+
+  - id: hyperbilirubinaemia
+    label: Raised bilirubin
+    category: liver
+    severity: moderate
+    base_confidence: 0.58
+    when:
+      any:
+        - analyte: bilirubin
+          ref: high
+    supporting: []
+    against: []
+    severity_rules:
+      - when: {analyte: bilirubin, op: ">", value: 50, unit: µmol/L}
+        severity: high
+        note: "Marked jaundice; needs prompt assessment."
+    confirm:
+      - "Repeat and fractionate bilirubin; check liver enzymes, haemolysis and medicines."
+      - "In a newborn, age and rate of rise decide urgency."
+    citations: [medlineplus-003479#004, medlineplus-003479#006]
+
+  - id: hypoalbuminaemia
+    label: Low albumin
+    category: liver
+    severity: moderate
+    base_confidence: 0.58
+    when:
+      any:
+        - analyte: albumin
+          ref: low
+    supporting: []
+    against: []
+    severity_rules:
+      - when: {analyte: albumin, op: "<", value: 25, unit: g/L}
+        severity: high
+        note: "Marked hypoalbuminaemia; assess liver, kidney and nutrition."
+    confirm:
+      - "Repeat albumin; check liver enzymes, kidney function, CRP and protein intake/absorption."
+      - "Low albumin is a marker, not a diagnosis."
+    citations: [medlineplus-003480#004, medlineplus-003480#006]
+
+  - id: thrombocytosis
+    label: High platelets
+    category: haematology
+    severity: moderate
+    base_confidence: 0.55
+    when:
+      any:
+        - analyte: platelets
+          ref: high
+    supporting: []
+    against: []
+    confirm:
+      - "Repeat the FBC; assess iron deficiency, inflammation, infection, malignancy and post-splenectomy states."
+      - "A persistent high platelet count needs haematology review."
+    citations: [pmc-pmc13678706#060, pmc-pmc13678706#074]
+
+  - id: thrombocytopenia
+    label: Low platelets
+    category: haematology
+    severity: moderate
+    base_confidence: 0.58
+    when:
+      any:
+        - analyte: platelets
+          ref: low
+    supporting: []
+    against: []
+    severity_rules:
+      - when: {analyte: platelets, op: "<", value: 50, unit: "10^9/L"}
+        severity: high
+        note: "Moderate-to-severe thrombocytopenia; urgent assessment if bleeding."
+    confirm:
+      - "Repeat the FBC and review the blood film; assess bleeding, medicines, infection, liver/spleen and heparin exposure."
+      - "A falling count or active bleeding needs urgent assessment."
+    citations: [pmc-pmc13678706#064, pmc-pmc13678706#065]
+
+  - id: hyperthyroidism
+    label: Overactive thyroid pattern
+    category: thyroid
+    severity: moderate
+    base_confidence: 0.60
+    when:
+      any:
+        - analyte: free_t4
+          ref: high
+        - all:
+            - analyte: tsh
+              op: "<"
+              value: 0.4
+              unit: mIU/L
+            - analyte: free_t4
+              ref: high
+    supporting: []
+    against: []
+    confirm:
+      - "Repeat TSH and free T4; add T3 and thyroid antibodies where indicated."
+      - "A suppressed TSH with high free T4 needs clinical review; do not take iodine or stimulant herbs."
+    citations: [medlineplus-003517#006, medlineplus-003684#006]

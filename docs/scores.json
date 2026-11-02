@@ -513,5 +513,69 @@
    "lab": "29/30",
    "note": "four runs of this configuration: 102, 101, 103, 102; lab 29/30 every time"
   }
- ]
+ ],
+ "recommendation_engine": {
+  "generated": "2026-10-31",
+  "vignettes": "data/clinical_vignettes.json",
+  "script": "scripts/eval_recommend.py",
+  "n": 72,
+  "all_contract_checks": {
+   "k": 72,
+   "pct": 100.0,
+   "ci95": [
+    94.9,
+    100.0
+   ]
+  },
+  "note": "Synthetic contract set authored alongside the rules. It checks pattern match, top-option agreement, withheld options, safety flags, gaps, severity and citation integrity. It is not a clinical validation set and is not evidence of clinical accuracy.",
+  "chat": {
+   "vignettes": "data/chat_vignettes.json",
+   "script": "scripts/eval_chat.py",
+   "n": 28,
+   "deterministic": {
+    "k": 28,
+    "pct": 100.0,
+    "ci95": [
+     87.9,
+     100.0
+    ]
+   },
+   "local_minicpm5_2b": {
+    "k": 28,
+    "pct": 100.0,
+    "ci95": [
+     87.9,
+     100.0
+    ],
+    "model_used": 24,
+    "assessment_used": 2,
+    "rejected_fallback": 2
+   },
+   "note": "Synthetic grounded-chat questions. Pass = required phrase/alternative present, no forbidden phrase, grounded, cited. The 2B result is a contract test, not prose quality or clinical accuracy."
+  },
+  "chat_multiturn": {
+   "vignettes": "data/chat_multiturn.json",
+   "script": "scripts/eval_chat_multiturn.py",
+   "n": 17,
+   "deterministic": {
+    "k": 17,
+    "pct": 100.0,
+    "ci95": [
+     81.6,
+     100.0
+    ]
+   },
+   "local_minicpm5_2b": {
+    "k": 17,
+    "pct": 100.0,
+    "ci95": [
+     81.6,
+     100.0
+    ],
+    "model_used": 15,
+    "rejected_fallback": 2
+   },
+   "note": "Multi-turn follow-up set. Each case builds one assessment and carries prior turns in history. Tiny n; a contract test, not a prose-quality measure."
+  }
+ }
 }

@@ -1,0 +1,1757 @@
+{
+ "note": "Synthetic regression vignettes for the recommendation engine. Each expected option is supported by a cited rule; this is a contract/agreement set, not a clinical validation set.",
+ "cases": [
+  {
+   "id": "iron-with-anaemia",
+   "intake": {
+    "age": 42,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 8,
+     "unit": "ng/mL",
+     "ref_low": 15,
+     "ref_high": 150
+    },
+    {
+     "analyte": "Haemoglobin",
+     "value": 105,
+     "unit": "g/L",
+     "ref_low": 120,
+     "ref_high": 160
+    },
+    {
+     "analyte": "MCV",
+     "value": 76,
+     "unit": "fL",
+     "ref_low": 80,
+     "ref_high": 100
+    },
+    {
+     "analyte": "CRP",
+     "value": 2,
+     "unit": "mg/L",
+     "ref_low": 0,
+     "ref_high": 5
+    }
+   ],
+   "expect_patterns": [
+    "iron_deficiency"
+   ],
+   "expect_top": "oral-iron-alternate-day",
+   "expect_withheld": []
+  },
+  {
+   "id": "iron-without-anaemia",
+   "intake": {
+    "age": 35,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 22,
+     "unit": "\u00b5g/L",
+     "ref_low": 15,
+     "ref_high": 150
+    },
+    {
+     "analyte": "Haemoglobin",
+     "value": 135,
+     "unit": "g/L",
+     "ref_low": 120,
+     "ref_high": 160
+    },
+    {
+     "analyte": "MCV",
+     "value": 88,
+     "unit": "fL",
+     "ref_low": 80,
+     "ref_high": 100
+    }
+   ],
+   "expect_patterns": [
+    "iron_deficiency"
+   ],
+   "expect_top": "oral-iron-alternate-day",
+   "expect_withheld": []
+  },
+  {
+   "id": "iron-overload-veto",
+   "intake": {
+    "age": 42,
+    "sex": "male",
+    "conditions": [
+     "hemochromatosis"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 8,
+     "unit": "ng/mL",
+     "ref_low": 15,
+     "ref_high": 150
+    }
+   ],
+   "expect_patterns": [
+    "iron_deficiency"
+   ],
+   "expect_top": null,
+   "expect_withheld": [
+    "oral-iron-alternate-day"
+   ]
+  },
+  {
+   "id": "b12-deficiency",
+   "intake": {
+    "age": 60,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Vitamin B12",
+     "value": 150,
+     "unit": "pmol/L",
+     "ref_low": 219,
+     "ref_high": 773
+    },
+    {
+     "analyte": "MCV",
+     "value": 102,
+     "unit": "fL",
+     "ref_low": 80,
+     "ref_high": 100
+    }
+   ],
+   "expect_patterns": [
+    "b12_deficiency"
+   ],
+   "expect_top": "oral-b12",
+   "expect_withheld": []
+  },
+  {
+   "id": "b12-borderline-with-macrocytosis",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "B12",
+     "value": 260,
+     "unit": "pmol/L",
+     "ref_low": 219,
+     "ref_high": 773
+    },
+    {
+     "analyte": "MCV",
+     "value": 102,
+     "unit": "fL",
+     "ref_low": 80,
+     "ref_high": 100
+    }
+   ],
+   "expect_patterns": [
+    "b12_deficiency"
+   ],
+   "expect_top": "oral-b12",
+   "expect_withheld": []
+  },
+  {
+   "id": "vitamin-d-deficiency",
+   "intake": {
+    "age": 35,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "25-hydroxyvitamin D",
+     "value": 30,
+     "unit": "nmol/L",
+     "ref_low": 75,
+     "ref_high": 250
+    }
+   ],
+   "expect_patterns": [
+    "vitamin_d_insufficiency"
+   ],
+   "expect_top": "vitamin-d3",
+   "expect_withheld": []
+  },
+  {
+   "id": "vitamin-d-insufficiency",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Vitamin D",
+     "value": 45,
+     "unit": "nmol/L",
+     "ref_low": 75,
+     "ref_high": 250
+    }
+   ],
+   "expect_patterns": [
+    "vitamin_d_insufficiency"
+   ],
+   "expect_top": "vitamin-d3",
+   "expect_withheld": []
+  },
+  {
+   "id": "hypercalcaemia-veto",
+   "intake": {
+    "age": 60,
+    "sex": "female",
+    "conditions": [
+     "hypercalcemia"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "25-hydroxyvitamin D",
+     "value": 30,
+     "unit": "nmol/L",
+     "ref_low": 75,
+     "ref_high": 250
+    }
+   ],
+   "expect_patterns": [
+    "vitamin_d_insufficiency"
+   ],
+   "expect_top": null,
+   "expect_withheld": [
+    "vitamin-d3"
+   ]
+  },
+  {
+   "id": "liver-enzyme-elevation",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "ALT",
+     "value": 65,
+     "unit": "U/L",
+     "ref_low": 4,
+     "ref_high": 36
+    },
+    {
+     "analyte": "AST",
+     "value": 45,
+     "unit": "U/L",
+     "ref_low": 8,
+     "ref_high": 33
+    },
+    {
+     "analyte": "GGT",
+     "value": 55,
+     "unit": "U/L",
+     "ref_low": 5,
+     "ref_high": 40
+    }
+   ],
+   "expect_patterns": [
+    "liver_enzyme_elevation"
+   ],
+   "expect_top": "liver-investigate",
+   "expect_withheld": []
+  },
+  {
+   "id": "normal-liver-enzymes",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "ALT",
+     "value": 20,
+     "unit": "U/L",
+     "ref_low": 4,
+     "ref_high": 36
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": []
+  },
+  {
+   "id": "high-triglycerides",
+   "intake": {
+    "age": 45,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Triglycerides",
+     "value": 3.2,
+     "unit": "mmol/L",
+     "ref_low": 0.4,
+     "ref_high": 1.7
+    },
+    {
+     "analyte": "HDL",
+     "value": 0.8,
+     "unit": "mmol/L",
+     "ref_low": 1.0,
+     "ref_high": 3.0
+    }
+   ],
+   "expect_patterns": [
+    "high_triglycerides"
+   ],
+   "expect_top": "triglyceride-lifestyle",
+   "expect_withheld": []
+  },
+  {
+   "id": "fish-allergy-veto",
+   "intake": {
+    "age": 45,
+    "sex": "male",
+    "conditions": [
+     "fish allergy"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "Triglycerides",
+     "value": 3.2,
+     "unit": "mmol/L",
+     "ref_low": 0.4,
+     "ref_high": 1.7
+    }
+   ],
+   "expect_patterns": [
+    "high_triglycerides"
+   ],
+   "expect_top": "triglyceride-lifestyle",
+   "expect_withheld": [
+    "fish-oil-triglycerides"
+   ]
+  },
+  {
+   "id": "normal-panel",
+   "intake": {
+    "age": 30,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 120,
+     "unit": "\u00b5g/L",
+     "ref_low": 30,
+     "ref_high": 400
+    },
+    {
+     "analyte": "Vitamin B12",
+     "value": 500,
+     "unit": "pmol/L",
+     "ref_low": 219,
+     "ref_high": 773
+    },
+    {
+     "analyte": "ALT",
+     "value": 20,
+     "unit": "U/L",
+     "ref_low": 4,
+     "ref_high": 36
+    },
+    {
+     "analyte": "Triglycerides",
+     "value": 1.0,
+     "unit": "mmol/L",
+     "ref_low": 0.4,
+     "ref_high": 1.7
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": []
+  },
+  {
+   "id": "pregnancy-iron-flag",
+   "intake": {
+    "age": 30,
+    "sex": "female",
+    "contexts": [
+     "pregnancy"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 8,
+     "unit": "ng/mL",
+     "ref_low": 15,
+     "ref_high": 150
+    }
+   ],
+   "expect_patterns": [
+    "iron_deficiency"
+   ],
+   "expect_top": "oral-iron-alternate-day",
+   "expect_withheld": [],
+   "expect_flags": {
+    "oral-iron-alternate-day": [
+     "pregnant"
+    ]
+   }
+  },
+  {
+   "id": "folate-pattern-without-option",
+   "intake": {
+    "age": 32,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Folate",
+     "value": 4.0,
+     "unit": "nmol/L",
+     "ref_low": 6.12,
+     "ref_high": 38.52
+    },
+    {
+     "analyte": "Homocysteine",
+     "value": 18,
+     "unit": "\u00b5mol/L",
+     "ref_low": 5,
+     "ref_high": 15
+    },
+    {
+     "analyte": "MCV",
+     "value": 100,
+     "unit": "fL",
+     "ref_low": 80,
+     "ref_high": 100
+    }
+   ],
+   "expect_patterns": [
+    "folate_deficiency"
+   ],
+   "expect_top": "folate-oral",
+   "expect_withheld": []
+  },
+  {
+   "id": "triglycerides-with-anticoagulant-flag",
+   "intake": {
+    "age": 55,
+    "sex": "male",
+    "medications": [
+     "warfarin"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "Triglycerides",
+     "value": 3.2,
+     "unit": "mmol/L",
+     "ref_low": 0.4,
+     "ref_high": 1.7
+    }
+   ],
+   "expect_patterns": [
+    "high_triglycerides"
+   ],
+   "expect_top": "triglyceride-lifestyle",
+   "expect_withheld": [],
+   "expect_flags": {
+    "fish-oil-triglycerides": [
+     "taking an anticoagulant"
+    ]
+   }
+  },
+  {
+   "id": "low-magnesium",
+   "intake": {
+    "age": 38,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Magnesium",
+     "value": 0.62,
+     "unit": "mmol/L",
+     "ref_low": 0.7,
+     "ref_high": 0.91
+    }
+   ],
+   "expect_patterns": [
+    "magnesium_low"
+   ],
+   "expect_top": "magnesium-oral",
+   "expect_withheld": []
+  },
+  {
+   "id": "thyroid-underactive-referral",
+   "intake": {
+    "age": 48,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "TSH",
+     "value": 8.2,
+     "unit": "mIU/L",
+     "ref_low": 0.4,
+     "ref_high": 4.8
+    },
+    {
+     "analyte": "Free T4",
+     "value": 8.0,
+     "unit": "pmol/L",
+     "ref_low": 9,
+     "ref_high": 19
+    }
+   ],
+   "expect_patterns": [
+    "thyroid_underactive"
+   ],
+   "expect_top": "thyroid-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "prediabetes-range",
+   "intake": {
+    "age": 52,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "HbA1c",
+     "value": 5.9,
+     "unit": "%",
+     "ref_low": 4.0,
+     "ref_high": 5.6
+    }
+   ],
+   "expect_patterns": [
+    "dysglycaemia"
+   ],
+   "expect_top": "dysglycaemia-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "diabetes-range-referral",
+   "intake": {
+    "age": 58,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "HbA1c",
+     "value": 7.2,
+     "unit": "%",
+     "ref_low": 4.0,
+     "ref_high": 5.6
+    }
+   ],
+   "expect_patterns": [
+    "dysglycaemia"
+   ],
+   "expect_top": "dysglycaemia-review",
+   "expect_withheld": [],
+   "expect_severity": {
+    "dysglycaemia": "high"
+   }
+  },
+  {
+   "id": "elevated-ldl-referral",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "LDL",
+     "value": 3.8,
+     "unit": "mmol/L",
+     "ref_low": 0,
+     "ref_high": 2.6
+    }
+   ],
+   "expect_patterns": [
+    "elevated_ldl"
+   ],
+   "expect_top": "ldl-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "normal-ldl",
+   "intake": {
+    "age": 40,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "LDL",
+     "value": 2.0,
+     "unit": "mmol/L",
+     "ref_low": 0,
+     "ref_high": 2.6
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": []
+  },
+  {
+   "id": "hypercalcaemia-lab-veto",
+   "intake": {
+    "age": 60,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "25-hydroxyvitamin D",
+     "value": 30,
+     "unit": "nmol/L",
+     "ref_low": 75,
+     "ref_high": 250
+    },
+    {
+     "analyte": "Calcium",
+     "value": 2.7,
+     "unit": "mmol/L",
+     "ref_low": 2.2,
+     "ref_high": 2.58
+    }
+   ],
+   "expect_patterns": [
+    "vitamin_d_insufficiency",
+    "hypercalcaemia"
+   ],
+   "expect_top": "hypercalcaemia-review",
+   "expect_withheld": [
+    "vitamin-d3"
+   ]
+  },
+  {
+   "id": "magnesium-kidney-veto",
+   "intake": {
+    "age": 62,
+    "sex": "male",
+    "conditions": [
+     "kidney disease"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "Magnesium",
+     "value": 0.6,
+     "unit": "mmol/L",
+     "ref_low": 0.7,
+     "ref_high": 0.91
+    }
+   ],
+   "expect_patterns": [
+    "magnesium_low"
+   ],
+   "expect_top": null,
+   "expect_withheld": [
+    "magnesium-oral"
+   ]
+  },
+  {
+   "id": "milk-thistle-ragweed-veto",
+   "intake": {
+    "age": 45,
+    "sex": "female",
+    "conditions": [
+     "ragweed allergy"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "ALT",
+     "value": 65,
+     "unit": "U/L",
+     "ref_low": 4,
+     "ref_high": 36
+    }
+   ],
+   "expect_patterns": [
+    "liver_enzyme_elevation"
+   ],
+   "expect_top": "liver-investigate",
+   "expect_withheld": [
+    "milk-thistle"
+   ]
+  },
+  {
+   "id": "pregnancy-milk-thistle-flag",
+   "intake": {
+    "age": 30,
+    "sex": "female",
+    "contexts": [
+     "pregnancy"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "ALT",
+     "value": 65,
+     "unit": "U/L",
+     "ref_low": 4,
+     "ref_high": 36
+    }
+   ],
+   "expect_patterns": [
+    "liver_enzyme_elevation"
+   ],
+   "expect_top": "liver-investigate",
+   "expect_withheld": [],
+   "expect_flags": {
+    "milk-thistle": [
+     "pregnant"
+    ]
+   }
+  },
+  {
+   "id": "iron-overload-referral",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 800,
+     "unit": "ng/mL",
+     "ref_low": 30,
+     "ref_high": 400
+    },
+    {
+     "analyte": "Transferrin saturation",
+     "value": 60,
+     "unit": "%",
+     "ref_low": 20,
+     "ref_high": 50
+    }
+   ],
+   "expect_patterns": [
+    "iron_overload"
+   ],
+   "expect_top": "iron-overload-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "hypercalcaemia-referral",
+   "intake": {
+    "age": 60,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Calcium",
+     "value": 2.9,
+     "unit": "mmol/L",
+     "ref_low": 2.2,
+     "ref_high": 2.58
+    }
+   ],
+   "expect_patterns": [
+    "hypercalcaemia"
+   ],
+   "expect_top": "hypercalcaemia-review",
+   "expect_withheld": [],
+   "expect_severity": {
+    "hypercalcaemia": "high"
+   }
+  },
+  {
+   "id": "marked-inflammation-referral",
+   "intake": {
+    "age": 45,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "CRP",
+     "value": 120,
+     "unit": "mg/L",
+     "ref_low": 0,
+     "ref_high": 5
+    }
+   ],
+   "expect_patterns": [
+    "inflammation"
+   ],
+   "expect_top": "inflammation-review",
+   "expect_withheld": [],
+   "expect_severity": {
+    "inflammation": "high"
+   }
+  },
+  {
+   "id": "severe-hypertriglyceridaemia",
+   "intake": {
+    "age": 45,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Triglycerides",
+     "value": 7.0,
+     "unit": "mmol/L",
+     "ref_low": 0.4,
+     "ref_high": 1.7
+    }
+   ],
+   "expect_patterns": [
+    "high_triglycerides"
+   ],
+   "expect_top": "triglyceride-urgent-review",
+   "expect_withheld": [
+    "fish-oil-triglycerides"
+   ],
+   "expect_severity": {
+    "high_triglycerides": "high"
+   },
+   "expect_alerts": [
+    "triglycerides"
+   ]
+  },
+  {
+   "id": "berberine-pregnancy-veto",
+   "intake": {
+    "age": 32,
+    "sex": "female",
+    "contexts": [
+     "pregnancy"
+    ]
+   },
+   "rows": [
+    {
+     "analyte": "HbA1c",
+     "value": 5.9,
+     "unit": "%",
+     "ref_low": 4.0,
+     "ref_high": 5.6
+    }
+   ],
+   "expect_patterns": [
+    "dysglycaemia"
+   ],
+   "expect_top": "dysglycaemia-review",
+   "expect_withheld": [
+    "berberine-dysglycaemia"
+   ]
+  },
+  {
+   "id": "critical-potassium",
+   "intake": {
+    "age": 60,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Potassium",
+     "value": 6.5,
+     "unit": "mmol/L",
+     "ref_low": 3.7,
+     "ref_high": 5.2
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "expect_alerts": [
+    "potassium"
+   ]
+  },
+  {
+   "id": "zinc-deficiency",
+   "intake": {
+    "age": 45,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Zinc",
+     "value": 8.0,
+     "unit": "\u00b5mol/L",
+     "ref_low": 10,
+     "ref_high": 18
+    }
+   ],
+   "expect_patterns": [
+    "zinc_deficiency"
+   ],
+   "expect_top": "zinc-oral",
+   "expect_withheld": []
+  },
+  {
+   "id": "critical-inr",
+   "intake": {
+    "age": 65,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "INR",
+     "value": 5.5,
+     "unit": "ratio",
+     "ref_low": 0.8,
+     "ref_high": 1.2
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "expect_alerts": [
+    "inr"
+   ]
+  },
+  {
+   "id": "critical-bicarbonate",
+   "intake": {
+    "age": 60,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Bicarbonate",
+     "value": 8,
+     "unit": "mmol/L",
+     "ref_low": 22,
+     "ref_high": 29
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "expect_alerts": [
+    "bicarbonate"
+   ]
+  },
+  {
+   "id": "low-hdl-lifestyle",
+   "intake": {
+    "age": 45,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "HDL",
+     "value": 0.8,
+     "unit": "mmol/L",
+     "ref_low": 1.0,
+     "ref_high": 3.0
+    }
+   ],
+   "expect_patterns": [
+    "low_hdl"
+   ],
+   "expect_top": "hdl-lifestyle",
+   "expect_withheld": []
+  },
+  {
+   "id": "critical-platelets",
+   "intake": {
+    "age": 60,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Platelets",
+     "value": 8,
+     "unit": "10^9/L",
+     "ref_low": 150,
+     "ref_high": 400
+    }
+   ],
+   "expect_patterns": [
+    "thrombocytopenia"
+   ],
+   "expect_top": "thrombocytopenia-review",
+   "expect_withheld": [],
+   "expect_alerts": [
+    "platelets"
+   ]
+  },
+  {
+   "id": "high-homocysteine-referral",
+   "intake": {
+    "age": 45,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Homocysteine",
+     "value": 18,
+     "unit": "\u00b5mol/L",
+     "ref_low": 5,
+     "ref_high": 15
+    }
+   ],
+   "expect_patterns": [
+    "hyperhomocysteinaemia"
+   ],
+   "expect_top": "homocysteine-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "b12-normal-mma-high",
+   "intake": {
+    "age": 60,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Vitamin B12",
+     "value": 350,
+     "unit": "pmol/L",
+     "ref_low": 219,
+     "ref_high": 773
+    },
+    {
+     "analyte": "Methylmalonic acid",
+     "value": 400,
+     "unit": "nmol/L",
+     "ref_low": 0,
+     "ref_high": 270
+    }
+   ],
+   "expect_patterns": [
+    "b12_deficiency"
+   ],
+   "expect_top": "oral-b12",
+   "expect_withheld": []
+  },
+  {
+   "id": "critical-newborn-potassium",
+   "intake": {
+    "age": 0,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Potassium",
+     "value": 7.2,
+     "unit": "mmol/L",
+     "ref_low": 3.7,
+     "ref_high": 5.2
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "expect_alerts": [
+    "potassium"
+   ],
+   "expect_age_groups": {
+    "potassium": "newborn"
+   }
+  },
+  {
+   "id": "newborn-potassium-not-adult-critical",
+   "intake": {
+    "age": 0,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Potassium",
+     "value": 6.5,
+     "unit": "mmol/L",
+     "ref_low": 3.7,
+     "ref_high": 5.2
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "expect_alerts": [],
+   "expect_age_groups": {}
+  },
+  {
+   "id": "child-potassium-adult-limit",
+   "intake": {
+    "age": 8,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Potassium",
+     "value": 6.5,
+     "unit": "mmol/L",
+     "ref_low": 3.7,
+     "ref_high": 5.2
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "expect_alerts": [
+    "potassium"
+   ],
+   "expect_age_groups": {
+    "potassium": "child"
+   }
+  },
+  {
+   "id": "iron-ferritin-29",
+   "intake": {
+    "age": 35,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 29,
+     "unit": "\u00b5g/L",
+     "ref_low": 15,
+     "ref_high": 150
+    }
+   ],
+   "expect_patterns": [
+    "iron_deficiency"
+   ],
+   "expect_top": "oral-iron-alternate-day",
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "iron-ferritin-31",
+   "intake": {
+    "age": 35,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Ferritin",
+     "value": 31,
+     "unit": "\u00b5g/L",
+     "ref_low": 15,
+     "ref_high": 150
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "b12-218",
+   "intake": {
+    "age": 60,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Vitamin B12",
+     "value": 218,
+     "unit": "pmol/L",
+     "ref_low": 219,
+     "ref_high": 773
+    }
+   ],
+   "expect_patterns": [
+    "b12_deficiency"
+   ],
+   "expect_top": "oral-b12",
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "b12-220",
+   "intake": {
+    "age": 60,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Vitamin B12",
+     "value": 220,
+     "unit": "pmol/L",
+     "ref_low": 219,
+     "ref_high": 773
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "vitamin-d-49",
+   "intake": {
+    "age": 35,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "25-hydroxyvitamin D",
+     "value": 49,
+     "unit": "nmol/L",
+     "ref_low": 75,
+     "ref_high": 250
+    }
+   ],
+   "expect_patterns": [
+    "vitamin_d_insufficiency"
+   ],
+   "expect_top": "vitamin-d3",
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "vitamin-d-51",
+   "intake": {
+    "age": 35,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "25-hydroxyvitamin D",
+     "value": 51,
+     "unit": "nmol/L",
+     "ref_low": 75,
+     "ref_high": 250
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "magnesium-069",
+   "intake": {
+    "age": 38,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Magnesium",
+     "value": 0.69,
+     "unit": "mmol/L",
+     "ref_low": 0.7,
+     "ref_high": 0.91
+    }
+   ],
+   "expect_patterns": [
+    "magnesium_low"
+   ],
+   "expect_top": "magnesium-oral",
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "magnesium-071",
+   "intake": {
+    "age": 38,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Magnesium",
+     "value": 0.71,
+     "unit": "mmol/L",
+     "ref_low": 0.7,
+     "ref_high": 0.91
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "zinc-99",
+   "intake": {
+    "age": 45,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Zinc",
+     "value": 9.9,
+     "unit": "\u00b5mol/L",
+     "ref_low": 10,
+     "ref_high": 18
+    }
+   ],
+   "expect_patterns": [
+    "zinc_deficiency"
+   ],
+   "expect_top": "zinc-oral",
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "zinc-101",
+   "intake": {
+    "age": 45,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Zinc",
+     "value": 10.1,
+     "unit": "\u00b5mol/L",
+     "ref_low": 10,
+     "ref_high": 18
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "alt-37",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "ALT",
+     "value": 37,
+     "unit": "U/L",
+     "ref_low": 4,
+     "ref_high": 36
+    }
+   ],
+   "expect_patterns": [
+    "liver_enzyme_elevation"
+   ],
+   "expect_top": "liver-investigate",
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "alt-36",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "ALT",
+     "value": 36,
+     "unit": "U/L",
+     "ref_low": 4,
+     "ref_high": 36
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "tg-171",
+   "intake": {
+    "age": 45,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Triglycerides",
+     "value": 1.71,
+     "unit": "mmol/L",
+     "ref_low": 0.4,
+     "ref_high": 1.7
+    }
+   ],
+   "expect_patterns": [
+    "high_triglycerides"
+   ],
+   "expect_top": "triglyceride-lifestyle",
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "tg-169",
+   "intake": {
+    "age": 45,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Triglycerides",
+     "value": 1.69,
+     "unit": "mmol/L",
+     "ref_low": 0.4,
+     "ref_high": 1.7
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "ldl-261",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "LDL",
+     "value": 2.61,
+     "unit": "mmol/L",
+     "ref_low": 0,
+     "ref_high": 2.6
+    }
+   ],
+   "expect_patterns": [
+    "elevated_ldl"
+   ],
+   "expect_top": "ldl-review",
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "ldl-259",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "LDL",
+     "value": 2.59,
+     "unit": "mmol/L",
+     "ref_low": 0,
+     "ref_high": 2.6
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "hdl-099",
+   "intake": {
+    "age": 45,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "HDL",
+     "value": 0.99,
+     "unit": "mmol/L",
+     "ref_low": 1.0,
+     "ref_high": 3.0
+    }
+   ],
+   "expect_patterns": [
+    "low_hdl"
+   ],
+   "expect_top": "hdl-lifestyle",
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "hdl-101",
+   "intake": {
+    "age": 45,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "HDL",
+     "value": 1.01,
+     "unit": "mmol/L",
+     "ref_low": 1.0,
+     "ref_high": 3.0
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "review": false
+  },
+  {
+   "id": "potassium-60",
+   "intake": {
+    "age": 60,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Potassium",
+     "value": 6.0,
+     "unit": "mmol/L",
+     "ref_low": 3.7,
+     "ref_high": 5.2
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "expect_alerts": [
+    "potassium"
+   ],
+   "review": false
+  },
+  {
+   "id": "potassium-599",
+   "intake": {
+    "age": 60,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Potassium",
+     "value": 5.99,
+     "unit": "mmol/L",
+     "ref_low": 3.7,
+     "ref_high": 5.2
+    }
+   ],
+   "expect_patterns": [],
+   "expect_top": null,
+   "expect_withheld": [],
+   "expect_alerts": [],
+   "review": false
+  },
+  {
+   "id": "glucose-25",
+   "intake": {
+    "age": 60,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Glucose",
+     "value": 25.0,
+     "unit": "mmol/L",
+     "ref_low": 3.9,
+     "ref_high": 5.5
+    }
+   ],
+   "expect_patterns": [
+    "dysglycaemia"
+   ],
+   "expect_top": "dysglycaemia-review",
+   "expect_withheld": [],
+   "expect_alerts": [
+    "glucose"
+   ],
+   "review": false
+  },
+  {
+   "id": "glucose-249",
+   "intake": {
+    "age": 60,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Glucose",
+     "value": 24.9,
+     "unit": "mmol/L",
+     "ref_low": 3.9,
+     "ref_high": 5.5
+    }
+   ],
+   "expect_patterns": [
+    "dysglycaemia"
+   ],
+   "expect_top": "dysglycaemia-review",
+   "expect_withheld": [],
+   "expect_alerts": [],
+   "review": false
+  },
+  {
+   "id": "reduced-egfr-referral",
+   "intake": {
+    "age": 65,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "eGFR",
+     "value": 45,
+     "unit": "mL/min/1.73m2",
+     "ref_low": 90,
+     "ref_high": 200
+    }
+   ],
+   "expect_patterns": [
+    "reduced_egfr"
+   ],
+   "expect_top": "renal-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "reduced-egfr-magnesium-veto",
+   "intake": {
+    "age": 65,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "eGFR",
+     "value": 25,
+     "unit": "mL/min/1.73m2",
+     "ref_low": 90,
+     "ref_high": 200
+    },
+    {
+     "analyte": "Magnesium",
+     "value": 0.6,
+     "unit": "mmol/L",
+     "ref_low": 0.7,
+     "ref_high": 0.91
+    }
+   ],
+   "expect_patterns": [
+    "reduced_egfr",
+    "magnesium_low"
+   ],
+   "expect_top": "renal-review",
+   "expect_withheld": [
+    "magnesium-oral"
+   ]
+  },
+  {
+   "id": "high-uric-acid-lifestyle",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Uric acid",
+     "value": 550,
+     "unit": "\u00b5mol/L",
+     "ref_low": 238,
+     "ref_high": 511
+    }
+   ],
+   "expect_patterns": [
+    "hyperuricaemia"
+   ],
+   "expect_top": "urate-lifestyle",
+   "expect_withheld": []
+  },
+  {
+   "id": "high-bilirubin-referral",
+   "intake": {
+    "age": 50,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Bilirubin",
+     "value": 35,
+     "unit": "\u00b5mol/L",
+     "ref_low": 3,
+     "ref_high": 20
+    }
+   ],
+   "expect_patterns": [
+    "hyperbilirubinaemia"
+   ],
+   "expect_top": "bilirubin-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "low-albumin-referral",
+   "intake": {
+    "age": 55,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Albumin",
+     "value": 30,
+     "unit": "g/L",
+     "ref_low": 34,
+     "ref_high": 54
+    }
+   ],
+   "expect_patterns": [
+    "hypoalbuminaemia"
+   ],
+   "expect_top": "albumin-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "high-platelets-referral",
+   "intake": {
+    "age": 50,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Platelets",
+     "value": 600,
+     "unit": "10^9/L",
+     "ref_low": 150,
+     "ref_high": 400
+    }
+   ],
+   "expect_patterns": [
+    "thrombocytosis"
+   ],
+   "expect_top": "platelet-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "low-platelets-referral",
+   "intake": {
+    "age": 50,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Platelets",
+     "value": 80,
+     "unit": "10^9/L",
+     "ref_low": 150,
+     "ref_high": 400
+    }
+   ],
+   "expect_patterns": [
+    "thrombocytopenia"
+   ],
+   "expect_top": "thrombocytopenia-review",
+   "expect_withheld": []
+  },
+  {
+   "id": "hyperthyroid-referral",
+   "intake": {
+    "age": 40,
+    "sex": "female"
+   },
+   "rows": [
+    {
+     "analyte": "Free T4",
+     "value": 30,
+     "unit": "pmol/L",
+     "ref_low": 12,
+     "ref_high": 22
+    },
+    {
+     "analyte": "TSH",
+     "value": 0.02,
+     "unit": "mIU/L",
+     "ref_low": 0.4,
+     "ref_high": 4.8
+    }
+   ],
+   "expect_patterns": [
+    "hyperthyroidism"
+   ],
+   "expect_top": "hyperthyroid-review",
+   "expect_withheld": []
+  }
+ ]
+}

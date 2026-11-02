@@ -1,0 +1,1096 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>materia — Atlas</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/base.css">
+<style>
+  :root {
+    --bg: #070c16;
+    --panel: #0c1422;
+    --panel-2: #0f1a2b;
+    --line: #1d2c40;
+    --line-soft: #162235;
+    --text: #dce6f2;
+    --muted: #8fa3b8;
+    --faint: #63758a;
+    --cyan: #5fe0ce;
+    --cyan-soft: rgba(95, 224, 206, .1);
+    --amber: #f0b44c;
+    --amber-soft: rgba(240, 180, 76, .1);
+    --red: #ff6b57;
+    --red-soft: rgba(255, 107, 87, .1);
+    --violet: #9a8cff;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --display: "Space Grotesk", system-ui, sans-serif;
+  }
+
+  html, body { background: var(--bg); }
+  body { color: var(--text); font-size: 12.5px; }
+
+  .atlas-bar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    height: 54px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(7, 12, 22, .94);
+    backdrop-filter: blur(12px);
+  }
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: -.04em;
+    line-height: 1;
+    color: var(--text);
+    text-decoration: none;
+  }
+  .brand .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--cyan); align-self: center; }
+  .brand small { color: var(--faint); font: 500 8px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase; margin-left: 3px; }
+  .mode-tabs {
+    justify-self: center;
+    display: inline-flex;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    padding: 2px;
+  }
+  .mode-tabs button {
+    border: 0;
+    background: transparent;
+    padding: 7px 13px;
+    color: var(--faint);
+    font: 500 8.5px/1 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .mode-tabs button[aria-pressed="true"] { background: var(--cyan); color: #061014; }
+  .mode-tabs button:not([aria-pressed="true"]):hover { color: var(--text); }
+  .atlas-bar .mockup-badge {
+    justify-self: end;
+    color: var(--faint);
+    border: 1px solid var(--line);
+    padding: 7px 9px;
+    background: var(--panel);
+  }
+
+  .filterbar {
+    position: sticky;
+    top: 54px;
+    z-index: 40;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    min-height: 44px;
+    padding: 7px 24px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(9, 15, 27, .93);
+    backdrop-filter: blur(10px);
+  }
+  .filter-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .filter-label {
+    color: var(--faint);
+    font: 500 7.5px/1 var(--mono);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+  .select-wrap {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+  select {
+    appearance: none;
+    min-width: 104px;
+    height: 28px;
+    padding: 0 24px 0 8px;
+    border: 1px solid var(--line);
+    border-radius: 0;
+    background: var(--panel);
+    color: var(--text);
+    font: 400 9px/1 var(--mono);
+    outline: none;
+  }
+  select:hover { border-color: #34506a; }
+  select:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+  .select-wrap::after {
+    content: "▾";
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--faint);
+    font-size: 8px;
+    pointer-events: none;
+  }
+  .check {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--muted);
+    font: 400 9px/1 var(--mono);
+    letter-spacing: .03em;
+    cursor: pointer;
+    user-select: none;
+  }
+  .check input { accent-color: var(--cyan); width: 12px; height: 12px; }
+  .filter-spacer { flex: 1; }
+  .list-toggle {
+    border: 1px solid var(--line);
+    background: transparent;
+    padding: 7px 9px;
+    color: var(--muted);
+    font: 500 8px/1 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .list-toggle:hover { color: var(--text); border-color: #34506a; }
+  .list-toggle[aria-pressed="true"] { color: var(--cyan); border-color: rgba(95,224,206,.4); background: var(--cyan-soft); }
+
+  main { max-width: 1520px; margin: 0 auto; padding: 18px 24px 44px; }
+
+  .map-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 438px;
+    gap: 16px;
+    align-items: start;
+  }
+
+  .map-panel {
+    border: 1px solid var(--line);
+    background: var(--panel);
+    min-width: 0;
+  }
+  .map-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 17px 18px 15px;
+    border-bottom: 1px solid var(--line);
+  }
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--faint);
+    font: 500 8px/1.4 var(--mono);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+  }
+  .eyebrow::before { content: ""; width: 22px; height: 1px; background: var(--cyan); }
+  .map-head h1 {
+    margin-top: 9px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(30px, 3vw, 42px);
+    line-height: 1;
+    letter-spacing: -.04em;
+  }
+  .map-head p {
+    margin-top: 8px;
+    max-width: 560px;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.5;
+  }
+  .map-stats {
+    text-align: right;
+    flex: 0 0 auto;
+    font: 400 8px/1.5 var(--mono);
+    color: var(--faint);
+    letter-spacing: .05em;
+  }
+  .map-stats b {
+    display: block;
+    color: var(--text);
+    font: 500 24px/1 var(--display);
+    letter-spacing: -.04em;
+    margin-bottom: 3px;
+  }
+  .map-stats .conflict { color: var(--amber); }
+
+  .graph-wrap {
+    position: relative;
+    min-height: 460px;
+    height: min(60vh, 620px);
+    background:
+      radial-gradient(circle at 1px 1px, rgba(95, 224, 206, .12) 1px, transparent 0) 0 0 / 22px 22px,
+      radial-gradient(ellipse at 50% 40%, rgba(29, 44, 64, .42), transparent 65%),
+      #08101c;
+    overflow: hidden;
+  }
+  .graph-wrap svg { width: 100%; height: 100%; display: block; }
+  .graph-tag {
+    position: absolute;
+    top: 12px; left: 12px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 9px;
+    border: 1px solid rgba(95, 224, 206, .32);
+    background: rgba(7, 12, 22, .84);
+    color: var(--cyan);
+    font: 500 8px/1 var(--mono);
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    pointer-events: none;
+  }
+  .graph-tag span { color: var(--faint); }
+  .graph-legend {
+    position: absolute;
+    right: 12px; bottom: 10px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    color: var(--faint);
+    font: 400 7.5px/1.4 var(--mono);
+    letter-spacing: .04em;
+    pointer-events: none;
+  }
+  .graph-legend span { display: inline-flex; align-items: center; gap: 5px; }
+  .graph-legend i { display: block; width: 13px; height: 1px; background: var(--faint); }
+  .graph-legend .conflict { background: var(--amber); }
+  .graph-legend .selected { background: var(--cyan); height: 2px; }
+  .edge { cursor: pointer; }
+  .edge path { transition: opacity .18s ease, stroke-width .18s ease; }
+  .edge .line { fill: none; stroke: #324c66; stroke-width: 1.2; }
+  .edge .hit { fill: none; stroke: transparent; stroke-width: 18; }
+  .edge .glow { fill: none; stroke: transparent; stroke-width: 7; }
+  .edge.is-conflict .line { stroke: #6e5a32; stroke-dasharray: 4 4; }
+  .edge.is-selected .line { stroke: var(--cyan); stroke-width: 2.2; stroke-dasharray: none; }
+  .edge.is-selected .glow { stroke: rgba(95, 224, 206, .18); }
+  .edge.is-dimmed { opacity: .17; }
+  .edge:hover .line { stroke: var(--cyan); }
+  .edge-label {
+    fill: #9aafc4;
+    font: 400 8.5px/1 var(--mono);
+    letter-spacing: .04em;
+    text-anchor: middle;
+    paint-order: stroke;
+    stroke: #08101c;
+    stroke-width: 5px;
+    pointer-events: none;
+  }
+  .edge.is-conflict .edge-label { fill: var(--amber); }
+  .edge.is-selected .edge-label { fill: var(--cyan); }
+  .edge-count { fill: #748aa2; font-size: 7.5px; }
+  .edge.is-conflict .edge-count { fill: #8f743c; }
+  .edge.is-selected .edge-count { fill: #4fb3a7; }
+  .node-ring { fill: none; stroke: #27415b; stroke-width: 1; }
+  .node-dot { fill: #0b1524; stroke: var(--muted); stroke-width: 1.4; }
+  .node-label {
+    fill: var(--muted);
+    font: 500 10px/1 var(--display);
+    text-anchor: middle;
+    paint-order: stroke;
+    stroke: #08101c;
+    stroke-width: 5px;
+  }
+  .node.is-selected .node-dot { fill: var(--cyan); stroke: var(--cyan); }
+  .node.is-selected .node-ring { stroke: rgba(95, 224, 206, .4); }
+  .node.is-selected .node-label { fill: var(--text); }
+  .node { cursor: default; }
+
+  .map-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    flex-wrap: wrap;
+    padding: 10px 14px;
+    border-top: 1px solid var(--line);
+    color: var(--faint);
+    font: 400 8px/1.5 var(--mono);
+    letter-spacing: .04em;
+  }
+  .map-foot b { color: var(--muted); font-weight: 400; }
+
+  /* ---------- inspector ---------- */
+  .inspector {
+    border: 1px solid var(--line);
+    background: var(--panel);
+    max-height: calc(100vh - 170px);
+    overflow: auto;
+    min-width: 0;
+  }
+  .inspector-head { padding: 15px 16px 13px; border-bottom: 1px solid var(--line); }
+  .inspector-kicker {
+    color: var(--faint);
+    font: 500 7.5px/1.4 var(--mono);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+  .conn-select-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 7px;
+  }
+  .conn-select-row select { flex: 1; min-width: 0; height: 30px; font-size: 9.5px; }
+  .inspector h2 {
+    margin-top: 12px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 1.04;
+    letter-spacing: -.035em;
+  }
+  .conn-desc { margin-top: 8px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+  .conn-meta { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; margin-top: 10px; }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 6px;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    font: 500 7px/1 var(--mono);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .badge--conflict { border-color: rgba(240,180,76,.38); background: var(--amber-soft); color: var(--amber); }
+  .badge--cyan { border-color: rgba(95,224,206,.3); background: var(--cyan-soft); color: var(--cyan); }
+
+  .safety-read {
+    margin: 12px 16px 0;
+    padding: 10px 11px;
+    border-left: 2px solid var(--amber);
+    background: rgba(240, 180, 76, .06);
+    color: #d7bf8d;
+    font-size: 10.5px;
+    line-height: 1.5;
+  }
+  .safety-read b {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--amber);
+    font: 500 7px/1 var(--mono);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+  .safety-read.is-veto { border-left-color: var(--red); background: var(--red-soft); color: #e4b5ad; }
+  .safety-read.is-veto b { color: var(--red); }
+
+  .source-stack { padding: 12px 16px 0; display: flex; flex-direction: column; gap: 8px; }
+  .src-card {
+    border: 1px solid var(--line);
+    background: var(--panel-2);
+    padding: 10px 11px 10px;
+    transition: opacity .18s ease, border-color .18s ease;
+  }
+  .src-card.is-dimmed { opacity: .38; }
+  .src-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    font: 400 7.5px/1.4 var(--mono);
+    color: var(--faint);
+    letter-spacing: .04em;
+  }
+  .src-marker {
+    margin-left: auto;
+    padding: 3px 5px;
+    border: 1px solid rgba(95,224,206,.28);
+    color: var(--cyan);
+    font: 500 6.5px/1 var(--mono);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .src-marker--amber { border-color: rgba(240,180,76,.35); color: var(--amber); }
+  .src-marker--red { border-color: rgba(255,107,87,.35); color: var(--red); }
+  .src-card h3 {
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--text);
+  }
+  .src-quote {
+    margin-top: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: var(--muted);
+    font-size: 10.5px;
+    line-height: 1.5;
+  }
+  .src-foot {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 8px;
+    padding-top: 7px;
+    border-top: 1px solid var(--line-soft);
+    color: var(--faint);
+    font: 400 7px/1.4 var(--mono);
+    letter-spacing: .03em;
+  }
+  .src-foot span { min-width: 0; overflow-wrap: anywhere; }
+  .src-foot button {
+    border: 0;
+    border-bottom: 1px solid var(--faint);
+    background: transparent;
+    padding: 1px 0;
+    color: var(--muted);
+    font: 500 7px/1 var(--mono);
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .src-foot button:hover { color: var(--cyan); border-color: var(--cyan); }
+
+  .filter-note {
+    margin: 10px 16px 14px;
+    color: var(--faint);
+    font: 400 8px/1.5 var(--mono);
+    letter-spacing: .02em;
+  }
+  .filter-note b { color: var(--amber); font-weight: 400; }
+
+  /* ---------- list view ---------- */
+  .list-panel { border: 1px solid var(--line); background: var(--panel); }
+  .list-head { display: flex; justify-content: space-between; gap: 20px; padding: 16px 18px; border-bottom: 1px solid var(--line); }
+  .list-head h2 { margin-top: 8px; font-family: var(--display); font-weight: 700; font-size: 32px; line-height: 1; letter-spacing: -.04em; }
+  .list-head p { margin-top: 8px; max-width: 640px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+  .list-table { width: 100%; font-size: 11px; }
+  .list-table th {
+    text-align: left;
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--line);
+    color: var(--faint);
+    font: 500 7px/1.3 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .list-table td { padding: 10px 12px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
+  .list-table tr:last-child td { border-bottom: 0; }
+  .list-table tr:hover td { background: #101b2c; }
+  .list-table tr.is-selected td { background: rgba(95,224,206,.06); }
+  .list-conn { border: 0; background: transparent; padding: 0; color: var(--text); font-size: 11.5px; font-weight: 500; text-align: left; }
+  .list-conn:hover { color: var(--cyan); }
+  .list-sources { color: var(--muted); line-height: 1.5; }
+  .list-sources b { color: var(--faint); font: 400 8px/1.5 var(--mono); }
+  .list-badge { display: inline-flex; padding: 3px 5px; border: 1px solid var(--line); font: 500 6.5px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+  .list-badge--conflict { color: var(--amber); border-color: rgba(240,180,76,.35); }
+
+  /* ---------- coverage ---------- */
+  .coverage-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 30px;
+    align-items: end;
+    padding: 18px 0 22px;
+    border-bottom: 1px solid var(--line);
+  }
+  .coverage-hero h2 {
+    margin-top: 10px;
+    max-width: 820px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(34px, 4vw, 52px);
+    line-height: 1.02;
+    letter-spacing: -.04em;
+  }
+  .coverage-hero p { margin-top: 10px; max-width: 680px; color: var(--muted); font-size: 11.5px; line-height: 1.55; }
+  .big-stat { text-align: right; padding-bottom: 2px; }
+  .big-stat b { display: block; font: 600 64px/1 var(--display); letter-spacing: -.055em; color: var(--cyan); }
+  .big-stat b small { font: 500 20px/1 var(--display); color: var(--faint); letter-spacing: -.02em; }
+  .big-stat span { display: block; margin-top: 6px; color: var(--faint); font: 400 8px/1.5 var(--mono); letter-spacing: .04em; }
+
+  .coverage-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); gap: 16px; margin-top: 16px; align-items: start; }
+  .bars-card, .corpus-card, .audit-card { border: 1px solid var(--line); background: var(--panel); }
+  .card-head { padding: 12px 14px; border-bottom: 1px solid var(--line); font: 600 8px/1.4 var(--mono); letter-spacing: .13em; text-transform: uppercase; color: var(--muted); }
+  .bars { padding: 6px 14px 12px; }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 158px minmax(0, 1fr) 188px;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .bar-row:last-child { border-bottom: 0; }
+  .bar-label { color: var(--text); font-size: 10.5px; line-height: 1.35; }
+  .bar-label small { display: block; margin-top: 2px; color: var(--faint); font: 400 7.5px/1.4 var(--mono); }
+  .bar-track { height: 9px; background: #0a1421; border: 1px solid var(--line); position: relative; }
+  .bar-fill { height: 100%; background: linear-gradient(90deg, rgba(95,224,206,.55), var(--cyan)); }
+  .bar-value { text-align: right; color: var(--muted); font: 400 8px/1.45 var(--mono); }
+  .bar-value b { display: block; color: var(--text); font-weight: 500; font-size: 9px; }
+  .corpus-body { padding: 12px 14px; }
+  .corpus-stat { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line-soft); }
+  .corpus-stat:last-child { border-bottom: 0; }
+  .corpus-stat span { color: var(--faint); font: 400 8px/1.4 var(--mono); letter-spacing: .04em; text-transform: uppercase; }
+  .corpus-stat b { color: var(--text); font: 500 13px/1 var(--display); letter-spacing: -.02em; }
+  .tier-bar { display: flex; height: 8px; margin-top: 10px; border: 1px solid var(--line); }
+  .tier-bar i { display: block; height: 100%; }
+  .tier-bar .reg { background: var(--cyan); }
+  .tier-bar .comp { background: var(--amber); }
+  .tier-bar .prim { background: var(--violet); }
+  .tier-legend { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 7px; color: var(--faint); font: 400 7px/1.4 var(--mono); }
+  .tier-legend span { display: inline-flex; align-items: center; gap: 4px; }
+  .tier-legend i { width: 5px; height: 5px; display: block; }
+  .audit-card { padding: 14px; }
+  .audit-card p { color: var(--muted); font-size: 10.5px; line-height: 1.55; }
+  .audit-card b { color: var(--text); font-weight: 500; }
+  .audit-numbers { display: flex; gap: 24px; margin: 12px 0; }
+  .audit-number b { display: block; font: 600 26px/1 var(--display); letter-spacing: -.04em; color: var(--text); }
+  .audit-number span { display: block; margin-top: 4px; color: var(--faint); font: 400 7px/1.4 var(--mono); letter-spacing: .05em; text-transform: uppercase; }
+  .coverage-note {
+    margin-top: 16px;
+    padding: 12px 14px;
+    border-left: 2px solid var(--amber);
+    background: var(--amber-soft);
+    color: #dcc38f;
+    font-size: 10.5px;
+    line-height: 1.55;
+  }
+  .coverage-note b { color: var(--amber); font-weight: 500; }
+
+  .footer {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 24px 22px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--faint);
+    font: 400 7.5px/1.5 var(--mono);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+
+  #source-dialog {
+    --drawer-bg: #0c1422;
+    --drawer-border: #34506a;
+    --drawer-ink: #dce6f2;
+  }
+  #source-dialog .drawer { box-shadow: 0 30px 90px rgba(0,0,0,.65); }
+  #source-dialog .drawer-link:hover span { color: #0c1422; }
+
+  @media (max-width: 1180px) {
+    .map-grid { grid-template-columns: minmax(0, 1fr) 380px; }
+    .graph-wrap { height: min(56vh, 560px); }
+    .bar-row { grid-template-columns: 130px minmax(0, 1fr) 160px; }
+  }
+  @media (max-width: 980px) {
+    .atlas-bar { grid-template-columns: 1fr auto; height: auto; min-height: 54px; padding: 9px 16px; }
+    .atlas-bar .mockup-badge { grid-column: 2; grid-row: 1; }
+    .mode-tabs { grid-column: 1 / -1; grid-row: 2; justify-self: start; }
+    .filterbar { top: 0; position: static; padding: 8px 16px; }
+    main { padding: 14px 16px 40px; }
+    .map-grid { grid-template-columns: 1fr; }
+    .inspector { max-height: none; }
+    .graph-wrap { height: 500px; }
+    .coverage-grid { grid-template-columns: 1fr; }
+    .coverage-hero { grid-template-columns: 1fr; }
+    .big-stat { text-align: left; }
+  }
+  @media (max-width: 640px) {
+    .map-head { display: block; }
+    .map-stats { text-align: left; margin-top: 12px; }
+    .graph-wrap { height: 380px; min-height: 380px; }
+    .graph-legend { display: none; }
+    .bar-row { grid-template-columns: 1fr; gap: 5px; }
+    .bar-value { text-align: left; }
+    .list-table { font-size: 10px; }
+    .list-table th:nth-child(4), .list-table td:nth-child(4) { display: none; }
+    .footer { flex-direction: column; gap: 6px; }
+  }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="atlas-bar">
+  <a class="brand" href="index.html" aria-label="materia mockups index">
+    <span>materia</span><span class="dot" aria-hidden="true"></span>
+    <small>Atlas</small>
+  </a>
+  <nav class="mode-tabs" aria-label="Atlas view">
+    <button type="button" data-mode="map" aria-pressed="true">Map</button>
+    <button type="button" data-mode="coverage" aria-pressed="false">Coverage</button>
+  </nav>
+  <span class="mockup-badge">Concept 04 · static mockup</span>
+</header>
+
+<div class="filterbar">
+  <div class="filter-group">
+    <span class="filter-label">Filter</span>
+    <label class="sr-only" for="tier-filter">Tier</label>
+    <span class="select-wrap"><select id="tier-filter">
+      <option value="all">All tiers</option>
+      <option value="regulatory">Regulatory</option>
+      <option value="primary">Primary</option>
+      <option value="compendium">Compendium</option>
+    </select></span>
+    <label class="sr-only" for="jur-filter">Jurisdiction</label>
+    <span class="select-wrap"><select id="jur-filter">
+      <option value="all">All jurisdictions</option>
+      <option value="eu">EU</option>
+      <option value="ca">CA</option>
+      <option value="us">US</option>
+      <option value="international">International</option>
+    </select></span>
+    <label class="check"><input type="checkbox" id="conflict-filter"> Divergence only</label>
+  </div>
+  <div class="filter-spacer"></div>
+  <button class="list-toggle" type="button" id="list-toggle" aria-pressed="false">List view</button>
+</div>
+
+<main id="main" tabindex="-1">
+
+  <section id="map-view" aria-labelledby="map-title">
+    <div class="map-grid">
+      <section class="map-panel">
+        <div class="map-head">
+          <div>
+            <p class="eyebrow">Provenance map · corpus v0</p>
+            <h1 id="map-title">Where the evidence meets.</h1>
+            <p>Entities linked by the claims the corpus actually makes. Select a connection to see every source, the divergence, and the safety screen's reading. Filters dim; they never hide a warning.</p>
+          </div>
+          <div class="map-stats"><b>5</b>connections<br><span class="conflict">2 diverge</span></div>
+        </div>
+
+        <div class="graph-wrap">
+          <div class="graph-tag">Selected <span id="graph-tag-text">Ginkgo ↔ Warfarin</span></div>
+          <svg id="graph" viewBox="0 0 1000 620" role="img" aria-labelledby="graph-title graph-desc">
+            <title id="graph-title">Entity graph of ginkgo, warfarin, bleeding, surgery, valerian, sleep, evening primrose and eczema</title>
+            <desc id="graph-desc">Five connections. Two have divergent sources. Use the connection selector or list view for keyboard access.</desc>
+          </svg>
+          <div class="graph-legend">
+            <span><i></i>connection</span>
+            <span><i class="conflict"></i>divergence</span>
+            <span><i class="selected"></i>selected</span>
+          </div>
+        </div>
+
+        <div class="map-foot">
+          <span><b>Map is visual.</b> Use the connection selector, or switch to list view, for keyboard access.</span>
+          <span id="map-filter-note">No filters applied</span>
+        </div>
+      </section>
+
+      <aside class="inspector" aria-labelledby="conn-title">
+        <div class="inspector-head">
+          <p class="inspector-kicker">Connection</p>
+          <div class="conn-select-row">
+            <label class="sr-only" for="edge-select">Connection</label>
+            <span class="select-wrap" style="flex:1"><select id="edge-select"></select></span>
+            <span class="badge" id="conn-sources"></span>
+          </div>
+          <h2 id="conn-title"></h2>
+          <p class="conn-desc" id="conn-desc"></p>
+          <div class="conn-meta" id="conn-meta"></div>
+        </div>
+
+        <div class="safety-read" id="safety-read"></div>
+        <div class="source-stack" id="source-stack"></div>
+        <p class="filter-note" id="filter-note"></p>
+      </aside>
+    </div>
+
+    <section class="list-panel" id="list-view" hidden aria-labelledby="list-title">
+      <div class="list-head">
+        <div>
+          <p class="eyebrow">Connections · accessible view</p>
+          <h2 id="list-title">All five connections.</h2>
+          <p>The graph, as a table. Select a connection to open it in the map. The source comparison remains the same.</p>
+        </div>
+        <span class="badge badge--cyan">2 divergences</span>
+      </div>
+      <table class="list-table">
+        <caption class="sr-only">Entity connections with claim type, sources, divergence and safety reading</caption>
+        <thead>
+          <tr><th scope="col">Connection</th><th scope="col">Claim</th><th scope="col">Sources</th><th scope="col">Divergence</th><th scope="col">Safety reading</th></tr>
+        </thead>
+        <tbody id="list-rows"></tbody>
+      </table>
+    </section>
+  </section>
+
+  <section id="coverage-view" hidden aria-labelledby="coverage-title">
+    <div class="coverage-hero">
+      <div>
+        <p class="eyebrow">Coverage · measured 2026-10-29</p>
+        <h2 id="coverage-title">What the corpus can actually cite.</h2>
+        <p>Panel coverage is the share of the 104-item reference set for which retrieval returns a chunk from the question's entity document with the right claim type. It is not support, and it is not accuracy.</p>
+      </div>
+      <div class="big-stat"><b>44.2<small>%</small></b><span>46 / 104 · 95% CI 35.1–53.8</span></div>
+    </div>
+
+    <div class="coverage-grid">
+      <section class="bars-card">
+        <div class="card-head">Coverage with n and 95% CI</div>
+        <div class="bars" id="coverage-bars"></div>
+      </section>
+
+      <section class="corpus-card">
+        <div class="card-head">Corpus composition</div>
+        <div class="corpus-body" id="corpus-body"></div>
+      </section>
+
+      <section class="audit-card">
+        <div class="card-head">What coverage does not tell you</div>
+        <p><b>Coverage is not support.</b> A retrieved chunk can share vocabulary with the question and still fail to carry the claim.</p>
+        <div class="audit-numbers">
+          <div class="audit-number"><b>6</b><span>supported</span></div>
+          <div class="audit-number"><b>5</b><span>unsupported / uncertain</span></div>
+          <div class="audit-number"><b>11</b><span>audited</span></div>
+        </div>
+        <p>The stratified audit is small and is not a clinical accuracy estimate. It is reported so the coverage number cannot be read as one.</p>
+      </section>
+    </div>
+
+    <p class="coverage-note"><b>Reading the bars:</b> overall 46/104 = 44.2% [35.1, 53.8]. Subject questions 22/53 = 41.5% [29.3, 54.9]. Lab questions 20/31 = 64.5% [46.9, 78.9]. Questions naming no subject 4/20 = 20.0% [8.1, 41.6]. No number is shown without its denominator and interval.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>Concept 04 · Atlas · design target, not current CLI output</span>
+  <span>Source quotes from corpus/index.sqlite · coverage from docs/gate_report.md · static fixtures</span>
+</footer>
+
+<dialog id="source-dialog" aria-labelledby="drawer-title">
+  <div class="drawer">
+    <div class="drawer-head">
+      <div>
+        <p class="drawer-kicker" id="drawer-kicker"></p>
+        <h2 id="drawer-title"></h2>
+      </div>
+      <button class="drawer-close" type="button" id="drawer-close" aria-label="Close source">×</button>
+    </div>
+    <blockquote class="drawer-quote" id="drawer-quote"></blockquote>
+    <dl class="drawer-meta" id="drawer-meta"></dl>
+    <a class="drawer-link" id="drawer-link" href="#" target="_blank" rel="noopener noreferrer"><span>Open primary source</span> ↗</a>
+  </div>
+</dialog>
+
+<noscript><p style="padding:24px">This mockup needs JavaScript for the graph and filters.</p></noscript>
+
+<script>window.addEventListener("error", function () { document.documentElement.setAttribute("data-mockup-error", "1"); });</script>
+<script src="assets/fixtures.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  const M = window.MATERIA;
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+  const esc = (value) => String(value == null ? "" : value)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+
+  const nodeById = new Map(M.atlas.nodes.map((node) => [node.id, node]));
+  const edgeById = new Map(M.atlas.edges.map((edge) => [edge.id, edge]));
+  const tierLabel = { regulatory: "Regulatory", primary: "Primary", compendium: "Compendium" };
+  const jurisdictionLabel = { eu: "EU", ca: "CA", us: "US", international: "Intl" };
+
+  const state = {
+    edge: "ginkgo-warfarin",
+    mode: "map",
+    list: false,
+    tier: "all",
+    jur: "all",
+    conflicts: false
+  };
+
+  let lastTrigger = null;
+  const dialog = $("#source-dialog");
+
+  function sourceMatches(source) {
+    if (state.tier !== "all" && source.tier !== state.tier) return false;
+    if (state.jur !== "all" && source.jurisdiction !== state.jur) return false;
+    return true;
+  }
+
+  function edgeMatches(edge) {
+    if (state.conflicts && !edge.conflict) return false;
+    return edge.sourceIds.some((id) => sourceMatches(M.sources[id]));
+  }
+
+  function edgeTitle(edge) {
+    return `${nodeById.get(edge.from).label} ↔ ${nodeById.get(edge.to).label}`;
+  }
+
+  function markerClass(marker) {
+    if (/restrict|contraindicat/i.test(marker)) return "src-marker--red";
+    if (/diverg|gap|caution|no evidence/i.test(marker)) return "src-marker--amber";
+    return "";
+  }
+
+  function buildSelect() {
+    $("#edge-select").innerHTML = M.atlas.edges.map((edge) => (
+      `<option value="${esc(edge.id)}">${esc(edgeTitle(edge))}${edge.conflict ? " · divergence" : ""}</option>`
+    )).join("");
+    $("#edge-select").value = state.edge;
+  }
+
+  function renderGraph() {
+    const ns = "http://www.w3.org/2000/svg";
+    const svg = $("#graph");
+    const selected = edgeById.get(state.edge);
+    const selectedNodes = new Set(selected ? [selected.from, selected.to] : []);
+    const edges = [...M.atlas.edges].sort((a, b) => (a.id === state.edge ? 1 : 0) - (b.id === state.edge ? 1 : 0));
+
+    const defs = `<title id="graph-title">Entity graph of ginkgo, warfarin, bleeding, surgery, valerian, sleep, evening primrose and eczema</title>
+      <desc id="graph-desc">Five connections. Two have divergent sources. Use the connection selector or list view for keyboard access.</desc>
+      <defs>
+      <pattern id="atlas-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M40 0H0V40" fill="none" stroke="#142337" stroke-width="1"/>
+      </pattern>
+      <filter id="atlas-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <rect width="1000" height="620" fill="url(#atlas-grid)" opacity=".55"/>`;
+
+    const edgeMarkup = edges.map((edge, index) => {
+      const a = nodeById.get(edge.from);
+      const b = nodeById.get(edge.to);
+      const dx = b.x - a.x, dy = b.y - a.y;
+      const len = Math.max(1, Math.hypot(dx, dy));
+      const bend = (index % 2 === 0 ? 1 : -1) * 24;
+      const cx = (a.x + b.x) / 2 + (-dy / len) * bend;
+      const cy = (a.y + b.y) / 2 + (dx / len) * bend;
+      const mx = (a.x + 2 * cx + b.x) / 4;
+      const my = (a.y + 2 * cy + b.y) / 4;
+      const dim = (!edgeMatches(edge) && edge.id !== state.edge) ? " is-dimmed" : "";
+      const cls = `edge${edge.conflict ? " is-conflict" : ""}${edge.id === state.edge ? " is-selected" : ""}${dim}`;
+      return `<g class="${cls}" data-edge="${esc(edge.id)}">
+        <path class="glow" d="M${a.x} ${a.y} Q${cx} ${cy} ${b.x} ${b.y}"/>
+        <path class="line" d="M${a.x} ${a.y} Q${cx} ${cy} ${b.x} ${b.y}"/>
+        <path class="hit" d="M${a.x} ${a.y} Q${cx} ${cy} ${b.x} ${b.y}"/>
+        <text class="edge-label" x="${mx}" y="${my - 6}">${esc(edge.label)}</text>
+        <text class="edge-label edge-count" x="${mx}" y="${my + 7}">${edge.sourceIds.length} sources</text>
+      </g>`;
+    }).join("");
+
+    const nodeMarkup = M.atlas.nodes.map((node) => {
+      const selectedNode = selectedNodes.has(node.id);
+      const label = node.label;
+      return `<g class="node${selectedNode ? " is-selected" : ""}">
+        <circle class="node-ring" cx="${node.x}" cy="${node.y}" r="17"/>
+        <circle class="node-dot" cx="${node.x}" cy="${node.y}" r="7"/>
+        <text class="node-label" x="${node.x}" y="${node.y + 30}">${esc(label)}</text>
+      </g>`;
+    }).join("");
+
+    svg.innerHTML = defs + edgeMarkup + nodeMarkup;
+    $("#graph-tag-text").textContent = selected ? edgeTitle(selected) : "—";
+  }
+
+  function renderInspector() {
+    const edge = edgeById.get(state.edge);
+    if (!edge) return;
+    const sources = edge.sourceIds.map((id) => ({ id, ...M.sources[id] }));
+    const dimmed = sources.filter((source) => !sourceMatches(source)).length;
+    const conflict = edge.conflict;
+
+    $("#conn-title").textContent = edgeTitle(edge);
+    $("#conn-desc").textContent = edge.description;
+    $("#conn-sources").textContent = `${sources.length} sources`;
+    $("#conn-meta").innerHTML = [
+      `<span class="badge">${esc(edge.label)}</span>`,
+      conflict ? '<span class="badge badge--conflict">Sources diverge</span>' : '<span class="badge badge--cyan">No divergence</span>'
+    ].join("");
+
+    $("#safety-read").className = "safety-read" + (conflict && /veto|most restrictive/i.test(edge.safety) ? " is-veto" : "");
+    $("#safety-read").innerHTML = `<b>Safety reading</b>${esc(edge.safety)}`;
+
+    $("#source-stack").innerHTML = sources.map((source) => {
+      const marker = edge.markers[source.id] || "Source";
+      return `<article class="src-card${sourceMatches(source) ? "" : " is-dimmed"}" data-source-card="${esc(source.id)}">
+        <div class="src-top">
+          <span>${esc(tierLabel[source.tier] || source.tier)} · ${esc(jurisdictionLabel[source.jurisdiction] || source.jurisdiction)} · ${esc(source.date)}</span>
+          <span class="src-marker ${markerClass(marker)}">${esc(marker)}</span>
+        </div>
+        <h3>${esc(source.source)}</h3>
+        <p class="src-quote">${esc(source.quote)}</p>
+        <div class="src-foot">
+          <span>${esc(source.section)} · ${esc(source.identifier)}</span>
+          <button type="button" data-open-source="${esc(source.id)}">Read passage</button>
+        </div>
+      </article>`;
+    }).join("");
+
+    $("#filter-note").innerHTML = dimmed
+      ? `<b>${dimmed} of ${sources.length} sources dimmed by the filter.</b> They stay visible; a safety warning is never removed by a browse filter.`
+      : "All sources on this connection match the current filter.";
+
+    state.sources = sources;
+  }
+
+  function renderList() {
+    $("#list-rows").innerHTML = M.atlas.edges.map((edge) => {
+      const dim = edgeMatches(edge) ? "" : " style=\"opacity:.35\"";
+      const names = edge.sourceIds.map((id) => `${M.sources[id].source} (${jurisdictionLabel[M.sources[id].jurisdiction]}, ${M.sources[id].date.slice(0, 4)})`).join(" · ");
+      return `<tr data-edge-row="${esc(edge.id)}"${dim}>
+        <td><button class="list-conn" type="button" data-edge-row="${esc(edge.id)}">${esc(edgeTitle(edge))}</button></td>
+        <td><span class="badge">${esc(edge.label)}</span></td>
+        <td class="list-sources">${esc(names)}</td>
+        <td>${edge.conflict ? '<span class="list-badge list-badge--conflict">divergence</span>' : '<span class="list-badge">agrees</span>'}</td>
+        <td class="list-sources">${esc(edge.safety)}</td>
+      </tr>`;
+    }).join("");
+  }
+
+  function renderCoverage() {
+    const c = M.atlas.coverage;
+    const groups = [{ label: "All panel items", note: "the 104-item reference set", ...c.total }, ...c.groups.map((g) => ({ ...g, note: "" }))];
+    $("#coverage-bars").innerHTML = groups.map((group) => (
+      `<div class="bar-row">
+        <div class="bar-label">${esc(group.label)}${group.note ? `<small>${esc(group.note)}</small>` : ""}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${parseFloat(group.pct)}%"></div></div>
+        <div class="bar-value"><b>${group.covered}/${group.n} · ${esc(group.pct)}</b>95% CI ${esc(group.ci)}</div>
+      </div>`
+    )).join("");
+
+    const comp = c.corpus;
+    const total = comp.docs;
+    $("#corpus-body").innerHTML = `
+      <div class="corpus-stat"><span>Documents</span><b>${comp.docs}</b></div>
+      <div class="corpus-stat"><span>Chunks</span><b>${comp.chunks.toLocaleString("en-AU")}</b></div>
+      <div class="corpus-stat"><span>Redistributable</span><b>${comp.docs}</b></div>
+      <div class="tier-bar" aria-hidden="true">
+        <i class="reg" style="width:${(comp.tiers.regulatory / total) * 100}%"></i>
+        <i class="comp" style="width:${(comp.tiers.compendium / total) * 100}%"></i>
+        <i class="prim" style="width:${(comp.tiers.primary / total) * 100}%"></i>
+      </div>
+      <div class="tier-legend">
+        <span><i class="reg"></i>regulatory ${comp.tiers.regulatory}</span>
+        <span><i class="comp"></i>compendium ${comp.tiers.compendium}</span>
+        <span><i class="prim"></i>primary ${comp.tiers.primary}</span>
+      </div>
+      <div class="corpus-stat" style="margin-top:6px"><span>CA · EU · US · Intl</span><b>${comp.jurisdictions.ca} · ${comp.jurisdictions.eu} · ${comp.jurisdictions.us} · ${comp.jurisdictions.international}</b></div>`;
+  }
+
+  function selectEdge(id, { rebuild = false } = {}) {
+    if (!edgeById.has(id)) return;
+    state.edge = id;
+    $("#edge-select").value = id;
+    if (rebuild) buildSelect();
+    renderGraph();
+    renderInspector();
+    renderList();
+  }
+
+  function applyFilters() {
+    state.tier = $("#tier-filter").value;
+    state.jur = $("#jur-filter").value;
+    state.conflicts = $("#conflict-filter").checked;
+    renderGraph();
+    renderInspector();
+    renderList();
+    const active = state.tier !== "all" || state.jur !== "all" || state.conflicts;
+    $("#map-filter-note").textContent = active
+      ? [state.tier !== "all" ? tierLabel[state.tier] : "", state.jur !== "all" ? jurisdictionLabel[state.jur] : "", state.conflicts ? "divergence only" : ""].filter(Boolean).join(" · ")
+      : "No filters applied";
+  }
+
+  function setMode(mode) {
+    state.mode = mode;
+    const coverage = mode === "coverage";
+    $("#map-view").hidden = coverage;
+    $("#coverage-view").hidden = !coverage;
+    $(".filterbar").hidden = coverage;
+    $$("[data-mode]").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.mode === mode)));
+    document.title = coverage ? "materia — Atlas · coverage" : "materia — Atlas";
+    if (coverage) renderCoverage();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function setList(list) {
+    state.list = list;
+    $("#list-toggle").setAttribute("aria-pressed", String(list));
+    $("#map-view .map-grid").hidden = list;
+    $("#list-view").hidden = !list;
+    $("#list-toggle").textContent = list ? "Map view" : "List view";
+  }
+
+  function openSource(id) {
+    const source = M.sources[id];
+    if (!source) return;
+    lastTrigger = document.activeElement;
+    $("#drawer-kicker").textContent = `${tierLabel[source.tier] || source.tier} · ${jurisdictionLabel[source.jurisdiction] || source.jurisdiction} · ${source.section}`;
+    $("#drawer-title").textContent = source.title;
+    $("#drawer-quote").textContent = source.quote;
+    $("#drawer-meta").innerHTML = [
+      ["Publisher", source.source],
+      ["Published", source.date],
+      ["Next review due", source.nextReview],
+      ["Identifier", source.identifier],
+      ["Licence", source.licence],
+      ["Chunk", source.chunkId],
+      ["Checksum", source.checksum]
+    ].map(([key, value]) => `<dt>${esc(key)}</dt><dd>${esc(value)}</dd>`).join("");
+    $("#drawer-link").href = source.url;
+    dialog.showModal();
+  }
+
+  document.addEventListener("click", (event) => {
+    const source = event.target.closest("[data-open-source]");
+    if (source) { openSource(source.dataset.openSource); return; }
+
+    const mode = event.target.closest("[data-mode]");
+    if (mode) { setMode(mode.dataset.mode); return; }
+
+    const edgeRow = event.target.closest("[data-edge-row]");
+    if (edgeRow) {
+      selectEdge(edgeRow.dataset.edgeRow);
+      if (state.list) setList(false);
+      return;
+    }
+
+    if (event.target.closest("#list-toggle")) { setList(!state.list); return; }
+
+    if (event.target.closest("#graph") && event.target.closest("[data-edge]")) {
+      selectEdge(event.target.closest("[data-edge]").dataset.edge);
+    }
+  });
+
+  $("#edge-select").addEventListener("change", (event) => selectEdge(event.target.value));
+  $("#tier-filter").addEventListener("change", applyFilters);
+  $("#jur-filter").addEventListener("change", applyFilters);
+  $("#conflict-filter").addEventListener("change", applyFilters);
+
+  $("#drawer-close").addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (event) => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener("close", () => { if (lastTrigger && typeof lastTrigger.focus === "function") lastTrigger.focus(); });
+
+  buildSelect();
+  renderGraph();
+  renderInspector();
+  renderList();
+  renderCoverage();
+
+  const initial = location.hash.replace("#", "");
+  if (initial === "coverage") setMode("coverage");
+  if (initial === "list") setList(true);
+  if (edgeById.has(initial)) selectEdge(initial);
+
+  document.documentElement.setAttribute("data-mockup-ready", "1");
+})();
+</script>
+</body>
+</html>

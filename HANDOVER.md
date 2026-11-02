@@ -8,6 +8,12 @@
 
 ## TL;DR
 
+> **2026-10-31 — read §14 first.** The objective changed to a blood-test → cited
+> supplement/herb recommendation engine with a conversational layer. The paragraphs below
+> are the 2026-10-28 baseline and are kept as the design record; where they say "no diagnosis",
+> "never outputs a protocol", or "not done: UI", §14 supersedes them. The provenance and safety
+> rules did not change.
+
 **DSH takeover:** §11 records what was measured and built in the DSH session on 2026-10-28, including corrections to this document. Read it before acting on §2 or §10.
 
 - **The product is a cited evidence engine for naturopathic / holistic practitioners.** Not a protocol generator, not a chatbot, not a diagnosis tool.
@@ -28,9 +34,11 @@ A tool for naturopaths, nutritionists, herbalists and functional-medicine practi
 
 **Global by default, jurisdiction as data (Josh, 2026-10-28).** Nothing in the product, corpus or defaults is tied to one country. Units, reference intervals, scheduling and permitted claims differ by market and are carried as fields, not hardcoded. The first build target happens to be English-language, but that is a starting point, not a scope limit.
 
-**Explicitly NOT:**
-- not a diagnostic tool
-- not an autonomous prescriber (it never outputs a protocol — it surfaces evidence + a cited rationale)
+**Explicitly NOT (2026-10-28 baseline; see §14 for the 2026-10-31 scope change):**
+- not a diagnostic tool → **superseded:** it now produces a cited diagnostic *assessment* (pattern +
+  confidence + confirmatory steps), never a confirmed diagnosis
+- not an autonomous prescriber (it never outputs a protocol) → **superseded:** it now returns ranked,
+  cited options with dose ranges and a deterministic safety screen; a practitioner still decides
 - not a regulated medical device product (Josh's call, 2026-10-28: "fuck regulation, this is a global open source model")
 - not fine-tuned on scraped naturopathic content — there is no such corpus (verified: zero `naturopath` / `functional medicine` datasets on HF)
 
@@ -491,6 +499,171 @@ corpus now makes the answers citable rather than different. A model-based rerank
 reranking (entity-first, claim-type, section prior, boilerplate filter) is kept. **Next, in order.** (1) reranker and higher-quality herb corpus before any further herb retrieval attempt;
 (2) verify-then-fallback for prose only — an MCQ answer is a letter and has no claim to verify;
 (3) a real lab report pair from Josh; (4) practitioner-written vignettes to replace the synthetic ones.
+
+## 13. 2026-10-31 — the first real lab report, and why it read as "no results"
+
+Josh uploaded a **16-page Sonic Dx / Sullivan Nicolaides pathology PDF** through the app on :8777. It
+returned HTTP 200 with **5 rows named "2", "5", "6", "7", "6", every value null**. That is the "no
+results" he reported. One document, n = 1, reproduced end-to-end before and after the fix.
+
+**Five causes, all in the read path, none in the corpus or the model.**
+
+1. `extract_lab_rows` only accepted numbered analytes (`^(\d{1,3})\.\s*(.+)$` — Genova's "1. Lysine").
+   This report prints no row numbers, and a decimal *result* like `4.2` matched the pattern, so the value
+   was taken as the analyte's name. The OCR itself was perfect: 20 of 20 rows on page 2.
+2. Only the first **4** pages were OCR'd, and the scan stopped at the first page that parsed — a 13-page
+   analyte set was reduced to one page.
+3. The PDF's clean **text layer was ignored** except for the date and a provenance label.
+4. `_iso_date` assumed month-first: `Collected 19/12/2025` gave month 19, so the date was `None` and every
+   row carried "no collection date".
+5. One-sided intervals (`<5.6`, `>100`), the lab's own `H`/`L` markers, and `umol/L` → `µmol/L` were dropped.
+
+**Fix.** New `materia/labtext.py` reads the text layer deterministically (name, result, interval, unit;
+wrapped names; limit results like `>128` kept as text, not rounded to a number). `server._extract_upload`
+now reads **every page**, takes the text layer as the first read, and spends OCR only on pages with no text
+(a scan or a photo), capped by `MATERIA_MAX_OCR_PAGES` (default 12). Rows carry the page they came from and
+the UI shows that page. `_iso_date` takes DD/MM or MM/DD from the document's own evidence and leaves an
+ambiguous date unread. The plausibility table gained the general panel (electrolytes, renal, LFT, lipids,
+thyroid, iron, FBC, sex hormones) with wide bounds; `UNIT_BOUNDS` covers HbA1c in both unit systems.
+
+**Measured.** 16-page report → **66 values from 13 pages** (70 printed, 4 repeated across pages) in
+**1.3 s** over HTTP, versus 46 s for 5 junk rows before. Reviews after the gate: 13 of 66, every one a real
+gap (6 lab-flagged, 5 with no unit printed, 1 with no interval, 2 limit results). Reproduce with
+`.venv/bin/python -m pytest -q` (76 tests, `tests/test_labtext.py` and the `_extract_upload` test in
+`tests/test_webapp.py` build a synthetic PDF and assert the text-layer path is used with no model).
+
+**Decision recorded, so it is not re-litigated.** §2 asks for the text layer *and* OCR on the same page,
+compared. For a digital PDF the text layer is exact and OCR is ~45 s per page; spending 10 minutes to
+confirm a byte-identical read is the wrong trade at upload time. The text layer is therefore the first
+read and `provenance` says which read produced the rows ("Text layer read" / "OCR read" / both). A scan
+still goes to OCR, and the plausibility gate plus human confirmation on every value are unchanged.
+
+## 14. 2026-10-31 — objective pivot: blood tests → cited recommendations
+
+The objective changed from "read the lab report" to "blood tests in → cited supplement/herb
+recommendations out, then a conversation". The earlier contract forbade diagnosis and dose; that
+contradiction is now resolved in `AGENTS.md`: the product is clinical decision support, options and
+dose ranges are allowed when they are cited and safety-screened, and a pattern is never stated as a
+confirmed diagnosis.
+
+**Design.** `docs/clinical-engine.md` records the ontology, the source hierarchy, the scoring
+equation and the evaluation protocol. The short version: the engine is deterministic; the model only
+explains. A recommendation rule with an unresolved citation or an unsupported dose is withheld and
+shown as withheld, not rendered.
+
+**Built this round.**
+
+- `materia/clinical.py` — 28-analyte canonical catalog, unit conversion, finding extraction,
+  recursive pattern matcher, severity rules.
+- `materia/recommend.py` — evidence graph, dose/citation validation, context safety, ranking,
+  JSON/text output.
+- `materia/rules/analytes.yaml`, `materia/rules/clinical_patterns.yaml`, `materia/rules/recommendations.yaml`.
+- `scripts/ingest_pmc.py` — CC-BY full-text ingestion from Europe PMC (8 papers: iron, B12, vitamin D,
+  silymarin, turmeric, berberine, omega-3, full blood count). Corpus is now **400 docs / 5,143 chunks**
+  (was 377 / 4,012). Also ingested the Health Canada multi-vitamin/mineral monograph (dose tables) and
+  MedlinePlus vitamin D, folate and magnesium pages.
+- `materia recommend case.json` — CLI; `POST /api/recommend`; a "Plan" tab with intake, patterns,
+  options, withheld options, evidence gaps and a source list.
+- `materia chat case.json "Why iron?"` — grounded chat CLI; `POST /api/chat`; a chat box in the Plan
+  tab. With no model configured, a deterministic responder answers from the assessment. With a local
+  OpenAI-compatible model (`MATERIA_CHAT_BASE_URL` / `MATERIA_CHAT_MODEL`), the model explains the
+  same object; an answer that introduces a dose or citation outside the assessment is rejected and
+  the deterministic answer is shown.
+- Tests: `tests/test_clinical.py`, `tests/test_recommend.py`, `tests/test_chat.py`,
+  `tests/test_vignettes.py`; **155 tests pass**.
+
+**Patterns with rules now (23 patterns, 30 options).** Iron deficiency → oral iron + absorption advice;
+B12 deficiency (including normal serum B12 with high MMA) → oral B12; folate deficiency → folic acid; vitamin D insufficiency → D3 + safe sun/diet advice; low serum
+magnesium → oral magnesium; liver enzyme elevation → investigate the cause first, then milk thistle
+(grade C, evidence shown as conflicting); high triglycerides → diet/exercise first, then omega-3;
+underactive thyroid → thyroid function review (referral, no supplement); dysglycaemia → metabolic
+risk review plus berberine as a low-ranked adjunct (grade C); low serum zinc → oral zinc (grade C,
+50 mg/day, copper monitoring); elevated LDL → cardiovascular risk review plus curcumin as a
+low-ranked adjunct (grade C);
+low HDL → activity/diet/weight (lifestyle); high homocysteine → homocysteine cause review (referral); reduced eGFR → kidney function review
+(referral); high uric acid → hydration/alcohol/purine review (lifestyle); raised bilirubin → bilirubin cause
+review (referral); low albumin → albumin cause review (referral); low platelets → low platelet cause review (referral); high platelets → platelet cause review
+(referral); iron overload → iron-overload review (referral);
+high calcium → high-calcium review (referral);
+raised CRP → inflammation review (referral); severe hypertriglyceridaemia → urgent triglyceride review
+(referral). Immediate lifestyle/referral
+steps are dose-less by design and rank above or alongside a supplement where that is the safer order.
+
+**Lab-derived platelet safety (same round).** Low platelets, using the lab's own lower limit,
+now flag fish oil, curcumin, berberine and milk thistle.
+
+**Lab-derived bleeding safety (same round).** A raised INR (>3.0) now flags fish oil, curcumin,
+berberine and milk thistle, even when the intake does not list an anticoagulant.
+
+**Lab-derived liver safety (same round).** Raised ALT or AST now flags curcumin and berberine, even
+when the intake never mentions liver disease.
+
+**Lab-derived kidney safety (same round).** Reduced eGFR is now used by the safety screen, not just
+the referral: magnesium is flagged below 60 and withheld below 30, while berberine, zinc and vitamin D
+are flagged below 60 even when the intake never mentions kidney disease.
+
+**Provenance display.** Each Plan option now shows its evidence tier (regulatory / primary /
+compendium / traditional) and a “conflicting or limited evidence” badge when the source notes say so.
+
+**Validation dossier.** `docs/validation.md` separates measured contract results from unmeasured
+clinical accuracy, lists the 0/48 label status, and states the claim policy (“70/70 contract
+checks”, not “100% accurate”).
+
+**Rule audit.** `scripts/audit_rules.py` walks every pattern/option/critical value, checks the
+citation resolves, reports dose sources and evidence age, and writes `docs/rules-audit.md`
+(23 patterns, 30 options, 9 critical values, 0 issues at the time of writing).
+
+**Review workflow.** The 47-case review packet is also a web mode (`Review cases` in the top bar,
+backed by `GET /api/review/cases`) and a CLI (`scripts/review_cases.py`). Both write the same local
+JSONL, so a clinician can label without editing Markdown.
+
+**Critical-value gate (same round).** `materia/rules/critical_values.yaml` uses adult critical limits
+from a CC-BY survey of hospital point-of-care policies (`pmc-pmc13115040`): potassium 3.0–6.0, glucose 2.8–25, sodium 126–155, calcium 1.65–3.23 mmol/L, haemoglobin 66–189 g/L, platelets <10 ×10⁹/L, INR >5, bicarbonate 11–39 mmol/L,
+triglycerides >5.65. A critical value withholds supplement/herb options, keeps referral/lifestyle steps, raises a
+critical banner in the Plan, and is prepended to every chat answer. Newborn limits are used when age < 1
+(potassium 7.1, glucose 2.5/11.1, sodium 130/150, calcium 1.75/3.23, haemoglobin 100/189, INR 4.0);
+children 1–12 use adult limits with an explicit age note; adults use the limits above. The lab's own critical-value policy still wins; the UI says so.
+
+**Medication-aware flags (same round).** Iron, B12 and magnesium now flag chronic proton-pump
+inhibitor use (reduced micronutrient absorption), vitamin D flags thiazide diuretics (calcium
+reabsorption), and fish oil flags antiplatelet therapy as well as anticoagulants (bleeding risk).
+Each flag cites a CC-BY paper ingested for that purpose: `pmc-pmc13127095`, `pmc-pmc12423746`,
+`pmc-pmc12564107`. These are flags, not vetoes: the practitioner sees the interaction and decides.
+
+**Contract evaluation.** 22 synthetic vignettes (`data/clinical_vignettes.json`,
+`scripts/eval_recommend.py`): **72/72 = 100% [94.9, 100.0]** for pattern match, top-option agreement,
+withheld options, safety flags, evidence gaps and citation integrity. This is a self-authored
+contract set, not clinical validation; the CI is wide because n=72. Recorded in
+`docs/scores.json` under `recommendation_engine`. The full suite is 155 tests.
+
+**Known limits, stated so they are not mistaken for completeness.**
+
+- The engine is a vertical slice, not a complete tool. Insulin resistance and LDL now have referral
+  steps, but zinc and homocysteine have no option rule, and the supplement/herb graph is still small.
+- The ranking weights are a transparent prior, not a calibrated model. No practitioner-labelled
+  ranking set exists yet, so no accuracy number is claimed.
+- The vitamin D threshold is a pragmatic 50 nmol/L from the cited consensus; other guidelines use
+  75 nmol/L. The conflict is visible in the evidence, not hidden.
+- Milk thistle is deliberately grade C: NCCIH says the liver-disease trials are conflicting or too
+  limited. It is offered as a low-ranked adjunct while the cause is investigated.
+- The chat layer is deterministic by default. It is useful for "what dose", "what should I recheck",
+  "why this", and "what was withheld"; it is not a free-form clinical reasoner. On the 10-question
+  grounded-chat set (`data/chat_vignettes.json`), the deterministic path scored **28/28 [87.9, 100.0]**;
+  the local MiniCPM5-2B also scored **28/28**, with 24 answers used, 2 deterministic answers and 2 rejected for a missing or
+  unsupported citation and replaced by the deterministic answer. The model receives a bounded
+  four-message conversation history for follow-ups; malformed history is ignored; the 24-case benchmark is stateless, and the
+  separate 17-turn multi-turn set scores 17/17 with the 2B using the model path for 15 of 17 turns. This is a
+  contract test, not prose quality. It is not yet measured against a 14B–32B model; the 2B's prose
+  is thin.
+- The Plan tab is wired to the sample/upload session. The demo report is an amino-acid panel, which
+  the current patterns do not cover; the worked examples (iron/B12/lipids) are there to exercise the
+  full surface honestly.
+
+**Next, in order.** (1) expand the option graph to zinc and homocysteine, and add supplement options
+for dysglycaemia/LDL only with a defensible dose and interaction profile; (2) bring up an open-weight
+14B–32B model and measure the chat path;
+(3) turn the accept/modify/reject JSONL into a calibration report and re-rank with practitioner labels;
+(4) write 50–100 practitioner-labelled vignettes and publish pattern agreement with n and 95% CI.
 
 ## Josh's context
 

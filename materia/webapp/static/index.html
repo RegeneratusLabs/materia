@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>materia — Lab review</title>
+<link rel="stylesheet" href="assets/base.css">
+<link rel="stylesheet" href="assets/fonts/type-studies.css">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body data-view="review">
+
+<svg class="sprite" aria-hidden="true">
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M19.5 4.5c-8.5 0-14 4.6-14 11.2 0 2 .6 3.6 1.6 4.8 1-6.2 5-10.2 11.4-11.8-5 2.4-8.2 6.2-9.7 12 6.4.2 11.2-4.2 11.2-11.2 0-1.8 0-3.6-.5-5Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.2 4.2L19 6.9"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6.5 3.5h8l3.5 3.5v13.5h-11V3.5Z"/><path d="M14.5 3.5V7H18M9 11h6M9 14.5h6M9 18h4"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M3.5 12s3.2-5.5 8.5-5.5 8.5 5.5 8.5 5.5-3.2 5.5-8.5 5.5S3.5 12 3.5 12Z"/><circle cx="12" cy="12" r="2.4"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4m0 0L7 9m5-5 5 5"/><path d="M4 15v4.5h16V15"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="/" aria-label="materia home">
+      <svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg>
+      <span>materia</span>
+      <small>Bench</small>
+    </a>
+    <span class="topbar-divider" aria-hidden="true"></span>
+    <div class="crumb"><b>Lab review</b><span>·</span><span>Amino acids</span></div>
+    <div class="top-actions">
+      <span class="engine-chip" id="engine-chip" title="Checking the local engine…"><i></i><span id="engine-text">Checking engine</span></span>
+      <button class="new-report" type="button" id="upload-open">
+        <svg class="icon" aria-hidden="true"><use href="#i-upload"></use></svg>
+        New report
+      </button>
+      <button class="quiet-link" type="button" id="review-open">Review cases</button>
+      <button class="quiet-link" type="button" id="feedback-open">Feedback</button>
+      <span class="sample-chip" id="mode-chip">Loading…</span>
+    </div>
+  </div>
+</header>
+
+<input type="file" id="file-input" accept=".pdf,.png,.jpg,.jpeg,application/pdf,image/png,image/jpeg" hidden>
+
+<main id="main" tabindex="-1">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">
+        <svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg>
+        <span data-title="review">Lab review · local only</span>
+        <span data-title="interpret" hidden>Interpretation · what the lab can say</span>
+        <span data-title="plan" hidden>Plan · cited options, safety-screened</span>
+      </p>
+      <h1>
+        <span data-title="review">A closer look at<br><span class="soft-highlight">this lab report.</span></span>
+        <span data-title="interpret" hidden>What this means —<br><span class="soft-highlight">and what it doesn't.</span></span>
+        <span data-title="plan" hidden>A plan you can<br><span class="soft-highlight">defend.</span></span>
+      </h1>
+      <p class="lede">
+        <span data-title="review">Read the numbers with the page beside you. Check each one before it goes into the note. Nothing here is a diagnosis.</span>
+        <span data-title="interpret" hidden>This view stays with the lab's own notes: what is printed, and what is missing. The cited pattern plan is a separate step.</span>
+        <span data-title="plan" hidden>Patterns are hypotheses, not diagnoses. Every option carries its dose, its source, its monitoring and its safety screen. Withdrawn options stay visible.</span>
+      </p>
+      <div class="meta-row" id="meta-row"></div>
+    </div>
+
+    <aside class="progress-card" id="hero-progress" aria-label="Review progress">
+      <div class="ring" id="ring" style="--p: 0">
+        <div class="ring-inner"><b id="ring-count">0</b><span id="ring-total">of 0</span></div>
+      </div>
+      <div class="progress-copy">
+        <p class="progress-kicker">Your review</p>
+        <h2 id="progress-title">Loading…</h2>
+        <p id="progress-sub">Getting the report ready.</p>
+        <button class="soft-button" type="button" id="finish-btn" hidden>Finish the last values</button>
+      </div>
+    </aside>
+
+    <svg class="sprig" viewBox="0 0 240 260" fill="none" aria-hidden="true">
+      <path d="M44 254C66 196 94 146 160 62" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M72 208C45 197 33 176 31 151C55 154 72 168 78 190" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M92 174C121 168 139 151 146 127C120 126 101 138 92 158" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M116 137C94 119 91 97 101 75C124 86 135 106 131 128" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M143 100C169 94 184 77 190 54C164 53 146 65 138 85" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M160 62C148 45 150 30 160 20C174 31 178 45 170 58" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+    </svg>
+  </section>
+
+  <div class="workspace" id="review-workspace">
+    <section class="report-card" aria-labelledby="report-title">
+      <div class="card-head">
+        <div>
+          <p class="card-kicker">The report</p>
+          <h2 id="report-title">Loading…</h2>
+        </div>
+        <a class="quiet-link" id="open-full-page" href="#" target="_blank" rel="noopener noreferrer">Open full page ↗</a>
+      </div>
+      <div class="report-frame">
+        <img id="report-image" alt="The uploaded lab report page.">
+        <div class="bands" id="bands" aria-hidden="true"></div>
+      </div>
+      <div class="report-foot">
+        <span id="highlight-caption">—</span>
+        <span class="soft-note" id="provenance-chip">—</span>
+      </div>
+      <p class="report-help" id="report-help">Choose a value on the right to find its line on the page.</p>
+    </section>
+
+    <section class="review-card" aria-labelledby="review-title">
+      <div class="review-head">
+        <div>
+          <p class="card-kicker">What we read</p>
+          <h2 id="review-title">Getting the values ready…</h2>
+          <p class="review-sub">The lab's own ranges are the reference. Nothing here is interpreted for you.</p>
+        </div>
+        <button class="quiet-link" type="button" id="open-interpret">What this means →</button>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter values">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">All <b id="count-all">0</b></button>
+        <button class="filter" type="button" data-filter="finish" aria-pressed="false">To finish <b id="count-finish">0</b></button>
+        <button class="filter" type="button" data-filter="notes" aria-pressed="false">Lab notes <b id="count-notes">0</b></button>
+      </div>
+
+      <div class="value-list" id="value-list">
+        <p class="value-empty" id="list-loading">Reading the report…</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="interpret" id="interpret-view" hidden aria-labelledby="interpret-title">
+    <div class="interpret-head">
+      <div>
+        <p class="eyebrow">
+          <svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg>
+          A quiet reading
+        </p>
+        <h2 id="interpret-title">The lab's notes, in context.</h2>
+        <p id="interpret-lede">The values are read. The interpretation stays with what the report actually says.</p>
+      </div>
+      <div class="interpret-actions">
+        <button class="quiet-link" type="button" id="open-plan">Build a plan →</button>
+        <button class="quiet-link" type="button" id="back-values">← Back to values</button>
+      </div>
+    </div>
+
+    <div class="interpret-grid">
+      <article class="note-card note-card--sage">
+        <span class="note-icon"><svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg></span>
+        <p class="note-kicker">From the report</p>
+        <h3 id="interpret-flags-title">Lab flags</h3>
+        <p id="interpret-flags-lede">The lab's own markers, shown as printed.</p>
+        <ul class="note-list" id="interpret-flags"></ul>
+      </article>
+
+      <article class="note-card note-card--sky">
+        <span class="note-icon"><svg class="icon" aria-hidden="true"><use href="#i-doc"></use></svg></span>
+        <p class="note-kicker">What we can say</p>
+        <h3>The lab's ranges are the reference.</h3>
+        <ul class="note-list note-list--plain" id="interpret-can"></ul>
+      </article>
+
+      <article class="note-card note-card--clay">
+        <span class="note-icon"><svg class="icon" aria-hidden="true"><use href="#i-eye"></use></svg></span>
+        <p class="note-kicker">What we can't say</p>
+        <h3>No diagnosis, no protocol.</h3>
+        <ul class="note-list note-list--plain" id="interpret-cant"></ul>
+      </article>
+    </div>
+
+    <div class="interpret-note">
+      <svg class="icon" aria-hidden="true"><use href="#i-doc"></use></svg>
+      <span id="interpret-note">Source: the report on this page. No clinical interpretation is generated.</span>
+    </div>
+  </section>
+
+  <section class="plan" id="plan-view" hidden aria-labelledby="plan-title">
+    <div class="interpret-head">
+      <div>
+        <p class="eyebrow">
+          <svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg>
+          A cited plan
+        </p>
+        <h2 id="plan-title">What could help — and what must not be missed.</h2>
+        <p id="plan-lede">The engine matches this panel to cited patterns, then offers only options whose dose and evidence resolve to a source. A veto is never argued with.</p>
+      </div>
+      <div class="interpret-actions">
+        <button class="quiet-link" type="button" id="copy-plan">Copy note</button>
+        <button class="quiet-link" type="button" id="download-plan">Download JSON</button>
+        <button class="quiet-link" type="button" id="print-plan">Print plan</button>
+        <button class="quiet-link" type="button" id="back-interpret">← Back to interpretation</button>
+      </div>
+    </div>
+
+    <form class="plan-intake" id="intake-form">
+      <div class="intake-head">
+        <div>
+          <p class="note-kicker">Context</p>
+          <h3>Five fields change the answer.</h3>
+        </div>
+        <p>Age, sex, medicines, conditions and pregnancy status are safety inputs, not decoration. Leave a field blank rather than guessing.</p>
+      </div>
+      <div class="intake-grid">
+        <label class="field-label">Age
+          <input id="intake-age" type="number" min="0" max="120" inputmode="numeric" placeholder="42">
+        </label>
+        <label class="field-label">Sex
+          <select id="intake-sex">
+            <option value="">Not stated</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+          </select>
+        </label>
+        <label class="field-label">Medicines
+          <input id="intake-medications" type="text" placeholder="e.g. warfarin, levothyroxine">
+        </label>
+        <label class="field-label">Conditions
+          <input id="intake-conditions" type="text" placeholder="e.g. hemochromatosis, kidney disease">
+        </label>
+        <label class="field-label">Symptoms / notes
+          <input id="intake-symptoms" type="text" placeholder="e.g. fatigue, heavy periods">
+        </label>
+        <label class="intake-check">
+          <input id="intake-pregnancy" type="checkbox"> Pregnant or breastfeeding
+        </label>
+      </div>
+      <div class="intake-actions">
+        <button class="confirm-btn" type="submit" id="build-plan">Build the assessment</button>
+        <span class="soft-note" id="plan-status"></span>
+      </div>
+    </form>
+
+    <div id="plan-result" hidden>
+      <div class="plan-alert" id="plan-alert" hidden></div>
+      <section class="plan-block" id="plan-patterns-block">
+        <div class="plan-block-head"><h3>Patterns</h3><span class="soft-note">possible / likely, never a diagnosis</span></div>
+        <div id="plan-patterns"></div>
+      </section>
+      <section class="plan-block" id="plan-options-block">
+        <div class="plan-block-head"><h3>Options</h3><span class="soft-note">ranked, cited, safety-screened</span></div>
+        <div id="plan-options"></div>
+      </section>
+      <section class="plan-block" id="plan-withheld-block">
+        <div class="plan-block-head"><h3>Withheld</h3><span class="soft-note">a veto is information</span></div>
+        <div id="plan-withheld"></div>
+      </section>
+      <section class="plan-block" id="plan-gaps-block">
+        <div class="plan-block-head"><h3>Evidence gaps</h3><span class="soft-note">no source, no option</span></div>
+        <div id="plan-gaps"></div>
+      </section>
+      <section class="plan-block" id="plan-evidence-block">
+        <div class="plan-block-head"><h3>Sources</h3><span class="soft-note">every claim resolves to one of these</span></div>
+        <div id="plan-evidence"></div>
+      </section>
+
+      <section class="plan-block chat-block" id="chat-block">
+        <div class="plan-block-head"><h3>Ask the assessment</h3><span class="soft-note">answers are restricted to this assessment</span></div>
+        <div class="chat-log" id="chat-log" aria-live="polite"></div>
+        <form class="chat-form" id="chat-form">
+          <label class="sr-only" for="chat-input">Ask a question about this assessment</label>
+          <input id="chat-input" type="text" maxlength="500" autocomplete="off" placeholder="e.g. What dose of iron, and what should I recheck?">
+          <button class="confirm-btn" type="submit" id="chat-send">Ask</button>
+        </form>
+        <p class="soft-note" id="chat-note">The deterministic answer is always available. If a local open-weight model is configured, it explains the same object; it may not add an option, a dose or a diagnosis.</p>
+      </section>
+    </div>
+  </section>
+
+  <section class="reviewmode" id="review-view" hidden aria-labelledby="review-title">
+    <div class="interpret-head">
+      <div>
+        <p class="eyebrow">
+          <svg class="icon" aria-hidden="true"><use href="#i-eye"></use></svg>
+          Clinician review
+        </p>
+        <h2 id="review-title">Label the engine, one case at a time.</h2>
+        <p id="review-lede">This is the reference standard. Agree, mark unsafe, or mark missing. Labels are stored locally; the engine cannot grade itself. Keyboard: a = agree, u = unsafe, m = missing, s = skip.</p>
+      </div>
+      <button class="quiet-link" type="button" id="review-close">← Back to the plan</button>
+    </div>
+    <div class="review-meta">
+      <label class="field-label" for="reviewer-name">Reviewer (optional)
+        <input id="reviewer-name" type="text" maxlength="120" placeholder="Name or initials">
+      </label>
+    </div>
+    <div id="review-body"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span class="f-left"><svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg> materia · local lab review</span>
+  <span id="footer-note">Local only · no cloud · no model in sample mode · not a diagnosis</span>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="loading" id="loading" hidden>
+  <div class="loading-card">
+    <span class="loading-leaf" aria-hidden="true">
+      <svg class="icon" viewBox="0 0 24 24"><use href="#i-leaf"></use></svg>
+    </span>
+    <p class="loading-kicker">Reading the report</p>
+    <h2>One moment.</h2>
+    <p id="loading-copy">The local OCR engine is reading the page. This can take a few minutes on CPU.</p>
+    <div class="loading-bar"><i></i></div>
+  </div>
+</div>
+
+<dialog id="upload-dialog" aria-labelledby="upload-title">
+  <form class="modal" method="dialog" id="upload-form">
+    <button class="modal-close" type="button" id="upload-close" aria-label="Close upload">×</button>
+    <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-upload"></use></svg> New report</p>
+    <h2 id="upload-title">Add a lab report.</h2>
+    <p class="modal-lede">PDF, PNG, JPG, or JPEG. The report is read locally; nothing leaves this machine.</p>
+
+    <label class="dropzone" id="dropzone" for="file-input" tabindex="0">
+      <svg class="icon" aria-hidden="true"><use href="#i-upload"></use></svg>
+      <span id="dropzone-title">Choose a report, or drop it here</span>
+      <small id="dropzone-name">No file chosen</small>
+    </label>
+
+    <p class="privacy-note">Use a <b>de-identified</b> report. Do not upload identifiable patient data. The file is kept in a temporary folder and removed when the server stops.</p>
+    <p class="upload-status" id="upload-status"></p>
+    <div class="modal-actions">
+      <button class="soft-button" type="button" id="upload-cancel">Cancel</button>
+      <button class="confirm-btn" type="button" id="upload-submit" disabled>Read report</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="feedback-dialog" aria-labelledby="feedback-title">
+  <form class="modal" id="feedback-form">
+    <button class="modal-close" type="button" id="feedback-close" aria-label="Close feedback">×</button>
+    <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-leaf"></use></svg> Feedback</p>
+    <h2 id="feedback-title">What would make this better?</h2>
+    <p class="modal-lede">A note for the builder. No patient details, please.</p>
+    <label class="field-label" for="feedback-message">Your note</label>
+    <textarea id="feedback-message" rows="6" maxlength="4000" placeholder="What felt clear? What got in the way?" required></textarea>
+    <label class="field-label" for="feedback-contact">Contact (optional)</label>
+    <input id="feedback-contact" type="text" maxlength="200" placeholder="Email or name, if you'd like a reply">
+    <div class="modal-actions">
+      <button class="soft-button" type="button" id="feedback-cancel">Cancel</button>
+      <button class="confirm-btn" type="submit" id="feedback-submit">Send feedback</button>
+    </div>
+    <p class="privacy-note">Feedback is stored locally in <code id="feedback-path">~/.materia/feedback.jsonl</code> on this server.</p>
+  </form>
+</dialog>
+
+<script src="app.js" defer></script>
+</body>
+</html>

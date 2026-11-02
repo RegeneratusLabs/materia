@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>materia — Reading Room</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/base.css">
+<style>
+  :root {
+    --paper: #f5efdf;
+    --paper-2: #fbf6e9;
+    --ink: #181818;
+    --muted: #64645a;
+    --faint: #b4b4a8;
+    --rule: #d8ccc0;
+    --accent: #c62a16;
+    --accent-bright: #df2414;
+    --amber: #b07a1e;
+    --amber-bg: #f2e2bb;
+    --display: "Space Grotesk", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+  }
+
+  html { background: var(--paper); }
+  body {
+    background:
+      radial-gradient(circle at 18% 12%, rgba(255,255,255,.34), transparent 30%),
+      var(--paper);
+    color: var(--ink);
+  }
+
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .topbar-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 72px;
+    padding: 12px 40px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 22px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 10px;
+    text-decoration: none;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: -.045em;
+    line-height: 1;
+  }
+  .brand .dot {
+    align-self: center;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent-bright);
+  }
+  .brand small {
+    font: 500 8.5px/1 var(--mono);
+    letter-spacing: .17em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-left: 4px;
+  }
+  .topbar .mockup-badge {
+    justify-self: center;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 8px 11px;
+    background: var(--paper-2);
+  }
+  .controls {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .control-label {
+    font: 500 8.5px/1 var(--mono);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-right: 2px;
+  }
+  .seg {
+    display: inline-flex;
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+    padding: 2px;
+  }
+  .seg button {
+    border: 0;
+    background: transparent;
+    padding: 7px 9px;
+    font: 500 9px/1 var(--mono);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .seg button[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .seg button:disabled { opacity: .35; cursor: not-allowed; }
+  .seg button:not(:disabled):hover { color: var(--ink); }
+  .seg button[aria-pressed="true"]:hover { color: var(--paper); }
+
+  main { max-width: 1440px; margin: 0 auto; }
+
+  .ask-head {
+    padding: 58px 40px 30px;
+  }
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font: 500 10px/1.4 var(--mono);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .eyebrow::before {
+    content: "";
+    width: 28px; height: 1px;
+    background: var(--accent-bright);
+  }
+  .question {
+    margin-top: 20px;
+    max-width: 1080px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(40px, 4.3vw, 64px);
+    line-height: 1.015;
+    letter-spacing: -.042em;
+    text-wrap: balance;
+  }
+  .question em {
+    font-style: normal;
+    box-shadow: inset 0 -0.1em 0 var(--amber-bg);
+  }
+  .question .underline {
+    box-shadow: inset 0 -4px 0 var(--accent-bright);
+  }
+  .meta-row {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid var(--rule);
+    padding: 6px 9px;
+    font: 500 9px/1 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: color-mix(in srgb, var(--paper-2) 72%, transparent);
+  }
+  .pill b { color: var(--ink); font-weight: 500; }
+  .pill--accent { border-color: color-mix(in srgb, var(--accent) 45%, var(--rule)); color: var(--accent); }
+  .pill--accent::before {
+    content: "";
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+
+  .workbench {
+    padding: 0 40px 92px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 372px;
+    gap: 76px;
+    align-items: start;
+  }
+
+  .answer { padding-top: 34px; min-width: 0; }
+
+  .answer-prose p {
+    max-width: 780px;
+    font-size: 19.5px;
+    line-height: 1.7;
+    letter-spacing: -.006em;
+    margin-bottom: 24px;
+    transition: background .16s ease, border-color .16s ease, padding .16s ease;
+    border-left: 2px solid transparent;
+  }
+  .claim.is-active {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--amber-bg) 70%, transparent), transparent 88%);
+    border-left-color: var(--accent-bright);
+    padding-left: 16px;
+    margin-left: -18px;
+  }
+
+  .cite {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 4px;
+    margin: 0 1px 0 3px;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--accent);
+    font: 600 9px/1 var(--mono);
+    vertical-align: super;
+    position: relative;
+    top: -.18em;
+  }
+  .cite:hover, .cite:focus-visible, .cite[aria-expanded="true"] {
+    background: var(--accent);
+    color: var(--paper);
+    border-color: var(--accent);
+  }
+
+  .verdict {
+    margin: 38px 0 46px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 186px minmax(0, 1fr);
+    gap: 26px;
+    padding: 24px 28px 25px;
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .verdict::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 4px;
+    background: var(--accent-bright);
+  }
+  .verdict-kicker {
+    font: 600 9.5px/1.4 var(--mono);
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: #ff7a63;
+  }
+  .verdict h2 {
+    margin-top: 7px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 1.05;
+    letter-spacing: -.025em;
+  }
+  .verdict p {
+    max-width: 620px;
+    font-size: 14.5px;
+    line-height: 1.58;
+    color: #e7dfcc;
+  }
+  .verdict .verdict-body { padding-top: 2px; }
+
+  .conflict {
+    border-top: 1px solid var(--ink);
+    padding-top: 18px;
+  }
+  .conflict-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 26px;
+  }
+  .conflict h2 {
+    font: 600 10px/1.5 var(--mono);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+  }
+  .conflict-note {
+    max-width: 470px;
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+  .sides {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 26px;
+    border-left: 1px solid var(--rule);
+  }
+  .side {
+    min-width: 0;
+    padding: 0 18px 4px;
+    border-right: 1px solid var(--rule);
+    transition: opacity .16s ease, background .16s ease;
+  }
+  .side:first-child { border-left: 0; }
+  .side.is-active { background: color-mix(in srgb, var(--amber-bg) 32%, transparent); }
+  .side.is-dimmed { opacity: .38; }
+  .side-marker {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font: 600 8.5px/1 var(--mono);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .side-marker::before {
+    content: "";
+    width: 5px; height: 5px;
+    background: currentColor;
+    border-radius: 50%;
+  }
+  .side:nth-child(2) .side-marker { color: var(--accent-bright); }
+  .side h3 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -.01em;
+  }
+  .side p {
+    margin-top: 8px;
+    min-height: 78px;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--muted);
+  }
+  .side .source-link {
+    margin-top: 10px;
+    border: 0;
+    border-bottom: 1px solid var(--ink);
+    background: transparent;
+    padding: 2px 0;
+    font: 500 8.5px/1 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+  .side .source-link:hover { color: var(--accent); border-color: var(--accent); }
+
+  .answer-foot {
+    margin-top: 32px;
+    padding-top: 14px;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: baseline;
+    font: 400 10px/1.6 var(--mono);
+    letter-spacing: .04em;
+    color: var(--muted);
+  }
+
+  /* ---------- source rail ---------- */
+  .rail {
+    position: sticky;
+    top: 100px;
+    padding-top: 34px;
+    min-width: 0;
+  }
+  .rail-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--ink);
+    font: 600 10px/1.4 var(--mono);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .rail-head span { color: var(--muted); font-weight: 400; }
+  .source-card {
+    border-bottom: 1px solid var(--rule);
+    padding: 17px 0 18px;
+    transition: padding .16s ease, margin .16s ease, background .16s ease, border-color .16s ease;
+  }
+  .source-card.is-active {
+    border-left: 2px solid var(--accent-bright);
+    margin-left: -18px;
+    padding-left: 16px;
+    background: color-mix(in srgb, var(--amber-bg) 32%, transparent);
+  }
+  .source-card.is-dimmed { opacity: .4; }
+  .source-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .source-index {
+    font: 500 9.5px/1.6 var(--mono);
+    color: var(--accent);
+    flex: 0 0 auto;
+  }
+  .source-name {
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.32;
+    letter-spacing: -.01em;
+    flex: 1;
+  }
+  .source-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 7px;
+    font: 400 9px/1.4 var(--mono);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .source-meta .tier { color: var(--muted); }
+  .source-quote {
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: #41413a;
+  }
+  .source-open {
+    margin-top: 10px;
+    border: 0;
+    border-bottom: 1px solid var(--ink);
+    background: transparent;
+    padding: 2px 0;
+    font: 500 8.5px/1 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .source-open:hover { color: var(--accent); border-color: var(--accent); }
+  .rail-note {
+    margin-top: 18px;
+    font-size: 11.5px;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+  .rail-note b { color: var(--ink); font-weight: 600; }
+
+  /* ---------- memory state ---------- */
+  .memory-wrap { max-width: 800px; padding-top: 34px; }
+  .memory-banner {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 18px;
+    padding: 22px;
+    border: 1px solid var(--amber);
+    background: var(--amber-bg);
+  }
+  .memory-stamp {
+    align-self: start;
+    padding: 7px 9px;
+    border: 1px solid #7a5210;
+    color: #6a460c;
+    font: 600 8.5px/1.2 var(--mono);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .memory-banner h2 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: -.025em;
+  }
+  .memory-banner p {
+    margin-top: 8px;
+    max-width: 620px;
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: #4e3a13;
+  }
+  .memory-answer {
+    margin-top: 34px;
+    padding-left: 22px;
+    border-left: 2px dotted var(--amber);
+  }
+  .memory-label {
+    font: 600 9.5px/1.4 var(--mono);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: #7a5210;
+  }
+  .memory-answer p {
+    margin-top: 12px;
+    max-width: 720px;
+    font-size: 20px;
+    line-height: 1.66;
+  }
+  .memory-gap {
+    margin-top: 36px;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 26px;
+  }
+  .memory-gap p {
+    max-width: 520px;
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+  .ghost-button {
+    flex: 0 0 auto;
+    border: 1px solid var(--ink);
+    background: transparent;
+    padding: 10px 13px;
+    font: 500 9px/1.3 var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+  .ghost-button:hover { background: var(--ink); color: var(--paper); }
+  .ghost-button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+  .memory-rail {
+    margin-top: 28px;
+    padding: 20px;
+    border: 1px solid var(--rule);
+    background: color-mix(in srgb, var(--paper-2) 65%, transparent);
+  }
+  .memory-rail h2 {
+    font: 600 10px/1.4 var(--mono);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .memory-rail .count {
+    margin-top: 12px;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 54px;
+    line-height: .9;
+    letter-spacing: -.05em;
+  }
+  .memory-rail p {
+    margin-top: 10px;
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: var(--muted);
+  }
+
+  .footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 22px 40px 30px;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    font: 400 9px/1.6 var(--mono);
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .footer span { max-width: 680px; }
+
+  #source-dialog {
+    --drawer-bg: var(--paper-2);
+    --drawer-border: var(--ink);
+    --drawer-ink: var(--ink);
+  }
+
+  @media (max-width: 1180px) {
+    .workbench { grid-template-columns: minmax(0, 1fr) 330px; gap: 46px; }
+    .topbar-inner { padding: 12px 28px; }
+    .ask-head, .workbench { padding-left: 28px; padding-right: 28px; }
+    .footer { padding-left: 28px; padding-right: 28px; }
+    .conflict-head { display: block; }
+    .conflict-note { margin-top: 10px; }
+  }
+
+  @media (max-width: 1100px) {
+    .topbar-inner { grid-template-columns: 1fr auto; }
+    .topbar .mockup-badge { display: none; }
+  }
+
+  @media (max-width: 900px) {
+    .topbar-inner { grid-template-columns: 1fr; gap: 12px; padding: 14px 22px; }
+    .topbar .mockup-badge { justify-self: start; }
+    .controls { justify-self: start; }
+    .ask-head { padding: 38px 22px 24px; }
+    .workbench { grid-template-columns: 1fr; gap: 12px; padding: 0 22px 70px; }
+    .rail { position: static; padding-top: 34px; border-top: 1px solid var(--rule); }
+    .sides { grid-template-columns: 1fr; border-left: 0; }
+    .side { border-right: 0; border-top: 1px solid var(--rule); padding: 16px 0; }
+    .side:first-child { border-top: 0; }
+    .side p { min-height: 0; }
+    .verdict { grid-template-columns: 1fr; gap: 12px; }
+    .footer { padding-left: 22px; padding-right: 22px; flex-direction: column; gap: 10px; }
+    .question { font-size: clamp(34px, 8vw, 48px); }
+    .source-card.is-active, .claim.is-active { margin-left: 0; }
+  }
+
+  @media (max-width: 560px) {
+    .answer-prose p { font-size: 17.5px; }
+    .memory-banner { grid-template-columns: 1fr; }
+    .memory-gap { display: block; }
+    .memory-gap .ghost-button { margin-top: 16px; }
+    .conflict { margin-top: 30px; }
+  }
+</style>
+</head>
+<body data-state="cited">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html" aria-label="materia mockups index">
+      <span>materia</span><span class="dot" aria-hidden="true"></span>
+      <small>Reading room</small>
+    </a>
+
+    <span class="mockup-badge">Concept 01 · static mockup</span>
+
+    <div class="controls">
+      <span class="control-label" id="jur-label">Jurisdiction</span>
+      <div class="seg" role="group" aria-labelledby="jur-label">
+        <button type="button" data-jur="all" aria-pressed="true">All</button>
+        <button type="button" data-jur="eu" aria-pressed="false">EU</button>
+        <button type="button" data-jur="ca" aria-pressed="false">CA</button>
+        <button type="button" data-jur="us" aria-pressed="false">US</button>
+      </div>
+      <span class="control-label" id="state-label">Demo</span>
+      <div class="seg" role="group" aria-labelledby="state-label">
+        <button type="button" data-view="cited" aria-pressed="true">Cited</button>
+        <button type="button" data-view="memory" aria-pressed="false">Memory</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+  <section class="ask-head" id="cited-head">
+    <p class="eyebrow">Ask · cited evidence</p>
+    <h1 class="question">I’m 68, on warfarin for atrial fibrillation. Is <em class="underline">ginkgo</em> safe for my memory?</h1>
+    <div class="meta-row">
+      <span class="pill"><b>A02</b> herb–drug</span>
+      <span class="pill"><b>1</b> context on file</span>
+      <span class="pill"><b>3</b> sources retrieved</span>
+      <span class="pill pill--accent">Safety screen veto</span>
+    </div>
+  </section>
+
+  <section class="ask-head" id="memory-head" hidden>
+    <p class="eyebrow">Ask · memory mode</p>
+    <h2 class="question">Does <em class="underline">comfrey</em> help osteoarthritis?</h2>
+    <div class="meta-row">
+      <span class="pill"><b>0</b> corpus documents</span>
+      <span class="pill"><b>0</b> citations possible</span>
+      <span class="pill pill--accent">Uncited by design</span>
+    </div>
+  </section>
+
+  <div class="workbench">
+    <article class="answer" aria-live="polite">
+
+      <div id="cited-view">
+        <div class="answer-prose" id="answer-prose"></div>
+
+        <div class="verdict" role="note" aria-label="Safety screen verdict">
+          <div>
+            <p class="verdict-kicker" id="verdict-kicker"></p>
+            <h2 id="verdict-title"></h2>
+          </div>
+          <div class="verdict-body">
+            <p id="verdict-body"></p>
+          </div>
+        </div>
+
+        <section class="conflict" aria-labelledby="conflict-title">
+          <div class="conflict-head">
+            <h2 id="conflict-title">Where the sources diverge</h2>
+            <p class="conflict-note" id="conflict-note"></p>
+          </div>
+          <div class="sides" id="conflict-sides"></div>
+        </section>
+
+        <div class="answer-foot">
+          <span>Every clinical sentence carries a source. The screen is deterministic code.</span>
+          <span>Not a diagnosis · not a protocol</span>
+        </div>
+      </div>
+
+      <div id="memory-view" hidden>
+        <div class="memory-wrap">
+          <div class="memory-banner" role="note">
+            <span class="memory-stamp">No corpus coverage</span>
+            <div>
+              <h2>Nothing in the corpus answers this.</h2>
+              <p id="memory-coverage"></p>
+            </div>
+          </div>
+
+          <div class="memory-answer">
+            <p class="memory-label" id="memory-label"></p>
+            <p id="memory-answer"></p>
+          </div>
+
+          <div class="memory-gap">
+            <p id="memory-next"></p>
+            <button class="ghost-button" type="button" id="gap-button" aria-pressed="false">Add to gap queue</button>
+          </div>
+
+          <div class="memory-rail">
+            <h2>Corpus coverage for this query</h2>
+            <div class="count" aria-label="Zero documents">0</div>
+            <p>documents match “comfrey” in the current index. An uncited answer is still useful as a pointer, but it cannot be presented as a citation.</p>
+          </div>
+        </div>
+      </div>
+
+    </article>
+
+    <aside class="rail" aria-labelledby="rail-title">
+      <div id="cited-rail">
+        <div class="rail-head" id="rail-title">Source trail <span id="source-count">3 sources</span></div>
+        <div id="source-list"></div>
+        <p class="rail-note"><b>Reading order:</b> most restrictive safety source first, then the divergence. Dates and jurisdictions stay attached; nothing is synthesised into a single truth.</p>
+      </div>
+
+      <div id="memory-rail" hidden>
+        <div class="rail-head">Source trail <span>empty</span></div>
+        <p class="rail-note">No source card can be rendered here. That is the point: an answer without a checkable source is labelled, not decorated with a fake citation.</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="footer">
+  <span>Concept 01 · Reading Room · design target, not current CLI output</span>
+  <span>Quotes from corpus/index.sqlite · static fixtures · no model running</span>
+</footer>
+
+<dialog id="source-dialog" aria-labelledby="drawer-title">
+  <div class="drawer">
+    <div class="drawer-head">
+      <div>
+        <p class="drawer-kicker" id="drawer-kicker"></p>
+        <h2 id="drawer-title"></h2>
+      </div>
+      <button class="drawer-close" type="button" id="drawer-close" aria-label="Close source">×</button>
+    </div>
+    <blockquote class="drawer-quote" id="drawer-quote"></blockquote>
+    <dl class="drawer-meta" id="drawer-meta"></dl>
+    <a class="drawer-link" id="drawer-link" href="#" target="_blank" rel="noopener noreferrer"><span>Open primary source</span> ↗</a>
+  </div>
+</dialog>
+
+<noscript><p style="padding:24px 40px">This mockup needs JavaScript for the citation interactions.</p></noscript>
+
+<script>window.addEventListener("error", function () { document.documentElement.setAttribute("data-mockup-error", "1"); });</script>
+<script src="assets/fixtures.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  const M = window.MATERIA;
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+  const esc = (value) => String(value == null ? "" : value)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+
+  const tierLabel = { regulatory: "Regulatory", primary: "Primary", compendium: "Compendium", traditional: "Traditional" };
+  const jurisdictionLabel = { eu: "EU", ca: "CA", us: "US", international: "International" };
+  const sourceOrder = [...new Set(M.ask.answer.flatMap((claim) => claim.cites))];
+  const sourceNumber = new Map(sourceOrder.map((id, index) => [id, index + 1]));
+
+  const dialog = $("#source-dialog");
+  let lastTrigger = null;
+  let currentJurisdiction = "all";
+  let currentView = "cited";
+
+  function citationMarkup(ids) {
+    return ids.map((id) => {
+      const source = M.sources[id];
+      const number = sourceNumber.get(id);
+      return `<button class="cite" type="button" data-source="${esc(id)}" aria-haspopup="dialog" ` +
+        `aria-label="Open source ${number}: ${esc(source.source)} — ${esc(source.title)}">${number}</button>`;
+    }).join(" ");
+  }
+
+  function renderAnswer() {
+    $("#answer-prose").innerHTML = M.ask.answer.map((claim) => (
+      `<p class="claim" data-cites="${esc(claim.cites.join(" "))}">${esc(claim.text)} ${citationMarkup(claim.cites)}</p>`
+    )).join("");
+
+    $("#verdict-kicker").textContent = M.ask.verdict.label;
+    $("#verdict-title").textContent = M.ask.verdict.title;
+    $("#verdict-body").textContent = M.ask.verdict.body;
+    $("#conflict-note").textContent = M.ask.conflict.note;
+
+    $("#conflict-sides").innerHTML = M.ask.conflict.sides.map((side, index) => {
+      const source = M.sources[side.sourceId];
+      return `<div class="side" data-side-source="${esc(side.sourceId)}">
+        <span class="side-marker">${esc(side.marker)}</span>
+        <h3>${esc(source.source)}</h3>
+        <p>${esc(side.summary)}</p>
+        <button class="source-link" type="button" data-source="${esc(side.sourceId)}" aria-haspopup="dialog">Read the passage · ${esc(source.date.slice(0, 4))}</button>
+      </div>`;
+    }).join("");
+  }
+
+  function renderRail() {
+    $("#source-count").textContent = `${sourceOrder.length} sources`;
+    $("#source-list").innerHTML = sourceOrder.map((id) => {
+      const source = M.sources[id];
+      return `<article class="source-card" data-card-source="${esc(id)}">
+        <div class="source-top">
+          <span class="source-index">${sourceNumber.get(id).toString().padStart(2, "0")}</span>
+          <span class="source-name">${esc(source.source)}</span>
+        </div>
+        <div class="source-meta">
+          <span class="tier tier--${esc(source.tier)}">${esc(tierLabel[source.tier] || source.tier)} · ${esc(jurisdictionLabel[source.jurisdiction] || source.jurisdiction)}</span>
+          <span>${esc(source.date)}</span>
+        </div>
+        <p class="source-quote">${esc(source.quote)}</p>
+        <button class="source-open" type="button" data-source="${esc(id)}" aria-haspopup="dialog">Open source</button>
+      </article>`;
+    }).join("");
+  }
+
+  function renderMemory() {
+    $("#memory-coverage").textContent = M.ask.memory.coverage;
+    $("#memory-label").textContent = M.ask.memory.label;
+    $("#memory-answer").textContent = M.ask.memory.answer;
+    $("#memory-next").textContent = M.ask.memory.next;
+  }
+
+  function setActiveSources(ids) {
+    const set = new Set(ids);
+    $$("[data-card-source]").forEach((card) => {
+      card.classList.toggle("is-active", set.has(card.dataset.cardSource));
+    });
+    $$("[data-side-source]").forEach((side) => {
+      side.classList.toggle("is-active", set.has(side.dataset.sideSource));
+    });
+    $$(".claim").forEach((claim) => {
+      const cites = new Set((claim.dataset.cites || "").split(" ").filter(Boolean));
+      claim.classList.toggle("is-active", [...cites].some((id) => set.has(id)));
+    });
+  }
+
+  function clearActive() {
+    $$(".claim, .source-card, .side").forEach((el) => el.classList.remove("is-active"));
+  }
+
+  function applyJurisdiction(jurisdiction) {
+    currentJurisdiction = jurisdiction;
+    $$("[data-jur]").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.jur === jurisdiction));
+    });
+    const dimmed = jurisdiction !== "all";
+    $$("[data-card-source], [data-side-source]").forEach((element) => {
+      const id = element.dataset.cardSource || element.dataset.sideSource;
+      const match = jurisdiction === "all" || M.sources[id].jurisdiction === jurisdiction;
+      element.classList.toggle("is-dimmed", dimmed && !match);
+    });
+    const note = $(".rail-note");
+    if (jurisdiction === "all") {
+      note.innerHTML = "<b>Reading order:</b> most restrictive safety source first, then the divergence. Dates and jurisdictions stay attached; nothing is synthesised into a single truth.";
+    } else {
+      note.innerHTML = `<b>${esc(jurisdictionLabel[jurisdiction])} filter:</b> other jurisdictions are dimmed for browsing, never removed. Safety warnings stay visible.`;
+    }
+  }
+
+  function openSource(id, trigger) {
+    const source = M.sources[id];
+    if (!source) return;
+    lastTrigger = trigger || document.activeElement;
+    $("#drawer-kicker").textContent = `Source ${sourceNumber.get(id)} · ${tierLabel[source.tier]} · ${jurisdictionLabel[source.jurisdiction]}`;
+    $("#drawer-title").textContent = source.title;
+    $("#drawer-quote").textContent = source.quote;
+    $("#drawer-meta").innerHTML = [
+      ["Publisher", source.source],
+      ["Section", source.section],
+      ["Published", source.date],
+      ["Next review due", source.nextReview],
+      ["Identifier", source.identifier],
+      ["Licence", source.licence],
+      ["Chunk", source.chunkId],
+      ["Checksum", source.checksum]
+    ].map(([key, value]) => `<dt>${esc(key)}</dt><dd>${esc(value)}</dd>`).join("");
+    $("#drawer-link").href = source.url;
+    dialog.showModal();
+    $$(".cite").forEach((chip) => chip.setAttribute("aria-expanded", String(chip.dataset.source === id)));
+  }
+
+  function setView(view) {
+    currentView = view;
+    document.body.dataset.state = view;
+    $$("[data-view]").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.view === view));
+    });
+    const isCited = view === "cited";
+    $("#cited-head").hidden = !isCited;
+    $("#memory-head").hidden = isCited;
+    $("#cited-view").hidden = !isCited;
+    $("#memory-view").hidden = isCited;
+    $("#cited-rail").hidden = !isCited;
+    $("#memory-rail").hidden = isCited;
+    $$("[data-jur]").forEach((button) => { button.disabled = !isCited; });
+    document.title = isCited ? "materia — Reading Room" : "materia — Reading Room (memory state)";
+  }
+
+  renderAnswer();
+  renderRail();
+  renderMemory();
+
+  document.addEventListener("click", (event) => {
+    const sourceTrigger = event.target.closest("[data-source]");
+    if (sourceTrigger) {
+      openSource(sourceTrigger.dataset.source, sourceTrigger);
+      return;
+    }
+    const jurTrigger = event.target.closest("[data-jur]");
+    if (jurTrigger && !jurTrigger.disabled) {
+      applyJurisdiction(jurTrigger.dataset.jur);
+      return;
+    }
+    const viewTrigger = event.target.closest("[data-view]");
+    if (viewTrigger) {
+      setView(viewTrigger.dataset.view);
+    }
+  });
+
+  $$(".claim").forEach((claim) => {
+    const activate = () => setActiveSources((claim.dataset.cites || "").split(" ").filter(Boolean));
+    claim.addEventListener("pointerenter", activate);
+    claim.addEventListener("focusin", activate);
+    claim.addEventListener("pointerleave", clearActive);
+    claim.addEventListener("focusout", clearActive);
+  });
+
+  $$("[data-card-source], [data-side-source]").forEach((element) => {
+    const id = element.dataset.cardSource || element.dataset.sideSource;
+    element.addEventListener("pointerenter", () => setActiveSources([id]));
+    element.addEventListener("pointerleave", clearActive);
+  });
+
+  $$("[data-source]").forEach((button) => {
+    if (!button.classList.contains("cite") && !button.classList.contains("source-open") && !button.classList.contains("source-link")) return;
+    button.setAttribute("aria-haspopup", "dialog");
+  });
+
+  $("#drawer-close").addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+  dialog.addEventListener("close", () => {
+    $$(".cite").forEach((chip) => chip.setAttribute("aria-expanded", "false"));
+    if (lastTrigger && typeof lastTrigger.focus === "function") lastTrigger.focus();
+  });
+
+  $("#gap-button").addEventListener("click", (event) => {
+    const button = event.currentTarget;
+    const pressed = button.getAttribute("aria-pressed") === "true";
+    button.setAttribute("aria-pressed", String(!pressed));
+    button.textContent = pressed ? "Add to gap queue" : "Added to gap queue";
+  });
+
+  applyJurisdiction("all");
+  setView(location.hash === "#memory" ? "memory" : "cited");
+  document.documentElement.setAttribute("data-mockup-ready", "1");
+})();
+</script>
+</body>
+</html>
