@@ -10,7 +10,7 @@ trap 'rm -rf "$STAGE"' EXIT
 .venv/bin/python -c 'import sqlite3; c=sqlite3.connect("corpus/index.sqlite"); c.execute("PRAGMA wal_checkpoint(TRUNCATE)"); c.close()'
 
 mkdir -p "$ROOT"
-cp -a materia data corpus samples scripts docs tests "$ROOT/"
+cp -a materia data corpus samples scripts docs tests deploy "$ROOT/"
 cp -a pyproject.toml README.md AGENTS.md HANDOVER.md NOTICE.md CHANGELOG.md "$ROOT/"
 cp release/install.sh release/run.sh release/README.md "$ROOT/"
 

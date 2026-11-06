@@ -12,6 +12,7 @@ First local product release.
 - Default synthetic nutrient/lipid sample; amino-acid coverage-gap demo.
 - 162 tests, 72/72 contract checks, 28/28 single-turn and 17/17 multi-turn chat contracts.
 - Review packet, web review mode, CLI, CSV import/export, rule audit and validation dossier.
+- PDF uploads: text layer first, OCR fallback when no table parses.
 - Self-contained `release/materia-1.0.0-local.tar.gz`.
 
 ## 0.2.0 — 2026-10-30

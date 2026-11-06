@@ -1,0 +1,17 @@
+[Unit]
+Description=materia local clinical decision-support
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/projects/materia
+Environment=PYTHONUNBUFFERED=1
+ExecStart=%h/projects/materia/.venv/bin/python -m materia.cli serve --host 127.0.0.1 --port 8890 --start-ocr
+Restart=on-failure
+RestartSec=3
+StandardOutput=append:%h/projects/materia/logs/materia-service.log
+StandardError=append:%h/projects/materia/logs/materia-service.log
+
+[Install]
+WantedBy=default.target

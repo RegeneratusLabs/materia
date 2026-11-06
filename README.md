@@ -56,7 +56,8 @@ python3 -m venv .venv
 
 The default sample is a **synthetic nutrient/lipid panel** and works with no model; it exercises
 iron, B12, vitamin D and lipid patterns. The amino-acid sample is available as a coverage-gap demo.
-Uploads need the OCR weights and `--start-ocr`.
+Uploads need the OCR weights and `--start-ocr`. The text layer is read first; if no lab table
+parses, OCR is attempted on the page (CPU OCR can take minutes per page).
 
 CLI:
 

@@ -46,7 +46,6 @@ MAX_UPLOAD = 25 * 1024 * 1024
 # layer is empty (a scan, a photo) go to the OCR model, and never more than this many:
 # an OCR page costs ~45 s on CPU, so an unbounded scan would look like a hung tab.
 MAX_OCR_PAGES = int(os.environ.get("MATERIA_MAX_OCR_PAGES", "12"))
-MIN_TEXT_CHARS = 200
 UPLOAD_ROOT = Path(tempfile.mkdtemp(prefix="materia-uploads-"))
 SESSIONS: dict[str, dict] = {}
 OCR_LOCK = threading.Lock()
@@ -313,7 +312,7 @@ def _extract_upload(filename: str, data: bytes, content_type: str) -> dict:
                     found.append((index, rows))
                     reads.add("text")
                     continue
-                if len(text.strip()) >= MIN_TEXT_CHARS or budget <= 0:
+                if budget <= 0:
                     continue
                 budget -= 1
                 image = ocr.render_page(source, index, work / "pages")
