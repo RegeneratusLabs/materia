@@ -50,6 +50,8 @@ False `memory` labels are acceptable. False `grounded` labels are not. Measured:
 
 ## Runtime
 
+- Chat timeout: `MATERIA_CHAT_TIMEOUT` seconds (default 300; CPU prefill on a multi-pattern
+  assessment can take ~2 minutes).
 - Reasoning/chat server: `MiniCPM5-2B-Q8_0` (default, 2.7 GB) or `MiniCPM5-2B-Q4_K_M`
   (1.5 GB, low-RAM), `-c 4096 -np 2 -t 6 --jinja --no-reasoning-preserve`, port 8099. Both CPU-only;
   override the path with `MATERIA_REASON_GGUF`.

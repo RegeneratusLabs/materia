@@ -31,6 +31,7 @@ OCR_PORT = int(os.environ.get("MATERIA_OCR_PORT", "18499"))
 CHAT_BASE_URL = os.environ.get("MATERIA_CHAT_BASE_URL", "")
 CHAT_MODEL = os.environ.get("MATERIA_CHAT_MODEL", "local")
 CHAT_API_KEY = os.environ.get("MATERIA_CHAT_API_KEY", "")
+CHAT_TIMEOUT = float(os.environ.get("MATERIA_CHAT_TIMEOUT", "300"))
 
 REASON_CTX = int(os.environ.get("MATERIA_REASON_CTX", "4096"))
 REASON_PARALLEL = int(os.environ.get("MATERIA_REASON_PARALLEL", "2"))

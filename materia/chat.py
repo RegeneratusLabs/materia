@@ -284,7 +284,8 @@ def _model_messages(question: str, assessment: dict, history: list[dict] | None 
     return messages
 
 
-def _call_model(messages: list[dict], *, timeout: float = 120.0) -> str | None:
+def _call_model(messages: list[dict], *, timeout: float | None = None) -> str | None:
+    timeout = timeout if timeout is not None else config.CHAT_TIMEOUT
     base = (config.CHAT_BASE_URL or "").rstrip("/")
     if not base:
         return None
