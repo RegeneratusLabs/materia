@@ -435,3 +435,14 @@ def test_high_free_t4_is_a_referral(conn):
     a = recommend(rows, intake={"age": 40, "sex": "female"}, conn=conn)
     assert a.options[0].id == "hyperthyroid-review"
     assert a.options[0].kind == "referral"
+
+
+def test_amino_acid_abnormality_is_a_referral(conn):
+    rows = [
+        {"analyte": "Methionine", "value": 8, "unit": "µmol/L", "ref_low": 10, "ref_high": 33},
+        {"analyte": "Tryptophan", "value": 20, "unit": "µmol/L", "ref_low": 24, "ref_high": 52},
+    ]
+    a = recommend(rows, intake={"age": 54, "sex": "male"}, conn=conn)
+    assert a.options[0].id == "amino-acid-review"
+    assert a.options[0].kind == "referral"
+    assert a.options[0].dose_text is None

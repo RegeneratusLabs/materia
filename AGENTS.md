@@ -67,9 +67,11 @@ build 11936, no GPU, ~16 tok/s generation and ~70 tok/s prefill on this host.
 `--no-reasoning-preserve`; the box then thrashes swap and the model appears to slow to 0.4 tok/s.
 Watch `ps -o rss= -C llama-server`.
 
-**Chat model is separate and optional.** The recommendation engine is deterministic. If a local
-OpenAI-compatible open-weight model is available, set `MATERIA_CHAT_BASE_URL` (for example
-`http://127.0.0.1:8000/v1`), `MATERIA_CHAT_MODEL`, and optionally `MATERIA_CHAT_API_KEY`. The model
+**Chat model is separate, optional and CPU-only.** The recommendation engine is deterministic. The
+default conversational model is a 2B GGUF served by `llama.cpp` on CPU (Q4 1.5 GB or Q8 2.7 GB); no
+GPU is required. If a local OpenAI-compatible open-weight model is available, set
+`MATERIA_CHAT_BASE_URL` (for example `http://127.0.0.1:8099/v1`), `MATERIA_CHAT_MODEL`, and
+optionally `MATERIA_CHAT_API_KEY`. The model
 receives the assessment object and may only explain it; an answer that adds a dose or citation not in
 the assessment is rejected. With no endpoint configured, the deterministic responder is used.
 

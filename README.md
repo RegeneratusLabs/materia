@@ -1,11 +1,17 @@
 # materia
 
-A cited clinical decision-support engine for naturopathic and integrative practitioners.
+**1.0.0 local product.** A cited clinical decision-support engine for naturopathic and
+integrative practitioners.
 Blood tests in; cited patterns, supplement/herb options, safety screens and a grounded
 conversation out.
 
 It is **not** a replacement for a licensed practitioner. It does not issue a final diagnosis
 or a prescription. Every option is a suggestion for a practitioner to accept, modify or reject.
+
+The engine is deterministic. The optional chat layer runs on **CPU** with a 2B GGUF model;
+no GPU, vLLM or cloud endpoint is required.
+
+![materia Plan — cited options, safety-screened](docs/brand/materia-plan-demo.png)
 
 ## What works now
 
@@ -13,7 +19,7 @@ or a prescription. Every option is a suggestion for a practitioner to accept, mo
   apply a plausibility gate and require human confirmation.
 - Match findings against cited patterns: iron deficiency, B12 deficiency (including high MMA), folate deficiency,
   vitamin D insufficiency, low serum magnesium, liver enzyme elevation, elevated triglycerides,
-  underactive thyroid, overactive thyroid, dysglycaemia, elevated LDL, low HDL, high homocysteine, reduced eGFR, high uric acid, raised bilirubin, low albumin, low platelets, high platelets,
+  underactive thyroid, overactive thyroid, dysglycaemia, elevated LDL, low HDL, high homocysteine, amino-acid panel review, reduced eGFR, high uric acid, raised bilirubin, low albumin, low platelets, high platelets,
 iron overload, high calcium, raised inflammation.
 - Return ranked options with a dose range, a source chunk, monitoring and safety flags:
   oral iron, oral B12, folic acid, vitamin D3 + safe sun/diet advice, oral magnesium, milk thistle (grade C; evidence
@@ -44,10 +50,13 @@ iron overload, high calcium, raised inflammation.
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -e .
+.venv/bin/python -m materia.cli doctor
 .venv/bin/python -m materia.cli serve --port 8765 --open
 ```
 
-The sample report works with no model. Uploads need the OCR weights and `--start-ocr`.
+The default sample is a **synthetic nutrient/lipid panel** and works with no model; it exercises
+iron, B12, vitamin D and lipid patterns. The amino-acid sample is available as a coverage-gap demo.
+Uploads need the OCR weights and `--start-ocr`.
 
 CLI:
 
@@ -72,19 +81,23 @@ CLI:
 }
 ```
 
-## Optional chat model
+## Optional chat model — CPU only
 
 The recommendation engine is deterministic and needs no model. For a conversational layer,
-serve an open-weight instruct model behind an OpenAI-compatible endpoint:
+serve a small open-weight instruct model with `llama.cpp` on CPU:
 
 ```bash
-export MATERIA_CHAT_BASE_URL="http://127.0.0.1:8000/v1"
-export MATERIA_CHAT_MODEL="Qwen/Qwen2.5-14B-Instruct"
-export MATERIA_CHAT_API_KEY=""   # only for a private local gateway
+cd ~/bin/llamacpp/llama-b11936 && ./llama-server \
+  -m ~/models/minicpm5/MiniCPM5-2B-Q4_K_M.gguf \
+  -c 4096 -np 2 -t 4 --jinja --no-reasoning-preserve --port 8099
+
+export MATERIA_CHAT_BASE_URL="http://127.0.0.1:8099/v1"
+export MATERIA_CHAT_MODEL="minicpm5-2b-q4"
 ```
 
-No closed APIs. The engine works without a model; the model only explains an assessment it is
-given. GPU runbook and model comparison: [model-runbook.md](docs/model-runbook.md).
+No GPU, no vLLM, no closed API. The engine works without a model; the model only explains an
+assessment it is given. Q4 (1.5 GB) is the low-RAM baseline; Q8 (2.7 GB) is the higher-quality
+CPU baseline. CPU runbook and measured results: [model-runbook.md](docs/model-runbook.md).
 
 ## Evidence and safety
 
@@ -104,24 +117,28 @@ given. GPU runbook and model comparison: [model-runbook.md](docs/model-runbook.m
 .venv/bin/python -m pytest -q
 .venv/bin/python scripts/eval_recommend.py
 .venv/bin/python scripts/review_report.py   # accept rate + unsafe/missing reasons (--json too)
-.venv/bin/python scripts/make_review_packet.py   # printable 47-case clinician packet
+.venv/bin/python scripts/make_review_packet.py   # printable 50-case clinician packet
 .venv/bin/python scripts/review_cases.py --limit 5   # interactive agree/unsafe/missing labels
-.venv/bin/python scripts/import_reviews.py labels.csv --dry-run   # offline CSV labels
+.venv/bin/python scripts/make_review_csv.py   # blank 50-row label sheet
+.venv/bin/python scripts/import_reviews.py docs/review-labels.csv --dry-run   # import filled labels
 .venv/bin/python scripts/audit_rules.py   # citations, doses, freshness, gaps
 ```
 
-- 155 tests.
-- The model-enabled chat path was tested against the local MiniCPM5-2B on 28 grounded questions:
-  **28/28 = 100% [87.9, 100.0]**, with 24 answers used, 2 deterministic answers and 2 rejected for citation/support and replaced
-  by the deterministic answer. This is a contract test, not prose quality. A 14B–32B model is the next
-  quality step.
-- Multi-turn chat: **17/17 = 100% [81.6, 100.0]** deterministic and with the 2B; the 2B used the
-  model path for 15 of 17 turns. Tiny n, but it exercises the conversation history.
-- 72 synthetic contract vignettes: **72/72 = 100% [94.9, 100.0]** for pattern match, top-option
+- 163 tests.
+- CPU chat, single-turn, **29/29 = 100% [88.3, 100.0]**:
+  - Q8: 27 model answers, 2 rejected.
+  - Q4: 23 model answers, 1 deterministic answer, 5 rejected.
+- CPU chat, multi-turn, **17/17 = 100% [81.6, 100.0]**:
+  - Q8: 15 model answers, 2 rejected.
+  - Q4: 12 model answers, 5 rejected.
+- These are contract tests, not prose quality. Q4 is the low-RAM default; Q8 follows the
+  citation contract more often. A 3B CPU model is optional; it must pass the same benchmark.
+- 73 synthetic contract vignettes: **73/73 = 100% [95.0, 100.0]** for pattern match, top-option
   agreement, withheld options, safety flags, gaps and citation integrity. This is a self-authored
   contract set, not clinical validation. Recorded in `docs/scores.json`.
 
 Validation status and the claim policy: [validation.md](docs/validation.md).
+Licensing and medical-device scope: [NOTICE.md](NOTICE.md). Release history: [CHANGELOG.md](CHANGELOG.md).
 
 ## Layout
 
@@ -130,5 +147,5 @@ Validation status and the claim policy: [validation.md](docs/validation.md).
 - `materia/chat.py` — grounded conversational layer.
 - `materia/rules/` — analytes, patterns, recommendations, red flags, safety.
 - `materia/webapp/` — local web app.
-- `corpus/` — 400 licence-clear documents, 5,143 chunks.
+- `corpus/` — 401 licence-clear documents, 5,207 chunks.
 - `docs/clinical-engine.md` — design, scoring equation, evaluation plan.

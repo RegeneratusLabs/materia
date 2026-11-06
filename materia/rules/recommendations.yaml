@@ -746,3 +746,26 @@ recommendations:
       notes:
         - text: "A high free T4 result can occur with an overactive thyroid."
           chunk: medlineplus-003517#006
+
+  - id: amino-acid-review
+    pattern: amino_acid_abnormality
+    intervention: Amino-acid panel review
+    kind: referral
+    goal: Repeat and interpret the panel with the right matrix, age and clinical context before supplementing.
+    grade: C
+    rank_hint: 1.0
+    evidence:
+      - pmc-pmc13447054#002
+      - pmc-pmc13447054#003
+      - pmc-pmc13447054#008
+    monitoring:
+      text: "Repeat fasting in the same specimen type; interpret with age-specific intervals, nutrition, liver, kidney, medicines and sample handling."
+      chunk: pmc-pmc13447054#008
+    safety:
+      veto_contexts: []
+      flag_contexts: []
+      notes:
+        - text: "Matrix selection and age are critical factors in amino acid interpretation."
+          chunk: pmc-pmc13447054#003
+        - text: "AA concentrations were influenced by sample preparation, analytical methods, age and pathological conditions."
+          chunk: pmc-pmc13447054#008

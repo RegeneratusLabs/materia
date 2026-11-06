@@ -23,3 +23,6 @@ release/*.tar.gz
 
 # Run logs and working screenshots — output, not source
 logs/
+
+# Archived release artefacts
+release/archive/

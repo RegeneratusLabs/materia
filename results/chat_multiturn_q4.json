@@ -1,0 +1,153 @@
+{
+  "n": 17,
+  "passed": 17,
+  "pct": 100.0,
+  "ci95": [
+    81.6,
+    100.0
+  ],
+  "model": "minicpm5-2b-q4",
+  "base_url": "http://127.0.0.1:8099/v1",
+  "modes": {
+    "model": 12,
+    "rejected-model": 5
+  },
+  "rows": [
+    {
+      "case": "iron-followup",
+      "turn": 1,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "iron-followup",
+      "turn": 2,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "iron-followup",
+      "turn": 3,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "ldl-followup",
+      "turn": 1,
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "ldl-followup",
+      "turn": 2,
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "b12-followup",
+      "turn": 1,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "b12-followup",
+      "turn": 2,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "berberine-followup",
+      "turn": 1,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "berberine-followup",
+      "turn": 2,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "critical-potassium-followup",
+      "turn": 1,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "critical-potassium-followup",
+      "turn": 2,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "magnesium-kidney-followup",
+      "turn": 1,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "magnesium-kidney-followup",
+      "turn": 2,
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "berberine-pregnancy-followup",
+      "turn": 1,
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "berberine-pregnancy-followup",
+      "turn": 2,
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "thyroid-followup",
+      "turn": 1,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    },
+    {
+      "case": "thyroid-followup",
+      "turn": 2,
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": []
+    }
+  ]
+}

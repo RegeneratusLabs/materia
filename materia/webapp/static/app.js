@@ -239,11 +239,15 @@
   function renderReport() {
     const doc = state.report.doc;
     $("#report-title").textContent = doc.page_label || "Report";
+    const kind = $("#report-kind");
+    if (kind) kind.textContent = doc.sample
+      ? (doc.title || "").toLowerCase().includes("nutrient") ? "Nutrient panel" : "Amino acids"
+      : "Lab report";
     const page = selectedPage();
     const image = $("#report-image");
     image.src = pageSrc();
     image.alt = doc.sample
-      ? "Page 2 of the Genova Diagnostics bloodspot amino acids sample report, with results, quintile bars and the lab's reference intervals."
+      ? `${doc.title || "Sample report"} — synthetic or public sample, not a patient record.`
       : `Page ${page || 1}${doc.page_count ? ` of ${doc.page_count}` : ""} of the uploaded lab report.`;
     $("#open-full-page").href = pageSrc();
     $("#provenance-chip").textContent = doc.provenance || "Read locally";
@@ -585,14 +589,18 @@
 
     const patterns = a.patterns || [];
     const alerts = a.critical_alerts || [];
-    const urgent = patterns.filter(p => p.severity === "high" || p.severity === "critical");
+    const criticalPatterns = patterns.filter(p => p.severity === "critical");
+    const highPatterns = patterns.filter(p => p.severity === "high");
     const alert = $("#plan-alert");
     if (alerts.length) {
       alert.hidden = false;
       alert.innerHTML = `<b>Critical lab value</b>${alerts.map(x => `<span>${esc(x.analyte)} ${esc(x.value)} ${esc(x.unit)}: ${esc(x.action)}${x.age_note ? ` <em>${esc(x.age_note)}</em>` : ""}${x.citation ? ` <code>${esc(x.citation)}</code>` : ""}</span>`).join("<br>")}<br><span>Supplement and herb options are withheld until this is addressed. Confirm with the lab's own critical-value policy.</span>`;
-    } else if (urgent.length) {
+    } else if (criticalPatterns.length) {
       alert.hidden = false;
-      alert.innerHTML = `<b>Needs prompt clinical attention</b><span>${urgent.map(p => esc(p.label)).join("</span><span>")}</span><br><span>This is a triage flag, not a diagnosis. Confirm with the practitioner and the lab's own critical-value policy.</span>`;
+      alert.innerHTML = `<b>Needs prompt clinical attention</b><span>${criticalPatterns.map(p => esc(p.label)).join("</span><span>")}</span><br><span>This is a triage flag, not a diagnosis. Confirm with the practitioner and the lab's own critical-value policy.</span>`;
+    } else if (highPatterns.length) {
+      alert.hidden = false;
+      alert.innerHTML = `<b>Clinical review recommended</b><span>${highPatterns.map(p => esc(p.label)).join("</span><span>")}</span><br><span>High-severity pattern, not an emergency. Confirm the cause with the practitioner before supplementing.</span>`;
     } else {
       alert.hidden = true;
       alert.innerHTML = "";
@@ -927,10 +935,10 @@
     renderAll();
   }
 
-  async function loadSample() {
+  async function loadSample(panel = "nutrient") {
     $("#value-list").innerHTML = '<p class="value-empty">Getting the sample report ready…</p>';
     try {
-      const report = await api("/api/lab/sample");
+      const report = await api(`/api/lab/sample?panel=${encodeURIComponent(panel)}`);
       applyReport(report);
     } catch (error) {
       $("#value-list").innerHTML = `<p class="value-empty">The local engine is not responding. ${esc(error.message)} <button class="quiet-link" type="button" data-retry="sample">Try again</button></p>`;
@@ -1084,6 +1092,8 @@
     if (event.target.closest("#print-plan")) { window.print(); return; }
     if (event.target.closest("#copy-plan")) { copyPlan(); return; }
     if (event.target.closest("#download-plan")) { downloadPlan(); return; }
+    if (event.target.closest("#nutrient-sample")) { loadSample("nutrient"); return; }
+    if (event.target.closest("#amino-sample")) { loadSample("amino"); return; }
     if (event.target.closest("#review-open")) { openReview(); return; }
     if (event.target.closest("#review-close")) { setView("plan"); return; }
     const caseDecision = event.target.closest("[data-case-decision]");
@@ -1139,10 +1149,19 @@
   };
   state.view = initialView();
   loadStatus();
-  loadSample().then(() => {
+  loadSample().then(async () => {
+    const params = new URLSearchParams(location.search);
+    if (params.get("demo") === "plan") {
+      const age = $("#intake-age"); const sex = $("#intake-sex");
+      if (age) age.value = "42";
+      if (sex) sex.value = "female";
+      await buildPlan({ preventDefault() {} });
+      setView("plan");
+      return;
+    }
     if (state.view === "reviewmode") { openReview(); return; }
     if (state.view !== "review") setView(state.view);
-    const example = new URLSearchParams(location.search).get("example");
+    const example = params.get("example");
     if (example && state.view === "plan") loadExample(example);
   });
 })();

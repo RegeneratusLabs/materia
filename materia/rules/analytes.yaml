@@ -162,6 +162,72 @@
   ref: {female: [178, 422], male: [238, 511]}
   ref_source: medlineplus-003476#004
 
+- id: lysine
+  name: Lysine
+  aliases: [lysine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: methionine
+  name: Methionine
+  aliases: [methionine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: tryptophan
+  name: Tryptophan
+  aliases: [tryptophan]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: isoleucine
+  name: Isoleucine
+  aliases: [isoleucine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: leucine
+  name: Leucine
+  aliases: [leucine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: valine
+  name: Valine
+  aliases: [valine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: phenylalanine
+  name: Phenylalanine
+  aliases: [phenylalanine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: histidine
+  name: Histidine
+  aliases: [histidine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: threonine
+  name: Threonine
+  aliases: [threonine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: arginine
+  name: Arginine
+  aliases: [arginine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
+- id: taurine
+  name: Taurine
+  aliases: [taurine]
+  unit: µmol/L
+  units: {µmol/L: 1, umol/L: 1}
+
 - id: inr
   name: INR
   aliases: [inr, international normalised ratio, international normalized ratio]

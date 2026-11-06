@@ -45,8 +45,9 @@ def post(url: str, payload: dict) -> tuple[int, dict]:
         return exc.code, json.loads(exc.read())
 
 
-def test_sample_payload_has_rows_and_lab_flags():
-    payload = server._sample_payload()
+def test_amino_sample_payload_has_rows_and_lab_flags():
+    server.SESSIONS.pop("sample", None)
+    payload = server._sample_payload("amino")
     assert payload["session"] == "sample"
     assert payload["doc"]["sample"] is True
     assert len(payload["rows"]) == 12
@@ -180,11 +181,47 @@ def test_index_and_assets(live_server):
     assert "javascript" in ctype
 
 
-def test_sample_endpoint(live_server):
+def test_nutrient_sample_payload_reaches_recommendations():
+    server.SESSIONS.pop("sample", None)
+    payload = server._sample_payload("nutrient")
+    assert payload["doc"]["sample"] is True
+    assert "nutrient" in payload["doc"]["title"].lower()
+    assert len(payload["rows"]) == 12
+    flags = {row["analyte"]: row["flag"] for row in payload["rows"] if row["flag"]}
+    assert flags["Ferritin"] == "L"
+    assert flags["Triglycerides"] == "H"
+    assessment = server.build_recommendation(
+        payload["rows"], intake={"age": 42, "sex": "female"}
+    )
+    pattern_ids = {p.id for p in assessment.patterns}
+    assert {"iron_deficiency", "b12_deficiency", "vitamin_d_insufficiency",
+            "high_triglycerides", "elevated_ldl"} <= pattern_ids
+    assert any(o.id == "oral-iron-alternate-day" for o in assessment.options)
+
+
+def test_sample_endpoint_defaults_to_nutrient(live_server):
+    server.SESSIONS.pop("sample", None)
     status, body, _ = get(live_server + "/api/lab/sample")
     assert status == 200
     payload = json.loads(body)
     assert payload["sample"] is True
+    assert "nutrient" in payload["doc"]["title"].lower()
+
+
+def test_sample_page_panels(live_server):
+    for panel in ("amino", "nutrient"):
+        status, body, ctype = get(f"{live_server}/api/lab/sample/page?panel={panel}")
+        assert status == 200
+        assert ctype.startswith("image/png")
+        assert len(body) > 1000
+
+
+def test_amino_sample_endpoint(live_server):
+    server.SESSIONS.pop("sample", None)
+    status, body, _ = get(live_server + "/api/lab/sample?panel=amino")
+    assert status == 200
+    payload = json.loads(body)
+    assert "amino" in payload["doc"]["title"].lower()
     assert len(payload["rows"]) == 12
 
 

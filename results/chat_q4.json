@@ -1,0 +1,250 @@
+{
+  "n": 29,
+  "passed": 29,
+  "pct": 100.0,
+  "ci95": [
+    88.3,
+    100.0
+  ],
+  "model": "minicpm5-2b-q4",
+  "base_url": "http://127.0.0.1:8099/v1",
+  "modes": {
+    "assessment": 1,
+    "model": 23,
+    "rejected-model": 5
+  },
+  "rows": [
+    {
+      "id": "iron-dose",
+      "mode": "assessment",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "iron-pregnancy-not-recorded",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "b12-dose",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "vitamin-d-dose",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "magnesium-kidney-withheld",
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "liver-investigate",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "thyroid-review",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "dysglycaemia-review",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "ldl-review",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "folate-dose",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "hypercalcaemia-urgent",
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "severe-triglycerides-urgent",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "iron-ppi-interaction",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "fish-oil-antiplatelet",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "vitamin-d-thiazide",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "ldl-curcumin-adjunct",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "dysglycaemia-berberine",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "critical-potassium",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "zinc-low",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "high-homocysteine",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "ldl-ranking-explanation",
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "reduced-egfr",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "high-uric-acid",
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "high-bilirubin",
+      "mode": "rejected-model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "low-albumin",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "high-platelets",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "low-platelets",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "high-free-t4",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    },
+    {
+      "id": "low-amino-acids",
+      "mode": "model",
+      "ok": true,
+      "missing": [],
+      "forbidden": [],
+      "cited": true
+    }
+  ]
+}

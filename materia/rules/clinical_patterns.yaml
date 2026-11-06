@@ -596,3 +596,40 @@ patterns:
       - "Repeat TSH and free T4; add T3 and thyroid antibodies where indicated."
       - "A suppressed TSH with high free T4 needs clinical review; do not take iodine or stimulant herbs."
     citations: [medlineplus-003517#006, medlineplus-003684#006]
+
+  - id: amino_acid_abnormality
+    label: Amino-acid panel review
+    category: nutrient
+    severity: moderate
+    base_confidence: 0.45
+    when:
+      any:
+        - {analyte: lysine, ref: low}
+        - {analyte: lysine, ref: high}
+        - {analyte: methionine, ref: low}
+        - {analyte: methionine, ref: high}
+        - {analyte: tryptophan, ref: low}
+        - {analyte: tryptophan, ref: high}
+        - {analyte: isoleucine, ref: low}
+        - {analyte: isoleucine, ref: high}
+        - {analyte: leucine, ref: low}
+        - {analyte: leucine, ref: high}
+        - {analyte: valine, ref: low}
+        - {analyte: valine, ref: high}
+        - {analyte: phenylalanine, ref: low}
+        - {analyte: phenylalanine, ref: high}
+        - {analyte: histidine, ref: low}
+        - {analyte: histidine, ref: high}
+        - {analyte: threonine, ref: low}
+        - {analyte: threonine, ref: high}
+        - {analyte: arginine, ref: low}
+        - {analyte: arginine, ref: high}
+        - {analyte: taurine, ref: low}
+        - {analyte: taurine, ref: high}
+    supporting: []
+    against: []
+    confirm:
+      - "Repeat fasting, using the same specimen type (serum or plasma); interpret against age-specific intervals."
+      - "Assess nutrition, liver, kidney, medicines and sample handling before treating an isolated value."
+      - "Do not start a single amino-acid supplement without clinical or metabolic review."
+    citations: [pmc-pmc13447054#002, pmc-pmc13447054#003, pmc-pmc13447054#008]

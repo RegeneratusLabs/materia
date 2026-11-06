@@ -8,6 +8,11 @@
 
 ## TL;DR
 
+> **2026-11-06 — 1.0.0 local product.** 24 patterns / 31 options; 73/73 contract checks;
+> 163 tests; CPU-only chat (MiniCPM5-2B Q4/Q8, no GPU); default synthetic nutrient/lipid sample;
+> self-contained `release/materia-1.0.0-local.tar.gz`. Clinician labels remain **0/50**;
+> clinical accuracy is not claimed. The 2026-10-31/28 paragraphs below are the design record.
+>
 > **2026-10-31 — read §14 first.** The objective changed to a blood-test → cited
 > supplement/herb recommendation engine with a conversational layer. The paragraphs below
 > are the 2026-10-28 baseline and are kept as the design record; where they say "no diagnosis",
@@ -559,7 +564,7 @@ shown as withheld, not rendered.
   JSON/text output.
 - `materia/rules/analytes.yaml`, `materia/rules/clinical_patterns.yaml`, `materia/rules/recommendations.yaml`.
 - `scripts/ingest_pmc.py` — CC-BY full-text ingestion from Europe PMC (8 papers: iron, B12, vitamin D,
-  silymarin, turmeric, berberine, omega-3, full blood count). Corpus is now **400 docs / 5,143 chunks**
+  silymarin, turmeric, berberine, omega-3, full blood count). Corpus is now **401 docs / 5,207 chunks**
   (was 377 / 4,012). Also ingested the Health Canada multi-vitamin/mineral monograph (dose tables) and
   MedlinePlus vitamin D, folate and magnesium pages.
 - `materia recommend case.json` — CLI; `POST /api/recommend`; a "Plan" tab with intake, patterns,
@@ -570,9 +575,9 @@ shown as withheld, not rendered.
   same object; an answer that introduces a dose or citation outside the assessment is rejected and
   the deterministic answer is shown.
 - Tests: `tests/test_clinical.py`, `tests/test_recommend.py`, `tests/test_chat.py`,
-  `tests/test_vignettes.py`; **155 tests pass**.
+  `tests/test_vignettes.py`; **163 tests pass**.
 
-**Patterns with rules now (23 patterns, 30 options).** Iron deficiency → oral iron + absorption advice;
+**Patterns with rules now (24 patterns, 31 options).** Iron deficiency → oral iron + absorption advice;
 B12 deficiency (including normal serum B12 with high MMA) → oral B12; folate deficiency → folic acid; vitamin D insufficiency → D3 + safe sun/diet advice; low serum
 magnesium → oral magnesium; liver enzyme elevation → investigate the cause first, then milk thistle
 (grade C, evidence shown as conflicting); high triglycerides → diet/exercise first, then omega-3;
@@ -580,7 +585,7 @@ underactive thyroid → thyroid function review (referral, no supplement); dysgl
 risk review plus berberine as a low-ranked adjunct (grade C); low serum zinc → oral zinc (grade C,
 50 mg/day, copper monitoring); elevated LDL → cardiovascular risk review plus curcumin as a
 low-ranked adjunct (grade C);
-low HDL → activity/diet/weight (lifestyle); high homocysteine → homocysteine cause review (referral); reduced eGFR → kidney function review
+low HDL → activity/diet/weight (lifestyle); amino-acid panel → amino-acid review (referral, C); high homocysteine → homocysteine cause review (referral); reduced eGFR → kidney function review
 (referral); high uric acid → hydration/alcohol/purine review (lifestyle); raised bilirubin → bilirubin cause
 review (referral); low albumin → albumin cause review (referral); low platelets → low platelet cause review (referral); high platelets → platelet cause review
 (referral); iron overload → iron-overload review (referral);
@@ -611,7 +616,7 @@ checks”, not “100% accurate”).
 
 **Rule audit.** `scripts/audit_rules.py` walks every pattern/option/critical value, checks the
 citation resolves, reports dose sources and evidence age, and writes `docs/rules-audit.md`
-(23 patterns, 30 options, 9 critical values, 0 issues at the time of writing).
+(24 patterns, 31 options, 9 critical values, 0 issues at the time of writing).
 
 **Review workflow.** The 47-case review packet is also a web mode (`Review cases` in the top bar,
 backed by `GET /api/review/cases`) and a CLI (`scripts/review_cases.py`). Both write the same local
@@ -631,39 +636,38 @@ Each flag cites a CC-BY paper ingested for that purpose: `pmc-pmc13127095`, `pmc
 `pmc-pmc12564107`. These are flags, not vetoes: the practitioner sees the interaction and decides.
 
 **Contract evaluation.** 22 synthetic vignettes (`data/clinical_vignettes.json`,
-`scripts/eval_recommend.py`): **72/72 = 100% [94.9, 100.0]** for pattern match, top-option agreement,
+`scripts/eval_recommend.py`): **73/73 = 100% [95.0, 100.0]** for pattern match, top-option agreement,
 withheld options, safety flags, evidence gaps and citation integrity. This is a self-authored
-contract set, not clinical validation; the CI is wide because n=72. Recorded in
-`docs/scores.json` under `recommendation_engine`. The full suite is 155 tests.
+contract set, not clinical validation; the CI is wide because n=73. Recorded in
+`docs/scores.json` under `recommendation_engine`. The full suite is 163 tests.
 
 **Known limits, stated so they are not mistaken for completeness.**
 
-- The engine is a vertical slice, not a complete tool. Insulin resistance and LDL now have referral
-  steps, but zinc and homocysteine have no option rule, and the supplement/herb graph is still small.
+- The engine now covers 23 patterns and 30 options: 10 supplement-herb, 5 lifestyle and 15
+  referral. Zinc, homocysteine, thyroid (under/over), eGFR, uric acid, bilirubin, albumin and
+  platelets are covered; the supplement/herb graph is still deliberately smaller than the
+  referral graph.
 - The ranking weights are a transparent prior, not a calibrated model. No practitioner-labelled
   ranking set exists yet, so no accuracy number is claimed.
 - The vitamin D threshold is a pragmatic 50 nmol/L from the cited consensus; other guidelines use
   75 nmol/L. The conflict is visible in the evidence, not hidden.
 - Milk thistle is deliberately grade C: NCCIH says the liver-disease trials are conflicting or too
   limited. It is offered as a low-ranked adjunct while the cause is investigated.
-- The chat layer is deterministic by default. It is useful for "what dose", "what should I recheck",
-  "why this", and "what was withheld"; it is not a free-form clinical reasoner. On the 10-question
-  grounded-chat set (`data/chat_vignettes.json`), the deterministic path scored **28/28 [87.9, 100.0]**;
-  the local MiniCPM5-2B also scored **28/28**, with 24 answers used, 2 deterministic answers and 2 rejected for a missing or
-  unsupported citation and replaced by the deterministic answer. The model receives a bounded
-  four-message conversation history for follow-ups; malformed history is ignored; the 24-case benchmark is stateless, and the
-  separate 17-turn multi-turn set scores 17/17 with the 2B using the model path for 15 of 17 turns. This is a
-  contract test, not prose quality. It is not yet measured against a 14B–32B model; the 2B's prose
-  is thin.
-- The Plan tab is wired to the sample/upload session. The demo report is an amino-acid panel, which
-  the current patterns do not cover; the worked examples (iron/B12/lipids) are there to exercise the
-  full surface honestly.
+- The chat layer is deterministic by default and **CPU-only** when a model is enabled. It is useful
+  for "what dose", "what should I recheck", "why this", "tell me more" and "what was withheld"; it
+  is not a free-form clinical reasoner. On the 29-question grounded-chat set, the deterministic path
+  scored **29/29 [88.3, 100.0]**. MiniCPM5-2B Q8 also scored **29/29** (27 model, 2 rejected); Q4 scored **29/29** (23 model, 1 deterministic answer, 5 rejected). The 17-turn multi-turn set scores 17/17
+  for both (Q8 15 model, Q4 12 model). This is a contract test, not prose quality. Q4 is the
+  low-RAM baseline; Q8 follows the citation contract more often.
+- The Plan tab is wired to the sample/upload session. The default demo is a synthetic nutrient/lipid
+  panel that exercises iron, B12, vitamin D and lipid patterns. The amino-acid panel is a
+  coverage-gap demo: isolated values now route to an amino-acid review referral, not a supplement.
 
-**Next, in order.** (1) expand the option graph to zinc and homocysteine, and add supplement options
-for dysglycaemia/LDL only with a defensible dose and interaction profile; (2) bring up an open-weight
-14B–32B model and measure the chat path;
-(3) turn the accept/modify/reject JSONL into a calibration report and re-rank with practitioner labels;
-(4) write 50–100 practitioner-labelled vignettes and publish pattern agreement with n and 95% CI.
+**Next, in order.** (1) get the 50-case clinician review labelled and publish the first agreement/CI
+numbers; (2) turn the accept/modify/reject JSONL into a calibration report and re-rank with those
+labels; (3) measure a 3B CPU model on the same 28+17 chat contract, keeping Q4 as the low-RAM
+fallback; (4) add a defensible amino-acid/nutrition source, or keep the amino-acid demo explicitly
+out of scope until one exists.
 
 ## Josh's context
 

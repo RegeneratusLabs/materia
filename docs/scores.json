@@ -518,12 +518,12 @@
   "generated": "2026-10-31",
   "vignettes": "data/clinical_vignettes.json",
   "script": "scripts/eval_recommend.py",
-  "n": 72,
+  "n": 73,
   "all_contract_checks": {
-   "k": 72,
+   "k": 73,
    "pct": 100.0,
    "ci95": [
-    94.9,
+    95.0,
     100.0
    ]
   },
@@ -531,27 +531,41 @@
   "chat": {
    "vignettes": "data/chat_vignettes.json",
    "script": "scripts/eval_chat.py",
-   "n": 28,
+   "n": 29,
    "deterministic": {
-    "k": 28,
+    "k": 29,
     "pct": 100.0,
     "ci95": [
-     87.9,
+     88.3,
      100.0
     ]
    },
    "local_minicpm5_2b": {
-    "k": 28,
+    "k": 29,
     "pct": 100.0,
     "ci95": [
-     87.9,
+     88.3,
      100.0
     ],
-    "model_used": 24,
-    "assessment_used": 2,
-    "rejected_fallback": 2
+    "model_used": 27,
+    "rejected_fallback": 2,
+    "model": "MiniCPM5-2B-Q8_0",
+    "result": "results/chat_q8.json"
    },
-   "note": "Synthetic grounded-chat questions. Pass = required phrase/alternative present, no forbidden phrase, grounded, cited. The 2B result is a contract test, not prose quality or clinical accuracy."
+   "note": "CPU-only (llama.cpp). Synthetic grounded-chat questions. Pass = required phrase/alternative present, no forbidden phrase, grounded, cited. Q4/Q8 are contract tests, not prose quality or clinical accuracy.",
+   "local_minicpm5_2b_q4": {
+    "model": "MiniCPM5-2B-Q4_K_M",
+    "k": 29,
+    "pct": 100.0,
+    "ci95": [
+     88.3,
+     100.0
+    ],
+    "model_used": 23,
+    "rejected_fallback": 5,
+    "result": "results/chat_q4.json",
+    "assessment_used": 1
+   }
   },
   "chat_multiturn": {
    "vignettes": "data/chat_multiturn.json",
@@ -573,9 +587,23 @@
      100.0
     ],
     "model_used": 15,
-    "rejected_fallback": 2
+    "rejected_fallback": 2,
+    "model": "MiniCPM5-2B-Q8_0",
+    "result": "results/chat_multiturn_q8.json"
    },
-   "note": "Multi-turn follow-up set. Each case builds one assessment and carries prior turns in history. Tiny n; a contract test, not a prose-quality measure."
+   "note": "CPU-only multi-turn follow-up set. Each case builds one assessment and carries prior turns in history. Tiny n; a contract test, not a prose-quality measure.",
+   "local_minicpm5_2b_q4": {
+    "model": "MiniCPM5-2B-Q4_K_M",
+    "k": 17,
+    "pct": 100.0,
+    "ci95": [
+     81.6,
+     100.0
+    ],
+    "model_used": 12,
+    "rejected_fallback": 5,
+    "result": "results/chat_multiturn_q4.json"
+   }
   }
  }
 }

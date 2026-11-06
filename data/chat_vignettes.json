@@ -726,6 +726,36 @@
    "must_not_include": [
     "take iodine"
    ]
+  },
+  {
+   "id": "low-amino-acids",
+   "intake": {
+    "age": 54,
+    "sex": "male"
+   },
+   "rows": [
+    {
+     "analyte": "Methionine",
+     "value": 8,
+     "unit": "\u00b5mol/L",
+     "ref_low": 10,
+     "ref_high": 33
+    },
+    {
+     "analyte": "Tryptophan",
+     "value": 20,
+     "unit": "\u00b5mol/L",
+     "ref_low": 24,
+     "ref_high": 52
+    }
+   ],
+   "question": "What do low amino acids mean?",
+   "must_include": [
+    "amino"
+   ],
+   "must_not_include": [
+    "take 5-HTP"
+   ]
   }
  ]
 }

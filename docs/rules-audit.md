@@ -1,7 +1,7 @@
 # materia — rule audit
 
-**Patterns:** 23 · **Options:** 30 · **Critical values:** 9
-**Grades:** {'B': 24, 'A': 1, 'C': 5} · **Kinds:** {'nutrient': 7, 'herb': 3, 'lifestyle': 5, 'referral': 15}
+**Patterns:** 24 · **Options:** 31 · **Critical values:** 9
+**Grades:** {'B': 24, 'A': 1, 'C': 6} · **Kinds:** {'nutrient': 7, 'herb': 3, 'lifestyle': 5, 'referral': 16}
 **Stale evidence (> 5 years):** 0
 
 ## Options
@@ -38,6 +38,7 @@
 | platelet-review | thrombocytosis | referral | B | — | — | 2 | 2026 |
 | thrombocytopenia-review | thrombocytopenia | referral | B | — | — | 3 | 2026 |
 | hyperthyroid-review | hyperthyroidism | referral | B | — | — | 2 | 2026 |
+| amino-acid-review | amino_acid_abnormality | referral | C | — | — | 3 | 2026 |
 
 ## Stale evidence
 

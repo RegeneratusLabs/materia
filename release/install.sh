@@ -4,19 +4,19 @@ cd "$(dirname "$0")"
 
 python3 -m venv .venv
 .venv/bin/pip install --upgrade pip
-.venv/bin/pip install materia-0.2.0-py3-none-any.whl
+.venv/bin/pip install -e ".[dev]"
 
 cat <<'EOF'
 
-Installed. Add the model paths to your shell if you want uploads:
-
-  export MATERIA_LLAMA_DIR="$HOME/bin/llamacpp/llama-b11936"
-  export MATERIA_OCR_GGUF="$HOME/models/minicpm-ocr/MiniCPM-OCR-1_0-Q4_K_M.gguf"
-  export MATERIA_OCR_MMPROJ="$HOME/models/minicpm-ocr/mmproj-model-f16-4x.gguf"
-
-Then run:
+Installed. Start the local app:
 
   ./run.sh
 
-The sample report works without any model. Uploads need the OCR weights.
+The default sample is a synthetic nutrient/lipid panel and works with no model.
+Uploads need the OCR weights and --start-ocr. Optional CPU chat model:
+
+  export MATERIA_CHAT_BASE_URL="http://127.0.0.1:8099/v1"
+  export MATERIA_CHAT_MODEL="minicpm5-2b-q4"
+
+No GPU, no cloud, no telemetry.
 EOF

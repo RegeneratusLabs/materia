@@ -133,14 +133,15 @@ The current measured/unmeasured boundary is maintained in `docs/validation.md`.
    its cited chunk. This is the analogue of Gate 4's contract check.
 2. **Pattern agreement (practitioner-labelled vignettes).** 50–100 synthetic lab panels with a
    practitioner's expected pattern/option set. Measure: pattern precision/recall, top-1 option
-   agreement, unsafe-option rate, no-evidence precision. Report n and 95% CI. The current set is 26
-   self-authored contract vignettes; it is not yet practitioner-labelled.
+   agreement, unsafe-option rate, no-evidence precision. Report n and 95% CI. The current set is 72
+   contract vignettes (50 in the clinician review subset); it is not yet practitioner-labelled.
 3. **Conversation grounding.** The chat layer must answer from the assessment object; a model answer
    without a valid chunk citation, or with a dose not in the evidence, is rejected and the
-   deterministic answer is shown. On 28 grounded questions, the deterministic path scored 28/28 and
-   the local MiniCPM5-2B scored 28/28 (24 model answers, 2 deterministic answers, 2 rejected and replaced). The target set is
-   30 follow-up questions and a 14B–32B model. The current multi-turn set is 17 turns; the 2B
-   answered 15 of 17 with the model path and passed the contract.
+   deterministic answer is shown. On 29 grounded questions, the deterministic path scored 29/29 and
+   the local MiniCPM5-2B Q8 scored 29/29 (27 model answers, 2 rejected
+   and replaced); the Q4 variant also scored 29/29 (23 model answers, 1 deterministic answer, 5 rejected). The current
+   multi-turn set is 17 turns; Q8 used the model for 15 of 17, Q4 for 12 of 17, and both passed
+   the contract. A larger CPU model is optional, not required.
 4. **Practitioner review.** The Plan view writes accept / modify / reject labels to
    `~/.materia/reviews.jsonl`; each label carries the reviewer, engine version and a hash of the
    rule files. The review completion screen shows the decision counts and downloads the JSONL;
@@ -154,25 +155,24 @@ recommendation engine that cites the wrong chunk is worse than one that says "no
 The recommendation engine is deterministic and needs no model. The conversational layer is separate
 and model-agnostic:
 
-- Default local: MiniCPM5-2B (CPU baseline, current repo).
-- GPU/quality target: an open-weight 7B–32B instruct model served behind an OpenAI-compatible
-  endpoint (vLLM/llama.cpp), configured by `MATERIA_CHAT_BASE_URL` / `MATERIA_CHAT_MODEL`
-  (`MATERIA_CHAT_API_KEY` optional, for a private local gateway only).
+- Default local: **MiniCPM5-2B on CPU** — Q4_K_M (1.5 GB) for low RAM, Q8_0 (2.7 GB) for
+  higher quality. Both run under `llama.cpp`; no GPU is required.
+- Optional larger CPU model: a 3B–7B open-weight GGUF served behind the same OpenAI-compatible
+  endpoint, configured by `MATERIA_CHAT_BASE_URL` / `MATERIA_CHAT_MODEL`. Measure it before
+  shipping; a larger model is not automatically better at the citation contract.
 - With no endpoint configured, the deterministic responder answers from the assessment object.
   A configured model is used only to explain the same object; its answer is rejected if it
   introduces a dose or citation that is not in the assessment.
 - No closed APIs. Fine-tuning is allowed only after retrieval/rules have their own numbers; the
   measured failure on this task is not knowledge, it is selection and citation.
 
-**GPU runbook.** The commands and measurement protocol are in `docs/model-runbook.md`. The chat
-benchmark can be pointed at any OpenAI-compatible endpoint with `--base-url` / `--model`.
+**CPU runbook.** The commands, RAM guidance and measured Q4/Q8 results are in
+`docs/model-runbook.md`. The chat benchmark can be pointed at any OpenAI-compatible CPU endpoint
+with `--base-url` / `--model`.
 
-**If a GPU comes online, this is the order.** 24 GB: `Qwen2.5-14B-Instruct` (AWQ/FP8, vLLM).
-48 GB: `Qwen2.5-32B-Instruct`. 80 GB: `Llama-3.3-70B-Instruct` (AWQ). All are open-weight and
-served behind the same OpenAI-compatible interface; the engine does not change when the model does.
 Do **not** fine-tune yet. The binding constraints are evidence coverage, pattern thresholds and
-practitioner ranking labels — a better model cannot invent the missing citations, and a fine-tune on
-our 16-vignette set would overfit a contract test.
+practitioner ranking labels — a better model cannot invent the missing citations, and a fine-tune
+on the synthetic contract set would overfit it.
 
 The model receives the assessment JSON + a bounded recent conversation history + evidence snippets,
 and may only:
@@ -200,6 +200,7 @@ that contains no dose at all.
   intake, patterns, options, withheld options, gaps, sources, a chat box and accept/modify/reject
   buttons. Reviews are local JSONL labels for ranking calibration.
 - `scripts/review_cases.py` — interactive agree/unsafe/missing review of the vignette set.
+- `scripts/make_review_csv.py` — blank 50-row label sheet for spreadsheet review.
 - `scripts/import_reviews.py` — import offline CSV labels with the same reviewer/version/rule-hash
   provenance as the web mode.
 - `scripts/audit_rules.py` — rule/citation/dose/freshness audit; writes `docs/rules-audit.md`.
@@ -210,21 +211,20 @@ that contains no dose at all.
 - `materia/rules/critical_values.yaml` — adult critical limits from a CC-BY survey of hospital
   point-of-care policies (`pmc-pmc13115040`). A critical value withholds supplement/herb options,
   keeps referral/lifestyle steps, and raises a critical banner in the Plan and chat.
-- Tests: 155 passing; citation integrity, dose support, note support, pattern matching, veto
+- Tests: 163 passing; citation integrity, dose support, note support, pattern matching, veto
   behaviour, chat citation rejection, review API.
-- 23 patterns / 30 options (10 supplement-herb, 5 lifestyle, 15 referral).
-- Chat contract set: 28 questions, deterministic 28/28, local MiniCPM5-2B 28/28 (24 model
-  answers, 2 deterministic answers, 2 rejected to the deterministic fallback). A 14B–32B model is still the quality target.
+- 24 patterns / 31 options (10 supplement-herb, 5 lifestyle, 16 referral).
+- Chat contract set: 29 questions, deterministic 29/29, MiniCPM5-2B Q8 29/29 (27 model answers, 2 rejected) and Q4 29/29 (23 model answers, 1 deterministic answer, 5 rejected). CPU only;
+  a larger CPU model is optional.
 - Synthetic contract set: `data/clinical_vignettes.json` + `scripts/eval_recommend.py`,
-  **72/72 = 100% [94.9, 100.0]** on pattern/top-option/withheld/flags/gap/severity/citation. This is a
+  **73/73 = 100% [95.0, 100.0]** on pattern/top-option/withheld/flags/gap/severity/citation. This is a
   self-authored contract set, not clinical validation.
 
 ## Next
 
-1. Expand patterns: zinc and homocysteine; add supplement options for dysglycaemia/LDL only where a
-   dose and interaction profile are both defensible.
-2. Build the practitioner-labelled vignette set and publish the first agreement/CI numbers.
-3. Bring up an open-weight 14B–32B model and measure the model-enabled chat path.
-4. Turn the review JSONL into a calibration report and re-rank with it.
-5. Add a defensible amino-acid/nutrition evidence source, or keep the amino-acid demo explicitly
+1. Get the 50-case clinician review labelled and publish the first agreement/CI numbers.
+2. Turn the review JSONL into a calibration report and re-rank with it.
+3. Measure a 3B CPU model on the same 28+17 chat contract; keep Q4 as the low-RAM fallback.
+4. Add a defensible amino-acid/nutrition evidence source, or keep the amino-acid demo explicitly
    out of scope until one exists.
+5. Expand patterns only where the evidence and a dose/interaction profile are both defensible.

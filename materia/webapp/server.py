@@ -35,6 +35,8 @@ from ..corpus.index import stats as corpus_stats
 STATIC = Path(__file__).resolve().parent / "static"
 SAMPLE_IMAGE = STATIC / "assets" / "nutripath-p2.png"
 SAMPLE_TRUTH = STATIC / "assets" / "sample-truth.json"
+SAMPLE_NUTRIENT = STATIC / "assets" / "sample-nutrient.json"
+SAMPLE_IMAGE_NUTRIENT = STATIC / "assets" / "sample-nutrient.png"
 VIGNETTES = config.ROOT / "data" / "clinical_vignettes.json"
 APP_DATA = Path(os.environ.get("MATERIA_APP_DATA", Path.home() / ".materia")).expanduser()
 FEEDBACK = APP_DATA / "feedback.jsonl"
@@ -120,15 +122,47 @@ def _row_id(analyte: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", (analyte or "").lower()).strip("-")
 
 
-def _sample_payload() -> dict:
-    if "sample" in SESSIONS:
-        return {"session": "sample", "sample": True, "doc": SESSIONS["sample"]["doc"],
-                "rows": SESSIONS["sample"]["rows"]}
-    truth = json.loads(SAMPLE_TRUTH.read_text())
+def _sample_payload(panel: str = "nutrient") -> dict:
+    cached = SESSIONS.get("sample")
+    if cached and cached.get("panel", "amino") == panel:
+        return {"session": "sample", "sample": True, "doc": cached["doc"],
+                "rows": cached["rows"]}
+    if panel == "amino":
+        truth = json.loads(SAMPLE_TRUTH.read_text())
+        image = "/api/lab/sample/page?panel=amino"
+        doc = {
+            "title": "0013 Bloodspot Amino Acids 11 Profile",
+            "lab": "Genova Diagnostics",
+            "page_label": "Page 2 of 3",
+            "page_number": 2,
+            "collected": truth.get("collected_at"),
+            "reported": truth.get("reported_at"),
+            "unit": truth.get("unit", "µmol/L"),
+            "image": image,
+            "source_url": truth.get("source_url"),
+            "provenance": "Sample values from the printed report",
+            "sample": True,
+        }
+    else:
+        truth = json.loads(SAMPLE_NUTRIENT.read_text())
+        image = "/api/lab/sample/page?panel=nutrient"
+        doc = {
+            "title": "Synthetic nutrient & lipid panel",
+            "lab": "materia teaching panel",
+            "page_label": "Synthetic panel",
+            "page_number": 1,
+            "collected": truth.get("collected_at"),
+            "reported": truth.get("reported_at"),
+            "unit": "",
+            "image": image,
+            "source_url": None,
+            "provenance": "Synthetic teaching values; not a patient record",
+            "sample": True,
+        }
     rows = []
     for item in truth["rows"]:
         key = item["analyte"].lower()
-        flag = SAMPLE_FLAGS.get(key)
+        flag = item.get("flag") or SAMPLE_FLAGS.get(key)
         rows.append(
             {
                 "id": _row_id(item["analyte"]),
@@ -141,25 +175,12 @@ def _sample_payload() -> dict:
                 "flag_kind": "lab" if flag else None,
                 "status": "review" if flag else "ready",
                 "issues": [],
-                "review_reason": "The lab marked this L. Check it against the page." if flag else None,
+                "review_reason": (f"The sample is flagged {flag}." if flag else None),
                 "conf": None,
-                "y": SAMPLE_Y.get(key),
+                "y": item.get("y", SAMPLE_Y.get(key)),
             }
         )
-    doc = {
-        "title": "0013 Bloodspot Amino Acids 11 Profile",
-        "lab": "Genova Diagnostics",
-        "page_label": "Page 2 of 3",
-        "page_number": 2,
-        "collected": truth.get("collected_at"),
-        "reported": truth.get("reported_at"),
-        "unit": truth.get("unit", "µmol/L"),
-        "image": "/api/lab/sample/page",
-        "source_url": truth.get("source_url"),
-        "provenance": "Sample values from the printed report",
-        "sample": True,
-    }
-    SESSIONS["sample"] = {"doc": doc, "rows": rows, "dir": None}
+    SESSIONS["sample"] = {"doc": doc, "rows": rows, "dir": None, "panel": panel}
     return {"session": "sample", "sample": True, "doc": doc, "rows": rows}
 
 
@@ -495,10 +516,15 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_json({"cases": cases, "labels": labels})
                 return
             if path == "/api/lab/sample":
-                self.send_json(_sample_payload())
+                panel = parse_qs(parsed.query).get("panel", ["nutrient"])[0]
+                if panel not in ("nutrient", "amino"):
+                    self.send_error_json("panel must be nutrient or amino.", HTTPStatus.BAD_REQUEST)
+                    return
+                self.send_json(_sample_payload(panel))
                 return
             if path == "/api/lab/sample/page":
-                self.send_file(SAMPLE_IMAGE, cache=True)
+                panel = parse_qs(parsed.query).get("panel", ["nutrient"])[0]
+                self.send_file(SAMPLE_IMAGE_NUTRIENT if panel == "nutrient" else SAMPLE_IMAGE, cache=True)
                 return
             if path.startswith("/api/lab/session/"):
                 parts = path.strip("/").split("/")

@@ -50,7 +50,9 @@ False `memory` labels are acceptable. False `grounded` labels are not. Measured:
 
 ## Runtime
 
-- Reasoning server: `MiniCPM5-2B-Q8_0`, `-c 4096 -np 2 -t 6 --jinja --no-reasoning-preserve`, port 8099.
+- Reasoning/chat server: `MiniCPM5-2B-Q8_0` (default, 2.7 GB) or `MiniCPM5-2B-Q4_K_M`
+  (1.5 GB, low-RAM), `-c 4096 -np 2 -t 6 --jinja --no-reasoning-preserve`, port 8099. Both CPU-only;
+  override the path with `MATERIA_REASON_GGUF`.
   Restarted by the RSS guard at 3.5 GB; without that the box degrades to ~9 tok/s and long runs stall.
 - OCR: `MiniCPM-OCR-1_0-Q4_K_M` + `mmproj-model-f16-4x`, `-c 16384`, port 18499. Load by phase, never
   alongside the reasoning server.

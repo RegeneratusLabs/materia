@@ -1,7 +1,7 @@
 # materia — practitioner review packet
 
 **Status:** generated from synthetic vignettes, not patient data. 
-**Cases:** 50. **Engine:** current `main` rules.
+**Cases:** 51. **Engine:** current `main` rules.
 
 **Reviewer:** ______________________  **Date:** ______________
 
@@ -1060,6 +1060,27 @@ The ranking is a proposal; a clinician's judgement is the reference standard.
 - **Overactive thyroid review** — grade B; no dose (lifestyle/referral); flags: none
   - evidence: medlineplus-003517#006, medlineplus-003684#006
   - monitor: Repeat TSH and free T4; add T3 and thyroid antibodies where indicated; review medicines and iodine.
+
+**Review:** [ ] agree  [ ] unsafe  [ ] missing  
+**Why / what is missing:** 
+
+---
+
+## amino-acid-panel-referral
+
+**Intake:** {"age": 54, "sex": "male"}
+
+| finding | value | unit | lab range | direction |
+|---|---:|---|---|---|
+| Methionine | 8 | µmol/L | 10.0–33.0 | low |
+| Tryptophan | 20 | µmol/L | 24.0–52.0 | low |
+
+**Patterns:** Amino-acid panel review (possible, 45%, moderate)
+
+**Options (ranked):**
+- **Amino-acid panel review** — grade C; no dose (lifestyle/referral); flags: none
+  - evidence: pmc-pmc13447054#002, pmc-pmc13447054#003, pmc-pmc13447054#008
+  - monitor: Repeat fasting in the same specimen type; interpret with age-specific intervals, nutrition, liver, kidney, medicines and sample handling.
 
 **Review:** [ ] agree  [ ] unsafe  [ ] missing  
 **Why / what is missing:** 

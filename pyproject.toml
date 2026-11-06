@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "materia"
-version = "0.2.0"
-description = "Cited evidence engine for naturopathic and holistic practitioners"
+version = "1.0.0"
+description = "Cited clinical decision-support and recommendation engine for naturopathic and integrative practitioners"
 requires-python = ">=3.12"
 dependencies = [
   "pymupdf>=2.0",

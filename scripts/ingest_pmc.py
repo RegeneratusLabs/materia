@@ -119,6 +119,11 @@ PAPERS: dict[str, dict] = {
         "analytes": ["egfr", "creatinine"],
         "entities": ["egfr"],
     },
+    "PMC13447054": {
+        "topics": ["amino acids", "reference intervals", "age"],
+        "analytes": ["lysine", "methionine", "tryptophan", "phenylalanine"],
+        "entities": ["amino acids"],
+    },
 }
 
 # JATS section title -> (section, assertion_type). First match wins.

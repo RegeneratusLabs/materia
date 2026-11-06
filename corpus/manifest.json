@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-31",
- "documents": 400,
- "chunks": 5143,
- "redistributable": 400,
+ "generated": "2026-11-06",
+ "documents": 401,
+ "chunks": 5207,
+ "redistributable": 401,
  "review_due": 0,
  "entries": [
   {
@@ -9043,6 +9043,29 @@
     "evidence_url": "https://europepmc.org/RestfulWebService"
    },
    "chunks": 32
+  },
+  {
+   "doc_id": "pmc-pmc13447054",
+   "source": "Europe PMC (CC-BY full text)",
+   "tier": "primary",
+   "title": "Comparative profiling of amino acids in plasma and serum across children and adults using LC\u2013MS/MS and its implications for precision nutrition",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13447054/",
+   "identifier": {
+    "type": "doi",
+    "value": "10.3389/fnut.2026.1850080"
+   },
+   "jurisdiction": "international",
+   "language": "en",
+   "revised": "2026-01-01",
+   "retrieved_at": "2026-11-06",
+   "next_review_due": "2036-11-06",
+   "checksum": "sha256:a3868704061552b833ed189c0c9deae92084227039e0f98c5f885b3ec98f9711",
+   "licence": {
+    "name": "CC BY 4.0 (Europe PMC open-access full text)",
+    "redistributable": true,
+    "evidence_url": "https://europepmc.org/RestfulWebService"
+   },
+   "chunks": 64
   },
   {
    "doc_id": "pmc-pmc13449291",

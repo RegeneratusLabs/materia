@@ -19,7 +19,7 @@ import json
 import sys
 from pathlib import Path
 
-from . import calc, config, extract, llm, ocr, parse, symptom, verify
+from . import __version__, calc, config, extract, llm, ocr, parse, symptom, verify
 from .attribute import attribute as attribute_answer
 from .corpus.index import open_index, stats as corpus_stats
 from .prompt import build_freeform, build_prompt_hint
@@ -212,6 +212,65 @@ def cmd_serve(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_doctor(_: argparse.Namespace) -> int:
+    """Check the local install: Python, corpus, rules, samples and review set."""
+    from .clinical import load_patterns
+    from .recommend import load_recommendations
+
+    ok = True
+    print(f"materia {__version__}")
+    print(f"python  {sys.version.split()[0]}")
+    index = config.CORPUS_DIR / "index.sqlite"
+    if index.exists():
+        stats = corpus_stats(index)
+        print(f"corpus  {stats.get('docs')} docs / {stats.get('chunks')} chunks")
+    else:
+        print(f"corpus  MISSING {index}")
+        ok = False
+    try:
+        patterns = load_patterns()
+        options = load_recommendations()
+        print(f"rules   {len(patterns)} patterns / {len(options)} options")
+    except Exception as exc:  # noqa: BLE001 - doctor must report, not crash
+        print(f"rules   FAIL {exc!r}")
+        ok = False
+    sample = config.ROOT / "materia" / "webapp" / "static" / "assets" / "sample-nutrient.json"
+    print(f"sample  {'ok' if sample.exists() else 'MISSING'} {sample}")
+    if not sample.exists():
+        ok = False
+    vignettes = config.ROOT / "data" / "clinical_vignettes.json"
+    if vignettes.exists():
+        import json
+        data = json.loads(vignettes.read_text())
+        review = sum(1 for c in data.get("cases") or [] if c.get("review", True))
+        print(f"review  {review} cases / {len(data.get('cases') or [])} total")
+    else:
+        print(f"review  MISSING {vignettes}")
+        ok = False
+    print(f"models  {'ok' if config.LLAMA_SERVER.exists() else 'optional missing'} {config.LLAMA_SERVER}")
+    print("status  " + ("OK" if ok else "FAIL"))
+    return 0 if ok else 1
+
+
+def cmd_models(args: argparse.Namespace) -> int:
+    """List local GGUF weights and the CPU model configuration."""
+    from . import llm
+
+    print(f"models dir: {config.MODELS_DIR}")
+    found = sorted(config.MODELS_DIR.rglob("*.gguf")) if config.MODELS_DIR.exists() else []
+    if not found:
+        print("  no .gguf files found")
+    for path in found:
+        size = path.stat().st_size / 1e9
+        print(f"  {size:5.2f} GB  {path}")
+    print(f"llama-server: {'found' if config.LLAMA_SERVER.exists() else 'missing'}  ({config.LLAMA_SERVER})")
+    print(f"reason model: {config.REASON_GGUF}")
+    print(f"chat endpoint: {config.CHAT_BASE_URL or 'none (deterministic fallback)'}")
+    if args.check:
+        print(f"reason server healthy: {llm.health(config.REASON_PORT)}")
+    return 0
+
+
 def cmd_labs(args: argparse.Namespace) -> int:
     values = json.loads(Path(args.values).read_text())
     out = {}
@@ -232,10 +291,17 @@ def cmd_labs(args: argparse.Namespace) -> int:
 
 
 def main(argv: list[str] | None = None) -> int:
-    ap = argparse.ArgumentParser(prog="materia")
+    ap = argparse.ArgumentParser(
+        prog="materia", description="materia — cited clinical decision-support engine"
+    )
+    ap.add_argument("--version", action="version", version=f"materia {__version__}")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     sub.add_parser("status").set_defaults(fn=cmd_status)
+    sub.add_parser("doctor", help="check the local install end to end").set_defaults(fn=cmd_doctor)
+    p = sub.add_parser("models", help="list local GGUF weights and the CPU model config")
+    p.add_argument("--check", action="store_true", help="ping the local reason server")
+    p.set_defaults(fn=cmd_models)
 
     p = sub.add_parser("serve", help="run the local web app")
     p.add_argument("--host", default="127.0.0.1")
