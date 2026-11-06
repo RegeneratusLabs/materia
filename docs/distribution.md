@@ -21,6 +21,21 @@ the conversational layer is optional. The measured/unmeasured boundary is in
 Model weights are **not** in the box. The default sample and the Plan work without a model.
 Uploads need the optional OCR weights; the chat model is optional and CPU-only.
 
+## Fedora
+
+```bash
+sudo dnf install -y git python3 python3-pip tar
+git clone https://github.com/RegeneratusLabs/materia.git
+cd materia
+python3 -m venv .venv
+.venv/bin/pip install -e ".[dev]"
+.venv/bin/materia doctor
+.venv/bin/materia serve --port 8765 --open
+```
+
+If `python3` is 3.13 and a wheel is missing, install `python3.12` and use
+`PYTHON=python3.12 ./install.sh`.
+
 ## Requirements
 
 - Python 3.12+
