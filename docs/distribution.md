@@ -15,7 +15,7 @@ the conversational layer is optional. The measured/unmeasured boundary is in
 - `samples/` — the public amino-acid sample and provenance.
 - `docs/` — design, validation, review packet, runbook and rule audit.
 - `scripts/` — evaluation, review, audit and release tooling.
-- `tests/` — 163 tests.
+- `tests/` — 164 tests.
 - `install.sh`, `run.sh` — the local product entry points.
 
 Model weights are **not** in the box. The default sample and the Plan work without a model.

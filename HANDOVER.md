@@ -9,7 +9,7 @@
 ## TL;DR
 
 > **2026-11-06 — 1.0.0 local product.** 24 patterns / 31 options; 73/73 contract checks;
-> 163 tests; CPU-only chat (MiniCPM5-2B Q4/Q8, no GPU); default synthetic nutrient/lipid sample;
+> 164 tests; CPU-only chat (MiniCPM5-2B Q4/Q8, no GPU); default synthetic nutrient/lipid sample;
 > self-contained `release/materia-1.0.0-local.tar.gz`. Clinician labels remain **0/50**;
 > clinical accuracy is not claimed. The 2026-10-31/28 paragraphs below are the design record.
 >
@@ -575,7 +575,7 @@ shown as withheld, not rendered.
   same object; an answer that introduces a dose or citation outside the assessment is rejected and
   the deterministic answer is shown.
 - Tests: `tests/test_clinical.py`, `tests/test_recommend.py`, `tests/test_chat.py`,
-  `tests/test_vignettes.py`; **163 tests pass**.
+  `tests/test_vignettes.py`; **164 tests pass**.
 
 **Patterns with rules now (24 patterns, 31 options).** Iron deficiency → oral iron + absorption advice;
 B12 deficiency (including normal serum B12 with high MMA) → oral B12; folate deficiency → folic acid; vitamin D insufficiency → D3 + safe sun/diet advice; low serum
@@ -639,7 +639,7 @@ Each flag cites a CC-BY paper ingested for that purpose: `pmc-pmc13127095`, `pmc
 `scripts/eval_recommend.py`): **73/73 = 100% [95.0, 100.0]** for pattern match, top-option agreement,
 withheld options, safety flags, evidence gaps and citation integrity. This is a self-authored
 contract set, not clinical validation; the CI is wide because n=73. Recorded in
-`docs/scores.json` under `recommendation_engine`. The full suite is 163 tests.
+`docs/scores.json` under `recommendation_engine`. The full suite is 164 tests.
 
 **Known limits, stated so they are not mistaken for completeness.**
 

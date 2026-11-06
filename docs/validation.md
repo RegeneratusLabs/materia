@@ -7,7 +7,7 @@ before quoting any percentage.
 
 | layer | n | result | 95% CI | what it actually means |
 |---|---:|---:|---|---|
-| Unit / contract tests | 163 | 163 pass | — | Code paths, citations, doses, safety gates, web routes, review import. |
+| Unit / contract tests | 164 | 164 pass | — | Code paths, citations, doses, safety gates, web routes, review import. |
 | Recommendation contract | 73 | 73/73 | 95.0–100.0 | Expected pattern, top option, withheld set, flags, gaps, severity and citations on a **self-authored synthetic set**. |
 | Single-turn chat, deterministic | 29 | 29/29 | 88.3–100.0 | Fallback answers contain the required phrase, no forbidden phrase, and cite the assessment. |
 | Single-turn chat, MiniCPM5-2B Q8, CPU | 29 | 29/29 | 88.3–100.0 | 27 model answers, 2 rejected. |

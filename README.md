@@ -125,7 +125,7 @@ CPU baseline. CPU runbook and measured results: [model-runbook.md](docs/model-ru
 .venv/bin/python scripts/audit_rules.py   # citations, doses, freshness, gaps
 ```
 
-- 163 tests.
+- 164 tests.
 - CPU chat, single-turn, **29/29 = 100% [88.3, 100.0]**:
   - Q8: 27 model answers, 2 rejected.
   - Q4: 23 model answers, 1 deterministic answer, 5 rejected.

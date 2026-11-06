@@ -211,7 +211,7 @@ that contains no dose at all.
 - `materia/rules/critical_values.yaml` — adult critical limits from a CC-BY survey of hospital
   point-of-care policies (`pmc-pmc13115040`). A critical value withholds supplement/herb options,
   keeps referral/lifestyle steps, and raises a critical banner in the Plan and chat.
-- Tests: 163 passing; citation integrity, dose support, note support, pattern matching, veto
+- Tests: 164 passing; citation integrity, dose support, note support, pattern matching, veto
   behaviour, chat citation rejection, review API.
 - 24 patterns / 31 options (10 supplement-herb, 5 lifestyle, 16 referral).
 - Chat contract set: 29 questions, deterministic 29/29, MiniCPM5-2B Q8 29/29 (27 model answers, 2 rejected) and Q4 29/29 (23 model answers, 1 deterministic answer, 5 rejected). CPU only;
