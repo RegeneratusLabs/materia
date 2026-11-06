@@ -322,3 +322,9 @@ def test_review_cases_endpoint_returns_assessments(live_server):
     assert first["assessment"]["patterns"] is not None
     assert "recommendations" in first["assessment"]
     assert "labels" in payload
+
+
+def test_table_score_prefers_a_lab_table_over_a_cover_page():
+    assert server._table_score("Ferritin 18 µg/L 15–150 L") > server._table_score(
+        "Sample Report\nOrdering Physician\nDate of Report"
+    )

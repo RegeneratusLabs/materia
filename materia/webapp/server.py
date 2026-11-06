@@ -45,7 +45,7 @@ MAX_UPLOAD = 25 * 1024 * 1024
 # A digital report is read from its text layer in milliseconds. Only pages whose text
 # layer is empty (a scan, a photo) go to the OCR model, and never more than this many:
 # an OCR page costs ~45 s on CPU, so an unbounded scan would look like a hung tab.
-MAX_OCR_PAGES = int(os.environ.get("MATERIA_MAX_OCR_PAGES", "12"))
+MAX_OCR_PAGES = int(os.environ.get("MATERIA_MAX_OCR_PAGES", "2"))
 UPLOAD_ROOT = Path(tempfile.mkdtemp(prefix="materia-uploads-"))
 SESSIONS: dict[str, dict] = {}
 OCR_LOCK = threading.Lock()
@@ -119,6 +119,16 @@ def _iso_date(raw: str) -> str | None:
 
 def _row_id(analyte: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", (analyte or "").lower()).strip("-")
+
+
+def _table_score(text: str) -> int:
+    """Rank unparsed pages by how much they look like a lab table."""
+    low = (text or "").lower()
+    numbers = len(re.findall(r"\b\d+(?:\.\d+)?\b", text or ""))
+    units = sum(low.count(token) for token in (
+        "µmol", "umol", "mmol", "mg/", "g/l", "ng/", "pg/", "fl", "iu/", "miu", "%",
+    ))
+    return numbers + 2 * units
 
 
 def _sample_payload(panel: str = "nutrient") -> dict:
@@ -301,31 +311,31 @@ def _extract_upload(filename: str, data: bytes, content_type: str) -> dict:
 
     with OCR_LOCK:
         if suffix == ".pdf":
-            # The text layer is the first read: deterministic, exact, and free. OCR is
-            # only spent on pages that carry no text (a scan or a photo inside the PDF).
+            # The text layer is the first read: deterministic, exact, and free. Only pages
+            # without a parseable table are OCR'd, and only the most table-like pages, so a
+            # cover or interpretation page does not cost minutes of CPU OCR.
             page_texts = ocr.pdf_pages(source)
             total_pages = len(page_texts)
-            budget = MAX_OCR_PAGES
+            unparsed: list[tuple[int, int, str]] = []
             for index, text in enumerate(page_texts, start=1):
                 rows = labtext.extract_rows(text)
                 if rows:
                     found.append((index, rows))
                     reads.add("text")
-                    continue
-                if budget <= 0:
-                    continue
-                budget -= 1
-                image = ocr.render_page(source, index, work / "pages")
-                page = _run_ocr(image)
-                if page.get("truncated"):
-                    continue
-                parsed = ocr.extract_lab_rows(ocr.parse_otsl(page.get("text", "")))
-                if parsed:
-                    found.append((index, parsed))
-                    reads.add("ocr")
-                    images[index] = image
-            if budget <= 0 and len(page_texts) > MAX_OCR_PAGES:
-                print(f"[web] OCR stopped after {MAX_OCR_PAGES} unreadable pages")
+                else:
+                    unparsed.append((_table_score(text), index, text))
+            if not found:
+                for _score, index, _text in sorted(unparsed, reverse=True)[:MAX_OCR_PAGES]:
+                    image = ocr.render_page(source, index, work / "pages")
+                    page = _run_ocr(image)
+                    if page.get("truncated"):
+                        continue
+                    parsed = ocr.extract_lab_rows(ocr.parse_otsl(page.get("text", "")))
+                    if parsed:
+                        found.append((index, parsed))
+                        reads.add("ocr")
+                        images[index] = image
+                        break
         else:
             image = source
             page = _run_ocr(image)
